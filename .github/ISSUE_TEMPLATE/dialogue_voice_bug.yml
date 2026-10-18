@@ -1,0 +1,106 @@
+name: 'Dialogue / Voice Bug'
+description: 'Diyalog sesi: yanlış karakter, cümle ortasından başlama, araya İngilizce girme, süre taşması'
+labels:
+  - 'type/bug'
+  - 'category/tts'
+  - 'category/character-map'
+  - 'status/needs-triage'
+body:
+  - type: 'markdown'
+    attributes:
+      value: |-
+        Bu şablon **oyun içi konuşma / dublaj** hataları içindir.
+        Metin, ISO veya CI hataları için standart **Bug Report** şablonunu kullanın.
+
+  - type: 'dropdown'
+    id: 'symptom'
+    attributes:
+      label: 'Semptom'
+      options:
+        - 'Cümlenin ortasından / yarısından başlıyor'
+        - 'Araya İngilizce (veya başka dil) ses giriyor'
+        - 'Yanlış karakter konuşuyor (Ginny yerine Hermione gibi)'
+        - 'Ses kesiliyor / donuyor'
+        - 'Aşırı hızlı veya yavaş (tempo zorlaması)'
+        - 'Ses yok / sessiz cue'
+        - 'Ortam sesi bozulmuş (Kategori A ihlali)'
+        - 'Diğer'
+    validations:
+      required: true
+
+  - type: 'input'
+    id: 'wad'
+    attributes:
+      label: 'WAD / seviye'
+      description: 'Örn. T1L2M001.WAD (Kovuk Bahçesi)'
+      placeholder: 'T1L2M00X.WAD'
+    validations:
+      required: true
+
+  - type: 'input'
+    id: 'cue'
+    attributes:
+      label: 'Cue / diyalog ID'
+      description: 'Biliniyorsa cue numarası ve dialogue_id (örn. Cue 20 / ID 77).'
+      placeholder: 'Cue 11-12 / ID 74'
+
+  - type: 'dropdown'
+    id: 'is-multi-cue'
+    attributes:
+      label: 'Multi-cue mu?'
+      options:
+        - 'Evet — cümle birden fazla cueya bölünmüş'
+        - 'Hayır — tek cue'
+        - 'Bilinmiyor'
+    validations:
+      required: true
+
+  - type: 'dropdown'
+    id: 'is-split-stream'
+    attributes:
+      label: 'Split-stream (0xA800) mi?'
+      options:
+        - 'Evet — 0xA800 ofsetli paylaşımlı akış'
+        - 'Hayır'
+        - 'Bilinmiyor'
+    validations:
+      required: true
+
+  - type: 'input'
+    id: 'character-expected'
+    attributes:
+      label: 'Beklenen karakter'
+      placeholder: 'ginny'
+
+  - type: 'input'
+    id: 'character-actual'
+    attributes:
+      label: 'Duyulan / atanan karakter'
+      placeholder: 'hermione'
+
+  - type: 'textarea'
+    id: 'text'
+    attributes:
+      label: 'Replik metni (EN + TR)'
+      description: 'Beklenen Türkçe cümle ve varsa orijinal İngilizce.'
+    validations:
+      required: true
+
+  - type: 'textarea'
+    id: 'repro'
+    attributes:
+      label: 'Yeniden üretme'
+      description: 'Hangi imaj, hangi enjektör, hangi komut?'
+    validations:
+      required: true
+
+  - type: 'textarea'
+    id: 'evidence'
+    attributes:
+      label: 'Akustik / teknik kanıt'
+      description: |
+        Varsa ekleyin:
+        - Speaker-embedding kosinüs benzerlikleri
+        - Whisper onset transkripti
+        - SPU süre bütçesi tablosu satırı
+        - `local == iso` doğrulaması

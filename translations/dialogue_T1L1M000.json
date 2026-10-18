@@ -1,0 +1,2193 @@
+[
+  {
+    "id": 0,
+    "en": "$001Go to Diagon Alley",
+    "fr": "$001Aller au Chemin de Traverse",
+    "de": "$001Gehe zur Winkelgasse",
+    "tr": "$001Diagon Yolu'na git"
+  },
+  {
+    "id": 1,
+    "en": "$002Get to Hogwarts on time",
+    "fr": "$002Arriver à Poudlard à l'heure",
+    "de": "$002Erreiche Hogwarts rechtzeitig",
+    "tr": "$002Hogwarts'a vaktinde ulaş"
+  },
+  {
+    "id": 2,
+    "en": "$003Get to Fat lady",
+    "fr": "$003Aller dans la salle commune",
+    "de": "$003Geh zum Gemeinschaftsraum",
+    "tr": "$003Şişman Hanım'a git"
+  },
+  {
+    "id": 3,
+    "en": "$004Learn password to enter Common Room",
+    "fr": "$004Apprendre le mot de passe pour entrer dans la salle commune",
+    "de": "$004Lerne das Passwort für den Gemeinschaftsraum",
+    "tr": "$004Ortak Oda'ya girmek için parolayı öğren"
+  },
+  {
+    "id": 4,
+    "en": "$005Get to Greenhouse three to learn Herbology",
+    "fr": "$005Aller à la serre numéro trois pour apprendre la botanique",
+    "de": "$005Gehe zu Gewächshaus Drei für den Kräuterkunde-Unterricht.",
+    "tr": "$005Bitkibilim dersi için Üç Numaralı Sera'ya git"
+  },
+  {
+    "id": 5,
+    "en": "$006Meet Oliver Wood for Quidditch Training",
+    "fr": "$006Voir Olivier Dubois pour l'entra\\u00a8nement de Quidditch",
+    "de": "$006Treffe dich mit Oliver Wood zum Quidditch-Training.",
+    "tr": "$006Quidditch Antrenmanı için Oliver Wood ile buluş"
+  },
+  {
+    "id": 6,
+    "en": "$007Duel Ron",
+    "fr": "$007Faire un duel contre Ron",
+    "de": "$007Duell mit Ron",
+    "tr": "$007Ron ile düello yap"
+  },
+  {
+    "id": 7,
+    "en": "$008Don't lose Ron!",
+    "fr": "$008Ne pas perdre Ron !",
+    "de": "$008Bleib an Ron dran!",
+    "tr": "$008Ron'u gözden kaybetme!"
+  },
+  {
+    "id": 8,
+    "en": "$009Catch slugs in the bowl and empty them in the barrel",
+    "fr": "$009Mettre les limaces dans l'écuelle et les vider dans le tonneau",
+    "de": "$009Sammle Schnecken in dem Napf und leere sie in das Fass. ",
+    "tr": "$009Sümüklüböcekleri kasede yakala ve fıçıya boşalt"
+  },
+  {
+    "id": 9,
+    "en": "$010Get to the Defence Against the Dark Arts class room in the Upper Castle",
+    "fr": "$010Aller au cours de défense contre les Forces du Mal à l'Etage interdit",
+    "de": "$010Gehe zum Klassenzimmer für Verteidigung gegen die dunklen Künste im Oberschloss.",
+    "tr": "$010Yukarı Şato'daki Karanlık Sanatlara Karşı Savunma sınıfına git"
+  },
+  {
+    "id": 10,
+    "en": "$011Catch all the Pixies",
+    "fr": "$011Attraper tous les lutins",
+    "de": "$011Fang alle Wichtel.",
+    "tr": "$011Bütün cin perilerini yakala"
+  },
+  {
+    "id": 11,
+    "en": "$012Get to Nearly Headless Nick's Deathday Party in the Dungeons",
+    "fr": "$012Aller à l'anniversaire de mort de Nick Quasi-Sans-T\\u00a4te dans les cachots",
+    "de": "$012Gehe zur Todestagsfeier des Fast Kopflosen Nick in den Kerkern.",
+    "tr": "$012Zindanlar'daki Neredeyse Kafasız Nick'in Ölüm Günü Partisi'ne git"
+  },
+  {
+    "id": 12,
+    "en": "$013Collect lacewing flies, boomslang skin and leeches for Polyjuice Potion",
+    "fr": "$013Récupérer des chrysopes, de la peau de serpent d'arbre et des sangsues pour le Polynectar",
+    "de": "$013Sammle Florfliegen, Baumschlangenhaut und Blutegel für den Vielsaft-Trank.",
+    "tr": "$013Çoközlü İksir için dantelkanat sinekleri, ağaçyılanı derisi ve sülük topla"
+  },
+  {
+    "id": 13,
+    "en": "$014Take ingredients to Hermione in the  Upper Castle Girls' Bathroom.",
+    "fr": "$014Apporter les ingrédients à Hermione dans les toilettes des filles à l'Etage interdit.",
+    "de": "$014Bringe Hermine die Zutaten ins Mädchenklo im Oberschloss.",
+    "tr": "$014Malzemeleri Yukarı Şato Kızlar Tuvaleti'ndeki Hermione'ye götür."
+  },
+  {
+    "id": 14,
+    "en": "$015Find entrance to Slytherin Common room",
+    "fr": "$015Trouver l'entrée de la salle commune de Serpentard",
+    "de": "$015Suche den Eingang zum Gemeinschaftsraum der Slytherins.",
+    "tr": "$015Slytherin Ortak Odası'nın girişini bul"
+  },
+  {
+    "id": 15,
+    "en": "$016Get to Gilderoy Lockharts' Office in the Lower Castle",
+    "fr": "$016Aller dans le bureau de Gilderoy Lockhart au rez-de-chaussée",
+    "de": "$016Gehe zum Büro von Gilderoy Lockhart im Unterschloss.",
+    "tr": "$016Aşağı Şato'daki Gilderoy Lockhart'ın Odası'na git"
+  },
+  {
+    "id": 16,
+    "en": "$001Paracelsus",
+    "fr": "$001Paracelse",
+    "de": "$001Paracelsus",
+    "tr": "$001Paracelsus"
+  },
+  {
+    "id": 17,
+    "en": "$002Gaspard Shingleton",
+    "fr": "$002Gaspard Shingleton",
+    "de": "$002Gaspard Shingleton",
+    "tr": "$002Gaspard Shingleton"
+  },
+  {
+    "id": 18,
+    "en": "$003Ignatia Wildsmith",
+    "fr": "$003Ignatia Wildsmith",
+    "de": "$003Ignatia Wildsmith",
+    "tr": "$003Ignatia Wildsmith"
+  },
+  {
+    "id": 19,
+    "en": "$004Felix Summerbee",
+    "fr": "$004Félix Labeille",
+    "de": "$004Felix Summerbee",
+    "tr": "$004Felix Summerbee"
+  },
+  {
+    "id": 20,
+    "en": "$005Greta Catchlove",
+    "fr": "$005Greta Grandamour",
+    "de": "$005Greta Catchlove",
+    "tr": "$005Greta Catchlove"
+  },
+  {
+    "id": 21,
+    "en": "$006Jocunda Sykes",
+    "fr": "$006Jocunda Sykes",
+    "de": "$006Jocunda Sykes",
+    "tr": "$006Jocunda Sykes"
+  },
+  {
+    "id": 22,
+    "en": "$007Dorcas Wellbeloved",
+    "fr": "$007Dorcas Bienaimée",
+    "de": "$007Dorcas Wellbeloved",
+    "tr": "$007Dorcas Wellbeloved"
+  },
+  {
+    "id": 23,
+    "en": "$008Crispin Cronk",
+    "fr": "$008Crispin Cronk",
+    "de": "$008Crispin Cronk",
+    "tr": "$008Crispin Cronk"
+  },
+  {
+    "id": 24,
+    "en": "$009Yardley Platt",
+    "fr": "$009Yardley Platt",
+    "de": "$009Yardley Platt",
+    "tr": "$009Yardley Platt"
+  },
+  {
+    "id": 25,
+    "en": "$010Edgar Stroulger",
+    "fr": "$010Edgar Stroulger",
+    "de": "$010Edgar Stroulger",
+    "tr": "$010Edgar Stroulger"
+  },
+  {
+    "id": 26,
+    "en": "$011Adalbert Waffling",
+    "fr": "$011Adalbert Lasornette",
+    "de": "$011Adalbert Schwahfel",
+    "tr": "$011Adalbert Waffling"
+  },
+  {
+    "id": 27,
+    "en": "$012Cassandra Vablatsky",
+    "fr": "$012Cassandra Vablatsky",
+    "de": "$012Cassandra Wablatschky",
+    "tr": "$012Cassandra Vablatsky"
+  },
+  {
+    "id": 28,
+    "en": "$013Montague Knightley",
+    "fr": "$013Montague Knightley",
+    "de": "$013Montague Knightley",
+    "tr": "$013Montague Knightley"
+  },
+  {
+    "id": 29,
+    "en": "$014Chauncey Oldridge",
+    "fr": "$014Chauncey Oldridge",
+    "de": "$014Chauncey Oldridge",
+    "tr": "$014Chauncey Oldridge"
+  },
+  {
+    "id": 30,
+    "en": "$015Godric Gryffindor",
+    "fr": "$015Godric Gryffondor",
+    "de": "$015Godric Gryffindor",
+    "tr": "$015Godric Gryffindor"
+  },
+  {
+    "id": 31,
+    "en": "$016Salazar Slytherin",
+    "fr": "$016Salazar Serpentard",
+    "de": "$016Salazar Slytherin",
+    "tr": "$016Salazar Slytherin"
+  },
+  {
+    "id": 32,
+    "en": "$017Rowena Ravenclaw",
+    "fr": "$017Rowena Serdaigle",
+    "de": "$017Rowena Ravenclaw",
+    "tr": "$017Rowena Ravenclaw"
+  },
+  {
+    "id": 33,
+    "en": "$018Helga Hufflepuff",
+    "fr": "$018Helga Poufsouffle",
+    "de": "$018Helga Hufflepuff",
+    "tr": "$018Helga Hufflepuff"
+  },
+  {
+    "id": 34,
+    "en": "$019Hengist of Woodcroft",
+    "fr": "$019Hengist de Woodcroft",
+    "de": "$019Hengis von Woodcroft",
+    "tr": "$019Woodcroft'lu Hengist"
+  },
+  {
+    "id": 35,
+    "en": "$020Daisy Dodderidge",
+    "fr": "$020Marguerite Dodderidge",
+    "de": "$020Daisy Dodderidge",
+    "tr": "$020Daisy Dodderidge"
+  },
+  {
+    "id": 36,
+    "en": "$021Celestina Warbeck",
+    "fr": "$021Célestina Moldubec",
+    "de": "$021Celestina Warbeck",
+    "tr": "$021Celestina Warbeck"
+  },
+  {
+    "id": 37,
+    "en": "$022Cyprian Youdle",
+    "fr": "$022Cyprien Youdle",
+    "de": "$022Cyprian Youdle",
+    "tr": "$022Cyprian Youdle"
+  },
+  {
+    "id": 38,
+    "en": "$023Herpo the Foul",
+    "fr": "$023Herpo le Fou",
+    "de": "$023Herpo der \\u0098ble",
+    "tr": "$023Hain Herpo"
+  },
+  {
+    "id": 39,
+    "en": "$024Bertie Bott",
+    "fr": "$024Bertie Crochue",
+    "de": "$024Bertie Bott",
+    "tr": "$024Bertie Bott"
+  },
+  {
+    "id": 40,
+    "en": "$001Greatest of all medieval alchemists.",
+    "fr": "$001Le plus grand des alchimistes du Moyen Age.",
+    "de": "$001Grö\\u0099ter aller Alchimisten des Mittelalters",
+    "tr": "$001Ortaçağ simyacılarının en büyüğü."
+  },
+  {
+    "id": 41,
+    "en": "$002Celebrated inventor of the Self-Stirring Cauldron.",
+    "fr": "$002Célèbre inventeur du chaudron à touillage automatique.",
+    "de": "$002Gefeierter Erfinder des selbst umrührenden Kessels.",
+    "tr": "$002Kendi Kendini Karıştıran Kazan'ın ünlü mucidi."
+  },
+  {
+    "id": 42,
+    "en": "$003The witch who invented Floo Powder.",
+    "fr": "$003La sorcière qui inventa la poudre de cheminette.",
+    "de": "$003Die Hexe, die das Flohpulver erfand.",
+    "tr": "$003Uçuş Tozu'nu icat eden cadı."
+  },
+  {
+    "id": 43,
+    "en": "$004Inventor of Cheering Charms.",
+    "fr": "$004Inventeur de sortilèges d'Allégresse.",
+    "de": "$004Erfinder des Aufmunterungszaubers.",
+    "tr": "$004Neşelendirme Büyüleri'nin mucidi."
+  },
+  {
+    "id": 44,
+    "en": "$005Author of 'Charm Your Own Cheese'.",
+    "fr": "$005Auteur de \"Comment ensorceler son fromage\".",
+    "de": "$005Autorin von 'Zaubern Sie Ihren eigenen Käse'.",
+    "tr": "$005'Kendi Peynirini Kendin Büyüle' kitabının yazarı."
+  },
+  {
+    "id": 45,
+    "en": "$006First person to fly across the Atlantic on a broomstick.",
+    "fr": "$006Première personne à avoir traversé l'Atlantique sur un balai.",
+    "de": "$006\\u0098berquerte als Erster den Atlantik auf dem Besen.",
+    "tr": "$006Süpürgeyle Atlas Okyanusu'nu geçen ilk kişi."
+  },
+  {
+    "id": 46,
+    "en": "$007Founder of the Society for Distressed Witches.",
+    "fr": "$007A fondé l'Association des Sorcières en Détresse.",
+    "de": "$007Gründerin der Gesellschaft für verzweifelte Hexen.",
+    "tr": "$007Muhtaç Cadılar Derneği'nin kurucusu."
+  },
+  {
+    "id": 47,
+    "en": "$008Sent to Azkaban for keeping Sphinxes in his back garden.",
+    "fr": "$008A été envoyé à Azkaban pour avoir caché des sphinx dans son jardin.",
+    "de": "$008Wurde nach Askaban geschickt, weil er Sphingen im Garten hielt.",
+    "tr": "$008Arka bahçesinde Sfenks beslediği için Azkaban'a gönderildi."
+  },
+  {
+    "id": 48,
+    "en": "$009Serial goblin-killer.",
+    "fr": "$009Tueur en série de gobelins.",
+    "de": "$009Goblin-Serienmörder",
+    "tr": "$009Seri goblin katili."
+  },
+  {
+    "id": 49,
+    "en": "$010Inventor of the Sneakoscope.",
+    "fr": "$010Inventeur du scrutoscope.",
+    "de": "$010Erfinder des Spickoskops.",
+    "tr": "$010Sinsiölçer'in mucidi."
+  },
+  {
+    "id": 50,
+    "en": "$011Famous magical theoretician.",
+    "fr": "$011Célèbre théoricien de la magie.",
+    "de": "$011Berühmter magischer Theoretiker.",
+    "tr": "$011Ünlü büyü teorisyeni."
+  },
+  {
+    "id": 51,
+    "en": "$012Celebrated Seer and author of 'Unfogging the Future'.",
+    "fr": "$012Voyante célèbre et auteur de \"Lever le voile du futur\".",
+    "de": "$012Gefeierte Seherin und Autorin von 'Entnebelung der Zukunft'.",
+    "tr": "$012Ünlü Kâhin ve 'Geleceğin Sis Perdesini Aralamak' kitabının yazarı."
+  },
+  {
+    "id": 52,
+    "en": "$013Wizard Chess Champion 1506 - 1588.",
+    "fr": "$013Champion d'échecs de sorciers 1506 - 1588.",
+    "de": "$013Zaubererschach-Meister 1506 - 1588.",
+    "tr": "$013Büyücü Satrancı Şampiyonu 1506 - 1588."
+  },
+  {
+    "id": 53,
+    "en": "$014First known victim of Dragon Pox.",
+    "fr": "$014Première victime de la varicelle du dragon.",
+    "de": "$014Erstes bekanntes Opfer der Drachenpocken.",
+    "tr": "$014Ejderha Çiçeği'nin bilinen ilk kurbanı."
+  },
+  {
+    "id": 54,
+    "en": "$015Hogwarts co-founder. Gave his name to a Hogwarts House.",
+    "fr": "$015Co-fondateur de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$015Mitbegründer von Hogwarts. Nach ihm wurde eines der vier Häuser benannt.",
+    "tr": "$015Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 55,
+    "en": "$016Hogwarts co-founder. Gave his name to a Hogwarts House.",
+    "fr": "$016Co-fondateur de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$016Mitbegründer von Hogwarts. Nach ihm wurde eines der vier Häuser benannt.",
+    "tr": "$016Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 56,
+    "en": "$017Hogwarts co-founder. Gave her name to a Hogwarts House.",
+    "fr": "$017Co-fondatrice de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$017Mitbegründerin von Hogwarts. Nach ihr wurde eines der vier Häuser benannt.",
+    "tr": "$017Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 57,
+    "en": "$018Hogwarts co-founder. Gave her name to a Hogwarts House.",
+    "fr": "$018Co-fondatrice de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$018Mitbegründerin von Hogwarts. Nach ihr wurde eines der vier Häuser benannt.",
+    "tr": "$018Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 58,
+    "en": "$019Founded the village of Hogsmeade.",
+    "fr": "$019A fondé le village de Pré-au-Lard.",
+    "de": "$019Gründete das Dorf Hogsmeade.",
+    "tr": "$019Hogsmeade köyünü kurdu."
+  },
+  {
+    "id": 59,
+    "en": "$020First landlady of the Leaky Cauldron.",
+    "fr": "$020Première propriétaire du Chaudron Baveur.",
+    "de": "$020Erste Wirtin des Tropfenden Kessels.",
+    "tr": "$020Çatlak Kazan'ın ilk kadın işletmecisi."
+  },
+  {
+    "id": 60,
+    "en": "$021Popular singing sorceress.",
+    "fr": "$021Chanteuse super-star.",
+    "de": "$021Berühmte Sängerin-Hexe.",
+    "tr": "$021Popüler şarkıcı büyücü kadın."
+  },
+  {
+    "id": 61,
+    "en": "$022Only Quidditch referee ever to die during a match.",
+    "fr": "$022Seul arbitre de quidditch à avoir trouvé la mort pendant un match.",
+    "de": "$022Einziger Quidditch-Schiedsrichter, der während eines Spiels starb.",
+    "tr": "$022Bir maç sırasında ölen tek Quidditch hakemi."
+  },
+  {
+    "id": 62,
+    "en": "$023First known creator of the basilisk.",
+    "fr": "$023Premier créateur connu du Basilic.",
+    "de": "$023Ur-Erfinder des Basilisken.",
+    "tr": "$023Basiliskin bilinen ilk yaratıcısı."
+  },
+  {
+    "id": 63,
+    "en": "$024Inventor of Bertie Bott's Every Flavour Beans.",
+    "fr": "$024Inventa les célèbres dragées surprises de Bertie Crochue.",
+    "de": "$024Erfinder der Bertie Botts Bohnen in allen Geschmacksrichtungen.",
+    "tr": "$024Bertie Bott'un Binbir Çeşit Fasulyeleri'nin mucidi."
+  },
+  {
+    "id": 64,
+    "en": "$005< Talk To",
+    "fr": "$005< Parler",
+    "de": "$005< Ansprechen",
+    "tr": "$005< Konuş"
+  },
+  {
+    "id": 65,
+    "en": "$025Producer",
+    "fr": "$025Producteur",
+    "de": "$025Producer",
+    "tr": "$025Yapımcı"
+  },
+  {
+    "id": 66,
+    "en": "$004Seb Canniff",
+    "fr": "$004Seb Canniff",
+    "de": "$004Seb Canniff",
+    "tr": "$004Seb Canniff"
+  },
+  {
+    "id": 67,
+    "en": "$031Assistant Producer",
+    "fr": "$031Assistant de production",
+    "de": "$031Assistant Producer",
+    "tr": "$031Yardımcı Yapımcı"
+  },
+  {
+    "id": 68,
+    "en": "$003Scott Burfitt",
+    "fr": "$003Scott Burfitt",
+    "de": "$003Scott Burfitt",
+    "tr": "$003Scott Burfitt"
+  },
+  {
+    "id": 69,
+    "en": "$012Lead Designer",
+    "fr": "$012Concepteur principal",
+    "de": "$012Lead Designer",
+    "tr": "$012Baş Tasarımcı"
+  },
+  {
+    "id": 70,
+    "en": "$015Stephen Jarrett",
+    "fr": "$015Stephen Jarrett",
+    "de": "$015Stephen Jarrett",
+    "tr": "$015Stephen Jarrett"
+  },
+  {
+    "id": 71,
+    "en": "$014Designers",
+    "fr": "$014Concepteurs",
+    "de": "$014Designers",
+    "tr": "$014Tasarımcılar"
+  },
+  {
+    "id": 72,
+    "en": "$013Ian Ball",
+    "fr": "$013Ian Ball",
+    "de": "$013Ian Ball",
+    "tr": "$013Ian Ball"
+  },
+  {
+    "id": 73,
+    "en": "$014Matt Ekins",
+    "fr": "$014Matt Ekins",
+    "de": "$014Matt Ekins",
+    "tr": "$014Matt Ekins"
+  },
+  {
+    "id": 74,
+    "en": "$016Anna Larke",
+    "fr": "$016Anna Larke",
+    "de": "$016Anna Larke",
+    "tr": "$016Anna Larke"
+  },
+  {
+    "id": 75,
+    "en": "$017John Wagland",
+    "fr": "$017John Wagland",
+    "de": "$017John Wagland",
+    "tr": "$017John Wagland"
+  },
+  {
+    "id": 76,
+    "en": "$001Lead Programmer",
+    "fr": "$001Programmeur principal",
+    "de": "$001Lead Programmer",
+    "tr": "$001Baş Programcı"
+  },
+  {
+    "id": 77,
+    "en": "$009Lewis Gordon",
+    "fr": "$009Lewis Gordon",
+    "de": "$009Lewis Gordon",
+    "tr": "$009Lewis Gordon"
+  },
+  {
+    "id": 78,
+    "en": "$003Game Programmers",
+    "fr": "$003Programmeurs",
+    "de": "$003Game Programmers",
+    "tr": "$003Oyun Programcıları"
+  },
+  {
+    "id": 79,
+    "en": "$008Richard Bush",
+    "fr": "$008Richard Bush",
+    "de": "$008Richard Bush",
+    "tr": "$008Richard Bush"
+  },
+  {
+    "id": 80,
+    "en": "$010Tom Kermode",
+    "fr": "$010Tom Kermode",
+    "de": "$010Tom Kermode",
+    "tr": "$010Tom Kermode"
+  },
+  {
+    "id": 81,
+    "en": "$011Anthony Lloyd",
+    "fr": "$011Anthony Lloyd",
+    "de": "$011Anthony Lloyd",
+    "tr": "$011Anthony Lloyd"
+  },
+  {
+    "id": 82,
+    "en": "$032Lead Artist",
+    "fr": "$032Responsable infographie",
+    "de": "$032Lead Artist",
+    "tr": "$032Baş Sanatçı"
+  },
+  {
+    "id": 83,
+    "en": "$022Mick Hanrahan",
+    "fr": "$022Mick Hanrahan",
+    "de": "$022Mick Hanrahan",
+    "tr": "$022Mick Hanrahan"
+  },
+  {
+    "id": 84,
+    "en": "$034Artists",
+    "fr": "$034Infographistes",
+    "de": "$034Artists",
+    "tr": "$034Sanatçılar"
+  },
+  {
+    "id": 85,
+    "en": "$020Neil Crosbourne",
+    "fr": "$020Neil Crosbourne",
+    "de": "$020Neil Crosbourne",
+    "tr": "$020Neil Crosbourne"
+  },
+  {
+    "id": 86,
+    "en": "$021Peter Dobbin",
+    "fr": "$021Peter Dobbin",
+    "de": "$021Peter Dobbin",
+    "tr": "$021Peter Dobbin"
+  },
+  {
+    "id": 87,
+    "en": "$023Adam Hill",
+    "fr": "$023Adam Hill",
+    "de": "$023Adam Hill",
+    "tr": "$023Adam Hill"
+  },
+  {
+    "id": 88,
+    "en": "$024Rich Self",
+    "fr": "$024Rich Self",
+    "de": "$024Rich Self",
+    "tr": "$024Rich Self"
+  },
+  {
+    "id": 89,
+    "en": "$095Storybook Artist",
+    "fr": "$095Storybook",
+    "de": "$095Storybook Artist",
+    "tr": "$095Hikâye Kitabı Sanatçısı"
+  },
+  {
+    "id": 90,
+    "en": "$019Leon Brazil",
+    "fr": "$019Leon Brazil",
+    "de": "$019Leon Brazil",
+    "tr": "$019Leon Brazil"
+  },
+  {
+    "id": 91,
+    "en": "$037Lead Animator",
+    "fr": "$037Responsable animation",
+    "de": "$037Lead Animator",
+    "tr": "$037Baş Animatör"
+  },
+  {
+    "id": 92,
+    "en": "$026Gary Bendelow",
+    "fr": "$026Gary Bendelow",
+    "de": "$026Gary Bendelow",
+    "tr": "$026Gary Bendelow"
+  },
+  {
+    "id": 93,
+    "en": "$035Animator",
+    "fr": "$035Animateur",
+    "de": "$035Animator",
+    "tr": "$035Animatör"
+  },
+  {
+    "id": 94,
+    "en": "$027Shelley Johnson",
+    "fr": "$027Shelley Johnson",
+    "de": "$027Shelley Johnson",
+    "tr": "$027Shelley Johnson"
+  },
+  {
+    "id": 95,
+    "en": "$022Head of Audio Department",
+    "fr": "$022Responsable département audio",
+    "de": "$022Head of Audio Department",
+    "tr": "$022Ses Departmanı Başkanı"
+  },
+  {
+    "id": 96,
+    "en": "$030Justin Scharvona",
+    "fr": "$030Justin Scharvona",
+    "de": "$030Justin Scharvona",
+    "tr": "$030Justin Scharvona"
+  },
+  {
+    "id": 97,
+    "en": "$049Sound Designer",
+    "fr": "$049Concepteur son",
+    "de": "$049Sound Designer",
+    "tr": "$049Ses Tasarımcısı"
+  },
+  {
+    "id": 98,
+    "en": "$031Chris Sweetman",
+    "fr": "$031Chris Sweetman",
+    "de": "$031Chris Sweetman",
+    "tr": "$031Chris Sweetman"
+  },
+  {
+    "id": 99,
+    "en": "$054QA Manager",
+    "fr": "$054Responsable assurance qualité",
+    "de": "$054QA Manager",
+    "tr": "$054Kalite Güvence Müdürü"
+  },
+  {
+    "id": 100,
+    "en": "$037Richard Pareja",
+    "fr": "$037Richard Pareja",
+    "de": "$037Richard Pareja",
+    "tr": "$037Richard Pareja"
+  },
+  {
+    "id": 101,
+    "en": "$060Lead Tester",
+    "fr": "$060Testeur principal",
+    "de": "$060Lead Tester",
+    "tr": "$060Baş Test Uzmanı"
+  },
+  {
+    "id": 102,
+    "en": "$033Simon Belton",
+    "fr": "$033Simon Belton",
+    "de": "$033Simon Belton",
+    "tr": "$033Simon Belton"
+  },
+  {
+    "id": 103,
+    "en": "$059Testers",
+    "fr": "$059Testeurs",
+    "de": "$059Testers",
+    "tr": "$059Test Uzmanları"
+  },
+  {
+    "id": 104,
+    "en": "$034Simon Deal",
+    "fr": "$034Simon Deal",
+    "de": "$034Simon Deal",
+    "tr": "$034Simon Deal"
+  },
+  {
+    "id": 105,
+    "en": "$035Jason Kanzen",
+    "fr": "$035Jason Kanzen",
+    "de": "$035Jason Kanzen",
+    "tr": "$035Jason Kanzen"
+  },
+  {
+    "id": 106,
+    "en": "$036David Lane",
+    "fr": "$036David Lane",
+    "de": "$036David Lane",
+    "tr": "$036David Lane"
+  },
+  {
+    "id": 107,
+    "en": "$038Special thanks:",
+    "fr": "$038Nous remercions particulièrement :",
+    "de": "$038Special thanks:",
+    "tr": "$038Özel Teşekkürler:"
+  },
+  {
+    "id": 108,
+    "en": "$039Ella Diffley",
+    "fr": "$039Ella Diffley",
+    "de": "$039Ella Diffley",
+    "tr": "$039Ella Diffley"
+  },
+  {
+    "id": 109,
+    "en": "$040Dave Millard",
+    "fr": "$040Dave Millard",
+    "de": "$040Dave Millard",
+    "tr": "$040Dave Millard"
+  },
+  {
+    "id": 110,
+    "en": "$041The Harry Potter and the Philosopher's Stone Team",
+    "fr": "$041L'équipe d'Harry Potter à l'école des Sorciers",
+    "de": "$041The Harry Potter and the Philosopher's Stone Team,",
+    "tr": "$041Harry Potter ve Felsefe Taşı Ekibi"
+  },
+  {
+    "id": 111,
+    "en": "$042Germaine 'King' Mendes ",
+    "fr": "$042Germaine 'King' Mendes ",
+    "de": "$042Germaine 'King' Mendes ",
+    "tr": "$042Germaine 'King' Mendes"
+  },
+  {
+    "id": 112,
+    "en": "$029Executive Producer",
+    "fr": "$029Producteur exécutif",
+    "de": "$029Executive Producer",
+    "tr": "$029İdari Yapımcı"
+  },
+  {
+    "id": 113,
+    "en": "$005Peter Jones",
+    "fr": "$005Peter Jones",
+    "de": "$005Peter Jones",
+    "tr": "$005Peter Jones"
+  },
+  {
+    "id": 114,
+    "en": "$001Electronic Arts Europe",
+    "fr": "$001Electronic Arts Europe",
+    "de": "$001Electronic Arts Europe",
+    "tr": "$001Electronic Arts Avrupa"
+  },
+  {
+    "id": 115,
+    "en": "$002Production Team:",
+    "fr": "$002Production :",
+    "de": "$002Production Team:",
+    "tr": "$002Yapım Ekibi:"
+  },
+  {
+    "id": 116,
+    "en": "$003Dan Blackstone",
+    "fr": "$003Dan Blackstone",
+    "de": "$003Dan Blackstone",
+    "tr": "$003Dan Blackstone"
+  },
+  {
+    "id": 117,
+    "en": "$004Andy Bussell",
+    "fr": "$004Andy Bussell",
+    "de": "$004Andy Bussell",
+    "tr": "$004Andy Bussell"
+  },
+  {
+    "id": 118,
+    "en": "$005Mike Cooper",
+    "fr": "$005Mike Cooper",
+    "de": "$005Mike Cooper",
+    "tr": "$005Mike Cooper"
+  },
+  {
+    "id": 119,
+    "en": "$006Danny Isaac",
+    "fr": "$006Danny Isaac",
+    "de": "$006Danny Isaac",
+    "tr": "$006Danny Isaac"
+  },
+  {
+    "id": 120,
+    "en": "$007Jeff Gamon",
+    "fr": "$007 Jeff Gamon",
+    "de": "$007 Jeff Gamon",
+    "tr": "$007Jeff Gamon"
+  },
+  {
+    "id": 121,
+    "en": "$008Guy Miller,",
+    "fr": "$008Guy Miller",
+    "de": "$008Guy Miller,",
+    "tr": "$008Guy Miller,"
+  },
+  {
+    "id": 122,
+    "en": "$009Rob O'Farrell",
+    "fr": "$009Rob O'Farrell",
+    "de": "$009Rob O'Farrell",
+    "tr": "$009Rob O'Farrell"
+  },
+  {
+    "id": 123,
+    "en": "$010Colin Robinson",
+    "fr": "$010Colin Robinson",
+    "de": "$010Colin Robinson",
+    "tr": "$010Colin Robinson"
+  },
+  {
+    "id": 124,
+    "en": "$011Art Team:",
+    "fr": "$011Infographie :",
+    "de": "$011Art Team:",
+    "tr": "$011Sanat Ekibi:"
+  },
+  {
+    "id": 125,
+    "en": "$012Ross Dearsley",
+    "fr": "$012Ross Dearsley",
+    "de": "$012Ross Dearsley",
+    "tr": "$012Ross Dearsley"
+  },
+  {
+    "id": 126,
+    "en": "$013Rachel Huntingdon",
+    "fr": "$013Rachel Huntingdon",
+    "de": "$013Rachel Huntingdon",
+    "tr": "$013Rachel Huntingdon"
+  },
+  {
+    "id": 127,
+    "en": "$014John Miles",
+    "fr": "$014John Miles",
+    "de": "$014John Miles",
+    "tr": "$014John Miles"
+  },
+  {
+    "id": 128,
+    "en": "$015Jason Smith",
+    "fr": "$015Jason Smith",
+    "de": "$015Jason Smith",
+    "tr": "$015Jason Smith"
+  },
+  {
+    "id": 129,
+    "en": "$016Design and Scripting:",
+    "fr": "$016Conception et script :",
+    "de": "$016Design & Scripting:",
+    "tr": "$016Tasarım ve Senaryo:"
+  },
+  {
+    "id": 130,
+    "en": "$017Danny Bilson",
+    "fr": "$017Danny Bilson",
+    "de": "$017Danny Bilson",
+    "tr": "$017Danny Bilson"
+  },
+  {
+    "id": 131,
+    "en": "$018Dan Blackstone",
+    "fr": "$018Dan Blackstone",
+    "de": "$018Dan Blackstone",
+    "tr": "$018Dan Blackstone"
+  },
+  {
+    "id": 132,
+    "en": "$019Andy Bussell",
+    "fr": "$019Andy Bussell",
+    "de": "$019Andy Bussell",
+    "tr": "$019Andy Bussell"
+  },
+  {
+    "id": 133,
+    "en": "$020Guy Miller",
+    "fr": "$020Guy Miller\\u007f",
+    "de": "$020Guy Miller\\u007f",
+    "tr": "$020Guy Miller"
+  },
+  {
+    "id": 134,
+    "en": "$021Audio Team:",
+    "fr": "$021Equipe audio :",
+    "de": "$021Audio\\u007fTeam:",
+    "tr": "$021Ses Ekibi:"
+  },
+  {
+    "id": 135,
+    "en": "$022Adele Kellett",
+    "fr": "$022Adele Kellett",
+    "de": "$022Adele Kellett",
+    "tr": "$022Adele Kellett"
+  },
+  {
+    "id": 136,
+    "en": "$023Nick Laviers",
+    "fr": "$023Nick Laviers",
+    "de": "$023Nick Laviers",
+    "tr": "$023Nick Laviers"
+  },
+  {
+    "id": 137,
+    "en": "$024Bill Lusty",
+    "fr": "$024Bill Lusty",
+    "de": "$024Bill Lusty",
+    "tr": "$024Bill Lusty"
+  },
+  {
+    "id": 138,
+    "en": "$025Dominic Smart",
+    "fr": "$025Dominic Smart",
+    "de": "$025Dominic Smart",
+    "tr": "$025Dominic Smart"
+  },
+  {
+    "id": 139,
+    "en": "$026Peter Ward",
+    "fr": "$026Peter Ward",
+    "de": "$026Peter Ward",
+    "tr": "$026Peter Ward"
+  },
+  {
+    "id": 140,
+    "en": "$027Music Composed and Performed by: ",
+    "fr": "$027Musique composée et interprétée par :",
+    "de": "$027Music Composed and Performed by: ",
+    "tr": "$027Müzikleri Besteleyen ve İcra Eden:"
+  },
+  {
+    "id": 141,
+    "en": "$028Jeremy Soule",
+    "fr": "$028Jeremy Soule",
+    "de": "$028Jeremy Soule",
+    "tr": "$028Jeremy Soule"
+  },
+  {
+    "id": 142,
+    "en": "$029Studio Marketing: ",
+    "fr": "$029Marketing Studio :",
+    "de": "$029Studio Marketing: ",
+    "tr": "$029Stüdyo Pazarlama:"
+  },
+  {
+    "id": 143,
+    "en": "$030Murray Pannell",
+    "fr": "$030Murray Pannell",
+    "de": "$030Murray Pannell",
+    "tr": "$030Murray Pannell"
+  },
+  {
+    "id": 144,
+    "en": "$031Roy Meredith",
+    "fr": "$031Roy Meredith",
+    "de": "$031Roy Meredith",
+    "tr": "$031Roy Meredith"
+  },
+  {
+    "id": 145,
+    "en": "$032Sara Hobson",
+    "fr": "$032Sara Hobson",
+    "de": "$032Sara Hobson\\u007f\\u007f\\u007f\\u007f\\u007f",
+    "tr": "$032Sara Hobson"
+  },
+  {
+    "id": 146,
+    "en": "$001European Localisation Manager: ",
+    "fr": "$001Responsable localisation Europe :",
+    "de": "$001European Localisation Manager: ",
+    "tr": "$001Avrupa Yerelleştirme Müdürü:"
+  },
+  {
+    "id": 147,
+    "en": "$002Harald Simon ",
+    "fr": "$002Harald Simon ",
+    "de": "$002Harald Simon ",
+    "tr": "$002Harald Simon"
+  },
+  {
+    "id": 148,
+    "en": "$003Software Localisation Manager: ",
+    "fr": "$003Responsable localisation logiciel :",
+    "de": "$003Software Localisation Manager: ",
+    "tr": "$003Yazılım Yerelleştirme Müdürü:"
+  },
+  {
+    "id": 149,
+    "en": "$004Sam Yazmadian ",
+    "fr": "$004Sam Yazmadian ",
+    "de": "$004Sam Yazmadian ",
+    "tr": "$004Sam Yazmadian"
+  },
+  {
+    "id": 150,
+    "en": "$005Localisation: ",
+    "fr": "$005Localisation : ",
+    "de": "$005Localisation: ",
+    "tr": "$005Yerelleştirme:"
+  },
+  {
+    "id": 151,
+    "en": "$006Nathalie Fernandez",
+    "fr": "$006Nathalie Fernandez",
+    "de": "$006Nathalie Fernandez",
+    "tr": "$006Nathalie Fernandez"
+  },
+  {
+    "id": 152,
+    "en": "$007David Lapp",
+    "fr": "$007David Lapp",
+    "de": "$007David Lapp",
+    "tr": "$007David Lapp"
+  },
+  {
+    "id": 153,
+    "en": "$008Sandra Picaper",
+    "fr": "$008Sandra Picaper",
+    "de": "$008Sandra Picaper",
+    "tr": "$008Sandra Picaper"
+  },
+  {
+    "id": 154,
+    "en": "$009Voice Talent:",
+    "fr": "$009Equipe localisation :",
+    "de": "$009Localisation Team:",
+    "tr": "$009Seslendirme Kadrosu:"
+  },
+  {
+    "id": 155,
+    "en": "$010Tom Attenborough",
+    "fr": "$010Stéphane Tachon",
+    "de": "$010Michaela Bartelt",
+    "tr": "$010Tom Attenborough"
+  },
+  {
+    "id": 156,
+    "en": "$011Ben Avis",
+    "fr": "$011Phuong Tran-Mai",
+    "de": "$011Britta Haimüller",
+    "tr": "$011Ben Avis"
+  },
+  {
+    "id": 157,
+    "en": "$012Jane Avis",
+    "fr": "$012Lionel Berrodier",
+    "de": "$012Angela Hufschmidt",
+    "tr": "$012Jane Avis"
+  },
+  {
+    "id": 158,
+    "en": "$013Will'm Bentinck",
+    "fr": "$013Emmanuel Delva",
+    "de": "$013Tanja Ratajczyk",
+    "tr": "$013Will'm Bentinck"
+  },
+  {
+    "id": 159,
+    "en": "$014Caroline Bernstein",
+    "fr": "$014Voix fran\\u00a1aises :",
+    "de": "$014Voice Talent:",
+    "tr": "$014Caroline Bernstein"
+  },
+  {
+    "id": 160,
+    "en": "$015Melanie Bright",
+    "fr": "$015Alain Floret",
+    "de": "$015Achim Schülke",
+    "tr": "$015Melanie Bright"
+  },
+  {
+    "id": 161,
+    "en": "$016Greg Chilingirian",
+    "fr": "$016Alexandre Aubry",
+    "de": "$016Ben Hecker",
+    "tr": "$016Greg Chilingirian"
+  },
+  {
+    "id": 162,
+    "en": "$017David Coker",
+    "fr": "$017Brigitte Lecordier",
+    "de": "$017Benny Bosard",
+    "tr": "$017David Coker"
+  },
+  {
+    "id": 163,
+    "en": "$018Allan Cordunner",
+    "fr": "$018Bruno Magne",
+    "de": "$018Bernd Stephan",
+    "tr": "$018Allan Cordunner"
+  },
+  {
+    "id": 164,
+    "en": "$019Chris Crosby",
+    "fr": "$019Caroline Pascal",
+    "de": "$019Christine Pappert",
+    "tr": "$019Chris Crosby"
+  },
+  {
+    "id": 165,
+    "en": "$020Jim Dale",
+    "fr": "$020Cédric Dumont",
+    "de": "$020David Kro\\u0099",
+    "tr": "$020Jim Dale"
+  },
+  {
+    "id": 166,
+    "en": "$021Gary Fairhall",
+    "fr": "$021Constantin Papas",
+    "de": "$021Douglas Welbat",
+    "tr": "$021Gary Fairhall"
+  },
+  {
+    "id": 167,
+    "en": "$022Jade Farmillo",
+    "fr": "$022Daniel Gall",
+    "de": "$022Eckhart Dux",
+    "tr": "$022Jade Farmillo"
+  },
+  {
+    "id": 168,
+    "en": "$023Charlotte Fudge",
+    "fr": "$023Danielle Hazan",
+    "de": "$023Erik Schäffler",
+    "tr": "$023Charlotte Fudge"
+  },
+  {
+    "id": 169,
+    "en": "$024Stephen Fry",
+    "fr": "$024Denis Boileau",
+    "de": "$024Frank Thomé",
+    "tr": "$024Stephen Fry"
+  },
+  {
+    "id": 170,
+    "en": "$025William Green",
+    "fr": "$025Evelyne Grandjean",
+    "de": "$025Gerhardt Marcel",
+    "tr": "$025William Green"
+  },
+  {
+    "id": 171,
+    "en": "$026 Steve Hope Wyne",
+    "fr": "$026Fabien Briche",
+    "de": "$026Holger Potzern",
+    "tr": "$026 Steve Hope Wyne"
+  },
+  {
+    "id": 172,
+    "en": "$027Daniel Irving",
+    "fr": "$027Frédérique Marlot",
+    "de": "$027Isabella Grothe",
+    "tr": "$027Daniel Irving"
+  },
+  {
+    "id": 173,
+    "en": "$034Lewis Macleod",
+    "fr": "$034Susan Sindberg",
+    "de": "$034Kostja Ullmann",
+    "tr": "$034Lewis Macleod"
+  },
+  {
+    "id": 174,
+    "en": "$035Joe McFadden",
+    "fr": "$035Sylvain Lemarie",
+    "de": "$035Malvin Faber",
+    "tr": "$035Joe McFadden"
+  },
+  {
+    "id": 175,
+    "en": "$036Marina Neil",
+    "fr": "$036Yann Pichon",
+    "de": "$036Marianne Bernhardt",
+    "tr": "$036Marina Neil"
+  },
+  {
+    "id": 176,
+    "en": "$037Freddie Ridge",
+    "fr": "$037Patricia Legrand",
+    "de": "$037Marinne Endemann",
+    "tr": "$037Freddie Ridge"
+  },
+  {
+    "id": 177,
+    "en": "$038Emily Robinson",
+    "fr": "$038Martial Le Minoux",
+    "de": "$038Max Schuller",
+    "tr": "$038Emily Robinson"
+  },
+  {
+    "id": 178,
+    "en": "$039Harry Robinson",
+    "fr": "$039Patrick Borg",
+    "de": "$039Michael Bideller",
+    "tr": "$039Harry Robinson"
+  },
+  {
+    "id": 179,
+    "en": "$040Victoria Robinson",
+    "fr": "$040Masterisation Europe :",
+    "de": "$040Michael Grimm",
+    "tr": "$040Victoria Robinson"
+  },
+  {
+    "id": 180,
+    "en": "$028 Joshual Jalloul",
+    "fr": "$028Gilbert Levy",
+    "de": "$028Jan Ivo Möller",
+    "tr": "$028 Joshual Jalloul"
+  },
+  {
+    "id": 181,
+    "en": "$029Ben Johnstone",
+    "fr": "$029J. Pascal Quilichini",
+    "de": "$029Jesse Grimm",
+    "tr": "$029Ben Johnstone"
+  },
+  {
+    "id": 182,
+    "en": "$030Martin Johnson.",
+    "fr": "$030Nathalie Homs",
+    "de": "$030Kai Hendrik Möller",
+    "tr": "$030Martin Johnson."
+  },
+  {
+    "id": 183,
+    "en": "$031Eve Karpf",
+    "fr": "$031Pascal Germain",
+    "de": "$031Katja Brügger",
+    "tr": "$031Eve Karpf"
+  },
+  {
+    "id": 184,
+    "en": "$032Johnathan Kydd",
+    "fr": "$032Patrice Baudrier",
+    "de": "$032Kaya Marie Möller",
+    "tr": "$032Johnathan Kydd"
+  },
+  {
+    "id": 185,
+    "en": "$033 Mark Lowen",
+    "fr": "$033Sophie Gourdin",
+    "de": "$033Klaus Dittmann",
+    "tr": "$033 Mark Lowen"
+  },
+  {
+    "id": 186,
+    "en": "$033Quality Assurance:",
+    "fr": "$033Assurance qualité :",
+    "de": "$033Quality Assurance:",
+    "tr": "$033Kalite Güvence:"
+  },
+  {
+    "id": 187,
+    "en": "$034George Alleway",
+    "fr": "$034George Alleway",
+    "de": "$034George Alleway",
+    "tr": "$034George Alleway"
+  },
+  {
+    "id": 188,
+    "en": "$035Jamie Cawte",
+    "fr": "$035Jamie Cawte",
+    "de": "$035Jamie Cawte",
+    "tr": "$035Jamie Cawte"
+  },
+  {
+    "id": 189,
+    "en": "$036Joseph Grant",
+    "fr": "$036Joseph Grant",
+    "de": "$036Joseph Grant",
+    "tr": "$036Joseph Grant"
+  },
+  {
+    "id": 190,
+    "en": "$037Noel Hawkins",
+    "fr": "$037Noel Hawkins",
+    "de": "$037Noel Hawkins",
+    "tr": "$037Noel Hawkins"
+  },
+  {
+    "id": 191,
+    "en": "$038Mitsuo Hirakawa",
+    "fr": "$038Mitsuo Hirakawa",
+    "de": "$038Mitsuo Hirakawa",
+    "tr": "$038Mitsuo Hirakawa"
+  },
+  {
+    "id": 192,
+    "en": "$039Rich Hylands",
+    "fr": "$039Rich Hylands",
+    "de": "$039Rich Hylands",
+    "tr": "$039Rich Hylands"
+  },
+  {
+    "id": 193,
+    "en": "$040Rich Lloyd",
+    "fr": "$040Rich Lloyd",
+    "de": "$040Rich Lloyd",
+    "tr": "$040Rich Lloyd"
+  },
+  {
+    "id": 194,
+    "en": "$041Giro Maioriello",
+    "fr": "$041Giro Maioriello",
+    "de": "$041Giro Maioriello",
+    "tr": "$041Giro Maioriello"
+  },
+  {
+    "id": 195,
+    "en": "$042Tom Mann",
+    "fr": "$042Tom Mann",
+    "de": "$042Tom Mann",
+    "tr": "$042Tom Mann"
+  },
+  {
+    "id": 196,
+    "en": "$043Andrew Miller",
+    "fr": "$043Andrew Miller",
+    "de": "$043Andrew Miller",
+    "tr": "$043Andrew Miller"
+  },
+  {
+    "id": 197,
+    "en": "$044Marcus Purvis",
+    "fr": "$044Marcus Purvis",
+    "de": "$044Marcus Purvis",
+    "tr": "$044Marcus Purvis"
+  },
+  {
+    "id": 198,
+    "en": "$045Wasif Qadeer",
+    "fr": "$045Wasif Qadeer",
+    "de": "$045Wasif Qadeer",
+    "tr": "$045Wasif Qadeer"
+  },
+  {
+    "id": 199,
+    "en": "$046Pete Samuels",
+    "fr": "$046Pete Samuels",
+    "de": "$046Pete Samuels",
+    "tr": "$046Pete Samuels"
+  },
+  {
+    "id": 200,
+    "en": "$047Ben Spinks",
+    "fr": "$047Ben Spinks",
+    "de": "$047Ben Spinks",
+    "tr": "$047Ben Spinks"
+  },
+  {
+    "id": 201,
+    "en": "$048Ricky Watts",
+    "fr": "$048Ricky Watts",
+    "de": "$048Ricky Watts",
+    "tr": "$048Ricky Watts"
+  },
+  {
+    "id": 202,
+    "en": "$049John Welsh",
+    "fr": "$049John Welsh",
+    "de": "$049John Welsh",
+    "tr": "$049John Welsh"
+  },
+  {
+    "id": 203,
+    "en": "$050Stu Williams",
+    "fr": "$050Stu Williams",
+    "de": "$050Stu Williams",
+    "tr": "$050Stu Williams"
+  },
+  {
+    "id": 204,
+    "en": "$041European Mastering: ",
+    "fr": "$041Wayne Boyce",
+    "de": "$041Mignon Remé",
+    "tr": "$041Avrupa Mastering:"
+  },
+  {
+    "id": 205,
+    "en": "$042Wayne Boyce",
+    "fr": "$042Des Gayle",
+    "de": "$042Nick Seidensticker",
+    "tr": "$042Wayne Boyce"
+  },
+  {
+    "id": 206,
+    "en": "$043Des Gayle",
+    "fr": "$043Donna Hicks",
+    "de": "$043Nicola Schäffler",
+    "tr": "$043Des Gayle"
+  },
+  {
+    "id": 207,
+    "en": "$044Donna Hicks",
+    "fr": "$044James Kneen",
+    "de": "$044Richard Gotthard",
+    "tr": "$044Donna Hicks"
+  },
+  {
+    "id": 208,
+    "en": "$045James Kneen",
+    "fr": "$045Matt Price",
+    "de": "$045Robert Missler",
+    "tr": "$045James Kneen"
+  },
+  {
+    "id": 209,
+    "en": "$046Matt Price",
+    "fr": "$046Sam Roberts",
+    "de": "$046Thando Walbaum",
+    "tr": "$046Matt Price"
+  },
+  {
+    "id": 210,
+    "en": "$047Sam Roberts",
+    "fr": "$047Responsable CQC pour l'Europe :",
+    "de": "$047Tim Marvim Schattling",
+    "tr": "$047Sam Roberts"
+  },
+  {
+    "id": 211,
+    "en": "$048European CQC Operations Manager:",
+    "fr": "$048Linda Walker",
+    "de": "$048Tobias Paul",
+    "tr": "$048Avrupa CQC Operasyon Müdürü:"
+  },
+  {
+    "id": 212,
+    "en": "$049Linda Walker",
+    "fr": "$049CQC Europe :",
+    "de": "$049Tobias Schmidt",
+    "tr": "$049Linda Walker"
+  },
+  {
+    "id": 213,
+    "en": "$050European CQC:",
+    "fr": "$050James Arup",
+    "de": "$050Uschi Sieg",
+    "tr": "$050Avrupa CQC:"
+  },
+  {
+    "id": 214,
+    "en": "$051James Arup",
+    "fr": "$051James Bolton",
+    "de": "$051Wolfgang Hartmann",
+    "tr": "$051James Arup"
+  },
+  {
+    "id": 215,
+    "en": "$052James Bolton",
+    "fr": "$052Andrew Chung",
+    "de": "$052European Mastering: ",
+    "tr": "$052James Bolton"
+  },
+  {
+    "id": 216,
+    "en": "$053Andrew Chung",
+    "fr": "$053Paul Davies",
+    "de": "$053Wayne Boyce",
+    "tr": "$053Andrew Chung"
+  },
+  {
+    "id": 217,
+    "en": "$054Paul Davies",
+    "fr": "$054Jean-Yves Duret",
+    "de": "$054Des Gayle",
+    "tr": "$054Paul Davies"
+  },
+  {
+    "id": 218,
+    "en": "$055Jean-Yves Duret",
+    "fr": "$055James Featherstone",
+    "de": "$055Donna Hicks",
+    "tr": "$055Jean-Yves Duret"
+  },
+  {
+    "id": 219,
+    "en": "$056James Featherstone",
+    "fr": "$056David Fielding",
+    "de": "$056James Kneen",
+    "tr": "$056James Featherstone"
+  },
+  {
+    "id": 220,
+    "en": "$061Gary Napper",
+    "fr": "$061James Norton",
+    "de": "$061European CQC:",
+    "tr": "$061Gary Napper"
+  },
+  {
+    "id": 221,
+    "en": "$062James Norton",
+    "fr": "$062Ashley Powell",
+    "de": "$062James Arup",
+    "tr": "$062James Norton"
+  },
+  {
+    "id": 222,
+    "en": "$063Ashley Powell",
+    "fr": "$063Paul Richards",
+    "de": "$063James Bolton",
+    "tr": "$063Ashley Powell"
+  },
+  {
+    "id": 223,
+    "en": "$064Paul Richards",
+    "fr": "$064Tim Wileman",
+    "de": "$064Andrew Chung",
+    "tr": "$064Paul Richards"
+  },
+  {
+    "id": 224,
+    "en": "$065Tim Wileman",
+    "fr": "$065Directrice de production :",
+    "de": "$065Paul Davies",
+    "tr": "$065Tim Wileman"
+  },
+  {
+    "id": 225,
+    "en": "$066Production Manager:",
+    "fr": "$066Jane Luckraft",
+    "de": "$066Jean-Yves Duret",
+    "tr": "$066Yapım Müdürü:"
+  },
+  {
+    "id": 226,
+    "en": "$067Jane Luckraft",
+    "fr": "$067Responsable de compte :",
+    "de": "$067James Featherstone",
+    "tr": "$067Jane Luckraft"
+  },
+  {
+    "id": 227,
+    "en": "$068Account Executive:",
+    "fr": "$068Joanna Taylor",
+    "de": "$068David Fielding",
+    "tr": "$068Müşteri Temsilcisi:"
+  },
+  {
+    "id": 228,
+    "en": "$069Joanna Taylor",
+    "fr": "$069Organisation de la production\\u007f:",
+    "de": "$069Tony Hopkins",
+    "tr": "$069Joanna Taylor"
+  },
+  {
+    "id": 229,
+    "en": "$057David Fielding",
+    "fr": "$057Tony Hopkins",
+    "de": "$057Matt Price",
+    "tr": "$057David Fielding"
+  },
+  {
+    "id": 230,
+    "en": "$058Tony Hopkins",
+    "fr": "$058Ben Jackson",
+    "de": "$058Sam Roberts",
+    "tr": "$058Tony Hopkins"
+  },
+  {
+    "id": 231,
+    "en": "$059Ben Jackson",
+    "fr": "$059Jamie Keen",
+    "de": "$059European CQC Operations Manager:",
+    "tr": "$059Ben Jackson"
+  },
+  {
+    "id": 232,
+    "en": "$060Jamie Keen",
+    "fr": "$060Gary Napper",
+    "de": "$060Linda Walker",
+    "tr": "$060Jamie Keen"
+  },
+  {
+    "id": 233,
+    "en": "$070Production Planner:",
+    "fr": "$070Helen Vaughan",
+    "de": "$070Ben Jackson",
+    "tr": "$070Üretim Planlayıcısı:"
+  },
+  {
+    "id": 234,
+    "en": "$071Helen Vaughan",
+    "fr": "$071Coordination matérielle :",
+    "de": "$071Jamie Keen",
+    "tr": "$071Helen Vaughan"
+  },
+  {
+    "id": 235,
+    "en": "$072Materials Coordinator:",
+    "fr": "$072Peter Abbey",
+    "de": "$072Gary Napper",
+    "tr": "$072Materyal Koordinatörü:"
+  },
+  {
+    "id": 236,
+    "en": "$073Peter Abbey",
+    "fr": "$073Responsable du compte\\u007f:",
+    "de": "$073James Norton",
+    "tr": "$073Peter Abbey"
+  },
+  {
+    "id": 237,
+    "en": "$074Creative Account Executive:",
+    "fr": "$074Tanya Etherington",
+    "de": "$074Ashley Powell",
+    "tr": "$074Yaratıcı Müşteri Temsilcisi:"
+  },
+  {
+    "id": 238,
+    "en": "$075Tanya Etherington",
+    "fr": "$075Rédaction du manuel:",
+    "de": "$075Paul Richards",
+    "tr": "$075Tanya Etherington"
+  },
+  {
+    "id": 239,
+    "en": "$076Software Manual Writer:",
+    "fr": "$076Edition du manuel :",
+    "de": "$076Tim Wileman",
+    "tr": "$076Yazılım Kılavuzu Yazarı:"
+  },
+  {
+    "id": 240,
+    "en": "$077Sorcha Fenlon",
+    "fr": "$077Sorcha Fenlon",
+    "de": "$077Production Manager:",
+    "tr": "$077Sorcha Fenlon"
+  },
+  {
+    "id": 241,
+    "en": "$078Software Manual Editor:",
+    "fr": "$078Abdul Oshodi",
+    "de": "$078Jane Luckraft",
+    "tr": "$078Yazılım Kılavuzu Editörü:"
+  },
+  {
+    "id": 242,
+    "en": "$079Abdul Oshodi",
+    "fr": "$079Coordination de la localisation du site Internet\\u007f:",
+    "de": "$079Account Executive:",
+    "tr": "$079Abdul Oshodi"
+  },
+  {
+    "id": 243,
+    "en": "$051Special Thanks:",
+    "fr": "$051Nous remercions particulièrement\\u007f:",
+    "de": "$051Special Thanks:",
+    "tr": "$051Özel Teşekkür:"
+  },
+  {
+    "id": 244,
+    "en": "$052JK Rowling",
+    "fr": "$052JK Rowling",
+    "de": "$052JK Rowling",
+    "tr": "$052JK Rowling"
+  },
+  {
+    "id": 245,
+    "en": "$053David Heyman",
+    "fr": "$053David Heyman",
+    "de": "$053David Heyman",
+    "tr": "$053David Heyman"
+  },
+  {
+    "id": 246,
+    "en": "$054Sarah Boylan",
+    "fr": "$054Sarah Boylan",
+    "de": "$054Sarah Boylan",
+    "tr": "$054Sarah Boylan"
+  },
+  {
+    "id": 247,
+    "en": "$055David Byrne",
+    "fr": "$055David Byrne",
+    "de": "$055David Byrne",
+    "tr": "$055David Byrne"
+  },
+  {
+    "id": 248,
+    "en": "$056Chuck Clanton",
+    "fr": "$056Chuck Clanton",
+    "de": "$056Chuck Clanton",
+    "tr": "$056Chuck Clanton"
+  },
+  {
+    "id": 249,
+    "en": "$057Steve Dauterman",
+    "fr": "$057Steve Dauterman",
+    "de": "$057Steve Dauterman",
+    "tr": "$057Steve Dauterman"
+  },
+  {
+    "id": 250,
+    "en": "$058Paul DeMeo",
+    "fr": "$058Paul DeMeo",
+    "de": "$058Paul DeMeo",
+    "tr": "$058Paul DeMeo"
+  },
+  {
+    "id": 251,
+    "en": "$059Wayne Frost",
+    "fr": "$059Wayne Frost",
+    "de": "$059Wayne Frost",
+    "tr": "$059Wayne Frost"
+  },
+  {
+    "id": 252,
+    "en": "$060Lennie Graves",
+    "fr": "$060Lennie Graves",
+    "de": "$060Lennie Graves",
+    "tr": "$060Lennie Graves"
+  },
+  {
+    "id": 253,
+    "en": "$061Chris Gray",
+    "fr": "$061Chris Gray",
+    "de": "$061Chris Gray",
+    "tr": "$061Chris Gray"
+  },
+  {
+    "id": 254,
+    "en": "$062Caroline Hall",
+    "fr": "$062Caroline Hall",
+    "de": "$062Caroline Hall",
+    "tr": "$062Caroline Hall"
+  },
+  {
+    "id": 255,
+    "en": "$063Simon Harris",
+    "fr": "$063Simon Harris",
+    "de": "$063Simon Harris",
+    "tr": "$063Simon Harris"
+  },
+  {
+    "id": 256,
+    "en": "$064Shin Kanaoya",
+    "fr": "$064Shin Kanaoya",
+    "de": "$064Shin Kanaoya",
+    "tr": "$064Shin Kanaoya"
+  },
+  {
+    "id": 257,
+    "en": "$065Duncan Kershaw",
+    "fr": "$065Duncan Kershaw",
+    "de": "$065Duncan Kershaw",
+    "tr": "$065Duncan Kershaw"
+  },
+  {
+    "id": 258,
+    "en": "$066Jon Lawrence",
+    "fr": "$066Jon Lawrence",
+    "de": "$066Jon Lawrence",
+    "tr": "$066Jon Lawrence"
+  },
+  {
+    "id": 259,
+    "en": "$067David Lee",
+    "fr": "$067David Lee",
+    "de": "$067David Lee",
+    "tr": "$067David Lee"
+  },
+  {
+    "id": 260,
+    "en": "$068Paul Lee",
+    "fr": "$068Paul Lee",
+    "de": "$068Paul Lee",
+    "tr": "$068Paul Lee"
+  },
+  {
+    "id": 261,
+    "en": "$069Jason Lord",
+    "fr": "$069Jason Lord",
+    "de": "$069Jason Lord",
+    "tr": "$069Jason Lord"
+  },
+  {
+    "id": 262,
+    "en": "$070Bruce McMillan",
+    "fr": "$070Bruce McMillan",
+    "de": "$070Bruce McMillan",
+    "tr": "$070Bruce McMillan"
+  },
+  {
+    "id": 263,
+    "en": "$071Owen O'Brien",
+    "fr": "$071Owen O'Brien",
+    "de": "$071Owen O'Brien",
+    "tr": "$071Owen O'Brien"
+  },
+  {
+    "id": 264,
+    "en": "$072Neil Pettit",
+    "fr": "$072Neil Pettit",
+    "de": "$072Neil Pettit",
+    "tr": "$072Neil Pettit"
+  },
+  {
+    "id": 265,
+    "en": "$073Derek Proud",
+    "fr": "$073Derek Proud",
+    "de": "$073Derek Proud",
+    "tr": "$073Derek Proud"
+  },
+  {
+    "id": 266,
+    "en": "$074Anne Marie Stein",
+    "fr": "$074Anne Marie Stein",
+    "de": "$074Anne Marie Stein",
+    "tr": "$074Anne Marie Stein"
+  },
+  {
+    "id": 267,
+    "en": "$075Lisa Tensfeldt",
+    "fr": "$075Lisa Tensfeldt",
+    "de": "$075Lisa Tensfeldt",
+    "tr": "$075Lisa Tensfeldt"
+  },
+  {
+    "id": 268,
+    "en": "$076Stuart Whyte",
+    "fr": "$076Stuart Whyte",
+    "de": "$076Stuart Whyte",
+    "tr": "$076Stuart Whyte"
+  },
+  {
+    "id": 269,
+    "en": "$001Warner Bros. Interactive Entertainment",
+    "fr": "$001Warner Bros. Interactive Entertainment",
+    "de": "$001Warner Bros. Interactive Entertainment",
+    "tr": "$001Warner Bros. Interactive Entertainment"
+  },
+  {
+    "id": 270,
+    "en": "$002Production Team:",
+    "fr": "$002Production :",
+    "de": "$002Production Team:",
+    "tr": "$002Yapım Ekibi:"
+  },
+  {
+    "id": 271,
+    "en": "$003Brett Skogen",
+    "fr": "$003Brett Skogen",
+    "de": "$003Brett Skogen",
+    "tr": "$003Brett Skogen"
+  },
+  {
+    "id": 272,
+    "en": "$004Louise McTighe",
+    "fr": "$004Louise McTighe",
+    "de": "$004Louise McTighe",
+    "tr": "$004Louise McTighe"
+  },
+  {
+    "id": 273,
+    "en": "$005Marketing:",
+    "fr": "$005Marketing :",
+    "de": "$005Marketing:",
+    "tr": "$005Pazarlama:"
+  },
+  {
+    "id": 274,
+    "en": "$006Jim Molinaro",
+    "fr": "$006Jim Molinaro",
+    "de": "$006Jim Molinaro",
+    "tr": "$006Jim Molinaro"
+  },
+  {
+    "id": 275,
+    "en": "$007Jason Ades",
+    "fr": "$007Jason Ades",
+    "de": "$007Jason Ades",
+    "tr": "$007Jason Ades"
+  },
+  {
+    "id": 276,
+    "en": "$008WBIE Special Thanks:",
+    "fr": "$008Remerciements de Warner Bros. Interactive Entertainment ",
+    "de": "$008WBIE Special Thanks:",
+    "tr": "$008WBIE Özel Teşekkür:"
+  },
+  {
+    "id": 277,
+    "en": "$009Philippe Erwin",
+    "fr": "$009Philippe Erwin",
+    "de": "$009Philippe Erwin",
+    "tr": "$009Philippe Erwin"
+  },
+  {
+    "id": 278,
+    "en": "$010Scott Johnson",
+    "fr": "$010Scott Johnson",
+    "de": "$010Scott Johnson",
+    "tr": "$010Scott Johnson"
+  },
+  {
+    "id": 279,
+    "en": "$011Heidi Behrendt, ",
+    "fr": "$011Heidi Behrendt, ",
+    "de": "$011Heidi Behrendt, ",
+    "tr": "$011Heidi Behrendt,"
+  },
+  {
+    "id": 280,
+    "en": "$012Sandy Yi",
+    "fr": "$012Sandy Yi",
+    "de": "$012Sandy Yi",
+    "tr": "$012Sandy Yi"
+  },
+  {
+    "id": 281,
+    "en": "$013Catherine Trillo",
+    "fr": "$013Catherine Trillo",
+    "de": "$013Catherine Trillo",
+    "tr": "$013Catherine Trillo"
+  },
+  {
+    "id": 282,
+    "en": "$014Niki Judd",
+    "fr": "$014Niki Judd",
+    "de": "$014Niki Judd",
+    "tr": "$014Niki Judd"
+  },
+  {
+    "id": 283,
+    "en": "$015Eloise Kay",
+    "fr": "$015Eloise Kay",
+    "de": "$015Eloise Kay",
+    "tr": "$015Eloise Kay"
+  },
+  {
+    "id": 284,
+    "en": "$016Diane Nelson",
+    "fr": "$016Diane Nelson",
+    "de": "$016Diane Nelson",
+    "tr": "$016Diane Nelson"
+  },
+  {
+    "id": 285,
+    "en": "$017Amber Fredman",
+    "fr": "$017Amber Fredman",
+    "de": "$017Amber Fredman",
+    "tr": "$017Amber Fredman"
+  },
+  {
+    "id": 286,
+    "en": "$018Lisa Singer",
+    "fr": "$018Lisa Singer",
+    "de": "$018Lisa Singer",
+    "tr": "$018Lisa Singer"
+  },
+  {
+    "id": 287,
+    "en": "$019Bethany Spenceman",
+    "fr": "$019Bethany Spenceman",
+    "de": "$019Bethany Spenceman",
+    "tr": "$019Bethany Spenceman"
+  },
+  {
+    "id": 288,
+    "en": "$020Moira Squier",
+    "fr": "$020Moira Squier",
+    "de": "$020Moira Squier",
+    "tr": "$020Moira Squier"
+  },
+  {
+    "id": 289,
+    "en": "$021Robin Blackburn",
+    "fr": "$021Robin Blackburn",
+    "de": "$021Robin Blackburn",
+    "tr": "$021Robin Blackburn"
+  },
+  {
+    "id": 290,
+    "en": "$022Sarah Booth-Henry",
+    "fr": "$022Sarah Booth-Henry",
+    "de": "$022Sarah Booth-Henry",
+    "tr": "$022Sarah Booth-Henry"
+  },
+  {
+    "id": 291,
+    "en": "$024Certain Technology\\u007f \\u0081 2002 Argonaut Software Ltd. All rights reserved",
+    "fr": "$024Certain Technology | 2002 Argonaut Software Ltd. Tous droits réservés.",
+    "de": "$024Certain Technology\\u007f | 2002 Argonaut Software Ltd. Alle Rechte vorbehalten.",
+    "tr": "$024Belirli Teknolojiler | 2002 Argonaut Software Ltd. Tüm hakları saklıdır."
+  },
+  {
+    "id": 292,
+    "en": "$082Studio Ops:",
+    "fr": "$082Anne Miller",
+    "de": "$082Helen Vaughan",
+    "tr": "$082Stüdyo Operasyonları:"
+  },
+  {
+    "id": 293,
+    "en": "$083Anne Miller",
+    "fr": "$083Phil Jones",
+    "de": "$083Materials Coordinator:",
+    "tr": "$083Anne Miller"
+  },
+  {
+    "id": 294,
+    "en": "$084Phil Jones",
+    "fr": "$084\\u000a",
+    "de": "$084Peter Abbey",
+    "tr": "$084Phil Jones"
+  },
+  {
+    "id": 295,
+    "en": "$080Web Localisation Coordination:",
+    "fr": "$080Sylvain Caburrosso",
+    "de": "$080Joanna Taylor",
+    "tr": "$080Web Yerelleştirme Koordinasyonu:"
+  },
+  {
+    "id": 296,
+    "en": "$081Sylvain Caburrosso",
+    "fr": "$081Opérations studio\\u007f:",
+    "de": "$081Production Planner:",
+    "tr": "$081Sylvain Caburrosso"
+  },
+  {
+    "id": 297,
+    "en": "$001Argonaut Games",
+    "fr": "$001Argonaut Games",
+    "de": "$001Argonaut Games",
+    "tr": "$001Argonaut Games"
+  },
+  {
+    "id": 298,
+    "en": "$008Engine Programmer",
+    "fr": "$008Programmeur moteur",
+    "de": "$008Engine Programmer",
+    "tr": "$008Motor Programcısı"
+  },
+  {
+    "id": 299,
+    "en": "$007Harris Bernardez",
+    "fr": "$007Harris Bernardez",
+    "de": "$007Harris Bernardez",
+    "tr": "$007Harris Bernardez"
+  },
+  {
+    "id": 300,
+    "en": "$010Sound Programmer",
+    "fr": "$010Programmeur son",
+    "de": "$010Sound Programmer",
+    "tr": "$010Ses Programcısı"
+  },
+  {
+    "id": 301,
+    "en": "$029Richard Griffiths",
+    "fr": "$029Richard Griffiths",
+    "de": "$029Richard Griffiths",
+    "tr": "$029Richard Griffiths"
+  },
+  {
+    "id": 302,
+    "en": "$089\\u000a",
+    "fr": "$089\\u000a",
+    "de": "$089Software Manual Editor:",
+    "tr": "$089\\u000a"
+  },
+  {
+    "id": 303,
+    "en": "$090\\u000a",
+    "fr": "$090\\u000a",
+    "de": "$090Abdul Oshodi",
+    "tr": "$090\\u000a"
+  },
+  {
+    "id": 304,
+    "en": "$085\\u000a",
+    "fr": "$085\\u000a",
+    "de": "$085Creative Account Executive:",
+    "tr": "$085\\u000a"
+  },
+  {
+    "id": 305,
+    "en": "$086\\u000a",
+    "fr": "$086\\u000a",
+    "de": "$086Tanya Etherington",
+    "tr": "$086\\u000a"
+  },
+  {
+    "id": 306,
+    "en": "$087\\u000a",
+    "fr": "$087\\u000a",
+    "de": "$087Software Manual Writer:",
+    "tr": "$087\\u000a"
+  },
+  {
+    "id": 307,
+    "en": "$088\\u000a",
+    "fr": "$088\\u000a",
+    "de": "$088Sorcha Fenlon",
+    "tr": "$088\\u000a"
+  },
+  {
+    "id": 308,
+    "en": "$091\\u000a",
+    "fr": "$091\\u000a",
+    "de": "$091Web Localisation Coordination:",
+    "tr": "$091\\u000a"
+  },
+  {
+    "id": 309,
+    "en": "$092\\u000a",
+    "fr": "$092\\u000a",
+    "de": "$092Sylvain Caburrosso",
+    "tr": "$092\\u000a"
+  },
+  {
+    "id": 310,
+    "en": "$093\\u000a",
+    "fr": "$093\\u000a",
+    "de": "$093Studio Ops:",
+    "tr": "$093\\u000a"
+  },
+  {
+    "id": 311,
+    "en": "$094\\u000a",
+    "fr": "$094\\u000a",
+    "de": "$094Anne Miller",
+    "tr": "$094\\u000a"
+  },
+  {
+    "id": 312,
+    "en": "$095\\u000a",
+    "fr": "$095\\u000a",
+    "de": "$095Phil Jones",
+    "tr": "$095\\u000a"
+  }
+]

@@ -1,0 +1,912 @@
+[
+  {
+    "id": 0,
+    "en": "$001Go to Diagon Alley",
+    "fr": "$001Aller au Chemin de Traverse",
+    "de": "$001Gehe zur Winkelgasse",
+    "tr": "$001Diagon Yolu'na git"
+  },
+  {
+    "id": 1,
+    "en": "$002Get to Hogwarts on time",
+    "fr": "$002Arriver à Poudlard à l'heure",
+    "de": "$002Erreiche Hogwarts rechtzeitig",
+    "tr": "$002Hogwarts'a vaktinde ulaş"
+  },
+  {
+    "id": 2,
+    "en": "$003Get to Fat lady",
+    "fr": "$003Aller dans la salle commune",
+    "de": "$003Geh zum Gemeinschaftsraum",
+    "tr": "$003Şişman Hanım'a git"
+  },
+  {
+    "id": 3,
+    "en": "$004Learn password to enter Common Room",
+    "fr": "$004Apprendre le mot de passe pour entrer dans la salle commune",
+    "de": "$004Lerne das Passwort für den Gemeinschaftsraum",
+    "tr": "$004Ortak Oda'ya girmek için parolayı öğren"
+  },
+  {
+    "id": 4,
+    "en": "$005Get to Greenhouse three to learn Herbology",
+    "fr": "$005Aller à la serre numéro trois pour apprendre la botanique",
+    "de": "$005Gehe zu Gewächshaus Drei für den Kräuterkunde-Unterricht.",
+    "tr": "$005Bitkibilim dersi için Üç Numaralı Sera'ya git"
+  },
+  {
+    "id": 5,
+    "en": "$006Meet Oliver Wood for Quidditch Training",
+    "fr": "$006Voir Olivier Dubois pour l'entra\\u00a8nement de Quidditch",
+    "de": "$006Treffe dich mit Oliver Wood zum Quidditch-Training.",
+    "tr": "$006Quidditch Antrenmanı için Oliver Wood ile buluş"
+  },
+  {
+    "id": 6,
+    "en": "$007Duel Ron",
+    "fr": "$007Faire un duel contre Ron",
+    "de": "$007Duell mit Ron",
+    "tr": "$007Ron ile düello yap"
+  },
+  {
+    "id": 7,
+    "en": "$008Don't lose Ron!",
+    "fr": "$008Ne pas perdre Ron !",
+    "de": "$008Bleib an Ron dran!",
+    "tr": "$008Ron'u gözden kaybetme!"
+  },
+  {
+    "id": 8,
+    "en": "$009Catch slugs in the bowl and empty them in the barrel",
+    "fr": "$009Mettre les limaces dans l'écuelle et les vider dans le tonneau",
+    "de": "$009Sammle Schnecken in dem Napf und leere sie in das Fass. ",
+    "tr": "$009Sümüklüböcekleri kasede yakala ve fıçıya boşalt"
+  },
+  {
+    "id": 9,
+    "en": "$010Get to the Defence Against the Dark Arts class room in the Upper Castle",
+    "fr": "$010Aller au cours de défense contre les Forces du Mal à l'Etage interdit",
+    "de": "$010Gehe zum Klassenzimmer für Verteidigung gegen die dunklen Künste im Oberschloss.",
+    "tr": "$010Yukarı Şato'daki Karanlık Sanatlara Karşı Savunma sınıfına git"
+  },
+  {
+    "id": 10,
+    "en": "$011Catch all the Pixies",
+    "fr": "$011Attraper tous les lutins",
+    "de": "$011Fang alle Wichtel.",
+    "tr": "$011Bütün cin perilerini yakala"
+  },
+  {
+    "id": 11,
+    "en": "$012Get to Nearly Headless Nick's Deathday Party in the Dungeons",
+    "fr": "$012Aller à l'anniversaire de mort de Nick Quasi-Sans-T\\u00a4te dans les cachots",
+    "de": "$012Gehe zur Todestagsfeier des Fast Kopflosen Nick in den Kerkern.",
+    "tr": "$012Zindanlar'daki Neredeyse Kafasız Nick'in Ölüm Günü Partisi'ne git"
+  },
+  {
+    "id": 12,
+    "en": "$013Collect lacewing flies, boomslang skin and leeches for Polyjuice Potion",
+    "fr": "$013Récupérer des chrysopes, de la peau de serpent d'arbre et des sangsues pour le Polynectar",
+    "de": "$013Sammle Florfliegen, Baumschlangenhaut und Blutegel für den Vielsaft-Trank.",
+    "tr": "$013Çoközlü İksir için dantelkanat sinekleri, ağaçyılanı derisi ve sülük topla"
+  },
+  {
+    "id": 13,
+    "en": "$014Take ingredients to Hermione in the  Upper Castle Girls' Bathroom.",
+    "fr": "$014Apporter les ingrédients à Hermione dans les toilettes des filles à l'Etage interdit.",
+    "de": "$014Bringe Hermine die Zutaten ins Mädchenklo im Oberschloss.",
+    "tr": "$014Malzemeleri Yukarı Şato Kızlar Tuvaleti'ndeki Hermione'ye götür."
+  },
+  {
+    "id": 14,
+    "en": "$015Find entrance to Slytherin Common room",
+    "fr": "$015Trouver l'entrée de la salle commune de Serpentard",
+    "de": "$015Suche den Eingang zum Gemeinschaftsraum der Slytherins.",
+    "tr": "$015Slytherin Ortak Odası'nın girişini bul"
+  },
+  {
+    "id": 15,
+    "en": "$016Get to Gilderoy Lockharts' Office in the Lower Castle",
+    "fr": "$016Aller dans le bureau de Gilderoy Lockhart au rez-de-chaussée",
+    "de": "$016Gehe zum Büro von Gilderoy Lockhart im Unterschloss.",
+    "tr": "$016Aşağı Şato'daki Gilderoy Lockhart'ın Odası'na git"
+  },
+  {
+    "id": 16,
+    "en": "$001Paracelsus",
+    "fr": "$001Paracelse",
+    "de": "$001Paracelsus",
+    "tr": "$001Paracelsus"
+  },
+  {
+    "id": 17,
+    "en": "$002Gaspard Shingleton",
+    "fr": "$002Gaspard Shingleton",
+    "de": "$002Gaspard Shingleton",
+    "tr": "$002Gaspard Shingleton"
+  },
+  {
+    "id": 18,
+    "en": "$003Ignatia Wildsmith",
+    "fr": "$003Ignatia Wildsmith",
+    "de": "$003Ignatia Wildsmith",
+    "tr": "$003Ignatia Wildsmith"
+  },
+  {
+    "id": 19,
+    "en": "$004Felix Summerbee",
+    "fr": "$004Félix Labeille",
+    "de": "$004Felix Summerbee",
+    "tr": "$004Felix Summerbee"
+  },
+  {
+    "id": 20,
+    "en": "$005Greta Catchlove",
+    "fr": "$005Greta Grandamour",
+    "de": "$005Greta Catchlove",
+    "tr": "$005Greta Catchlove"
+  },
+  {
+    "id": 21,
+    "en": "$006Jocunda Sykes",
+    "fr": "$006Jocunda Sykes",
+    "de": "$006Jocunda Sykes",
+    "tr": "$006Jocunda Sykes"
+  },
+  {
+    "id": 22,
+    "en": "$007Dorcas Wellbeloved",
+    "fr": "$007Dorcas Bienaimée",
+    "de": "$007Dorcas Wellbeloved",
+    "tr": "$007Dorcas Wellbeloved"
+  },
+  {
+    "id": 23,
+    "en": "$008Crispin Cronk",
+    "fr": "$008Crispin Cronk",
+    "de": "$008Crispin Cronk",
+    "tr": "$008Crispin Cronk"
+  },
+  {
+    "id": 24,
+    "en": "$009Yardley Platt",
+    "fr": "$009Yardley Platt",
+    "de": "$009Yardley Platt",
+    "tr": "$009Yardley Platt"
+  },
+  {
+    "id": 25,
+    "en": "$010Edgar Stroulger",
+    "fr": "$010Edgar Stroulger",
+    "de": "$010Edgar Stroulger",
+    "tr": "$010Edgar Stroulger"
+  },
+  {
+    "id": 26,
+    "en": "$011Adalbert Waffling",
+    "fr": "$011Adalbert Lasornette",
+    "de": "$011Adalbert Schwahfel",
+    "tr": "$011Adalbert Waffling"
+  },
+  {
+    "id": 27,
+    "en": "$012Cassandra Vablatsky",
+    "fr": "$012Cassandra Vablatsky",
+    "de": "$012Cassandra Wablatschky",
+    "tr": "$012Cassandra Vablatsky"
+  },
+  {
+    "id": 28,
+    "en": "$013Montague Knightley",
+    "fr": "$013Montague Knightley",
+    "de": "$013Montague Knightley",
+    "tr": "$013Montague Knightley"
+  },
+  {
+    "id": 29,
+    "en": "$014Chauncey Oldridge",
+    "fr": "$014Chauncey Oldridge",
+    "de": "$014Chauncey Oldridge",
+    "tr": "$014Chauncey Oldridge"
+  },
+  {
+    "id": 30,
+    "en": "$015Godric Gryffindor",
+    "fr": "$015Godric Gryffondor",
+    "de": "$015Godric Gryffindor",
+    "tr": "$015Godric Gryffindor"
+  },
+  {
+    "id": 31,
+    "en": "$016Salazar Slytherin",
+    "fr": "$016Salazar Serpentard",
+    "de": "$016Salazar Slytherin",
+    "tr": "$016Salazar Slytherin"
+  },
+  {
+    "id": 32,
+    "en": "$017Rowena Ravenclaw",
+    "fr": "$017Rowena Serdaigle",
+    "de": "$017Rowena Ravenclaw",
+    "tr": "$017Rowena Ravenclaw"
+  },
+  {
+    "id": 33,
+    "en": "$018Helga Hufflepuff",
+    "fr": "$018Helga Poufsouffle",
+    "de": "$018Helga Hufflepuff",
+    "tr": "$018Helga Hufflepuff"
+  },
+  {
+    "id": 34,
+    "en": "$019Hengist of Woodcroft",
+    "fr": "$019Hengist de Woodcroft",
+    "de": "$019Hengis von Woodcroft",
+    "tr": "$019Woodcroft'lu Hengist"
+  },
+  {
+    "id": 35,
+    "en": "$020Daisy Dodderidge",
+    "fr": "$020Marguerite Dodderidge",
+    "de": "$020Daisy Dodderidge",
+    "tr": "$020Daisy Dodderidge"
+  },
+  {
+    "id": 36,
+    "en": "$021Celestina Warbeck",
+    "fr": "$021Célestina Moldubec",
+    "de": "$021Celestina Warbeck",
+    "tr": "$021Celestina Warbeck"
+  },
+  {
+    "id": 37,
+    "en": "$022Cyprian Youdle",
+    "fr": "$022Cyprien Youdle",
+    "de": "$022Cyprian Youdle",
+    "tr": "$022Cyprian Youdle"
+  },
+  {
+    "id": 38,
+    "en": "$023Herpo the Foul",
+    "fr": "$023Herpo le Fou",
+    "de": "$023Herpo der \\u0098ble",
+    "tr": "$023Hain Herpo"
+  },
+  {
+    "id": 39,
+    "en": "$024Bertie Bott",
+    "fr": "$024Bertie Crochue",
+    "de": "$024Bertie Bott",
+    "tr": "$024Bertie Bott"
+  },
+  {
+    "id": 40,
+    "en": "$001Greatest of all medieval alchemists.",
+    "fr": "$001Le plus grand des alchimistes du Moyen Age.",
+    "de": "$001Grö\\u0099ter aller Alchimisten des Mittelalters",
+    "tr": "$001Ortaçağ simyacılarının en büyüğü."
+  },
+  {
+    "id": 41,
+    "en": "$002Celebrated inventor of the Self-Stirring Cauldron.",
+    "fr": "$002Célèbre inventeur du chaudron à touillage automatique.",
+    "de": "$002Gefeierter Erfinder des selbst umrührenden Kessels.",
+    "tr": "$002Kendi Kendini Karıştıran Kazan'ın ünlü mucidi."
+  },
+  {
+    "id": 42,
+    "en": "$003The witch who invented Floo Powder.",
+    "fr": "$003La sorcière qui inventa la poudre de cheminette.",
+    "de": "$003Die Hexe, die das Flohpulver erfand.",
+    "tr": "$003Uçuş Tozu'nu icat eden cadı."
+  },
+  {
+    "id": 43,
+    "en": "$004Inventor of Cheering Charms.",
+    "fr": "$004Inventeur de sortilèges d'Allégresse.",
+    "de": "$004Erfinder des Aufmunterungszaubers.",
+    "tr": "$004Neşelendirme Büyüleri'nin mucidi."
+  },
+  {
+    "id": 44,
+    "en": "$005Author of 'Charm Your Own Cheese'.",
+    "fr": "$005Auteur de \"Comment ensorceler son fromage\".",
+    "de": "$005Autorin von 'Zaubern Sie Ihren eigenen Käse'.",
+    "tr": "$005'Kendi Peynirini Kendin Büyüle' kitabının yazarı."
+  },
+  {
+    "id": 45,
+    "en": "$006First person to fly across the Atlantic on a broomstick.",
+    "fr": "$006Première personne à avoir traversé l'Atlantique sur un balai.",
+    "de": "$006\\u0098berquerte als Erster den Atlantik auf dem Besen.",
+    "tr": "$006Süpürgeyle Atlas Okyanusu'nu geçen ilk kişi."
+  },
+  {
+    "id": 46,
+    "en": "$007Founder of the Society for Distressed Witches.",
+    "fr": "$007A fondé l'Association des Sorcières en Détresse.",
+    "de": "$007Gründerin der Gesellschaft für verzweifelte Hexen.",
+    "tr": "$007Muhtaç Cadılar Derneği'nin kurucusu."
+  },
+  {
+    "id": 47,
+    "en": "$008Sent to Azkaban for keeping Sphinxes in his back garden.",
+    "fr": "$008A été envoyé à Azkaban pour avoir caché des sphinx dans son jardin.",
+    "de": "$008Wurde nach Askaban geschickt, weil er Sphingen im Garten hielt.",
+    "tr": "$008Arka bahçesinde Sfenks beslediği için Azkaban'a gönderildi."
+  },
+  {
+    "id": 48,
+    "en": "$009Serial goblin-killer.",
+    "fr": "$009Tueur en série de gobelins.",
+    "de": "$009Goblin-Serienmörder",
+    "tr": "$009Seri goblin katili."
+  },
+  {
+    "id": 49,
+    "en": "$010Inventor of the Sneakoscope.",
+    "fr": "$010Inventeur du scrutoscope.",
+    "de": "$010Erfinder des Spickoskops.",
+    "tr": "$010Sinsiölçer'in mucidi."
+  },
+  {
+    "id": 50,
+    "en": "$011Famous magical theoretician.",
+    "fr": "$011Célèbre théoricien de la magie.",
+    "de": "$011Berühmter magischer Theoretiker.",
+    "tr": "$011Ünlü büyü teorisyeni."
+  },
+  {
+    "id": 51,
+    "en": "$012Celebrated Seer and author of 'Unfogging the Future'.",
+    "fr": "$012Voyante célèbre et auteur de \"Lever le voile du futur\".",
+    "de": "$012Gefeierte Seherin und Autorin von 'Entnebelung der Zukunft'.",
+    "tr": "$012Ünlü Kâhin ve 'Geleceğin Sis Perdesini Aralamak' kitabının yazarı."
+  },
+  {
+    "id": 52,
+    "en": "$013Wizard Chess Champion 1506 - 1588.",
+    "fr": "$013Champion d'échecs de sorciers 1506 - 1588.",
+    "de": "$013Zaubererschach-Meister 1506 - 1588.",
+    "tr": "$013Büyücü Satrancı Şampiyonu 1506 - 1588."
+  },
+  {
+    "id": 53,
+    "en": "$014First known victim of Dragon Pox.",
+    "fr": "$014Première victime de la varicelle du dragon.",
+    "de": "$014Erstes bekanntes Opfer der Drachenpocken.",
+    "tr": "$014Ejderha Çiçeği'nin bilinen ilk kurbanı."
+  },
+  {
+    "id": 54,
+    "en": "$015Hogwarts co-founder. Gave his name to a Hogwarts House.",
+    "fr": "$015Co-fondateur de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$015Mitbegründer von Hogwarts. Nach ihm wurde eines der vier Häuser benannt.",
+    "tr": "$015Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 55,
+    "en": "$016Hogwarts co-founder. Gave his name to a Hogwarts House.",
+    "fr": "$016Co-fondateur de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$016Mitbegründer von Hogwarts. Nach ihm wurde eines der vier Häuser benannt.",
+    "tr": "$016Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 56,
+    "en": "$017Hogwarts co-founder. Gave her name to a Hogwarts House.",
+    "fr": "$017Co-fondatrice de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$017Mitbegründerin von Hogwarts. Nach ihr wurde eines der vier Häuser benannt.",
+    "tr": "$017Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 57,
+    "en": "$018Hogwarts co-founder. Gave her name to a Hogwarts House.",
+    "fr": "$018Co-fondatrice de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$018Mitbegründerin von Hogwarts. Nach ihr wurde eines der vier Häuser benannt.",
+    "tr": "$018Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 58,
+    "en": "$019Founded the village of Hogsmeade.",
+    "fr": "$019A fondé le village de Pré-au-Lard.",
+    "de": "$019Gründete das Dorf Hogsmeade.",
+    "tr": "$019Hogsmeade köyünü kurdu."
+  },
+  {
+    "id": 59,
+    "en": "$020First landlady of the Leaky Cauldron.",
+    "fr": "$020Première propriétaire du Chaudron Baveur.",
+    "de": "$020Erste Wirtin des Tropfenden Kessels.",
+    "tr": "$020Çatlak Kazan'ın ilk kadın işletmecisi."
+  },
+  {
+    "id": 60,
+    "en": "$021Popular singing sorceress.",
+    "fr": "$021Chanteuse super-star.",
+    "de": "$021Berühmte Sängerin-Hexe.",
+    "tr": "$021Popüler şarkıcı büyücü kadın."
+  },
+  {
+    "id": 61,
+    "en": "$022Only Quidditch referee ever to die during a match.",
+    "fr": "$022Seul arbitre de quidditch à avoir trouvé la mort pendant un match.",
+    "de": "$022Einziger Quidditch-Schiedsrichter, der während eines Spiels starb.",
+    "tr": "$022Bir maç sırasında ölen tek Quidditch hakemi."
+  },
+  {
+    "id": 62,
+    "en": "$023First known creator of the basilisk.",
+    "fr": "$023Premier créateur connu du Basilic.",
+    "de": "$023Ur-Erfinder des Basilisken.",
+    "tr": "$023Basiliskin bilinen ilk yaratıcısı."
+  },
+  {
+    "id": 63,
+    "en": "$024Inventor of Bertie Bott's Every Flavour Beans.",
+    "fr": "$024Inventa les célèbres dragées surprises de Bertie Crochue.",
+    "de": "$024Erfinder der Bertie Botts Bohnen in allen Geschmacksrichtungen.",
+    "tr": "$024Bertie Bott'un Binbir Çeşit Fasulyeleri'nin mucidi."
+  },
+  {
+    "id": 64,
+    "en": "$005< Talk To",
+    "fr": "$005< Parler",
+    "de": "$005< Ansprechen",
+    "tr": "$005< Konuş"
+  },
+  {
+    "id": 65,
+    "en": "$001Learn $Charms",
+    "fr": "$001Apprendre les $sorts",
+    "de": "$001Lerne $Zauberkunst",
+    "tr": "$001Tılsım $Öğren"
+  },
+  {
+    "id": 66,
+    "en": "$002Learn $Herbology",
+    "fr": "$002Apprendre la $botanique",
+    "de": "$002Lerne $Kräuterkunde",
+    "tr": "$002Bitkibilim $Öğren"
+  },
+  {
+    "id": 67,
+    "en": "$003Learn $Defence $Against $the $Dark $Arts",
+    "fr": "$003Apprendre la $DCFM",
+    "de": "$003Lerne $V.g.d.d.K.",
+    "tr": "$003Karanlık $Sanatlara $Karşı $Savunma $Öğren"
+  },
+  {
+    "id": 68,
+    "en": "$007Learn $Defence $Against $the $Dark $Arts $Lumos",
+    "fr": "$007Apprendre $DCFM $Lumos",
+    "de": "$007Lerne $V.g.d.d.K. $Lumos",
+    "tr": "$007Karanlık $Sanatlara $Karşı $Savunma $Lumos $Öğren"
+  },
+  {
+    "id": 69,
+    "en": "$038< Drink Potion",
+    "fr": "$038< Boire la potion",
+    "de": "$038< Zaubertrank trinken",
+    "tr": "$038< İksiri İç"
+  },
+  {
+    "id": 70,
+    "en": "$001< Use Door",
+    "fr": "$001< Ouvrir la porte",
+    "de": "$001< Tür öffnen",
+    "tr": "$001< Kapıyı Kullan"
+  },
+  {
+    "id": 71,
+    "en": "$002Locked",
+    "fr": "$002Fermé",
+    "de": "$002Verschlossen",
+    "tr": "$002Kilitli"
+  },
+  {
+    "id": 72,
+    "en": "$007> Levitate",
+    "fr": "$007> Léviter",
+    "de": "$007> Schweben lassen",
+    "tr": "$007> Havalandır"
+  },
+  {
+    "id": 73,
+    "en": "$008[ Drop",
+    "fr": "$008[ L\\u009ccher",
+    "de": "$008[ Fallen lassen",
+    "tr": "$008[ Bırak"
+  },
+  {
+    "id": 74,
+    "en": "#1#$011Petrificus Totalus",
+    "fr": "#2#$011Petrificus Totalus",
+    "de": "#3#$011Petrificus Totalus",
+    "tr": "#1#$011Petrificus Totalus"
+  },
+  {
+    "id": 75,
+    "en": "#4#$002Wingardium Leviosa",
+    "fr": "#5#$002Wingardium Leviosa",
+    "de": "#6#$002Wingardium Leviosa",
+    "tr": "#4#$002Wingardium Leviosa"
+  },
+  {
+    "id": 76,
+    "en": "#9#$006I must capture the Pixies in this room using my spells",
+    "fr": "#A#$006Il faut que j'attrape les lutins avec mes sorts.",
+    "de": "#B#$006Ich muss die Wichtel in diesem Raum mit meinen Zaubersprüchen einfangen.",
+    "tr": "#9#$006Büyülerimi kullanarak bu odadaki Cinperilerini yakalamalıyım"
+  },
+  {
+    "id": 77,
+    "en": "#C#$007I must stun all the Pixies in this room and levitate them into the cage",
+    "fr": "#D#$007Il faut que je stupéfixe tous les lutins de cette pièce et que je les remette dans la cage en les faisant léviter.",
+    "de": "#E#$007Ich muss alle Wichtel betäuben und sie dann in den Käfig zurück schweben lassen.",
+    "tr": "#C#$007Bu odadaki bütün Cinperilerini sersemletmeli ve havaya kaldırıp kafese koymalıyım"
+  },
+  {
+    "id": 78,
+    "en": "#F#$008I must stun the Pixies and put them in the cage.",
+    "fr": "#10#$008Je dois stupéfixer tous les lutins et les remettre dans la cage.",
+    "de": "#11#$008Ich muss die Wichtel betäuben und in den Käfig bringen.",
+    "tr": "#F#$008Cinperilerini sersemletip kafese koymalıyım."
+  },
+  {
+    "id": 79,
+    "en": "#12#$009There are still Pixies to catch in this room.",
+    "fr": "#13#$009Il y a encore des lutins à attraper par ici.",
+    "de": "#14#$009Noch immer sind freie Wichtel in diesem Raum.",
+    "tr": "#12#$009Bu odada yakalanacak Cinperileri var hâlâ."
+  },
+  {
+    "id": 80,
+    "en": "#15#$019Are you ready?",
+    "fr": "#16#$019Tu es pr\\u00a4t ?",
+    "de": "#17#$019Bist du bereit?",
+    "tr": "#15#$019Hazır mısın?"
+  },
+  {
+    "id": 81,
+    "en": "#18#$003Splendid!",
+    "fr": "#19#$003Magnifique !",
+    "de": "#1A#$003Gro\\u0099artig!",
+    "tr": "#18#$003Harika!"
+  },
+  {
+    "id": 82,
+    "en": "#1B#$004Perfection!",
+    "fr": "#1C#$004Parfait !",
+    "de": "#1D#$004Perfekt!",
+    "tr": "#1B#$004Kusursuz!"
+  },
+  {
+    "id": 83,
+    "en": "#1E#$007Very stylish - just like me!",
+    "fr": "#1F#$007Beaucoup de style, tout comme moi.",
+    "de": "#20#$007Sehr elegant - genau wie ich!",
+    "tr": "#1E#$007Çok fiyakalı; tıpkı benim gibi!"
+  },
+  {
+    "id": 84,
+    "en": "#21#$001Dear, dear...",
+    "fr": "#22#$001Voyons, voyons...",
+    "de": "#23#$001Schade, schade ...",
+    "tr": "#21#$001Vah, vah..."
+  },
+  {
+    "id": 85,
+    "en": "#24#$002Oh, dear...",
+    "fr": "#25#$002Dommage...",
+    "de": "#26#$002Wie schade ...",
+    "tr": "#24#$002Tüh be..."
+  },
+  {
+    "id": 86,
+    "en": "#27#$009Oh, no...",
+    "fr": "#28#$009Oh non...",
+    "de": "#29#$009Oh, nein ..",
+    "tr": "#27#$009Olamaz..."
+  },
+  {
+    "id": 87,
+    "en": "#2A#$006Looks like Lockhart wants to give us some hands-on experience!",
+    "fr": "#2B#$006On dirait que Lockhart veut nous faire faire des travaux pratiques !",
+    "de": "#2C#$006Mir scheint, Lockhart will uns ein paar Tipps geben!",
+    "tr": "#2A#$006Görünüşe göre Lockhart bize biraz pratik tecrübe kazandırmak istiyor!"
+  },
+  {
+    "id": 88,
+    "en": "#2D#$006I'll take care of this one!",
+    "fr": "#2E#$006Je m'occupe de celui-là !",
+    "de": "#2F#$006Ich kümmere mich darum!",
+    "tr": "#2D#$006Bunun icabına ben bakarım!"
+  },
+  {
+    "id": 89,
+    "en": "#30#$007When a Pixie's sparkle is red, you can use your new spell. Your wand has to be fully charged to stun a Pixie.",
+    "fr": "#31#$007Quand l'étincelle du lutin est rouge, tu peux utiliser ton nouveau sort. Il doit \\u00a4tre chargé à fond pour stupéfixer un lutin.",
+    "de": "#32#$007Wenn der Wichtel rot leuchtet, kannst du deinen neuen Zauberspruch verwenden. Er muss aber voll aufgeladen sein, um einen Wichtel zu betäuben.",
+    "tr": "#30#$007Bir Cinperisinin ışıltısı kırmızı olduğunda yeni büyünü kullanabilirsin. Bir Cinperisini sersemletmek için asan tam şarj edilmiş olmalı."
+  },
+  {
+    "id": 90,
+    "en": "#33#$007Petrificus Totalus!",
+    "fr": "#34#$007Petrificus Totalus !",
+    "de": "#35#$007Petrificus Totalus!",
+    "tr": "#33#$007Petrificus Totalus!"
+  },
+  {
+    "id": 91,
+    "en": "#36#$007You can only levitate him when he\\u00b8s been stunned.",
+    "fr": "#37#$007Tu peux le faire léviter mais il doit \\u00a4tre stupéfixé avant.",
+    "de": "#38#$007Du kannst ihn nur schweben lassen, wenn er betäubt ist.",
+    "tr": "#36#$007Onu ancak sersemledikten sonra havaya kaldırabilirsin."
+  },
+  {
+    "id": 92,
+    "en": "#39#$007Wingardium Leviosa!",
+    "fr": "#3A#$007Wingardium Leviosa !",
+    "de": "#3B#$007Wingardium Leviosa!",
+    "tr": "#39#$007Wingardium Leviosa!"
+  },
+  {
+    "id": 93,
+    "en": "#3C#$007Steer the Pixie over the cage, and drop him in.",
+    "fr": "#3D#$007Guide le lutin au-dessus de la cage et laisse-le tomber.",
+    "de": "#3E#$007Bewege den Wichtel über den Käfig und lass ihn fallen.",
+    "tr": "#3C#$007Cinperisini kafesin üzerine yönlendir ve içine bırak."
+  },
+  {
+    "id": 94,
+    "en": "#3F#$007Simple! Now you try with the second one, Harry. Ron and I are going to round up the others.",
+    "fr": "#40#$007Simple comme bonjour ! Maintenant, essaie avec le deuxième. Ron et moi on va rassembler les autres.",
+    "de": "#41#$007Einfach! Versuch's jetzt mit dem zweiten, Harry. Ron und ich kümmern uns um den Rest.",
+    "tr": "#3F#$007Çok basit! Şimdi ikincisini sen dene Harry. Ron'la ben diğerlerini toplayacağız."
+  },
+  {
+    "id": 95,
+    "en": "#42#$009Isn't Professor Lockhart wonderful?",
+    "fr": "#43#$009Il est merveilleux, ce professeur Lockhart...",
+    "de": "#44#$009Ist Professor Lockhart nicht toll?",
+    "tr": "#42#$009Profesör Lockhart harika biri değil mi?"
+  },
+  {
+    "id": 96,
+    "en": "$009not used",
+    "fr": "$009not used",
+    "de": "$009not used",
+    "tr": "$009kullanılmıyor"
+  },
+  {
+    "id": 97,
+    "en": "#45#$001Now - be warned! You may find yourselves facing your worst fears in this room.",
+    "fr": "#46#$001Attention, vous aurez peut-\\u00a4tre dans cette classe les plus belles peurs de votre vie.",
+    "de": "#47#$001Ich muss euch warnen! Es kann sein, dass ihr in diesem Raum euren schlimmsten \\u008bngsten ins Gesicht sehen müsst.",
+    "tr": "#45#$001Şimdi... sizi uyarıyorum! Bu odada en büyük korkularınızla yüz yüze gelebilirsiniz."
+  },
+  {
+    "id": 98,
+    "en": "#48#$001No harm can befall you whilst I am here.  Remain calm.  Ready?",
+    "fr": "#49#$001Mais sachez que rien de f\\u009ccheux ne peut vous arriver tant que vous \\u00a4tes en ma présence. Restez calme. Pr\\u00a4ts ?",
+    "de": "#4A#$001Euch kann nichts passieren, solange ich hier bin. Bleibt ruhig. Bereit?",
+    "tr": "#48#$001Ben buradayken başınıza hiçbir kötülük gelemez. Sakin olun. Hazır mısınız?"
+  },
+  {
+    "id": 99,
+    "en": "#4B#$015A freshly caught Cornish Pixie!",
+    "fr": "#4C#$015Un lutin de Cornouailles fra\\u00a8chement capturé !",
+    "de": "#4D#$015Frisch gefangene Wichtel aus Cornwall!",
+    "tr": "#4B#$015Yeni yakalanmış bir Cornwall Cinperisi!"
+  },
+  {
+    "id": 100,
+    "en": "#4E#$004Don't worry, I stunned this one earlier. We are quite safe!",
+    "fr": "#4F#$004Ne vous en faites pas, je l'ai déjà stupéfixé. Nous ne risquons rien.",
+    "de": "#50#$004Keine Sorge. Ich habe ihn zuvor betäubt. Wir sind sicher!",
+    "tr": "#4E#$004Merak etmeyin, bunu daha önce sersemletmiştim. Tamamen güvendeyiz!"
+  },
+  {
+    "id": 101,
+    "en": "#51#$016Ahem! Well, I'll ask you three just to put this little fellow and any others back into their cages. I'll see you after the lesson.",
+    "fr": "#52#$016Hem... Je vous demanderai simplement de le remettre dans sa cage ainsi que ses petits copains. Je vous retrouve après le cours.",
+    "de": "#53#$016Nun, ich bitte euch drei, den Rest von ihnen wieder in den Käfig zu sperren. Wir sehen uns später.",
+    "tr": "#51#$016Öhöm! Şey, siz üçünüzden bu küçük keratayı ve diğerlerini kafeslerine geri koymanızı rica edeceğim. Dersten sonra görüşürüz."
+  },
+  {
+    "id": 102,
+    "en": "#54#$007Ah, Harry. I sent your friend upstairs to deal with a few, uh, escapees.  Clear up in here first, then you should join him.",
+    "fr": "#55#$007Ah, Harry. J'ai envoyé ton ami s'occuper de quelques... fugitifs. Fais le ménage ici, puis va le rejoindre quand tu auras fini.",
+    "de": "#56#$007Ah Harry. Ich habe deinen Freund nach oben geschickt, damit er sich um ein paar, ähm, Ausrei\\u0099er kümmert. Räum erst hier auf und geh dann zu ihm.",
+    "tr": "#54#$007Ah, Harry. Arkadaşını yukarıya, birkaç kaçkınla... şey... ilgilenmesi için gönderdim. Önce burayı temizleyin, sonra ona katılırsın."
+  },
+  {
+    "id": 103,
+    "en": "#57#$002Hello class, I'm Gilderoy Lockhart, five times winner of Witch Weekly's Most-Charming-Smile Award.",
+    "fr": "#58#$002Bonjour à tous. Je suis Gilderoy Lockhart, cinq fois lauréat du prix du sourire le plus charmeur décerné par les lectrices de Sorcière-Hebdo.",
+    "de": "#59#$002Liebe Schüler, ich bin Gilderoy Lockhart, fünfmaliger Gewinner des Charmantestes-Lächeln-Preises der Hexenwoche.",
+    "tr": "#57#$002Merhaba sınıf, ben Gilderoy Lockhart; Cadı Gündemi'nin En Büyüleyici Gülümseme Ödülü'nü beş kez kazandım."
+  },
+  {
+    "id": 104,
+    "en": "#5A#$003Today I am going to teach you the total body bind spell -  $Petrificus $Totalus!",
+    "fr": "#5B#$003Aujourd'hui, je vais vous enseigner le sort le plus immobilisant de tous - le $Petrificus $Totalus !",
+    "de": "#5C#$003Heute erkläre ich euch einen Zauberspruch, der den Körper lähmt - den $Petrificus $Totalus!",
+    "tr": "#5A#$003Bugün size tam beden kilitleme büyüsünü öğreteceğim: $Petrificus $Totalus!"
+  },
+  {
+    "id": 105,
+    "en": "#5D#$004Watch my expensive wand as it moves and press the symbols it points to!",
+    "fr": "#5E#$004Regardez ma baguette de luxe et appuyez sur les symboles qu'elle montre !",
+    "de": "#5F#$004Folgt den Bewegungen meines wertvollen Zauberstabs und drückt die Symbole, auf die er zeigt!",
+    "tr": "#5D#$004Benim pahalı asam hareket ederken onu izleyin ve işaret ettiği sembollere basın!"
+  },
+  {
+    "id": 106,
+    "en": "#60#$005Do this three times and you will learn $Petrificus $Totalus!",
+    "fr": "#61#$005Faites-le trois fois pour apprendre le sort $Petrificus $Totalus !",
+    "de": "#62#$005Wiederholt dies drei Mal und ihr beherrscht den $Petrificus $Totalus!",
+    "tr": "#60#$005Bunu üç kez yapın ve $Petrificus $Totalus büyüsünü öğrenin!"
+  },
+  {
+    "id": 107,
+    "en": "#63#$005That's the easy one.  Ready now?",
+    "fr": "#64#$005C'était le plus facile. Pr\\u00a4t ?",
+    "de": "#65#$005Das war ganz leicht. Bereit?",
+    "tr": "#63#$005Bu kolay kısmıydı. Şimdi hazır mısınız?"
+  },
+  {
+    "id": 108,
+    "en": "#66#$005One more to go, get ready.",
+    "fr": "#67#$005Encore un, prépare-toi.",
+    "de": "#68#$005Noch einmal, mach dich bereit.",
+    "tr": "#66#$005Bir tane kaldı, hazır ol."
+  },
+  {
+    "id": 109,
+    "en": "#69#$005That's the last repetition.",
+    "fr": "#6A#$005Une dernière fois.",
+    "de": "#6B#$005Die letzte Wiederholung.",
+    "tr": "#69#$005Bu son tekrar."
+  },
+  {
+    "id": 110,
+    "en": "#6C#$007You\\u00b8ve earned a passable grade. Well done.",
+    "fr": "#6D#$007Tu as une note moyenne. Pas mal.",
+    "de": "#6E#$007Das gibt eine durchschnittliche Note. ",
+    "tr": "#6C#$007Geçer bir not aldın. Aferin."
+  },
+  {
+    "id": 111,
+    "en": "#6F#$007If you come back later you can try for a better grade and earn a special prize!",
+    "fr": "#70#$007Si tu reviens plus tard, tu pourras tenter ta chance pour une meilleure note et un prix spécial !",
+    "de": "#71#$007Wenn du wiederkommst, kannst du versuchen, eine bessere Note zu bekommen und einen Sonderpreis zu gewinnen!",
+    "tr": "#6F#$007Daha sonra tekrar gelirsen daha iyi bir not almayı deneyebilir ve özel bir ödül kazanabilirsin!"
+  },
+  {
+    "id": 112,
+    "en": "#72#$007You earned a grade $A. Congratulations!",
+    "fr": "#73#$007Tu as la note $A. Félicitations !",
+    "de": "#74#$007Du bekommst dafür eine $1. Glückwunsch!",
+    "tr": "#72#$007$A notu aldın. Tebrikler!"
+  },
+  {
+    "id": 113,
+    "en": "#75#$006You\\u00b8ve earned the $Defence $Against $the $Dark $Arts $Lesson $Cup for your hard work.",
+    "fr": "#76#$006Tu as gagné une $Carte $des $sorcières $et $sorciers $célèbres ! Dédicacée par moi, bien s\\u00b3r !",
+    "de": "#77#$006Du hast eine $Bildkarte $berühmter $Hexen $und $Zauberer gewonnen! Natürlich von mir unterzeichnet.",
+    "tr": "#75#$006Sıkı çalışman karşılığında $Karanlık $Sanatlara $Karşı $Savunma $Ders $Kupası'nı kazandın."
+  },
+  {
+    "id": 114,
+    "en": "#78#$007Excellent \\u00b5 quite excellent!. And so, to business...",
+    "fr": "#79#$007Excellent, vraiment ! Maintenant, au travail...",
+    "de": "#7A#$007Vortrefflich - wahrlich! Und jetzt an die Arbeit!",
+    "tr": "#78#$007Mükemmel—hem de tam anlamıyla mükemmel! Şimdi, işimize dönelim..."
+  },
+  {
+    "id": 115,
+    "en": "#7B#$004Come to try the $Petrificus $Totalus! spell again? You should do better this time.",
+    "fr": "#7C#$004Tu es revenu pour le $Petrificus $Totalus ? Cette fois-ci, tu devrais faire mieux.",
+    "de": "#7D#$004Na, willst du den $Petrificus $Totalus noch mal versuchen? Streng dich diesmal an!",
+    "tr": "#7B#$004$Petrificus $Totalus! büyüsünü tekrar denemeye mi geldin? Bu sefer daha iyisini yapmalısın."
+  },
+  {
+    "id": 116,
+    "en": "#7E#$004Would you like to make improvements to your current grade, Harry?",
+    "fr": "#7F#$004Veux-tu améliorer ta note, Harry ?",
+    "de": "#80#$004Na, möchtest du deine aktuelle Note verbessern, Harry?",
+    "tr": "#7E#$004Mevcut notunu yükseltmek ister misin Harry?"
+  },
+  {
+    "id": 117,
+    "en": "#81#$007Would you like to try again, Harry?",
+    "fr": "#82#$007Veux-tu réessayer, Harry ?",
+    "de": "#83#$007Möchtest du einen neuen Versuch starten?",
+    "tr": "#81#$007Tekrar denemek ister misin Harry?"
+  },
+  {
+    "id": 118,
+    "en": "#84#$007That\\u00b8s all there is to it, Potter!  Well done!",
+    "fr": "#85#$007C'est aussi simple que \\u00a1a, Potter ! Bravo !",
+    "de": "#86#$007Das ist alles, Potter! Gut gemacht!",
+    "tr": "#84#$007İşte hepsi bu kadar, Potter! Aferin!"
+  },
+  {
+    "id": 119,
+    "en": "#88#$001Okay, I'll try my best, but my wand's been acting very funny lately!",
+    "fr": "#89#$001Bon, je vais faire de mon mieux, mais ma baguette se comporte de fa\\u00a1on bizarre ces temps-ci !",
+    "de": "#8A#$001Okay, ich werde es versuchen, aber mein Zauberstab ist ein bisschen komisch im Moment.",
+    "tr": "#88#$001Tamam, elimden geleni yapacağım ama şu sıralar asam çok tuhaf davranıyor!"
+  },
+  {
+    "id": 120,
+    "en": "$002Not Used",
+    "fr": "$002Not Used",
+    "de": "$002Not Used",
+    "tr": "$002Kullanılmıyor"
+  },
+  {
+    "id": 121,
+    "en": "$003Not Used",
+    "fr": "$003Not Used",
+    "de": "$003Not Used",
+    "tr": "$003Kullanılmıyor"
+  },
+  {
+    "id": 122,
+    "en": "#8B#$001Well done!  You\\u00b8ve all passed the test!",
+    "fr": "#8C#$001Très bien ! Vous avez tous réussi l'épreuve !",
+    "de": "#8D#$001Gut gemacht! Ihr habt alle den Test bestanden.",
+    "tr": "#8B#$001Aferin! Hepiniz testi geçtiniz!"
+  },
+  {
+    "id": 123,
+    "en": "#8E#$002Obviously, I could have defeated these Pixies with just a few twirls of my wand! 20 points to Gryffindor, for being excellent students!",
+    "fr": "#8F#$002Bien s\\u00b3r, j'aurais pu vaincre ces lutins d'un seul coup de baguette ! 20 points pour Gryffondor pour avoir bien travaillé !",
+    "de": "#90#$002Natürlich hätte ich die Wichtel mit einem kleinen Wedeln meines Zauberstabs zur Ruhe bringen können! Es gibt 20 Punkte für Gryffindor, weil ihr so gute Schüler seid.",
+    "tr": "#8E#$002Tabii ki ben asamı birkaç kez savurarak bu Cinperilerini alt edebilirdim! Mükemmel öğrenciler olduğunuz için Gryffindor'a 20 puan!"
+  },
+  {
+    "id": 124,
+    "en": "#91#$011Catch this Pixie first, Harry!",
+    "fr": "#92#$011Attrape ce lutin, Harry !",
+    "de": "#93#$011Jage zuerst diesen Wichtel, Harry!",
+    "tr": "#91#$011Önce bu Cinperisini yakala Harry!"
+  },
+  {
+    "id": 125,
+    "en": "#94#$012Remember, stun him first, then levitate.",
+    "fr": "#95#$012N'oublie pas : d'abord le stupéfixer, puis le faire léviter.",
+    "de": "#96#$012Denk dran - erst betäuben, dann schweben lassen.",
+    "tr": "#94#$012Unutma, önce onu sersemlet, sonra havaya kaldır."
+  },
+  {
+    "id": 126,
+    "en": "#97#$001Isn't he wonderful?",
+    "fr": "#98#$001Il est magnifique !",
+    "de": "#99#$001Ist er nicht wunderbar?",
+    "tr": "#97#$001Harika biri değil mi?"
+  },
+  {
+    "id": 127,
+    "en": "#9A#$001Well done, Harry! I'll make sure these don't escape, while you go and capture the rest.",
+    "fr": "#9B#$001C'est bien, Harry ! Je vais m'occuper de ceux-là et toi tu attrapes les autres.",
+    "de": "#9C#$001Sehr gut, Harry! Ich sorge dafür, dass sie nicht entkommen. Kümmere du dich um die anderen.",
+    "tr": "#9A#$001Aferin Harry! Sen gidip geri kalanları yakalarken ben bunların kaçmasına engel olurum."
+  },
+  {
+    "id": 128,
+    "en": "#9D#$006Very good, Potter! You'd better check on young Mr. Weasley upstairs. Catch you later!",
+    "fr": "#9E#$006Très bien, Potter ! Ton ami Weasley t'attend là-haut, à bient\\u00adt !",
+    "de": "#9F#$006Sehr gut, Potter! Geh jetzt aber besser zu Ron. Er ist oben. Wir sehen uns!",
+    "tr": "#9D#$006Çok iyi Potter! Yukarıdaki genç Bay Weasley'ye baksan iyi edersin. Sonra görüşürüz!"
+  },
+  {
+    "id": 129,
+    "en": "#A1#$006Well done! You have now won all the House cups and shields. A $Founder $Famous $Witches and $Wizards $Cards is now waiting for you in your $Common $Room.",
+    "fr": "#A2#$006Bien joué ! Vous avez gagné toutes les coupes et écussons. Une Carte des sorcières et sorciers de fondateur vous attend dans votre salle commune.",
+    "de": "#A3#$006Gut gemacht! Jetzt hast du alle Hauspokale und Plaketten gewonnen. Auf dich wartet jetzt eine $Gründer-Bildkarte $berühmter $Hexen $und $Zauberer.",
+    "tr": "#A1#$006Tebrikler! Artık bütün Bina kupalarını ve kalkanlarını kazandın. Bir $Kurucu $Ünlü $Cadı $ve $Büyücü $Kartı şimdi $Ortak $Oda'nda seni bekliyor."
+  }
+]

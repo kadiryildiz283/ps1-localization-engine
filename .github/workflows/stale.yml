@@ -1,0 +1,32 @@
+# .github/workflows/stale.yml
+name: 'Stale'
+
+on:
+  schedule:
+    - cron: '23 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  issues: 'write'
+  pull-requests: 'write'
+
+jobs:
+  stale:
+    runs-on: 'ubuntu-latest'
+    timeout-minutes: 10
+    steps:
+      - uses: 'actions/stale@v9'
+        with:
+          days-before-stale: 60
+          days-before-close: 14
+          stale-issue-label: 'status/stale'
+          stale-pr-label: 'status/stale'
+          stale-issue-message: >
+            Bu issue 60 gündür hareketsiz. 14 gün içinde yorum gelmezse
+            otomatik kapatılacak. Hâlâ geçerliyse bir yorum bırakın.
+          stale-pr-message: >
+            Bu PR 60 gündür hareketsiz. 14 gün içinde güncelleme gelmezse
+            otomatik kapatılacak.
+          exempt-issue-labels: 'priority/P0,priority/P1,status/blocked'
+          exempt-pr-labels: 'priority/P0,priority/P1,status/blocked'
+          operations-per-run: 50

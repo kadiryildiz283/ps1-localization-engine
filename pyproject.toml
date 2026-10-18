@@ -1,0 +1,80 @@
+[project]
+name = "ps1-localization-engine"
+version = "0.1.0"
+description = "Harry Potter and the Chamber of Secrets (PS1) Türkçe yerelleştirme motoru — metin, çeviri, sinir ağı dublaj, ADPCM enjeksiyon ve ISO yeniden inşa"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Kadir Yıldız" }]
+keywords = ["ps1", "localization", "adpcm", "argonaut", "dubbing", "reverse-engineering"]
+
+# Not: XTTS/Coqui, torch vb. ağır bağımlılıklar opsiyoneldir ve
+# yalnızca sentez aşamasında gerekir. Çekirdek araçlar stdlib ile çalışır.
+dependencies = [
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+tts = [
+    "TTS>=0.22",
+    "torch>=2.0",
+    "torchaudio>=2.0",
+    "openai-whisper>=20231117",
+]
+dev = [
+    "pytest>=7.4",
+    "ruff>=0.4",
+]
+
+[project.scripts]
+ps1loc = "engine:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["engine"]
+
+[tool.setuptools.packages.find]
+include = ["tools*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["tools", "tests", "engine.py"]
+exclude = [
+    "rea",
+    "scratch",
+    "extracted",
+    "extracted_text_only",
+    "emulator",
+    ".venv",
+    ".venv-clone",
+]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "B",   # bugbear
+    "UP",  # pyupgrade
+]
+ignore = [
+    "E501",   # satır uzunluğu formatter'a bırakıldı
+    "B008",   # argparse default çağrıları
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E402"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+markers = [
+    "slow: uzun süren sentez/ISO testleri (CI'da koşulmaz)",
+    "requires_assets: disk imajı veya ses dosyası gerektirir (CI'da koşulmaz)",
+]

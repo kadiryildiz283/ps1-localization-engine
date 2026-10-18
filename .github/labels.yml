@@ -1,0 +1,43 @@
+# Etiket taksonomisi — tek doğruluk kaynağı.
+# Senkronizasyon: .github/scripts/sync-labels.sh (gh CLI ile)
+# Biçim: name | description | color (hex, # hariç)
+
+# --- Tür ---
+type/bug|Beklenmeyen davranış|d73a49
+type/feature-request|Yeni özellik veya iyileştirme|0366d6
+type/documentation|Dokümantasyon|7057ff
+type/research|Araştırma / tersine mühendislik görevi|5319e7
+type/question|Bilgi talebi|d876e3
+
+# --- Öncelik ---
+priority/P0|Kritik / engelleyici|D32F2F
+priority/P1|Yüksek öncelik|F57C00
+priority/P2|Orta etki|FFB366
+priority/P3|Düşük / kozmetik|A7E08E
+
+# --- Durum ---
+status/needs-triage|Triage edilmedi|fbca04
+status/in-progress|Üzerinde çalışılıyor|6e9efc
+status/need-information|Daha fazla bilgi gerekli|ff782a
+status/blocked|Harici bağımlılığa takıldı|d73a49
+status/ready-for-merge|Birleştirmeye hazır|28a745
+status/on-hold|Geçici olarak durduruldu|6c757d
+status/stale|Uzun süredir hareket yok|cccccc
+
+# --- Kategori ---
+category/iso|ISO / disk yeniden inşa|0052cc
+category/text|Metin çıkarma / UI|0052cc
+category/translation|Çeviri|0052cc
+category/tts|TTS / ses sentezi|0052cc
+category/adpcm|ADPCM / VAG kodlama|0052cc
+category/injection|WAD XSPS enjeksiyonu|0052cc
+category/character-map|Karakter eşleştirme|0052cc
+category/ci|CI / araç zinciri|0052cc
+category/docs|Dokümantasyon|0052cc
+
+# --- Kapsam ---
+scope/multi-cue|Çoklu cue bölünmesi|003d99
+scope/split-stream|0xA800 paylaşımlı akış|003d99
+scope/speaker-id|Akustik konuşmacı tanıma|003d99
+scope/iso-patch|Sektör yamalama|003d99
+scope/manifest|Manifest / bütçe tabloları|003d99

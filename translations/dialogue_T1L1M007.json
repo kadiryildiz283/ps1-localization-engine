@@ -1,0 +1,1500 @@
+[
+  {
+    "id": 0,
+    "en": "$001Go to Diagon Alley",
+    "fr": "$001Aller au Chemin de Traverse",
+    "de": "$001Gehe zur Winkelgasse",
+    "tr": "$001Diagon Yolu'na git"
+  },
+  {
+    "id": 1,
+    "en": "$002Get to Hogwarts on time",
+    "fr": "$002Arriver à Poudlard à l'heure",
+    "de": "$002Erreiche Hogwarts rechtzeitig",
+    "tr": "$002Hogwarts'a vaktinde ulaş"
+  },
+  {
+    "id": 2,
+    "en": "$003Get to Fat lady",
+    "fr": "$003Aller dans la salle commune",
+    "de": "$003Geh zum Gemeinschaftsraum",
+    "tr": "$003Şişman Hanım'a git"
+  },
+  {
+    "id": 3,
+    "en": "$004Learn password to enter Common Room",
+    "fr": "$004Apprendre le mot de passe pour entrer dans la salle commune",
+    "de": "$004Lerne das Passwort für den Gemeinschaftsraum",
+    "tr": "$004Ortak Oda'ya girmek için parolayı öğren"
+  },
+  {
+    "id": 4,
+    "en": "$005Get to Greenhouse three to learn Herbology",
+    "fr": "$005Aller à la serre numéro trois pour apprendre la botanique",
+    "de": "$005Gehe zu Gewächshaus Drei für den Kräuterkunde-Unterricht.",
+    "tr": "$005Bitkibilim dersi için Üç Numaralı Sera'ya git"
+  },
+  {
+    "id": 5,
+    "en": "$006Meet Oliver Wood for Quidditch Training",
+    "fr": "$006Voir Olivier Dubois pour l'entra\\u00a8nement de Quidditch",
+    "de": "$006Treffe dich mit Oliver Wood zum Quidditch-Training.",
+    "tr": "$006Quidditch Antrenmanı için Oliver Wood ile buluş"
+  },
+  {
+    "id": 6,
+    "en": "$007Duel Ron",
+    "fr": "$007Faire un duel contre Ron",
+    "de": "$007Duell mit Ron",
+    "tr": "$007Ron ile düello yap"
+  },
+  {
+    "id": 7,
+    "en": "$008Don't lose Ron!",
+    "fr": "$008Ne pas perdre Ron !",
+    "de": "$008Bleib an Ron dran!",
+    "tr": "$008Ron'u gözden kaybetme!"
+  },
+  {
+    "id": 8,
+    "en": "$009Catch slugs in the bowl and empty them in the barrel",
+    "fr": "$009Mettre les limaces dans l'écuelle et les vider dans le tonneau",
+    "de": "$009Sammle Schnecken in dem Napf und leere sie in das Fass. ",
+    "tr": "$009Sümüklüböcekleri kasede yakala ve fıçıya boşalt"
+  },
+  {
+    "id": 9,
+    "en": "$010Get to the Defence Against the Dark Arts class room in the Upper Castle",
+    "fr": "$010Aller au cours de défense contre les Forces du Mal à l'Etage interdit",
+    "de": "$010Gehe zum Klassenzimmer für Verteidigung gegen die dunklen Künste im Oberschloss.",
+    "tr": "$010Yukarı Şato'daki Karanlık Sanatlara Karşı Savunma sınıfına git"
+  },
+  {
+    "id": 10,
+    "en": "$011Catch all the Pixies",
+    "fr": "$011Attraper tous les lutins",
+    "de": "$011Fang alle Wichtel.",
+    "tr": "$011Bütün cin perilerini yakala"
+  },
+  {
+    "id": 11,
+    "en": "$012Get to Nearly Headless Nick's Deathday Party in the Dungeons",
+    "fr": "$012Aller à l'anniversaire de mort de Nick Quasi-Sans-T\\u00a4te dans les cachots",
+    "de": "$012Gehe zur Todestagsfeier des Fast Kopflosen Nick in den Kerkern.",
+    "tr": "$012Zindanlar'daki Neredeyse Kafasız Nick'in Ölüm Günü Partisi'ne git"
+  },
+  {
+    "id": 12,
+    "en": "$013Collect lacewing flies, boomslang skin and leeches for Polyjuice Potion",
+    "fr": "$013Récupérer des chrysopes, de la peau de serpent d'arbre et des sangsues pour le Polynectar",
+    "de": "$013Sammle Florfliegen, Baumschlangenhaut und Blutegel für den Vielsaft-Trank.",
+    "tr": "$013Çoközlü İksir için dantelkanat sinekleri, ağaçyılanı derisi ve sülük topla"
+  },
+  {
+    "id": 13,
+    "en": "$014Take ingredients to Hermione in the  Upper Castle Girls' Bathroom.",
+    "fr": "$014Apporter les ingrédients à Hermione dans les toilettes des filles à l'Etage interdit.",
+    "de": "$014Bringe Hermine die Zutaten ins Mädchenklo im Oberschloss.",
+    "tr": "$014Malzemeleri Yukarı Şato Kızlar Tuvaleti'ndeki Hermione'ye götür."
+  },
+  {
+    "id": 14,
+    "en": "$015Find entrance to Slytherin Common room",
+    "fr": "$015Trouver l'entrée de la salle commune de Serpentard",
+    "de": "$015Suche den Eingang zum Gemeinschaftsraum der Slytherins.",
+    "tr": "$015Slytherin Ortak Odası'nın girişini bul"
+  },
+  {
+    "id": 15,
+    "en": "$016Get to Gilderoy Lockharts' Office in the Lower Castle",
+    "fr": "$016Aller dans le bureau de Gilderoy Lockhart au rez-de-chaussée",
+    "de": "$016Gehe zum Büro von Gilderoy Lockhart im Unterschloss.",
+    "tr": "$016Aşağı Şato'daki Gilderoy Lockhart'ın Odası'na git"
+  },
+  {
+    "id": 16,
+    "en": "$001Paracelsus",
+    "fr": "$001Paracelse",
+    "de": "$001Paracelsus",
+    "tr": "$001Paracelsus"
+  },
+  {
+    "id": 17,
+    "en": "$002Gaspard Shingleton",
+    "fr": "$002Gaspard Shingleton",
+    "de": "$002Gaspard Shingleton",
+    "tr": "$002Gaspard Shingleton"
+  },
+  {
+    "id": 18,
+    "en": "$003Ignatia Wildsmith",
+    "fr": "$003Ignatia Wildsmith",
+    "de": "$003Ignatia Wildsmith",
+    "tr": "$003Ignatia Wildsmith"
+  },
+  {
+    "id": 19,
+    "en": "$004Felix Summerbee",
+    "fr": "$004Félix Labeille",
+    "de": "$004Felix Summerbee",
+    "tr": "$004Felix Summerbee"
+  },
+  {
+    "id": 20,
+    "en": "$005Greta Catchlove",
+    "fr": "$005Greta Grandamour",
+    "de": "$005Greta Catchlove",
+    "tr": "$005Greta Catchlove"
+  },
+  {
+    "id": 21,
+    "en": "$006Jocunda Sykes",
+    "fr": "$006Jocunda Sykes",
+    "de": "$006Jocunda Sykes",
+    "tr": "$006Jocunda Sykes"
+  },
+  {
+    "id": 22,
+    "en": "$007Dorcas Wellbeloved",
+    "fr": "$007Dorcas Bienaimée",
+    "de": "$007Dorcas Wellbeloved",
+    "tr": "$007Dorcas Wellbeloved"
+  },
+  {
+    "id": 23,
+    "en": "$008Crispin Cronk",
+    "fr": "$008Crispin Cronk",
+    "de": "$008Crispin Cronk",
+    "tr": "$008Crispin Cronk"
+  },
+  {
+    "id": 24,
+    "en": "$009Yardley Platt",
+    "fr": "$009Yardley Platt",
+    "de": "$009Yardley Platt",
+    "tr": "$009Yardley Platt"
+  },
+  {
+    "id": 25,
+    "en": "$010Edgar Stroulger",
+    "fr": "$010Edgar Stroulger",
+    "de": "$010Edgar Stroulger",
+    "tr": "$010Edgar Stroulger"
+  },
+  {
+    "id": 26,
+    "en": "$011Adalbert Waffling",
+    "fr": "$011Adalbert Lasornette",
+    "de": "$011Adalbert Schwahfel",
+    "tr": "$011Adalbert Waffling"
+  },
+  {
+    "id": 27,
+    "en": "$012Cassandra Vablatsky",
+    "fr": "$012Cassandra Vablatsky",
+    "de": "$012Cassandra Wablatschky",
+    "tr": "$012Cassandra Vablatsky"
+  },
+  {
+    "id": 28,
+    "en": "$013Montague Knightley",
+    "fr": "$013Montague Knightley",
+    "de": "$013Montague Knightley",
+    "tr": "$013Montague Knightley"
+  },
+  {
+    "id": 29,
+    "en": "$014Chauncey Oldridge",
+    "fr": "$014Chauncey Oldridge",
+    "de": "$014Chauncey Oldridge",
+    "tr": "$014Chauncey Oldridge"
+  },
+  {
+    "id": 30,
+    "en": "$015Godric Gryffindor",
+    "fr": "$015Godric Gryffondor",
+    "de": "$015Godric Gryffindor",
+    "tr": "$015Godric Gryffindor"
+  },
+  {
+    "id": 31,
+    "en": "$016Salazar Slytherin",
+    "fr": "$016Salazar Serpentard",
+    "de": "$016Salazar Slytherin",
+    "tr": "$016Salazar Slytherin"
+  },
+  {
+    "id": 32,
+    "en": "$017Rowena Ravenclaw",
+    "fr": "$017Rowena Serdaigle",
+    "de": "$017Rowena Ravenclaw",
+    "tr": "$017Rowena Ravenclaw"
+  },
+  {
+    "id": 33,
+    "en": "$018Helga Hufflepuff",
+    "fr": "$018Helga Poufsouffle",
+    "de": "$018Helga Hufflepuff",
+    "tr": "$018Helga Hufflepuff"
+  },
+  {
+    "id": 34,
+    "en": "$019Hengist of Woodcroft",
+    "fr": "$019Hengist de Woodcroft",
+    "de": "$019Hengis von Woodcroft",
+    "tr": "$019Woodcroft'lu Hengist"
+  },
+  {
+    "id": 35,
+    "en": "$020Daisy Dodderidge",
+    "fr": "$020Marguerite Dodderidge",
+    "de": "$020Daisy Dodderidge",
+    "tr": "$020Daisy Dodderidge"
+  },
+  {
+    "id": 36,
+    "en": "$021Celestina Warbeck",
+    "fr": "$021Célestina Moldubec",
+    "de": "$021Celestina Warbeck",
+    "tr": "$021Celestina Warbeck"
+  },
+  {
+    "id": 37,
+    "en": "$022Cyprian Youdle",
+    "fr": "$022Cyprien Youdle",
+    "de": "$022Cyprian Youdle",
+    "tr": "$022Cyprian Youdle"
+  },
+  {
+    "id": 38,
+    "en": "$023Herpo the Foul",
+    "fr": "$023Herpo le Fou",
+    "de": "$023Herpo der \\u0098ble",
+    "tr": "$023Hain Herpo"
+  },
+  {
+    "id": 39,
+    "en": "$024Bertie Bott",
+    "fr": "$024Bertie Crochue",
+    "de": "$024Bertie Bott",
+    "tr": "$024Bertie Bott"
+  },
+  {
+    "id": 40,
+    "en": "$001Greatest of all medieval alchemists.",
+    "fr": "$001Le plus grand des alchimistes du Moyen Age.",
+    "de": "$001Grö\\u0099ter aller Alchimisten des Mittelalters",
+    "tr": "$001Ortaçağ simyacılarının en büyüğü."
+  },
+  {
+    "id": 41,
+    "en": "$002Celebrated inventor of the Self-Stirring Cauldron.",
+    "fr": "$002Célèbre inventeur du chaudron à touillage automatique.",
+    "de": "$002Gefeierter Erfinder des selbst umrührenden Kessels.",
+    "tr": "$002Kendi Kendini Karıştıran Kazan'ın ünlü mucidi."
+  },
+  {
+    "id": 42,
+    "en": "$003The witch who invented Floo Powder.",
+    "fr": "$003La sorcière qui inventa la poudre de cheminette.",
+    "de": "$003Die Hexe, die das Flohpulver erfand.",
+    "tr": "$003Uçuş Tozu'nu icat eden cadı."
+  },
+  {
+    "id": 43,
+    "en": "$004Inventor of Cheering Charms.",
+    "fr": "$004Inventeur de sortilèges d'Allégresse.",
+    "de": "$004Erfinder des Aufmunterungszaubers.",
+    "tr": "$004Neşelendirme Büyüleri'nin mucidi."
+  },
+  {
+    "id": 44,
+    "en": "$005Author of 'Charm Your Own Cheese'.",
+    "fr": "$005Auteur de \"Comment ensorceler son fromage\".",
+    "de": "$005Autorin von 'Zaubern Sie Ihren eigenen Käse'.",
+    "tr": "$005'Kendi Peynirini Kendin Büyüle' kitabının yazarı."
+  },
+  {
+    "id": 45,
+    "en": "$006First person to fly across the Atlantic on a broomstick.",
+    "fr": "$006Première personne à avoir traversé l'Atlantique sur un balai.",
+    "de": "$006\\u0098berquerte als Erster den Atlantik auf dem Besen.",
+    "tr": "$006Süpürgeyle Atlas Okyanusu'nu geçen ilk kişi."
+  },
+  {
+    "id": 46,
+    "en": "$007Founder of the Society for Distressed Witches.",
+    "fr": "$007A fondé l'Association des Sorcières en Détresse.",
+    "de": "$007Gründerin der Gesellschaft für verzweifelte Hexen.",
+    "tr": "$007Muhtaç Cadılar Derneği'nin kurucusu."
+  },
+  {
+    "id": 47,
+    "en": "$008Sent to Azkaban for keeping Sphinxes in his back garden.",
+    "fr": "$008A été envoyé à Azkaban pour avoir caché des sphinx dans son jardin.",
+    "de": "$008Wurde nach Askaban geschickt, weil er Sphingen im Garten hielt.",
+    "tr": "$008Arka bahçesinde Sfenks beslediği için Azkaban'a gönderildi."
+  },
+  {
+    "id": 48,
+    "en": "$009Serial goblin-killer.",
+    "fr": "$009Tueur en série de gobelins.",
+    "de": "$009Goblin-Serienmörder",
+    "tr": "$009Seri goblin katili."
+  },
+  {
+    "id": 49,
+    "en": "$010Inventor of the Sneakoscope.",
+    "fr": "$010Inventeur du scrutoscope.",
+    "de": "$010Erfinder des Spickoskops.",
+    "tr": "$010Sinsiölçer'in mucidi."
+  },
+  {
+    "id": 50,
+    "en": "$011Famous magical theoretician.",
+    "fr": "$011Célèbre théoricien de la magie.",
+    "de": "$011Berühmter magischer Theoretiker.",
+    "tr": "$011Ünlü büyü teorisyeni."
+  },
+  {
+    "id": 51,
+    "en": "$012Celebrated Seer and author of 'Unfogging the Future'.",
+    "fr": "$012Voyante célèbre et auteur de \"Lever le voile du futur\".",
+    "de": "$012Gefeierte Seherin und Autorin von 'Entnebelung der Zukunft'.",
+    "tr": "$012Ünlü Kâhin ve 'Geleceğin Sis Perdesini Aralamak' kitabının yazarı."
+  },
+  {
+    "id": 52,
+    "en": "$013Wizard Chess Champion 1506 - 1588.",
+    "fr": "$013Champion d'échecs de sorciers 1506 - 1588.",
+    "de": "$013Zaubererschach-Meister 1506 - 1588.",
+    "tr": "$013Büyücü Satrancı Şampiyonu 1506 - 1588."
+  },
+  {
+    "id": 53,
+    "en": "$014First known victim of Dragon Pox.",
+    "fr": "$014Première victime de la varicelle du dragon.",
+    "de": "$014Erstes bekanntes Opfer der Drachenpocken.",
+    "tr": "$014Ejderha Çiçeği'nin bilinen ilk kurbanı."
+  },
+  {
+    "id": 54,
+    "en": "$015Hogwarts co-founder. Gave his name to a Hogwarts House.",
+    "fr": "$015Co-fondateur de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$015Mitbegründer von Hogwarts. Nach ihm wurde eines der vier Häuser benannt.",
+    "tr": "$015Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 55,
+    "en": "$016Hogwarts co-founder. Gave his name to a Hogwarts House.",
+    "fr": "$016Co-fondateur de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$016Mitbegründer von Hogwarts. Nach ihm wurde eines der vier Häuser benannt.",
+    "tr": "$016Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 56,
+    "en": "$017Hogwarts co-founder. Gave her name to a Hogwarts House.",
+    "fr": "$017Co-fondatrice de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$017Mitbegründerin von Hogwarts. Nach ihr wurde eines der vier Häuser benannt.",
+    "tr": "$017Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 57,
+    "en": "$018Hogwarts co-founder. Gave her name to a Hogwarts House.",
+    "fr": "$018Co-fondatrice de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$018Mitbegründerin von Hogwarts. Nach ihr wurde eines der vier Häuser benannt.",
+    "tr": "$018Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 58,
+    "en": "$019Founded the village of Hogsmeade.",
+    "fr": "$019A fondé le village de Pré-au-Lard.",
+    "de": "$019Gründete das Dorf Hogsmeade.",
+    "tr": "$019Hogsmeade köyünü kurdu."
+  },
+  {
+    "id": 59,
+    "en": "$020First landlady of the Leaky Cauldron.",
+    "fr": "$020Première propriétaire du Chaudron Baveur.",
+    "de": "$020Erste Wirtin des Tropfenden Kessels.",
+    "tr": "$020Çatlak Kazan'ın ilk kadın işletmecisi."
+  },
+  {
+    "id": 60,
+    "en": "$021Popular singing sorceress.",
+    "fr": "$021Chanteuse super-star.",
+    "de": "$021Berühmte Sängerin-Hexe.",
+    "tr": "$021Popüler şarkıcı büyücü kadın."
+  },
+  {
+    "id": 61,
+    "en": "$022Only Quidditch referee ever to die during a match.",
+    "fr": "$022Seul arbitre de quidditch à avoir trouvé la mort pendant un match.",
+    "de": "$022Einziger Quidditch-Schiedsrichter, der während eines Spiels starb.",
+    "tr": "$022Bir maç sırasında ölen tek Quidditch hakemi."
+  },
+  {
+    "id": 62,
+    "en": "$023First known creator of the basilisk.",
+    "fr": "$023Premier créateur connu du Basilic.",
+    "de": "$023Ur-Erfinder des Basilisken.",
+    "tr": "$023Basiliskin bilinen ilk yaratıcısı."
+  },
+  {
+    "id": 63,
+    "en": "$024Inventor of Bertie Bott's Every Flavour Beans.",
+    "fr": "$024Inventa les célèbres dragées surprises de Bertie Crochue.",
+    "de": "$024Erfinder der Bertie Botts Bohnen in allen Geschmacksrichtungen.",
+    "tr": "$024Bertie Bott'un Binbir Çeşit Fasulyeleri'nin mucidi."
+  },
+  {
+    "id": 64,
+    "en": "#0#$001Harry Potter's first year at Hogwarts School of Witchcraft and Wizardry was very eventful indeed.",
+    "fr": "#1#$001De nombreux événements avaient eu lieu au cours de la première année passée au collège Poudlard, école de sorcellerie.",
+    "de": "#2#$001Harry Potters erstes Jahr an der Hogwarts-Schule für Hexerei und Zauberei war wahrhaft aufregend.",
+    "tr": "#0#$001Harry Potter'ın Hogwarts Cadılık ve Büyücülük Okulu'ndaki ilk yılı gerçekten de çok hareketli geçmişti."
+  },
+  {
+    "id": 65,
+    "en": "#3#$002Along with his friends, Ron Weasley and Hermione Granger, Harry had managed to defeat Lord Voldemort, the greatest dark sorcerer of all time.",
+    "fr": "#4#$002Avec ses amis, Ron Weasley et Hermione Granger, Harry avait réussi à vaincre Lord Voldemort, le mage noir le plus redoutable de tous les temps.",
+    "de": "#5#$002Zusammen mit seinen Freunden, Ron Weasley und Hermine Granger, besiegte Harry erneut Lord Voldemort, den grö\\u0099ten schwarzen Magier aller Zeiten.",
+    "tr": "#3#$002Harry, arkadaşları Ron Weasley ve Hermione Granger ile birlikte tüm zamanların en büyük karanlık büyücüsü Lord Voldemort'u yenmeyi başarmıştı."
+  },
+  {
+    "id": 66,
+    "en": "#6#$003But now Harry was back at number four Privet Drive.  He was often locked in his room and even though he was a wizard, he couldn\\u00b8t escape because he wasn\\u00b8t allowed to use magic.",
+    "fr": "#7#$003Harry est revenu au 4, Privet Drive. On l'enferme dans sa chambre et il ne peut pas s'en échapper, car il est strictement interdit d'utiliser la magie hors de l'école.",
+    "de": "#8#$003Aber jetzt ist Harry wieder im Ligusterweg Nummer Vier. Oft wird er in sein Zimmer gesperrt und obwohl er ein Zauberer ist, kann er nicht entkommen. Jungen Zauberern ist das Zaubern au\\u0099erhalb der Schule nämlich nicht gestattet.",
+    "tr": "#6#$003Ama Harry şimdi Privet Drive 4 numaraya geri dönmüştü. Sık sık odasına kilitleniyordu ve bir büyücü olmasına rağmen kaçamıyordu, çünkü büyü yapmasına izin yoktu."
+  },
+  {
+    "id": 67,
+    "en": "#9#$140Then, one evening towards the end of the summer holidays, a house-elf named Dobby appeared...",
+    "fr": "#A#$140Un soir, vers la fin de l'été, un elfe de maison appelé Dobby fit son apparition...",
+    "de": "#B#$140Dann, eines Abends während der Sommerferien, erschien der Hauself Dobby ...",
+    "tr": "#9#$140Derken, yaz tatilinin sonlarına doğru bir akşam, Dobby adında bir ev cini ortaya çıktı..."
+  },
+  {
+    "id": 68,
+    "en": "#C#$004Dobby warned Harry not to return to Hogwarts.",
+    "fr": "#D#$004Dobby supplia Harry de ne pas retourner à Poudlard.",
+    "de": "#E#$004Dobby warnte Harry Potter, dass er nicht nach Hogwarts zurückkehren durfte.",
+    "tr": "#C#$004Dobby, Harry'yi Hogwarts'a dönmemesi konusunda uyardı."
+  },
+  {
+    "id": 69,
+    "en": "#F#$005Harry Potter must not go back to Hogwarts!  If Harry Potter goes back, he will be in mortal danger! There is a plot, Harry Potter.  A plot to make most terrible things happen.",
+    "fr": "#10#$005Harry Potter ne doit pas retourner à Poudlard. Si Harry Potter retourne à Poudlard, il courra un danger mortel. Il existe un complot, Harry Potter. Un complot qui provoquera des événements terrifiants à l'école de sorcellerie de Poudlard, cette année.",
+    "de": "#11#$005Harry Potter darf nicht nach Hogwarts zurückkehren! Wenn Harry Potter nach Hogwarts zurückgeht, ist er in tödlicher Gefahr! Es gibt eine Verschwörung, Harry Potter. Eine Verschwörung mit dem Ziel, die schrecklichsten Dinge geschehen zu lassen.",
+    "tr": "#F#$005Harry Potter Hogwarts'a dönmemeli! Harry Potter geri dönerse ölüm tehlikesiyle karşılaşacak! Bir komplo var, Harry Potter. En korkunç şeylerin gerçekleşmesi için kurulmuş bir komplo."
+  },
+  {
+    "id": 70,
+    "en": "#12#$006Dobby disappeared and shortly after, Ron Weasley and his brothers, Fred and George, arrived in a flying Ford Anglia to rescue Harry from his prison.",
+    "fr": "#13#$006Dobby disparut et, peu après, Ron Weasley, Fred et George ses frères, arrivèrent dans une Ford Anglia volante, afin de libérer Harry de sa prison.",
+    "de": "#14#$006Dobby verschwand und kurz darauf erschien Ron Weasley mit seinen Brüdern Fred und George in einem fliegenden Ford Anglia, um Harry aus seinem Gefängnis zu befreien.",
+    "tr": "#12#$006Dobby ortadan kayboldu ve kısa bir süre sonra Ron Weasley ile ağabeyleri Fred ve George, Harry'yi tutsaklığından kurtarmak için uçan bir Ford Anglia ile çıkageldiler."
+  },
+  {
+    "id": 71,
+    "en": "#15#$007Harry told them all about Dobby\\u00b8s warning.",
+    "fr": "#16#$007Harry leur parla de l'avertissement de Dobby.",
+    "de": "#17#$007Harry berichtete ihnen von Dobbys Warnung.",
+    "tr": "#15#$007Harry onlara Dobby'nin uyarısından bahsetti."
+  },
+  {
+    "id": 72,
+    "en": "#18#$021Harry had no idea where he was.  All he could tell was that he wasn\\u00b8t in Diagon Alley.  Evil-looking masks stared down from the wall and rusty, spiked instruments hung from the ceiling.",
+    "fr": "#19#$021Harry n'avait aucune idée de l'endroit o\\u00b1 il avait atterri. Tout ce qu'il savait, c'est qu'il n'était pas sur le Chemin de Traverse. Des masques sinistres accrochés aux murs semblaient jeter des regards sournois et toutes sortes d'instruments pointus et rouillés pendaient du plafond.",
+    "de": "#1A#$021Harry hatte keine Ahnung, wo er war. Er wusste nur, dass er nicht in der Winkelgasse gelandet war. Böse Masken glotzten von den Wänden herab, spitze Gerätschaften hingen von der Decke.",
+    "tr": "#18#$021Harry nerede olduğuna dair hiçbir fikre sahip değildi. Tek bildiği Diagon Yolu'nda olmadığıydı. Duvardan aşağı kötücül maskeler bakıyor, tavandan paslı ve sivri uçlu aletler sarkıyordu."
+  },
+  {
+    "id": 73,
+    "en": "#1B#$022The sooner I get out of here, the better...",
+    "fr": "#1C#$022Il faut que je sorte d'ici le plus vite possible...",
+    "de": "#1D#$022Je schneller ich hier rauskomme, desto besser.",
+    "tr": "#1B#$022Buradan ne kadar çabuk çıkarsam o kadar iyi..."
+  },
+  {
+    "id": 74,
+    "en": "#1E#$023Harry heard a noise from the door nearby-",
+    "fr": "#1F#$023Il entendit un bruit provenant de la porte",
+    "de": "#20#$023Harry hörte ein Geräusch hinter der Tür -",
+    "tr": "#1E#$023Harry hemen yakındaki kapıdan bir ses duydu-"
+  },
+  {
+    "id": 75,
+    "en": "#21#$024-and two blurry shapes appeared on the other side of the glass.",
+    "fr": "#22#$024et deux silhouettes apparurent de l'autre c\\u00adté de la vitre.",
+    "de": "#23#$024und zwei verschwommene Gestalten tauchten auf der anderen Seite der Tür auf.",
+    "tr": "#21#$024-ve camın diğer tarafında iki bulanık siluet belirdi."
+  },
+  {
+    "id": 76,
+    "en": "#24#$025Harry looked quickly around and spotted a large black cabinet. He shot inside it and pulled the doors closed, leaving a small crack to peer through.  Seconds later, a bell clanged-",
+    "fr": "#25#$025Harry jeta un bref coup d'oeil autour de lui et repéra une grande armoire noire. Il se précipita à l'intérieur et referma les portes sur lui en laissant une mince ouverture à travers laquelle il pouvait voir ce qui se passait. Quelques secondes plus tard, une cloche sonna... ",
+    "de": "#26#$025Rasch sah Harry sich um und entdeckte zu seiner Linken einen gro\\u0099en, schwarzen Schrank. Er schlüpfte hinein und zog die Türen hinter sich zu, bis auf einen kleinen Spalt, durch den er hindurchspähen konnte. Sekunden später klirrte eine Glocke - ",
+    "tr": "#24#$025Harry hızla etrafına bakındı ve büyük, siyah bir dolap gördü. Hemen içine dalıp dışarıyı görebileceği küçük bir aralık bırakarak kapakları kapattı. Birkaç saniye sonra bir çıngırak çaldı-"
+  },
+  {
+    "id": 77,
+    "en": "#27#$026-and Draco Malfoy stepped into the shop.",
+    "fr": "#28#$026Et Malefoy entra.",
+    "de": "#29#$026und Draco Malfoy betrat den Laden.",
+    "tr": "#27#$026-ve Draco Malfoy dükkana adım attı."
+  },
+  {
+    "id": 78,
+    "en": "#2A#$027The man who was with Draco could only be his father, Lucius Malfoy.",
+    "fr": "#2B#$027L'homme qui le suivait ne pouvait \\u00a4tre que son père.",
+    "de": "#2C#$027Der Mann, der ihm folgte, konnte nur sein Vater sein, Lucius Malfoy.",
+    "tr": "#2A#$027Draco'nun yanındaki adam ancak babası Lucius Malfoy olabilirdi."
+  },
+  {
+    "id": 79,
+    "en": "#2D#$028Touch nothing Draco.",
+    "fr": "#2E#$028Ne touche à rien, Drago.",
+    "de": "#2F#$028Rühr nichts an, Draco.",
+    "tr": "#2D#$028Hiçbir şeye dokunma Draco."
+  },
+  {
+    "id": 80,
+    "en": "$029Not Used",
+    "fr": "$029Not Used",
+    "de": "$029Not Used",
+    "tr": "$029Kullanılmıyor"
+  },
+  {
+    "id": 81,
+    "en": "$030Not Used",
+    "fr": "$030Not Used",
+    "de": "$030Not Used",
+    "tr": "$030Kullanılmıyor"
+  },
+  {
+    "id": 82,
+    "en": "#30#$031Mr. Malfoy was trying to sell the shopkeeper certain dark magical items that he didn\\u00b8t want the Ministry of Magic to find out about.",
+    "fr": "#31#$031M. Malefoy était en train d'essayer de vendre des objets de magie noire qu'il voulait dissimuler aux yeux du ministère de la Magie.",
+    "de": "#32#$031Mr Malfoy versuchte, dem Ladenbesitzer einige Gegenstände schwarzer Magie zu verkaufen, die er vor dem Zaubereiministerium verstecken wollte.",
+    "tr": "#30#$031Bay Malfoy, Sihir Bakanlığı'nın öğrenmesini istemediği bazı karanlık büyü eşyalarını dükkan sahibine satmaya çalışıyordu."
+  },
+  {
+    "id": 83,
+    "en": "#33#$141With the deal complete, the Malfoys left the shop giving Harry the opportunity to sneak outside and into Diagon Alley.",
+    "fr": "#34#$141Après avoir conclu le marché, les Malefoy quittèrent les lieux, et Harry put se faufiler hors de la boutique jusqu'au Chemin de Traverse.",
+    "de": "#35#$141Nachdem sie den Verkauf klar gemacht hatten, verlie\\u0099en die Malfoys den Laden und ermöglichten Harry so, sich in die Winkelgasse zu schleichen.",
+    "tr": "#33#$141Anlaşma tamamlanınca Malfoylar dükkandan ayrıldı; bu da Harry'ye dışarı süzülüp Diagon Yolu'na çıkma fırsatı verdi."
+  },
+  {
+    "id": 84,
+    "en": "#36#$032Harry went to Flourish and Blotts to buy his books.  While he was in there, Gilderoy Lockhart, Hogwarts new Defence Against the Dark Arts teacher, was signing his latest book.",
+    "fr": "#37#$032Harry se rendit immédiatement chez Fleury et Bott pour y acheter ses livres. Le nouveau professeur de défense contre les Forces du Mal, Gilderoy Lockhart, s'y trouvait également pour dédicacer son dernier livre.",
+    "de": "#38#$032Harry ging direkt zu Flourish und Blotts, um seine Bücher für das neue Schuljahr zu kaufen. Zu der Zeit war auch Gilderoy Lockhart, der neue Lehrer für Verteidigung gegen die dunklen Künste in Hogwarts, in der Buchhandlung und signierte sein neuestes Buch.",
+    "tr": "#36#$032Harry kitaplarını almak için Flourish ve Blotts'a gitti. O içerideyken Hogwarts'ın yeni Karanlık Sanatlara Karşı Savunma öğretmeni Gilderoy Lockhart son kitabını imzalıyordu."
+  },
+  {
+    "id": 85,
+    "en": "#39#$142When he saw the famous Harry Potter, Lockhart dragged him over for a joint photograph.",
+    "fr": "#3A#$142En voyant le célèbre Harry Potter, Lockhart l'entra\\u00a8na pour faire une photo avec lui.",
+    "de": "#3B#$142Als er den berühmten Harry Potter entdeckte, zog Lockhart ihn überglücklich an seine Seite - für ein Foto in der Presse.",
+    "tr": "#39#$142Ünlü Harry Potter'ı gören Lockhart, birlikte fotoğraf çektirmek için onu yanına çekti."
+  },
+  {
+    "id": 86,
+    "en": "#3C#$033Nice big smile, Harry.  Together, you and I are worth the front page.",
+    "fr": "#3D#$033Fais-nous un beau sourire, Harry. Toi et moi, on va faire la une.",
+    "de": "#3E#$033Immer schön lächeln, Harry. Sie und ich zusammen schaffen es auf die Titelseite.",
+    "tr": "#3C#$033Şöyle kocaman gülümse bakalım Harry. Sen ve ben birlikte ön sayfaya layığız."
+  },
+  {
+    "id": 87,
+    "en": "#3F#$034Harry met up with Ron and Ginny Weasley. Lucius and Draco Malfoy were also there...",
+    "fr": "#40#$034Harry rencontra Ron et Ginny Weasley. Lucius et Drago Malefoy étaient là eux aussi...",
+    "de": "#41#$034Harry ging zu Ron und Ginny Weasley. Lucius und Draco Malfoy waren auch dort ...",
+    "tr": "#3F#$034Harry, Ron ve Ginny Weasley ile buluştu. Lucius ve Draco Malfoy da oradaydı..."
+  },
+  {
+    "id": 88,
+    "en": "#42#$043By the time Harry and Ron had escaped from the Whomping Willow, the Sorting Ceremony had already begun.",
+    "fr": "#43#$043Quand Harry et Ron réussirent à échapper au saule cogneur, la Cérémonie de la Répartition avait déjà commencé.",
+    "de": "#44#$043Als Harry und Ron der Peitschenden Weide entkommen konnten, hatte die Einführungsfeier natürlich längst begonnen.",
+    "tr": "#42#$043Harry ile Ron Şamarcı Söğüt'ten kaçmayı başardıklarında, Seçim Töreni çoktan başlamıştı."
+  },
+  {
+    "id": 89,
+    "en": "#45#$144They peered in at the Great Hall and watched as the aged, old Sorting Hat placed new students into the four Hogwarts Houses, as it had for so many years past.",
+    "fr": "#46#$144Dans la Grande Salle, ils virent que le vieux Choixpeau magique avait réparti les nouveaux élèves dans les quatre maisons de Poudlard, comme il l'avait toujours fait.",
+    "de": "#47#$144Sie lugten in die Gro\\u0099e Halle und beobachteten, wie der alte Sprechende Hut die neuen Schüler den einzelnen Häusern zuteilte. ",
+    "tr": "#45#$144Büyük Salon'a göz attılar ve yaşlı Seçmen Şapka'nın, yıllardır yaptığı gibi yeni öğrencileri dört Hogwarts Binasına yerleştirmesini izlediler."
+  },
+  {
+    "id": 90,
+    "en": "#48#$044Harry remembered putting the Sorting Hat on a year ago, and for a few horrible seconds he had feared the hat was going to put him into Slytherin, along with Draco Malfoy.",
+    "fr": "#49#$044Harry se rappelait très bien le moment o\\u00b1 il avait lui-m\\u00a4me coiffé ce chapeau, un an auparavant. Pendant quelques instants terrifiants, il avait craint que le chapeau ne l'envoie chez les Serpentard, avec Drago Malefoy.",
+    "de": "#4A#$044Harry erinnerte sich noch sehr gut daran, wie er vor einem Jahr den alten Hut übergestreift hatte. Ein paar schreckliche Sekunden lang hatte er befürchtet, der Hut würde ihn nach Slytherin stecken, zusammen mit Draco Malfoy.",
+    "tr": "#48#$044Harry bir yıl önce Seçmen Şapka'yı taktığını hatırladı; o birkaç korkunç saniye boyunca şapkanın kendisini Draco Malfoy ile birlikte Slytherin'e yerleştireceğinden korkmuştu."
+  },
+  {
+    "id": 91,
+    "en": "#4B#$045Not Slytherin, eh?  Well, if you\\u00b8re sure \\u00b5 better be GRYFFINDOR!",
+    "fr": "#4C#$045Pas à Serpentard ? Très bien, si tu es s\\u00b3r de toi, il vaut mieux t'envoyer à GRYFFONDOR !",
+    "de": "#4D#$045Nicht Slytherin, nein? Nun, wenn du dir sicher bist, dann besser nach GRYFFINDOR!",
+    "tr": "#4B#$045Slytherin olmasın, ha? Madem eminsin... GRYFFINDOR olsun öyleyse!"
+  },
+  {
+    "id": 92,
+    "en": "#4E#$046But, of course, he had ended up in Gryffindor, along with Ron and Hermione.  As they watched the Sorting, Harry noticed that at least one teacher was missing from the staff table.",
+    "fr": "#4F#$046Mais il s'était finalement retrouvé à Gryffondor, avec Ron et Hermione. Alors qu'ils regardaient la Répartition, Harry s'aper\\u00a1ut qu'un professeur manquait à la table.",
+    "de": "#50#$046Aber er war natürlich in Gryffindor gelandet - zusammen mit Ron und Hermine. Während sie die Auswahlzeremonie beobachteten, bemerkte Harry, dass mindestens einer der Lehrer am Tisch fehlte.",
+    "tr": "#4E#$046Ama elbette, Ron ve Hermione ile birlikte Gryffindor'a yerleşmişti. Seçimi izlerlerken Harry, öğretmenler masasında en az bir öğretmenin eksik olduğunu fark etti."
+  },
+  {
+    "id": 93,
+    "en": "#51#$047Hang on... Where\\u00b8s Snape?",
+    "fr": "#52#$047Dis-donc... O\\u00b1 est Rogue ?",
+    "de": "#53#$047Moment mal ... Wo ist Snape?",
+    "tr": "#51#$047Bir dakika... Snape nerede?"
+  },
+  {
+    "id": 94,
+    "en": "#54#$048And then, from behind him, came the voice Harry dreaded to hear...",
+    "fr": "#55#$048Derrière lui, Harry entendit tout à coup la voix qu'il redoutait le plus...",
+    "de": "#56#$048Und dann hörte Harry hinter sich die Stimme, die er Fürchten gelernt hatte ...",
+    "tr": "#54#$048Ve tam o sırada, arkasından Harry'nin duymaktan en çok korktuğu ses geldi..."
+  },
+  {
+    "id": 95,
+    "en": "#57#$049It was Professor Snape, Harry\\u00b8s least favourite teacher.",
+    "fr": "#58#$049La voix du professeur Rogue, celui qu'il aimait le moins.",
+    "de": "#59#$049Professor Snape, der Lehrer, den Harry am wenigsten leiden konnte.",
+    "tr": "#57#$049Bu, Harry'nin hiç sevmediği öğretmeni Profesör Snape'ti."
+  },
+  {
+    "id": 96,
+    "en": "#5B#$008Very fishy.  I reckon old Dobby was sent as someone\\u00b8s idea of a joke.  Can you think of anyone at school with a grudge against you?",
+    "fr": "#5C#$008C'est bizarre. J'imagine que Dobby a été envoyé par quelqu'un qui voulait te faire une mauvaise farce. Tu ne vois pas qui pourrait t'en vouloir, à l'école ?",
+    "de": "#5D#$008Ganz faule Geschichte. Ich wette, Dobby wurde von jemandem geschickt, der das witzig fand. Gibt es jemanden in der Schule, der etwas gegen dich hat?",
+    "tr": "#5B#$008Çok şüpheli bir durum. Bence bizim ihtiyar Dobby'yi birisi eşek şakası olsun diye gönderdi. Okulda sana kin besleyen birini hatırlıyor musun?"
+  },
+  {
+    "id": 97,
+    "en": "#5E#$009Draco Malfoy.",
+    "fr": "#5F#$009Drago Malefoy.",
+    "de": "#60#$009Draco Malfoy.",
+    "tr": "#5E#$009Draco Malfoy."
+  },
+  {
+    "id": 98,
+    "en": "#61#$010Eventually, they landed at Ron\\u00b8s house \\u00b5 the Burrow.",
+    "fr": "#62#$010Ils arrivèrent enfin à la maison de Ron - Le Terrier.",
+    "de": "#63#$010Schlie\\u0099lich landeten sie vor dem Haus der Weasleys - dem Fuchsbau.",
+    "tr": "#61#$010Sonunda Ron'un evine, Kovuk'a indiler."
+  },
+  {
+    "id": 99,
+    "en": "#64#$011Touchdown!",
+    "fr": "#65#$011Atterrissage !",
+    "de": "#66#$011Touchdown!",
+    "tr": "#64#$011Ve indik!"
+  },
+  {
+    "id": 100,
+    "en": "#67#$012Ron\\u00b8s mother, Molly Weasley, marched across the yard and came to a halt in front of them.  She didn\\u00b8t look pleased...",
+    "fr": "#68#$012La mère de Ron, Molly Weasley, traversa la cour et s'arr\\u00a4ta devant eux. Elle n'avait pas l'air contente...",
+    "de": "#69#$012Rons Mutter, Molly Weasley, marschierte über den Hof und blieb direkt vor ihnen stehen. Sie sah gar nicht begeistert aus ...",
+    "tr": "#67#$012Ron'un annesi Molly Weasley avluyu hızla geçip önlerinde durdu. Hiç de memnun görünmüyordu..."
+  },
+  {
+    "id": 101,
+    "en": "#6A#$013Beds empty!  No note!  Car gone \\u00b5 out of my mind with worry!",
+    "fr": "#6B#$013Les lits vides ! Pas le moindre mot ! La voiture disparue... folle d'inquiétude !",
+    "de": "#6C#$013Die Betten leer! Keine Nachricht! Der Wagen weg - ich werde fast verrückt vor Sorgen!",
+    "tr": "#6A#$013Yataklar boş! Not yok! Araba gitmiş... Meraktan deliye döndüm!"
+  },
+  {
+    "id": 102,
+    "en": "#6D#$014It seemed to go on for hours and Mrs. Weasley had shouted herself hoarse before she turned to Harry.",
+    "fr": "#6E#$014Elle sembla hurler ainsi pendant des heures. Enfin, lorsqu'elle se fut cassé la voix, elle se tourna vers Harry.",
+    "de": "#6F#$014Stundenlang schien es so weiterzugehen. Mrs Weasley hatte sich heiser geschrien, bevor sie sich Harry zuwandte.",
+    "tr": "#6D#$014Bu durum saatlerce sürdü sanki; Bayan Weasley sesi kısılana kadar bağırdıktan sonra Harry'ye döndü."
+  },
+  {
+    "id": 103,
+    "en": "#70#$015Very pleased to see you, Harry dear.",
+    "fr": "#71#$015Je suis vraiment très contente de te voir, Harry.",
+    "de": "#72#$015Ich freue mich sehr, dich zu sehen, Harry, mein Lieber.",
+    "tr": "#70#$015Seni gördüğüme çok sevindim, Harry canım."
+  },
+  {
+    "id": 104,
+    "en": "#73#$035Famous Harry Potter.  Can\\u00b8t even go into a bookshop, without making the front page.",
+    "fr": "#74#$035Le célèbre Harry Potter. Il ne peut m\\u00a4me pas entrer dans une librairie sans faire la une des journaux.",
+    "de": "#75#$035Der berühmte Harry Potter. Kann nicht mal in eine Buchhandlung gehen, ohne auf die Titelseite einer Zeitung zu kommen.",
+    "tr": "#73#$035Ünlü Harry Potter. Ön sayfaya çıkmadan bir kitapçıya bile giremiyor."
+  },
+  {
+    "id": 105,
+    "en": "#76#$036Ginny, who was very fond of Harry, defended him.",
+    "fr": "#77#$036Ginny, qui adorait Harry, prit sa défense.",
+    "de": "#78#$036Ginny, die Harry sehr gern hatte, verteidigte ihn.",
+    "tr": "#76#$036Harry'ye çok düşkün olan Ginny onu savundu."
+  },
+  {
+    "id": 106,
+    "en": "#79#$037Leave him alone, he didn\\u00b8t want all that!",
+    "fr": "#7A#$037Laisse-le tranquille, ce n'était pas sa faute.",
+    "de": "#7B#$037Lass ihn in Frieden, er hat das alles gar nicht gewollt!",
+    "tr": "#79#$037Rahat bırak onu, o böyle bir şey istemedi ki!"
+  },
+  {
+    "id": 107,
+    "en": "#7C#$038Lucius Malfoy insulted the scruffy state of the second-hand books Ginny had bought.",
+    "fr": "#7D#$038Lucius Malefoy se montra très méprisant en voyant les livres d'occasion que Ginny avait achetés.",
+    "de": "#7E#$038Lucius Malfoy mokierte sich über den schlechten Zustand der Bücher, die Ginny aus zweiter Hand gekauft hatte.",
+    "tr": "#7C#$038Lucius Malfoy, Ginny'nin aldığı ikinci el kitapların hırpani haliyle alay etti."
+  },
+  {
+    "id": 108,
+    "en": "#7F#$039I suppose those books are the best your father can give you...",
+    "fr": "#80#$039Je crois que ton père ne pourra jamais rien t'offrir de mieux que ces livres...",
+    "de": "#81#$039Ich schätze, diese Bücher hier sind das Beste, was dein Vater dir zu bieten hat ...",
+    "tr": "#7F#$039Sanırım babanın sana alabileceği en iyi kitaplar bunlar..."
+  },
+  {
+    "id": 109,
+    "en": "#82#$040Lucius plucked a copy of \\u00b7A Beginner\\u00b8s Guide to Transformation\\u00b8 from Ginny\\u00b8s cauldron, examined it briefly, and then replaced it.",
+    "fr": "#83#$040Lucius plongea la main dans le chaudron de Ginny, en sortit un exemplaire du Guide des débutants en métamorphose, l'examina brièvement, puis le remit en place.",
+    "de": "#84#$040Lucius zog eine Ausgabe 'Verwandlungen für Anfänger' aus Ginnys Kessel, untersuchte sie kurz und legte sie zurück.",
+    "tr": "#82#$040Lucius, Ginny'nin kazanından 'Başkalaşıma Yeni Başlayanlar İçin Rehber' kitabını çekip çıkardı, kısaca inceledi ve yerine geri koydu."
+  },
+  {
+    "id": 110,
+    "en": "#85#$041No one at that time realised how much of an effect this gesture from Lucius Malfoy would have on their lives, and they all left the shop, none the wiser.",
+    "fr": "#86#$041Personne ne savait à quel point ce geste de Lucius Malefoy allait influencer leurs vies. Ils quittèrent tous la boutique.",
+    "de": "#87#$041Zu diesem Zeitpunkt konnten sie noch nicht einmal ahnen, welche Auswirkungen diese Geste Lucius Malfoys auf ihr Leben haben würde. Sie alle verlie\\u0099en ahnungslos den Laden.",
+    "tr": "#85#$041O sırada hiç kimse Lucius Malfoy'un bu hareketinin hayatlarını ne kadar derinden etkileyeceğini fark etmemişti; hiçbir şeyden habersiz dükkandan ayrıldılar."
+  },
+  {
+    "id": 111,
+    "en": "#88#$050I\\u00b8m waiting to hear why you two didn\\u00b8t arrive on the school train.",
+    "fr": "#89#$050J'attends de savoir pourquoi vous n'\\u00a4tes pas venus par le train.",
+    "de": "#8A#$050Ich warte darauf, zu hören, warum ihr nicht mit dem Schulzug gekommen seid.",
+    "tr": "#88#$050Siz ikinizin neden okul treniyle gelmediğinizi duymayı bekliyorum."
+  },
+  {
+    "id": 112,
+    "en": "#8B#$051It was a great start to the term, thought Harry, as they followed Snape to his office.  Once there, Snape nastily admonished them about flying the car to Hogwarts.",
+    "fr": "#8C#$051L'année commence bien, pensa Harry, en suivant Rogue dans son bureau. Là, Rogue les réprimanda sévèrement pour avoir fait voler la voiture jusqu'à Poudlard.",
+    "de": "#8D#$051Das war ja ein toller Start ins neue Schuljahr, dachte Harry, während sie Snape in sein Büro folgten. Dort angekommen, legte Snape sofort los und verwarnte sie für die Fahrt mit dem Fliegenden Auto.",
+    "tr": "#8B#$051Snape'in peşinden ofisine doğru giderken, döneme harika bir başlangıç yaptık diye düşündü Harry. Oraya vardıklarında Snape, Hogwarts'a arabayla uçtukları için onları fena halde azarladı."
+  },
+  {
+    "id": 113,
+    "en": "#8E#$052You will go immediately to your Common Room and I will think about how to punish you.",
+    "fr": "#8F#$052Allez immédiatement dans votre salle commune et je vous assure que vous serez punis.",
+    "de": "#90#$052Sie wurden sofort in den Gemeinschaftsraum geschickt, und Snape dachte über eine geeignete Strafe nach.",
+    "tr": "#8E#$052Derhal Ortak Odanıza gideceksiniz, ben de sizi nasıl cezalandıracağımı düşüneceğim."
+  },
+  {
+    "id": 114,
+    "en": "#91#$053Harry and Ron stood outside Snape\\u00b8s office...",
+    "fr": "#92#$053Harry et Ron se tenaient devant le bureau de Rogue...",
+    "de": "#93#$053Harry und Ron standen unschlüssig vor Snapes Büro ...",
+    "tr": "#91#$053Harry ve Ron, Snape'in ofisinin dışında durdular..."
+  },
+  {
+    "id": 115,
+    "en": "#94#$054The voice was growing fainter and Harry was sure it was moving away - moving upwards. He began to run, his stomach lurching.",
+    "fr": "#95#$054La voix devenait de plus en plus faible. Elle montait quelque part. Il se mit à courir, le coeur battant.",
+    "de": "#96#$054Die Stimme wurde schwächer. Sie bewegte sich fort von ihnen, da war er sich sicher - nach oben. Er lief los, und ihm drehte sich der Magen um.",
+    "tr": "#94#$054Ses giderek zayıflıyordu ve Harry sesin uzaklaştığından, yukarıya doğru gittiğinden emindi. Midesi düğümlenerek koşmaya başladı."
+  },
+  {
+    "id": 116,
+    "en": "#97#$055Something was shining on the wall ahead.  Harry approached slowly, squinting through the darkness.",
+    "fr": "#98#$055Quelque chose brillait sur le mur. Harry s'approcha lentement, scrutant la pénombre.",
+    "de": "#99#$055An der Wand vor ihnen leuchtete etwas. Harry trat vorsichtig näher und spähte in die Dunkelheit.",
+    "tr": "#97#$055İlerideki duvarda bir şey parlıyordu. Harry karanlığın içinde gözlerini kısarak yavaşça yaklaştı."
+  },
+  {
+    "id": 117,
+    "en": "#9A#$056Mrs. Norris, Filch\\u00b8s cat, was hanging by her tail from a torch bracket.  She was as stiff as a board, her eyes wide and staring.",
+    "fr": "#9B#$056Miss Teigne, la chatte de Rusard, était pendue par la queue à une torchère. Elle était raide comme une planche, les yeux grand ouverts.",
+    "de": "#9C#$056Mrs Norris, die Katze des Hausmeisters, hing am Schwanz festgebunden vom Fackelhalter herab.",
+    "tr": "#9A#$056Filch'in kedisi Mrs. Norris, meşale demirine kuyruğundan asılmıştı. Tahta gibi kaskatıydı, gözleri faltaşı gibi açılmış, öylece bakıyordu."
+  },
+  {
+    "id": 118,
+    "en": "#9D#$057Foot-high words had been daubed on the wall above the petrified cat.  Harry shuddered as he read them...",
+    "fr": "#9E#$057Tracée en grosses lettres au-dessus de la chatte pétrifiée, il y avait une inscription. Harry frissonna en la lisant...",
+    "de": "#9F#$057An die Wand über der versteinerten Katze waren halbmeterhohe Worte geschmiert. Harry lief es eiskalt den Rücken herunter, als er sie las ...",
+    "tr": "#9D#$057Taşlaşmış kedinin üzerindeki duvara bir karış boyunda harflerle bir yazı karalanmıştı. Harry yazıyı okurken ürperdi..."
+  },
+  {
+    "id": 119,
+    "en": "#A0#$058The Chamber of Secrets has been opened.  Enemies of the Heir, beware.",
+    "fr": "#A1#$058La Chambre des Secrets a été ouverte. Ennemis de l'héritier, prenez garde.",
+    "de": "#A2#$058Die Kammer des Schreckens wurde geöffnet. Feinde des Erben, nehmt euch in Acht.",
+    "tr": "#A0#$058Sırlar Odası açıldı. Varisin düşmanları, kendinizi kollayın."
+  },
+  {
+    "id": 120,
+    "en": "#A3#$059Before Harry could leave, several people appeared in the corridor.  When Filch saw Mrs. Norris he screeched accusingly at Harry.",
+    "fr": "#A4#$059Avant que Harry puisse se sauver, la foule apparut dans le corridor. Quand Rusard aper\\u00a1ut Miss Teigne, il se mit à pousser des hurlements.",
+    "de": "#A5#$059Noch bevor Harry verschwinden konnte, kamen einige Leute den Korridor entlang. Als Filch Mrs Norris entdeckte, beschimpfte er Harry lautstark.",
+    "tr": "#A3#$059Harry uzaklaşamadan koridorda birkaç kişi belirdi. Filch Mrs. Norris'i görünce suçlayıcı bir sesle Harry'ye doğru çığlık attı."
+  },
+  {
+    "id": 121,
+    "en": "#A6#$060You!  You\\u00b8ve murdered my cat!  You\\u00b8ve killed her!",
+    "fr": "#A7#$060Vous ! C'est vous qui avez assassiné ma chatte ! Vous l'avez tuée !",
+    "de": "#A8#$060Du! Du hast meine Katze ermordet! Du hast sie getötet.",
+    "tr": "#A6#$060Sen! Kedimi katlettin! Onu öldürdün!"
+  },
+  {
+    "id": 122,
+    "en": "#A9#$061And then Draco Malfoy shouted out to everyone gathered.",
+    "fr": "#AA#$061Puis Drago Malefoy les interpela tous.",
+    "de": "#AB#$061Und dann rief Draco Malfoy laut in die Runde:",
+    "tr": "#A9#$061Ve ardından Draco Malfoy toplanan herkese doğru bağırdı."
+  },
+  {
+    "id": 123,
+    "en": "#AC#$062Enemies of the Heir, beware!  You\\u00b8ll be next, Mudbloods!",
+    "fr": "#AD#$062Ennemis de l'héritier, prenez garde ! Bient\\u00adt, ce sera le tour des Sang-de-Bourbe !",
+    "de": "#AE#$062Feinde des Erben, nehmt euch in Acht! Ihr seid die Nächsten, Schlammblüter!",
+    "tr": "#AC#$062Varisin düşmanları, kendinizi kollayın! Sıradaki sizsiniz, Bulanıklar!"
+  },
+  {
+    "id": 124,
+    "en": "#AF#$063Professor Dumbledore calmed everyone down and sent them all to bed.",
+    "fr": "#B0#$063Le professeur Dumbledore rétablit le calme et envoya tout le monde au lit.",
+    "de": "#B1#$063Professor Dumbledore beruhigte die Menge und schickte alle ins Bett.",
+    "tr": "#AF#$063Profesör Dumbledore herkesi sakinleştirdi ve hepsini yatmaya gönderdi."
+  },
+  {
+    "id": 125,
+    "en": "#B2#$064Ron reckoned that he had an idea who the Heir of Slytherin was and both he and Harry went to meet Hermione in the library.",
+    "fr": "#B3#$064Ron avait sa petite idée sur l'identité de l'héritier de Serpentard et, avec Harry, il alla retrouver Hermione dans la bibliothèque.",
+    "de": "#B4#$064Ron war sicher, dass er den Erben von Slytherin durchschaut hatte und ging mit Harry in die Bücherei, um Hermine zu treffen.",
+    "tr": "#B2#$064Ron, Slytherin'in Varisinin kim olduğuna dair bir fikri olduğunu düşündü ve ikisi birlikte kütüphanede Hermione ile buluşmaya gittiler."
+  },
+  {
+    "id": 126,
+    "en": "#B5#$065Harry\\u00b8s arm was hanging at a very strange angle, but in his good hand he held the Snitch.",
+    "fr": "#B6#$065Le bras de Harry formait un angle inquiétant, mais il serrait le Vif d'or dans sa main valide.",
+    "de": "#B7#$065Harrys Arm hing in einem merkwürdigen Winkel an ihm herab, aber in seiner gesunden Hand hielt er den Schnatz.",
+    "tr": "#B5#$065Harry'nin kolu çok garip bir açıyla sarkıyordu, ama sağlam elinde Snitch'i tutuyordu."
+  },
+  {
+    "id": 127,
+    "en": "#B8#$066Aha.  We\\u00b8ve won.",
+    "fr": "#B9#$066On a gagné...",
+    "de": "#BA#$066Aha. Wir haben gewonnen.",
+    "tr": "#B8#$066Aha. Kazandık."
+  },
+  {
+    "id": 128,
+    "en": "#BB#$067Lockhart told Harry to lie back as he tried to mend his arm with a charm.  A strange and unpleasant sensation started at his shoulder and spread all the way down to his fingertips.",
+    "fr": "#BC#$067Le professeur Lockhart demanda à Harry de rester couché pour pouvoir soigner son bras. Une sensation étrange et désagréable se répandit aussit\\u00adt dans son bras, depuis l'épaule jusqu'au bout des doigts.",
+    "de": "#BD#$067Professor Lockhart befahl Harry, stillzuliegen, während er versuchte, Harrys Arm mit einem Zauber zu heilen. An Harrys Schulter begann sich ein merkwürdiges und unangenehmes Gefühl auszubreiten, das sich bis in die Fingerspitzen zog.",
+    "tr": "#BB#$067Lockhart bir büyüyle kolunu iyileştirmeye çalışırken Harry'ye arkasına yaslanmasını söyledi. Omzundan başlayıp parmak uçlarına kadar yayılan tuhaf ve nahoş bir his duyuldu."
+  },
+  {
+    "id": 129,
+    "en": "#BE#$068His arm didn\\u00b8t hurt anymore \\u00b5 nor did it feel remotely like an arm.",
+    "fr": "#BF#$068Son bras ne lui faisait plus mal, il avait m\\u00a4me l'impression de ne plus en avoir du tout.",
+    "de": "#C0#$068Sein Arm tat nicht mehr weh - aber er fühlte sich auch nicht mehr an, wie ein Arm. ",
+    "tr": "#BE#$068Kolu artık acımıyordu... ama uzaktan yakından bir kola da benzemiyordu."
+  },
+  {
+    "id": 130,
+    "en": "#C1#$069Ah.  Yes.  Well, that can sometimes happen.  So, Harry, just toddle up to the hospital wing.  Madam Pomfrey will be able to \\u00b5 er - tidy you up a bit.",
+    "fr": "#C2#$069Oui, en effet, c'est une chose qui peut se produire de temps en temps. Il ne te reste plus qu'à aller à l'infirmerie. Madame Pomfresh n'aura qu'à... arranger \\u00a1a.",
+    "de": "#C3#$069Tja. Tja. Nun, das kann schon mal passieren. So, Harry, dann troll dich mal hoch zum Krankenflügel. Madam Pomfrey wird dich dann schon - ähem - ein wenig zusammenflicken.",
+    "tr": "#C1#$069Ah. Evet. Şey, böyle şeyler bazen olabilir. Harry, sen şimdi doğruca revire git. Madam Pomfrey seni... ııı... biraz toparlayabilir."
+  },
+  {
+    "id": 131,
+    "en": "$070Not Used",
+    "fr": "$070Not Used",
+    "de": "$070Not Used",
+    "tr": "$070Kullanılmıyor"
+  },
+  {
+    "id": 132,
+    "en": "$145Not Used",
+    "fr": "$145Not Used",
+    "de": "$145Not Used",
+    "tr": "$145Kullanılmıyor"
+  },
+  {
+    "id": 133,
+    "en": "$071Not Used",
+    "fr": "$071Not Used",
+    "de": "$071Not Used",
+    "tr": "$071Kullanılmıyor"
+  },
+  {
+    "id": 134,
+    "en": "#C4#$072While he was in the Hospital Wing, Harry heard footsteps coming down the passageway outside...",
+    "fr": "#C5#$072Tandis qu'il était à l'infirmerie, Harry entendit des pas dans le couloir.",
+    "de": "#C6#$072Im Krankenflügel hörte Harry drau\\u0099en auf dem Gang Schritte ...",
+    "tr": "#C4#$072Harry revirdeyken dışarıdaki geçitten gelen ayak sesleri duydu..."
+  },
+  {
+    "id": 135,
+    "en": "#C7#$073The next moment, Dumbledore and McGonagall were backing into the room carrying what looked like a statue.  Together they heaved it on to a bed.",
+    "fr": "#C8#$073Un instant plus tard, Dumbledore pénétra dans la salle à reculons, portant un objet long qui semblait \\u00a4tre une statue. Le professeur McGonagall portait l'autre bout de la statue qu'ils déposèrent sur un lit.",
+    "de": "#C9#$073Einen Moment später kamen Dumbledore und Mc Gonagall rückwärts gehend ins Krankenzimmer und schleppten etwas, das aussah wie eine Statue. Gemeinsam hievten sie die Statue auf ein Bett.",
+    "tr": "#C7#$073Bir an sonra Dumbledore ile McGonagall, heykele benzeyen bir şeyi taşıyarak geri geri odaya girdiler. İkisi birden onu bir yatağın üzerine kaldırdılar."
+  },
+  {
+    "id": 136,
+    "en": "#CA#$146Harry, Ron and Hermione peered across at the statue - it was Colin Creevey. He'd been petrified like Mrs. Norris. Harry overheard Professor McGonagall asking Dumbledore what it could all mean and his reply sent a chill down Harry's spine.",
+    "fr": "#CB#$146Harry, Ron et Hermione regardèrent la statue : c'était Colin Crivey. Il avait été pétrifié, comme Miss Teigne. Harry entendit le professeur McGonagall demander à Dumbledore ce que tout cela pouvait signifier et la réponse lui donna des frissons.",
+    "de": "#CC#$146Harry, Ron und Hermine starrten zu der Statue hinüber - es war Colin Creevey. Er war ebenso versteinert worden wie Mrs Norris. Harry hörte, wie Professor McGonagall Dumbledore fragte, was das zu bedeuten hätte und seine Antwort lie\\u0099 Harry einen kalten Schauer über den Rücken laufen.",
+    "tr": "#CA#$146Harry, Ron ve Hermione heykele dikkatle baktılar; bu Colin Creevey'ydi. Tıpkı Mrs. Norris gibi taşlaşmıştı. Harry, Profesör McGonagall'ın Dumbledore'a bütün bunların ne anlama gelebileceğini sorduğunu duydu ve aldığı cevap Harry'nin iliklerine kadar ürpermesine yetti."
+  },
+  {
+    "id": 137,
+    "en": "#CD#$074It means that the Chamber of Secrets is indeed open again.",
+    "fr": "#CE#$074Cela signifie que la Chambre des Secrets a bel et bien été ouverte une deuxième fois.",
+    "de": "#CF#$074Es hei\\u0099t, dass die Kammer des Schreckens tatsächlich wieder offen ist.",
+    "tr": "#CD#$074Bu, Sırlar Odası'nın gerçekten de yeniden açıldığı anlamına gelir."
+  },
+  {
+    "id": 138,
+    "en": "#D0#$075Hermione whispered to Harry that it was about time he collected together the ingredients for the Polyjuice Potion.",
+    "fr": "#D1#$075En chuchotant, Hermione dit à Harry que le moment était venu de rassembler les ingrédients pour le Polynectar.",
+    "de": "#D2#$075Hermine flüsterte Harry zu, dass es an der Zeit sei, die Zutaten für den Vielsaft-Trank zu sammeln.",
+    "tr": "#D0#$075Hermione, Harry'ye Çoközlü İksir malzemelerini bir araya toplamanın vaktinin geldiğini fısıldadı."
+  },
+  {
+    "id": 139,
+    "en": "#D3#$076As soon as your arm is better, I think you should go to Diagon Alley.",
+    "fr": "#D4#$076Dès que ton bras sera guéri, tu devrais aller au Chemin de Traverse.",
+    "de": "#D5#$076Sobald dein Arm wieder gesund ist, solltest du zur Winkelgasse gehen.",
+    "tr": "#D3#$076Kolun iyileşir iyileşmez Diagon Yolu'na gitmelisin bence."
+  },
+  {
+    "id": 140,
+    "en": "#D6#$077It was half term by the time Harry\\u00b8s arm was better, and following Hermione\\u00b8s advice, he caught the train to London.",
+    "fr": "#D7#$077Le deuxième trimestre était largement entamé quand son bras guérit, et, sur les conseils d'Hermione, il prit le train pour Londres.",
+    "de": "#D8#$077Es war mitten im Schuljahr, als Harrys Arm wieder gesund war, und er befolgte Hermines Rat und fuhr mit dem Zug nach London.",
+    "tr": "#D6#$077Harry'nin kolu iyileştiğinde sömestir tatili gelmişti ve Hermione'nin tavsiyesine uyarak Londra trenine bindi."
+  },
+  {
+    "id": 141,
+    "en": "#D9#$078Harry met Hagrid in Diagon Alley.",
+    "fr": "#DA#$078Sur le Chemin de Traverse, il rencontra Hagrid.",
+    "de": "#DB#$078In der Winkelgasse traf Harry Hagrid.",
+    "tr": "#D9#$078Harry, Diagon Yolu'nda Hagrid ile karşılaştı."
+  },
+  {
+    "id": 142,
+    "en": "#DC#$081Hissing furiously, the snake slithered towards Justin Finch-Fletchley.  \\u00b7Leave him alone!\\u00b8, Harry shouted.  At least, that was what he thought he\\u00b8d shouted...",
+    "fr": "#DD#$081Sifflant comme un furieux, le serpent se tortilla en direction de Justin Finch-Fletchley. Avant qu'il ne frappe, Harry bondit et cria \"Laisse-le tranquille !\". Enfin c'est ce qu'il pensait avoir crié...",
+    "de": "#DE#$081Rasend vor Wut und erregt zischend glitt die Schlange direkt auf Justin Finch-Flechtley zu. Aber bevor sie ihn erreichen konnte, stürmte Harry nach vorn und schrie 'Weg von ihm!' Zumindest dachte er, dass er dies rief ...",
+    "tr": "#DC#$081Yılan öfkeyle tıslayarak Justin Finch-Fletchley'ye doğru kaydı. Harry, 'Bırak onu!' diye bağırdı. En azından bağırdığını sandığı şey buydu..."
+  },
+  {
+    "id": 143,
+    "en": "#DF#$147When he looked up at Justin he was met with an angry look.",
+    "fr": "#E0#$147Quand il regarda Justin, celui-ci lui lan\\u00a1a un regard de colère.",
+    "de": "#E1#$147Als er Justin ansah, wurde er mit einem bösen Blick bedacht.",
+    "tr": "#DF#$147Justin'e baktığında öfkeli bir bakışla karşılaştı."
+  },
+  {
+    "id": 144,
+    "en": "#E2#$082What do you think you\\u00b8re playing at?",
+    "fr": "#E3#$082A quoi tu joues ?",
+    "de": "#E4#$082Was treibst du da eigentlich für ein Spiel?",
+    "tr": "#E2#$082Sen ne yaptığını sanıyorsun?"
+  },
+  {
+    "id": 145,
+    "en": "#E5#$083The snake was lying slumped on the floor, docile as a thick, black garden hose \\u00b5 so why was Justin \\u00b5 and everybody else for that matter \\u00b5 regarding him with a look of horror?",
+    "fr": "#E6#$083Le serpent retomba alors sur le sol, aussi docile qu'un tuyau d'arrosage. Mais pourquoi Justin et les autres le regardaient-ils d'un air effrayé ?",
+    "de": "#E7#$083Die Schlange sackte zu Boden, friedlich wie ein dicker schwarzer Gartenschlauch - aber warum starrten Justin - und alle anderen auch - ihn an, als sei er der Teufel persönlich?",
+    "tr": "#E5#$083Yılan, kalın siyah bir bahçe hortumu gibi uysalca yerde yatıyordu... Peki öyleyse neden Justin -ve aslına bakılırsa diğer herkes- ona dehşet dolu bakışlarla bakıyordu?"
+  },
+  {
+    "id": 146,
+    "en": "#E8#$084You\\u00b8re a Parselmouth, Harry.  Why didn\\u00b8t you tell us?",
+    "fr": "#E9#$084Tu es un Fourchelang, Harry. Tu nous l'avais jamais dit.",
+    "de": "#EA#$084Du bist ein Parselmund, Harry. Warum hast du uns das nicht erzählt?",
+    "tr": "#E8#$084Sen bir Parselağızsın Harry. Neden bize söylemedin?"
+  },
+  {
+    "id": 147,
+    "en": "#EB#$085Harry didn\\u00b8t know what a Parselmouth was, so Ron told him:",
+    "fr": "#EC#$085Comme Harry ne savait pas ce que Fourchelang voulait dire, Ron le lui expliqua :",
+    "de": "#ED#$085Harry hatte keine Ahnung, was ein Parselmund war, also erklärte Ron ihm die Sache:",
+    "tr": "#EB#$085Harry Parselağızın ne olduğunu bilmiyordu, bu yüzden Ron ona açıkladı:"
+  },
+  {
+    "id": 148,
+    "en": "#EE#$086You can talk to snakes, Harry!",
+    "fr": "#EF#$086Tu parles le langage des serpents !",
+    "de": "#F0#$086Du kannst mit Schlangen sprechen, Harry!",
+    "tr": "#EE#$086Yılanlarla konuşabiliyorsun, Harry!"
+  },
+  {
+    "id": 149,
+    "en": "#F1#$087Hermione informed Harry that being able to talk to snakes was what Salazar Slytherin was famous for and how the whole school was now going to think that he, Harry Potter, was the Heir of Slytherin and therefore responsible for the attacks.",
+    "fr": "#F2#$087Hermione lui dit que la célébrité de Salazar Serpentard venait précisément du pouvoir qu'il avait de parler aux serpents, et que toute l'école penserait maintenant que lui, Harry Potter, était l'héritier de Serpentard et responsable des attaques.",
+    "de": "#F3#$087Hermine erklärte Harry, dass Salazar Slytherin dafür berühmt war, dass er mit Schlangen hatte reden können. Die ganze Schule würde jetzt davon ausgehen, dass er der wahre Erbe Slytherins sei und damit auch verantwortlich für die Angriffe. ",
+    "tr": "#F1#$087Hermione, Harry'ye Salazar Slytherin'in tam da yılanlarla konuşabilmesiyle ünlü olduğunu ve artık bütün okulun onun, yani Harry Potter'ın, Slytherin'in Varisi olduğunu ve dolayısıyla saldırılardan sorumlu olduğunu düşüneceğini anlattı."
+  },
+  {
+    "id": 150,
+    "en": "#F4#$149Harry thought of the disembodied voice he'd heard and his growing dread that he was connected to Salazar Slytherin. But in the end, he didn't want to say anything about them.",
+    "fr": "#F5#$149Harry pensa à la voix désincarnée qu'il avait entendue, et dans une frayeur grandissante, pensa qu'il était apparenté à Salazar Serpentard. Pour finir, il ne voulut pas en parler à quiconque.",
+    "de": "#F6#$149Harry dachte an die körperlose Stimme, die er gehört hatte und seine Angst, das ihn irgendwas mit Salazar Slytherin verband, wuchs. Aber letztendlich sagte er nichts davon, und Dumbledore begleitete ihn hinaus. ",
+    "tr": "#F4#$149Harry duyduğu o bedensiz sesi ve Salazar Slytherin'le bir bağı olduğuna dair içinde büyüyen korkuyu düşündü. Ama sonunda bunlar hakkında hiçbir şey söylememeye karar verdi."
+  },
+  {
+    "id": 151,
+    "en": "#F7#$088Dumbledore wasn\\u00b8t in his office when Harry got there. It was a very interesting room, however, and nearby, Harry spotted the Sorting Hat.  As he approached it, the hat spoke to him...",
+    "fr": "#F8#$088Dumbledore n'était pas dans son bureau. C'était une pièce très intéressante et Harry remarqua le Choixpeau magique. Il s'en approcha et le Choixpeau lui parla...",
+    "de": "#F9#$088Dumbledore war nicht in seinem Büro, als Harry dort ankam. Es war ein sehr interessanter Raum und Harry entdeckte auch den Sprechenden Hut. Als er sich ihm näherte, sprach der Hut ihn an ...",
+    "tr": "#F7#$088Harry oraya vardığında Dumbledore ofisinde değildi. Yine de burası çok ilginç bir odaydı ve Harry hemen yakında Seçmen Şapka'yı gördü. Yanına yaklaştığında şapka onunla konuştu..."
+  },
+  {
+    "id": 152,
+    "en": "#FA#$089You\\u00b8ve been wondering whether I put you in the right house. But I stand by what I said before \\u00b5 you would have done well in Slytherin.",
+    "fr": "#FB#$089Tu te demandes si je t'ai envoyé dans la bonne maison ? Mais je maintiens ce que j'ai déjà dit... Tu aurais eu parfaitement ta place chez les Serpentard.",
+    "de": "#FC#$089Du fragst dich, ob ich dich in das richtige Haus gesteckt habe. Aber ich bleibe bei dem, was ich schon gesagt habe - dir wäre es in Slytherin gut ergangen.",
+    "tr": "#FA#$089Seni doğru binaya koyup koymadığımı merak ediyordun. Ama daha önce söylediğimin arkasındayım... Slytherin'de çok başarılı olurdun."
+  },
+  {
+    "id": 153,
+    "en": "#FD#$090Harry\\u00b8s heart plummeted.  He told the hat he thought it was wrong and then a strange gagging noise behind him made him wheel around.",
+    "fr": "#FE#$090Le coeur de Harry bondit dans sa poitrine. Il répondit au chapeau qu'il avait tort, lorsqu'il entendit un étrange caquètement derrière lui et se retourna.",
+    "de": "#FF#$090Harrys Magen krampfte sich zusammen und er sagte dem Hut, dass er sich irren müsse. Plötzlich hörte er hinter sich ein merkwürdig würgendes Geräusch und wirbelte herum.",
+    "tr": "#FD#$090Harry'nin yüreği ağzına geldi. Şapkaya yanıldığını söyledi ve tam o sırada arkasından gelen tuhaf bir boğulma sesi hızla arkasına dönmesine neden oldu."
+  },
+  {
+    "id": 154,
+    "en": "#100#$091Harry yelled in shock as the bird burst into flames \\u00b5 only to emerge from the fire more beautiful than it was before.  Then the office door opened and Dumbledore came in.",
+    "fr": "#101#$091Il poussa un cri d'effroi quand l'oiseau s'embrasa dans un jaillissement de flammes, puis émergea des cendres encore plus beau qu'avant. C'est alors que la porte s'ouvrit et Dumbledore entra.",
+    "de": "#102#$091Harry schrie vor Schreck auf, als der Vogel in Flammen aufging - aber er wurde schöner als zuvor aus der Asche wieder geboren. Dann ging die Bürotür auf und Dumbledore trat ein. ",
+    "tr": "#100#$091Kuş alevler içinde yanıp kül olurken Harry şaşkınlıkla bağırdı... Derken küllerin arasından öncekinden çok daha güzel bir şekilde yeniden doğdu. O anda ofis kapısı açıldı ve Dumbledore içeri girdi."
+  },
+  {
+    "id": 155,
+    "en": "#103#$092Fawkes the Phoenix is really very handsome, isn\\u00b8t he, Harry?",
+    "fr": "#104#$092Tu ne trouves pas que Fumseck le phénix est vraiment magnifique ?",
+    "de": "#105#$092Fawkes ist wirklich ein schöner Phönix, oder Harry?",
+    "tr": "#103#$092Zümrüdüanka Fawkes gerçekten çok yakışıklı, değil mi Harry?"
+  },
+  {
+    "id": 156,
+    "en": "#106#$093Harry nodded, still shocked by the sight of the bird bursting into flames.  Dumbledore explained how phoenixes were fascinating creatures.",
+    "fr": "#107#$093Harry approuva de la t\\u00a4te, encore sous le choc d'avoir vu l'oiseau s'embraser. Dumbledore lui expliqua combien les phénix étaient des créatures fascinantes.",
+    "de": "#108#$093Harry nickte, war aber immer noch wie erstarrt von dem Anblick des in Flammen aufgehenden Vogels. Dumbledore erklärte ihm, wie faszinierend ein Phönix sein kann.",
+    "tr": "#106#$093Harry başıyla onayladı, kuşun alevler içinde kalışını görmenin şokunu hala atlatamamıştı. Dumbledore zümrüdüankaların ne kadar büyüleyici yaratıklar olduğunu açıkladı."
+  },
+  {
+    "id": 157,
+    "en": "#109#$094They can carry immensely heavy loads and they make highly faithful pets.",
+    "fr": "#10A#$094Ils peuvent transporter des charges très lourdes et ils sont très fidèles.",
+    "de": "#10B#$094Sie können unglaublich schwere Lasten tragen und sie sind au\\u0099erordentlich treue Haustiere.",
+    "tr": "#109#$094Son derece ağır yükleri taşıyabilirler ve çok sadık evcil hayvanlar olurlar."
+  },
+  {
+    "id": 158,
+    "en": "#10C#$096Harry flicked through the blank pages of the diary.  Then he pulled out a bottle of scarlet ink, dipped his quill into it and dropped a blot on to the first page.",
+    "fr": "#10D#$096Harry feuilleta les pages blanches du journal. Il prit une plume, la trempa dans l'encrier rouge et laissa tomber une goutte d'encre sur la première page.",
+    "de": "#10E#$096Harry blätterte durch die leeren Seiten des Tagebuches. Er zog ein Fläschchen scharlachroter Tinte aus seinem Nachtschrank heraus, tauchte die Feder hinein und lie\\u0099 einen Tropfen auf die erste Seite des Tagebuchs fallen.",
+    "tr": "#10C#$096Harry günlüğün boş sayfalarını karıştırdı. Sonra bir şişe kırmızı mürekkep çıkardı, tüy kalemini batırdı ve ilk sayfanın üzerine bir damla damlattı."
+  },
+  {
+    "id": 159,
+    "en": "#10F#$097The ink shone brightly on the paper for a moment and then, as though it was being sucked into the page, it vanished.",
+    "fr": "#110#$097Pendant un instant, la tache d'encre brilla sous ses yeux, puis elle disparut soudain, comme aspirée par le papier.",
+    "de": "#111#$097Eine Sekunde lang leuchtete die Tinte hell auf dem Papier, und dann, als würde sie in das Blatt hineingesaugt, verschwand sie.",
+    "tr": "#10F#$097Mürekkep bir an kağıdın üzerinde parıldadı ve ardından, sanki sayfa tarafından emiliyormuş gibi yok oldu."
+  },
+  {
+    "id": 160,
+    "en": "#112#$098Excited, Harry loaded up his quill and wrote, \\u00b7My name is Harry Potter\\u00b8.",
+    "fr": "#113#$098D'un geste fébrile, Harry reprit sa plume et écrivit : \"Je m'appelle Harry Potter.\"",
+    "de": "#114#$098Aufgeregt tunkte Harry die Feder ein zweites Mal ein und schrieb: 'Mein Name ist Harry Potter.'",
+    "tr": "#112#$098Heyecanlanan Harry tüy kalemine mürekkep çekip yazdı: 'Benim adım Harry Potter.'"
+  },
+  {
+    "id": 161,
+    "en": "#115#$099Then, at last, something happened.  Oozing back out of the page, came words Harry had never written.",
+    "fr": "#116#$099C'est alors qu'il se passa quelque chose d'étrange. Des lettres se formèrent sur la page, et une phrase apparut sous ses yeux.",
+    "de": "#117#$099Dann, endlich, geschah etwas. Aus dem Blatt heraus drangen, in seiner eigenen Tinte, Worte, die Harry nicht geschrieben hatte. 'Hallo, Harry Potter. Mein Name ist Tom Riddle.'",
+    "tr": "#115#$099Derken, nihayet bir şey oldu. Sayfadan dışarı süzülerek Harry'nin hiç yazmadığı kelimeler belirdi."
+  },
+  {
+    "id": 162,
+    "en": "#118#$100Harry nearly upset his ink bottle.  And then more words appeared on the page...",
+    "fr": "#119#$100Harry faillit renverser son encrier. D'autres mots apparurent alors...",
+    "de": "#11A#$100Harry stie\\u0099 fast sein Tintenfass um vor Aufregung. Dann erschienen noch mehr Worte auf der Seite ...",
+    "tr": "#118#$100Harry neredeyse mürekkep şişesini devirecekti. Ve sonra sayfada daha fazla kelime belirdi..."
+  },
+  {
+    "id": 163,
+    "en": "#11B#$101I know all about the Chamber of Secrets.  Fifty years ago the Chamber was opened and a girl was killed.  I caught the person who opened the Chamber all those years ago.",
+    "fr": "#11C#$101Je sais tout sur la Chambre des Secrets, Harry Potter. Il y a cinquante ans, la Chambre a été ouverte et une fille a été tuée. J'ai réussi à prendre sur le fait celui qui avait ouvert la Chambre.",
+    "de": "#11D#$101Ich wei\\u0099 alles über die Kammer des Schreckens, Harry Potter. Vor fünfzig Jahren wurde die Kammer geöffnet und ein Mädchen getötet. Ich habe die Person erwischt, die die Kammer geöffnet hat. Ich kann es dir zeigen, wenn du willst.",
+    "tr": "#11B#$101Sırlar Odası hakkındaki her şeyi biliyorum. Elli yıl önce Oda açılmış ve bir kız öldürülmüştü. Yıllar önce Odayı açan kişiyi ben yakaladım."
+  },
+  {
+    "id": 164,
+    "en": "#11E#$150I can take you right inside my memory of the night when I caught him...",
+    "fr": "#11F#$150Je peux t'emmener dans mon souvenir du soir o\\u00b1 je l'ai surpris...",
+    "de": "#120#$150Ich kann dich in mein Gedächtnis von jener Nacht, in der ich ihn gefangen habe, hereinholen.",
+    "tr": "#11E#$150Seni onu yakaladığım o gecenin anısına bizzat götürebilirim..."
+  },
+  {
+    "id": 165,
+    "en": "#121#$102Harry paused for a second and then wrote two letters \\u00b5 O.K.",
+    "fr": "#122#$102Harry hésita une fraction de seconde, puis il écrivit : OK.",
+    "de": "#123#$102Harry hielt für den Bruchteil einer Sekunde inne und schrieb dann ein Wort - Okay.",
+    "tr": "#121#$102Harry bir an duraksadı ve sonra iki harf yazdı: O.K."
+  },
+  {
+    "id": 166,
+    "en": "#124#$103The pages of the diary began to blow as though caught in a high wind and then the diary seemed to open up and Harry was pitched headfirst into the opening...",
+    "fr": "#125#$103Les pages du journal se mirent alors à tourner toutes seules, comme sous l'action d'une rafale de vent et Harry fut précipité t\\u00a4te la première dans le carnet...",
+    "de": "#126#$103Die Blätter des Tagesbuchs begannen zu flattern, als ob ein Wind sie erfasst hätte. Das Tagebuch öffnete sich und Harry wurde kopfüber durch die Üffnung gezogen ...",
+    "tr": "#124#$103Günlüğün sayfaları sanki sert bir rüzgara kapılmış gibi uçuşmaya başladı, sonra günlük açılır gibi oldu ve Harry balıklama boşluğun içine çekildi..."
+  },
+  {
+    "id": 167,
+    "en": "#127#$104Harry saw that he was standing in a corridor in Hogwarts dungeons.  Peering through a crack made by an open door was a boy of about sixteen.",
+    "fr": "#128#$104Harry vit qu'il se trouvait dans un couloir des cachots de Poudlard. A travers la porte entrouverte, il vit un gar\\u00a1on d'environ seize ans.",
+    "de": "#129#$104Seine Fü\\u0099e berührten festen Grund und er spürte, dass er in einem der Korridore in den Kerkern von Hogwarts stand. Er sah einen sechszehnjährigen Jungen, der durch einen Türspalt lugte.",
+    "tr": "#127#$104Harry kendini Hogwarts zindanlarındaki bir koridorda buldu. Açık bir kapının aralığından dışarıyı gözetleyen on altı yaşlarında bir çocuk vardı."
+  },
+  {
+    "id": 168,
+    "en": "#12A#$151Harry knew at once that this was Tom Riddle, the owner of the diary. Then Harry heard someone speaking in a low whisper.",
+    "fr": "#12B#$151Tout à coup, Harry reconnut Tom Jedusor, le propriétaire du journal. Puis il entendit quelqu'un chuchoter.",
+    "de": "#12C#$151Harry war sofort klar, dass dies Tom Riddle, der Besitzer des Tagebuchs, sein musste. Dann hörte Harry jemanden leise flüstern.",
+    "tr": "#12A#$151Harry bunun günlüğün sahibi Tom Riddle olduğunu hemen anladı. Sonra Harry birinin fısıltıyla konuştuğunu duydu."
+  },
+  {
+    "id": 169,
+    "en": "#12D#$105C\\u00b8mon... gotta get yeh outta here... C\\u00b8mon now... in the box...",
+    "fr": "#12E#$105Allez, viens... Il faut te sortir de là. Allez, viens... dans la bo\\u00a8te...",
+    "de": "#12F#$105Komm ... muss dich hier rausbringen ... komm jetzt ... in die Kiste ...",
+    "tr": "#12D#$105Hadi... seni buradan çıkarmam gerek... Hadi bakalım... kutunun içine..."
+  },
+  {
+    "id": 170,
+    "en": "#130#$106The voice definitely belonged to Hagrid who, Harry now saw, was crouching down in front of a large box. Riddle suddenly stepped out from the doorway.",
+    "fr": "#131#$106C'était la voix de Hagrid et Harry voyait qu'il était accroupi devant une grosse bo\\u00a8te. Soudain, Jedusor s'avan\\u00a1a.",
+    "de": "#132#$106Etwas an dieser Stimme kam ihm vertraut vor - Hagrid. Harry sah ihn vor einer Tür kauern, neben ihm eine gro\\u0099e Kiste. Riddle trat aus der Tür.",
+    "tr": "#130#$106Ses kesinlikle, Harry'nin büyük bir kutunun önünde çömeldiğini gördüğü Hagrid'e aitti. Riddle aniden kapı aralığından dışarı adım attı."
+  },
+  {
+    "id": 171,
+    "en": "#133#$107Evening Rubeus.  It's all over.  I'm going to have to turn you in.  The least Hogwarts can do is make sure the thing that killed that girl is slaughtered.",
+    "fr": "#134#$107Bonsoir Rubeus. C'est fini pour toi. Je vais \\u00a4tre obligé de te dénoncer. Le moins que Poudlard puisse faire, c'est d'abattre la chose qui a tué cette fille.",
+    "de": "#135#$107Schönen Abend, Rubeus. Es ist aus. Ich muss dich anzeigen. Das Mindeste, was Hogwarts tun kann, ist, dafür zu sorgen, dass das Wesen, das das Mädchen getötet hat, geschlachtet wird. ",
+    "tr": "#133#$107İyi akşamlar Rubeus. Her şey bitti. Seni ele vermek zorundayım. Hogwarts'ın yapabileceği en az şey, o kızı öldüren yaratığın katledilmesini sağlamaktır."
+  },
+  {
+    "id": 172,
+    "en": "#136#$108The young Hagrid rose up to his full height and roared at the top of his voice.",
+    "fr": "#137#$108Le jeune Hagrid se releva et se mit à rugir.",
+    "de": "#138#$108Der junge Hagrid richtete sich zur vollen Grö\\u0099e auf und polterte mit lauter Stimme.",
+    "tr": "#136#$108Genç Hagrid bütün boyuyla ayağa kalktı ve var gücüyle kükredi."
+  },
+  {
+    "id": 173,
+    "en": "#139#$109It wasn\\u00b8t him!  He wouldn\\u00b8t!  He never!",
+    "fr": "#13A#$109Ce n'était pas lui ! Jamais il n'aurait fait \\u00a1a ! Jamais !",
+    "de": "#13B#$109Er war es nicht! Es hat nie keinen umgebracht!",
+    "tr": "#139#$109O yapmadı! O yapmaz! Asla!"
+  },
+  {
+    "id": 174,
+    "en": "#13C#$110And then, from out of the box came something that made Harry let out a long, piercing scream unheard by anyone...",
+    "fr": "#13D#$110Alors, de la bo\\u00a8te sortit quelque chose qui arracha à Harry un hurlement per\\u00a1ant que lui seul put entendre.",
+    "de": "#13E#$110Dann kam etwas aus der Kiste, dass Harry zu einem langen lauten Schrei veranlasste, der ungehört verhallte ...",
+    "tr": "#13C#$110Ve tam o anda, kutunun içinden Harry'ye kimsenin duymadığı uzun, kulak tırmalayıcı bir çığlık attıran bir şey çıktı..."
+  },
+  {
+    "id": 175,
+    "en": "#13F#$111A vast, low-slung, hairy body and a tangle of black legs; a gleam of many eyes and a pair of razor-sharp pincers.  The thing scuttled away, tearing up the corridor and out of sight.",
+    "fr": "#140#$111C'était un long corps bas, hérissé de poils, avec un enchev\\u00a4trement de pattes noires, des yeux innombrables qui brillaient dans l'obscurité et une paire de pinces aiguisées comme un rasoir. La chose s'enfuit, fila le long du couloir et disparut.",
+    "de": "#141#$111Ein riesiger, lang gezogener, haariger Körper und ein Gewirr schwarzer Beine, ein Glimmen vieler Augen und ein Paar rasiermesserscharfer Greifzangen. Das Wesen krabbelte den Gang entlang davon und verschwand.",
+    "tr": "#13F#$111Yere yakın, kıllı devasa bir gövde ve karmakarışık siyah bacaklar; parıldayan bir sürü göz ve ustura kadar keskin bir çift kıskaç. Yaratık hızla uzaklaştı, koridorda koşturup gözden kayboldu."
+  },
+  {
+    "id": 176,
+    "en": "#142#$112Nooooooo!",
+    "fr": "#143#$112Noooooon !",
+    "de": "#144#$112Neiiiiiiiinnn!",
+    "tr": "#142#$112Hayııııııır!"
+  },
+  {
+    "id": 177,
+    "en": "#145#$113The scene whirled-",
+    "fr": "#146#$113Tout se mit alors à tourner,",
+    "de": "#147#$113Vor Harrys Augen begann sich alles zu drehen - ",
+    "tr": "#145#$113Manzara dönmeye başladı-"
+  },
+  {
+    "id": 178,
+    "en": "#148#$114-the darkness became complete.",
+    "fr": "#149#$114l'obscurité devint totale.",
+    "de": "#14A#$114und alles wurde schwarz.",
+    "tr": "#148#$114-karanlık her yeri kapladı."
+  },
+  {
+    "id": 179,
+    "en": "#14B#$115And Harry landed with a crash.",
+    "fr": "#14C#$115Harry se sentit tomber et atterrit avec fracas.",
+    "de": "#14D#$115Er landete unsanft.",
+    "tr": "#14B#$115Ve Harry gürültüyle yere çarptı."
+  },
+  {
+    "id": 180,
+    "en": "#14E#$116Later, Harry met up with Ron and Hermione.",
+    "fr": "#14F#$116Plus tard, Harry retrouva Ron et Hermione.",
+    "de": "#150#$116Später traf sich Harry mit Ron und Hermine.",
+    "tr": "#14E#$116Daha sonra Harry, Ron ve Hermione ile buluştu."
+  },
+  {
+    "id": 181,
+    "en": "#151#$117What\\u00b8s up?",
+    "fr": "#152#$117Qu'est-ce qu'il y a ?",
+    "de": "#153#$117Was ist los?",
+    "tr": "#151#$117Ne var?"
+  },
+  {
+    "id": 182,
+    "en": "#154#$120The car screeched to a halt and Harry dived inside.",
+    "fr": "#155#$120Dans un crissement de pneus, la voiture s'arr\\u00a4ta net et Harry plongea dedans.",
+    "de": "#156#$120Der Wagen hielt kreischend vor ihm und Harry sprang hinein.",
+    "tr": "#154#$120Araba acı bir frenle durdu ve Harry hemen içeri daldı."
+  },
+  {
+    "id": 183,
+    "en": "#157#$121Hurry up, Ron!",
+    "fr": "#158#$121Dép\\u00a4che-toi, Ron !",
+    "de": "#159#$121Beeil dich, Ron!",
+    "tr": "#157#$121Çabuk ol, Ron!"
+  },
+  {
+    "id": 184,
+    "en": "#15A#$122The door slammed shut and Ron didn\\u00b8t need to touch the accelerator because the car was already speeding away.",
+    "fr": "#15B#$122Les portières se refermèrent aussit\\u00adt. Ron ne toucha pas à l'accélérateur, mais la voiture ne semblait pas avoir besoin de lui et démarra en trombe.",
+    "de": "#15C#$122Die Türen schlugen zu und Ron brauchte das Gaspedal nicht zu berühren - der Wagen beschleunigte von allein.",
+    "tr": "#15A#$122Kapı çarparak kapandı ve Ron'un gaza basmasına gerek kalmadı, çünkü araba çoktan hızla uzaklaşıyordu."
+  },
+  {
+    "id": 185,
+    "en": "#15D#$127And there was something else \\u00b5 something Aragog had said about the girl who\\u00b8d died fifty years before...  Then Harry had it.  He turned to Ron.",
+    "fr": "#15E#$127Mais il y avait autre chose, une chose dont Aragog avait parlé à propos de la fille morte il y a cinquante ans... Soudain, Harry comprit. Il se tourna vers Ron.",
+    "de": "#15F#$127Aber da war noch etwas anderes - etwas, das Aragog über das Mädchen gesagt hatte, das vor fünfzig Jahren starb ... Dann fiel es ihm ein. Er wendete sich Ron zu.",
+    "tr": "#15D#$127Ve başka bir şey daha vardı... Aragog'un elli yıl önce ölen kız hakkında söylediği bir şey... Derken Harry gerçeği kavradı. Ron'a döndü."
+  },
+  {
+    "id": 186,
+    "en": "#160#$128That girl who died.  What if she never left the bathroom? What if she\\u00b8s still there?",
+    "fr": "#161#$128Cette fille qui est morte. Imagine qu'elle ne soit pas sortie des toilettes depuis ce temps-là ? Et qu'elle s'y trouve toujours ?",
+    "de": "#162#$128Dieses Mädchen, das gestorben ist. Was, wenn sie dieses Klo nie verlassen hat? Was, wenn sie immer noch da ist?",
+    "tr": "#160#$128O ölen kız. Ya tuvaletten hiç ayrılmadıysa? Ya hala oradaysa?"
+  },
+  {
+    "id": 187,
+    "en": "#163#$129Ron gasped.",
+    "fr": "#164#$129Ron en eut le souffle coupé.",
+    "de": "#165#$129Ron schnappte nach Luft.",
+    "tr": "#163#$129Ron nefesini tuttu."
+  },
+  {
+    "id": 188,
+    "en": "#166#$130You don\\u00b8t think \\u00b5 not Moaning Myrtle?",
+    "fr": "#167#$130Ne me dis pas que... Tu penses à Mimi Geignarde ?",
+    "de": "#168#$130Du glaubst doch nicht - nicht die Maulende Myrte?",
+    "tr": "#166#$130Yoksa... Mızmız Myrtle olmasın?"
+  },
+  {
+    "id": 189,
+    "en": "#169#$131There was silence.  Silence except for the steady drip drip of ink still oozing from the diary.  The basilisk venom had burned a sizzling hole right through it.",
+    "fr": "#16A#$131Soudain, ce fut le silence. On n'entendait plus que le bruit faible et régulier de l'encre qui continuait de couler goutte à goutte du journal intime. Le venin du Basilic y avait fait un trou, br\\u00b3lant les pages de part en part.",
+    "de": "#16B#$131Es herrschte Stille. Stille mit Ausnahme des stetigen tropf, tropf der Tinte, die immer noch aus dem Tagebuch heraussickerte. Der Giftzahn des Basilisken hatte ein knisterndes Loch mitten hindurch gebrannt.",
+    "tr": "#169#$131Sessizlik oldu. Günlükten hala damla damla sızan mürekkebin sesinden başka çıt çıkmıyordu. Basilisk zehri günlüğün tam ortasında cızırdayan bir delik açmıştı."
+  },
+  {
+    "id": 190,
+    "en": "#16C#$132Shaking all over, Harry pulled himself up.  His head was spinning as though he\\u00b8d travelled miles by Floo powder.  Ginny drew a great, shuddering gasp.",
+    "fr": "#16D#$132Tremblant de tout son corps, Harry se releva. La t\\u00a4te lui tournait comme s'il avait parcouru des dizaines de kilomètres par la poudre de cheminette. Ginny se mit à gémir.",
+    "de": "#16E#$132Am ganzen Leib zitternd richtete Harry sich auf. Ihm drehte sich alles, als ob er gerade meilenweit mit Flohpulver gereist wäre. Ginny rührte sich.",
+    "tr": "#16C#$132Baştan ayağa titreyen Harry kendini yukarı çekti. Sanki Uçuş Tozuyla miller katetmiş gibi başı dönüyordu. Ginny derinden, ürpertici bir nefes aldı."
+  },
+  {
+    "id": 191,
+    "en": "#16F#$133It was me, Harry \\u00b5 but I \\u00b5 I s-swear I d-didn\\u00b8t mean to \\u00b5 Riddle made me, he t-took me over...",
+    "fr": "#170#$133C'était moi, Harry... mais je jure... que je ne voulais pas faire \\u00a1a... C'est Jedusor qui m'a obligée à...",
+    "de": "#171#$133Ich war's, Harry - aber ich - ich sch...schwöre, ich wollte es nicht - R...Riddle hat mich dazu gebracht, er h...hat mich geholt ...",
+    "tr": "#16F#$133Bendimm, Harry... ama ben... y-yemin ederim i-istemeden yaptım... Riddle yaptırdı, beni e-ele geçirdi..."
+  },
+  {
+    "id": 192,
+    "en": "#172#$134Harry told her that it was all right, that Riddle and the basilisk were finished.",
+    "fr": "#173#$134Harry la rassura et lui dit que Jedusor et le Basilic étaient morts tous les deux.",
+    "de": "#174#$134Harry beruhigte sie und erzählte ihr, dass Riddle und der Basilisk erledigt seien.",
+    "tr": "#172#$134Harry her şeyin yolunda olduğunu, Riddle'ın ve basilisk'in işinin bittiğini söyledi."
+  },
+  {
+    "id": 193,
+    "en": "#175#$135C\\u00b8mon, Ginny, let\\u00b8s get out of here.",
+    "fr": "#176#$135Viens Ginny, sortons d'ici.",
+    "de": "#177#$135Komm Ginny, lass uns gehen.",
+    "tr": "#175#$135Hadi Ginny, buradan çıkalım."
+  },
+  {
+    "id": 194,
+    "en": "#178#$136They were flying upwards, and before he\\u00b8d stopped enjoying the ride, it was over \\u00b5 all three of them were hitting the wet floor of Moaning Myrtle\\u00b8s bathroom.",
+    "fr": "#179#$136Ils s'envolèrent, mais l'envolée fut de courte durée. Bient\\u00adt, ils se retrouvèrent tous sur le carrelage humide des toilettes de Mimi Geignarde.",
+    "de": "#17A#$136Mit gro\\u0099en Flügelschlägen wurden sie nach oben getragen. Die kalte Luft peitschte durch Harrys Haar, und bevor er den Spa\\u0099 an der Fahrt verlor, war sie auch schon vorbei - alle drei klatschten auf den nassen Boden im Klo der Maulenden Myrte.",
+    "tr": "#178#$136Yukarı doğru uçuyorlardı ve daha uçuşun tadını çıkaramadan her şey bitti; üçü birden Mızmız Myrtle'ın tuvaletinin ıslak zeminine çarptı."
+  },
+  {
+    "id": 195,
+    "en": "#17B#$137Harry told them everything.  He told them about hearing the disembodied voice.  How Hermione had finally realised that he was hearing a basilisk in the pipes.",
+    "fr": "#17C#$137Harry leur raconta toute l'histoire. Il révéla comment il avait entendu la voix désincarnée et comment Hermione avait découvert qu'il s'agissait d'un Basilic qui se dépla\\u00a1ait dans les tuyaux.",
+    "de": "#17D#$137Und dann fing Harry an, ihnen alles zu erzählen. Fast eine Viertelstunde lang sprach er in das gespannte Schweigen hinein. Er erzählte von der körperlosen Stimme und wie Hermine schlie\\u0099lich begriffen hatte, dass er einen Basilisken in den Rohren gehört hatte.",
+    "tr": "#17B#$137Harry onlara her şeyi anlattı. Duyduğu o bedensiz sesi anlattı. Hermione'nin, boruların içinden duyduğu sesin bir basilisk olduğunu sonunda nasıl anladığını aktardı."
+  },
+  {
+    "id": 196,
+    "en": "#17E#$153How Aragog had told him where the last victim of the basilisk had died; how he had guessed that Moaning Myrtle had been the victim, and that the entrance to the basilisk's lair - the Chamber of Secrets - might be in her bathroom.",
+    "fr": "#17F#$153Comment Aragog avait fini par lui dire o\\u00b1 était morte la dernière victime du Basilic, comment il avait deviné que cette victime devait \\u00a4tre Mimi Geignarde et que l'entrée de la Chambre des Secrets se trouvait peut-\\u00a4tre dans ses toilettes...",
+    "de": "#180#$153Wie Aragog ihm gesagt hatte, dass das letzte Opfer des Basilisken gestorben sei; wie er auf den Gedanken gekommen war, dass die Maulende Myrte dieses Opfer gewesen sei und dass der Eingang zur Kammer des Schreckens in ihrer Toilette sein könne ...",
+    "tr": "#17E#$153Aragog'un basilisk'in son kurbanının nerede öldüğünü nasıl anlattığını, o kurbanın Mızmız Myrtle olduğunu nasıl tahmin ettiğini ve basilisk'in inine -Sırlar Odası'na- giden girişin onun tuvaletinde olabileceğini söyledi."
+  },
+  {
+    "id": 197,
+    "en": "#181#$154Professor Dumbledore explained that fifty years ago, Lord Voldemort, as a sixteen-year-old Tom Riddle, had enchanted his diary - and that diary had enchanted Ginny.",
+    "fr": "#182#$154Le professeur Dumbledore raconta qu'il y a cinquante ans, Lord Voldemort, alors qu'il était encore Tom Jedusor \\u009cgé de seize ans, avait envo\\u00b3té son journal qui avait à son tour envo\\u00b3té Ginny.",
+    "de": "#183#$154Professor Dumbledore erklärte allen, dass Lord Voldemort, als sechzehnjähriger Tom Riddle, dieses Tagebuch verzaubert und dieses Tagebuch wiederum Ginny verzaubert habe.",
+    "tr": "#181#$154Profesör Dumbledore, elli yıl önce Lord Voldemort'un henüz on altı yaşındaki Tom Riddle halindeyken günlüğünü büyülediğini ve o günlüğün de Ginny'yi etkisi altına aldığını açıkladı."
+  },
+  {
+    "id": 198,
+    "en": "#184#$139And as for Harry, well, once again, he truly was The Boy Who Lived...",
+    "fr": "#185#$139En ce qui concerne Harry, une fois de plus il était le survivant.",
+    "de": "#186#$139Und was Harry angeht - wieder einmal hat er bewiesen, dass er der Junge ist, der überlebte.",
+    "tr": "#184#$139Ve Harry'ye gelince, pekala, bir kez daha gerçekten de Sağ Kalan Çocuk olduğunu kanıtlamıştı..."
+  },
+  {
+    "id": 199,
+    "en": "#187#$019C\\u00b8mon, Harry, let\\u00b8s go.",
+    "fr": "#188#$019On y va, Harry.",
+    "de": "#189#$019Los Harry, auf geht's.",
+    "tr": "#187#$019Hadi Harry, gidelim."
+  },
+  {
+    "id": 200,
+    "en": "#18A#$020And they did...",
+    "fr": "#18B#$020C'est ce qu'ils firent...",
+    "de": "#18C#$020Und los ging's ...",
+    "tr": "#18A#$020Ve öyle yaptılar..."
+  },
+  {
+    "id": 201,
+    "en": "#18D#$143They found the car in Charing Cross road and after making it invisible, flew it into the sky over London. They saw the Hogwarts Express far below and followed it for some time...",
+    "fr": "#18E#$143Ils trouvèrent la voiture à Charing Cross Road et, après l'avoir rendue invisible, s'envolèrent au-dessus des toits de Londres. Le Poudlard Express se trouvait loin en-dessous d'eux et ils le suivirent...",
+    "de": "#18F#$143Sie entdeckten den Wagen in der Nähe von Charing Cross und nachdem sie den Unsichtbarkeits-Servoantrieb aktiviert hatten, hoben sie ab - über die Häuser von London. Sie konnten den Hogwarts Express weit unten erkennen und folgten ihm ...",
+    "tr": "#18D#$143Arabayı Charing Cross Yolu'nda buldular ve görünmez kıldıktan sonra Londra semalarına doğru havalandılar. Çok aşağıda Hogwarts Ekspresi'ni görüp bir süre onu takip ettiler..."
+  },
+  {
+    "id": 202,
+    "en": "#190#$079I think I\\u00b8ll just go and have me usual at the Leaky Cauldron. See yeh later, Harry.",
+    "fr": "#191#$079Je vais faire un petit tour au Chaudron Baveur. A bient\\u00adt, Harry.",
+    "de": "#192#$079Ich glaube, ich gehe wie immer in den Tropfenden Kessel. Wir sehen uns, Harry.",
+    "tr": "#190#$079Ben gidip Çatlak Kazan'da her zamankinden bi tane içeyim. Sonra görüşürüz Harry."
+  },
+  {
+    "id": 203,
+    "en": "#193#$080And Harry went to find what he needed for the Polyjuice Potion...",
+    "fr": "#194#$080Harry se mit en qu\\u00a4te des ingrédients pour le Polynectar.",
+    "de": "#195#$080Und Harry zog los, um die Zutaten für den Vielsaft-Trank zu organisieren.",
+    "tr": "#193#$080Ve Harry, Çoközlü İksir için gerekenleri bulmaya gitti..."
+  },
+  {
+    "id": 204,
+    "en": "#196#$095Dumbledore went on to say that he didn\\u00b8t believe Harry was the attacker plaguing Hogwarts and he asked if Harry had anything that he wanted to tell him.",
+    "fr": "#197#$095Dumbledore dit qu'il ne pensait pas que Harry soit l'auteur des agressions à Poudlard et lui demanda s'il avait quelque chose de particulier à lui dire.",
+    "de": "#198#$095Dumbledore fügte hinzu, dass er nicht daran glaubte, dass Harry die Leute in Hogwarts angegriffen habe und er fragte Harry, ob es etwas gäbe, was dieser ihm erzählen wolle.",
+    "tr": "#196#$095Dumbledore, Hogwarts'ı kasıp kavuran saldırganın Harry olduğuna inanmadığını söyleyerek devam etti ve Harry'ye kendisine anlatmak istediği bir şey olup olmadığını sordu."
+  },
+  {
+    "id": 205,
+    "en": "#199#$118Harry could barely get the words out of his mouth.",
+    "fr": "#19A#$118Harry pouvait à peine parler.",
+    "de": "#19B#$118Harry fiel es schwer, die nächsten Worte auszusprechen.",
+    "tr": "#199#$118Kelimeler Harry'nin ağzından güçlükle döküldü."
+  },
+  {
+    "id": 206,
+    "en": "#19C#$119It was Hagrid, Ron.  Hagrid opened the Chamber of Secrets fifty years ago.",
+    "fr": "#19D#$119C'est Hagrid. Hagrid a ouvert la Chambre des Secrets il y a cinquante ans.",
+    "de": "#19E#$119Es war Hagrid, Ron. Hagrid hat die Kammer des Schreckens vor fünfzig Jahren geöffnet.",
+    "tr": "#19C#$119Hagrid'miş Ron. Sırlar Odası'nı elli yıl önce Hagrid açmış."
+  },
+  {
+    "id": 207,
+    "en": "#19F#$005Ronald Weasley! I thought I asked you to stop that $ghoul from making such a racket! He's still dropping $pipes over the attic floor! It's driving me mad!",
+    "fr": "#1A0#$005Ronald Weasley ! Je croyais t'avoir demandé d'emp\\u00a4cher la $goule de faire du tapage ! Elle n'arr\\u00a4te pas de jeter des $tuyaux dans le grenier ! Elle va me rendre folle !",
+    "de": "#1A1#$005Ronald Weasley! Hatte ich dir nicht gesagt, du sollst den $Ghul ruhig stellen?! Er schmei\\u0099t immer noch mit $Rohren um sich! Er macht mich wahnsinnig!",
+    "tr": "#19F#$005Ronald Weasley! Sana o $hortlağın bu kadar patırtı yapmasını engellemeni söylemiştim sanıyordum! Tavan arası zeminine hala $borular düşürüp duruyor! Beni deli edecek!"
+  },
+  {
+    "id": 208,
+    "en": "#1A2#$123They sped out of the hollow, branches whipping the windows as the car wound its way cleverly through the widest gaps, following a path it obviously knew.",
+    "fr": "#1A3#$123Ils sortirent de la fosse et s'enfoncèrent dans la for\\u00a4t. Les branches cinglaient le pare-brise et la voiture se fraya habilement un passage parmi les arbres. De toute évidence, elle connaissait le chemin.",
+    "de": "#1A4#$123Sie rasten einen Hügel hinauf, raus aus der Senke und weiter durch den Wald. Zweige krachten gegen die Scheiben als der Wagen sich einen Weg durch das dichte Unterholz bahnte. Er schien diesen Weg bestens zu kennen.",
+    "tr": "#1A2#$123Çukurdan hızla çıktılar; araba besbelli bildiği bir yolu izleyerek en geniş aralıklardan ustaca kıvrılırken dallar pencereleri kamçılıyordu."
+  },
+  {
+    "id": 209,
+    "en": "#1A5#$152After ten noisy, rocky minutes the trees thinned and the car stopped so suddenly they were nearly thrown through the windscreen. They had reached the edge of the forest.",
+    "fr": "#1A6#$152Pendant dix minutes, ils furent secoués par les cahots, puis la végétation devint moins dense. Ils s'arr\\u00a4tèrent si brusquement qu'ils faillirent se cogner contre le pare-brise. Ils avaient atteint la lisière de la for\\u00a4t.",
+    "de": "#1A7#$152Nach zehn lärmerfüllten, holprigen Minuten lichteten sich die Bäume. Der Wagen stoppte so jäh, dass sie fast durch die Windschutzscheibe flogen. Sie hatten den Waldrand erreicht.",
+    "tr": "#1A5#$152Gürültülü ve sarsıntılı on dakikanın ardından ağaçlar seyreldi ve araba öyle ani durdu ki neredeyse ön camdan fırlayacaklardı. Ormanın kenarına varmışlardı."
+  },
+  {
+    "id": 210,
+    "en": "#1A8#$124Harry and Ron arrived safely back in the Gryffindor Common Room.",
+    "fr": "#1A9#$124Enfin, ils arrivèrent sains et saufs dans la salle commune de Gryffondor.",
+    "de": "#1AA#$124Harry und Ron kehrten sicher in den Gemeinschaftsraum der Gryffindors zurück.",
+    "tr": "#1A8#$124Harry ile Ron sağ salim Gryffindor Ortak Odası'na geri döndüler."
+  },
+  {
+    "id": 211,
+    "en": "#1AB#$125What was the point of going in there?  What have we found out, I\\u00b8d like to know?",
+    "fr": "#1AC#$125A quoi \\u00a1a a servi d'aller là-bas ? J'aimerais bien savoir ce qu'on a découvert ?",
+    "de": "#1AD#$125Was hat es gebracht, dass wir da reingegangen sind? Was haben wir herausgefunden, möchte ich gern wissen?",
+    "tr": "#1AB#$125Oraya gitmenin ne anlamı vardı? Ne öğrendik ki, bilmek isterdim doğrusu?"
+  },
+  {
+    "id": 212,
+    "en": "#1AE#$126That Hagrid never opened the Chamber of Secrets.  He was innocent.",
+    "fr": "#1AF#$126Que Hagrid n'a jamais ouvert la Chambre des Secrets. Il était innocent.",
+    "de": "#1B0#$126Dass Hagrid die Kammer des Schreckens nicht geöffnet hat. Er war unschuldig.",
+    "tr": "#1AE#$126Hagrid'in Sırlar Odası'nı asla açmadığını. Masum olduğunu."
+  },
+  {
+    "id": 213,
+    "en": "#1B1#$138Later, Harry managed to release Dobby from the slavery of Lucius Malfoy.  For it was Lucius Malfoy who had planted Tom Riddle\\u00b8s diary on the hapless Ginny Weasley.",
+    "fr": "#1B2#$138Harry réussit par la suite à délivrer de l'esclavage Dobby, l'elfe de maison de Lucius Malefoy, car c'était Malefoy qui avait glissé le journal de Jedusor dans les mains de l'innocente Ginny Weasley.",
+    "de": "#1B3#$138Harry schaffte es auch noch, den Hauself Dobby aus der Sklaverei von Lucius Malfoy zu befreien. Denn schlie\\u0099lich war es Lucius Malfoy gewesen, der das Tagebuch Tom Riddles in die Hände der unglücklichen Ginny Weasley gespielt hatte.",
+    "tr": "#1B1#$138Daha sonra Harry, Dobby'yi Lucius Malfoy'un köleliğinden azat etmeyi başardı. Çünkü Tom Riddle'ın günlüğünü talihsiz Ginny Weasley'nin eşyaları arasına yerleştiren kişi Lucius Malfoy'du."
+  }
+]

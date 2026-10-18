@@ -1,0 +1,2012 @@
+[
+  {
+    "id": 0,
+    "original_length": 18,
+    "text": "Advanced",
+    "translation": "İleri Düzey"
+  },
+  {
+    "id": 1,
+    "original_length": 36,
+    "text": "Data Will Be Lost",
+    "translation": "Veriler Kaybolacak"
+  },
+  {
+    "id": 2,
+    "original_length": 26,
+    "text": "Area cleared",
+    "translation": "Bölge temizlendi"
+  },
+  {
+    "id": 3,
+    "original_length": 28,
+    "text": "Areas Cleared",
+    "translation": "Temizlenen Bölgeler"
+  },
+  {
+    "id": 4,
+    "original_length": 26,
+    "text": "Are you sure",
+    "translation": "Emin misiniz"
+  },
+  {
+    "id": 5,
+    "original_length": 28,
+    "text": "Are You Sure?",
+    "translation": "Emin misiniz?"
+  },
+  {
+    "id": 6,
+    "original_length": 34,
+    "text": "Autosave / Load?",
+    "translation": "Otomatik Kayıt / Yükleme?"
+  },
+  {
+    "id": 7,
+    "original_length": 18,
+    "text": "Autosave",
+    "translation": "Otomatik Kayıt"
+  },
+  {
+    "id": 8,
+    "original_length": 128,
+    "text": "This will save your progress throughout the game automatically.",
+    "translation": "Bu işlem oyun boyunca ilerlemenizi otomatik olarak kaydeder."
+  },
+  {
+    "id": 9,
+    "original_length": 120,
+    "text": "Warning: Your game settings and progress will not be saved.",
+    "translation": "Uyarı: Oyun ayarlarınız ve ilerlemeniz kaydedilmeyecektir."
+  },
+  {
+    "id": 10,
+    "original_length": 18,
+    "text": "Proceed?",
+    "translation": "Devam edilsin mi?"
+  },
+  {
+    "id": 11,
+    "original_length": 14,
+    "text": "[ Back",
+    "translation": "[ Geri"
+  },
+  {
+    "id": 12,
+    "original_length": 18,
+    "text": "Beginner",
+    "translation": "Başlangıç"
+  },
+  {
+    "id": 13,
+    "original_length": 64,
+    "text": "< Begin new game without saving",
+    "translation": "< Kaydetmeden yeni oyuna başla"
+  },
+  {
+    "id": 14,
+    "original_length": 40,
+    "text": "School Record Time:",
+    "translation": "Okul Rekor Süresi:"
+  },
+  {
+    "id": 15,
+    "original_length": 42,
+    "text": "Calibrate Controller",
+    "translation": "Kolu Kalibre Et"
+  },
+  {
+    "id": 16,
+    "original_length": 20,
+    "text": "Look Mode",
+    "translation": "Bakış Modu"
+  },
+  {
+    "id": 17,
+    "original_length": 28,
+    "text": "Centre Screen",
+    "translation": "Ekranı Ortala"
+  },
+  {
+    "id": 18,
+    "original_length": 32,
+    "text": "@ Center Screen",
+    "translation": "@ Ekranı Ortala"
+  },
+  {
+    "id": 19,
+    "original_length": 48,
+    "text": "{ } Select       [ Back",
+    "translation": "{ } Seç       [ Geri"
+  },
+  {
+    "id": 20,
+    "original_length": 52,
+    "text": "{ } Select       [ Cancel",
+    "translation": "{ } Seç       [ İptal"
+  },
+  {
+    "id": 21,
+    "original_length": 16,
+    "text": "Chapter",
+    "translation": "Bölüm"
+  },
+  {
+    "id": 22,
+    "original_length": 24,
+    "text": "CHECKPOINT!",
+    "translation": "KONTROL NOKTASI!"
+  },
+  {
+    "id": 23,
+    "original_length": 32,
+    "text": "Choose Language",
+    "translation": "Dil Seçimi"
+  },
+  {
+    "id": 24,
+    "original_length": 28,
+    "text": "Choose a game",
+    "translation": "Bir oyun seç"
+  },
+  {
+    "id": 25,
+    "original_length": 14,
+    "text": "Coins:",
+    "translation": "Paralar:"
+  },
+  {
+    "id": 26,
+    "original_length": 32,
+    "text": "Coins collected",
+    "translation": "Toplanan paralar"
+  },
+  {
+    "id": 27,
+    "original_length": 40,
+    "text": "> Continue   [ Back",
+    "translation": "> Devam Et   [ Geri"
+  },
+  {
+    "id": 28,
+    "original_length": 32,
+    "text": "Press > to save",
+    "translation": "Kaydetmek için > bas"
+  },
+  {
+    "id": 29,
+    "original_length": 46,
+    "text": "or press ] to continue",
+    "translation": "veya devam etmek için ] bas"
+  },
+  {
+    "id": 30,
+    "original_length": 40,
+    "text": "Press > to continue",
+    "translation": "Devam etmek için > bas"
+  },
+  {
+    "id": 31,
+    "original_length": 52,
+    "text": "[ Continue without saving",
+    "translation": "[ Kaydetmeden devam et"
+  },
+  {
+    "id": 32,
+    "original_length": 38,
+    "text": "Controller Options",
+    "translation": "Kontrol Ayarları"
+  },
+  {
+    "id": 33,
+    "original_length": 16,
+    "text": "Credits",
+    "translation": "Emeği Geçenler"
+  },
+  {
+    "id": 34,
+    "original_length": 28,
+    "text": "Current Time:",
+    "translation": "Geçerli Süre:"
+  },
+  {
+    "id": 35,
+    "original_length": 60,
+    "text": "Defence Against the Dark Arts",
+    "translation": "Karanlık Sanatlara Karşı Savunma"
+  },
+  {
+    "id": 36,
+    "original_length": 16,
+    "text": "Default",
+    "translation": "Varsayılan"
+  },
+  {
+    "id": 37,
+    "original_length": 10,
+    "text": "Demo",
+    "translation": "Demo"
+  },
+  {
+    "id": 38,
+    "original_length": 20,
+    "text": "Demo Mode",
+    "translation": "Demo Modu"
+  },
+  {
+    "id": 39,
+    "original_length": 34,
+    "text": "Press Any Button",
+    "translation": "Herhangi Bir Tuşa Basın"
+  },
+  {
+    "id": 40,
+    "original_length": 32,
+    "text": "Dialogue Volume",
+    "translation": "Diyalog Sesi"
+  },
+  {
+    "id": 41,
+    "original_length": 18,
+    "text": "Surround",
+    "translation": "Surround"
+  },
+  {
+    "id": 42,
+    "original_length": 10,
+    "text": "Done",
+    "translation": "Bitti"
+  },
+  {
+    "id": 43,
+    "original_length": 18,
+    "text": "Complete",
+    "translation": "Tamamlandı"
+  },
+  {
+    "id": 44,
+    "original_length": 12,
+    "text": "EMPTY",
+    "translation": "BOŞ"
+  },
+  {
+    "id": 45,
+    "original_length": 26,
+    "text": "End Sequence",
+    "translation": "Bitiş Sahnesi"
+  },
+  {
+    "id": 46,
+    "original_length": 10,
+    "text": "Exit",
+    "translation": "Çıkış"
+  },
+  {
+    "id": 47,
+    "original_length": 42,
+    "text": "Founder Wizard Duels",
+    "translation": "Kurucu Büyücü Düelloları"
+  },
+  {
+    "id": 48,
+    "original_length": 24,
+    "text": "Game Save 1",
+    "translation": "Kayıt Dosyası 1"
+  },
+  {
+    "id": 49,
+    "original_length": 24,
+    "text": "Game Save 2",
+    "translation": "Kayıt Dosyası 2"
+  },
+  {
+    "id": 50,
+    "original_length": 24,
+    "text": "Game Save 3",
+    "translation": "Kayıt Dosyası 3"
+  },
+  {
+    "id": 51,
+    "original_length": 24,
+    "text": "Your Grade:",
+    "translation": "Notunuz:"
+  },
+  {
+    "id": 52,
+    "original_length": 28,
+    "text": "Grade Needed:",
+    "translation": "Gereken Not:"
+  },
+  {
+    "id": 53,
+    "original_length": 22,
+    "text": "Gryffindor",
+    "translation": "Gryffindor"
+  },
+  {
+    "id": 54,
+    "original_length": 50,
+    "text": "Harry Potter Report Card",
+    "translation": "Harry Potter Karnesi"
+  },
+  {
+    "id": 55,
+    "original_length": 20,
+    "text": "Herbology",
+    "translation": "Bitkibilim"
+  },
+  {
+    "id": 56,
+    "original_length": 26,
+    "text": "House Points",
+    "translation": "Bina Puanları"
+  },
+  {
+    "id": 57,
+    "original_length": 22,
+    "text": "Hufflepuff",
+    "translation": "Hufflepuff"
+  },
+  {
+    "id": 58,
+    "original_length": 20,
+    "text": "Inventory",
+    "translation": "Envanter"
+  },
+  {
+    "id": 59,
+    "original_length": 24,
+    "text": "Nimbus 2001",
+    "translation": "Nimbus 2001"
+  },
+  {
+    "id": 60,
+    "original_length": 30,
+    "text": "(inventory 02)",
+    "translation": "(envanter 02)"
+  },
+  {
+    "id": 61,
+    "original_length": 30,
+    "text": "(inventory 03)",
+    "translation": "(envanter 03)"
+  },
+  {
+    "id": 62,
+    "original_length": 30,
+    "text": "(inventory 04)",
+    "translation": "(envanter 04)"
+  },
+  {
+    "id": 63,
+    "original_length": 30,
+    "text": "(inventory 05)",
+    "translation": "(envanter 05)"
+  },
+  {
+    "id": 64,
+    "original_length": 30,
+    "text": "(inventory 06)",
+    "translation": "(envanter 06)"
+  },
+  {
+    "id": 65,
+    "original_length": 30,
+    "text": "(inventory 07)",
+    "translation": "(envanter 07)"
+  },
+  {
+    "id": 66,
+    "original_length": 30,
+    "text": "(inventory 08)",
+    "translation": "(envanter 08)"
+  },
+  {
+    "id": 67,
+    "original_length": 30,
+    "text": "(inventory 09)",
+    "translation": "(envanter 09)"
+  },
+  {
+    "id": 68,
+    "original_length": 30,
+    "text": "(inventory 10)",
+    "translation": "(envanter 10)"
+  },
+  {
+    "id": 69,
+    "original_length": 30,
+    "text": "(inventory 11)",
+    "translation": "(envanter 11)"
+  },
+  {
+    "id": 70,
+    "original_length": 30,
+    "text": "(inventory 12)",
+    "translation": "(envanter 12)"
+  },
+  {
+    "id": 71,
+    "original_length": 30,
+    "text": "(inventory 13)",
+    "translation": "(envanter 13)"
+  },
+  {
+    "id": 72,
+    "original_length": 30,
+    "text": "(inventory 14)",
+    "translation": "(envanter 14)"
+  },
+  {
+    "id": 73,
+    "original_length": 30,
+    "text": "(inventory 15)",
+    "translation": "(envanter 15)"
+  },
+  {
+    "id": 74,
+    "original_length": 30,
+    "text": "(inventory 16)",
+    "translation": "(envanter 16)"
+  },
+  {
+    "id": 75,
+    "original_length": 18,
+    "text": "Inverted",
+    "translation": "Ters Çevrilmiş"
+  },
+  {
+    "id": 76,
+    "original_length": 32,
+    "text": "Select Language",
+    "translation": "Dil Seçimi"
+  },
+  {
+    "id": 77,
+    "original_length": 98,
+    "text": "| 2002 Electronic Arts Inc. All rights reserved.",
+    "translation": "| 2002 Electronic Arts Inc. Tüm hakları saklıdır."
+  },
+  {
+    "id": 78,
+    "original_length": 138,
+    "text": "Certain Technology | 2002 Argonaut Software Ltd. All rights reserved",
+    "translation": "Belirli Teknolojiler | 2002 Argonaut Software Ltd. Tüm hakları saklıdır."
+  },
+  {
+    "id": 79,
+    "original_length": 14,
+    "text": "Castle",
+    "translation": "Şato"
+  },
+  {
+    "id": 80,
+    "original_length": 26,
+    "text": "Upper Castle",
+    "translation": "Yukarı Şato"
+  },
+  {
+    "id": 81,
+    "original_length": 26,
+    "text": "Diagon Alley",
+    "translation": "Diagon Yolu"
+  },
+  {
+    "id": 82,
+    "original_length": 20,
+    "text": "Gringotts",
+    "translation": "Gringotts"
+  },
+  {
+    "id": 83,
+    "original_length": 16,
+    "text": "Grounds",
+    "translation": "Okul Bahçesi"
+  },
+  {
+    "id": 84,
+    "original_length": 16,
+    "text": "Secret!",
+    "translation": "Gizli!"
+  },
+  {
+    "id": 85,
+    "original_length": 34,
+    "text": "Forbidden Forest",
+    "translation": "Yasak Orman"
+  },
+  {
+    "id": 86,
+    "original_length": 16,
+    "text": "Dungeon",
+    "translation": "Zindan"
+  },
+  {
+    "id": 87,
+    "original_length": 20,
+    "text": "TestLevel",
+    "translation": "Test Bölümü"
+  },
+  {
+    "id": 88,
+    "original_length": 20,
+    "text": "Load Done",
+    "translation": "Yükleme Tamamlandı"
+  },
+  {
+    "id": 89,
+    "original_length": 70,
+    "text": "> Load and continue game    [ Back",
+    "translation": "> Yükle ve devam et    [ Geri"
+  },
+  {
+    "id": 90,
+    "original_length": 62,
+    "text": "] Overwrite and start new game",
+    "translation": "] Üzerine yaz ve yeni oyun başlat"
+  },
+  {
+    "id": 91,
+    "original_length": 22,
+    "text": "LOADING...",
+    "translation": "YÜKLENİYOR..."
+  },
+  {
+    "id": 92,
+    "original_length": 34,
+    "text": "Loading data....",
+    "translation": "Veriler yükleniyor...."
+  },
+  {
+    "id": 93,
+    "original_length": 68,
+    "text": "If you replay this level you will",
+    "translation": "Bu bölümü tekrar oynarsanız"
+  },
+  {
+    "id": 94,
+    "original_length": 50,
+    "text": "lose all your continues.",
+    "translation": "tüm devam haklarınızı kaybedersiniz."
+  },
+  {
+    "id": 95,
+    "original_length": 42,
+    "text": "Checking MEMORY CARD",
+    "translation": "HAFIZA KARTI kontrol ediliyor"
+  },
+  {
+    "id": 96,
+    "original_length": 36,
+    "text": "Continue anyway ?",
+    "translation": "Yine de devam edilsin mi?"
+  },
+  {
+    "id": 97,
+    "original_length": 62,
+    "text": "Would you like to create one ?",
+    "translation": "Bir tane oluşturmak ister misiniz?"
+  },
+  {
+    "id": 98,
+    "original_length": 120,
+    "text": "Creating Harry Potter and the Chamber of Secrets save block",
+    "translation": "Harry Potter ve Sırlar Odası kayıt bloku oluşturuluyor"
+  },
+  {
+    "id": 99,
+    "original_length": 42,
+    "text": "There is a different",
+    "translation": "Farklı bir"
+  },
+  {
+    "id": 100,
+    "original_length": 110,
+    "text": "There is a different MEMORY CARD in MEMORY CARD SLOT 1",
+    "translation": "HAFIZA KARTI YUVASI 1'de farklı bir HAFIZA KARTI var"
+  },
+  {
+    "id": 101,
+    "original_length": 44,
+    "text": "Do you wish to format",
+    "translation": "HAFIZA KARTINI"
+  },
+  {
+    "id": 102,
+    "original_length": 36,
+    "text": "the MEMORY CARD ?",
+    "translation": "biçimlendirmek istiyor musunuz?"
+  },
+  {
+    "id": 103,
+    "original_length": 44,
+    "text": "Do you want to save ?",
+    "translation": "Kaydetmek istiyor musunuz?"
+  },
+  {
+    "id": 104,
+    "original_length": 68,
+    "text": "MEMORY CARD Appears to be damaged",
+    "translation": "HAFIZA KARTI hasarlı görünüyor"
+  },
+  {
+    "id": 105,
+    "original_length": 14,
+    "text": "FAILED",
+    "translation": "BAŞARISIZ"
+  },
+  {
+    "id": 106,
+    "original_length": 22,
+    "text": "Formatting",
+    "translation": "Biçimlendiriliyor"
+  },
+  {
+    "id": 107,
+    "original_length": 68,
+    "text": "MEMORY CARD in MEMORY CARD slot 1",
+    "translation": "HAFIZA KARTI yuvası 1'deki HAFIZA KARTI"
+  },
+  {
+    "id": 108,
+    "original_length": 82,
+    "text": "is full. Harry Potter and the Chamber of",
+    "translation": "dolu. Harry Potter ve Sırlar Odası"
+  },
+  {
+    "id": 109,
+    "original_length": 82,
+    "text": "Secrets requires one free block to save.",
+    "translation": "kaydetmek için 1 boş blok gerektirir."
+  },
+  {
+    "id": 110,
+    "original_length": 66,
+    "text": "Please insert a MEMORY CARD with",
+    "translation": "Lütfen HAFIZA KARTI yuvası 1'e"
+  },
+  {
+    "id": 111,
+    "original_length": 68,
+    "text": "at least 1 free block into MEMORY",
+    "translation": "en az 1 boş bloku olan"
+  },
+  {
+    "id": 112,
+    "original_length": 26,
+    "text": "CARD slot 1.",
+    "translation": "bir HAFIZA KARTI takınız."
+  },
+  {
+    "id": 113,
+    "original_length": 52,
+    "text": "When you see this picture",
+    "translation": "Bu simgeyi gördüğünüzde"
+  },
+  {
+    "id": 114,
+    "original_length": 86,
+    "text": "your game is Autosaving. When this appears",
+    "translation": "oyununuz Otomatik Kaydedilmektedir. Bu belirdiğinde"
+  },
+  {
+    "id": 115,
+    "original_length": 74,
+    "text": "please do not remove the MEMORY CARD",
+    "translation": "lütfen HAFIZA KARTINI yuva 1'den"
+  },
+  {
+    "id": 116,
+    "original_length": 76,
+    "text": "from MEMORY CARD slot 1. Do not reset",
+    "translation": "çıkarmayınız. Reset atmayınız"
+  },
+  {
+    "id": 117,
+    "original_length": 72,
+    "text": "and do not turn off the main power.",
+    "translation": "ve ana güç düğmesini kapatmayınız."
+  },
+  {
+    "id": 118,
+    "original_length": 36,
+    "text": "Create a new save",
+    "translation": "Yeni bir kayıt oluştur"
+  },
+  {
+    "id": 119,
+    "original_length": 128,
+    "text": "No Harry Potter and the Chamber of Secrets saves on MEMORY CARD",
+    "translation": "HAFIZA KARTINDA Harry Potter ve Sırlar Odası kaydı yok"
+  },
+  {
+    "id": 120,
+    "original_length": 50,
+    "text": "No MEMORY CARD inserted.",
+    "translation": "HAFIZA KARTI takılı değil."
+  },
+  {
+    "id": 121,
+    "original_length": 56,
+    "text": "Please insert a MEMORY CARD",
+    "translation": "Lütfen HAFIZA KARTI yuvası 1'e"
+  },
+  {
+    "id": 122,
+    "original_length": 70,
+    "text": "containing at least one free block",
+    "translation": "en az bir boş blok içeren"
+  },
+  {
+    "id": 123,
+    "original_length": 50,
+    "text": "into MEMORY CARD slot 1.",
+    "translation": "bir HAFIZA KARTI takınız."
+  },
+  {
+    "id": 124,
+    "original_length": 64,
+    "text": "Do you want to overwrite game ?",
+    "translation": "Oyun kaydının üzerine yazmak istiyor musunuz?"
+  },
+  {
+    "id": 125,
+    "original_length": 16,
+    "text": "Retry ?",
+    "translation": "Yeniden dene?"
+  },
+  {
+    "id": 126,
+    "original_length": 42,
+    "text": "You will not be able",
+    "translation": "Oyun ilerlemenizi"
+  },
+  {
+    "id": 127,
+    "original_length": 44,
+    "text": "to save game progress",
+    "translation": "kaydedemeyeceksiniz"
+  },
+  {
+    "id": 128,
+    "original_length": 32,
+    "text": "Saving data....",
+    "translation": "Veriler kaydediliyor...."
+  },
+  {
+    "id": 129,
+    "original_length": 44,
+    "text": "In MEMORY CARD slot 1",
+    "translation": "HAFIZA KARTI yuvası 1'deki"
+  },
+  {
+    "id": 130,
+    "original_length": 30,
+    "text": "MEMORY CARD in",
+    "translation": "HAFIZA KARTI yuvası 1'deki"
+  },
+  {
+    "id": 131,
+    "original_length": 38,
+    "text": "MEMORY CARD slot 1",
+    "translation": "HAFIZA KARTI"
+  },
+  {
+    "id": 132,
+    "original_length": 36,
+    "text": "is not formatted.",
+    "translation": "biçimlendirilmemiş."
+  },
+  {
+    "id": 133,
+    "original_length": 52,
+    "text": "Do Not Remove MEMORY CARD",
+    "translation": "HAFIZA KARTINI Çıkarmayınız"
+  },
+  {
+    "id": 134,
+    "original_length": 48,
+    "text": "from MEMORY CARD slot 1",
+    "translation": "HAFIZA KARTI yuvası 1'den"
+  },
+  {
+    "id": 135,
+    "original_length": 50,
+    "text": "Continue without saving?",
+    "translation": "Kaydetmeden devam edilsin mi?"
+  },
+  {
+    "id": 136,
+    "original_length": 10,
+    "text": "Mono",
+    "translation": "Mono"
+  },
+  {
+    "id": 137,
+    "original_length": 28,
+    "text": "Music Options",
+    "translation": "Müzik Ayarları"
+  },
+  {
+    "id": 138,
+    "original_length": 26,
+    "text": "Music Volume",
+    "translation": "Müzik Sesi"
+  },
+  {
+    "id": 139,
+    "original_length": 54,
+    "text": "> Start new game    [ Back",
+    "translation": "> Yeni oyun başlat    [ Geri"
+  },
+  {
+    "id": 140,
+    "original_length": 6,
+    "text": "No",
+    "translation": "Hayır"
+  },
+  {
+    "id": 141,
+    "original_length": 70,
+    "text": "Controller not found in Controller",
+    "translation": "Kontrol kolu bulunamadı."
+  },
+  {
+    "id": 142,
+    "original_length": 74,
+    "text": "port 1.  Please reinsert Controller.",
+    "translation": "Lütfen kolu Yuva 1'e yeniden takınız."
+  },
+  {
+    "id": 143,
+    "original_length": 14,
+    "text": "Normal",
+    "translation": "Normal"
+  },
+  {
+    "id": 144,
+    "original_length": 74,
+    "text": "\\u00b9\\u00ba\\u00cb\\u00cc\\u00c3\\u00cd\\u00c9\\u00bf\\u00c0\\u00c5\\u00c6\\u00c1\\u00c2\\u00bb\\u00c4\\u00ca\\u00ce\\u00cf\\u00bc\\u00bd!),.:;?]}\\u00d0\\u00d1\\u00d2\\u00d3\\u00d4\\u00d5\\u00d6",
+    "translation": "\\u00b9\\u00ba\\u00cb\\u00cc\\u00c3\\u00cd\\u00c9\\u00bf\\u00c0\\u00c5\\u00c6\\u00c1\\u00c2\\u00bb\\u00c4\\u00ca\\u00ce\\u00cf\\u00bc\\u00bd!),.:;?]}\\u00d0\\u00d1\\u00d2\\u00d3\\u00d4\\u00d5\\u00d6"
+  },
+  {
+    "id": 145,
+    "original_length": 14,
+    "text": "] Undo",
+    "translation": "] Geri Al"
+  },
+  {
+    "id": 146,
+    "original_length": 8,
+    "text": "Off",
+    "translation": "Kapalı"
+  },
+  {
+    "id": 147,
+    "original_length": 6,
+    "text": "Ok",
+    "translation": "Tamam"
+  },
+  {
+    "id": 148,
+    "original_length": 6,
+    "text": "On",
+    "translation": "Açık"
+  },
+  {
+    "id": 149,
+    "original_length": 16,
+    "text": "Options",
+    "translation": "Ayarlar"
+  },
+  {
+    "id": 150,
+    "original_length": 28,
+    "text": "Panel Display",
+    "translation": "Panel Göstergesi"
+  },
+  {
+    "id": 151,
+    "original_length": 30,
+    "text": "Return To Game",
+    "translation": "Oyuna Dön"
+  },
+  {
+    "id": 152,
+    "original_length": 18,
+    "text": "{ Select",
+    "translation": "{ Seç"
+  },
+  {
+    "id": 153,
+    "original_length": 26,
+    "text": "Game Options",
+    "translation": "Oyun Ayarları"
+  },
+  {
+    "id": 154,
+    "original_length": 14,
+    "text": "Paused",
+    "translation": "Duraklatıldı"
+  },
+  {
+    "id": 155,
+    "original_length": 20,
+    "text": "Play Game",
+    "translation": "Oyunu Oyna"
+  },
+  {
+    "id": 156,
+    "original_length": 28,
+    "text": "Continue Game",
+    "translation": "Oyuna Devam Et"
+  },
+  {
+    "id": 157,
+    "original_length": 46,
+    "text": "Gryffindor Common Room",
+    "translation": "Gryffindor Ortak Odası"
+  },
+  {
+    "id": 158,
+    "original_length": 28,
+    "text": "Play Duelling",
+    "translation": "Düello Yap"
+  },
+  {
+    "id": 159,
+    "original_length": 34,
+    "text": "Quidditch League",
+    "translation": "Quidditch Ligi"
+  },
+  {
+    "id": 160,
+    "original_length": 44,
+    "text": "> Play Match   [ Back",
+    "translation": "> Maçı Oyna   [ Geri"
+  },
+  {
+    "id": 161,
+    "original_length": 16,
+    "text": "Potions",
+    "translation": "İksirler"
+  },
+  {
+    "id": 162,
+    "original_length": 22,
+    "text": "Start Game",
+    "translation": "Oyunu Başlat"
+  },
+  {
+    "id": 163,
+    "original_length": 20,
+    "text": "Quidditch",
+    "translation": "Quidditch"
+  },
+  {
+    "id": 164,
+    "original_length": 38,
+    "text": "Quidditch Training",
+    "translation": "Quidditch Antrenmanı"
+  },
+  {
+    "id": 165,
+    "original_length": 54,
+    "text": "Quidditch is not available",
+    "translation": "Quidditch henüz mevcut değil"
+  },
+  {
+    "id": 166,
+    "original_length": 20,
+    "text": "Quit Game",
+    "translation": "Oyundan Çık"
+  },
+  {
+    "id": 167,
+    "original_length": 20,
+    "text": "Ravenclaw",
+    "translation": "Ravenclaw"
+  },
+  {
+    "id": 168,
+    "original_length": 24,
+    "text": "Remembralls",
+    "translation": "Hatırlatıcılar"
+  },
+  {
+    "id": 169,
+    "original_length": 28,
+    "text": "< Report Card",
+    "translation": "< Karne"
+  },
+  {
+    "id": 170,
+    "original_length": 32,
+    "text": "Restart Section",
+    "translation": "Bölümü Yeniden Başlat"
+  },
+  {
+    "id": 171,
+    "original_length": 50,
+    "text": "Restore Default Settings",
+    "translation": "Varsayılan Ayarları Geri Yükle"
+  },
+  {
+    "id": 172,
+    "original_length": 18,
+    "text": "Continue",
+    "translation": "Devam Et"
+  },
+  {
+    "id": 173,
+    "original_length": 40,
+    "text": "Return to Main Menu",
+    "translation": "Ana Menüye Dön"
+  },
+  {
+    "id": 174,
+    "original_length": 46,
+    "text": "Return To Options Menu",
+    "translation": "Ayarlar Menüsüne Dön"
+  },
+  {
+    "id": 175,
+    "original_length": 16,
+    "text": "Reverse",
+    "translation": "Ters"
+  },
+  {
+    "id": 176,
+    "original_length": 38,
+    "text": "Broomstick Control",
+    "translation": "Süpürge Kontrolü"
+  },
+  {
+    "id": 177,
+    "original_length": 30,
+    "text": "Flying Control",
+    "translation": "Uçuş Kontrolü"
+  },
+  {
+    "id": 178,
+    "original_length": 20,
+    "text": "Look Mode",
+    "translation": "Bakış Modu"
+  },
+  {
+    "id": 179,
+    "original_length": 20,
+    "text": "Vibration",
+    "translation": "Titreşim"
+  },
+  {
+    "id": 180,
+    "original_length": 24,
+    "text": "> Save Game",
+    "translation": "> Oyunu Kaydet"
+  },
+  {
+    "id": 181,
+    "original_length": 52,
+    "text": "] Overwrite and save game",
+    "translation": "] Üzerine yaz ve oyunu kaydet"
+  },
+  {
+    "id": 182,
+    "original_length": 16,
+    "text": "SECRET!",
+    "translation": "GİZLİ BÖLGE!"
+  },
+  {
+    "id": 183,
+    "original_length": 28,
+    "text": "Secrets found",
+    "translation": "Bulunan gizemler"
+  },
+  {
+    "id": 184,
+    "original_length": 18,
+    "text": "> Select",
+    "translation": "> Seç"
+  },
+  {
+    "id": 185,
+    "original_length": 18,
+    "text": "> Select",
+    "translation": "> Seç"
+  },
+  {
+    "id": 186,
+    "original_length": 24,
+    "text": "> Confirmer",
+    "translation": "> Seç"
+  },
+  {
+    "id": 187,
+    "original_length": 18,
+    "text": "> Wählen",
+    "translation": "> Seç"
+  },
+  {
+    "id": 188,
+    "original_length": 28,
+    "text": "> Seleccionar",
+    "translation": "> Seç"
+  },
+  {
+    "id": 189,
+    "original_length": 28,
+    "text": "> Seleccionar",
+    "translation": "> Seç"
+  },
+  {
+    "id": 190,
+    "original_length": 24,
+    "text": "> Seleziona",
+    "translation": "> Seç"
+  },
+  {
+    "id": 191,
+    "original_length": 14,
+    "text": "> Välj",
+    "translation": "> Seç"
+  },
+  {
+    "id": 192,
+    "original_length": 14,
+    "text": "> Velg",
+    "translation": "> Seç"
+  },
+  {
+    "id": 193,
+    "original_length": 20,
+    "text": "> Valitse",
+    "translation": "> Seç"
+  },
+  {
+    "id": 194,
+    "original_length": 14,
+    "text": "> Vçlg",
+    "translation": "> Seç"
+  },
+  {
+    "id": 195,
+    "original_length": 26,
+    "text": "> selecteren",
+    "translation": "> Seç"
+  },
+  {
+    "id": 196,
+    "original_length": 10,
+    "text": "> \\u00c7\\u00be",
+    "translation": "> Seç"
+  },
+  {
+    "id": 197,
+    "original_length": 42,
+    "text": "> Select      [ Back",
+    "translation": "> Seç      [ Geri"
+  },
+  {
+    "id": 198,
+    "original_length": 46,
+    "text": "> Select      [ Cancel",
+    "translation": "> Seç      [ İptal"
+  },
+  {
+    "id": 199,
+    "original_length": 14,
+    "text": "> Exit",
+    "translation": "> Çıkış"
+  },
+  {
+    "id": 200,
+    "original_length": 30,
+    "text": "] View gallery",
+    "translation": "] Galeriyi gör"
+  },
+  {
+    "id": 201,
+    "original_length": 46,
+    "text": "> Select Game   [ Back",
+    "translation": "> Oyunu Seç   [ Geri"
+  },
+  {
+    "id": 202,
+    "original_length": 28,
+    "text": "> Select Game",
+    "translation": "> Oyunu Seç"
+  },
+  {
+    "id": 203,
+    "original_length": 58,
+    "text": "Use { and } to choose a game",
+    "translation": "Oyun seçmek için { ve } kullanın"
+  },
+  {
+    "id": 204,
+    "original_length": 48,
+    "text": "> to select game [ back",
+    "translation": "> oyunu seçmek için [ geri"
+  },
+  {
+    "id": 205,
+    "original_length": 62,
+    "text": "{ } Select Inventory    [ Back",
+    "translation": "{ } Envanteri Seç    [ Geri"
+  },
+  {
+    "id": 206,
+    "original_length": 42,
+    "text": "{ } change level/map",
+    "translation": "{ } bölümü/haritayı değiştir"
+  },
+  {
+    "id": 207,
+    "original_length": 60,
+    "text": "> select level/map     [ quit",
+    "translation": "> bölüm/harita seç     [ çıkış"
+  },
+  {
+    "id": 208,
+    "original_length": 48,
+    "text": "> Select Match   [ Back",
+    "translation": "> Maçı Seç   [ Geri"
+  },
+  {
+    "id": 209,
+    "original_length": 44,
+    "text": "> Select      [ Reset",
+    "translation": "> Seç      [ Sıfırla"
+  },
+  {
+    "id": 210,
+    "original_length": 32,
+    "text": "{ } Select Card",
+    "translation": "{ } Kartı Seç"
+  },
+  {
+    "id": 211,
+    "original_length": 22,
+    "text": "Slide Show",
+    "translation": "Slayt Gösterisi"
+  },
+  {
+    "id": 212,
+    "original_length": 20,
+    "text": "Slytherin",
+    "translation": "Slytherin"
+  },
+  {
+    "id": 213,
+    "original_length": 26,
+    "text": "Sound Volume",
+    "translation": "Ses Seviyesi"
+  },
+  {
+    "id": 214,
+    "original_length": 22,
+    "text": "Sound Mode",
+    "translation": "Ses Modu"
+  },
+  {
+    "id": 215,
+    "original_length": 28,
+    "text": "Sound Options",
+    "translation": "Ses Ayarları"
+  },
+  {
+    "id": 216,
+    "original_length": 16,
+    "text": "Spells:",
+    "translation": "Büyüler:"
+  },
+  {
+    "id": 217,
+    "original_length": 22,
+    "text": "Statistics",
+    "translation": "İstatistikler"
+  },
+  {
+    "id": 218,
+    "original_length": 14,
+    "text": "Stereo",
+    "translation": "Stereo"
+  },
+  {
+    "id": 219,
+    "original_length": 38,
+    "text": "Go to Diagon Alley",
+    "translation": "Diagon Yolu'na git"
+  },
+  {
+    "id": 220,
+    "original_length": 48,
+    "text": "Get to Hogwarts on time",
+    "translation": "Hogwarts'a zamanında yetiş"
+  },
+  {
+    "id": 221,
+    "original_length": 38,
+    "text": "Get to Common Room",
+    "translation": "Ortak Odaya git"
+  },
+  {
+    "id": 222,
+    "original_length": 72,
+    "text": "Learn password to enter Common Room",
+    "translation": "Ortak Odaya girmek için parolayı öğren"
+  },
+  {
+    "id": 223,
+    "original_length": 86,
+    "text": "Get to Greenhouse three to learn Herbology",
+    "translation": "Bitkibilim dersi için Üçüncü Seraya git"
+  },
+  {
+    "id": 224,
+    "original_length": 80,
+    "text": "Meet Oliver Wood for Quidditch Training",
+    "translation": "Quidditch Antrenmanı için Oliver Wood ile buluş"
+  },
+  {
+    "id": 225,
+    "original_length": 18,
+    "text": "Duel Ron",
+    "translation": "Ron ile Düello yap"
+  },
+  {
+    "id": 226,
+    "original_length": 32,
+    "text": "Don't lose Ron!",
+    "translation": "Ron'u kaybetme!"
+  },
+  {
+    "id": 227,
+    "original_length": 106,
+    "text": "Catch slugs in the bowl and empty them in the barrel",
+    "translation": "Sümüklüböcekleri çanağa toplayıp fıçıya boşalt"
+  },
+  {
+    "id": 228,
+    "original_length": 146,
+    "text": "Get to the  Defence Against the Dark Arts class room in the Upper Castle",
+    "translation": "Yukarı Şatodaki Karanlık Sanatlara Karşı Savunma sınıfına git"
+  },
+  {
+    "id": 229,
+    "original_length": 42,
+    "text": "Catch all the Pixies",
+    "translation": "Tüm Pixie'leri yakala"
+  },
+  {
+    "id": 230,
+    "original_length": 122,
+    "text": "Get to Nearly Headless Nick's Deathday Party in the Dungeons",
+    "translation": "Zindanlardaki Neredeyse Kafasız Nick'in Ölüm Günü Partisine git"
+  },
+  {
+    "id": 231,
+    "original_length": 144,
+    "text": "Collect lacewing flies, boomslang skin and leeches for Polyjuice Potion",
+    "translation": "Çok Özlü İksir için tülkanat sinekleri, ağaçyılanı derisi ve sülük topla"
+  },
+  {
+    "id": 232,
+    "original_length": 134,
+    "text": "Take ingredients to Hermione in the  Upper Castle Girls' Bathroom.",
+    "translation": "Malzemeleri Yukarı Şatodaki Kızlar Tuvaletindeki Hermione'ye götür."
+  },
+  {
+    "id": 233,
+    "original_length": 78,
+    "text": "Find entrance to Slytherin Common room",
+    "translation": "Slytherin Ortak Odasının girişini bul"
+  },
+  {
+    "id": 234,
+    "original_length": 108,
+    "text": "Get to Gilderoy Lockharts' Office in the Lower Castle",
+    "translation": "Aşağı Şatodaki Gilderoy Lockhart'ın Odasına git"
+  },
+  {
+    "id": 235,
+    "original_length": 80,
+    "text": "Escape Lockharts' card-carrying cupids!",
+    "translation": "Lockhart'ın kart taşıyan kupidlerinden kaç!"
+  },
+  {
+    "id": 236,
+    "original_length": 42,
+    "text": "Sneak to Hagrids Hut",
+    "translation": "Gizlice Hagrid'in Kulübesine git"
+  },
+  {
+    "id": 237,
+    "original_length": 38,
+    "text": "Follow the spiders",
+    "translation": "Örümcekleri takip et"
+  },
+  {
+    "id": 238,
+    "original_length": 58,
+    "text": "Protect yourself from Aragog",
+    "translation": "Aragog'dan kendini koru"
+  },
+  {
+    "id": 239,
+    "original_length": 92,
+    "text": "Find Professor Lockhart and ask for his help.",
+    "translation": "Profesör Lockhart'ı bul ve yardımını iste."
+  },
+  {
+    "id": 240,
+    "original_length": 48,
+    "text": "Confront Moaning Myrtle",
+    "translation": "Mızmız Myrtle ile yüzleş"
+  },
+  {
+    "id": 241,
+    "original_length": 84,
+    "text": "Rescue Ginny from the Chamber of Secrets.",
+    "translation": "Ginny'yi Sırlar Odasından kurtar."
+  },
+  {
+    "id": 242,
+    "original_length": 40,
+    "text": "If You Continue All",
+    "translation": "Devam Ederseniz Tümü"
+  },
+  {
+    "id": 243,
+    "original_length": 52,
+    "text": "to the Map Select Screen?",
+    "translation": "Harita Seçim Ekranına?"
+  },
+  {
+    "id": 244,
+    "original_length": 22,
+    "text": "Gold Coins",
+    "translation": "Altın Paralar"
+  },
+  {
+    "id": 245,
+    "original_length": 88,
+    "text": "Unsupported controller in controller port 1",
+    "translation": "Kolu Yuva 1'de desteklenmeyen cihaz"
+  },
+  {
+    "id": 246,
+    "original_length": 14,
+    "text": "Volume",
+    "translation": "Ses Düzeyi"
+  },
+  {
+    "id": 247,
+    "original_length": 16,
+    "text": "Warning",
+    "translation": "Uyarı"
+  },
+  {
+    "id": 248,
+    "original_length": 48,
+    "text": "A new Quidditch Record!",
+    "translation": "Yeni bir Quidditch Rekoru!"
+  },
+  {
+    "id": 249,
+    "original_length": 32,
+    "text": "(Folio Magi 01)",
+    "translation": "(Folio Magi 01)"
+  },
+  {
+    "id": 250,
+    "original_length": 32,
+    "text": "(Folio Magi 02)",
+    "translation": "(Folio Magi 02)"
+  },
+  {
+    "id": 251,
+    "original_length": 32,
+    "text": "(Folio Magi 03)",
+    "translation": "(Folio Magi 03)"
+  },
+  {
+    "id": 252,
+    "original_length": 32,
+    "text": "(Folio Magi 04)",
+    "translation": "(Folio Magi 04)"
+  },
+  {
+    "id": 253,
+    "original_length": 32,
+    "text": "(Folio Magi 05)",
+    "translation": "(Folio Magi 05)"
+  },
+  {
+    "id": 254,
+    "original_length": 32,
+    "text": "(Folio Magi 06)",
+    "translation": "(Folio Magi 06)"
+  },
+  {
+    "id": 255,
+    "original_length": 32,
+    "text": "(Folio Magi 07)",
+    "translation": "(Folio Magi 07)"
+  },
+  {
+    "id": 256,
+    "original_length": 32,
+    "text": "(Folio Magi 08)",
+    "translation": "(Folio Magi 08)"
+  },
+  {
+    "id": 257,
+    "original_length": 32,
+    "text": "(Folio Magi 09)",
+    "translation": "(Folio Magi 09)"
+  },
+  {
+    "id": 258,
+    "original_length": 32,
+    "text": "(Folio Magi 10)",
+    "translation": "(Folio Magi 10)"
+  },
+  {
+    "id": 259,
+    "original_length": 32,
+    "text": "(Folio Magi 11)",
+    "translation": "(Folio Magi 11)"
+  },
+  {
+    "id": 260,
+    "original_length": 32,
+    "text": "(Folio Magi 12)",
+    "translation": "(Folio Magi 12)"
+  },
+  {
+    "id": 261,
+    "original_length": 32,
+    "text": "(Folio Magi 13)",
+    "translation": "(Folio Magi 13)"
+  },
+  {
+    "id": 262,
+    "original_length": 32,
+    "text": "(Folio Magi 14)",
+    "translation": "(Folio Magi 14)"
+  },
+  {
+    "id": 263,
+    "original_length": 32,
+    "text": "(Folio Magi 15)",
+    "translation": "(Folio Magi 15)"
+  },
+  {
+    "id": 264,
+    "original_length": 32,
+    "text": "(Folio Magi 16)",
+    "translation": "(Folio Magi 16)"
+  },
+  {
+    "id": 265,
+    "original_length": 32,
+    "text": "(Folio Magi 17)",
+    "translation": "(Folio Magi 17)"
+  },
+  {
+    "id": 266,
+    "original_length": 32,
+    "text": "(Folio Magi 18)",
+    "translation": "(Folio Magi 18)"
+  },
+  {
+    "id": 267,
+    "original_length": 32,
+    "text": "(Folio Magi 19)",
+    "translation": "(Folio Magi 19)"
+  },
+  {
+    "id": 268,
+    "original_length": 32,
+    "text": "(Folio Magi 20)",
+    "translation": "(Folio Magi 20)"
+  },
+  {
+    "id": 269,
+    "original_length": 32,
+    "text": "(Folio Magi 21)",
+    "translation": "(Folio Magi 21)"
+  },
+  {
+    "id": 270,
+    "original_length": 32,
+    "text": "(Folio Magi 22)",
+    "translation": "(Folio Magi 22)"
+  },
+  {
+    "id": 271,
+    "original_length": 32,
+    "text": "(Folio Magi 23)",
+    "translation": "(Folio Magi 23)"
+  },
+  {
+    "id": 272,
+    "original_length": 32,
+    "text": "(Folio Magi 24)",
+    "translation": "(Folio Magi 24)"
+  },
+  {
+    "id": 273,
+    "original_length": 32,
+    "text": "(Folio Magi 25)",
+    "translation": "(Folio Magi 25)"
+  },
+  {
+    "id": 274,
+    "original_length": 26,
+    "text": "< Folio Magi",
+    "translation": "< Folio Magi"
+  },
+  {
+    "id": 275,
+    "original_length": 74,
+    "text": "Greatest of all medieval alchemists.",
+    "translation": "Ortaçağın en büyük simyacısı."
+  },
+  {
+    "id": 276,
+    "original_length": 102,
+    "text": "Celebrated inventor of the Self-Stirring Cauldron.",
+    "translation": "Kendiliğinden Karışan Kazanın ünlü mucidi."
+  },
+  {
+    "id": 277,
+    "original_length": 72,
+    "text": "The witch who invented Floo Powder.",
+    "translation": "Uçuş Tozunu icat eden cadı."
+  },
+  {
+    "id": 278,
+    "original_length": 58,
+    "text": "Inventor of Cheering Charms.",
+    "translation": "Neşelendirme Büyülerinin mucidi."
+  },
+  {
+    "id": 279,
+    "original_length": 70,
+    "text": "Author of 'Charm Your Own Cheese'.",
+    "translation": "'Kendi Peynirini Büyüle' kitabının yazarı."
+  },
+  {
+    "id": 280,
+    "original_length": 114,
+    "text": "First person to fly across the Atlantic on a broomstick.",
+    "translation": "Süpürgeyle Atlantik Okyanusu'nu geçen ilk kişi."
+  },
+  {
+    "id": 281,
+    "original_length": 94,
+    "text": "Founder of the Society for Distressed Witches.",
+    "translation": "Mağdur Cadılar Derneği'nin kurucusu."
+  },
+  {
+    "id": 282,
+    "original_length": 114,
+    "text": "Sent to Azkaban for keeping Sphinxes in his back garden.",
+    "translation": "Arka bahçesinde Sfenks beslediği için Azkaban'a gönderildi."
+  },
+  {
+    "id": 283,
+    "original_length": 44,
+    "text": "Serial goblin-killer.",
+    "translation": "Seri goblin avcısı."
+  },
+  {
+    "id": 284,
+    "original_length": 58,
+    "text": "Inventor of the Sneakoscope.",
+    "translation": "Sinsiölçerin mucidi."
+  },
+  {
+    "id": 285,
+    "original_length": 58,
+    "text": "Famous magical theoretician.",
+    "translation": "Ünlü büyü teorisyeni."
+  },
+  {
+    "id": 286,
+    "original_length": 108,
+    "text": "Celebrated Seer and author of 'Unfogging the Future'.",
+    "translation": "Ünlü Kahin ve 'Geleceği Aydınlatmak' kitabının yazarı."
+  },
+  {
+    "id": 287,
+    "original_length": 70,
+    "text": "Wizard Chess Champion 1506 - 1588.",
+    "translation": "Büyücü Satrancı Şampiyonu 1506 - 1588."
+  },
+  {
+    "id": 288,
+    "original_length": 68,
+    "text": "First known victim of Dragon Pox.",
+    "translation": "Ejderha Çiçeği hastalığının bilinen ilk kurbanı."
+  },
+  {
+    "id": 289,
+    "original_length": 112,
+    "text": "Hogwarts co-founder. Gave his name to a Hogwarts House.",
+    "translation": "Hogwarts kurucularından biri. Bir Hogwarts binasına adını verdi."
+  },
+  {
+    "id": 290,
+    "original_length": 112,
+    "text": "Hogwarts co-founder. Gave his name to a Hogwarts House.",
+    "translation": "Hogwarts kurucularından biri. Bir Hogwarts binasına adını verdi."
+  },
+  {
+    "id": 291,
+    "original_length": 112,
+    "text": "Hogwarts co-founder. Gave her name to a Hogwarts House.",
+    "translation": "Hogwarts kurucularından biri. Bir Hogwarts binasına adını verdi."
+  },
+  {
+    "id": 292,
+    "original_length": 112,
+    "text": "Hogwarts co-founder. Gave her name to a Hogwarts House.",
+    "translation": "Hogwarts kurucularından biri. Bir Hogwarts binasına adını verdi."
+  },
+  {
+    "id": 293,
+    "original_length": 68,
+    "text": "Founded the village of Hogsmeade.",
+    "translation": "Hogsmeade köyünü kurdu."
+  },
+  {
+    "id": 294,
+    "original_length": 76,
+    "text": "First landlady of the Leaky Cauldron.",
+    "translation": "Çatlak Kazan'ın ilk kadın işletmecisi."
+  },
+  {
+    "id": 295,
+    "original_length": 54,
+    "text": "Popular singing sorceress.",
+    "translation": "Popüler şarkıcı büyücü kadın."
+  },
+  {
+    "id": 296,
+    "original_length": 102,
+    "text": "Only Quidditch referee ever to die during a match.",
+    "translation": "Bir maç sırasında hayatını kaybeden tek Quidditch hakemi."
+  },
+  {
+    "id": 297,
+    "original_length": 74,
+    "text": "First known creator of the basilisk.",
+    "translation": "Basiliskin bilinen ilk yaratıcısı."
+  },
+  {
+    "id": 298,
+    "original_length": 94,
+    "text": "Inventor of Bertie Bott's Every Flavour Beans.",
+    "translation": "Bertie Bott'un Binbir Çeşit Fasulyelerinin mucidi."
+  },
+  {
+    "id": 299,
+    "original_length": 38,
+    "text": "The boy who lived.",
+    "translation": "Yaşayan Çocuk."
+  },
+  {
+    "id": 300,
+    "original_length": 48,
+    "text": "Headmaster of Hogwarts.",
+    "translation": "Hogwarts Okul Müdürü."
+  },
+  {
+    "id": 301,
+    "original_length": 84,
+    "text": "First witch to become Minister for Magic.",
+    "translation": "Sihir Bakanı olan ilk cadı."
+  },
+  {
+    "id": 302,
+    "original_length": 22,
+    "text": "Paracelsus",
+    "translation": "Paracelsus"
+  },
+  {
+    "id": 303,
+    "original_length": 38,
+    "text": "Gaspard Shingleton",
+    "translation": "Gaspard Shingleton"
+  },
+  {
+    "id": 304,
+    "original_length": 36,
+    "text": "Ignatia Wildsmith",
+    "translation": "Ignatia Wildsmith"
+  },
+  {
+    "id": 305,
+    "original_length": 32,
+    "text": "Felix Summerbee",
+    "translation": "Felix Summerbee"
+  },
+  {
+    "id": 306,
+    "original_length": 32,
+    "text": "Greta Catchlove",
+    "translation": "Greta Catchlove"
+  },
+  {
+    "id": 307,
+    "original_length": 28,
+    "text": "Jocunda Sykes",
+    "translation": "Jocunda Sykes"
+  },
+  {
+    "id": 308,
+    "original_length": 38,
+    "text": "Dorcas Wellbeloved",
+    "translation": "Dorcas Wellbeloved"
+  },
+  {
+    "id": 309,
+    "original_length": 28,
+    "text": "Crispin Cronk",
+    "translation": "Crispin Cronk"
+  },
+  {
+    "id": 310,
+    "original_length": 28,
+    "text": "Yardley Platt",
+    "translation": "Yardley Platt"
+  },
+  {
+    "id": 311,
+    "original_length": 32,
+    "text": "Edgar Stroulger",
+    "translation": "Edgar Stroulger"
+  },
+  {
+    "id": 312,
+    "original_length": 36,
+    "text": "Adalbert Waffling",
+    "translation": "Adalbert Waffling"
+  },
+  {
+    "id": 313,
+    "original_length": 40,
+    "text": "Cassandra Vablatsky",
+    "translation": "Cassandra Vablatsky"
+  },
+  {
+    "id": 314,
+    "original_length": 38,
+    "text": "Montague Knightley",
+    "translation": "Montague Knightley"
+  },
+  {
+    "id": 315,
+    "original_length": 36,
+    "text": "Chauncey Oldridge",
+    "translation": "Chauncey Oldridge"
+  },
+  {
+    "id": 316,
+    "original_length": 36,
+    "text": "Godric Gryffindor",
+    "translation": "Godric Gryffindor"
+  },
+  {
+    "id": 317,
+    "original_length": 36,
+    "text": "Salazar Slytherin",
+    "translation": "Salazar Slytherin"
+  },
+  {
+    "id": 318,
+    "original_length": 34,
+    "text": "Rowena Ravenclaw",
+    "translation": "Rowena Ravenclaw"
+  },
+  {
+    "id": 319,
+    "original_length": 34,
+    "text": "Helga Hufflepuff",
+    "translation": "Helga Hufflepuff"
+  },
+  {
+    "id": 320,
+    "original_length": 42,
+    "text": "Hengist of Woodcroft",
+    "translation": "Hengist of Woodcroft"
+  },
+  {
+    "id": 321,
+    "original_length": 34,
+    "text": "Daisy Dodderidge",
+    "translation": "Daisy Dodderidge"
+  },
+  {
+    "id": 322,
+    "original_length": 36,
+    "text": "Celestina Warbeck",
+    "translation": "Celestina Warbeck"
+  },
+  {
+    "id": 323,
+    "original_length": 30,
+    "text": "Cyprian Youdle",
+    "translation": "Cyprian Youdle"
+  },
+  {
+    "id": 324,
+    "original_length": 30,
+    "text": "Herpo the Foul",
+    "translation": "Herpo the Foul"
+  },
+  {
+    "id": 325,
+    "original_length": 24,
+    "text": "Bertie Bott",
+    "translation": "Bertie Bott"
+  },
+  {
+    "id": 326,
+    "original_length": 26,
+    "text": "Harry Potter",
+    "translation": "Harry Potter"
+  },
+  {
+    "id": 327,
+    "original_length": 34,
+    "text": "Albus Dumbledore",
+    "translation": "Albus Dumbledore"
+  },
+  {
+    "id": 328,
+    "original_length": 34,
+    "text": "Artemisia Lufkin",
+    "translation": "Artemisia Lufkin"
+  },
+  {
+    "id": 329,
+    "original_length": 22,
+    "text": "> Continue",
+    "translation": "> Devam Et"
+  },
+  {
+    "id": 330,
+    "original_length": 16,
+    "text": "> Start",
+    "translation": "> Başla"
+  },
+  {
+    "id": 331,
+    "original_length": 22,
+    "text": "> [ Return",
+    "translation": "> [ Geri Dön"
+  },
+  {
+    "id": 332,
+    "original_length": 8,
+    "text": "Yes",
+    "translation": "Evet"
+  },
+  {
+    "id": 333,
+    "original_length": 36,
+    "text": "you want to Quit?",
+    "translation": "Çıkmak istiyor musunuz?"
+  },
+  {
+    "id": 334,
+    "original_length": 34,
+    "text": "you want to quit",
+    "translation": "çıkmak istiyor musunuz"
+  }
+]

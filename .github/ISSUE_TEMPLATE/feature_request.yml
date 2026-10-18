@@ -1,0 +1,40 @@
+name: 'Feature Request'
+description: 'Yeni bir özellik veya iyileştirme önerin'
+labels: ['type/feature-request', 'status/needs-triage']
+body:
+  - type: 'markdown'
+    attributes:
+      value: |-
+        > [!IMPORTANT]
+        > Geliştirme öneriniz için teşekkürler!
+        >
+        > Lütfen önce **[mevcut issue'ları](https://github.com/kadiryildiz283/ps1-localization-engine/issues)**
+        > kontrol edin; benzer bir istek zaten olabilir.
+
+  - type: 'textarea'
+    id: 'feature'
+    attributes:
+      label: 'Ne eklenmesini istiyorsunuz?'
+      description: 'İyileştirmenin net ve kısa tanımı.'
+    validations:
+      required: true
+
+  - type: 'textarea'
+    id: 'rationale'
+    attributes:
+      label: 'Buna neden ihtiyaç var?'
+      description: 'Motivasyon, çözülen problem veya kullanıcıya faydası.'
+    validations:
+      required: true
+
+  - type: 'textarea'
+    id: 'proposal'
+    attributes:
+      label: 'Önerilen yaklaşım (opsiyonel)'
+      description: 'Nasıl yapılabileceğine dair bir fikriniz varsa yazın.'
+
+  - type: 'textarea'
+    id: 'additional-context'
+    attributes:
+      label: 'Ek bağlam'
+      description: 'Başka bağlam, referans (örn. Argonaut dokümanı) veya ekran görüntüleri.'

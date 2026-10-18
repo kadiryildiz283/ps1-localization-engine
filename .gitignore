@@ -1,0 +1,80 @@
+# ============================================================
+# PS1 Localization Engine — Git Ignore
+# Oyun imajları, çıkarılmış veri, ses örnekleri ve sanal
+# ortamlar repoya GİRMEZ. Sadece kod, doküman, test ve
+# metin/manifest verisi izlenir.
+# ============================================================
+
+# --- Disc images & raw game data (copyrighted / huge) ---
+*.bin
+*.cue
+*.BIN
+*.WAD
+*.GAM
+*.ISO
+*.iso
+SLES_*
+*.EXE
+*.exe
+extracted/
+extracted_text_only/
+emulator/
+
+# --- Audio artifacts (WAV/MP3/OGG) ---
+*.wav
+*.mp3
+*.ogg
+*.vag
+*.VAG
+audio/ingame_dub/
+audio/ingame_dub_legacy/
+audio/turkish_dub/
+audio/turkish_dub_backup/
+audio/turkish_dub_legacy/
+audio/burrow_clean/
+audio/cloned_test/
+audio/english_reference/
+audio/reference_en/
+audio/profiles/
+audio/profiles_raw/
+audio/profiles_raw_v2/
+audio/profiles_v2/
+audio/test_level_sfx/
+scratch/
+
+# --- Keep audio manifests (metadata only) ---
+!audio/*.json
+
+# --- Python ---
+.venv/
+.venv-clone/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.so
+*.dylib
+
+# --- Nested third-party repos ---
+rea/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*~
+
+# --- Local secrets / env ---
+.env
+.env.*
+*.local
+
+# --- Build / temp ---
+build/
+dist/
+*.log
+tmp/

@@ -1,0 +1,30 @@
+# ============================================================
+# PS1 Localization Engine CODEOWNERS
+# ============================================================
+
+# --- CODEOWNERS dosyasının kendisi ---
+/.github/CODEOWNERS    @kadiryildiz283
+
+# --- GitHub otomasyonu ---
+/.github/workflows/    @kadiryildiz283
+/.github/scripts/      @kadiryildiz283
+/.github/ISSUE_TEMPLATE/ @kadiryildiz283
+
+# --- Çekirdek motor & format çözücüler ---
+/engine.py             @kadiryildiz283
+/tools/iso_fs.py       @kadiryildiz283
+/tools/dirdat.py       @kadiryildiz283
+/tools/wad_lpsx.py     @kadiryildiz283
+/tools/text_bin.py     @kadiryildiz283
+/tools/cd_patcher.py   @kadiryildiz283
+
+# --- Ses / ADPCM / enjeksiyon (yüksek risk) ---
+/tools/audio_vag.py    @kadiryildiz283
+/tools/vag_fast.c      @kadiryildiz283
+/tools/inject_*.py     @kadiryildiz283
+/tools/deterministic_audio_injector.py @kadiryildiz283
+
+# --- Kural ve dokümantasyon ---
+/AGENTS.md             @kadiryildiz283
+/CONTRIBUTING.md       @kadiryildiz283
+/docs/                 @kadiryildiz283

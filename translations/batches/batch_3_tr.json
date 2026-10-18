@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 1080,
+    "en": "#C#$005Rip, hurt, kill.",
+    "tr": "#C#$005Parçala, incit, öldür."
+  },
+  {
+    "id": 1081,
+    "en": "$015To Knights\\u00b8 Room",
+    "tr": "$015Şövalyeler Odası'na"
+  },
+  {
+    "id": 1082,
+    "en": "$010To Lower Hogwarts",
+    "tr": "$010Aşağı Hogwarts'a"
+  },
+  {
+    "id": 1083,
+    "en": "$005Girls\\u00b8 Bathroom",
+    "tr": "$005Kızlar Tuvaleti"
+  },
+  {
+    "id": 1084,
+    "en": "$006No Entry due to flooding - Mr. Filch",
+    "tr": "$006Su baskını nedeniyle girmek yasaktır - Bay Filch"
+  },
+  {
+    "id": 1085,
+    "en": "$016Gallery",
+    "tr": "$016Galeri"
+  },
+  {
+    "id": 1086,
+    "en": "$014Knights\\u00b8 Room",
+    "tr": "$014Şövalyeler Odası"
+  },
+  {
+    "id": 1087,
+    "en": "$003Prof. Dumbledore's Office",
+    "tr": "$003Prof. Dumbledore'un Odası"
+  },
+  {
+    "id": 1088,
+    "en": "$008Upper Hall",
+    "tr": "$008Yukarı Salon"
+  },
+  {
+    "id": 1089,
+    "en": "$009To Upper Hall",
+    "tr": "$009Yukarı Salon'a"
+  },
+  {
+    "id": 1090,
+    "en": "$004To Prof. Dumbledore's Office",
+    "tr": "$004Prof. Dumbledore'un Odası'na"
+  },
+  {
+    "id": 1091,
+    "en": "#11#$001Professor Lockharts just left.  Said he was going to his office.",
+    "tr": "#11#$001Profesör Lockhart az önce çıktı. Odasına gittiğini söyledi."
+  },
+  {
+    "id": 1092,
+    "en": "#13#$001Hello! I wonder if you three could do something for me?",
+    "tr": "#13#$001Merhaba! Acaba siz üçünüz benim için bir şey yapabilir misiniz?"
+  },
+  {
+    "id": 1093,
+    "en": "#16#$002This Halloween will be my five hundredth Deathday.",
+    "tr": "#16#$002Bu Cadılar Bayramı benim beş yüzüncü Ölüm Günüm olacak."
+  },
+  {
+    "id": 1094,
+    "en": "#19#$003Tomorrow I'm holding a party down in one of the roomier dungeons. Friends will be coming from all over the country!",
+    "tr": "#19#$003Yarın zindanların daha ferah olanlarından birinde bir parti veriyorum. Ülkenin dört bir yanından dostlarım gelecek!"
+  },
+  {
+    "id": 1095,
+    "en": "#1C#$004It would be such an honour if you, Mr. Weasley and Miss Granger would attend!",
+    "tr": "#1C#$004Siz, Bay Weasley ve Bayan Granger katılırsanız beni ne kadar onurlandırırsınız!"
+  },
+  {
+    "id": 1096,
+    "en": "#1F#$006Perhaps you could mention to Sir Patrick how very impressive and frightening you find me? It may help me to get into the Headless Hunt!",
+    "tr": "#1F#$006Belki Sör Patrick'e beni ne kadar etkileyici ve korkutucu bulduğunuzdan bahsedebilirsiniz? Bu, Başsızlar Avı'na kabul edilmeme yardımcı olabilir!"
+  },
+  {
+    "id": 1097,
+    "en": "#22#$003I'll see you all tomorrow down in the dungeons! Cheerio!",
+    "tr": "#22#$003Yarın zindanlarda görüşmek üzere! Hoşça kalın!"
+  },
+  {
+    "id": 1098,
+    "en": "#25#$002I\\u00b8ve never heard of a Deathday party before!",
+    "tr": "#25#$002Daha önce hiç Ölüm Günü partisi diye bir şey duymamıştım!"
+  },
+  {
+    "id": 1099,
+    "en": "#28#$004Sounds dead depressing to me.",
+    "tr": "#28#$004Bana ölümüne iç karartıcı geldi."
+  },
+  {
+    "id": 1100,
+    "en": "#2B#$006A Deathday party! There can't be many living people who can say that they've been to one of those.",
+    "tr": "#2B#$006Bir Ölüm Günü partisi! Hayatta olup da bunlardan birine katıldığını söyleyebilecek pek kimse yoktur herhalde."
+  },
+  {
+    "id": 1101,
+    "en": "#2E#$001This should be a really interesting lesson. Professor Lockhart is probably the bravest wizard who\\u00b8s ever lived!",
+    "tr": "#2E#$001Bu gerçekten çok ilginç bir ders olmalı. Profesör Lockhart gelmiş geçmiş en cesur büyücü olabilir!"
+  },
+  {
+    "id": 1102,
+    "en": "#31#$003I have not!",
+    "tr": "#31#$003İşaretlemedim bir kere!"
+  },
+  {
+    "id": 1103,
+    "en": "#34#$002Is that why you\\u00b8ve marked all Lockhart\\u00b8s lessons with little hearts on your timetable?",
+    "tr": "#34#$002Ders programında Lockhart'ın bütün derslerini minik kalplerle işaretlemenin sebebi bu mu yani?"
+  },
+  {
+    "id": 1104,
+    "en": "#37#$005I'm fine...c'mon let's go.",
+    "tr": "#37#$005İyiyim ben... hadi, gidelim."
+  },
+  {
+    "id": 1105,
+    "en": "#3A#$001Are you O.K. Harry?",
+    "tr": "#3A#$001İyi misin Harry?"
+  },
+  {
+    "id": 1106,
+    "en": "$002Lower Hogwarts",
+    "tr": "$002Aşağı Hogwarts"
+  },
+  {
+    "id": 1107,
+    "en": "#3D#$001$Hogwarts is like a maze.  I suggest you follow the carpet if you want to get back to the $Common $Room.",
+    "tr": "#3D#$001$Hogwarts bir labirent gibidir. $Ortak $Oda'ya dönmek istiyorsan halıyı takip etmeni öneririm."
+  },
+  {
+    "id": 1108,
+    "en": "#40#$002I suppose I'd best get some hair from Crabbe and Goyle.",
+    "tr": "#40#$002Sanırım gidip Crabbe ve Goyle'dan biraz saç teli alsam iyi olacak."
+  },
+  {
+    "id": 1109,
+    "en": "#43#$002Good luck. I'll meet you by the $Common $Room later.",
+    "tr": "#43#$002İyi şanslar. Sonra seninle $Ortak $Oda'nın yanında buluşuruz."
+  },
+  {
+    "id": 1110,
+    "en": "#46#$001Harry, I'm very displeased that you missed my new $Defence $Against the $Dark $Arts $class!  To be a  successful wizard you have to study with the best! Come along to my office for a private lesson. $Professor $Gilderoy $Lockhart.",
+    "tr": "#46#$001Harry, yeni $Karanlık $Sanatlara $Karşı $Savunma dersimi kaçırman beni son derece üzdü! Başarılı bir büyücü olmak için en iyilerle çalışmalısın! Özel bir ders için odama gel. $Profesör $Gilderoy $Lockhart."
+  },
+  {
+    "id": 1111,
+    "en": "#49#$006I'm glad we changed back! I didn't like being Crabbe one bit.",
+    "tr": "#49#$006Eski halimize döndüğümüze çok sevindim! Crabbe olmaktan hiç ama hiç hoşlanmadım."
+  },
+  {
+    "id": 1112,
+    "en": "#4C#$007I wonder where Hermione went? I hope nothing went wrong with her potion!",
+    "tr": "#4C#$007Hermione nereye gitti acaba? Umarım iksirinde bir terslik çıkmamıştır!"
+  },
+  {
+    "id": 1113,
+    "en": "#4F#$008Looks like Hedwig's dropped a $letter!",
+    "tr": "#4F#$008Görünüşe göre Hedwig bir $mektup bıraktı!"
+  },
+  {
+    "id": 1114,
+    "en": "#52#$002Looks like you're still Lockhart\\u00b8s number one student!",
+    "tr": "#52#$002Görünüşe göre hâlâ Lockhart'ın bir numaralı öğrencisisin!"
+  },
+  {
+    "id": 1115,
+    "en": "#55#$003Remember that $Lockhart's $office is in the $Lower $Castle.",
+    "tr": "#55#$003Unutma, $Lockhart'ın $odası $Aşağı $Şato'dadır."
+  },
+  {
+    "id": 1116,
+    "en": "#58#$005I'm going to see If I can find Hermione. I wonder what went wrong with her potion and where she went?",
+    "tr": "#58#$005Gidip Hermione'yi bulabilecek miyim bir bakayım. İksirinde ne ters gitti ve nereye kayboldu acaba?"
+  },
+  {
+    "id": 1117,
+    "en": "#5B#$004I thought it was bad enough with everyone thinking I was the $Heir $of $Slytherin! A private lesson with $Lockhart is much worse!",
+    "tr": "#5B#$004Herkesin benim $Slytherin'in $Varisi olduğumu düşünmesi yeterince kötüydü sanıyordum! $Lockhart'la özel bir ders bundan çok daha beter!"
+  },
+  {
+    "id": 1118,
+    "en": "#5E#$002Potter's a Parselmouth.  Everyone knows that's the mark of a dark wizard.",
+    "tr": "#5E#$002Potter bir Çatalağız. Herkes bunun karanlık bir büyücünün işareti olduğunu bilir."
+  },
+  {
+    "id": 1119,
+    "en": "#61#$001Everyone's saying that Potter's the Heir of Slytherin...",
+    "tr": "#61#$001Herkes Potter'ın Slytherin'in Varisi olduğunu söylüyor..."
+  },
+  {
+    "id": 1120,
+    "en": "$002Upper Castle",
+    "tr": "$002Yukarı Şato"
+  },
+  {
+    "id": 1121,
+    "en": "$094< Open Book",
+    "tr": "$094< Kitabı Aç"
+  },
+  {
+    "id": 1122,
+    "en": "#1#$013Harry Potter",
+    "tr": "#1#$013Harry Potter"
+  },
+  {
+    "id": 1123,
+    "en": "#4#$020Ron Weasley",
+    "tr": "#4#$020Ron Weasley"
+  },
+  {
+    "id": 1124,
+    "en": "#7#$011Hermione Granger",
+    "tr": "#7#$011Hermione Granger"
+  },
+  {
+    "id": 1125,
+    "en": "#A#$003Draco Malfoy",
+    "tr": "#A#$003Draco Malfoy"
+  },
+  {
+    "id": 1126,
+    "en": "#D#$004Albus Dumbledore",
+    "tr": "#D#$004Albus Dumbledore"
+  },
+  {
+    "id": 1127,
+    "en": "#10#$012Hagrid",
+    "tr": "#10#$012Hagrid"
+  },
+  {
+    "id": 1128,
+    "en": "#13#$007Gilderoy Lockhart",
+    "tr": "#13#$007Gilderoy Lockhart"
+  },
+  {
+    "id": 1129,
+    "en": "#16#$010Madam Hooch",
+    "tr": "#16#$010Madam Hooch"
+  },
+  {
+    "id": 1130,
+    "en": "#19#$015Professor McGonagall",
+    "tr": "#19#$015Profesör McGonagall"
+  },
+  {
+    "id": 1131,
+    "en": "#1C#$022Professor Sprout",
+    "tr": "#1C#$022Profesör Sprout"
+  },
+  {
+    "id": 1132,
+    "en": "#1F#$021Professor Snape",
+    "tr": "#1F#$021Profesör Snape"
+  },
+  {
+    "id": 1133,
+    "en": "#22#$009Gytrash",
+    "tr": "#22#$009Gytrash"
+  },
+  {
+    "id": 1134,
+    "en": "#25#$035Hagrid's Hut",
+    "tr": "#25#$035Hagrid'in Kulübesi"
+  },
+  {
+    "id": 1135,
+    "en": "#28#$002Basilisk",
+    "tr": "#28#$002Basilisk"
+  },
+  {
+    "id": 1136,
+    "en": "#2B#$030Chamber of Secrets",
+    "tr": "#2B#$030Sırlar Odası"
+  },
+  {
+    "id": 1137,
+    "en": "#2E#$029Herbology Greenhouse",
+    "tr": "#2E#$029Bitkibilim Serası"
+  },
+  {
+    "id": 1138,
+    "en": "#32#$026Aragog's Pit Lair",
+    "tr": "#32#$026Aragog'un Çukur İni"
+  },
+  {
+    "id": 1139,
+    "en": "#35#$014An Imp",
+    "tr": "#35#$014Bir Şeytancık"
+  },
+  {
+    "id": 1140,
+    "en": "#38#$006Filch",
+    "tr": "#38#$006Filch"
+  },
+  {
+    "id": 1141,
+    "en": "#3B#$017Moaning Myrtle",
+    "tr": "#3B#$017Mızmız Myrtle"
+  },
+  {
+    "id": 1142,
+    "en": "#3E#$033Harry's Bedroom at Privet Drive",
+    "tr": "#3E#$033Harry'nin Privet Drive'daki Yatak Odası"
+  },
+  {
+    "id": 1143,
+    "en": "#41#$018Nearly Headless Nick",
+    "tr": "#41#$018Neredeyse Kafasız Nick"
+  },
+  {
+    "id": 1144,
+    "en": "#44#$001Ford Anglia",
+    "tr": "#44#$001Ford Anglia"
+  },
+  {
+    "id": 1145,
+    "en": "#47#$008Gnome",
+    "tr": "#47#$008Bahçe Cücesi"
+  },
+  {
+    "id": 1146,
+    "en": "#4A#$005Fawkes the Phoenix",
+    "tr": "#4A#$005Zümrüdüanka Fawkes"
+  },
+  {
+    "id": 1147,
+    "en": "#4D#$028A Fumos Bat Flamer",
+    "tr": "#4D#$028Bir Fumos Yarasa Alevcisi"
+  },
+  {
+    "id": 1148,
+    "en": "#50#$016Quidditch Player",
+    "tr": "#50#$016Quidditch Oyuncusu"
+  },
+  {
+    "id": 1149,
+    "en": "#53#$019A Puffapod",
+    "tr": "#53#$019Bir Pofurtop"
+  },
+  {
+    "id": 1150,
+    "en": "#56#$025Aragog's Lair",
+    "tr": "#56#$025Aragog'un İni"
+  },
+  {
+    "id": 1151,
+    "en": "#59#$023Tom Riddle",
+    "tr": "#59#$023Tom Riddle"
+  },
+  {
+    "id": 1152,
+    "en": "#5C#$024Arthur Weasley's Automatic Washing Machine",
+    "tr": "#5C#$024Arthur Weasley'nin Otomatik Çamaşır Makinesi"
+  },
+  {
+    "id": 1153,
+    "en": "#5F#$031Troll Bridge (Forbidden Forest)",
+    "tr": "#5F#$031İfrit Köprüsü (Yasak Orman)"
+  },
+  {
+    "id": 1154,
+    "en": "$002Hold down > button to deflect beam",
+    "tr": "$002Işını saptırmak için > düğmesini basılı tut"
+  },
+  {
+    "id": 1155,
+    "en": "#3#$002Ow, this venom hurts.",
+    "tr": "#3#$002Ah, bu zehir çok acıtıyor."
+  },
+  {
+    "id": 1156,
+    "en": "#6#$001The Godoric Gryffindor sword, maybe I can redirect the basilisks venom.",
+    "tr": "#6#$001Godric Gryffindor'un kılıcı, belki basilisk zehrini saptırabilirim."
+  },
+  {
+    "id": 1157,
+    "en": "#9#$003Ginny, Ginny! Don't be dead! Please wake up!",
+    "tr": "#9#$003Ginny, Ginny! Ne olur ölme! Lütfen uyan!"
+  },
+  {
+    "id": 1158,
+    "en": "#C#$004She's alive - but only just...",
+    "tr": "#C#$004Yaşıyor ama zar zor..."
+  },
+  {
+    "id": 1159,
+    "en": "#F#$005Ginny's been writing in the diary for months - pouring out her soul - And as she did I grew stronger - until I had enough power to start pouring a little of my soul back into her.",
+    "tr": "#F#$005Ginny aylardır günlüğe yazıyor; ruhunu döküyordu... Ve o yazdıkça ben güçlendim... Ta ki kendi ruhumdan birazını ona geri akıtmaya yetecek kadar güç toplayana dek."
+  },
+  {
+    "id": 1160,
+    "en": "#12#$006Ginny Weasley opened the Chamber of Secrets, she daubed threatening messages on the walls and set the serpent of Slytherin on the Mudbloods and Filch's cat.",
+    "tr": "#12#$006Sırlar Odası'nı Ginny Weasley açtı, duvarlara tehdit mesajlarını o yazdı ve Slytherin'in yılanını Bulanıkların ve Filch'in kedisinin üzerine o saldı."
+  },
+  {
+    "id": 1161,
+    "en": "#15#$006I'm afraid Ginny told me all about you, Harry.",
+    "tr": "#15#$006Korkarım Ginny bana senin hakkında her şeyi anlattı, Harry."
+  },
+  {
+    "id": 1162,
+    "en": "#18#$006So I decided to show you my famous capture of that great oaf, Hagrid, to gain your trust.",
+    "tr": "#18#$006Ben de güvenini kazanmak için, o koca ahmak Hagrid'i yakalayışımı sana göstermeye karar verdim."
+  },
+  {
+    "id": 1163,
+    "en": "#1B#$006One day I hoped to lead another in my footsteps, to finish the work of Salazar Slytherin. I knew you were on the trail of Slytherin's heir so I led Ginny down here to wait.",
+    "tr": "#1B#$006Bir gün Salazar Slytherin'in başlattığı işi bitirmek için bir başkasını kendi izimden götürmeyi ummuştum. Slytherin'in varisinin peşinde olduğunu biliyordum, bu yüzden Ginny'yi beklesin diye buraya getirdim."
+  },
+  {
+    "id": 1164,
+    "en": "#1E#$006Tom Riddle was my filthy non-magical father's name... Do you see it yet, Harry?",
+    "tr": "#1E#$006Tom Riddle, benim o pis, büyücü olmayan babamın adıydı... Anlayabiliyor musun artık Harry?"
+  },
+  {
+    "id": 1165,
+    "en": "#21#$006I AM LORD VOLDEMORT!  And now, Harry, I am going to teach you a little lesson!  Speak to me, Slytherin, greatest of the Hogwarts Four!",
+    "tr": "#21#$006BEN LORD VOLDEMORT'UM! Ve şimdi Harry, sana küçük bir ders vereceğim! Konuş benimle Slytherin, Hogwarts Dörtlüsü'nün en büyüğü!"
+  },
+  {
+    "id": 1166,
+    "en": "#2#$001Get out! This is a girls' bathroom - no boys allowed in here!",
+    "tr": "#2#$001Çıkın dışarı! Burası kızlar tuvaleti, buraya erkekler giremez!"
+  },
+  {
+    "id": 1167,
+    "en": "#5#$001Oh, it's you, playing a trick on me... Almost as funny as throwing a book at me.  Let's all throw books at Myrtle, because she can't feel it.  What a lovely game, I don't think!  Here, why don't you have it...",
+    "tr": "#5#$001Ah, senmişsin, bana oyun oynuyorsun... Bana kitap fırlatmak kadar komik neredeyse. Hadi hep birlikte Myrtle'a kitap fırlatalım, nasıl olsa canı yanmaz! Ne kadar da eğlenceli bir oyun, hiç sanmam! Al bakalım, neden sende kalmıyor..."
+  },
+  {
+    "id": 1168,
+    "en": "#8#$009She's gone mental! Jinx the flying objects before they hit you",
+    "tr": "#8#$009Aklını kaçırmış bu! Sana çarpmadan önce uçan nesneleri büyüle"
+  },
+  {
+    "id": 1169,
+    "en": "#1#$001Oh it's you...what do you want?",
+    "tr": "#1#$001Ah, senmişsin... ne istiyorsun?"
+  },
+  {
+    "id": 1170,
+    "en": "#4#$003Ooooh, it was dreadful!  It happened right in here.  I died in this very bathroom.  I remember it so well.",
+    "tr": "#4#$003Ooooh, korkunçtu! Tam da burada oldu. Bu tuvalette öldüm ben. O kadar iyi hatırlıyorum ki."
+  },
+  {
+    "id": 1171,
+    "en": "#7#$004I'd hidden in here because Olive Hornby was teasing me about my glasses. I hid in a cubicle and started crying.  Then I heard a boy come in. He said something funny. A different language...",
+    "tr": "#7#$004Olive Hornby gözlüklerimle dalga geçtiği için buraya saklanmıştım. Bir kabine saklanıp ağlamaya başladım. Sonra içeri bir oğlanın girdiğini duydum. Tuhaf bir şeyler söyledi. Farklı bir dil..."
+  },
+  {
+    "id": 1172,
+    "en": "#A#$005Anyway, I unlocked the door, to tell him to go and use his own bathroom; and then - I died...",
+    "tr": "#A#$005Neyse, gidip kendi tuvaletini kullanmasını söylemek için kapının kilidini açtım; ve sonra... öldüm..."
+  },
+  {
+    "id": 1173,
+    "en": "#D#$007No idea!  I just remember seeing a pair of great big eyes and my whole body seized up and I was floating away!",
+    "tr": "#D#$007Hiçbir fikrim yok! Sadece kocaman iki göz gördüğümü hatırlıyorum, tüm vücudum kaskatı kesildi ve havaya doğru süzüldüm!"
+  },
+  {
+    "id": 1174,
+    "en": "#10#$009By the sinks.",
+    "tr": "#10#$009Lavaboların yanında."
+  },
+  {
+    "id": 1175,
+    "en": "#13#$002To ask you how you died.",
+    "tr": "#13#$002Nasıl öldüğünü sormak için."
+  },
+  {
+    "id": 1176,
+    "en": "#16#$006How?",
+    "tr": "#16#$006Nasıl?"
+  },
+  {
+    "id": 1177,
+    "en": "#19#$008Where did you see the eyes?",
+    "tr": "#19#$008Gözleri nerede gördün?"
+  },
+  {
+    "id": 1178,
+    "en": "#1C#$001Look! The taps are turning into snakes!",
+    "tr": "#1C#$001Bak! Musluklar yılana dönüşüyor!"
+  },
+  {
+    "id": 1179,
+    "en": "#1F#$003Okay, I'll try....Open!",
+    "tr": "#1F#$003Tamam, deneyeceğim.... Açıl!"
+  },
+  {
+    "id": 1180,
+    "en": "#22#$004Come, come to me.",
+    "tr": "#22#$004Gel, bana gel."
+  },
+  {
+    "id": 1181,
+    "en": "#25#$005I'll go first.",
+    "tr": "#25#$005Önden ben gideceğim."
+  },
+  {
+    "id": 1182,
+    "en": "#29#$001Well done getting all the ingredients I asked for.",
+    "tr": "#29#$001İstediğim bütün malzemeleri bulduğun için tebrik ederim."
+  },
+  {
+    "id": 1183,
+    "en": "#2C#$003Yes, but I had to sneak into Snape's office last night to get it.",
+    "tr": "#2C#$003Evet, ama onu almak için dün gece Snape'in odasına gizlice sızmak zorunda kaldım."
+  },
+  {
+    "id": 1184,
+    "en": "#2F#$008I\\u00b8m afraid we still need some extra ingredients -  something from Crabbe and Goyle. I\\u00b8ve already managed to get some hair from Millicent Bulstrode.",
+    "tr": "#2F#$008Korkarım hâlâ birkaç fazladan malzemeye ihtiyacımız var; Crabbe ve Goyle'a ait birer parçaya. Ben Millicent Bulstrode'dan biraz saç teli almayı başardım bile."
+  },
+  {
+    "id": 1185,
+    "en": "#32#$010Well, Crabbe and Goyle, in particular, are the only people Malfoy trusts. He'll tell them anything. You do want to find out whether Malfoy\\u00b8s the Heir of Slytherin, don\\u00b8t you?",
+    "tr": "#32#$010Şey, özellikle Crabbe ve Goyle, Malfoy'un güvendiği yegâne kişiler. Onlara her şeyi anlatır. Malfoy'un Slytherin'in Varisi olup olmadığını öğrenmek istiyorsun, değil mi?"
+  },
+  {
+    "id": 1186,
+    "en": "#35#$012Of course it will. Ron, I think you should try and steal some hair from Crabbe and Goyle after lunch. They like to have a nap after feeding their faces.",
+    "tr": "#35#$012Tabii ki işe yarayacak. Ron, bence öğle yemeğinden sonra Crabbe ve Goyle'dan biraz saç teli aşırmaya çalışmalısın. Tıkındıktan sonra kestirmeyi severler."
+  },
+  {
+    "id": 1187,
+    "en": "#38#$002Did you manage to get any $powdered $horn $of $bicorn?",
+    "tr": "#38#$002Hiç $çiftboynuz $boynuzu $tozu bulabildin mi?"
+  },
+  {
+    "id": 1188,
+    "en": "#3B#$006And here are the $boomslang $skin, $lacewings and $leeches.",
+    "tr": "#3B#$006İşte $ağaçyılanı $derisi, $gündüzkelleri ve $sülükler de burada."
+  },
+  {
+    "id": 1189,
+    "en": "#3E#$011Of course we do \\u00b5 I just hope that the Polyjuice Potion will wear off, that\\u00b8s all...",
+    "tr": "#3E#$011Elbette istiyoruz—tek umudum Çoközlü İksir'in etkisinin geçmesi, hepsi bu..."
+  },
+  {
+    "id": 1190,
+    "en": "#41#$014Come on, Ron, let's leave Hermione to prepare the potion.",
+    "tr": "#41#$014Hadi Ron, Hermione'yi iksiri hazırlaması için yalnız bırakalım."
+  },
+  {
+    "id": 1191,
+    "en": "#44#$004You wouldn't get me creeping about in Snape's office - especially at night!",
+    "tr": "#44#$004Beni Snape'in odasında öyle gizlice dolanırken göremezsin; hele geceleyin asla!"
+  },
+  {
+    "id": 1192,
+    "en": "#47#$005Here's the $fluxweed and $knotgrass.",
+    "tr": "#47#$005İşte $aklarotu ve $kuşekmeği."
+  },
+  {
+    "id": 1193,
+    "en": "#4A#$007How long until the Polyjuice Potion\\u00b8s ready?",
+    "tr": "#4A#$007Çoközlü İksir'in hazır olmasına ne kadar kaldı?"
+  },
+  {
+    "id": 1194,
+    "en": "#4D#$009I hope you're not saying that you\\u00b8re going to turn us into Crabbe, Goyle and Millicent Bulstrode?",
+    "tr": "#4D#$009Bizi Crabbe, Goyle ve Millicent Bulstrode'a dönüştüreceğini söylemiyorsundur umarım?"
+  },
+  {
+    "id": 1195,
+    "en": "#50#$013 I\\u00b8ve got a bad feeling about this...",
+    "tr": "#50#$013 İçimde kötü bir his var..."
+  },
+  {
+    "id": 1196,
+    "en": "#53#$003Of course not.",
+    "tr": "#53#$003Tabii ki hayır."
+  },
+  {
+    "id": 1197,
+    "en": "#56#$006We need to finish the Polyjuice Potion and prove that Malfoy\\u00b8s the Heir of Slytherin, that way we can clear your name.  Ron - did you manage to get some hair from Crabbe and Goyle?",
+    "tr": "#56#$006Çoközlü İksir'i bitirip Malfoy'un Slytherin'in Varisi olduğunu kanıtlamalıyız, böylece senin adını temize çıkarabiliriz. Ron, Crabbe ve Goyle'dan biraz saç teli alabildin mi?"
+  },
+  {
+    "id": 1198,
+    "en": "#59#$008Okay. I'm sure I've done everything right. Once we\\u00b8ve drunk the potion, there won\\u00b8t be much time before we turn back.",
+    "tr": "#59#$008Tamam. Her şeyi doğru yaptığımdan eminim. İksiri içtikten sonra eski halimize dönene kadar çok vaktimiz olmayacak."
+  },
+  {
+    "id": 1199,
+    "en": "#5C#$010We each have some of the potion, add the hairs and then drink it.",
+    "tr": "#5C#$010Her birimiz biraz iksir alıp saç tellerini ekleyecek ve ardından içeceğiz."
+  },
+  {
+    "id": 1200,
+    "en": "#5F#$001Now that everyone knows you're a Parselmouth, they\\u00b8re convinced you're the Heir of Slytherin!",
+    "tr": "#5F#$001Artık herkes Çatalağız olduğunu bildiğine göre, Slytherin'in Varisi olduğuna kesin gözüyle bakıyorlar!"
+  },
+  {
+    "id": 1201,
+    "en": "#62#$004There\\u00b8s no way you\\u00b8re the Heir, Harry.",
+    "tr": "#62#$004Senin Varis olmana imkân yok, Harry."
+  },
+  {
+    "id": 1202,
+    "en": "#65#$007Yes, I did, but I'm telling you, it wasn't easy.",
+    "tr": "#65#$007Evet aldım ama sana söylüyorum, hiç kolay olmadı."
+  },
+  {
+    "id": 1203,
+    "en": "#68#$009Now what?",
+    "tr": "#68#$009Şimdi ne olacak?"
+  },
+  {
+    "id": 1204,
+    "en": "#6B#$011I'm still not sure about this!",
+    "tr": "#6B#$011Hâlâ pek emin değilim bundan!"
+  },
+  {
+    "id": 1205,
+    "en": "#6E#$002You don't think it's me, do you?",
+    "tr": "#6E#$002Ben olduğumu düşünmüyorsun, değil mi?"
+  },
+  {
+    "id": 1206,
+    "en": "#71#$005Thanks.",
+    "tr": "#71#$005Teşekkürler."
+  },
+  {
+    "id": 1207,
+    "en": "#74#$001Ready?",
+    "tr": "#74#$001Hazır mısınız?"
+  },
+  {
+    "id": 1208,
+    "en": "#77#$002Ready!",
+    "tr": "#77#$002Hazırım!"
+  },
+  {
+    "id": 1209,
+    "en": "#7A#$003As I\\u00b8ll ever be...",
+    "tr": "#7A#$003Olabildiğim kadar..."
+  },
+  {
+    "id": 1210,
+    "en": "#7D#$004One...two...three...",
+    "tr": "#7D#$004Bir... iki... üç..."
+  },
+  {
+    "id": 1211,
+    "en": "#80#$005Are you two all right?",
+    "tr": "#80#$005İkiniz iyi misiniz?"
+  },
+  {
+    "id": 1212,
+    "en": "#83#$006Yeah.",
+    "tr": "#83#$006Evet."
+  },
+  {
+    "id": 1213,
+    "en": "#86#$007Unbelievable!",
+    "tr": "#86#$007İnanılmaz!"
+  },
+  {
+    "id": 1214,
+    "en": "#89#$001Hermione, are you okay?",
+    "tr": "#89#$001Hermione, iyi misin?"
+  },
+  {
+    "id": 1215,
+    "en": "#8C#$002Fine - I'm fine.... go on without me!",
+    "tr": "#8C#$002İyiyim... iyiyim ben... bensiz gidin!"
+  },
+  {
+    "id": 1216,
+    "en": "#8F#$003Well, if you're sure.  We'll meet you back here later.",
+    "tr": "#8F#$003Peki, madem eminsin. Sonra seninle burada buluşuruz."
+  },
+  {
+    "id": 1217,
+    "en": "#92#$001This potion is going to be very difficult to get right!",
+    "tr": "#92#$001Bu iksiri tutturmak çok zor olacak!"
+  },
+  {
+    "id": 1218,
+    "en": "#95#$001This is a girls' bathroom! You're not a girl! Get out!",
+    "tr": "#95#$001Burası kızlar tuvaleti! Sen kız değilsin! Çık dışarı!"
+  },
+  {
+    "id": 1219,
+    "en": "#98#$004My life was nothing but misery at this place and now people are coming along ruining my death!",
+    "tr": "#98#$004Bu yerde hayatım sefaletten ibaretti, şimdiyse insanlar gelip ölümümün tadını kaçırıyor!"
+  },
+  {
+    "id": 1220,
+    "en": "#9B#$002Get out!",
+    "tr": "#9B#$002Çıkın dışarı!"
+  },
+  {
+    "id": 1221,
+    "en": "#9E#$003Leave me alone!",
+    "tr": "#9E#$003Beni rahat bırakın!"
+  },
+  {
+    "id": 1222,
+    "en": "#A1#$002Try saying something in Parseltongue.",
+    "tr": "#A1#$002Çataldilinde bir şeyler söylemeyi dene."
+  },
+  {
+    "id": 1223,
+    "en": "#A4#$002We'll be right behind you Harry, wont we Professor?",
+    "tr": "#A4#$002Hemen arkanda olacağız Harry, değil mi Profesör?"
+  },
+  {
+    "id": 1224,
+    "en": "#A7#$001Well it looks like you boys don't need me so I'll be off.",
+    "tr": "#A7#$001Görünüşe göre bana ihtiyacınız kalmadı çocuklar, o yüzden ben kaçayım."
+  },
+  {
+    "id": 1225,
+    "en": "#AA#$003Oh dear...",
+    "tr": "#AA#$003Hadi canım..."
+  },
+  {
+    "id": 1226,
+    "en": "#0#$123Expelliramus!",
+    "tr": "#0#$123Expelliarmus!"
+  },
+  {
+    "id": 1227,
+    "en": "#4#$045Obliviate!!",
+    "tr": "#4#$045Obliviate!!"
+  },
+  {
+    "id": 1228,
+    "en": "#7#$020Watch out for the Memory Charm!",
+    "tr": "#7#$020Hafıza Büyüsü'ne dikkat et!"
+  },
+  {
+    "id": 1229,
+    "en": "$001Round One",
+    "tr": "$001Birinci Raunt"
+  },
+  {
+    "id": 1230,
+    "en": "$002Round Two",
+    "tr": "$002İkinci Raunt"
+  },
+  {
+    "id": 1231,
+    "en": "$003Round Three",
+    "tr": "$003Üçüncü Raunt"
+  },
+  {
+    "id": 1232,
+    "en": "#B#$002Careful Harry, I think he's lost it.",
+    "tr": "#B#$002Dikkat et Harry, bence aklını kaçırdı."
+  },
+  {
+    "id": 1233,
+    "en": "#E#$004See.",
+    "tr": "#E#$004Gördün mü."
+  },
+  {
+    "id": 1234,
+    "en": "#11#$006Oh no, I know what he's going to do, he's going to try and hit us with one of his memory charms!",
+    "tr": "#11#$006Olamaz, ne yapacağını biliyorum, bize hafıza büyülerinden biriyle vurmaya çalışacak!"
+  },
+  {
+    "id": 1235,
+    "en": "#15#$001Aha - welcome, Harry. Here you are at last!",
+    "tr": "#15#$001Aha... hoş geldin Harry. Nihayet buradasın!"
+  },
+  {
+    "id": 1236,
+    "en": "#18#$003Lost it, moi? No, no, no - not the great Gilderoy Lockhart. It's just that now is the time to end this little adventure.",
+    "tr": "#18#$003Aklını kaçırmak mı, ben mi? Hayır, hayır, hayır; ulu Gilderoy Lockhart asla. Sadece bu küçük maceraya bir son verme zamanı geldi."
+  },
+  {
+    "id": 1237,
+    "en": "#1B#$005I shall go back to the school, tell them it was too late to save the girl and that you both tragically lost your minds at the sight of her dead body.",
+    "tr": "#1B#$005Okula döneceğim, kıza yetişmek için çok geç kalındığını ve ikinizin de onun cansız bedenini görünce trajik bir şekilde aklınızı yitirdiğinizi söyleyeceğim."
+  },
+  {
+    "id": 1238,
+    "en": "#1E#$003Yes, indeed, the famous Lockhart Memory Charm. I'm sorry boys, but it is for the best.",
+    "tr": "#1E#$003Evet, gerçekten de meşhur Lockhart Hafıza Büyüsü. Üzgünüm çocuklar, ama böylesi herkes için en iyisi."
+  },
+  {
+    "id": 1239,
+    "en": "#21#$001Ron, are you okay? Ron!",
+    "tr": "#21#$001Ron, iyi misin? Ron!"
+  },
+  {
+    "id": 1240,
+    "en": "#24#$002Yes, I'm through here, I'm fine. Lockhart isn't, though - he got blasted by his own memory charm.",
+    "tr": "#24#$002Evet, buradayım, iyiyim ben. Ama Lockhart pek iyi değil; kendi hafıza büyüsüne kurban gitti."
+  },
+  {
+    "id": 1241,
+    "en": "#27#$003What are we going to do now?",
+    "tr": "#27#$003Şimdi ne yapacağız?"
+  },
+  {
+    "id": 1242,
+    "en": "#2A#$004Well, we can't get through this lot, it'll take ages...",
+    "tr": "#2A#$004Şey, bu kayaların arasından geçemeyiz, saatler sürer..."
+  },
+  {
+    "id": 1243,
+    "en": "#2D#$005There's only one thing to do. You wait here and I'll go on. Ginny's been down here for hours and if we waste any more time it might be too late...",
+    "tr": "#2D#$005Yapacak tek bir şey var. Sen burada bekle, ben ilerleyeceğim. Ginny saatlerdir burada ve biraz daha vakit kaybedersek her şey için çok geç olabilir..."
+  },
+  {
+    "id": 1244,
+    "en": "#30#$006Okay, Harry. I'll start trying to shift some of this rock so you can get back through.",
+    "tr": "#30#$006Tamam Harry. Geri dönebilesin diye bu kayaların bir kısmını kaldırmaya çalışacağım."
+  },
+  {
+    "id": 1245,
+    "en": "#33#$008See you.",
+    "tr": "#33#$008Görüşürüz."
+  },
+  {
+    "id": 1246,
+    "en": "#0#$016GET READY TO MIX!",
+    "tr": "#0#$016KARIŞTIRMAYA HAZIR OL!"
+  },
+  {
+    "id": 1247,
+    "en": "#3#$017MIX!",
+    "tr": "#3#$017KARIŞTIR!"
+  },
+  {
+    "id": 1248,
+    "en": "#6#$0011 pint of Horklump juice.",
+    "tr": "#6#$0011 ölçek Horklump özü."
+  },
+  {
+    "id": 1249,
+    "en": "#9#$0022 drops of Flobberworm mucous.",
+    "tr": "#9#$0022 damla Flobberkurdu sümüğü."
+  },
+  {
+    "id": 1250,
+    "en": "#C#$0037 Chizpurfle fangs.",
+    "tr": "#C#$0037 Chizpurfle dişi."
+  },
+  {
+    "id": 1251,
+    "en": "#F#$004Billywig sting slime.",
+    "tr": "#F#$004Billywig iğnesi salgısı."
+  },
+  {
+    "id": 1252,
+    "en": "#12#$005Sprig of mint.",
+    "tr": "#12#$005Nane filizi."
+  },
+  {
+    "id": 1253,
+    "en": "#15#$006Boom Berry juice.",
+    "tr": "#15#$006Patlangaç Meyvesi suyu."
+  },
+  {
+    "id": 1254,
+    "en": "#18#$007Stewed Mandrake.",
+    "tr": "#18#$007Haşlanmış Adamotu."
+  },
+  {
+    "id": 1255,
+    "en": "#1B#$008Drops of Honeywater.",
+    "tr": "#1B#$008Ballı su damlaları."
+  },
+  {
+    "id": 1256,
+    "en": "#1E#$009Sloth brain mucous.",
+    "tr": "#1E#$009Tembelhayvan beyni sümüğü."
+  },
+  {
+    "id": 1257,
+    "en": "#21#$010Moondew drops.",
+    "tr": "#21#$010Ayçiği damlaları."
+  },
+  {
+    "id": 1258,
+    "en": "#24#$011Sliced Puffapods.",
+    "tr": "#24#$011Dilimlenmiş Pofurtoplar."
+  },
+  {
+    "id": 1259,
+    "en": "#27#$012Stir Clockwise.",
+    "tr": "#27#$012Saat Yönünde Karıştır."
+  },
+  {
+    "id": 1260,
+    "en": "#2A#$013Shredded Alihotsy leaves.",
+    "tr": "#2A#$013Kıyılmış Alihotsy yaprakları."
+  },
+  {
+    "id": 1261,
+    "en": "#2D#$014Spine of Lion Fish.",
+    "tr": "#2D#$014Aslan Balığı Dikeni."
+  },
+  {
+    "id": 1262,
+    "en": "#30#$015Stickle worm veins.",
+    "tr": "#30#$015Dikenlikurt damarları."
+  },
+  {
+    "id": 1263,
+    "en": "$053< Mix Potion",
+    "tr": "$053< İksiri Karıştır"
+  },
+  {
+    "id": 1264,
+    "en": "$054< Collect Potion",
+    "tr": "$054< İksiri Al"
+  },
+  {
+    "id": 1265,
+    "en": "#33#$004Verdimillious",
+    "tr": "#33#$004Verdimillious"
+  },
+  {
+    "id": 1266,
+    "en": "#36#$005Incendio",
+    "tr": "#36#$005Incendio"
+  },
+  {
+    "id": 1267,
+    "en": "#39#$002Wingardium Leviosa",
+    "tr": "#39#$002Wingardium Leviosa"
+  },
+  {
+    "id": 1268,
+    "en": "$022Forgotten Cavern.",
+    "tr": "$022Unutulmuş Mağara."
+  },
+  {
+    "id": 1269,
+    "en": "$021Dark Hall.",
+    "tr": "$021Karanlık Salon."
+  },
+  {
+    "id": 1270,
+    "en": "$020Lost Tunnel.",
+    "tr": "$020Kayıp Tünel."
+  },
+  {
+    "id": 1271,
+    "en": "#3E#$001Grrreedoure!!",
+    "tr": "#3E#$001Grrreedoure!!"
+  },
+  {
+    "id": 1272,
+    "en": "#43#$002Let me kill you.",
+    "tr": "#43#$002Bırak seni öldüreyim."
+  },
+  {
+    "id": 1273,
+    "en": "#46#$005Rip, hurt, kill.",
+    "tr": "#46#$005Parçala, incit, öldür."
+  },
+  {
+    "id": 1274,
+    "en": "#49#$001Come, come to me.",
+    "tr": "#49#$001Gel, bana gel."
+  },
+  {
+    "id": 1275,
+    "en": "#4C#$004Let me tear you...",
+    "tr": "#4C#$004Seni parçalayayım..."
+  },
+  {
+    "id": 1276,
+    "en": "#4#$004Dear me, Harry! I would have thought that you of all people would have beaten the school record!  At least you got here on time.",
+    "tr": "#4#$004Aşk olsun Harry! Herkesten çok senin okul rekorunu kıracağını düşünürdüm! En azından vaktinde gelebildin."
+  },
+  {
+    "id": 1277,
+    "en": "#7#$008Remember, Harry! You can view your race time in the Gryffindor Common Room!",
+    "tr": "#7#$008Unutma Harry! Yarış süreni Gryffindor Ortak Odası'nda görebilirsin!"
+  },
+  {
+    "id": 1278,
+    "en": "#A#$002Tut-tut, a word to the wise, Harry! Arriving on time is an important lesson in itself!",
+    "tr": "#A#$002Cık, cık, cık, aklında bulunsun Harry! Vaktinde gelmek başlı başına önemli bir derstir!"
+  },
+  {
+    "id": 1279,
+    "en": "#D#$004Quite excellent! Well done, Harry, I knew you\\u00b8d be the first to get to my class.",
+    "tr": "#D#$004Son derece mükemmel! Aferin Harry, dersime ilk senin geleceğini biliyordum."
+  },
+  {
+    "id": 1280,
+    "en": "#10#$005I don't seem to have any signed photos on me at the moment, but have this $Defence $Against $the $Dark $Arts $Race $Cup instead.",
+    "tr": "#10#$005Şu anda yanımda hiç imzalı fotoğrafım kalmamış gibi görünüyor, ama onun yerine şu $Karanlık $Sanatlara $Karşı $Savunma $Yarış $Kupası'nı al bakalım."
+  },
+  {
+    "id": 1281,
+    "en": "#13#$001Dear me! I would have thought that you of all people would have beaten the school record! Would you like to try again?",
+    "tr": "#13#$001Aşk olsun! Herkesten çok senin okul rekorunu kıracağını düşünürdüm! Tekrar denemek ister misin?"
+  },
+  {
+    "id": 1282,
+    "en": "#16#$002Would you like to re-enter my fabulous classroom and try to improve on your Defence Against the Dark Arts grade?",
+    "tr": "#16#$002Benim muhteşem sınıfıma yeniden girip Karanlık Sanatlara Karşı Savunma notunu yükseltmeyi denemek ister misin?"
+  },
+  {
+    "id": 1283,
+    "en": "#17#$003Well done Harry! I knew you would beat the school record! I'll have to keep an eye on you.",
+    "tr": "#17#$003Aferin Harry! Okul rekorunu kıracağını biliyordum! Gözümü üzerinden ayırmamam gerekecek."
+  },
+  {
+    "id": 1284,
+    "en": "#1A#$008Come on Harry!",
+    "tr": "#1A#$008Hadi ama Harry!"
+  },
+  {
+    "id": 1285,
+    "en": "#1#$011Petrificus Totalus",
+    "tr": "#1#$011Petrificus Totalus"
+  },
+  {
+    "id": 1286,
+    "en": "#4#$002Wingardium Leviosa",
+    "tr": "#4#$002Wingardium Leviosa"
+  },
+  {
+    "id": 1287,
+    "en": "#9#$006I must capture the Pixies in this room using my spells",
+    "tr": "#9#$006Büyülerimi kullanarak bu odadaki Cinperilerini yakalamalıyım"
+  },
+  {
+    "id": 1288,
+    "en": "#C#$007I must stun all the Pixies in this room and levitate them into the cage",
+    "tr": "#C#$007Bu odadaki bütün Cinperilerini sersemletmeli ve havaya kaldırıp kafese koymalıyım"
+  },
+  {
+    "id": 1289,
+    "en": "#F#$008I must stun the Pixies and put them in the cage.",
+    "tr": "#F#$008Cinperilerini sersemletip kafese koymalıyım."
+  },
+  {
+    "id": 1290,
+    "en": "#12#$009There are still Pixies to catch in this room.",
+    "tr": "#12#$009Bu odada yakalanacak Cinperileri var hâlâ."
+  },
+  {
+    "id": 1291,
+    "en": "#15#$019Are you ready?",
+    "tr": "#15#$019Hazır mısın?"
+  },
+  {
+    "id": 1292,
+    "en": "#18#$003Splendid!",
+    "tr": "#18#$003Harika!"
+  },
+  {
+    "id": 1293,
+    "en": "#1B#$004Perfection!",
+    "tr": "#1B#$004Kusursuz!"
+  },
+  {
+    "id": 1294,
+    "en": "#1E#$007Very stylish - just like me!",
+    "tr": "#1E#$007Çok fiyakalı; tıpkı benim gibi!"
+  },
+  {
+    "id": 1295,
+    "en": "#21#$001Dear, dear...",
+    "tr": "#21#$001Vah, vah..."
+  },
+  {
+    "id": 1296,
+    "en": "#24#$002Oh, dear...",
+    "tr": "#24#$002Tüh be..."
+  },
+  {
+    "id": 1297,
+    "en": "#27#$009Oh, no...",
+    "tr": "#27#$009Olamaz..."
+  },
+  {
+    "id": 1298,
+    "en": "#2A#$006Looks like Lockhart wants to give us some hands-on experience!",
+    "tr": "#2A#$006Görünüşe göre Lockhart bize biraz pratik tecrübe kazandırmak istiyor!"
+  },
+  {
+    "id": 1299,
+    "en": "#2D#$006I'll take care of this one!",
+    "tr": "#2D#$006Bunun icabına ben bakarım!"
+  },
+  {
+    "id": 1300,
+    "en": "#30#$007When a Pixie's sparkle is red, you can use your new spell. Your wand has to be fully charged to stun a Pixie.",
+    "tr": "#30#$007Bir Cinperisinin ışıltısı kırmızı olduğunda yeni büyünü kullanabilirsin. Bir Cinperisini sersemletmek için asan tam şarj edilmiş olmalı."
+  },
+  {
+    "id": 1301,
+    "en": "#33#$007Petrificus Totalus!",
+    "tr": "#33#$007Petrificus Totalus!"
+  },
+  {
+    "id": 1302,
+    "en": "#36#$007You can only levitate him when he\\u00b8s been stunned.",
+    "tr": "#36#$007Onu ancak sersemledikten sonra havaya kaldırabilirsin."
+  },
+  {
+    "id": 1303,
+    "en": "#39#$007Wingardium Leviosa!",
+    "tr": "#39#$007Wingardium Leviosa!"
+  },
+  {
+    "id": 1304,
+    "en": "#3C#$007Steer the Pixie over the cage, and drop him in.",
+    "tr": "#3C#$007Cinperisini kafesin üzerine yönlendir ve içine bırak."
+  },
+  {
+    "id": 1305,
+    "en": "#3F#$007Simple! Now you try with the second one, Harry. Ron and I are going to round up the others.",
+    "tr": "#3F#$007Çok basit! Şimdi ikincisini sen dene Harry. Ron'la ben diğerlerini toplayacağız."
+  },
+  {
+    "id": 1306,
+    "en": "#42#$009Isn't Professor Lockhart wonderful?",
+    "tr": "#42#$009Profesör Lockhart harika biri değil mi?"
+  },
+  {
+    "id": 1307,
+    "en": "$009not used",
+    "tr": "$009kullanılmıyor"
+  },
+  {
+    "id": 1308,
+    "en": "#45#$001Now - be warned! You may find yourselves facing your worst fears in this room.",
+    "tr": "#45#$001Şimdi... sizi uyarıyorum! Bu odada en büyük korkularınızla yüz yüze gelebilirsiniz."
+  },
+  {
+    "id": 1309,
+    "en": "#48#$001No harm can befall you whilst I am here.  Remain calm.  Ready?",
+    "tr": "#48#$001Ben buradayken başınıza hiçbir kötülük gelemez. Sakin olun. Hazır mısınız?"
+  },
+  {
+    "id": 1310,
+    "en": "#4B#$015A freshly caught Cornish Pixie!",
+    "tr": "#4B#$015Yeni yakalanmış bir Cornwall Cinperisi!"
+  },
+  {
+    "id": 1311,
+    "en": "#4E#$004Don't worry, I stunned this one earlier. We are quite safe!",
+    "tr": "#4E#$004Merak etmeyin, bunu daha önce sersemletmiştim. Tamamen güvendeyiz!"
+  },
+  {
+    "id": 1312,
+    "en": "#51#$016Ahem! Well, I'll ask you three just to put this little fellow and any others back into their cages. I'll see you after the lesson.",
+    "tr": "#51#$016Öhöm! Şey, siz üçünüzden bu küçük keratayı ve diğerlerini kafeslerine geri koymanızı rica edeceğim. Dersten sonra görüşürüz."
+  },
+  {
+    "id": 1313,
+    "en": "#54#$007Ah, Harry. I sent your friend upstairs to deal with a few, uh, escapees.  Clear up in here first, then you should join him.",
+    "tr": "#54#$007Ah, Harry. Arkadaşını yukarıya, birkaç kaçkınla... şey... ilgilenmesi için gönderdim. Önce burayı temizleyin, sonra ona katılırsın."
+  },
+  {
+    "id": 1314,
+    "en": "#57#$002Hello class, I'm Gilderoy Lockhart, five times winner of Witch Weekly's Most-Charming-Smile Award.",
+    "tr": "#57#$002Merhaba sınıf, ben Gilderoy Lockhart; Cadı Gündemi'nin En Büyüleyici Gülümseme Ödülü'nü beş kez kazandım."
+  },
+  {
+    "id": 1315,
+    "en": "#5A#$003Today I am going to teach you the total body bind spell -  $Petrificus $Totalus!",
+    "tr": "#5A#$003Bugün size tam beden kilitleme büyüsünü öğreteceğim: $Petrificus $Totalus!"
+  },
+  {
+    "id": 1316,
+    "en": "#5D#$004Watch my expensive wand as it moves and press the symbols it points to!",
+    "tr": "#5D#$004Benim pahalı asam hareket ederken onu izleyin ve işaret ettiği sembollere basın!"
+  },
+  {
+    "id": 1317,
+    "en": "#60#$005Do this three times and you will learn $Petrificus $Totalus!",
+    "tr": "#60#$005Bunu üç kez yapın ve $Petrificus $Totalus büyüsünü öğrenin!"
+  },
+  {
+    "id": 1318,
+    "en": "#63#$005That's the easy one.  Ready now?",
+    "tr": "#63#$005Bu kolay kısmıydı. Şimdi hazır mısınız?"
+  },
+  {
+    "id": 1319,
+    "en": "#66#$005One more to go, get ready.",
+    "tr": "#66#$005Bir tane kaldı, hazır ol."
+  },
+  {
+    "id": 1320,
+    "en": "#69#$005That's the last repetition.",
+    "tr": "#69#$005Bu son tekrar."
+  },
+  {
+    "id": 1321,
+    "en": "#6C#$007You\\u00b8ve earned a passable grade. Well done.",
+    "tr": "#6C#$007Geçer bir not aldın. Aferin."
+  },
+  {
+    "id": 1322,
+    "en": "#6F#$007If you come back later you can try for a better grade and earn a special prize!",
+    "tr": "#6F#$007Daha sonra tekrar gelirsen daha iyi bir not almayı deneyebilir ve özel bir ödül kazanabilirsin!"
+  },
+  {
+    "id": 1323,
+    "en": "#72#$007You earned a grade $A. Congratulations!",
+    "tr": "#72#$007$A notu aldın. Tebrikler!"
+  },
+  {
+    "id": 1324,
+    "en": "#75#$006You\\u00b8ve earned the $Defence $Against $the $Dark $Arts $Lesson $Cup for your hard work.",
+    "tr": "#75#$006Sıkı çalışman karşılığında $Karanlık $Sanatlara $Karşı $Savunma $Ders $Kupası'nı kazandın."
+  },
+  {
+    "id": 1325,
+    "en": "#78#$007Excellent \\u00b5 quite excellent!. And so, to business...",
+    "tr": "#78#$007Mükemmel—hem de tam anlamıyla mükemmel! Şimdi, işimize dönelim..."
+  },
+  {
+    "id": 1326,
+    "en": "#7B#$004Come to try the $Petrificus $Totalus! spell again? You should do better this time.",
+    "tr": "#7B#$004$Petrificus $Totalus! büyüsünü tekrar denemeye mi geldin? Bu sefer daha iyisini yapmalısın."
+  },
+  {
+    "id": 1327,
+    "en": "#7E#$004Would you like to make improvements to your current grade, Harry?",
+    "tr": "#7E#$004Mevcut notunu yükseltmek ister misin Harry?"
+  },
+  {
+    "id": 1328,
+    "en": "#81#$007Would you like to try again, Harry?",
+    "tr": "#81#$007Tekrar denemek ister misin Harry?"
+  },
+  {
+    "id": 1329,
+    "en": "#84#$007That\\u00b8s all there is to it, Potter!  Well done!",
+    "tr": "#84#$007İşte hepsi bu kadar, Potter! Aferin!"
+  },
+  {
+    "id": 1330,
+    "en": "#88#$001Okay, I'll try my best, but my wand's been acting very funny lately!",
+    "tr": "#88#$001Tamam, elimden geleni yapacağım ama şu sıralar asam çok tuhaf davranıyor!"
+  },
+  {
+    "id": 1331,
+    "en": "#8B#$001Well done!  You\\u00b8ve all passed the test!",
+    "tr": "#8B#$001Aferin! Hepiniz testi geçtiniz!"
+  },
+  {
+    "id": 1332,
+    "en": "#8E#$002Obviously, I could have defeated these Pixies with just a few twirls of my wand! 20 points to Gryffindor, for being excellent students!",
+    "tr": "#8E#$002Tabii ki ben asamı birkaç kez savurarak bu Cinperilerini alt edebilirdim! Mükemmel öğrenciler olduğunuz için Gryffindor'a 20 puan!"
+  },
+  {
+    "id": 1333,
+    "en": "#91#$011Catch this Pixie first, Harry!",
+    "tr": "#91#$011Önce bu Cinperisini yakala Harry!"
+  },
+  {
+    "id": 1334,
+    "en": "#94#$012Remember, stun him first, then levitate.",
+    "tr": "#94#$012Unutma, önce onu sersemlet, sonra havaya kaldır."
+  },
+  {
+    "id": 1335,
+    "en": "#97#$001Isn't he wonderful?",
+    "tr": "#97#$001Harika biri değil mi?"
+  },
+  {
+    "id": 1336,
+    "en": "#9A#$001Well done, Harry! I'll make sure these don't escape, while you go and capture the rest.",
+    "tr": "#9A#$001Aferin Harry! Sen gidip geri kalanları yakalarken ben bunların kaçmasına engel olurum."
+  },
+  {
+    "id": 1337,
+    "en": "#9D#$006Very good, Potter! You'd better check on young Mr. Weasley upstairs. Catch you later!",
+    "tr": "#9D#$006Çok iyi Potter! Yukarıdaki genç Bay Weasley'ye baksan iyi edersin. Sonra görüşürüz!"
+  },
+  {
+    "id": 1338,
+    "en": "#A1#$006Well done! You have now won all the House cups and shields. A $Founder $Famous $Witches and $Wizards $Cards is now waiting for you in your $Common $Room.",
+    "tr": "#A1#$006Tebrikler! Artık bütün Bina kupalarını ve kalkanlarını kazandın. Bir $Kurucu $Ünlü $Cadı $ve $Büyücü $Kartı şimdi $Ortak $Oda'nda seni bekliyor."
+  },
+  {
+    "id": 1339,
+    "en": "$001Would you like to try again?",
+    "tr": "$001Tekrar denemek ister misin?"
+  },
+  {
+    "id": 1340,
+    "en": "#4#$007Hi Harry, welcome to my football challenge, this is the type of training that West Ham, my favourite team uses.",
+    "tr": "#4#$007Selam Harry, futbol meydan okumama hoş geldin; bu, tuttuğum takım olan West Ham'ın yaptığı türden bir antrenman."
+  },
+  {
+    "id": 1341,
+    "en": "#7#$002If you can kick the soccer ball between 10 of those flashing poles within the time limit you'll win a prize.",
+    "tr": "#7#$002Süre dolmadan önce futbol topunu o yanıp sönen 10 direğin arasından geçirebilirsen bir ödül kazanırsın."
+  },
+  {
+    "id": 1342,
+    "en": "#A#$003The timer will begin when the ball goes between the first set of posts, good luck Harry.",
+    "tr": "#A#$003Süre top ilk direklerin arasından geçtiğinde başlayacak, iyi şanslar Harry."
+  },
+  {
+    "id": 1343,
+    "en": "$008Dean Thomas' Football Challenge",
+    "tr": "$008Dean Thomas'ın Futbol Meydan Okuması"
+  },
+  {
+    "id": 1344,
+    "en": "#3#$016GET READY TO MIX!",
+    "tr": "#3#$016KARIŞTIRMAYA HAZIR OL!"
+  },
+  {
+    "id": 1345,
+    "en": "#6#$017MIX!",
+    "tr": "#6#$017KARIŞTIR!"
+  },
+  {
+    "id": 1346,
+    "en": "#9#$0011 pint of Horklump juice.",
+    "tr": "#9#$0011 ölçek Horklump özü."
+  },
+  {
+    "id": 1347,
+    "en": "#C#$0022 drops of Flobberworm mucous.",
+    "tr": "#C#$0022 damla Flobberkurdu sümüğü."
+  },
+  {
+    "id": 1348,
+    "en": "#F#$0037 Chizpurfle fangs.",
+    "tr": "#F#$0037 Chizpurfle dişi."
+  },
+  {
+    "id": 1349,
+    "en": "#12#$004Billywig sting slime.",
+    "tr": "#12#$004Billywig iğnesi salgısı."
+  },
+  {
+    "id": 1350,
+    "en": "#15#$005Sprig of mint.",
+    "tr": "#15#$005Nane filizi."
+  },
+  {
+    "id": 1351,
+    "en": "#18#$006Boom Berry juice.",
+    "tr": "#18#$006Patlangaç Meyvesi suyu."
+  },
+  {
+    "id": 1352,
+    "en": "#1B#$007Stewed Mandrake.",
+    "tr": "#1B#$007Haşlanmış Adamotu."
+  },
+  {
+    "id": 1353,
+    "en": "#1E#$008Drops of Honeywater.",
+    "tr": "#1E#$008Ballı su damlaları."
+  },
+  {
+    "id": 1354,
+    "en": "#21#$009Sloth brain mucous.",
+    "tr": "#21#$009Tembelhayvan beyni sümüğü."
+  },
+  {
+    "id": 1355,
+    "en": "#24#$010Moondew drops.",
+    "tr": "#24#$010Ayçiği damlaları."
+  },
+  {
+    "id": 1356,
+    "en": "#27#$011Sliced Puffapods.",
+    "tr": "#27#$011Dilimlenmiş Pofurtoplar."
+  },
+  {
+    "id": 1357,
+    "en": "#2A#$012Stir Clockwise.",
+    "tr": "#2A#$012Saat Yönünde Karıştır."
+  },
+  {
+    "id": 1358,
+    "en": "#2D#$013Shredded Alihotsy leaves.",
+    "tr": "#2D#$013Kıyılmış Alihotsy yaprakları."
+  },
+  {
+    "id": 1359,
+    "en": "#30#$014Spine of Lion Fish.",
+    "tr": "#30#$014Aslan Balığı Dikeni."
+  },
+  {
+    "id": 1360,
+    "en": "#33#$015Stickle worm veins.",
+    "tr": "#33#$015Dikenlikurt damarları."
+  },
+  {
+    "id": 1361,
+    "en": "#3A#$001Silence! Mixing potions is a very precise science.",
+    "tr": "#3A#$001Sessizlik! İksir hazırlamak son derece hassas bir bilimdir."
+  },
+  {
+    "id": 1362,
+    "en": "#3D#$002I suggest that Potter, Weasley and Longbottom listen carefully to my every word. This year, like last year, I won't allow any disobedience...",
+    "tr": "#3D#$002Potter, Weasley ve Longbottom'ın ağzımdan çıkan her kelimeyi cankulağıyla dinlemesini tavsiye ederim. Geçen yıl olduğu gibi bu yıl da hiçbir itaatsizliğe göz yummayacağım..."
+  },
+  {
+    "id": 1363,
+    "en": "#40#$004Pay attention, Potter. You are going to remind us how to mix a $Wiggenweld $Potion. If you remember, you must first activate the cauldron.",
+    "tr": "#40#$004Dikkatini ver, Potter. Bize $Wiggenweld $İksiri'nin nasıl karıştırılacağını hatırlatacaksın. Hatırlarsan, önce kazanı etkinleştirmelisin."
+  },
+  {
+    "id": 1364,
+    "en": "#43#$005With this done, you must then press the three symbols indicated, until the cauldron fills.",
+    "tr": "#43#$005Bunu yaptıktan sonra, kazan dolana kadar gösterilen üç sembole basmalısın."
+  },
+  {
+    "id": 1365,
+    "en": "#46#$001Good enough. Only a fool would expect better of you.",
+    "tr": "#46#$001Yeterince iyi. Senden daha fazlasını ancak bir ahmak beklerdi."
+  },
+  {
+    "id": 1366,
+    "en": "#49#$009Now remember, when the cauldron is full, you can activate it to gain the $Wiggenweld $Potion.",
+    "tr": "#49#$009Şimdi unutma, kazan dolduğunda $Wiggenweld $İksiri'ni elde etmek için onu etkinleştirebilirsin."
+  },
+  {
+    "id": 1367,
+    "en": "#4C#$002Class dismissed!",
+    "tr": "#4C#$002Ders bitmiştir!"
+  },
+  {
+    "id": 1368,
+    "en": "$014< Read Sign",
+    "tr": "$014< Tabelayı Oku"
+  },
+  {
+    "id": 1369,
+    "en": "$001This way to the 500th Deathday Party of Sir Nicholas de Mimsy-Porpington.",
+    "tr": "$001Sör Nicholas de Mimsy-Porpington'ın 500. Ölüm Günü Partisi bu taraftan."
+  },
+  {
+    "id": 1370,
+    "en": "$001To The Slug Pit",
+    "tr": "$001Sülük Çukuru'na"
+  },
+  {
+    "id": 1371,
+    "en": "$002Dungeon Pit",
+    "tr": "$002Zindan Çukuru"
+  },
+  {
+    "id": 1372,
+    "en": "$003Store Room",
+    "tr": "$003Depo Odası"
+  },
+  {
+    "id": 1373,
+    "en": "$004Deathday Party Room",
+    "tr": "$004Ölüm Günü Partisi Odası"
+  },
+  {
+    "id": 1374,
+    "en": "#6#$002Let's go, Harry!",
+    "tr": "#6#$002Hadi gidelim Harry!"
+  },
+  {
+    "id": 1375,
+    "en": "#7#$001Blimey, Harry! Where have you been? We\\u00b8ve been waiting ages for you.",
+    "tr": "#7#$001Vay canına Harry! Neredeydin? Asırlardır seni bekliyoruz."
+  },
+  {
+    "id": 1376,
+    "en": "#A#$002It gets pretty cold in these dungeons when you've been standing about waiting. Let's get to the party, Harry. It's just through the door behind me.",
+    "tr": "#A#$002Öylece dikilip beklerken bu zindanlar epey soğuk oluyor. Hadi partiye gidelim Harry. Hemen arkamdaki kapıdan giriliyor."
+  },
+  {
+    "id": 1377,
+    "en": "$007Lower Castle",
+    "tr": "$007Aşağı Şato"
+  },
+  {
+    "id": 1378,
+    "en": "#C#$001It's Potty Wee Potter - he can't get across! Oh what a baby - he's all at a loss!",
+    "tr": "#C#$001İşte Çatlak Ufaklık Potter, karşıya geçemez asla! Ah ne bebek ama, eli ayağı dolandı korkuyla!"
+  },
+  {
+    "id": 1379,
+    "en": "$019Lever Room",
+    "tr": "$019Kaldıraç Odası"
+  },
+  {
+    "id": 1380,
+    "en": "$006Potion Class",
+    "tr": "$006İksir Sınıfı"
+  },
+  {
+    "id": 1381,
+    "en": "#F#$007Can't find your pals, Potty! Don't cry!",
+    "tr": "#F#$007Arkadaşlarını bulamadın mı Çatlak Potter! Ağlama sakın!"
+  },
+  {
+    "id": 1382,
+    "en": "#12#$006Poor old Potty! Can't find his way to the party!",
+    "tr": "#12#$006Zavallı koca Çatlak! Partinin yolunu bulamadı şapşal!"
+  },
+  {
+    "id": 1383,
+    "en": "#15#$009The dungeon is a nasty place, but you'll fit in with that ugly face!",
+    "tr": "#15#$009Zindan pis bir yerdir ama o çirkin suratınla tam buraya göresin!"
+  },
+  {
+    "id": 1384,
+    "en": "#0#$004Let me tear you...",
+    "tr": "#0#$004Seni parçalayayım..."
+  },
+  {
+    "id": 1385,
+    "en": "#3#$001Peeves! Give Ron back his present!",
+    "tr": "#3#$001Peeves! Ron'un hediyesini geri ver!"
+  },
+  {
+    "id": 1386,
+    "en": "#7#$001So glad you could make it, Harry. May I recommend the mouldy bread and the stinking salmon?",
+    "tr": "#7#$001Gelebilmene çok sevindim Harry. Küflü ekmekle kokuşmuş somondan ikram edebilir miyim?"
+  },
+  {
+    "id": 1387,
+    "en": "#A#$002Watch out for Peeves, Harry, he's in one of his mischievous moods.",
+    "tr": "#A#$002Peeves'e dikkat et Harry, yine yaramazlığı üzerinde."
+  },
+  {
+    "id": 1388,
+    "en": "#D#$003Feel free to mingle, Harry. Ron and Hermione are around here somewhere!",
+    "tr": "#D#$003İstediğin gibi dolaş Harry. Ron ve Hermione buralarda bir yerdeler!"
+  },
+  {
+    "id": 1389,
+    "en": "#10#$004Happy Deathday, Nick! I think Ron has a present for you. I'll go and tell him to bring it over.",
+    "tr": "#10#$004Ölüm Günün kutlu olsun Nick! Sanırım Ron'un sana bir hediyesi var. Gidip getirmesini söyleyeyim."
+  },
+  {
+    "id": 1390,
+    "en": "#14#$002Peeves dived down behind the table, Harry. Use your Knockback Jinx to get the present back!",
+    "tr": "#14#$002Peeves masanın arkasına daldı Harry. Hediyeyi geri almak için Geri Tepme Uğursuzluğu'nu kullan!"
+  },
+  {
+    "id": 1391,
+    "en": "#1#$001You've lost him.",
+    "tr": "#1#$001Onu gözden kaçırdın."
+  },
+  {
+    "id": 1392,
+    "en": "#4#$005You've lost him, how are we going to find the Slytherin Common Room now.",
+    "tr": "#4#$005Onu gözden kaçırdın, şimdi Slytherin Ortak Odası'nı nasıl bulacağız?"
+  },
+  {
+    "id": 1393,
+    "en": "#7#$007He\\u00b8s gone.",
+    "tr": "#7#$007Gitti."
+  },
+  {
+    "id": 1394,
+    "en": "#A#$006He\\u00b8s disappeared.",
+    "tr": "#A#$006Ortadan kayboldu."
+  },
+  {
+    "id": 1395,
+    "en": "#D#$001Hermione said that we may have some difficulty moving because Crabbe and Goyle are bigger than us.",
+    "tr": "#D#$001Hermione, Crabbe ve Goyle bizden daha iri oldukları için hareket etmekte zorlanabileceğimizi söylemişti."
+  },
+  {
+    "id": 1396,
+    "en": "#10#$002Okay, I wont try jumping across any gaps.  We'd better get going before the effects of the Polyjuice Potion run out.",
+    "tr": "#10#$002Tamam, boşlukların üzerinden atlamaya çalışmayacağım. Çoközlü İksir'in etkisi geçmeden önce yola koyulsak iyi olur."
+  },
+  {
+    "id": 1397,
+    "en": "#13#$003We need to find out where the Slytherin Common Room is. I hope we can find someone to follow.",
+    "tr": "#13#$003Slytherin Ortak Odası'nın nerede olduğunu öğrenmemiz gerek. Umarım peşine düşecek birini bulabiliriz."
+  },
+  {
+    "id": 1398,
+    "en": "#16#$001There you are. Have you two been pigging out in the Great Hall all this time?",
+    "tr": "#16#$001Neredesiniz siz? İkiniz bunca zamandır Büyük Salon'da tıkınıyor muydunuz?"
+  },
+  {
+    "id": 1399,
+    "en": "#19#$002How did you know?",
+    "tr": "#19#$002Nasıl bildin?"
+  },
+  {
+    "id": 1400,
+    "en": "#1C#$003People seem to think that Saint Potter, the Mudbloods' friend is the Heir of Slytherin!   I wish I knew who it really is, I could help them.",
+    "tr": "#1C#$003Millet de Bulanıkların dostu Aziz Potter'ın Slytherin'in Varisi olduğunu sanıyor! Keşke gerçekte kim olduğunu bilseydim, ona yardım ederdim."
+  },
+  {
+    "id": 1401,
+    "en": "#1F#$004You must have some idea who's behind it all...",
+    "tr": "#1F#$004Tüm bunların arkasında kimin olduğuna dair bir fikrin olmalı..."
+  },
+  {
+    "id": 1402,
+    "en": "#22#$005You know I haven't, Goyle, how many times do I have to tell you?",
+    "tr": "#22#$005Bilmediğimi biliyorsun Goyle, sana kaç kere söylemem gerekiyor?"
+  },
+  {
+    "id": 1403,
+    "en": "#25#$006But I know one thing: last time the Chamber of Secrets was opened, a Mudblood died. So I bet it's only a matter of time before one of them's killed this time ... I hope it's Granger.",
+    "tr": "#25#$006Ama bildiğim bir şey var: Sırlar Odası en son açıldığında bir Bulanık ölmüştü. İddiasına girerim bu defa da birinin öldürülmesi an meselesi... Umarım Granger olur."
+  },
+  {
+    "id": 1404,
+    "en": "#28#$001There's a Slytherin now, quick -  follow him and don\\u00b8t lose sight of him.",
+    "tr": "#28#$001İşte bir Slytherinli, çabuk; onu takip et ve gözden kaçırma."
+  },
+  {
+    "id": 1405,
+    "en": "#0#$002Gaspard Shingleton",
+    "tr": "#0#$002Gaspard Shingleton"
+  },
+  {
+    "id": 1406,
+    "en": "#2#$001$Herbology\\u00b8s this way...",
+    "tr": "#2#$001$Bitkibilim bu tarafta..."
+  },
+  {
+    "id": 1407,
+    "en": "$003Quidditch Training Pitch",
+    "tr": "$003Quidditch Antrenman Sahası"
+  },
+  {
+    "id": 1408,
+    "en": "#6#$001I Heard about the Flying Car... Classic! Professor Sprout has put me here to tell all students where Greenhouse Three is! It's through here!",
+    "tr": "#6#$001Uçan Araba'yı duydum... Tam bir klasik! Profesör Sprout bütün öğrencilere Sera Üç'ün yerini söyleyeyim diye beni buraya dikti! Buradan gidiliyor!"
+  },
+  {
+    "id": 1409,
+    "en": "#9#$002It's $Herbology next - come on!",
+    "tr": "#9#$002Sırada $Bitkibilim var; hadi!"
+  },
+  {
+    "id": 1410,
+    "en": "#C#$001Entrance to $Hogwarts $School $of $Witchcraft $and $Wizardry and $Quidditch $Training",
+    "tr": "#C#$001$Hogwarts $Cadılık $ve $Büyücülük $Okulu ve $Quidditch $Antrenmanı Girişi"
+  },
+  {
+    "id": 1411,
+    "en": "#F#$001Hello again, Potter!  I'm still trying to get onto the Quidditch team. Maybe this year I'll have some luck. Could you mention me to Oliver Wood? You are the Gryffindor Seeker after all.",
+    "tr": "#F#$001Yeniden merhaba Potter! Hâlâ Quidditch takımına girmeye çalışıyorum. Belki bu yıl şansım yaver gider. Oliver Wood'a benden bahsedebilir misin? Ne de olsa Gryffindor Arayıcısısın."
+  },
+  {
+    "id": 1412,
+    "en": "$001Castle Grounds",
+    "tr": "$001Şato Bahçesi"
+  },
+  {
+    "id": 1413,
+    "en": "#12#$001Harry, I've missed Herbology and Professor Sprout's going to be really angry.",
+    "tr": "#12#$001Harry, Bitkibilim dersini kaçırdım ve Profesör Sprout çok kızacak."
+  },
+  {
+    "id": 1414,
+    "en": "#15#$003I got lost and ended up coming out of this wall behind me. It must be a secret passage!",
+    "tr": "#15#$003Kayboldum ve sonunda arkamdaki bu duvardan dışarı çıktım. Gizli bir geçit olmalı!"
+  },
+  {
+    "id": 1415,
+    "en": "#18#$002Hello Neville, what happened?",
+    "tr": "#18#$002Merhaba Neville, ne oldu?"
+  },
+  {
+    "id": 1416,
+    "en": "#1B#$001Harry, I'm still waiting for you to attend Quidditch Training!  Meet me at the $Quidditch $Training Pitch, across the bridge from $Hogwarts $main $entrance, Oliver Wood.",
+    "tr": "#1B#$001Harry, Quidditch Antrenmanı'na gelmeni bekliyorum hâlâ! $Hogwarts $ana $girişinin karşısındaki köprüden geçip $Quidditch $Antrenman $Sahası'nda benimle buluş. Oliver Wood."
+  },
+  {
+    "id": 1417,
+    "en": "#2#$001Mr. Potter, welcome to your second year Herbology class.",
+    "tr": "#2#$001Bay Potter, ikinci sınıf Bitkibilim dersinize hoş geldiniz."
+  },
+  {
+    "id": 1418,
+    "en": "#5#$004Mr. Potter, being late for Herbology is not a good example to set for the first years.",
+    "tr": "#5#$004Bay Potter, Bitkibilim'e geç kalmak birinci sınıflara iyi bir örnek teşkil etmiyor."
+  },
+  {
+    "id": 1419,
+    "en": "#8#$002Well done! You\\u00b8ve set a new record time!",
+    "tr": "#8#$002Tebrikler! Yeni bir rekor kırdın!"
+  },
+  {
+    "id": 1420,
+    "en": "#B#$005Here is the $Herbology $Race $Cup as a reward, well done Harry.",
+    "tr": "#B#$005İşte ödül olarak $Bitkibilim $Yarış $Kupası, tebrikler Harry."
+  },
+  {
+    "id": 1421,
+    "en": "#E#$002Would you like to try again?",
+    "tr": "#E#$002Tekrar denemek ister misin?"
+  },
+  {
+    "id": 1422,
+    "en": "#11#$003Would you like to enter the classroom now?",
+    "tr": "#11#$003Şimdi sınıfa girmek ister misin?"
+  },
+  {
+    "id": 1423,
+    "en": "#14#$004Well done, you\\u00b8ve beaten your previous record.",
+    "tr": "#14#$004Tebrikler, önceki rekorunu kırdın."
+  },
+  {
+    "id": 1424,
+    "en": "#17#$001Well done! You have now won all the House cups and shields. A $Founder $Famous $Witches and $Wizards $Cards is now waiting for you in your $Common $Room.",
+    "tr": "#17#$001Tebrikler! Artık bütün Bina kupalarını ve kalkanlarını kazandın. Bir $Kurucu $Ünlü $Cadı $ve $Büyücü $Kartı şimdi $Ortak $Oda'nda seni bekliyor."
+  },
+  {
+    "id": 1425,
+    "en": "#1C#$001Get to $Herbology $Class before the timer runs out. Walk through the floating hourglasses to start the timer.",
+    "tr": "#1C#$001Süre dolmadan önce $Bitkibilim $Dersi'ne ulaş. Süreyi başlatmak için havada süzülen kum saatlerinin içinden geç."
+  },
+  {
+    "id": 1426,
+    "en": "#1F#$002If you beat the school record for the quickest time to class, Professor Sprout may reward you with something special!",
+    "tr": "#1F#$002Sınıfa en kısa sürede ulaşarak okul rekorunu kırarsan Profesör Sprout seni özel bir şeyle ödüllendirebilir!"
+  },
+  {
+    "id": 1427,
+    "en": "#22#$003Have you come back to try and beat the race record, Harry?",
+    "tr": "#22#$003Yarış rekorunu kırmayı tekrar denemek için mi geldin Harry?"
+  },
+  {
+    "id": 1428,
+    "en": "#2#$004GET READY...",
+    "tr": "#2#$004HAZIR OL..."
+  },
+  {
+    "id": 1429,
+    "en": "#5#$001OKAY",
+    "tr": "#5#$001TAMAM"
+  },
+  {
+    "id": 1430,
+    "en": "#8#$002OKAY",
+    "tr": "#8#$002TAMAM"
+  },
+  {
+    "id": 1431,
+    "en": "#B#$003PERFECT!",
+    "tr": "#B#$003KUSURSUZ!"
+  },
+  {
+    "id": 1432,
+    "en": "#E#$001KEEP TRYING",
+    "tr": "#E#$001DENEMEYE DEVAM ET"
+  },
+  {
+    "id": 1433,
+    "en": "#11#$002OH DEAR",
+    "tr": "#11#$002VAH VAH"
+  },
+  {
+    "id": 1434,
+    "en": "#14#$003NOT GOOD",
+    "tr": "#14#$003İYİ DEĞİL"
+  },
+  {
+    "id": 1435,
+    "en": "#17#$001I'm Professor Sprout, welcome to Herbology.",
+    "tr": "#17#$001Ben Profesör Sprout, Bitkibilim'e hoş geldiniz."
+  },
+  {
+    "id": 1436,
+    "en": "#1A#$002Please be careful of the Venemous Tentacula, it's teething.",
+    "tr": "#1A#$002Lütfen Zehirli Tentacula'ya dikkat edin, diş çıkarıyor."
+  },
+  {
+    "id": 1437,
+    "en": "#1D#$002An A, B or C grade can be achieved in this class. There will be rewards for excellence, so try your best.",
+    "tr": "#1D#$002Bu derste A, B veya C notu alınabilir. Üstün başarı ödüllendirilecektir, bu yüzden elinizden geleni yapın."
+  },
+  {
+    "id": 1438,
+    "en": "#20#$002Watch my wand move around the screen, and press the symbols it points to.",
+    "tr": "#20#$002Asamın ekranda hareket edişini izleyin ve işaret ettiği sembollere basın."
+  },
+  {
+    "id": 1439,
+    "en": "#23#$002Complete each sequence three times to learn the $Incendio $Duo spell!",
+    "tr": "#23#$002$Incendio $Duo büyüsünü öğrenmek için her diziyi üç kez tamamlayın!"
+  }
+]

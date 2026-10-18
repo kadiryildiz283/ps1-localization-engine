@@ -1,0 +1,68 @@
+name: 'Bug Report'
+description: 'Bir hatayı bildirin — davranış beklenenden farklıysa'
+labels: ['type/bug', 'status/needs-triage']
+body:
+  - type: 'markdown'
+    attributes:
+      value: |-
+        > [!IMPORTANT]
+        > Hata raporunuz için teşekkürler!
+        >
+        > Lütfen önce **[mevcut issue'ları](https://github.com/kadiryildiz283/ps1-localization-engine/issues)**
+        > kontrol edin; bildirdiğiniz hata için zaten bir issue olabilir.
+
+  - type: 'textarea'
+    id: 'problem'
+    attributes:
+      label: 'Ne oldu?'
+      description: 'Hatayı net ve kısa biçimde anlatın.'
+    validations:
+      required: true
+
+  - type: 'textarea'
+    id: 'expected'
+    attributes:
+      label: 'Ne olmasını bekliyordunuz?'
+    validations:
+      required: true
+
+  - type: 'dropdown'
+    id: 'area'
+    attributes:
+      label: 'Alan'
+      options:
+        - 'ISO / disk yeniden inşa'
+        - 'Metin çıkarma / UI'
+        - 'Çeviri'
+        - 'TTS / ses sentezi'
+        - 'ADPCM / VAG kodlama'
+        - 'Enjeksiyon (WAD XSPS)'
+        - 'Karakter eşleştirme'
+        - 'CI / araç zinciri'
+        - 'Dokümantasyon'
+    validations:
+      required: true
+
+  - type: 'textarea'
+    id: 'repro'
+    attributes:
+      label: 'Yeniden üretme adımları'
+      description: 'Hatayı yeniden üretmek için gereken komutlar, WAD/seed ve ortam.'
+      placeholder: |
+        1. `python engine.py ...`
+        2. `pytest tests/...`
+        3. ...
+    validations:
+      required: true
+
+  - type: 'textarea'
+    id: 'evidence'
+    attributes:
+      label: 'Kanıt (log / önce-sonra / doğrulama çıktısı)'
+      description: 'Kategori A kapısı, `local == iso`, Whisper onset veya ilgili log çıktısı.'
+
+  - type: 'textarea'
+    id: 'additional-context'
+    attributes:
+      label: 'Bağlam'
+      description: 'Ek bilgi, ekran görüntüsü veya ilgili issue/PR bağlantıları.'

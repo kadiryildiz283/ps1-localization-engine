@@ -1,0 +1,1442 @@
+[
+  {
+    "id": 720,
+    "en": "#48#$022Are your glasses broken? That was terrible!"
+  },
+  {
+    "id": 721,
+    "en": "#0#$003And keep your elbows tucked in!"
+  },
+  {
+    "id": 722,
+    "en": "#3#$006Piece of cake!"
+  },
+  {
+    "id": 723,
+    "en": "#6#$002When you\\u00b8re in the fireplace, say where you're going -"
+  },
+  {
+    "id": 724,
+    "en": "#9#$005Are you sure this is safe?"
+  },
+  {
+    "id": 725,
+    "en": "#C#$007$D-Dia-gon $Alley!"
+  },
+  {
+    "id": 726,
+    "en": "#F#$001As you\\u00b8ve never travelled by $Floo $Powder before, you need to know a few things!"
+  },
+  {
+    "id": 727,
+    "en": "#12#$004Mind you get out at the right fireplace!"
+  },
+  {
+    "id": 728,
+    "en": "$004Press > button to slide faster!"
+  },
+  {
+    "id": 729,
+    "en": "#0#$002Wingardium Leviosa"
+  },
+  {
+    "id": 730,
+    "en": "#4#$004Felix Summerbee"
+  },
+  {
+    "id": 731,
+    "en": "#9#$004Hello, Harry! I'm Arthur Weasley. I was wondering if you'd help me de-gnome the garden. It's just through the gate but you'll need de-gnoming gloves to grab the gnomes. Unfortunately, I seem to have lost them under all this junk."
+  },
+  {
+    "id": 732,
+    "en": "#C#$005Use your Wingardium Leviosa spell to charm and move the junk. Holding > button levitates each piece of junk. Use your directional buttons to move the junk about and press [ button to drop it on to the rocks and break the junk up."
+  },
+  {
+    "id": 733,
+    "en": "#F#$006Could you charm them and drop them on to the rocks please? Maybe we can find those gloves... I know I left them 'round here somewhere..."
+  },
+  {
+    "id": 734,
+    "en": "#12#$002That's right, Harry. Keep going!"
+  },
+  {
+    "id": 735,
+    "en": "#15#$003Well done, Harry! Nice work. You've found the de-gnoming gloves. Here they are!"
+  },
+  {
+    "id": 736,
+    "en": "#18#$003I think I need to drop the junk higher than that if I want to break it"
+  },
+  {
+    "id": 737,
+    "en": "#1B#$001Hey look! Ginny's over by the Puffskein patch. Why don't you go and chat to her? She's been a bit shy lately - I wonder why? I'm off to see what dad\\u00b8s up to."
+  },
+  {
+    "id": 738,
+    "en": "#1E#$012Remember, Harry, it's just like Charms class last year. Better find the de-gnoming gloves. We can't de-gnome without them!"
+  },
+  {
+    "id": 739,
+    "en": "#21#$018Lift up the $crates and then drop them on the $rocks below!"
+  },
+  {
+    "id": 740,
+    "en": "#24#$001Thanks for helping dad out, Harry! You've also learnt how to charm objects and I\\u00b8m sure that will come in very handy!"
+  },
+  {
+    "id": 741,
+    "en": "#27#$001The sooner we de-gnome the garden, the sooner we can get some sleep. I'm exhausted!"
+  },
+  {
+    "id": 742,
+    "en": "#2A#$002Hello there, fancy a wizard duel?"
+  },
+  {
+    "id": 743,
+    "en": "#2D#$004Don't tell me you've never taken part in a wizard duel! You\\u00b8ve got a lot to learn, Harry."
+  },
+  {
+    "id": 744,
+    "en": "#30#$006Of course it's safe...well, mostly..."
+  },
+  {
+    "id": 745,
+    "en": "#33#$003A wizard duel?"
+  },
+  {
+    "id": 746,
+    "en": "#36#$005Is this safe?"
+  },
+  {
+    "id": 747,
+    "en": "#39#$007Thanks for all your help, Harry. I think Ron's run off ahead through the gate to do some de-gnoming."
+  },
+  {
+    "id": 748,
+    "en": "#3C#$008See you later, Harry!"
+  },
+  {
+    "id": 749,
+    "en": "#3F#$001Hello, Harry! Pleased to meet you. I'm Ginny.  I'm just looking after our Puffskein, making sure that Fred and George don\\u00b8t use it as a Bludger when they play Quidditch."
+  },
+  {
+    "id": 750,
+    "en": "#42#$003Guide the Puffskein over to the bushes and it\\u00b8ll eat them, revealing $Every $Flavour $Beans that you can collect. Beans can be used to buy $Famous $Witches $and $Wizards $cards from Fred and George at Hogwarts."
+  },
+  {
+    "id": 751,
+    "en": "#45#$004If you guide the Puffskein over to the bushes it\\u00b8ll eat them and you may be able to find a $Famous $Witches $and $Wizards $card!"
+  },
+  {
+    "id": 752,
+    "en": "#48#$005Whenever you get a Wizard card, it is put into your $Folio $Magi. Press the $SELECT button. This will show you the $Folio $Magi and the Wizard cards you have collected at that point."
+  },
+  {
+    "id": 753,
+    "en": "#4B#$006There are two types of Famous Witches and Wizards cards, the silver cards and the four special gold founder cards!"
+  },
+  {
+    "id": 754,
+    "en": "#4E#$005Erm... enjoy the Burrow, Harry."
+  },
+  {
+    "id": 755,
+    "en": "#51#$002Well done, Harry! Here's a $Famous $Witches $and $Wizards $card!"
+  },
+  {
+    "id": 756,
+    "en": "#54#$001Best find Ron, Harry. He's gone off to see dad I think. It's this way"
+  },
+  {
+    "id": 757,
+    "en": "#57#$002It's just through here, Harry. See you later!"
+  },
+  {
+    "id": 758,
+    "en": "#3#$007Wingardium Leviosa"
+  },
+  {
+    "id": 759,
+    "en": "#7#$001We need to find Ginny. She's wandered off somewhere and the whole family is waiting so we can go to Diagon Alley and get our school supplies. We better split up and find her."
+  },
+  {
+    "id": 760,
+    "en": "#A#$002Oh, by the way, watch out for some of dad's junk. If you come across any, use your $Knockback $Jinx or your $Wingardium $Leviosa to defend yourself."
+  },
+  {
+    "id": 761,
+    "en": "#D#$003If you find you are getting a little low on health, $Chocolate $Frogs will help to replenish your energy, so keep an eye out for them. Right, let's split up. I'll go this way - see you soon, Harry, and good luck!"
+  },
+  {
+    "id": 762,
+    "en": "$003Press $_ button to $target the washing machine"
+  },
+  {
+    "id": 763,
+    "en": "$004Look for something to $charm onto the $pressure $pad"
+  },
+  {
+    "id": 764,
+    "en": "$005Press [ button to look around"
+  },
+  {
+    "id": 765,
+    "en": "#7#$019Hengist of Woodcroft"
+  },
+  {
+    "id": 766,
+    "en": "#B#$001Oh hi, Harry! Thank goodness you came. My puffskein swallowed my $Remembrall and I got lost trying to find him! A $Remembrall tells you if there's something you've forgotten to do. You can have it, Harry. I don\\u00b8t have my wand on me now, so use your Knockback Jinx on the puffskein, and he'll spit it out."
+  },
+  {
+    "id": 767,
+    "en": "#E#$001Ah, Ginny. There you are! Nice work, Harry! Hope dad's junk wasn't too much of a problem for you. Right we better get back to the house. Mum and dad are waiting to take us to Diagon Alley!"
+  },
+  {
+    "id": 768,
+    "en": "#F#$026Here comes Potter!"
+  },
+  {
+    "id": 769,
+    "en": "#12#$022Was that the Snitch?"
+  },
+  {
+    "id": 770,
+    "en": "#15#$023A glint of gold... is that the Snitch?"
+  },
+  {
+    "id": 771,
+    "en": "#18#$024THERE'S THE SNITCH!"
+  },
+  {
+    "id": 772,
+    "en": "#1B#$025Potter's seen the Snitch!"
+  },
+  {
+    "id": 773,
+    "en": "#1E#$027Look at Potter go... he's after the Snitch!"
+  },
+  {
+    "id": 774,
+    "en": "#21#$028The crowd is on its feet! Come on, Harry Potter!"
+  },
+  {
+    "id": 775,
+    "en": "#24#$029Potter's moving in for the kill..."
+  },
+  {
+    "id": 776,
+    "en": "#27#$030Oooh, he's lost it!"
+  },
+  {
+    "id": 777,
+    "en": "#2A#$031Aaah, he's lost the Snitch!"
+  },
+  {
+    "id": 778,
+    "en": "#2D#$032Unsuccessful!"
+  },
+  {
+    "id": 779,
+    "en": "#30#$033He turns, he misses!"
+  },
+  {
+    "id": 780,
+    "en": "#33#$034No, the Snitch got away!"
+  },
+  {
+    "id": 781,
+    "en": "#36#$035Potter swipes!"
+  },
+  {
+    "id": 782,
+    "en": "#39#$036Potter's going for it!"
+  },
+  {
+    "id": 783,
+    "en": "#3C#$037He caught the Snitch!"
+  },
+  {
+    "id": 784,
+    "en": "#3F#$038Potter has the Snitch!"
+  },
+  {
+    "id": 785,
+    "en": "#42#$039Good catch! Potter has the Snitch!"
+  },
+  {
+    "id": 786,
+    "en": "#45#$040A perfect catch! Potter brings it home for Gryffindor!"
+  },
+  {
+    "id": 787,
+    "en": "#48#$041He caught it! Maximum points for Gryffindor!"
+  },
+  {
+    "id": 788,
+    "en": "#4B#$042Dodges a speeding Bludger!"
+  },
+  {
+    "id": 789,
+    "en": "#4E#$043Here comes a Bludger!"
+  },
+  {
+    "id": 790,
+    "en": "#51#$044Oooh, that was close!"
+  },
+  {
+    "id": 791,
+    "en": "#54#$045A near miss for Potter!"
+  },
+  {
+    "id": 792,
+    "en": "#57#$046Oooh, that's gotta hurt!"
+  },
+  {
+    "id": 793,
+    "en": "#5A#$047Bludger!"
+  },
+  {
+    "id": 794,
+    "en": "#5D#$048Oh, he'll feel that tomorrow!"
+  },
+  {
+    "id": 795,
+    "en": "#60#$049Potter's under fire from the Bludgers..."
+  },
+  {
+    "id": 796,
+    "en": "#63#$052He can't take much more of that!"
+  },
+  {
+    "id": 797,
+    "en": "#66#$050He's hit! He's going down!"
+  },
+  {
+    "id": 798,
+    "en": "#69#$051Potter's out of control, he's hurt!"
+  },
+  {
+    "id": 799,
+    "en": "#6C#$053Potter's going to crash!"
+  },
+  {
+    "id": 800,
+    "en": "#6F#$054He's had it! He's going in!"
+  },
+  {
+    "id": 801,
+    "en": "#72#$055Potter's out of the game!"
+  },
+  {
+    "id": 802,
+    "en": "#75#$056It's all over for Harry Potter!"
+  },
+  {
+    "id": 803,
+    "en": "#78#$057Hard luck, Potter -- those Bludgers were just too much!"
+  },
+  {
+    "id": 804,
+    "en": "#7B#$058He's endured about as much as he can!"
+  },
+  {
+    "id": 805,
+    "en": "#7E#$059Potter's going back up for another look."
+  },
+  {
+    "id": 806,
+    "en": "#81#$060Potter climbs again!"
+  },
+  {
+    "id": 807,
+    "en": "#84#$061Potter flies back up to search again."
+  },
+  {
+    "id": 808,
+    "en": "#87#$077Ooooh!"
+  },
+  {
+    "id": 809,
+    "en": "#8A#$078Ahhh!"
+  },
+  {
+    "id": 810,
+    "en": "#8D#$079Potters gaining!"
+  },
+  {
+    "id": 811,
+    "en": "#90#$080Look at Potter go!"
+  },
+  {
+    "id": 812,
+    "en": "#93#$081He's getting closer"
+  },
+  {
+    "id": 813,
+    "en": "#96#$095Harry Potter closes in on the Snitch..."
+  },
+  {
+    "id": 814,
+    "en": "#99#$096Potter is so close!!"
+  },
+  {
+    "id": 815,
+    "en": "#9C#$104Wonderful!"
+  },
+  {
+    "id": 816,
+    "en": "#9F#$105Excellent!!"
+  },
+  {
+    "id": 817,
+    "en": "#A2#$106Amazing skill!!"
+  },
+  {
+    "id": 818,
+    "en": "#A5#$107I've not seen such flying!"
+  },
+  {
+    "id": 819,
+    "en": "#A8#$113This is amazing!!!"
+  },
+  {
+    "id": 820,
+    "en": "#AB#$097Come on Potter, don't give up now!"
+  },
+  {
+    "id": 821,
+    "en": "#AE#$102The seekers battle it out..."
+  },
+  {
+    "id": 822,
+    "en": "#B1#$103Who will catch the Snitch?"
+  },
+  {
+    "id": 823,
+    "en": "#B4#$110The seekers are battling for the Snitch"
+  },
+  {
+    "id": 824,
+    "en": "#B7#$111Look at the seekers go!"
+  },
+  {
+    "id": 825,
+    "en": "#BA#$109Noooooo!!!!"
+  },
+  {
+    "id": 826,
+    "en": "#BD#$112Potter is losing control..."
+  },
+  {
+    "id": 827,
+    "en": "#C0#$115Potter falls behind..."
+  },
+  {
+    "id": 828,
+    "en": "#C3#$098Here comes the Gryffindor Seeker!"
+  },
+  {
+    "id": 829,
+    "en": "#C6#$099Here comes the Hufflepuff Seeker!"
+  },
+  {
+    "id": 830,
+    "en": "#C9#$100Here comes the Ravenclaw Seeker!"
+  },
+  {
+    "id": 831,
+    "en": "#CC#$101Here comes the Slytherin Seeker!"
+  },
+  {
+    "id": 832,
+    "en": "#CF#$114Potter takes the lead..."
+  },
+  {
+    "id": 833,
+    "en": "#D2#$108Yeahhh!!!"
+  },
+  {
+    "id": 834,
+    "en": "$031> Grab Snitch"
+  },
+  {
+    "id": 835,
+    "en": "#D5#$001Welcome to Quidditch. I'm your commentator, Lee Jordan!"
+  },
+  {
+    "id": 836,
+    "en": "#D8#$002The Quidditch Pitch has three goals at each end. The Chasers throw the Quaffle and try to put it through the hoops to score."
+  },
+  {
+    "id": 837,
+    "en": "#DB#$003Watch out for the Bludgers. These are charmed balls that can knock you off your broomstick! Two Beaters on each team try to keep them away."
+  },
+  {
+    "id": 838,
+    "en": "#DE#$006For this match against Slytherin, Gryffindor once again relies on our excellent Seeker, Harry Potter!"
+  },
+  {
+    "id": 839,
+    "en": "#E1#$004Gryffindor's team Seeker is Harry Potter. It's his job to find and catch the Golden Snitch."
+  },
+  {
+    "id": 840,
+    "en": "#E4#$005Harry Potter is once again Gryffindor's team Seeker. In the last match he caught the Snitch to win the game."
+  },
+  {
+    "id": 841,
+    "en": "#E7#$007Remember, when the Snitch appears, it releases Speed Rings that will help the Seeker fly faster."
+  },
+  {
+    "id": 842,
+    "en": "$001TRY AGAIN, HARRY!"
+  },
+  {
+    "id": 843,
+    "en": "$001WELL DONE, HARRY!!"
+  },
+  {
+    "id": 844,
+    "en": "$006< Read Notice"
+  },
+  {
+    "id": 845,
+    "en": "#2#$001Go and get yer supplies, Harry."
+  },
+  {
+    "id": 846,
+    "en": "#5#$002I'm going to the pub to meet some old friends."
+  },
+  {
+    "id": 847,
+    "en": "#8#$003I'll meet you back here in a while."
+  },
+  {
+    "id": 848,
+    "en": "$008Diagon Alley"
+  },
+  {
+    "id": 849,
+    "en": "#B#$001Ooh, what a lovely young man you are!"
+  },
+  {
+    "id": 850,
+    "en": "#E#$003Don't milk it, boy. My reservoir of compliments has run dry...now go away!"
+  },
+  {
+    "id": 851,
+    "en": "#11#$001If you\\u00b8ve got all your stuff, we\\u00b8d best be gettin\\u00b8 back ter Hogwarts."
+  },
+  {
+    "id": 852,
+    "en": "#14#$002Gone on holiday -- back next year."
+  },
+  {
+    "id": 853,
+    "en": "#17#$001Due to some faulty cauldrons causing a stir, we are still closed, sorry."
+  },
+  {
+    "id": 854,
+    "en": "#1A#$003We are closed due to daylight robery - back at seven o'cloak."
+  },
+  {
+    "id": 855,
+    "en": "#1D#$004We apologise to our customers for the temporary closure. We are still tidying up after Gilderoy Lockhart's last visit."
+  },
+  {
+    "id": 856,
+    "en": "$001The Magical Menagerie"
+  },
+  {
+    "id": 857,
+    "en": "#21#$005Today is a Goblin Bank Holiday, therefore, we are closed."
+  },
+  {
+    "id": 858,
+    "en": "#24#$006Gone bird-watching in Wales."
+  },
+  {
+    "id": 859,
+    "en": "#27#$007Wandered out for a spell, will return later."
+  },
+  {
+    "id": 860,
+    "en": "$002Apothecary"
+  },
+  {
+    "id": 861,
+    "en": "#2A#$001Nice earmuffs, Potter, did your mum make them for you?"
+  },
+  {
+    "id": 862,
+    "en": "#2D#$002Oh, I am sorry, I forgot..."
+  },
+  {
+    "id": 863,
+    "en": "#30#$004All right, four eyes.  Oh, by the way, I\\u00b8ve left a nice surprise for you in this shop.  Enjoy."
+  },
+  {
+    "id": 864,
+    "en": "#33#$001Harry, I've  found the perfect place to make the $Polyjuice $Potion! Moaning Myrtle's Bathroom in the $Upper $Castle. Come as soon as you have all the ingredients, yours Hermione."
+  },
+  {
+    "id": 865,
+    "en": "#37#$003Malfoy, you\\u00b8re almost as funny as Filch, now get out of my way."
+  },
+  {
+    "id": 866,
+    "en": "#1#$001How can I help you?"
+  },
+  {
+    "id": 867,
+    "en": "#4#$003Can I have some $lacewing $flies, please?"
+  },
+  {
+    "id": 868,
+    "en": "#7#$004I do, indeed, have some $lacewing $flies in stock, but they move too quickly for me to catch."
+  },
+  {
+    "id": 869,
+    "en": "#A#$005They\\u00b8re hiding in one of these boxes.  If you can catch five for me, I\\u00b8ll let you keep them."
+  },
+  {
+    "id": 870,
+    "en": "#D#$006You need to collect all the flies within the time limit."
+  },
+  {
+    "id": 871,
+    "en": "#10#$007Be more careful, you\\u00b8re breaking all my merchandise.  You must start again now."
+  },
+  {
+    "id": 872,
+    "en": "#13#$001You've run out of time."
+  },
+  {
+    "id": 873,
+    "en": "#16#$002Try and be quicker."
+  },
+  {
+    "id": 874,
+    "en": "#1A#$001Well done, you've collected all the flies. I certainly won't be missing them.  Now, buzz off..."
+  },
+  {
+    "id": 875,
+    "en": "#1F#$001Welcome to the $Magical $Menagerie."
+  },
+  {
+    "id": 876,
+    "en": "#22#$003Is this better?"
+  },
+  {
+    "id": 877,
+    "en": "#26#$002It doesn't look very Christmassy in here, does it?"
+  },
+  {
+    "id": 878,
+    "en": "#3#$001Please help me! Somebody\\u00b8s released a gang of Pixies in my shop and they\\u00b8re wrecking the place!"
+  },
+  {
+    "id": 879,
+    "en": "#6#$002I'll give you anything you need, if you can stop them before they destroy my shop."
+  },
+  {
+    "id": 880,
+    "en": "#9#$001Thank you so much.  How can I repay you?"
+  },
+  {
+    "id": 881,
+    "en": "#C#$001You\\u00b8ll have to be quicker, try again."
+  },
+  {
+    "id": 882,
+    "en": "#10#$002Have you got any leeches?"
+  },
+  {
+    "id": 883,
+    "en": "#13#$003There you are - and thanks again for your help."
+  },
+  {
+    "id": 884,
+    "en": "$018< Use Lever"
+  },
+  {
+    "id": 885,
+    "en": "$038< Drink Potion"
+  },
+  {
+    "id": 886,
+    "en": "#3#$013Montague Knightley"
+  },
+  {
+    "id": 887,
+    "en": "#9#$001Why It's Mr. Potter! I remember you from last year!"
+  },
+  {
+    "id": 888,
+    "en": "#C#$002If you want to get to the floor above, come on through Mr. Potter!"
+  },
+  {
+    "id": 889,
+    "en": "$002Keep Out!"
+  },
+  {
+    "id": 890,
+    "en": "#10#$001I'm warning you! Don't come through here! Go away!"
+  },
+  {
+    "id": 891,
+    "en": "#13#$002I hope you haven't pulled that lever young man!"
+  },
+  {
+    "id": 892,
+    "en": "#0#$002Harry Potter mustn't stay at Hogwarts"
+  },
+  {
+    "id": 893,
+    "en": "$012To East Wing"
+  },
+  {
+    "id": 894,
+    "en": "$005Upper Hogwarts"
+  },
+  {
+    "id": 895,
+    "en": "$007Out Of Bounds"
+  },
+  {
+    "id": 896,
+    "en": "$010To Dungeons"
+  },
+  {
+    "id": 897,
+    "en": "$002Dungeons"
+  },
+  {
+    "id": 898,
+    "en": "$004Prof. Lockhart's Office"
+  },
+  {
+    "id": 899,
+    "en": "$006Gryffindor Common Room"
+  },
+  {
+    "id": 900,
+    "en": "#4#$001Password?"
+  },
+  {
+    "id": 901,
+    "en": "#7#$001Wattlebird!"
+  },
+  {
+    "id": 902,
+    "en": "$021Great Hall"
+  },
+  {
+    "id": 903,
+    "en": "$009Grounds Front"
+  },
+  {
+    "id": 904,
+    "en": "$019Library"
+  },
+  {
+    "id": 905,
+    "en": "#A#$002Brilliant! What an entrance!"
+  },
+  {
+    "id": 906,
+    "en": "#D#$001Flying a car right into the Whomping Willow, people'll be talking about that one for years!"
+  },
+  {
+    "id": 907,
+    "en": "#10#$004Er...Thanks guys!"
+  },
+  {
+    "id": 908,
+    "en": "#13#$001We\\u00b8d better get to the Common Room before Snape sees us."
+  },
+  {
+    "id": 909,
+    "en": "#16#$002Look, there's Lockhart's office. I'm surprised he can get his big head through the door!"
+  },
+  {
+    "id": 910,
+    "en": "#19#$004Come on, Harry, you don't want to be late."
+  },
+  {
+    "id": 911,
+    "en": "#1C#$006At my party there's maggoty haggis, furry green cheese and a tombstone cake! Delicious, eh?"
+  },
+  {
+    "id": 912,
+    "en": "#1F#$007This way, Harry!"
+  },
+  {
+    "id": 913,
+    "en": "#22#$005I have a special Deathday speech prepared!"
+  },
+  {
+    "id": 914,
+    "en": "#25#$008I really do think that this will be a Deathday to remember!"
+  },
+  {
+    "id": 915,
+    "en": "#28#$010Wow, Harry Potter.  It's really you!"
+  },
+  {
+    "id": 916,
+    "en": "#2B#$002I'm Colin Creevey."
+  },
+  {
+    "id": 917,
+    "en": "#2E#$002I'm in Gryffindor, too. Would it be all right if I took your picture?"
+  },
+  {
+    "id": 918,
+    "en": "#31#$003Everyone told me about how you survived when You Know Who tried to kill you."
+  },
+  {
+    "id": 919,
+    "en": "#34#$004And you really do have that lightning scar on your forehead!"
+  },
+  {
+    "id": 920,
+    "en": "#37#$002It's brilliant here, isn't it!"
+  },
+  {
+    "id": 921,
+    "en": "$014To Rear Hall"
+  },
+  {
+    "id": 922,
+    "en": "$013To Prof. Lockhart's Office"
+  },
+  {
+    "id": 923,
+    "en": "$016Front Hall"
+  },
+  {
+    "id": 924,
+    "en": "$015To Front Hall"
+  },
+  {
+    "id": 925,
+    "en": "#3A#$001Can you believe our luck? Fred and George must've flown that car five or six times and they never had an accident! I really thought we\\u00b8d get expelled for sure."
+  },
+  {
+    "id": 926,
+    "en": "#3D#$003No Problem. Follow me."
+  },
+  {
+    "id": 927,
+    "en": "#40#$002Come on, Ron, let's go to the Gryffindor Common Room. Do you think you can remember the way?"
+  },
+  {
+    "id": 928,
+    "en": "#43#$001To get to the greenhouses we need to go outside."
+  },
+  {
+    "id": 929,
+    "en": "#46#$003Don't remind me!"
+  },
+  {
+    "id": 930,
+    "en": "#49#$002If we\\u00b8re going outside, let's keep away from the Whomping Willow."
+  },
+  {
+    "id": 931,
+    "en": "$022Lower Hogwarts Castle"
+  },
+  {
+    "id": 932,
+    "en": "#4D#$001Wasn't that Nearly Headless Nick, the Gryffindor House Ghost?"
+  },
+  {
+    "id": 933,
+    "en": "#50#$002Yes, Colin, it was..."
+  },
+  {
+    "id": 934,
+    "en": "#53#$001Guess what, Harry - Hermione's in the Hospital Wing. The Polyjuice Potion turned her into a cat - seems like the hair from Millicent wasn't from her at all."
+  },
+  {
+    "id": 935,
+    "en": "#56#$002I hope Madam Pomfrey doesn't ask her too many questions.  Anyway, I suppose I should be going to the private lesson with Lockhart..."
+  },
+  {
+    "id": 936,
+    "en": "#59#$001Harry, have you heard, Malfoy's in the great hall and he's challenging everybody to a duel."
+  },
+  {
+    "id": 937,
+    "en": "#5C#$003Why don't you go in and duel with him, Harry, I hear you're pretty good."
+  },
+  {
+    "id": 938,
+    "en": "#5F#$002Yeah, and no one's beaten him yet."
+  },
+  {
+    "id": 939,
+    "en": "#62#$004Go on, Harry, I'm sure you can beat him, it'll be great to wipe that smile off his slimy Slytherin face!"
+  },
+  {
+    "id": 940,
+    "en": "#15#$001Looks like this year they\\u00b8re awarding $House $Cups for excellence in $Herbology and $Defence $Against $the $Dark $Arts. It would be great if $Gryffindor won them!"
+  },
+  {
+    "id": 941,
+    "en": "#18#$003I forgot how much I missed her. C'mon Harry."
+  },
+  {
+    "id": 942,
+    "en": "#1B#$002C'mon on you two, $Herbology's about to start. You don't want be late for that too."
+  },
+  {
+    "id": 943,
+    "en": "#1E#$004Wow! The $Gryffindor $Common $Room! I'm going to take some pictures to send home to my dad."
+  },
+  {
+    "id": 944,
+    "en": "#21#$005Have a look at my photo album, Harry, it's on the table. My photos aren't like ordinary photographs - my photos are magic!"
+  },
+  {
+    "id": 945,
+    "en": "#24#$001Have you heard about the secret $Founder $Duels yet?"
+  },
+  {
+    "id": 946,
+    "en": "#27#$004No one we know has ever managed to beat all the founder duellists and enter the Founders' Tower.  We'd really like to know what's inside."
+  },
+  {
+    "id": 947,
+    "en": "#2A#$006To open up each of the duels you'll need to have a certain number of $Famous $Witches $and  $Wizards $cards."
+  },
+  {
+    "id": 948,
+    "en": "#2D#$008It\\u00b8s a good deal - give us $Fifty $Bertie $Bott's $Every $Flavour $Beans and we'll give you a $Famous $Witches $and $Wizards $card in return."
+  },
+  {
+    "id": 949,
+    "en": "#30#$009Give us $Fifty $Bertie $Bott's $Every $Flavour $Beans and we'll give you a $Famous $Witches $and $Wizard $card in return."
+  },
+  {
+    "id": 950,
+    "en": "#33#$002Behind us is a statue.  You can use it to find the entrances to the secret $Founder $Duels."
+  },
+  {
+    "id": 951,
+    "en": "#36#$003Defeat each founder house duellist to win a Hogwarts $Founder $Famous $Witches $and $Wizards $card.  Collect them all and you can enter the special Founders' Tower."
+  },
+  {
+    "id": 952,
+    "en": "#39#$005That's where you come in, Harry.  We think you have the potential to defeat every duellist and win all the $Founders\\u00b8 $Wizard $cards."
+  },
+  {
+    "id": 953,
+    "en": "#3C#$007Everyone knows that finding $Famous $Witches $and $Wizards $cards can be very difficult.  So we're willing to sell you five of them, Harry."
+  },
+  {
+    "id": 954,
+    "en": "#3F#$004We made it!"
+  },
+  {
+    "id": 955,
+    "en": "#42#$001Did you know that if you eat a $Chocolate $Frog you get back stamina?"
+  },
+  {
+    "id": 956,
+    "en": "#45#$002Yes, Colin, I do..."
+  },
+  {
+    "id": 957,
+    "en": "#48#$002Brilliant! You have 50 $Every $Flavour $Beans!  Have a $Famous $Witches $and $Wizards $card."
+  },
+  {
+    "id": 958,
+    "en": "#4B#$001Sorry Harry, but If you want a $Famous $Witches $and $Wizards $card you'll have to give us $50 $Every $Flavour $Beans."
+  },
+  {
+    "id": 959,
+    "en": "#4E#$003Sorry Harry, but if you want more $Famous $Witches $and $Wizards $cards then you'll have to find them hidden around $Hogwarts!"
+  },
+  {
+    "id": 960,
+    "en": "#8#$007Meanwhile, the house point hourglasses are slowly filling up..."
+  },
+  {
+    "id": 961,
+    "en": "#B#$002Ravenclaw"
+  },
+  {
+    "id": 962,
+    "en": "#E#$003Hufflepuff"
+  },
+  {
+    "id": 963,
+    "en": "#11#$001Slytherin"
+  },
+  {
+    "id": 964,
+    "en": "#14#$004Gryffindor"
+  },
+  {
+    "id": 965,
+    "en": "#17#$005Slytherin are in the lead on house points!"
+  },
+  {
+    "id": 966,
+    "en": "#1A#$006Gryffindor are in the lead on house points!"
+  },
+  {
+    "id": 967,
+    "en": "#1D#$008The race for the House Cup continues..."
+  },
+  {
+    "id": 968,
+    "en": "#20#$010The race for the House Cup is heating up."
+  },
+  {
+    "id": 969,
+    "en": "#23#$011Finally, let's see who will win this year's House Cup!"
+  },
+  {
+    "id": 970,
+    "en": "#0#$004His eyes are as green as a fresh pickled toad, his hair is as dark as a blackboard. I wish he was mine, he's really divine, the hero who conquered the Dark Lord."
+  },
+  {
+    "id": 971,
+    "en": "#5#$001Happy Valentine's Day, Harry!"
+  },
+  {
+    "id": 972,
+    "en": "#8#$001How many cards have you received? So far, I\\u00b8ve only received forty-six - but the day is still young."
+  },
+  {
+    "id": 973,
+    "en": "#B#$003I have arranged a little surprise for you and the rest of the students at Hogwarts."
+  },
+  {
+    "id": 974,
+    "en": "#E#$004My friendly, card-carrying cupids!"
+  },
+  {
+    "id": 975,
+    "en": "#11#$005Oy, you! 'Arry Potter! Stay there! I've got a musical message to deliver to yer..."
+  },
+  {
+    "id": 976,
+    "en": "#16#$001Valentines cards, urgh...  Keep away from me."
+  },
+  {
+    "id": 977,
+    "en": "#0#$005Incendio"
+  },
+  {
+    "id": 978,
+    "en": "#A#$002Errr... Pig Snout... Caput Draconis..."
+  },
+  {
+    "id": 979,
+    "en": "#D#$003I'm sorry, but that is not the password."
+  },
+  {
+    "id": 980,
+    "en": "#10#$005Ron, you wait here to see if another Gryffindor passes by. I'll find Hermione, she'll know the password."
+  },
+  {
+    "id": 981,
+    "en": "#13#$001Ah, there you are, Harry! Hermione and Ron are already at my Deathday party."
+  },
+  {
+    "id": 982,
+    "en": "#16#$002Come on, Harry, you don't want to be late!"
+  },
+  {
+    "id": 983,
+    "en": "#19#$003I'll see you in the dungeons. Be quick, you don't want to miss the celebrations."
+  },
+  {
+    "id": 984,
+    "en": "#1F#$001C'mon, $Herbology's in one of the greenhouses outside, let's go!"
+  },
+  {
+    "id": 985,
+    "en": "$018East Wing"
+  },
+  {
+    "id": 986,
+    "en": "#22#$008Do we have to?"
+  },
+  {
+    "id": 987,
+    "en": "#25#$010Well he seems to think so..."
+  },
+  {
+    "id": 988,
+    "en": "#28#$001How are you feeling, Ron?"
+  },
+  {
+    "id": 989,
+    "en": "#2B#$002I never want to see another slug as long as I live.  Next time I'll get Malfoy for sure. How can he call Hermione a Mudblood?"
+  },
+  {
+    "id": 990,
+    "en": "#2E#$004Yeah, but that word\\u00b8s the most insulting thing he could think of. Mudblood is a really unpleasant name for someone whose parents are non-magical. There are some wizards who think they are better then everyone else because they're pure-blood."
+  },
+  {
+    "id": 991,
+    "en": "#31#$006Yuck... I can still taste the slugs. I think I need to go and brush my teeth again..."
+  },
+  {
+    "id": 992,
+    "en": "#34#$003Ron, it's only a word."
+  },
+  {
+    "id": 993,
+    "en": "#37#$005Thanks for defending me, Ron - especially with the way your wand has been behaving."
+  },
+  {
+    "id": 994,
+    "en": "#3A#$007Gosh!  Look at the time - we better get to Professor Lockhart's Defence Against the Dark Arts class"
+  },
+  {
+    "id": 995,
+    "en": "#3D#$009Really, Harry. I don\\u00b8t know what you\\u00b8ve got against Professor Lockhart \\u00b5 he\\u00b8s a fantastic teacher!"
+  },
+  {
+    "id": 996,
+    "en": "#40#$018Defence Against the Dark Arts can be found in the Upper Castle. I'll show you the way Harry."
+  },
+  {
+    "id": 997,
+    "en": "#43#$001Hello there.  I wonder if you boys could do me a favour?"
+  },
+  {
+    "id": 998,
+    "en": "#46#$003It's nearly Halloween and my pumpkin patch has been overrun with gnomes.  Can you help me ter get rid o'them?"
+  },
+  {
+    "id": 999,
+    "en": "#49#$008$Leeches - ugh \\u00b5 nasty creatures!  But if you're after some $boomslang $skin, I've got some in me hut.  Need this stuff for homework do you?"
+  },
+  {
+    "id": 1000,
+    "en": "#4C#$010All right, then, Harry, I'll make a deal with yeh \\u00b5 get rid of them gnomes in me pumpkin patch an\\u00b8 I\\u00b8ll give yeh some $boomslang $skin."
+  },
+  {
+    "id": 1001,
+    "en": "#4F#$002Of course, Hagrid."
+  },
+  {
+    "id": 1002,
+    "en": "#52#$004I\\u00b8ll help, Hagrid \\u00b5 but I think Ron has some things he needs to do."
+  },
+  {
+    "id": 1003,
+    "en": "#55#$006Like getting some $knotgrass and $fluxweed?"
+  },
+  {
+    "id": 1004,
+    "en": "#58#$011Okay, Hagrid \\u00b5 it\\u00b8s a deal."
+  },
+  {
+    "id": 1005,
+    "en": "#5B#$005I do?"
+  },
+  {
+    "id": 1006,
+    "en": "#5E#$007Oh, yeah! Just make sure that you don\\u00b8t forget the $boomslang $skin, $lacewings and $leeches"
+  },
+  {
+    "id": 1007,
+    "en": "#61#$009ER, yes, that's right - homework, for - Potions..."
+  },
+  {
+    "id": 1008,
+    "en": "#64#$001Harry! Crabbe, Goyle and Malfoy are in the $Great $Hall. They\\u00b8ve enrolled in the $Duelling $Club. I wonder who\\u00b8ll  be teaching it?"
+  },
+  {
+    "id": 1009,
+    "en": "#67#$002Let's hope it's not $Lockhart. I've had enough of him for one day."
+  },
+  {
+    "id": 1010,
+    "en": "#6A#$001Harry, we really need to get into the Common Room."
+  },
+  {
+    "id": 1011,
+    "en": "#72#$004Oh no! We don't know the Password for the Fat Lady\\u00b8s portrait, now we won't be able to get in."
+  },
+  {
+    "id": 1012,
+    "en": "#0#$008Crispin Cronk"
+  },
+  {
+    "id": 1013,
+    "en": "#3#$004Verdimillious"
+  },
+  {
+    "id": 1014,
+    "en": "$001Warning! Keep Out! Dangerous Creatures Inside!"
+  },
+  {
+    "id": 1015,
+    "en": "$002Gilderoy Lockhart's Office."
+  },
+  {
+    "id": 1016,
+    "en": "$003Defence Against Dark Art's Store Room"
+  },
+  {
+    "id": 1017,
+    "en": "$004Lower Castle"
+  },
+  {
+    "id": 1018,
+    "en": "#8#$019Are you ready?"
+  },
+  {
+    "id": 1019,
+    "en": "#B#$003Splendid!"
+  },
+  {
+    "id": 1020,
+    "en": "#E#$004Perfection!"
+  },
+  {
+    "id": 1021,
+    "en": "#11#$007Very stylish - just like me!"
+  },
+  {
+    "id": 1022,
+    "en": "#14#$001Dear, dear..."
+  },
+  {
+    "id": 1023,
+    "en": "#17#$002Oh, dear..."
+  },
+  {
+    "id": 1024,
+    "en": "#1A#$009Oh, no..."
+  },
+  {
+    "id": 1025,
+    "en": "#1D#$001Ah, Harry, you finally made it. Terrible news about young Mr. Creevey being petrified, not to mention poor Mrs. Norris."
+  },
+  {
+    "id": 1026,
+    "en": "#20#$002No need to worry, though - as your Defence Against the Dark Arts teacher, I'll save the day!"
+  },
+  {
+    "id": 1027,
+    "en": "#23#$004Watch my expensive wand as it moves and press the symbols it points to!"
+  },
+  {
+    "id": 1028,
+    "en": "#26#$006Do this three times and you will learn $Verdimillious $Duo!"
+  },
+  {
+    "id": 1029,
+    "en": "#29#$004That's the easy one.  Ready now?"
+  },
+  {
+    "id": 1030,
+    "en": "#2C#$004One more to go, get ready."
+  },
+  {
+    "id": 1031,
+    "en": "#2F#$004That's the last repetition."
+  },
+  {
+    "id": 1032,
+    "en": "#32#$012You\\u00b8ve earned a passable grade. Well done."
+  },
+  {
+    "id": 1033,
+    "en": "#35#$012If you come back later you can try for a better grade and earn a special prize!"
+  },
+  {
+    "id": 1034,
+    "en": "#38#$012You earned a grade $A. Congratulations!"
+  },
+  {
+    "id": 1035,
+    "en": "#3B#$012Excellent \\u00b5 quite excellent!. And so, to business..."
+  },
+  {
+    "id": 1036,
+    "en": "#3E#$004Come to try the $Petrificus $Totalus! spell again? You should do better this time."
+  },
+  {
+    "id": 1037,
+    "en": "#41#$004Would you like to make improvements to your current grade, Harry?"
+  },
+  {
+    "id": 1038,
+    "en": "#44#$004Would you like to try again, Harry?"
+  },
+  {
+    "id": 1039,
+    "en": "#47#$012That\\u00b8s all there is to it, Potter!  Well done!"
+  },
+  {
+    "id": 1040,
+    "en": "#4A#$003Nearly Headless Nick! Oh no!"
+  },
+  {
+    "id": 1041,
+    "en": "#4D#$001Time to put the spell you've learned to practical use..."
+  },
+  {
+    "id": 1042,
+    "en": "#50#$002Now, Harry, hold down the > button to cast a fully-charged $Verdimillious $Duo spell."
+  },
+  {
+    "id": 1043,
+    "en": "#53#$003Once cast, the spell will show you objects hidden by dark magic. Use what you find to leave the room!"
+  },
+  {
+    "id": 1044,
+    "en": "#56#$001Excellent, Harry! I knew you would do it! I'll have to watch myself in a few years time, or you\\u00b8ll be stealing my job!"
+  },
+  {
+    "id": 1045,
+    "en": "#59#$002Now, run along; tomorrow is Valentine\\u00b8s Day and I have something very special planned."
+  },
+  {
+    "id": 1046,
+    "en": "#5C#$001Oh...Mr. Potter... I'm rather busy at the moment."
+  },
+  {
+    "id": 1047,
+    "en": "#5F#$003Ah...well...O.K...If you're sure?"
+  },
+  {
+    "id": 1048,
+    "en": "#62#$002Professor, I have some information for you, I think Moaning Myrtle was the girl who was killed by the monster fifty years ago, she may know where the entrance to the $Chamber $of $Secrets is!"
+  },
+  {
+    "id": 1049,
+    "en": "#66#$001Strange, why is the door locked?  I'd better find another way around."
+  },
+  {
+    "id": 1050,
+    "en": "$017Rear Hall"
+  },
+  {
+    "id": 1051,
+    "en": "#2#$001Harry, I can't believe that you and Ron are so irresponsible! You could have been killed, or worse - expelled!"
+  },
+  {
+    "id": 1052,
+    "en": "#5#$002The password for the Fat Lady is 'Wattlebird'. Of course you would have known this if you\\u00b8d managed to get to school on time!"
+  },
+  {
+    "id": 1053,
+    "en": "#8#$001Harry, don't forget to keep checking your report card."
+  },
+  {
+    "id": 1054,
+    "en": "#B#$003If I were you, I'd go to the Common Room before Snape sees you."
+  },
+  {
+    "id": 1055,
+    "en": "#E#$001Hello there young Harry Potter! What a fine day!"
+  },
+  {
+    "id": 1056,
+    "en": "#11#$002You look happy, Nick."
+  },
+  {
+    "id": 1057,
+    "en": "#14#$003That I am, Harry! I sent a letter today to Sir Patrick Delaney-Podmore. It's my application to join the Headless Hunt."
+  },
+  {
+    "id": 1058,
+    "en": "#17#$004In fact, as I was telling your friend Hermione Granger, joining the Headless Hunt has been a dream of mine for some time."
+  },
+  {
+    "id": 1059,
+    "en": "#1A#$005Is Hermione here?"
+  },
+  {
+    "id": 1060,
+    "en": "#1D#$006Of course! Be careful though, there are some rather mischievous books around. Use your Knockback Jinx to put them in their place!"
+  },
+  {
+    "id": 1061,
+    "en": "$006Been to Common Room"
+  },
+  {
+    "id": 1062,
+    "en": "$005Complete Parseltongue1"
+  },
+  {
+    "id": 1063,
+    "en": "#20#$006I think you might be right \\u00b5 and if he is, I know a way we can prove it \\u00b5 Polyjuice Potion."
+  },
+  {
+    "id": 1064,
+    "en": "#23#$010Polyjuice Potion can transform a person into someone else \\u00b5 even a Slytherin. We could trick Malfoy into admitting he\\u00b8s the heir."
+  },
+  {
+    "id": 1065,
+    "en": "#26#$010To make the $Polyjuice $Potion we\\u00b8ll need several ingredients - $lacewing flies, $leeches, $fluxweed, $knotgrass, $horn $of $bicorn and $shredded $boomslang."
+  },
+  {
+    "id": 1066,
+    "en": "#29#$014And I'll get the $horn $of $bicorn. You two had better get to Potions class. When I've found a place to prepare the Polyjuice Potion, I'll send $Hedwig."
+  },
+  {
+    "id": 1067,
+    "en": "#2C#$011Just look at the time! You two had better get to Potions class. I'm going to find a cauldron. Meet me back here after the lesson."
+  },
+  {
+    "id": 1068,
+    "en": "#2F#$001I\\u00b8m sure that Draco Malfoy\\u00b8s the Heir of Slytherin."
+  },
+  {
+    "id": 1069,
+    "en": "#32#$007Poly-what?"
+  },
+  {
+    "id": 1070,
+    "en": "#35#$012Okay, I'll get the $knotgrass and $fluxweed. Harry, you can get the $leeches, $lacewing $flies and $shredded $boomslang."
+  },
+  {
+    "id": 1071,
+    "en": "$001Not Used"
+  },
+  {
+    "id": 1072,
+    "en": "$002Not Used"
+  },
+  {
+    "id": 1073,
+    "en": "$003Not Used"
+  },
+  {
+    "id": 1074,
+    "en": "#38#$002Let me see If I can open it for you, Hermione."
+  },
+  {
+    "id": 1075,
+    "en": "#3B#$003Open!"
+  },
+  {
+    "id": 1076,
+    "en": "#0#$001Come, come to me."
+  },
+  {
+    "id": 1077,
+    "en": "#3#$002Let me kill you."
+  },
+  {
+    "id": 1078,
+    "en": "#6#$003Let me rip you."
+  },
+  {
+    "id": 1079,
+    "en": "#9#$004Let me tear you..."
+  }
+]

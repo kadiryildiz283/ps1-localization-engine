@@ -1,0 +1,926 @@
+[
+  {
+    "id": 0,
+    "en": "$001Go to Diagon Alley",
+    "fr": "$001Aller au Chemin de Traverse",
+    "de": "$001Gehe zur Winkelgasse",
+    "tr": "$001Diagon Yolu'na git"
+  },
+  {
+    "id": 1,
+    "en": "$002Get to Hogwarts on time",
+    "fr": "$002Arriver à Poudlard à l'heure",
+    "de": "$002Erreiche Hogwarts rechtzeitig",
+    "tr": "$002Hogwarts'a vaktinde ulaş"
+  },
+  {
+    "id": 2,
+    "en": "$003Get to Fat lady",
+    "fr": "$003Aller dans la salle commune",
+    "de": "$003Geh zum Gemeinschaftsraum",
+    "tr": "$003Şişman Hanım'a git"
+  },
+  {
+    "id": 3,
+    "en": "$004Learn password to enter Common Room",
+    "fr": "$004Apprendre le mot de passe pour entrer dans la salle commune",
+    "de": "$004Lerne das Passwort für den Gemeinschaftsraum",
+    "tr": "$004Ortak Oda'ya girmek için parolayı öğren"
+  },
+  {
+    "id": 4,
+    "en": "$005Get to Greenhouse three to learn Herbology",
+    "fr": "$005Aller à la serre numéro trois pour apprendre la botanique",
+    "de": "$005Gehe zu Gewächshaus Drei für den Kräuterkunde-Unterricht.",
+    "tr": "$005Bitkibilim dersi için Üç Numaralı Sera'ya git"
+  },
+  {
+    "id": 5,
+    "en": "$006Meet Oliver Wood for Quidditch Training",
+    "fr": "$006Voir Olivier Dubois pour l'entra\\u00a8nement de Quidditch",
+    "de": "$006Treffe dich mit Oliver Wood zum Quidditch-Training.",
+    "tr": "$006Quidditch Antrenmanı için Oliver Wood ile buluş"
+  },
+  {
+    "id": 6,
+    "en": "$007Duel Ron",
+    "fr": "$007Faire un duel contre Ron",
+    "de": "$007Duell mit Ron",
+    "tr": "$007Ron ile düello yap"
+  },
+  {
+    "id": 7,
+    "en": "$008Don't lose Ron!",
+    "fr": "$008Ne pas perdre Ron !",
+    "de": "$008Bleib an Ron dran!",
+    "tr": "$008Ron'u gözden kaybetme!"
+  },
+  {
+    "id": 8,
+    "en": "$009Catch slugs in the bowl and empty them in the barrel",
+    "fr": "$009Mettre les limaces dans l'écuelle et les vider dans le tonneau",
+    "de": "$009Sammle Schnecken in dem Napf und leere sie in das Fass. ",
+    "tr": "$009Sümüklüböcekleri kasede yakala ve fıçıya boşalt"
+  },
+  {
+    "id": 9,
+    "en": "$010Get to the Defence Against the Dark Arts class room in the Upper Castle",
+    "fr": "$010Aller au cours de défense contre les Forces du Mal à l'Etage interdit",
+    "de": "$010Gehe zum Klassenzimmer für Verteidigung gegen die dunklen Künste im Oberschloss.",
+    "tr": "$010Yukarı Şato'daki Karanlık Sanatlara Karşı Savunma sınıfına git"
+  },
+  {
+    "id": 10,
+    "en": "$011Catch all the Pixies",
+    "fr": "$011Attraper tous les lutins",
+    "de": "$011Fang alle Wichtel.",
+    "tr": "$011Bütün cin perilerini yakala"
+  },
+  {
+    "id": 11,
+    "en": "$012Get to Nearly Headless Nick's Deathday Party in the Dungeons",
+    "fr": "$012Aller à l'anniversaire de mort de Nick Quasi-Sans-T\\u00a4te dans les cachots",
+    "de": "$012Gehe zur Todestagsfeier des Fast Kopflosen Nick in den Kerkern.",
+    "tr": "$012Zindanlar'daki Neredeyse Kafasız Nick'in Ölüm Günü Partisi'ne git"
+  },
+  {
+    "id": 12,
+    "en": "$013Collect lacewing flies, boomslang skin and leeches for Polyjuice Potion",
+    "fr": "$013Récupérer des chrysopes, de la peau de serpent d'arbre et des sangsues pour le Polynectar",
+    "de": "$013Sammle Florfliegen, Baumschlangenhaut und Blutegel für den Vielsaft-Trank.",
+    "tr": "$013Çoközlü İksir için dantelkanat sinekleri, ağaçyılanı derisi ve sülük topla"
+  },
+  {
+    "id": 13,
+    "en": "$014Take ingredients to Hermione in the  Upper Castle Girls' Bathroom.",
+    "fr": "$014Apporter les ingrédients à Hermione dans les toilettes des filles à l'Etage interdit.",
+    "de": "$014Bringe Hermine die Zutaten ins Mädchenklo im Oberschloss.",
+    "tr": "$014Malzemeleri Yukarı Şato Kızlar Tuvaleti'ndeki Hermione'ye götür."
+  },
+  {
+    "id": 14,
+    "en": "$015Find entrance to Slytherin Common room",
+    "fr": "$015Trouver l'entrée de la salle commune de Serpentard",
+    "de": "$015Suche den Eingang zum Gemeinschaftsraum der Slytherins.",
+    "tr": "$015Slytherin Ortak Odası'nın girişini bul"
+  },
+  {
+    "id": 15,
+    "en": "$016Get to Gilderoy Lockharts' Office in the Lower Castle",
+    "fr": "$016Aller dans le bureau de Gilderoy Lockhart au rez-de-chaussée",
+    "de": "$016Gehe zum Büro von Gilderoy Lockhart im Unterschloss.",
+    "tr": "$016Aşağı Şato'daki Gilderoy Lockhart'ın Odası'na git"
+  },
+  {
+    "id": 16,
+    "en": "$001Paracelsus",
+    "fr": "$001Paracelse",
+    "de": "$001Paracelsus",
+    "tr": "$001Paracelsus"
+  },
+  {
+    "id": 17,
+    "en": "$002Gaspard Shingleton",
+    "fr": "$002Gaspard Shingleton",
+    "de": "$002Gaspard Shingleton",
+    "tr": "$002Gaspard Shingleton"
+  },
+  {
+    "id": 18,
+    "en": "$003Ignatia Wildsmith",
+    "fr": "$003Ignatia Wildsmith",
+    "de": "$003Ignatia Wildsmith",
+    "tr": "$003Ignatia Wildsmith"
+  },
+  {
+    "id": 19,
+    "en": "$004Felix Summerbee",
+    "fr": "$004Félix Labeille",
+    "de": "$004Felix Summerbee",
+    "tr": "$004Felix Summerbee"
+  },
+  {
+    "id": 20,
+    "en": "$005Greta Catchlove",
+    "fr": "$005Greta Grandamour",
+    "de": "$005Greta Catchlove",
+    "tr": "$005Greta Catchlove"
+  },
+  {
+    "id": 21,
+    "en": "$006Jocunda Sykes",
+    "fr": "$006Jocunda Sykes",
+    "de": "$006Jocunda Sykes",
+    "tr": "$006Jocunda Sykes"
+  },
+  {
+    "id": 22,
+    "en": "$007Dorcas Wellbeloved",
+    "fr": "$007Dorcas Bienaimée",
+    "de": "$007Dorcas Wellbeloved",
+    "tr": "$007Dorcas Wellbeloved"
+  },
+  {
+    "id": 23,
+    "en": "$008Crispin Cronk",
+    "fr": "$008Crispin Cronk",
+    "de": "$008Crispin Cronk",
+    "tr": "$008Crispin Cronk"
+  },
+  {
+    "id": 24,
+    "en": "$009Yardley Platt",
+    "fr": "$009Yardley Platt",
+    "de": "$009Yardley Platt",
+    "tr": "$009Yardley Platt"
+  },
+  {
+    "id": 25,
+    "en": "$010Edgar Stroulger",
+    "fr": "$010Edgar Stroulger",
+    "de": "$010Edgar Stroulger",
+    "tr": "$010Edgar Stroulger"
+  },
+  {
+    "id": 26,
+    "en": "$011Adalbert Waffling",
+    "fr": "$011Adalbert Lasornette",
+    "de": "$011Adalbert Schwahfel",
+    "tr": "$011Adalbert Waffling"
+  },
+  {
+    "id": 27,
+    "en": "$012Cassandra Vablatsky",
+    "fr": "$012Cassandra Vablatsky",
+    "de": "$012Cassandra Wablatschky",
+    "tr": "$012Cassandra Vablatsky"
+  },
+  {
+    "id": 28,
+    "en": "$013Montague Knightley",
+    "fr": "$013Montague Knightley",
+    "de": "$013Montague Knightley",
+    "tr": "$013Montague Knightley"
+  },
+  {
+    "id": 29,
+    "en": "$014Chauncey Oldridge",
+    "fr": "$014Chauncey Oldridge",
+    "de": "$014Chauncey Oldridge",
+    "tr": "$014Chauncey Oldridge"
+  },
+  {
+    "id": 30,
+    "en": "$015Godric Gryffindor",
+    "fr": "$015Godric Gryffondor",
+    "de": "$015Godric Gryffindor",
+    "tr": "$015Godric Gryffindor"
+  },
+  {
+    "id": 31,
+    "en": "$016Salazar Slytherin",
+    "fr": "$016Salazar Serpentard",
+    "de": "$016Salazar Slytherin",
+    "tr": "$016Salazar Slytherin"
+  },
+  {
+    "id": 32,
+    "en": "$017Rowena Ravenclaw",
+    "fr": "$017Rowena Serdaigle",
+    "de": "$017Rowena Ravenclaw",
+    "tr": "$017Rowena Ravenclaw"
+  },
+  {
+    "id": 33,
+    "en": "$018Helga Hufflepuff",
+    "fr": "$018Helga Poufsouffle",
+    "de": "$018Helga Hufflepuff",
+    "tr": "$018Helga Hufflepuff"
+  },
+  {
+    "id": 34,
+    "en": "$019Hengist of Woodcroft",
+    "fr": "$019Hengist de Woodcroft",
+    "de": "$019Hengis von Woodcroft",
+    "tr": "$019Woodcroft'lu Hengist"
+  },
+  {
+    "id": 35,
+    "en": "$020Daisy Dodderidge",
+    "fr": "$020Marguerite Dodderidge",
+    "de": "$020Daisy Dodderidge",
+    "tr": "$020Daisy Dodderidge"
+  },
+  {
+    "id": 36,
+    "en": "$021Celestina Warbeck",
+    "fr": "$021Célestina Moldubec",
+    "de": "$021Celestina Warbeck",
+    "tr": "$021Celestina Warbeck"
+  },
+  {
+    "id": 37,
+    "en": "$022Cyprian Youdle",
+    "fr": "$022Cyprien Youdle",
+    "de": "$022Cyprian Youdle",
+    "tr": "$022Cyprian Youdle"
+  },
+  {
+    "id": 38,
+    "en": "$023Herpo the Foul",
+    "fr": "$023Herpo le Fou",
+    "de": "$023Herpo der \\u0098ble",
+    "tr": "$023Hain Herpo"
+  },
+  {
+    "id": 39,
+    "en": "$024Bertie Bott",
+    "fr": "$024Bertie Crochue",
+    "de": "$024Bertie Bott",
+    "tr": "$024Bertie Bott"
+  },
+  {
+    "id": 40,
+    "en": "$001Greatest of all medieval alchemists.",
+    "fr": "$001Le plus grand des alchimistes du Moyen Age.",
+    "de": "$001Grö\\u0099ter aller Alchimisten des Mittelalters",
+    "tr": "$001Ortaçağ simyacılarının en büyüğü."
+  },
+  {
+    "id": 41,
+    "en": "$002Celebrated inventor of the Self-Stirring Cauldron.",
+    "fr": "$002Célèbre inventeur du chaudron à touillage automatique.",
+    "de": "$002Gefeierter Erfinder des selbst umrührenden Kessels.",
+    "tr": "$002Kendi Kendini Karıştıran Kazan'ın ünlü mucidi."
+  },
+  {
+    "id": 42,
+    "en": "$003The witch who invented Floo Powder.",
+    "fr": "$003La sorcière qui inventa la poudre de cheminette.",
+    "de": "$003Die Hexe, die das Flohpulver erfand.",
+    "tr": "$003Uçuş Tozu'nu icat eden cadı."
+  },
+  {
+    "id": 43,
+    "en": "$004Inventor of Cheering Charms.",
+    "fr": "$004Inventeur de sortilèges d'Allégresse.",
+    "de": "$004Erfinder des Aufmunterungszaubers.",
+    "tr": "$004Neşelendirme Büyüleri'nin mucidi."
+  },
+  {
+    "id": 44,
+    "en": "$005Author of 'Charm Your Own Cheese'.",
+    "fr": "$005Auteur de \"Comment ensorceler son fromage\".",
+    "de": "$005Autorin von 'Zaubern Sie Ihren eigenen Käse'.",
+    "tr": "$005'Kendi Peynirini Kendin Büyüle' kitabının yazarı."
+  },
+  {
+    "id": 45,
+    "en": "$006First person to fly across the Atlantic on a broomstick.",
+    "fr": "$006Première personne à avoir traversé l'Atlantique sur un balai.",
+    "de": "$006\\u0098berquerte als Erster den Atlantik auf dem Besen.",
+    "tr": "$006Süpürgeyle Atlas Okyanusu'nu geçen ilk kişi."
+  },
+  {
+    "id": 46,
+    "en": "$007Founder of the Society for Distressed Witches.",
+    "fr": "$007A fondé l'Association des Sorcières en Détresse.",
+    "de": "$007Gründerin der Gesellschaft für verzweifelte Hexen.",
+    "tr": "$007Muhtaç Cadılar Derneği'nin kurucusu."
+  },
+  {
+    "id": 47,
+    "en": "$008Sent to Azkaban for keeping Sphinxes in his back garden.",
+    "fr": "$008A été envoyé à Azkaban pour avoir caché des sphinx dans son jardin.",
+    "de": "$008Wurde nach Askaban geschickt, weil er Sphingen im Garten hielt.",
+    "tr": "$008Arka bahçesinde Sfenks beslediği için Azkaban'a gönderildi."
+  },
+  {
+    "id": 48,
+    "en": "$009Serial goblin-killer.",
+    "fr": "$009Tueur en série de gobelins.",
+    "de": "$009Goblin-Serienmörder",
+    "tr": "$009Seri goblin katili."
+  },
+  {
+    "id": 49,
+    "en": "$010Inventor of the Sneakoscope.",
+    "fr": "$010Inventeur du scrutoscope.",
+    "de": "$010Erfinder des Spickoskops.",
+    "tr": "$010Sinsiölçer'in mucidi."
+  },
+  {
+    "id": 50,
+    "en": "$011Famous magical theoretician.",
+    "fr": "$011Célèbre théoricien de la magie.",
+    "de": "$011Berühmter magischer Theoretiker.",
+    "tr": "$011Ünlü büyü teorisyeni."
+  },
+  {
+    "id": 51,
+    "en": "$012Celebrated Seer and author of 'Unfogging the Future'.",
+    "fr": "$012Voyante célèbre et auteur de \"Lever le voile du futur\".",
+    "de": "$012Gefeierte Seherin und Autorin von 'Entnebelung der Zukunft'.",
+    "tr": "$012Ünlü Kâhin ve 'Geleceğin Sis Perdesini Aralamak' kitabının yazarı."
+  },
+  {
+    "id": 52,
+    "en": "$013Wizard Chess Champion 1506 - 1588.",
+    "fr": "$013Champion d'échecs de sorciers 1506 - 1588.",
+    "de": "$013Zaubererschach-Meister 1506 - 1588.",
+    "tr": "$013Büyücü Satrancı Şampiyonu 1506 - 1588."
+  },
+  {
+    "id": 53,
+    "en": "$014First known victim of Dragon Pox.",
+    "fr": "$014Première victime de la varicelle du dragon.",
+    "de": "$014Erstes bekanntes Opfer der Drachenpocken.",
+    "tr": "$014Ejderha Çiçeği'nin bilinen ilk kurbanı."
+  },
+  {
+    "id": 54,
+    "en": "$015Hogwarts co-founder. Gave his name to a Hogwarts House.",
+    "fr": "$015Co-fondateur de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$015Mitbegründer von Hogwarts. Nach ihm wurde eines der vier Häuser benannt.",
+    "tr": "$015Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 55,
+    "en": "$016Hogwarts co-founder. Gave his name to a Hogwarts House.",
+    "fr": "$016Co-fondateur de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$016Mitbegründer von Hogwarts. Nach ihm wurde eines der vier Häuser benannt.",
+    "tr": "$016Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 56,
+    "en": "$017Hogwarts co-founder. Gave her name to a Hogwarts House.",
+    "fr": "$017Co-fondatrice de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$017Mitbegründerin von Hogwarts. Nach ihr wurde eines der vier Häuser benannt.",
+    "tr": "$017Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 57,
+    "en": "$018Hogwarts co-founder. Gave her name to a Hogwarts House.",
+    "fr": "$018Co-fondatrice de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$018Mitbegründerin von Hogwarts. Nach ihr wurde eines der vier Häuser benannt.",
+    "tr": "$018Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 58,
+    "en": "$019Founded the village of Hogsmeade.",
+    "fr": "$019A fondé le village de Pré-au-Lard.",
+    "de": "$019Gründete das Dorf Hogsmeade.",
+    "tr": "$019Hogsmeade köyünü kurdu."
+  },
+  {
+    "id": 59,
+    "en": "$020First landlady of the Leaky Cauldron.",
+    "fr": "$020Première propriétaire du Chaudron Baveur.",
+    "de": "$020Erste Wirtin des Tropfenden Kessels.",
+    "tr": "$020Çatlak Kazan'ın ilk kadın işletmecisi."
+  },
+  {
+    "id": 60,
+    "en": "$021Popular singing sorceress.",
+    "fr": "$021Chanteuse super-star.",
+    "de": "$021Berühmte Sängerin-Hexe.",
+    "tr": "$021Popüler şarkıcı büyücü kadın."
+  },
+  {
+    "id": 61,
+    "en": "$022Only Quidditch referee ever to die during a match.",
+    "fr": "$022Seul arbitre de quidditch à avoir trouvé la mort pendant un match.",
+    "de": "$022Einziger Quidditch-Schiedsrichter, der während eines Spiels starb.",
+    "tr": "$022Bir maç sırasında ölen tek Quidditch hakemi."
+  },
+  {
+    "id": 62,
+    "en": "$023First known creator of the basilisk.",
+    "fr": "$023Premier créateur connu du Basilic.",
+    "de": "$023Ur-Erfinder des Basilisken.",
+    "tr": "$023Basiliskin bilinen ilk yaratıcısı."
+  },
+  {
+    "id": 63,
+    "en": "$024Inventor of Bertie Bott's Every Flavour Beans.",
+    "fr": "$024Inventa les célèbres dragées surprises de Bertie Crochue.",
+    "de": "$024Erfinder der Bertie Botts Bohnen in allen Geschmacksrichtungen.",
+    "tr": "$024Bertie Bott'un Binbir Çeşit Fasulyeleri'nin mucidi."
+  },
+  {
+    "id": 64,
+    "en": "$005< Talk To",
+    "fr": "$005< Parler",
+    "de": "$005< Ansprechen",
+    "tr": "$005< Konuş"
+  },
+  {
+    "id": 65,
+    "en": "$092First Broom: > to Select",
+    "fr": "$092Premier balai : > pour sélectionner",
+    "de": "$092Erster Besen: Wähle mit > ",
+    "tr": "$092İlk Süpürge: Seçmek için >"
+  },
+  {
+    "id": 66,
+    "en": "$093Second Broom: > to Select",
+    "fr": "$093Second balai : > pour sélectionner",
+    "de": "$093Zweiter Besen: Wähle mit >",
+    "tr": "$093İkinci Süpürge: Seçmek için >"
+  },
+  {
+    "id": 67,
+    "en": "$031> Grab Snitch",
+    "fr": "$031> Attraper le Vif d'or",
+    "de": "$031> Schnapp den Schnatz",
+    "tr": "$031> Snitch'i Yakala"
+  },
+  {
+    "id": 68,
+    "en": "#2#$002Good session, Harry. The Quidditch Training doors are always open for you.",
+    "fr": "#3#$002T'as fait une bonne séance, Harry. Tu reviens quand tu veux.",
+    "de": "#4#$002Gute Arbeit, Harry. Die Türen  zum Quidditch-Platz stehen immer für dich offen.",
+    "tr": "#2#$002Güzel antrenmandı Harry. Quidditch Antrenmanı kapıları sana her zaman açık."
+  },
+  {
+    "id": 69,
+    "en": "#5#$002Well done, you have completed Quidditch Training. Would you like to try again?",
+    "fr": "#6#$002Super, tu as fini l'entra\\u00a8nement de Quidditch. Tu veux recommencer ?",
+    "de": "#7#$002Du hast das Quidditch-Training erfolgreich beendet. Noch mal?",
+    "tr": "#5#$002Aferin, Quidditch Antrenmanını tamamladın. Tekrar denemek ister misin?"
+  },
+  {
+    "id": 70,
+    "en": "#8#$002You've completed basic Quidditch training. Would you like to quit?",
+    "fr": "#9#$002Tu as terminé l'entra\\u00a8nement de base de Quidditch. Tu veux quitter ?",
+    "de": "#A#$002Du hast das grundlegende Quidditch-Training erfolreich beendet. Möchtest du fortfahren?",
+    "tr": "#8#$002Temel Quidditch antrenmanını tamamladın. Çıkmak ister misin?"
+  },
+  {
+    "id": 71,
+    "en": "#B#$003Okay, now let's practice chasing the Snitch. The Training Broom will now let you fly up and down.",
+    "fr": "#C#$003Bon, maintenant on va poursuivre le Vif. Le balai te permet maintenant de monter et de descendre.",
+    "de": "#D#$003\\u0098ben wir jetzt die Jagd auf den Schnatz. Der Trainingsbesen lässt dich jetzt auch hoch und runter fliegen.",
+    "tr": "#B#$003Tamam, şimdi Snitch kovalamaca çalışalım. Antrenman Süpürgesi artık yukarı ve aşağı uçmana izin verecek."
+  },
+  {
+    "id": 72,
+    "en": "#E#$003For the first part of your Seeker training, let's see if you can fly through 10 hoops generated by the Snitch.",
+    "fr": "#F#$003Pour commencer l'entra\\u00a8nement d'attrapeur, on va voir si tu es capable de voler à travers 10 cercles générés par le Vif.",
+    "de": "#10#$003Zunächst testen wir in deinem Sucher-Training, ob du durch die 10 Ringe fliegen kannst, die der Schnatz erzeugt.",
+    "tr": "#E#$003Arayıcı eğitiminin ilk kısmı için, bakalım Snitch'in bıraktığı 10 halkanın içinden uçabilecek misin."
+  },
+  {
+    "id": 73,
+    "en": "#11#$003Get ready, Potter... 3... 2... 1... release the Snitch, Colin!",
+    "fr": "#12#$003Pr\\u00a4t Potter ? 3... 2... 1... L\\u009cche le Vif, Colin !",
+    "de": "#13#$003Auf die Plätze, Potter ... 3 ... 2 ... 1 ... lass den Schnatz frei, Colin!",
+    "tr": "#11#$003Hazır ol Potter... 3... 2... 1... Snitch'i bırak Colin!"
+  },
+  {
+    "id": 74,
+    "en": "#14#$008Not bad at all, Potter. For that performance you've earned Bronze Wings.",
+    "fr": "#15#$008Pas mal, Potter. Tu as gagné les Ailes de bronze.",
+    "de": "#16#$008Nicht schlecht, Potter. Dafür bekommst du die Bronze-Flügel.",
+    "tr": "#14#$008Hiç fena değil Potter. Bu performansınla Bronz Kanatlar kazandın."
+  },
+  {
+    "id": 75,
+    "en": "#17#$008Nice one. For that performance you've earned Silver Wings!",
+    "fr": "#18#$008Joli. Tu as gagné les Ailes d'argent.",
+    "de": "#19#$008Gut gemacht. Für diese Leistung bekommst du die Silber-Flügel",
+    "tr": "#17#$008Güzel iş. Bu performansınla Gümüş Kanatlar kazandın!"
+  },
+  {
+    "id": 76,
+    "en": "#1A#$008Excellent! For that performance, you've earned your Gold Wings and 25 house points for Gryffindor!",
+    "fr": "#1B#$008Super ! Tu as gagné les Ailes d'or et 25 points pour Gryffondor !",
+    "de": "#1C#$008Hervorragend! Für diese Leistung hast du Gold-Flügel und 25 Hauspunkte für Gryffindor verdient!",
+    "tr": "#1A#$008Mükemmel! Bu performansınla Altın Kanatlarını ve Gryffindor'a 25 bina puanı kazandırdın!"
+  },
+  {
+    "id": 77,
+    "en": "#1D#$007Just keep aiming for the Snitch.",
+    "fr": "#1E#$007Concentre-toi sur le Vif.",
+    "de": "#1F#$007Halt einfach nach dem Schnatz Ausschau.",
+    "tr": "#1D#$007Snitch'e odaklanmaya devam et yeter."
+  },
+  {
+    "id": 78,
+    "en": "#20#$007Would you like to try it again?",
+    "fr": "#21#$007Tu aimerais réessayer ?",
+    "de": "#22#$007Möchtest du noch ein bisschen üben?",
+    "tr": "#20#$007Tekrar denemek ister misin?"
+  },
+  {
+    "id": 79,
+    "en": "#23#$001Alright, Harry. Grab your broomstick and we'll begin the training.",
+    "fr": "#24#$001Bon Harry. Attrape ton balai et on commence l'entra\\u00a8nement.",
+    "de": "#25#$001Alles klar, Harry. Schnapp dir den Besen und los geht's.",
+    "tr": "#23#$001Pekala Harry. Süpürgeni kap da antrenmana başlayalım."
+  },
+  {
+    "id": 80,
+    "en": "#26#$002Welcome to Quidditch Training.",
+    "fr": "#27#$002Bienvenue à l'entra\\u00a8nement de Quidditch.",
+    "de": "#28#$002Willkommen zum Quidditch-Training.",
+    "tr": "#26#$002Quidditch Antrenmanına hoş geldin."
+  },
+  {
+    "id": 81,
+    "en": "#29#$004In a Quidditch Match, whichever Seeker catches the Golden Snitch scores their team one hundred and fifty points.",
+    "fr": "#2A#$004Lors d'un match de Quidditch, l'attrapeur qui s'empare du Vif d'or apporte 150 points à son équipe.",
+    "de": "#2B#$004In einem Quidditch-Spiel werden dem Team des Suchers, der den Goldenen Schnatz fängt, hundertfünfzig Punkte zugeteilt.",
+    "tr": "#29#$004Bir Quidditch Maçında, hangi Arayıcı Altın Snitch'i yakalarsa takımına yüz elli puan kazandırır."
+  },
+  {
+    "id": 82,
+    "en": "#2C#$004Which is why Seekers tend to get fouled so much. And also why we need to keep training.",
+    "fr": "#2D#$004Voilà pourquoi les attrapeurs se font si souvent agresser, et pourquoi on doit s'entra\\u00a8ner dur.",
+    "de": "#2E#$004Deshalb wird der Sucher auch so oft gefoult, und wir müssen viel üben.",
+    "tr": "#2C#$004İşte bu yüzden Arayıcılara çok sık faul yapılır. Ve yine bu yüzden antrenman yapmaya devam etmeliyiz."
+  },
+  {
+    "id": 83,
+    "en": "#2F#$004First off, we\\u00b8re going to practice your basic broom controls on a Special training Broom.",
+    "fr": "#30#$004Tout d'abord, on va commencer avec les notions de base sur un balai d'entra\\u00a8nement.",
+    "de": "#31#$004Zunächst üben wir mal die grundlegende Steuerung des Besens auf diesem speziellen \\u0098bungsbesen.",
+    "tr": "#2F#$004İlk olarak, Özel bir Antrenman Süpürgesi üzerinde temel süpürge kontrollerini çalışacağız."
+  },
+  {
+    "id": 84,
+    "en": "#32#$004This broom won\\u00b8t let you fly far from the ground so we can concentrate on practicing your steering.",
+    "fr": "#33#$004Ce balai ne permet pas de trop s'éloigner du sol. Ainsi, on pourra se concentrer sur ton pilotage.",
+    "de": "#34#$004Mit diesem Besen kannst du nicht sehr hoch fliegen, so dass wir uns prima damit beschäftigen können, wie man ihn lenkt.",
+    "tr": "#32#$004Bu süpürge yerden fazla yükselmene izin vermez, böylece yön verme çalışmana odaklanabiliriz."
+  },
+  {
+    "id": 85,
+    "en": "#35#$006Steer left and right to fly between the poles and > button to speed up. Try and finish the course before my stopwatch counts down.",
+    "fr": "#36#$006Va à gauche et à droite entre les poteaux et appuie sur la touche > pour accélérer. Essaie de finir la course avant le chrono.",
+    "de": "#37#$006Steuere Rechts/Links, um zwischen den Pfosten zu fliegen und verwende die >-Taste, um zu beschleunigen. Versuch den Parcour zu beenden, bevor meine Stoppuhr abgelaufen ist.",
+    "tr": "#35#$006Direklerin arasından uçmak için sola ve sağa yön ver, hızlanmak içinse > düğmesine bas. Kronometrem sıfırlanmadan önce parkuru bitirmeye çalış."
+  },
+  {
+    "id": 86,
+    "en": "#38#$003Get set - 3... 2... 1...",
+    "fr": "#39#$003Pr\\u00a4t ? 3... 2... 1...",
+    "de": "#3A#$003Bereit - 3 ... 2 ...1 ...",
+    "tr": "#38#$003Hazırlanın - 3... 2... 1..."
+  },
+  {
+    "id": 87,
+    "en": "#3B#$007Remember to keep the red poles to the left!",
+    "fr": "#3C#$007Garde les poteaux rouges à ta gauche !",
+    "de": "#3D#$007Denk dran - lass die roten Pfosten links liegen!",
+    "tr": "#3B#$007Kırmızı direkleri solda tutmayı unutma!"
+  },
+  {
+    "id": 88,
+    "en": "#3E#$004Time for your second Seeker training lesson.",
+    "fr": "#3F#$004C'est l'heure de ta deuxième séance d'entra\\u00a8nement.",
+    "de": "#40#$004Zeit für deine zweite Sucher-Trainingseinheit.",
+    "tr": "#3E#$004İkinci Arayıcı antrenmanı dersinin vakti geldi."
+  },
+  {
+    "id": 89,
+    "en": "#41#$004You seem to have got the hang of chasing the Snitch. Let's see if you\\u00b8re any good at catching it!",
+    "fr": "#42#$004Tu sembles avoir compris le truc pour courser le Vif. On va voir si tu es aussi bon pour l'attraper.",
+    "de": "#43#$004Mir scheint, du hast raus, wie man den Schnatz jagt. Mal sehen, ob du ihn auch fangen kannst.",
+    "tr": "#41#$004Snitch kovalamanın püf noktasını kapmış gibisin. Bakalım yakalama konusunda da iyi misin!"
+  },
+  {
+    "id": 90,
+    "en": "#44#$003Fly through 10 rings, then move your hand over the Snitch and hit the > button when it appears on screen.",
+    "fr": "#45#$003Vole à travers 10 cercles, puis déplace ta main sur le Vif d'or et appuie sur la touche > quand il appara\\u00a8t sur l'écran.",
+    "de": "#46#$003Flieg durch 10 Ringe, bewege dann deine Hand auf den Schnatz zu und drücke die >-Taste, wenn sie auf dem Bildschirm erscheint.",
+    "tr": "#44#$00310 halkanın içinden uç, ardından elini Snitch'in üzerine getir ve ekranda belirdiğinde > düğmesine bas."
+  },
+  {
+    "id": 91,
+    "en": "#47#$004On my mark - 3... 2... 1...",
+    "fr": "#48#$004Pr\\u00a4t ? 3... 2... 1...",
+    "de": "#49#$004Auf mein Kommando - 3 - 2 - 1",
+    "tr": "#47#$004İşaretimle birlikte - 3... 2... 1..."
+  },
+  {
+    "id": 92,
+    "en": "#4A#$008Not bad at all, Potter. For that display you've earned Bronze Wings.",
+    "fr": "#4B#$008Pas mal du tout, Potter. Tu as gagné les Ailes de bronze.",
+    "de": "#4C#$008Nicht schlecht, Potter. Für diese Leistung bekommst du die Bronze-Flügel.",
+    "tr": "#4A#$008Hiç fena değil Potter. Bu gösteriyle Bronz Kanatlar kazandın."
+  },
+  {
+    "id": 93,
+    "en": "#4D#$008Well done, for that attempt you've earned Silver Wings!",
+    "fr": "#4E#$008Bravo, ton exploit te rapporte les Ailes d'argent !",
+    "de": "#4F#$008Gut gemacht, du bekommst dafür die Silber-Flügel!",
+    "tr": "#4D#$008Aferin, bu denemenle Gümüş Kanatlar kazandın!"
+  },
+  {
+    "id": 94,
+    "en": "#50#$008Brilliant! For that performance you've earned your Gold wings and 25 house points to Gryffindor!",
+    "fr": "#51#$008Génial ! Ta performance te rapporte les Ailes d'or et 25 points pour Gryffondor !",
+    "de": "#52#$008Gro\\u0099artig! Für diese Leistung verdienst du die Gold-Flügel und 25 Hauspunkte für Gryffindor!",
+    "tr": "#50#$008Harika! Bu performansınla Altın Kanatlarını ve Gryffindor'a 25 bina puanı kazandırdın!"
+  },
+  {
+    "id": 95,
+    "en": "#53#$008Remember, fly through 10 hoops and then hit the > button when the Snitch moves towards your hand.",
+    "fr": "#54#$008N'oublie pas, vole à travers 10 cercles, puis appuie sur la touche > quand le Vif d'or s'approche de ta main.",
+    "de": "#55#$008Denk dran, flieg durch die 10 Ringe und drücke dann die >-Taste, wenn der Schnatz auf deine Hand zufliegt.",
+    "tr": "#53#$008Unutma, 10 halkanın içinden uç ve Snitch eline doğru hareket ettiğinde > düğmesine bas."
+  },
+  {
+    "id": 96,
+    "en": "#56#$002In a Quidditch match, whichever team's Seeker catches the Golden Snitch scores one hundred and fifty points for their team.",
+    "fr": "#57#$002Dans un match de Quidditch, l'attrapeur qui s'empare du Vif d'or marque 150 points pour son équipe.",
+    "de": "#58#$002In einem Quidditch-Spiel erhält der Sucher, der den Schnatz fängt, hundertfünfzig Punkte für sein Team.",
+    "tr": "#56#$002Bir Quidditch maçında, hangi takımın Arayıcısı Altın Snitch'i yakalarsa takımına yüz elli puan kazandırır."
+  },
+  {
+    "id": 97,
+    "en": "#59#$002This often results in that Seeker's team winning the match.",
+    "fr": "#5A#$002En général, \\u00a1a permet à cette équipe de gagner le match.",
+    "de": "#5B#$002Meistens gewinnt dieses Team dann auch das Spiel.",
+    "tr": "#59#$002Bu da çoğu zaman o Arayıcının takımının maçı kazanmasını sağlar."
+  },
+  {
+    "id": 98,
+    "en": "#5C#$003Let's see how you manage catching a Snitch while racing against another Seeker.",
+    "fr": "#5D#$003Maintenant, on va voir comment tu te débrouilles face à un autre attrapeur.",
+    "de": "#5E#$003Wollen wir doch mal sehen, wie du den Schnatz fängst, wenn du gegen einen anderen Sucher kämpfen musst.",
+    "tr": "#5C#$003Bakalım başka bir Arayıcıyla yarışırken Snitch yakalamayı nasıl becereceksin."
+  },
+  {
+    "id": 99,
+    "en": "#5F#$004Ready - 3... 2... 1...",
+    "fr": "#60#$004Pr\\u00a4t ? 3... 2... 1...",
+    "de": "#61#$004Bereit - 3 - 2 - 1",
+    "tr": "#5F#$004Hazır - 3... 2... 1..."
+  },
+  {
+    "id": 100,
+    "en": "#63#$003Don't worry if you miss a ring! Just keep going, Harry.",
+    "fr": "#64#$003Pr\\u00a4t ? C'est parti !",
+    "de": "#65#$003Es ist nicht schlimm, wenn du einen Ring verpasst. Flieg einfach weiter, Harry!",
+    "tr": "#63#$003Bir halkayı kaçırırsan endişelenme! Devam et yeter Harry."
+  },
+  {
+    "id": 101,
+    "en": "#66#$004You currently have Bronze Wings in this section. Would you like to try again?",
+    "fr": "#67#$004Tu as actuellement des Ailes de bronze dans cette section. Tu veux réessayer ?",
+    "de": "#68#$004Zur Zeit hast du Bronze-Flügel in diesem Abschnitt. Möchtest du das verbessern?",
+    "tr": "#66#$004Bu bölümde şu an Bronz Kanatlara sahipsin. Tekrar denemek ister misin?"
+  },
+  {
+    "id": 102,
+    "en": "#69#$004I see you\\u00b8ve already been awarded Silver Wings for this section.  Would you like to see if you can earn Gold?",
+    "fr": "#6A#$004Je vois que tu as déjà les Ailes d'argent dans cette section. Tu aimerais voir si tu peux décrocher l'or ?",
+    "de": "#6B#$004Ah, du hast hier schon Silber-Flügel. Na, möchtest du einen Gold-Versuch starten?",
+    "tr": "#69#$004Bu bölüm için şimdiden Gümüş Kanat kazandığını görüyorum. Altın Kanat kazanıp kazanamayacağına bakmak ister misin?"
+  },
+  {
+    "id": 103,
+    "en": "#6C#$004Excellent! I see you\\u00b8ve already been awarded Gold Wings for this section.  Would you like to have another go?",
+    "fr": "#6D#$004Super ! Je vois que tu as re\\u00a1u les Ailes d'or. On recommence ?",
+    "de": "#6E#$004Gro\\u0099artig! Du hast die Gold-Flügel in diesem Abschnitt. Trotzdem noch ein Versuch?",
+    "tr": "#6C#$004Mükemmel! Bu bölüm için şimdiden Altın Kanat kazandığını görüyorum. Bir kez daha denemek ister misin?"
+  },
+  {
+    "id": 104,
+    "en": "#6F#$008Hmmm... Bronze Wings again. Maybe you need some more practice, Harry.",
+    "fr": "#70#$008Hmmm... Encore des Ailes de bronze. Tu as encore besoin d'un peu d'entra\\u00a8nement.",
+    "de": "#71#$008Hmm ... und wieder Bronze-Flügel. Vielleicht solltest du noch etwas üben, Harry.",
+    "tr": "#6F#$008Hmmm... Yine Bronz Kanatlar. Belki de biraz daha antrenman yapman gerekiyordur Harry."
+  },
+  {
+    "id": 105,
+    "en": "#72#$008Excellent! For that performance you\\u00b8ve earned your Gold Wings.",
+    "fr": "#73#$008Bravo ! Cette performance t'a rapporté les Ailes d'or.",
+    "de": "#74#$008Klasse! Dafür bekommst du die Gold-Flügel.",
+    "tr": "#72#$008Mükemmel! Bu performansınla Altın Kanatlarını kazandın."
+  },
+  {
+    "id": 106,
+    "en": "#75#$008Excellent, Gold Wings! You really do show promise as a Seeker, Harry.",
+    "fr": "#76#$008Excellent ! Les Ailes d'or ! Tu es vraiment doué, comme attrapeur, Harry.",
+    "de": "#77#$008Hervorragend, Gold-Flügel! Du hast wirklich das Potential für einen Sucher, Harry.",
+    "tr": "#75#$008Mükemmel, Altın Kanatlar! Bir Arayıcı olarak gerçekten büyük umut vadediyorsun Harry."
+  },
+  {
+    "id": 107,
+    "en": "#78#$004Fly through 10 hoops generated by the Golden Snitch.",
+    "fr": "#79#$004Vole à travers 10 cercles générés par le Vif d'or.",
+    "de": "#7A#$004Flieg durch die 10 vom Schnatz erzeugten Ringe.",
+    "tr": "#78#$004Altın Snitch'in oluşturduğu 10 halkanın içinden uç."
+  },
+  {
+    "id": 108,
+    "en": "#7B#$004Welcome back, Potter. Now, let's begin your training.",
+    "fr": "#7C#$004Bienvenue, Potter. On va reprendre l'entra\\u00a8nement.",
+    "de": "#7D#$004Schön, dass du wieder da bist. Lass uns gleich mit dem Training beginnen.",
+    "tr": "#7B#$004Tekrar hoş geldin Potter. Şimdi, antrenmanına başlayalım."
+  },
+  {
+    "id": 109,
+    "en": "#7E#$004Okay, Harry, we're going to practice your basic broom controls on a special Training Broom.",
+    "fr": "#7F#$004Bon, Harry, on va commencer avec les notions de base sur un balai d'entra\\u00a8nement.",
+    "de": "#80#$004Okay Harry, jetzt üben wir die Grundlagen deiner Besensteuerung auf einem speziellen Trainingsbesen.",
+    "tr": "#7E#$004Tamam Harry, özel bir Antrenman Süpürgesi üzerinde temel süpürge kontrollerini çalışacağız."
+  },
+  {
+    "id": 110,
+    "en": "#81#$004This broom won't let you fly until you\\u00b8ve passed the first test.",
+    "fr": "#82#$004Ce balai ne te permettra de voler que si tu passes la première épreuve.",
+    "de": "#83#$004Dieser Besen fliegt nicht, bevor du nicht den ersten Test bestanden hast.",
+    "tr": "#81#$004İlk testi geçene kadar bu süpürge uçmana izin vermeyecek."
+  },
+  {
+    "id": 111,
+    "en": "#84#$001Concentrate!",
+    "fr": "#85#$001Concentre-toi !",
+    "de": "#86#$001Konzentrier dich!",
+    "tr": "#84#$001Odaklan!"
+  },
+  {
+    "id": 112,
+    "en": "#87#$002Try Harder!",
+    "fr": "#88#$002Essaie encore !",
+    "de": "#89#$002Streng dich an!",
+    "tr": "#87#$002Daha çok çabala!"
+  },
+  {
+    "id": 113,
+    "en": "#8A#$003That's good",
+    "fr": "#8B#$003Très bien !",
+    "de": "#8C#$003Das ist gut.",
+    "tr": "#8A#$003Bu iyi"
+  },
+  {
+    "id": 114,
+    "en": "#8D#$004That's it Harry!",
+    "fr": "#8E#$004C'est \\u00a1a, Harry !",
+    "de": "#8F#$004Genau, Harry!",
+    "tr": "#8D#$004İşte böyle Harry!"
+  },
+  {
+    "id": 115,
+    "en": "#90#$005Excellent, now you've got it!",
+    "fr": "#91#$005Génial, t'as compris !",
+    "de": "#92#$005Hervorragend, jetzt hast du's raus!",
+    "tr": "#90#$005Mükemmel, işte şimdi kaptın!"
+  },
+  {
+    "id": 116,
+    "en": "#93#$006Fly through the poles Harry!",
+    "fr": "#94#$006Vole entre les poteaux !",
+    "de": "#95#$006Flieg durch die Pfosten, Harry!",
+    "tr": "#93#$006Direklerin arasından uç Harry!"
+  },
+  {
+    "id": 117,
+    "en": "#96#$007Fly through the rings Harry!",
+    "fr": "#97#$007Vole à travers les cercles !",
+    "de": "#98#$007Flieg durch die Ringe, Harry!",
+    "tr": "#96#$007Halkaların içinden uç Harry!"
+  },
+  {
+    "id": 118,
+    "en": "#99#$008You've got a Nimbus 2000, now use it!",
+    "fr": "#9A#$008Tu as un Nimbus 2000, sers t'en !",
+    "de": "#9B#$008Du hast einen Nimbus 2000, benutz ihn!",
+    "tr": "#99#$008Altında bir Nimbus 2000 var, kullan onu!"
+  },
+  {
+    "id": 119,
+    "en": "#9C#$009Good work, keep it up",
+    "fr": "#9D#$009Super, continue !",
+    "de": "#9E#$009Gute Arbeit, weiter so!",
+    "tr": "#9C#$009Güzel iş, böyle devam et"
+  },
+  {
+    "id": 120,
+    "en": "#9F#$010Harry, remember to use the > button to speed up.",
+    "fr": "#A0#$010Harry, pense à utiliser le bouton > pour accélérer.",
+    "de": "#A1#$010Harry, denk dran, verwende die >-Taste, um zu beschleunigen.",
+    "tr": "#9F#$010Harry, hızlanmak için > düğmesini kullanmayı unutma."
+  },
+  {
+    "id": 121,
+    "en": "#A2#$011If you miss a ring Harry, don't worry, just keep going for the next one.",
+    "fr": "#A3#$011Si tu rates un cercle, ce n'est pas grave, va au suivant.",
+    "de": "#A4#$011Es ist nicht schlimm, wenn du einen Ring auslässt. Flieg einfach durch den nächsten.",
+    "tr": "#A2#$011Bir halkayı kaçırırsan endişelenme Harry, bir sonrakine odaklanıp devam et."
+  },
+  {
+    "id": 122,
+    "en": "#A5#$012Wicked!",
+    "fr": "#A6#$012Super !",
+    "de": "#A7#$012Gro\\u0099artig!",
+    "tr": "#A5#$012Uçuk!"
+  },
+  {
+    "id": 123,
+    "en": "#A8#$001Right Harry, now we\\u00b8re going to move onto the next stage.",
+    "fr": "#A9#$001OK Harry, maintenant on va passer à l'étape suivante.",
+    "de": "#AA#$001Also Harry, jetzt versuchen wir uns an der nächsten \\u0098bung.",
+    "tr": "#A8#$001Pekala Harry, şimdi bir sonraki aşamaya geçiyoruz."
+  },
+  {
+    "id": 124,
+    "en": "#AB#$002I\\u00b8ve got two Broomsticks to choose from, you should try them both out and see which one you prefer.",
+    "fr": "#AC#$002J'ai deux balais à ta disposition... Tu devrais essayer les deux et me dire lequel tu préfères.",
+    "de": "#AD#$002Ich habe zwei Besen, aus denen du wählen kannst. Probier einfach beide aus und nimm den, der dir besser gefällt.",
+    "tr": "#AB#$002Aralarından seçim yapabileceğin iki Süpürge var, ikisini de deneyip hangisini tercih ettiğine bakmalısın."
+  },
+  {
+    "id": 125,
+    "en": "#AE#$003Here\\u00b8s the first one.  Try it out by flying through these rings.  ",
+    "fr": "#AF#$003Voici le premier. Essaie-le en volant à travers ces cercles.",
+    "de": "#B0#$003Hier ist der erste. Probier ihn aus, indem du durch diese Ringe fliegst.",
+    "tr": "#AE#$003İşte ilki. Bu halkaların içinden uçarak dene bakalım."
+  },
+  {
+    "id": 126,
+    "en": "#B1#$005Some people prefer the up and down controls the other way around. This second broom will let you try with these controls",
+    "fr": "#B2#$005Certaines personnes préfèrent les commandes haut et bas inversées... Ce second balai va te laisser essayer cette option.",
+    "de": "#B3#$005Manche Leute bevorzugen die Umkehrung der Steuerung für Oben und Unten. Mit diesem zweiten Besen kannst du dies ausprobieren.",
+    "tr": "#B1#$005Bazıları yukarı ve aşağı kontrollerinin ters olmasını tercih eder. Bu ikinci süpürge, bu kontrollerle denemeni sağlayacak."
+  },
+  {
+    "id": 127,
+    "en": "#B4#$006Do you want to try them again?",
+    "fr": "#B5#$006Tu veux encore les essayer ?",
+    "de": "#B6#$006Möchtest du sie noch mal testen?",
+    "tr": "#B4#$006Onları tekrar denemek ister misin?"
+  },
+  {
+    "id": 128,
+    "en": "#B7#$007So, Harry, which one did you prefer? Select your broom by moving left or right.",
+    "fr": "#B8#$007Alors Harry, lequel tu préfères ? Choisis ton balai en allant à gauche ou à droite.",
+    "de": "#B9#$007Also Harry, welcher gefällt dir besser? Wähle deinen Besen mit Rechts und Links.",
+    "tr": "#B7#$007Eee Harry, hangisini tercih ettin? Sola ya da sağa giderek süpürgeni seç."
+  },
+  {
+    "id": 129,
+    "en": "#BA#$008If you decide to change controls later you can do so from the options screen.",
+    "fr": "#BB#$008Si tu veux modifier les commandes, tu peux toujours revenir à l'écran des options.",
+    "de": "#BC#$008Wenn du die Steuerung zu einem späteren Zeitpunkt umkehren möchtest, gehe zum Optionenmenü.",
+    "tr": "#BA#$008Kontrolleri daha sonra değiştirmek istersen bunu seçenekler ekranından yapabilirsin."
+  },
+  {
+    "id": 130,
+    "en": "#BD#$008You\\u00b8ve completed basic Quidditch training and now can play in the Quidditch League. Let\\u00b8s continue onto the advanced training. ",
+    "fr": "#BE#$008Tu as fini l'entra\\u00a8nement de base, maintenant tu peux jouer dans la ligue de Quidditch. Continuons avec des exercices plus compliqués.",
+    "de": "#BF#$008Du hast das Quidditch-Grundtraining abgeschlossen und kannst jetzt in der Quidditch-Liga spielen. Fahren wir mit dem Training für Fortgeschrittene fort.",
+    "tr": "#BD#$008Temel Quidditch antrenmanını tamamladın ve artık Quidditch Ligi'nde oynayabilirsin. Hadi ileri düzey antrenmana devam edelim."
+  },
+  {
+    "id": 131,
+    "en": "#C0#$004Heir of Slytherin or not, Harry, Quidditch is what's important here.  Ready for more practice?",
+    "fr": "#C1#$004Héritier de Serpentard ou pas, Harry, ce qui compte, c'est le Quidditch. Tu es pr\\u00a4t à t'entra\\u00a8ner ?",
+    "de": "#C2#$004Erbe von Slytherin hin oder her, Harry. Hier zählt nur Quidditch. Bereit für ein weiteres Training?",
+    "tr": "#C0#$004Slytherin'in Vârisi olsun ya da olmasın Harry, burada önemli olan Quidditch'tir. Biraz daha pratik yapmaya hazır mısın?"
+  }
+]

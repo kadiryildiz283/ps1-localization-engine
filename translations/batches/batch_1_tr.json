@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 360,
+    "en": "$094\\u000a",
+    "tr": "$094\\u000a"
+  },
+  {
+    "id": 361,
+    "en": "$095\\u000a",
+    "tr": "$095\\u000a"
+  },
+  {
+    "id": 362,
+    "en": "$001Learn $Charms",
+    "tr": "$001Tılsım $Öğren"
+  },
+  {
+    "id": 363,
+    "en": "$002Learn $Herbology",
+    "tr": "$002Bitkibilim $Öğren"
+  },
+  {
+    "id": 364,
+    "en": "$003Learn $Defence $Against $the $Dark $Arts",
+    "tr": "$003Karanlık $Sanatlara $Karşı $Savunma $Öğren"
+  },
+  {
+    "id": 365,
+    "en": "$007Learn $Defence $Against $the $Dark $Arts $Lumos",
+    "tr": "$007Karanlık $Sanatlara $Karşı $Savunma $Lumos $Öğren"
+  },
+  {
+    "id": 366,
+    "en": "#0#$011Adalbert Waffling",
+    "tr": "#0#$011Adalbert Waffling"
+  },
+  {
+    "id": 367,
+    "en": "#3#$020Daisy Dodderidge",
+    "tr": "#3#$020Daisy Dodderidge"
+  },
+  {
+    "id": 368,
+    "en": "$007> Levitate",
+    "tr": "$007> Havalandır"
+  },
+  {
+    "id": 369,
+    "en": "$008[ Drop",
+    "tr": "$008[ Bırak"
+  },
+  {
+    "id": 370,
+    "en": "#6#$002Wingardium Leviosa",
+    "tr": "#6#$002Wingardium Leviosa"
+  },
+  {
+    "id": 371,
+    "en": "#9#$007Wingardium Leviosa",
+    "tr": "#9#$007Wingardium Leviosa"
+  },
+  {
+    "id": 372,
+    "en": "#C#$004Verdimillious",
+    "tr": "#C#$004Verdimillious"
+  },
+  {
+    "id": 373,
+    "en": "#F#$012Cassandra Vablatsky",
+    "tr": "#F#$012Cassandra Vablatsky"
+  },
+  {
+    "id": 374,
+    "en": "$001< Use Door",
+    "tr": "$001< Kapıyı Kullan"
+  },
+  {
+    "id": 375,
+    "en": "$002Locked",
+    "tr": "$002Kilitli"
+  },
+  {
+    "id": 376,
+    "en": "#1#$002Wingardium Leviosa",
+    "tr": "#1#$002Wingardium Leviosa"
+  },
+  {
+    "id": 377,
+    "en": "#4#$007Wingardium Leviosa",
+    "tr": "#4#$007Wingardium Leviosa"
+  },
+  {
+    "id": 378,
+    "en": "#8#$002Let\\u00b8s split up to avoid getting caught. At least you can use your invisibility cloak to avoid being seen.",
+    "tr": "#8#$002Yakalanmamak için ayrılalım. En azından sen görünmezlik pelerinini kullanarak görünmekten kurtulabilirsin."
+  },
+  {
+    "id": 379,
+    "en": "#B#$003Remember that you need to collect these to power up your cloak.  They only last a short amount of time, so make sure you\\u00b8re out of sight when they run out.",
+    "tr": "#B#$003Pelerininin gücünü artırmak için bunları toplaman gerektiğini unutma. Yalnızca kısa bir süre etkili olurlar, bu yüzden süreleri bittiğinde ortalıkta görünmediğinden emin ol."
+  },
+  {
+    "id": 380,
+    "en": "#E#$001We\\u00b8d better be careful, Ron, we're not meant to be out in the grounds after dark.",
+    "tr": "#E#$001Dikkatli olsak iyi olur Ron, hava karardıktan sonra bahçede olmamamız gerekiyor."
+  },
+  {
+    "id": 381,
+    "en": "#11#$001You can unlock the doors by using these pressure pads. You just need to charm a nearby object on to them.",
+    "tr": "#11#$001Bu baskı plakalarını kullanarak kapıların kilidini açabilirsin. Tek yapman gereken yakındaki bir nesneyi büyüleyip üzerlerine koymak."
+  },
+  {
+    "id": 382,
+    "en": "#14#$002Charm that object on to the pressure pad to unlock the door.",
+    "tr": "#14#$002Kapının kilidini açmak için o nesneyi büyüleyip baskı plakasının üzerine koy."
+  },
+  {
+    "id": 383,
+    "en": "#17#$001Well now, what do we have here?",
+    "tr": "#17#$001Bak sen, burada kimler varmış?"
+  },
+  {
+    "id": 384,
+    "en": "#1A#$002No students are allowed in the grounds after dark.",
+    "tr": "#1A#$002Hava karardıktan sonra hiçbir öğrencinin bahçede dolaşmasına izin verilmez."
+  },
+  {
+    "id": 385,
+    "en": "#1D#$003Well, well, well, we are in trouble now, aren\\u00b8t we?",
+    "tr": "#1D#$003Bak sen şu işe, başımız fena dertte, değil mi?"
+  },
+  {
+    "id": 386,
+    "en": "#20#$004What's that?",
+    "tr": "#20#$004O da ne?"
+  },
+  {
+    "id": 387,
+    "en": "#23#$005Who's there?",
+    "tr": "#23#$005Kim var orada?"
+  },
+  {
+    "id": 388,
+    "en": "#26#$001Mr. Potter, breaking the school rules again I see.",
+    "tr": "#26#$001Bay Potter, bakıyorum da okul kurallarını yine çiğniyorsunuz."
+  },
+  {
+    "id": 389,
+    "en": "#29#$002Even you aren't important enough to be outside after dark.",
+    "tr": "#29#$002Siz bile hava karardıktan sonra dışarıda dolaşabilecek kadar önemli değilsiniz."
+  },
+  {
+    "id": 390,
+    "en": "#2C#$003Dear, dear, Mr. Potter.",
+    "tr": "#2C#$003Vah vah, Bay Potter."
+  },
+  {
+    "id": 391,
+    "en": "#2F#$004Who's there?",
+    "tr": "#2F#$004Kim var orada?"
+  },
+  {
+    "id": 392,
+    "en": "#32#$001Nice one, Harry... I'll meet you at Hagrid's - good luck!!",
+    "tr": "#32#$001Harika, Harry... Seninle Hagrid'in kulübesinde buluşuruz, bol şans!!"
+  },
+  {
+    "id": 393,
+    "en": "#35#$005See anyone, Mr. Filch?",
+    "tr": "#35#$005Birini gördünüz mü, Bay Filch?"
+  },
+  {
+    "id": 394,
+    "en": "#38#$007I know you're there...",
+    "tr": "#38#$007Orada olduğunuzu biliyorum..."
+  },
+  {
+    "id": 395,
+    "en": "#3B#$002This pressure pad has a different image on it... and there are no objects to charm.",
+    "tr": "#3B#$002Bu baskı plakasının üzerinde farklı bir resim var... ve büyüleyecek hiçbir nesne yok."
+  },
+  {
+    "id": 396,
+    "en": "#3E#$003We\\u00b8ve always known that Hagrid was expelled. The attacks must've stopped after he was kicked out.",
+    "tr": "#3E#$003Hagrid'in okuldan atıldığını her zaman biliyorduk. Saldırılar o kovulduktan sonra durmuş olmalı."
+  },
+  {
+    "id": 397,
+    "en": "#41#$001Riddle might have got the wrong person.  Maybe it was some other monster that was attacking people.",
+    "tr": "#41#$001Riddle yanlış kişinin peşine düşmüş olabilir. Belki de insanlara saldıran başka bir canavardı."
+  },
+  {
+    "id": 398,
+    "en": "#44#$004I'm going to go to the library and see if I can find information on Tom Riddle.  And while I'm there why don\\u00b8t both of you go and see Hagrid and ask him what happened?",
+    "tr": "#44#$004Ben kütüphaneye gidip Tom Riddle hakkında bilgi bulabilecek miyim bakacağım. Ben oradayken siz ikiniz neden gidip Hagrid'e ne olduğunu sormuyorsunuz?"
+  },
+  {
+    "id": 399,
+    "en": "#47#$002Hagrid would never have meant to kill anybody.",
+    "tr": "#47#$002Hagrid asla birini öldürmek istemezdi."
+  },
+  {
+    "id": 400,
+    "en": "#4A#$001Harry Potter, the grounds are off limits after dark...",
+    "tr": "#4A#$001Harry Potter, hava karardıktan sonra bahçeye çıkmak yasaktır..."
+  },
+  {
+    "id": 401,
+    "en": "#4D#$002You disappoint me, Harry, you know the rules.",
+    "tr": "#4D#$002Beni hayal kırıklığına uğratıyorsun Harry, kuralları biliyorsun."
+  },
+  {
+    "id": 402,
+    "en": "#50#$003Go back to your Common Room before I start deducting house points.",
+    "tr": "#50#$003Bina puanlarını kırmaya başlamadan önce Ortak Odanıza dönün."
+  },
+  {
+    "id": 403,
+    "en": "#53#$004Who's there?",
+    "tr": "#53#$004Kim var orada?"
+  },
+  {
+    "id": 404,
+    "en": "#56#$005Reveal yourself!",
+    "tr": "#56#$005Çık ortaya!"
+  },
+  {
+    "id": 405,
+    "en": "#59#$001You made it then, Harry.  Shh \\u00b5 someone\\u00b8s talking to Hagrid...",
+    "tr": "#59#$001Gelebildin demek Harry. Şşşt... biri Hagrid'le konuşuyor..."
+  },
+  {
+    "id": 406,
+    "en": "#5C#$003That must be Cornelius Fudge. He\\u00b8s the Minister of Magic, my dad's boss!",
+    "tr": "#5C#$003Bu Cornelius Fudge olmalı. Sihir Bakanı, babamın patronu!"
+  },
+  {
+    "id": 407,
+    "en": "#5F#$012All right, be careful Harry, I'll go and tell Hermione what we've heard...",
+    "tr": "#5F#$012Pekala, dikkatli ol Harry, ben gidip duyduklarımızı Hermione'ye anlatayım..."
+  },
+  {
+    "id": 408,
+    "en": "#63#$002Yet again, Cornelius, I tell you that taking Hagrid away will not help in the slightest.",
+    "tr": "#63#$002Sana bir kez daha söylüyorum Cornelius, Hagrid'i götürmenin zerre kadar faydası olmaz."
+  },
+  {
+    "id": 409,
+    "en": "#66#$005Look at it from my point of view Albus, I'm under a lot of pressure.  Got to be seen to be doing something.  If it turns out it wasn't Hagrid, he'll be back and no more said.",
+    "tr": "#66#$005Bir de benim açımdan bak Albus, büyük baskı altındayım. Bir şeyler yapıyor görünmem gerek. Eğer Hagrid olmadığı ortaya çıkarsa, geri döner ve konu kapanır."
+  },
+  {
+    "id": 410,
+    "en": "#69#$006So, where am I going?",
+    "tr": "#69#$006Şey, nereye gidiyorum ben?"
+  },
+  {
+    "id": 411,
+    "en": "#6C#$007You\\u00b8ll only be going for a short stretch, Hagrid. It\\u00b8s not a punishment, more a precaution.  If someone else is caught, you'll be let out with a full apology...",
+    "tr": "#6C#$007Sadece kısa bir süreliğine gideceksin Hagrid. Bu bir ceza değil, daha çok bir önlem. Başka biri yakalanırsa, hemen salıverilirsin, hem de özür dilenerek..."
+  },
+  {
+    "id": 412,
+    "en": "#6F#$008Not - Azkaban?",
+    "tr": "#6F#$008Yoksa... Azkaban mı?"
+  },
+  {
+    "id": 413,
+    "en": "#72#$009Come along now, Hagrid...",
+    "tr": "#72#$009Gidelim artık Hagrid..."
+  },
+  {
+    "id": 414,
+    "en": "#75#$004Quiet, Ron...",
+    "tr": "#75#$004Sessiz ol, Ron..."
+  },
+  {
+    "id": 415,
+    "en": "#78#$011Ron look at all the spiders, I'm going to follow them.",
+    "tr": "#78#$011Ron şu örümceklere bak, onları takip edeceğim."
+  },
+  {
+    "id": 416,
+    "en": "#7B#$006No.",
+    "tr": "#7B#$006Hayır."
+  },
+  {
+    "id": 417,
+    "en": "#7E#$010If anyone wanted ter find out some stuff, all they'd have ter do would be ter follow the spiders.  That'd lead 'em right!  That's all I'm saying.",
+    "tr": "#7E#$010Biri bi şeyler öğrenmek isteseydi, tek yapması gereken örümcekleri takip etmek olurdu. Onlar doğru yola götürürdü! Hepsi bu kadar."
+  },
+  {
+    "id": 418,
+    "en": "#0#$035You need to collect the speed boosts Harry.",
+    "tr": "#0#$035Hız takviyelerini toplaman gerek Harry."
+  },
+  {
+    "id": 419,
+    "en": "$001Continue Game?",
+    "tr": "$001Oyuna Devam Edilsin mi?"
+  },
+  {
+    "id": 420,
+    "en": "#3#$003Looks like we found the train, Ron!",
+    "tr": "#3#$003Treni bulduk galiba, Ron!"
+  },
+  {
+    "id": 421,
+    "en": "#6#$004Try not to scratch the paintwork or my dad\\u00b8ll kill me!",
+    "tr": "#6#$004Boyayı çizmemeye çalış yoksa babam beni öldürür!"
+  },
+  {
+    "id": 422,
+    "en": "#9#$006Pick up the $Speed $Boosts to stay ahead of the train. And watch out for any obstacles!",
+    "tr": "#9#$006Trenin önünde kalmak için $Hız $Takviyelerini topla. Ve engellere dikkat et!"
+  },
+  {
+    "id": 423,
+    "en": "#C#$005We must be near the end of these tunnels.",
+    "tr": "#C#$005Bu tünellerin sonuna yaklaşmış olmalıyız."
+  },
+  {
+    "id": 424,
+    "en": "#F#$001Looks like we've lost the train. Let\\u00b8s check out that tunnel.",
+    "tr": "#F#$001Treni gözden kaçırdık galiba. Şu tünele bir bakalım."
+  },
+  {
+    "id": 425,
+    "en": "#13#$002Keep going, Harry, we've got to reach the end of the tunnel soon.",
+    "tr": "#13#$002Devam et Harry, yakında tünelin sonuna varmalıyız."
+  },
+  {
+    "id": 426,
+    "en": "#3#$007Dorcas Wellbeloved",
+    "tr": "#3#$007Dorcas Wellbeloved"
+  },
+  {
+    "id": 427,
+    "en": "#7#$001Excellent, you got a Famous Witches and Wizards card.",
+    "tr": "#7#$001Mükemmel, bir Ünlü Cadı ve Büyücü kartı kazandın."
+  },
+  {
+    "id": 428,
+    "en": "#A#$003Almost there Harry!",
+    "tr": "#A#$003Neredeyse geldik Harry!"
+  },
+  {
+    "id": 429,
+    "en": "#D#$002We're almost there, Harry. Collect the $Pickups to repair some of the damage the car has taken.",
+    "tr": "#D#$002Neredeyse geldik Harry. Arabanın aldığı hasarın bir kısmını onarmak için $Eşyaları topla."
+  },
+  {
+    "id": 430,
+    "en": "#0#$030Hhhhelp!!",
+    "tr": "#0#$030İiiimdat!!"
+  },
+  {
+    "id": 431,
+    "en": "#3#$031Get closer to the tree Harry",
+    "tr": "#3#$031Ağaca daha da yaklaş Harry"
+  },
+  {
+    "id": 432,
+    "en": "#6#$033Shoot it in the mouth Harry.",
+    "tr": "#6#$033Ağzından vur onu Harry."
+  },
+  {
+    "id": 433,
+    "en": "#9#$062Charge up your jinx before moving close to the tree Harry.",
+    "tr": "#9#$062Ağaca yaklaşmadan önce büyünü iyice doldur Harry."
+  },
+  {
+    "id": 434,
+    "en": "#D#$005Excellent, Harry! There's Hogwarts. Try and land the car in the castle grounds.",
+    "tr": "#D#$005Harika Harry! İşte Hogwarts. Arabayı şatonun bahçesine indirmeye çalış."
+  },
+  {
+    "id": 435,
+    "en": "#10#$001Phew!  That was really close. I didn't think we'd make it out of the tunnel.",
+    "tr": "#10#$001Oof! Çok ucuz atlattık. Tünelden çıkabileceğimizi hiç sanmıyordum."
+  },
+  {
+    "id": 436,
+    "en": "#14#$007MIND THAT TREE!!",
+    "tr": "#14#$007AĞACA DİKKAT ET!!"
+  },
+  {
+    "id": 437,
+    "en": "#17#$001Help!!  I can't get out!",
+    "tr": "#17#$001İmdat!! Çıkamıyorum!"
+  },
+  {
+    "id": 438,
+    "en": "#1A#$002Harry, you need to get close to the tree and cast a spell at what looks like its mouth!",
+    "tr": "#1A#$002Harry, ağaca yaklaşıp ağzı gibi görünen yere büyü yapman gerek!"
+  },
+  {
+    "id": 439,
+    "en": "#1D#$006There\\u00b8s something wrong with the car, I don't have control anymore!",
+    "tr": "#1D#$006Arabada bir gariplik var, artık kontrol edemiyorum!"
+  },
+  {
+    "id": 440,
+    "en": "#0#$003Ignatia Wildsmith",
+    "tr": "#0#$003Ignatia Wildsmith"
+  },
+  {
+    "id": 441,
+    "en": "#3#$005Greta Catchlove",
+    "tr": "#3#$005Greta Catchlove"
+  },
+  {
+    "id": 442,
+    "en": "#6#$014Chauncey Oldridge",
+    "tr": "#6#$014Chauncey Oldridge"
+  },
+  {
+    "id": 443,
+    "en": "#9#$023Herpo the Foul",
+    "tr": "#9#$023Herpo the Foul"
+  },
+  {
+    "id": 444,
+    "en": "#C#$001Paracelsus",
+    "tr": "#C#$001Paracelsus"
+  },
+  {
+    "id": 445,
+    "en": "$003< Colin's photo album",
+    "tr": "$003< Colin'in fotoğraf albümü"
+  },
+  {
+    "id": 446,
+    "en": "#10#$015Godric Gryffindor",
+    "tr": "#10#$015Godric Gryffindor"
+  },
+  {
+    "id": 447,
+    "en": "#15#$002Behind us is a statue.  You can use it to find the entrances to the secret $Founder $Duels.",
+    "tr": "#15#$002Arkamızda bir heykel var. Gizli $Kurucu $Düellolarının girişlerini bulmak için onu kullanabilirsin."
+  },
+  {
+    "id": 448,
+    "en": "#18#$003Defeat each founder house duellist to win a Hogwarts $Founder $Famous $Witches $and $Wizards $card.  Collect them all and you can enter the special Founders' Tower.",
+    "tr": "#18#$003Bir Hogwarts $Kurucu $Ünlü $Cadı $ve $Büyücü $kartı kazanmak için her kurucu binanın düellocusunu yen. Hepsini topla ve özel Kurucular Kulesi'ne gir."
+  },
+  {
+    "id": 449,
+    "en": "#1B#$005That's where you come in, Harry.  We think you have the potential to defeat every duellist and win all the $Founders\\u00b8 $Wizard $cards.",
+    "tr": "#1B#$005İşte tam burada sen devreye giriyorsun Harry. Her düellocuyu yenip tüm $Kurucuların $Büyücü $kartlarını kazanabilecek yeteneğe sahip olduğunu düşünüyoruz."
+  },
+  {
+    "id": 450,
+    "en": "#1E#$007Everyone knows that finding $Famous $Witches $and $Wizards $cards can be very difficult.  So we're willing to sell you five of them, Harry.",
+    "tr": "#1E#$007$Ünlü $Cadı $ve $Büyücü $kartlarını bulmanın çok zor olduğunu herkes bilir. Bu yüzden sana beş tanesini satmaya hazırız Harry."
+  },
+  {
+    "id": 451,
+    "en": "$001Herbology Race Cup",
+    "tr": "$001Bitkibilim Yarış Kupası"
+  },
+  {
+    "id": 452,
+    "en": "$003Defence Against the Dark Arts Race Cup",
+    "tr": "$003Karanlık Sanatlara Karşı Savunma Yarış Kupası"
+  },
+  {
+    "id": 453,
+    "en": "$004Defence Against the Dart Arts Lesson Cup",
+    "tr": "$004Karanlık Sanatlara Karşı Savunma Ders Kupası"
+  },
+  {
+    "id": 454,
+    "en": "$002Herbology Lesson Cup",
+    "tr": "$002Bitkibilim Ders Kupası"
+  },
+  {
+    "id": 455,
+    "en": "#21#$002Brilliant! You have 50 $Every $Flavour $Beans!  Have a $Famous $Witches $and $Wizards $card.",
+    "tr": "#21#$002Harika! 50 $Binbir $Çeşit $Fasulyen var! Al bakalım bir $Ünlü $Cadı $ve $Büyücü $kartı."
+  },
+  {
+    "id": 456,
+    "en": "#24#$001Sorry Harry, but If you want a $Famous $Witches $and $Wizards $card you'll have to give us $50 $Every $Flavour $Beans.",
+    "tr": "#24#$001Kusura bakma Harry, ama bir $Ünlü $Cadı $ve $Büyücü $kartı istiyorsan bize $50 $Binbir $Çeşit $Fasulye vermelisin."
+  },
+  {
+    "id": 457,
+    "en": "#27#$003Sorry Harry, but if you want more $Famous $Witches $and $Wizards $cards then you'll have to find them hidden around $Hogwarts!",
+    "tr": "#27#$003Kusura bakma Harry, ama daha fazla $Ünlü $Cadı $ve $Büyücü $kartı istiyorsan onları $Hogwarts etrafında gizlenmiş olarak bulman gerek!"
+  },
+  {
+    "id": 458,
+    "en": "#2A#$001Harry, Ron. I'm sorry, but this will be a bit of a shock... There has been another attack.",
+    "tr": "#2A#$001Harry, Ron. Üzgünüm ama bu biraz sarsıcı olacak... Bir saldırı daha oldu."
+  },
+  {
+    "id": 459,
+    "en": "#2D#$003I am very sorry, but your friend, Miss Granger, was found petrified near the library. I have asked all students to remain in their house Common Rooms.",
+    "tr": "#2D#$003Çok üzgünüm ama arkadaşınız Granger kütüphanenin yakınında taşlaşmış halde bulundu. Tüm öğrencilerden binalarının Ortak Odalarında kalmalarını istedim."
+  },
+  {
+    "id": 460,
+    "en": "#30#$003I also have some rather bad news for you in particular, Mr. Weasley.  I'm sorry to tell you that your sister, Ginny, has gone missing. The suspicion is that she has been taken into the $Chamber $of $Secrets.",
+    "tr": "#30#$003Ayrıca özellikle sizin için de oldukça kötü bir haberim var Bay Weasley. Kız kardeşiniz Ginny'nin kaybolduğunu üzülerek bildiriyorum. $Sırlar $Odası'na götürüldüğünden şüpheleniliyor."
+  },
+  {
+    "id": 461,
+    "en": "#33#$002Oh, no - who?",
+    "tr": "#33#$002Olamaz... kim?"
+  },
+  {
+    "id": 462,
+    "en": "#36#$002Aragog mentioned that the last time the $Chamber $of $Secrets was opened a girl was found dead in a bathroom...what if she never left that bathroom? What if she's still there?",
+    "tr": "#36#$002Aragog, $Sırlar $Odası en son açıldığında bir kızın tuvalette ölü bulunduğundan bahsetmişti... Ya o tuvaletten hiç ayrılmadıysa? Ya hala oradaysa?"
+  },
+  {
+    "id": 463,
+    "en": "#39#$004Go to the $girls' $bathroom, Ron, and find Moaning Myrtle.  I'm going to find Lockhart.",
+    "tr": "#39#$004$Kızlar $tuvaletine git Ron ve Mızmız Myrtle'ı bul. Ben de Lockhart'ı bulmaya gidiyorum."
+  },
+  {
+    "id": 464,
+    "en": "#3C#$006He's the $Defence $Against $the $Dark $Arts teacher, and whatever's attacking people is definitely involved in the dark arts!",
+    "tr": "#3C#$006O, $Karanlık $Sanatlara $Karşı $Savunma öğretmeni ve insanlara saldıran her neyse kesinlikle karanlık sanatlarla ilgili!"
+  },
+  {
+    "id": 465,
+    "en": "#3F#$001Oh, no - what are we going to do?",
+    "tr": "#3F#$001Olamaz... ne yapacağız?"
+  },
+  {
+    "id": 466,
+    "en": "#42#$003Moaning Myrtle!",
+    "tr": "#42#$003Mızmız Myrtle!"
+  },
+  {
+    "id": 467,
+    "en": "#45#$005Lockhart - why?",
+    "tr": "#45#$005Lockhart mı... neden?"
+  },
+  {
+    "id": 468,
+    "en": "#48#$007Okay - I'll meet you in the $girls' $bathroom.",
+    "tr": "#48#$007Tamam, seninle $kızlar $tuvaletinde buluşuruz."
+  },
+  {
+    "id": 469,
+    "en": "#4B#$013Ginny will be alright won't she, Harry?",
+    "tr": "#4B#$013Ginny iyi olacak değil mi Harry?"
+  },
+  {
+    "id": 470,
+    "en": "#4E#$014Don't worry Ron, we'll rescue her... and then I'll close the Chamber of Secrets for good.",
+    "tr": "#4E#$014Endişelenme Ron, onu kurtaracağız... sonra da Sırlar Odası'nı temelli kapatacağım."
+  },
+  {
+    "id": 471,
+    "en": "#51#$006Now that you have defeated the basilisk and saved us all, you should have a look at my magic $photo $album.",
+    "tr": "#51#$006Madem basiliski yendin ve hepimizi kurtardın, sihirli $fotoğraf $albümüme bir bakmalısın."
+  },
+  {
+    "id": 472,
+    "en": "#54#$007My photos aren't like ordinary photographs - my photos are magic! Maybe you could use them to collect any $Famous $Witches and $Wizards $cards you've missed.",
+    "tr": "#54#$007Benim fotoğraflarım sıradan fotoğraflar gibi değildir; sihirli fotoğraflardır! Belki kaçırdığın $Ünlü $Cadı ve $Büyücü $kartlarını toplamak için onları kullanabilirsin."
+  },
+  {
+    "id": 473,
+    "en": "#0#$001Harry Potter's first year at Hogwarts School of Witchcraft and Wizardry was very eventful indeed.",
+    "tr": "#0#$001Harry Potter'ın Hogwarts Cadılık ve Büyücülük Okulu'ndaki ilk yılı gerçekten de çok hareketli geçmişti."
+  },
+  {
+    "id": 474,
+    "en": "#3#$002Along with his friends, Ron Weasley and Hermione Granger, Harry had managed to defeat Lord Voldemort, the greatest dark sorcerer of all time.",
+    "tr": "#3#$002Harry, arkadaşları Ron Weasley ve Hermione Granger ile birlikte tüm zamanların en büyük karanlık büyücüsü Lord Voldemort'u yenmeyi başarmıştı."
+  },
+  {
+    "id": 475,
+    "en": "#6#$003But now Harry was back at number four Privet Drive.  He was often locked in his room and even though he was a wizard, he couldn\\u00b8t escape because he wasn\\u00b8t allowed to use magic.",
+    "tr": "#6#$003Ama Harry şimdi Privet Drive 4 numaraya geri dönmüştü. Sık sık odasına kilitleniyordu ve bir büyücü olmasına rağmen kaçamıyordu, çünkü büyü yapmasına izin yoktu."
+  },
+  {
+    "id": 476,
+    "en": "#9#$140Then, one evening towards the end of the summer holidays, a house-elf named Dobby appeared...",
+    "tr": "#9#$140Derken, yaz tatilinin sonlarına doğru bir akşam, Dobby adında bir ev cini ortaya çıktı..."
+  },
+  {
+    "id": 477,
+    "en": "#C#$004Dobby warned Harry not to return to Hogwarts.",
+    "tr": "#C#$004Dobby, Harry'yi Hogwarts'a dönmemesi konusunda uyardı."
+  },
+  {
+    "id": 478,
+    "en": "#F#$005Harry Potter must not go back to Hogwarts!  If Harry Potter goes back, he will be in mortal danger! There is a plot, Harry Potter.  A plot to make most terrible things happen.",
+    "tr": "#F#$005Harry Potter Hogwarts'a dönmemeli! Harry Potter geri dönerse ölüm tehlikesiyle karşılaşacak! Bir komplo var, Harry Potter. En korkunç şeylerin gerçekleşmesi için kurulmuş bir komplo."
+  },
+  {
+    "id": 479,
+    "en": "#12#$006Dobby disappeared and shortly after, Ron Weasley and his brothers, Fred and George, arrived in a flying Ford Anglia to rescue Harry from his prison.",
+    "tr": "#12#$006Dobby ortadan kayboldu ve kısa bir süre sonra Ron Weasley ile ağabeyleri Fred ve George, Harry'yi tutsaklığından kurtarmak için uçan bir Ford Anglia ile çıkageldiler."
+  },
+  {
+    "id": 480,
+    "en": "#15#$007Harry told them all about Dobby\\u00b8s warning.",
+    "tr": "#15#$007Harry onlara Dobby'nin uyarısından bahsetti."
+  },
+  {
+    "id": 481,
+    "en": "#18#$021Harry had no idea where he was.  All he could tell was that he wasn\\u00b8t in Diagon Alley.  Evil-looking masks stared down from the wall and rusty, spiked instruments hung from the ceiling.",
+    "tr": "#18#$021Harry nerede olduğuna dair hiçbir fikre sahip değildi. Tek bildiği Diagon Yolu'nda olmadığıydı. Duvardan aşağı kötücül maskeler bakıyor, tavandan paslı ve sivri uçlu aletler sarkıyordu."
+  },
+  {
+    "id": 482,
+    "en": "#1B#$022The sooner I get out of here, the better...",
+    "tr": "#1B#$022Buradan ne kadar çabuk çıkarsam o kadar iyi..."
+  },
+  {
+    "id": 483,
+    "en": "#1E#$023Harry heard a noise from the door nearby-",
+    "tr": "#1E#$023Harry hemen yakındaki kapıdan bir ses duydu-"
+  },
+  {
+    "id": 484,
+    "en": "#21#$024-and two blurry shapes appeared on the other side of the glass.",
+    "tr": "#21#$024-ve camın diğer tarafında iki bulanık siluet belirdi."
+  },
+  {
+    "id": 485,
+    "en": "#24#$025Harry looked quickly around and spotted a large black cabinet. He shot inside it and pulled the doors closed, leaving a small crack to peer through.  Seconds later, a bell clanged-",
+    "tr": "#24#$025Harry hızla etrafına bakındı ve büyük, siyah bir dolap gördü. Hemen içine dalıp dışarıyı görebileceği küçük bir aralık bırakarak kapakları kapattı. Birkaç saniye sonra bir çıngırak çaldı-"
+  },
+  {
+    "id": 486,
+    "en": "#27#$026-and Draco Malfoy stepped into the shop.",
+    "tr": "#27#$026-ve Draco Malfoy dükkana adım attı."
+  },
+  {
+    "id": 487,
+    "en": "#2A#$027The man who was with Draco could only be his father, Lucius Malfoy.",
+    "tr": "#2A#$027Draco'nun yanındaki adam ancak babası Lucius Malfoy olabilirdi."
+  },
+  {
+    "id": 488,
+    "en": "#2D#$028Touch nothing Draco.",
+    "tr": "#2D#$028Hiçbir şeye dokunma Draco."
+  },
+  {
+    "id": 489,
+    "en": "$029Not Used",
+    "tr": "$029Kullanılmıyor"
+  },
+  {
+    "id": 490,
+    "en": "$030Not Used",
+    "tr": "$030Kullanılmıyor"
+  },
+  {
+    "id": 491,
+    "en": "#30#$031Mr. Malfoy was trying to sell the shopkeeper certain dark magical items that he didn\\u00b8t want the Ministry of Magic to find out about.",
+    "tr": "#30#$031Bay Malfoy, Sihir Bakanlığı'nın öğrenmesini istemediği bazı karanlık büyü eşyalarını dükkan sahibine satmaya çalışıyordu."
+  },
+  {
+    "id": 492,
+    "en": "#33#$141With the deal complete, the Malfoys left the shop giving Harry the opportunity to sneak outside and into Diagon Alley.",
+    "tr": "#33#$141Anlaşma tamamlanınca Malfoylar dükkandan ayrıldı; bu da Harry'ye dışarı süzülüp Diagon Yolu'na çıkma fırsatı verdi."
+  },
+  {
+    "id": 493,
+    "en": "#36#$032Harry went to Flourish and Blotts to buy his books.  While he was in there, Gilderoy Lockhart, Hogwarts new Defence Against the Dark Arts teacher, was signing his latest book.",
+    "tr": "#36#$032Harry kitaplarını almak için Flourish ve Blotts'a gitti. O içerideyken Hogwarts'ın yeni Karanlık Sanatlara Karşı Savunma öğretmeni Gilderoy Lockhart son kitabını imzalıyordu."
+  },
+  {
+    "id": 494,
+    "en": "#39#$142When he saw the famous Harry Potter, Lockhart dragged him over for a joint photograph.",
+    "tr": "#39#$142Ünlü Harry Potter'ı gören Lockhart, birlikte fotoğraf çektirmek için onu yanına çekti."
+  },
+  {
+    "id": 495,
+    "en": "#3C#$033Nice big smile, Harry.  Together, you and I are worth the front page.",
+    "tr": "#3C#$033Şöyle kocaman gülümse bakalım Harry. Sen ve ben birlikte ön sayfaya layığız."
+  },
+  {
+    "id": 496,
+    "en": "#3F#$034Harry met up with Ron and Ginny Weasley. Lucius and Draco Malfoy were also there...",
+    "tr": "#3F#$034Harry, Ron ve Ginny Weasley ile buluştu. Lucius ve Draco Malfoy da oradaydı..."
+  },
+  {
+    "id": 497,
+    "en": "#42#$043By the time Harry and Ron had escaped from the Whomping Willow, the Sorting Ceremony had already begun.",
+    "tr": "#42#$043Harry ile Ron Şamarcı Söğüt'ten kaçmayı başardıklarında, Seçim Töreni çoktan başlamıştı."
+  },
+  {
+    "id": 498,
+    "en": "#45#$144They peered in at the Great Hall and watched as the aged, old Sorting Hat placed new students into the four Hogwarts Houses, as it had for so many years past.",
+    "tr": "#45#$144Büyük Salon'a göz attılar ve yaşlı Seçmen Şapka'nın, yıllardır yaptığı gibi yeni öğrencileri dört Hogwarts Binasına yerleştirmesini izlediler."
+  },
+  {
+    "id": 499,
+    "en": "#48#$044Harry remembered putting the Sorting Hat on a year ago, and for a few horrible seconds he had feared the hat was going to put him into Slytherin, along with Draco Malfoy.",
+    "tr": "#48#$044Harry bir yıl önce Seçmen Şapka'yı taktığını hatırladı; o birkaç korkunç saniye boyunca şapkanın kendisini Draco Malfoy ile birlikte Slytherin'e yerleştireceğinden korkmuştu."
+  },
+  {
+    "id": 500,
+    "en": "#4B#$045Not Slytherin, eh?  Well, if you\\u00b8re sure \\u00b5 better be GRYFFINDOR!",
+    "tr": "#4B#$045Slytherin olmasın, ha? Madem eminsin... GRYFFINDOR olsun öyleyse!"
+  },
+  {
+    "id": 501,
+    "en": "#4E#$046But, of course, he had ended up in Gryffindor, along with Ron and Hermione.  As they watched the Sorting, Harry noticed that at least one teacher was missing from the staff table.",
+    "tr": "#4E#$046Ama elbette, Ron ve Hermione ile birlikte Gryffindor'a yerleşmişti. Seçimi izlerlerken Harry, öğretmenler masasında en az bir öğretmenin eksik olduğunu fark etti."
+  },
+  {
+    "id": 502,
+    "en": "#51#$047Hang on... Where\\u00b8s Snape?",
+    "tr": "#51#$047Bir dakika... Snape nerede?"
+  },
+  {
+    "id": 503,
+    "en": "#54#$048And then, from behind him, came the voice Harry dreaded to hear...",
+    "tr": "#54#$048Ve tam o sırada, arkasından Harry'nin duymaktan en çok korktuğu ses geldi..."
+  },
+  {
+    "id": 504,
+    "en": "#57#$049It was Professor Snape, Harry\\u00b8s least favourite teacher.",
+    "tr": "#57#$049Bu, Harry'nin hiç sevmediği öğretmeni Profesör Snape'ti."
+  },
+  {
+    "id": 505,
+    "en": "#5B#$008Very fishy.  I reckon old Dobby was sent as someone\\u00b8s idea of a joke.  Can you think of anyone at school with a grudge against you?",
+    "tr": "#5B#$008Çok şüpheli bir durum. Bence bizim ihtiyar Dobby'yi birisi eşek şakası olsun diye gönderdi. Okulda sana kin besleyen birini hatırlıyor musun?"
+  },
+  {
+    "id": 506,
+    "en": "#5E#$009Draco Malfoy.",
+    "tr": "#5E#$009Draco Malfoy."
+  },
+  {
+    "id": 507,
+    "en": "#61#$010Eventually, they landed at Ron\\u00b8s house \\u00b5 the Burrow.",
+    "tr": "#61#$010Sonunda Ron'un evine, Kovuk'a indiler."
+  },
+  {
+    "id": 508,
+    "en": "#64#$011Touchdown!",
+    "tr": "#64#$011Ve indik!"
+  },
+  {
+    "id": 509,
+    "en": "#67#$012Ron\\u00b8s mother, Molly Weasley, marched across the yard and came to a halt in front of them.  She didn\\u00b8t look pleased...",
+    "tr": "#67#$012Ron'un annesi Molly Weasley avluyu hızla geçip önlerinde durdu. Hiç de memnun görünmüyordu..."
+  },
+  {
+    "id": 510,
+    "en": "#6A#$013Beds empty!  No note!  Car gone \\u00b5 out of my mind with worry!",
+    "tr": "#6A#$013Yataklar boş! Not yok! Araba gitmiş... Meraktan deliye döndüm!"
+  },
+  {
+    "id": 511,
+    "en": "#6D#$014It seemed to go on for hours and Mrs. Weasley had shouted herself hoarse before she turned to Harry.",
+    "tr": "#6D#$014Bu durum saatlerce sürdü sanki; Bayan Weasley sesi kısılana kadar bağırdıktan sonra Harry'ye döndü."
+  },
+  {
+    "id": 512,
+    "en": "#70#$015Very pleased to see you, Harry dear.",
+    "tr": "#70#$015Seni gördüğüme çok sevindim, Harry canım."
+  },
+  {
+    "id": 513,
+    "en": "#73#$035Famous Harry Potter.  Can\\u00b8t even go into a bookshop, without making the front page.",
+    "tr": "#73#$035Ünlü Harry Potter. Ön sayfaya çıkmadan bir kitapçıya bile giremiyor."
+  },
+  {
+    "id": 514,
+    "en": "#76#$036Ginny, who was very fond of Harry, defended him.",
+    "tr": "#76#$036Harry'ye çok düşkün olan Ginny onu savundu."
+  },
+  {
+    "id": 515,
+    "en": "#79#$037Leave him alone, he didn\\u00b8t want all that!",
+    "tr": "#79#$037Rahat bırak onu, o böyle bir şey istemedi ki!"
+  },
+  {
+    "id": 516,
+    "en": "#7C#$038Lucius Malfoy insulted the scruffy state of the second-hand books Ginny had bought.",
+    "tr": "#7C#$038Lucius Malfoy, Ginny'nin aldığı ikinci el kitapların hırpani haliyle alay etti."
+  },
+  {
+    "id": 517,
+    "en": "#7F#$039I suppose those books are the best your father can give you...",
+    "tr": "#7F#$039Sanırım babanın sana alabileceği en iyi kitaplar bunlar..."
+  },
+  {
+    "id": 518,
+    "en": "#82#$040Lucius plucked a copy of \\u00b7A Beginner\\u00b8s Guide to Transformation\\u00b8 from Ginny\\u00b8s cauldron, examined it briefly, and then replaced it.",
+    "tr": "#82#$040Lucius, Ginny'nin kazanından 'Başkalaşıma Yeni Başlayanlar İçin Rehber' kitabını çekip çıkardı, kısaca inceledi ve yerine geri koydu."
+  },
+  {
+    "id": 519,
+    "en": "#85#$041No one at that time realised how much of an effect this gesture from Lucius Malfoy would have on their lives, and they all left the shop, none the wiser.",
+    "tr": "#85#$041O sırada hiç kimse Lucius Malfoy'un bu hareketinin hayatlarını ne kadar derinden etkileyeceğini fark etmemişti; hiçbir şeyden habersiz dükkandan ayrıldılar."
+  },
+  {
+    "id": 520,
+    "en": "#88#$050I\\u00b8m waiting to hear why you two didn\\u00b8t arrive on the school train.",
+    "tr": "#88#$050Siz ikinizin neden okul treniyle gelmediğinizi duymayı bekliyorum."
+  },
+  {
+    "id": 521,
+    "en": "#8B#$051It was a great start to the term, thought Harry, as they followed Snape to his office.  Once there, Snape nastily admonished them about flying the car to Hogwarts.",
+    "tr": "#8B#$051Snape'in peşinden ofisine doğru giderken, döneme harika bir başlangıç yaptık diye düşündü Harry. Oraya vardıklarında Snape, Hogwarts'a arabayla uçtukları için onları fena halde azarladı."
+  },
+  {
+    "id": 522,
+    "en": "#8E#$052You will go immediately to your Common Room and I will think about how to punish you.",
+    "tr": "#8E#$052Derhal Ortak Odanıza gideceksiniz, ben de sizi nasıl cezalandıracağımı düşüneceğim."
+  },
+  {
+    "id": 523,
+    "en": "#91#$053Harry and Ron stood outside Snape\\u00b8s office...",
+    "tr": "#91#$053Harry ve Ron, Snape'in ofisinin dışında durdular..."
+  },
+  {
+    "id": 524,
+    "en": "#94#$054The voice was growing fainter and Harry was sure it was moving away - moving upwards. He began to run, his stomach lurching.",
+    "tr": "#94#$054Ses giderek zayıflıyordu ve Harry sesin uzaklaştığından, yukarıya doğru gittiğinden emindi. Midesi düğümlenerek koşmaya başladı."
+  },
+  {
+    "id": 525,
+    "en": "#97#$055Something was shining on the wall ahead.  Harry approached slowly, squinting through the darkness.",
+    "tr": "#97#$055İlerideki duvarda bir şey parlıyordu. Harry karanlığın içinde gözlerini kısarak yavaşça yaklaştı."
+  },
+  {
+    "id": 526,
+    "en": "#9A#$056Mrs. Norris, Filch\\u00b8s cat, was hanging by her tail from a torch bracket.  She was as stiff as a board, her eyes wide and staring.",
+    "tr": "#9A#$056Filch'in kedisi Mrs. Norris, meşale demirine kuyruğundan asılmıştı. Tahta gibi kaskatıydı, gözleri faltaşı gibi açılmış, öylece bakıyordu."
+  },
+  {
+    "id": 527,
+    "en": "#9D#$057Foot-high words had been daubed on the wall above the petrified cat.  Harry shuddered as he read them...",
+    "tr": "#9D#$057Taşlaşmış kedinin üzerindeki duvara bir karış boyunda harflerle bir yazı karalanmıştı. Harry yazıyı okurken ürperdi..."
+  },
+  {
+    "id": 528,
+    "en": "#A0#$058The Chamber of Secrets has been opened.  Enemies of the Heir, beware.",
+    "tr": "#A0#$058Sırlar Odası açıldı. Varisin düşmanları, kendinizi kollayın."
+  },
+  {
+    "id": 529,
+    "en": "#A3#$059Before Harry could leave, several people appeared in the corridor.  When Filch saw Mrs. Norris he screeched accusingly at Harry.",
+    "tr": "#A3#$059Harry uzaklaşamadan koridorda birkaç kişi belirdi. Filch Mrs. Norris'i görünce suçlayıcı bir sesle Harry'ye doğru çığlık attı."
+  },
+  {
+    "id": 530,
+    "en": "#A6#$060You!  You\\u00b8ve murdered my cat!  You\\u00b8ve killed her!",
+    "tr": "#A6#$060Sen! Kedimi katlettin! Onu öldürdün!"
+  },
+  {
+    "id": 531,
+    "en": "#A9#$061And then Draco Malfoy shouted out to everyone gathered.",
+    "tr": "#A9#$061Ve ardından Draco Malfoy toplanan herkese doğru bağırdı."
+  },
+  {
+    "id": 532,
+    "en": "#AC#$062Enemies of the Heir, beware!  You\\u00b8ll be next, Mudbloods!",
+    "tr": "#AC#$062Varisin düşmanları, kendinizi kollayın! Sıradaki sizsiniz, Bulanıklar!"
+  },
+  {
+    "id": 533,
+    "en": "#AF#$063Professor Dumbledore calmed everyone down and sent them all to bed.",
+    "tr": "#AF#$063Profesör Dumbledore herkesi sakinleştirdi ve hepsini yatmaya gönderdi."
+  },
+  {
+    "id": 534,
+    "en": "#B2#$064Ron reckoned that he had an idea who the Heir of Slytherin was and both he and Harry went to meet Hermione in the library.",
+    "tr": "#B2#$064Ron, Slytherin'in Varisinin kim olduğuna dair bir fikri olduğunu düşündü ve ikisi birlikte kütüphanede Hermione ile buluşmaya gittiler."
+  },
+  {
+    "id": 535,
+    "en": "#B5#$065Harry\\u00b8s arm was hanging at a very strange angle, but in his good hand he held the Snitch.",
+    "tr": "#B5#$065Harry'nin kolu çok garip bir açıyla sarkıyordu, ama sağlam elinde Snitch'i tutuyordu."
+  },
+  {
+    "id": 536,
+    "en": "#B8#$066Aha.  We\\u00b8ve won.",
+    "tr": "#B8#$066Aha. Kazandık."
+  },
+  {
+    "id": 537,
+    "en": "#BB#$067Lockhart told Harry to lie back as he tried to mend his arm with a charm.  A strange and unpleasant sensation started at his shoulder and spread all the way down to his fingertips.",
+    "tr": "#BB#$067Lockhart bir büyüyle kolunu iyileştirmeye çalışırken Harry'ye arkasına yaslanmasını söyledi. Omzundan başlayıp parmak uçlarına kadar yayılan tuhaf ve nahoş bir his duyuldu."
+  },
+  {
+    "id": 538,
+    "en": "#BE#$068His arm didn\\u00b8t hurt anymore \\u00b5 nor did it feel remotely like an arm.",
+    "tr": "#BE#$068Kolu artık acımıyordu... ama uzaktan yakından bir kola da benzemiyordu."
+  },
+  {
+    "id": 539,
+    "en": "#C1#$069Ah.  Yes.  Well, that can sometimes happen.  So, Harry, just toddle up to the hospital wing.  Madam Pomfrey will be able to \\u00b5 er - tidy you up a bit.",
+    "tr": "#C1#$069Ah. Evet. Şey, böyle şeyler bazen olabilir. Harry, sen şimdi doğruca revire git. Madam Pomfrey seni... ııı... biraz toparlayabilir."
+  },
+  {
+    "id": 540,
+    "en": "$070Not Used",
+    "tr": "$070Kullanılmıyor"
+  },
+  {
+    "id": 541,
+    "en": "$145Not Used",
+    "tr": "$145Kullanılmıyor"
+  },
+  {
+    "id": 542,
+    "en": "$071Not Used",
+    "tr": "$071Kullanılmıyor"
+  },
+  {
+    "id": 543,
+    "en": "#C4#$072While he was in the Hospital Wing, Harry heard footsteps coming down the passageway outside...",
+    "tr": "#C4#$072Harry revirdeyken dışarıdaki geçitten gelen ayak sesleri duydu..."
+  },
+  {
+    "id": 544,
+    "en": "#C7#$073The next moment, Dumbledore and McGonagall were backing into the room carrying what looked like a statue.  Together they heaved it on to a bed.",
+    "tr": "#C7#$073Bir an sonra Dumbledore ile McGonagall, heykele benzeyen bir şeyi taşıyarak geri geri odaya girdiler. İkisi birden onu bir yatağın üzerine kaldırdılar."
+  },
+  {
+    "id": 545,
+    "en": "#CA#$146Harry, Ron and Hermione peered across at the statue - it was Colin Creevey. He'd been petrified like Mrs. Norris. Harry overheard Professor McGonagall asking Dumbledore what it could all mean and his reply sent a chill down Harry's spine.",
+    "tr": "#CA#$146Harry, Ron ve Hermione heykele dikkatle baktılar; bu Colin Creevey'ydi. Tıpkı Mrs. Norris gibi taşlaşmıştı. Harry, Profesör McGonagall'ın Dumbledore'a bütün bunların ne anlama gelebileceğini sorduğunu duydu ve aldığı cevap Harry'nin iliklerine kadar ürpermesine yetti."
+  },
+  {
+    "id": 546,
+    "en": "#CD#$074It means that the Chamber of Secrets is indeed open again.",
+    "tr": "#CD#$074Bu, Sırlar Odası'nın gerçekten de yeniden açıldığı anlamına gelir."
+  },
+  {
+    "id": 547,
+    "en": "#D0#$075Hermione whispered to Harry that it was about time he collected together the ingredients for the Polyjuice Potion.",
+    "tr": "#D0#$075Hermione, Harry'ye Çoközlü İksir malzemelerini bir araya toplamanın vaktinin geldiğini fısıldadı."
+  },
+  {
+    "id": 548,
+    "en": "#D3#$076As soon as your arm is better, I think you should go to Diagon Alley.",
+    "tr": "#D3#$076Kolun iyileşir iyileşmez Diagon Yolu'na gitmelisin bence."
+  },
+  {
+    "id": 549,
+    "en": "#D6#$077It was half term by the time Harry\\u00b8s arm was better, and following Hermione\\u00b8s advice, he caught the train to London.",
+    "tr": "#D6#$077Harry'nin kolu iyileştiğinde sömestir tatili gelmişti ve Hermione'nin tavsiyesine uyarak Londra trenine bindi."
+  },
+  {
+    "id": 550,
+    "en": "#D9#$078Harry met Hagrid in Diagon Alley.",
+    "tr": "#D9#$078Harry, Diagon Yolu'nda Hagrid ile karşılaştı."
+  },
+  {
+    "id": 551,
+    "en": "#DC#$081Hissing furiously, the snake slithered towards Justin Finch-Fletchley.  \\u00b7Leave him alone!\\u00b8, Harry shouted.  At least, that was what he thought he\\u00b8d shouted...",
+    "tr": "#DC#$081Yılan öfkeyle tıslayarak Justin Finch-Fletchley'ye doğru kaydı. Harry, 'Bırak onu!' diye bağırdı. En azından bağırdığını sandığı şey buydu..."
+  },
+  {
+    "id": 552,
+    "en": "#DF#$147When he looked up at Justin he was met with an angry look.",
+    "tr": "#DF#$147Justin'e baktığında öfkeli bir bakışla karşılaştı."
+  },
+  {
+    "id": 553,
+    "en": "#E2#$082What do you think you\\u00b8re playing at?",
+    "tr": "#E2#$082Sen ne yaptığını sanıyorsun?"
+  },
+  {
+    "id": 554,
+    "en": "#E5#$083The snake was lying slumped on the floor, docile as a thick, black garden hose \\u00b5 so why was Justin \\u00b5 and everybody else for that matter \\u00b5 regarding him with a look of horror?",
+    "tr": "#E5#$083Yılan, kalın siyah bir bahçe hortumu gibi uysalca yerde yatıyordu... Peki öyleyse neden Justin -ve aslına bakılırsa diğer herkes- ona dehşet dolu bakışlarla bakıyordu?"
+  },
+  {
+    "id": 555,
+    "en": "#E8#$084You\\u00b8re a Parselmouth, Harry.  Why didn\\u00b8t you tell us?",
+    "tr": "#E8#$084Sen bir Parselağızsın Harry. Neden bize söylemedin?"
+  },
+  {
+    "id": 556,
+    "en": "#EB#$085Harry didn\\u00b8t know what a Parselmouth was, so Ron told him:",
+    "tr": "#EB#$085Harry Parselağızın ne olduğunu bilmiyordu, bu yüzden Ron ona açıkladı:"
+  },
+  {
+    "id": 557,
+    "en": "#EE#$086You can talk to snakes, Harry!",
+    "tr": "#EE#$086Yılanlarla konuşabiliyorsun, Harry!"
+  },
+  {
+    "id": 558,
+    "en": "#F1#$087Hermione informed Harry that being able to talk to snakes was what Salazar Slytherin was famous for and how the whole school was now going to think that he, Harry Potter, was the Heir of Slytherin and therefore responsible for the attacks.",
+    "tr": "#F1#$087Hermione, Harry'ye Salazar Slytherin'in tam da yılanlarla konuşabilmesiyle ünlü olduğunu ve artık bütün okulun onun, yani Harry Potter'ın, Slytherin'in Varisi olduğunu ve dolayısıyla saldırılardan sorumlu olduğunu düşüneceğini anlattı."
+  },
+  {
+    "id": 559,
+    "en": "#F4#$149Harry thought of the disembodied voice he'd heard and his growing dread that he was connected to Salazar Slytherin. But in the end, he didn't want to say anything about them.",
+    "tr": "#F4#$149Harry duyduğu o bedensiz sesi ve Salazar Slytherin'le bir bağı olduğuna dair içinde büyüyen korkuyu düşündü. Ama sonunda bunlar hakkında hiçbir şey söylememeye karar verdi."
+  },
+  {
+    "id": 560,
+    "en": "#F7#$088Dumbledore wasn\\u00b8t in his office when Harry got there. It was a very interesting room, however, and nearby, Harry spotted the Sorting Hat.  As he approached it, the hat spoke to him...",
+    "tr": "#F7#$088Harry oraya vardığında Dumbledore ofisinde değildi. Yine de burası çok ilginç bir odaydı ve Harry hemen yakında Seçmen Şapka'yı gördü. Yanına yaklaştığında şapka onunla konuştu..."
+  },
+  {
+    "id": 561,
+    "en": "#FA#$089You\\u00b8ve been wondering whether I put you in the right house. But I stand by what I said before \\u00b5 you would have done well in Slytherin.",
+    "tr": "#FA#$089Seni doğru binaya koyup koymadığımı merak ediyordun. Ama daha önce söylediğimin arkasındayım... Slytherin'de çok başarılı olurdun."
+  },
+  {
+    "id": 562,
+    "en": "#FD#$090Harry\\u00b8s heart plummeted.  He told the hat he thought it was wrong and then a strange gagging noise behind him made him wheel around.",
+    "tr": "#FD#$090Harry'nin yüreği ağzına geldi. Şapkaya yanıldığını söyledi ve tam o sırada arkasından gelen tuhaf bir boğulma sesi hızla arkasına dönmesine neden oldu."
+  },
+  {
+    "id": 563,
+    "en": "#100#$091Harry yelled in shock as the bird burst into flames \\u00b5 only to emerge from the fire more beautiful than it was before.  Then the office door opened and Dumbledore came in.",
+    "tr": "#100#$091Kuş alevler içinde yanıp kül olurken Harry şaşkınlıkla bağırdı... Derken küllerin arasından öncekinden çok daha güzel bir şekilde yeniden doğdu. O anda ofis kapısı açıldı ve Dumbledore içeri girdi."
+  },
+  {
+    "id": 564,
+    "en": "#103#$092Fawkes the Phoenix is really very handsome, isn\\u00b8t he, Harry?",
+    "tr": "#103#$092Zümrüdüanka Fawkes gerçekten çok yakışıklı, değil mi Harry?"
+  },
+  {
+    "id": 565,
+    "en": "#106#$093Harry nodded, still shocked by the sight of the bird bursting into flames.  Dumbledore explained how phoenixes were fascinating creatures.",
+    "tr": "#106#$093Harry başıyla onayladı, kuşun alevler içinde kalışını görmenin şokunu hala atlatamamıştı. Dumbledore zümrüdüankaların ne kadar büyüleyici yaratıklar olduğunu açıkladı."
+  },
+  {
+    "id": 566,
+    "en": "#109#$094They can carry immensely heavy loads and they make highly faithful pets.",
+    "tr": "#109#$094Son derece ağır yükleri taşıyabilirler ve çok sadık evcil hayvanlar olurlar."
+  },
+  {
+    "id": 567,
+    "en": "#10C#$096Harry flicked through the blank pages of the diary.  Then he pulled out a bottle of scarlet ink, dipped his quill into it and dropped a blot on to the first page.",
+    "tr": "#10C#$096Harry günlüğün boş sayfalarını karıştırdı. Sonra bir şişe kırmızı mürekkep çıkardı, tüy kalemini batırdı ve ilk sayfanın üzerine bir damla damlattı."
+  },
+  {
+    "id": 568,
+    "en": "#10F#$097The ink shone brightly on the paper for a moment and then, as though it was being sucked into the page, it vanished.",
+    "tr": "#10F#$097Mürekkep bir an kağıdın üzerinde parıldadı ve ardından, sanki sayfa tarafından emiliyormuş gibi yok oldu."
+  },
+  {
+    "id": 569,
+    "en": "#112#$098Excited, Harry loaded up his quill and wrote, \\u00b7My name is Harry Potter\\u00b8.",
+    "tr": "#112#$098Heyecanlanan Harry tüy kalemine mürekkep çekip yazdı: 'Benim adım Harry Potter.'"
+  },
+  {
+    "id": 570,
+    "en": "#115#$099Then, at last, something happened.  Oozing back out of the page, came words Harry had never written.",
+    "tr": "#115#$099Derken, nihayet bir şey oldu. Sayfadan dışarı süzülerek Harry'nin hiç yazmadığı kelimeler belirdi."
+  },
+  {
+    "id": 571,
+    "en": "#118#$100Harry nearly upset his ink bottle.  And then more words appeared on the page...",
+    "tr": "#118#$100Harry neredeyse mürekkep şişesini devirecekti. Ve sonra sayfada daha fazla kelime belirdi..."
+  },
+  {
+    "id": 572,
+    "en": "#11B#$101I know all about the Chamber of Secrets.  Fifty years ago the Chamber was opened and a girl was killed.  I caught the person who opened the Chamber all those years ago.",
+    "tr": "#11B#$101Sırlar Odası hakkındaki her şeyi biliyorum. Elli yıl önce Oda açılmış ve bir kız öldürülmüştü. Yıllar önce Odayı açan kişiyi ben yakaladım."
+  },
+  {
+    "id": 573,
+    "en": "#11E#$150I can take you right inside my memory of the night when I caught him...",
+    "tr": "#11E#$150Seni onu yakaladığım o gecenin anısına bizzat götürebilirim..."
+  },
+  {
+    "id": 574,
+    "en": "#121#$102Harry paused for a second and then wrote two letters \\u00b5 O.K.",
+    "tr": "#121#$102Harry bir an duraksadı ve sonra iki harf yazdı: O.K."
+  },
+  {
+    "id": 575,
+    "en": "#124#$103The pages of the diary began to blow as though caught in a high wind and then the diary seemed to open up and Harry was pitched headfirst into the opening...",
+    "tr": "#124#$103Günlüğün sayfaları sanki sert bir rüzgara kapılmış gibi uçuşmaya başladı, sonra günlük açılır gibi oldu ve Harry balıklama boşluğun içine çekildi..."
+  },
+  {
+    "id": 576,
+    "en": "#127#$104Harry saw that he was standing in a corridor in Hogwarts dungeons.  Peering through a crack made by an open door was a boy of about sixteen.",
+    "tr": "#127#$104Harry kendini Hogwarts zindanlarındaki bir koridorda buldu. Açık bir kapının aralığından dışarıyı gözetleyen on altı yaşlarında bir çocuk vardı."
+  },
+  {
+    "id": 577,
+    "en": "#12A#$151Harry knew at once that this was Tom Riddle, the owner of the diary. Then Harry heard someone speaking in a low whisper.",
+    "tr": "#12A#$151Harry bunun günlüğün sahibi Tom Riddle olduğunu hemen anladı. Sonra Harry birinin fısıltıyla konuştuğunu duydu."
+  },
+  {
+    "id": 578,
+    "en": "#12D#$105C\\u00b8mon... gotta get yeh outta here... C\\u00b8mon now... in the box...",
+    "tr": "#12D#$105Hadi... seni buradan çıkarmam gerek... Hadi bakalım... kutunun içine..."
+  },
+  {
+    "id": 579,
+    "en": "#130#$106The voice definitely belonged to Hagrid who, Harry now saw, was crouching down in front of a large box. Riddle suddenly stepped out from the doorway.",
+    "tr": "#130#$106Ses kesinlikle, Harry'nin büyük bir kutunun önünde çömeldiğini gördüğü Hagrid'e aitti. Riddle aniden kapı aralığından dışarı adım attı."
+  },
+  {
+    "id": 580,
+    "en": "#133#$107Evening Rubeus.  It's all over.  I'm going to have to turn you in.  The least Hogwarts can do is make sure the thing that killed that girl is slaughtered.",
+    "tr": "#133#$107İyi akşamlar Rubeus. Her şey bitti. Seni ele vermek zorundayım. Hogwarts'ın yapabileceği en az şey, o kızı öldüren yaratığın katledilmesini sağlamaktır."
+  },
+  {
+    "id": 581,
+    "en": "#136#$108The young Hagrid rose up to his full height and roared at the top of his voice.",
+    "tr": "#136#$108Genç Hagrid bütün boyuyla ayağa kalktı ve var gücüyle kükredi."
+  },
+  {
+    "id": 582,
+    "en": "#139#$109It wasn\\u00b8t him!  He wouldn\\u00b8t!  He never!",
+    "tr": "#139#$109O yapmadı! O yapmaz! Asla!"
+  },
+  {
+    "id": 583,
+    "en": "#13C#$110And then, from out of the box came something that made Harry let out a long, piercing scream unheard by anyone...",
+    "tr": "#13C#$110Ve tam o anda, kutunun içinden Harry'ye kimsenin duymadığı uzun, kulak tırmalayıcı bir çığlık attıran bir şey çıktı..."
+  },
+  {
+    "id": 584,
+    "en": "#13F#$111A vast, low-slung, hairy body and a tangle of black legs; a gleam of many eyes and a pair of razor-sharp pincers.  The thing scuttled away, tearing up the corridor and out of sight.",
+    "tr": "#13F#$111Yere yakın, kıllı devasa bir gövde ve karmakarışık siyah bacaklar; parıldayan bir sürü göz ve ustura kadar keskin bir çift kıskaç. Yaratık hızla uzaklaştı, koridorda koşturup gözden kayboldu."
+  },
+  {
+    "id": 585,
+    "en": "#142#$112Nooooooo!",
+    "tr": "#142#$112Hayııııııır!"
+  },
+  {
+    "id": 586,
+    "en": "#145#$113The scene whirled-",
+    "tr": "#145#$113Manzara dönmeye başladı-"
+  },
+  {
+    "id": 587,
+    "en": "#148#$114-the darkness became complete.",
+    "tr": "#148#$114-karanlık her yeri kapladı."
+  },
+  {
+    "id": 588,
+    "en": "#14B#$115And Harry landed with a crash.",
+    "tr": "#14B#$115Ve Harry gürültüyle yere çarptı."
+  },
+  {
+    "id": 589,
+    "en": "#14E#$116Later, Harry met up with Ron and Hermione.",
+    "tr": "#14E#$116Daha sonra Harry, Ron ve Hermione ile buluştu."
+  },
+  {
+    "id": 590,
+    "en": "#151#$117What\\u00b8s up?",
+    "tr": "#151#$117Ne var?"
+  },
+  {
+    "id": 591,
+    "en": "#154#$120The car screeched to a halt and Harry dived inside.",
+    "tr": "#154#$120Araba acı bir frenle durdu ve Harry hemen içeri daldı."
+  },
+  {
+    "id": 592,
+    "en": "#157#$121Hurry up, Ron!",
+    "tr": "#157#$121Çabuk ol, Ron!"
+  },
+  {
+    "id": 593,
+    "en": "#15A#$122The door slammed shut and Ron didn\\u00b8t need to touch the accelerator because the car was already speeding away.",
+    "tr": "#15A#$122Kapı çarparak kapandı ve Ron'un gaza basmasına gerek kalmadı, çünkü araba çoktan hızla uzaklaşıyordu."
+  },
+  {
+    "id": 594,
+    "en": "#15D#$127And there was something else \\u00b5 something Aragog had said about the girl who\\u00b8d died fifty years before...  Then Harry had it.  He turned to Ron.",
+    "tr": "#15D#$127Ve başka bir şey daha vardı... Aragog'un elli yıl önce ölen kız hakkında söylediği bir şey... Derken Harry gerçeği kavradı. Ron'a döndü."
+  },
+  {
+    "id": 595,
+    "en": "#160#$128That girl who died.  What if she never left the bathroom? What if she\\u00b8s still there?",
+    "tr": "#160#$128O ölen kız. Ya tuvaletten hiç ayrılmadıysa? Ya hala oradaysa?"
+  },
+  {
+    "id": 596,
+    "en": "#163#$129Ron gasped.",
+    "tr": "#163#$129Ron nefesini tuttu."
+  },
+  {
+    "id": 597,
+    "en": "#166#$130You don\\u00b8t think \\u00b5 not Moaning Myrtle?",
+    "tr": "#166#$130Yoksa... Mızmız Myrtle olmasın?"
+  },
+  {
+    "id": 598,
+    "en": "#169#$131There was silence.  Silence except for the steady drip drip of ink still oozing from the diary.  The basilisk venom had burned a sizzling hole right through it.",
+    "tr": "#169#$131Sessizlik oldu. Günlükten hala damla damla sızan mürekkebin sesinden başka çıt çıkmıyordu. Basilisk zehri günlüğün tam ortasında cızırdayan bir delik açmıştı."
+  },
+  {
+    "id": 599,
+    "en": "#16C#$132Shaking all over, Harry pulled himself up.  His head was spinning as though he\\u00b8d travelled miles by Floo powder.  Ginny drew a great, shuddering gasp.",
+    "tr": "#16C#$132Baştan ayağa titreyen Harry kendini yukarı çekti. Sanki Uçuş Tozuyla miller katetmiş gibi başı dönüyordu. Ginny derinden, ürpertici bir nefes aldı."
+  },
+  {
+    "id": 600,
+    "en": "#16F#$133It was me, Harry \\u00b5 but I \\u00b5 I s-swear I d-didn\\u00b8t mean to \\u00b5 Riddle made me, he t-took me over...",
+    "tr": "#16F#$133Bendimm, Harry... ama ben... y-yemin ederim i-istemeden yaptım... Riddle yaptırdı, beni e-ele geçirdi..."
+  },
+  {
+    "id": 601,
+    "en": "#172#$134Harry told her that it was all right, that Riddle and the basilisk were finished.",
+    "tr": "#172#$134Harry her şeyin yolunda olduğunu, Riddle'ın ve basilisk'in işinin bittiğini söyledi."
+  },
+  {
+    "id": 602,
+    "en": "#175#$135C\\u00b8mon, Ginny, let\\u00b8s get out of here.",
+    "tr": "#175#$135Hadi Ginny, buradan çıkalım."
+  },
+  {
+    "id": 603,
+    "en": "#178#$136They were flying upwards, and before he\\u00b8d stopped enjoying the ride, it was over \\u00b5 all three of them were hitting the wet floor of Moaning Myrtle\\u00b8s bathroom.",
+    "tr": "#178#$136Yukarı doğru uçuyorlardı ve daha uçuşun tadını çıkaramadan her şey bitti; üçü birden Mızmız Myrtle'ın tuvaletinin ıslak zeminine çarptı."
+  },
+  {
+    "id": 604,
+    "en": "#17B#$137Harry told them everything.  He told them about hearing the disembodied voice.  How Hermione had finally realised that he was hearing a basilisk in the pipes.",
+    "tr": "#17B#$137Harry onlara her şeyi anlattı. Duyduğu o bedensiz sesi anlattı. Hermione'nin, boruların içinden duyduğu sesin bir basilisk olduğunu sonunda nasıl anladığını aktardı."
+  },
+  {
+    "id": 605,
+    "en": "#17E#$153How Aragog had told him where the last victim of the basilisk had died; how he had guessed that Moaning Myrtle had been the victim, and that the entrance to the basilisk's lair - the Chamber of Secrets - might be in her bathroom.",
+    "tr": "#17E#$153Aragog'un basilisk'in son kurbanının nerede öldüğünü nasıl anlattığını, o kurbanın Mızmız Myrtle olduğunu nasıl tahmin ettiğini ve basilisk'in inine -Sırlar Odası'na- giden girişin onun tuvaletinde olabileceğini söyledi."
+  },
+  {
+    "id": 606,
+    "en": "#181#$154Professor Dumbledore explained that fifty years ago, Lord Voldemort, as a sixteen-year-old Tom Riddle, had enchanted his diary - and that diary had enchanted Ginny.",
+    "tr": "#181#$154Profesör Dumbledore, elli yıl önce Lord Voldemort'un henüz on altı yaşındaki Tom Riddle halindeyken günlüğünü büyülediğini ve o günlüğün de Ginny'yi etkisi altına aldığını açıkladı."
+  },
+  {
+    "id": 607,
+    "en": "#184#$139And as for Harry, well, once again, he truly was The Boy Who Lived...",
+    "tr": "#184#$139Ve Harry'ye gelince, pekala, bir kez daha gerçekten de Sağ Kalan Çocuk olduğunu kanıtlamıştı..."
+  },
+  {
+    "id": 608,
+    "en": "#187#$019C\\u00b8mon, Harry, let\\u00b8s go.",
+    "tr": "#187#$019Hadi Harry, gidelim."
+  },
+  {
+    "id": 609,
+    "en": "#18A#$020And they did...",
+    "tr": "#18A#$020Ve öyle yaptılar..."
+  },
+  {
+    "id": 610,
+    "en": "#18D#$143They found the car in Charing Cross road and after making it invisible, flew it into the sky over London. They saw the Hogwarts Express far below and followed it for some time...",
+    "tr": "#18D#$143Arabayı Charing Cross Yolu'nda buldular ve görünmez kıldıktan sonra Londra semalarına doğru havalandılar. Çok aşağıda Hogwarts Ekspresi'ni görüp bir süre onu takip ettiler..."
+  },
+  {
+    "id": 611,
+    "en": "#190#$079I think I\\u00b8ll just go and have me usual at the Leaky Cauldron. See yeh later, Harry.",
+    "tr": "#190#$079Ben gidip Çatlak Kazan'da her zamankinden bi tane içeyim. Sonra görüşürüz Harry."
+  },
+  {
+    "id": 612,
+    "en": "#193#$080And Harry went to find what he needed for the Polyjuice Potion...",
+    "tr": "#193#$080Ve Harry, Çoközlü İksir için gerekenleri bulmaya gitti..."
+  },
+  {
+    "id": 613,
+    "en": "#196#$095Dumbledore went on to say that he didn\\u00b8t believe Harry was the attacker plaguing Hogwarts and he asked if Harry had anything that he wanted to tell him.",
+    "tr": "#196#$095Dumbledore, Hogwarts'ı kasıp kavuran saldırganın Harry olduğuna inanmadığını söyleyerek devam etti ve Harry'ye kendisine anlatmak istediği bir şey olup olmadığını sordu."
+  },
+  {
+    "id": 614,
+    "en": "#199#$118Harry could barely get the words out of his mouth.",
+    "tr": "#199#$118Kelimeler Harry'nin ağzından güçlükle döküldü."
+  },
+  {
+    "id": 615,
+    "en": "#19C#$119It was Hagrid, Ron.  Hagrid opened the Chamber of Secrets fifty years ago.",
+    "tr": "#19C#$119Hagrid'miş Ron. Sırlar Odası'nı elli yıl önce Hagrid açmış."
+  },
+  {
+    "id": 616,
+    "en": "#19F#$005Ronald Weasley! I thought I asked you to stop that $ghoul from making such a racket! He's still dropping $pipes over the attic floor! It's driving me mad!",
+    "tr": "#19F#$005Ronald Weasley! Sana o $hortlağın bu kadar patırtı yapmasını engellemeni söylemiştim sanıyordum! Tavan arası zeminine hala $borular düşürüp duruyor! Beni deli edecek!"
+  },
+  {
+    "id": 617,
+    "en": "#1A2#$123They sped out of the hollow, branches whipping the windows as the car wound its way cleverly through the widest gaps, following a path it obviously knew.",
+    "tr": "#1A2#$123Çukurdan hızla çıktılar; araba besbelli bildiği bir yolu izleyerek en geniş aralıklardan ustaca kıvrılırken dallar pencereleri kamçılıyordu."
+  },
+  {
+    "id": 618,
+    "en": "#1A5#$152After ten noisy, rocky minutes the trees thinned and the car stopped so suddenly they were nearly thrown through the windscreen. They had reached the edge of the forest.",
+    "tr": "#1A5#$152Gürültülü ve sarsıntılı on dakikanın ardından ağaçlar seyreldi ve araba öyle ani durdu ki neredeyse ön camdan fırlayacaklardı. Ormanın kenarına varmışlardı."
+  },
+  {
+    "id": 619,
+    "en": "#1A8#$124Harry and Ron arrived safely back in the Gryffindor Common Room.",
+    "tr": "#1A8#$124Harry ile Ron sağ salim Gryffindor Ortak Odası'na geri döndüler."
+  },
+  {
+    "id": 620,
+    "en": "#1AB#$125What was the point of going in there?  What have we found out, I\\u00b8d like to know?",
+    "tr": "#1AB#$125Oraya gitmenin ne anlamı vardı? Ne öğrendik ki, bilmek isterdim doğrusu?"
+  },
+  {
+    "id": 621,
+    "en": "#1AE#$126That Hagrid never opened the Chamber of Secrets.  He was innocent.",
+    "tr": "#1AE#$126Hagrid'in Sırlar Odası'nı asla açmadığını. Masum olduğunu."
+  },
+  {
+    "id": 622,
+    "en": "#1B1#$138Later, Harry managed to release Dobby from the slavery of Lucius Malfoy.  For it was Lucius Malfoy who had planted Tom Riddle\\u00b8s diary on the hapless Ginny Weasley.",
+    "tr": "#1B1#$138Daha sonra Harry, Dobby'yi Lucius Malfoy'un köleliğinden azat etmeyi başardı. Çünkü Tom Riddle'ın günlüğünü talihsiz Ginny Weasley'nin eşyaları arasına yerleştiren kişi Lucius Malfoy'du."
+  },
+  {
+    "id": 623,
+    "en": "#0#$004Verdimillious",
+    "tr": "#0#$004Verdimillious"
+  },
+  {
+    "id": 624,
+    "en": "$016{ Previous Page",
+    "tr": "$016{ Önceki Sayfa"
+  },
+  {
+    "id": 625,
+    "en": "$017} Next Page",
+    "tr": "$017} Sonraki Sayfa"
+  },
+  {
+    "id": 626,
+    "en": "$095< Enter Level",
+    "tr": "$095< Bölüme Gir"
+  },
+  {
+    "id": 627,
+    "en": "$015[ Exit",
+    "tr": "$015[ Çıkış"
+  },
+  {
+    "id": 628,
+    "en": "#4#$003Well, well well. A Gryffindor student wants a duel. You are wasting your time talking to me! Especially seeing that you don't have $20 $Famous $Witches $and $Wizard $cards.  Now go away!",
+    "tr": "#4#$003Bak sen şu işe! Bir Gryffindor öğrencisi düello istiyor demek. Benimle konuşarak vaktini harcıyorsun! Hele de $20 $Ünlü $Cadı $ve $Büyücü $kartın yokken. Şimdi çek git!"
+  },
+  {
+    "id": 629,
+    "en": "#7#$006Well I expect this is the last I'll see you....alive!",
+    "tr": "#7#$006Sanırım bu seni son görüşüm olacak... canlı olarak!"
+  },
+  {
+    "id": 630,
+    "en": "#A#$003Come back to rub it in have you. Harry Potter, the first ever student to beat all the founders duelling champions. Through you come then.",
+    "tr": "#A#$003Havamızı atmaya geldin demek. Kurucuların tüm düello şampiyonlarını yenen ilk öğrenci olan Harry Potter. Geç öyleyse."
+  },
+  {
+    "id": 631,
+    "en": "#D#$001Well, well, well... Harry Potter, the first ever student to beat all the Founders duelling champions. I suppose you ought to be congratulated. Well done.",
+    "tr": "#D#$001Vay vay vay... Kurucuların tüm düello şampiyonlarını yenen ilk öğrenci Harry Potter. Sanırım tebrik edilmeyi hak ediyorsun. Aferin."
+  },
+  {
+    "id": 632,
+    "en": "#10#$002So, you lost. To be expected, of course. I suggest you come back when you are better, though personally, I doubt you shall ever be good enough.",
+    "tr": "#10#$002Demek kaybettin. Beklenen bir şeydi elbette. Daha iyi olduğunda geri gelmeni öneririm; gerçi şahsen hiçbir zaman yeterince iyi olabileceğinden şüpheliyim."
+  },
+  {
+    "id": 633,
+    "en": "#13#$001In order for me to let you through you are going to have to bring me $5 $Famous $Witches $and $Wizard $cards",
+    "tr": "#13#$001Seni içeri bırakmam için bana $5 $Ünlü $Cadı $ve $Büyücü $kartı getirmelisin"
+  },
+  {
+    "id": 634,
+    "en": "#16#$004Good luck, young Gryffindor...you'll need it.",
+    "tr": "#16#$004Bol şans genç Gryffindor... ihtiyacın olacak."
+  },
+  {
+    "id": 635,
+    "en": "#19#$003So you return. Pass, by all means. Let's see if you can win again.",
+    "tr": "#19#$003Demek geri döndün. Geç bakalım. Bakalım yine kazanabilecek misin."
+  },
+  {
+    "id": 636,
+    "en": "#1C#$001Congratulations young man. Quite a feat, let me assure you, beating the Hufflepuff duelling champion.",
+    "tr": "#1C#$001Tebrikler genç adam. Hufflepuff düello şampiyonunu yenmek büyük bir başarı, emin olabilirsin."
+  },
+  {
+    "id": 637,
+    "en": "#1F#$002Allow me to offer my commiserations young man. Better luck next time I say.",
+    "tr": "#1F#$002Üzüntülerimi belirtmeme izin ver genç adam. Bir dahaki sefere daha çok şans dilerim."
+  },
+  {
+    "id": 638,
+    "en": "#22#$002You want to duel the $Ravenclaw Champion? Well I will not let you enter unless you bring me $10 $Famous $Witches $and $Wizard $cards",
+    "tr": "#22#$002$Ravenclaw Şampiyonu ile düello mu yapmak istiyorsun? Bana $10 $Ünlü $Cadı $ve $Büyücü $kartı getirmezsen içeri girmene izin vermem."
+  },
+  {
+    "id": 639,
+    "en": "#25#$005Come on through, foolish Gryffindor.",
+    "tr": "#25#$005Geç bakalım, budala Gryffindor."
+  },
+  {
+    "id": 640,
+    "en": "#28#$003Hello Harry, back to sharpen your duelling skills I'll warrant. Come on, in you go.",
+    "tr": "#28#$003Merhaba Harry, düello becerilerini bilemeye geldin bahse girerim. Hadi, gir içeri."
+  },
+  {
+    "id": 641,
+    "en": "#2B#$001Well done Harry, I'm impressed. You emerge victorious. I shall be interested to see if you can beat the Slytherin duelling Champion as well.",
+    "tr": "#2B#$001Aferin Harry, etkilendim doğrusu. Zaferle ayrıldın. Slytherin düello şampiyonunu da yenip yenemeyeceğini çok merak ediyorum."
+  },
+  {
+    "id": 642,
+    "en": "#2E#$002Bad luck Harry. But don't be down hearted, very few emerge victorious from here.",
+    "tr": "#2E#$002Şanssızlık Harry. Ama canını sıkma, buradan çok az kişi zaferle çıkabilir."
+  },
+  {
+    "id": 643,
+    "en": "$004< Save Game",
+    "tr": "$004< Oyunu Kaydet"
+  },
+  {
+    "id": 644,
+    "en": "$018A secret area in the Library",
+    "tr": "$018Kütüphanede gizli bir bölge"
+  },
+  {
+    "id": 645,
+    "en": "$002Harry in the Forbidden Forest",
+    "tr": "$002Yasak Orman'da Harry"
+  },
+  {
+    "id": 646,
+    "en": "$004Harry with Ginny Weasley",
+    "tr": "$004Harry, Ginny Weasley ile"
+  },
+  {
+    "id": 647,
+    "en": "$006Harry casting a spell",
+    "tr": "$006Harry büyü yaparken"
+  },
+  {
+    "id": 648,
+    "en": "$007Harry in a flying car!",
+    "tr": "$007Harry uçan arabada!"
+  },
+  {
+    "id": 649,
+    "en": "$009Harry De-gnoming the Burrows",
+    "tr": "$009Harry Kovuk'u cücelerden arındırıyor"
+  },
+  {
+    "id": 650,
+    "en": "$010Harry De-gnoming Hagrid's pumpkin patch",
+    "tr": "$010Harry, Hagrid'in balkabağı tarlasını cücelerden arındırıyor"
+  },
+  {
+    "id": 651,
+    "en": "$011Scary suits of armour",
+    "tr": "$011Korkutucu zırh takımları"
+  },
+  {
+    "id": 652,
+    "en": "$001A room full of Bertie Bott's Every Flavour Beans",
+    "tr": "$001Bertie Bott'un Binbir Çeşit Fasulyeleriyle dolu bir oda"
+  },
+  {
+    "id": 653,
+    "en": "$016Some strange platforms",
+    "tr": "$016Garip platformlar"
+  },
+  {
+    "id": 654,
+    "en": "$017The courtyard",
+    "tr": "$017Avlu"
+  },
+  {
+    "id": 655,
+    "en": "$019Harry in the Burrows",
+    "tr": "$019Harry Kovuk'ta"
+  },
+  {
+    "id": 656,
+    "en": "$022Lots of portraits",
+    "tr": "$022Bir sürü portre"
+  },
+  {
+    "id": 657,
+    "en": "$008A dangerous jump",
+    "tr": "$008Tehlikeli bir atlayış"
+  },
+  {
+    "id": 658,
+    "en": "$001To Herbology Greenhouses",
+    "tr": "$001Bitkibilim Seralarına"
+  },
+  {
+    "id": 659,
+    "en": "$001Herbology - Greenhouse Three",
+    "tr": "$001Bitkibilim - Üçüncü Sera"
+  },
+  {
+    "id": 660,
+    "en": "$006To Defence Against The Dark Arts",
+    "tr": "$006Karanlık Sanatlara Karşı Savunma Sınıfına"
+  },
+  {
+    "id": 661,
+    "en": "$004Professor Lockhart's Defence Against the Dark Arts",
+    "tr": "$004Profesör Lockhart'ın Karanlık Sanatlara Karşı Savunması"
+  },
+  {
+    "id": 662,
+    "en": "$013Defence Against the Dark Arts Spell Lesson",
+    "tr": "$013Karanlık Sanatlara Karşı Savunma Büyü Dersi"
+  },
+  {
+    "id": 663,
+    "en": "#2#$001Hello, Harry! Welcome to my home, it\\u00b8s not much.",
+    "tr": "#2#$001Merhaba Harry! Evime hoş geldin, pek gösterişli sayılmaz ama."
+  },
+  {
+    "id": 664,
+    "en": "#5#$003Thanks, Harry, we call it the $'Burrow'.",
+    "tr": "#5#$003Sağ ol Harry, biz buraya $'Kovuk' deriz."
+  },
+  {
+    "id": 665,
+    "en": "#8#$004C'mon, Harry, if the ghoul has locked the attic door again we've got to try and find another way in.",
+    "tr": "#8#$004Hadi Harry, hortlak tavan arası kapısını yine kilitlediyse içeri girmenin başka bir yolunu bulmalıyız."
+  },
+  {
+    "id": 666,
+    "en": "#B#$005I see dad has placed some $crates in the garden. Why don\\u00b8t we use them to climb up on to the roof and then into the $open $attic $window?",
+    "tr": "#B#$005Babam bahçeye birkaç $sandık koymuş. Neden onları çatıya tırmanıp $açık $tavan $arası $penceresinden içeri girmek için kullanmıyoruz?"
+  },
+  {
+    "id": 667,
+    "en": "#E#$005Seeing you've been stuck at the Dursleys for so long, you can practice your $Knockback Jinx on the $crates. Remember you need to press the > button to cast.",
+    "tr": "#E#$005Dursleylerin yanında o kadar uzun süre tıkılı kaldığına göre, $sandıklar üzerinde $Geri $Tepme $Büyüsü pratiği yapabilirsin. Büyü yapmak için > düğmesine basman gerektiğini unutma."
+  },
+  {
+    "id": 668,
+    "en": "#11#$005Try and Flipendo these crates with your Knockback Jinx. Remember, press the > button to cast!",
+    "tr": "#11#$005Geri Tepme Büyünle bu sandıklara Flipendo yapmayı dene. Unutma, büyü yapmak için > düğmesine bas!"
+  },
+  {
+    "id": 669,
+    "en": "#14#$001Ronald Weasley! I thought I asked you to stop that $ghoul from making such a racket! He's still dropping $pipes over the attic floor! It's driving me mad!",
+    "tr": "#14#$001Ronald Weasley! Sana o $hortlağın bu kadar patırtı yapmasını engellemeni söylemiştim sanıyordum! Tavan arası zeminine hala $borular düşürüp duruyor! Beni deli edecek!"
+  },
+  {
+    "id": 670,
+    "en": "#17#$002Oh dear! Mum\\u00b8s really not happy and I think we should avoid her. Let\\u00b8s climb up onto the roof and jump in through the attic window.",
+    "tr": "#17#$002Eyvah! Annem hiç memnun değil ve bence ona görünmesek iyi olur. Hadi çatıya tırmanıp tavan arası penceresinden içeri atlayalım."
+  },
+  {
+    "id": 671,
+    "en": "#1A#$003Watch me and then follow.  To climb on to a crate, walk up to it and use the up directional button.",
+    "tr": "#1A#$003Beni izle ve ardından takip et. Bir sandığa tırmanmak için ona doğru yürü ve yukarı yön düğmesini kullan."
+  },
+  {
+    "id": 672,
+    "en": "#1D#$007Okay, your turn, Harry!  Push into the $small $crate to $climb on top and then $run over the gap to $Auto $Jump!",
+    "tr": "#1D#$007Tamam, sıra sende Harry! Üzerine $tırmanmak için $küçük $sandığa doğru ilerle ve sonra $Otomatik $Atlamak için boşluğun üzerinden $koş!"
+  },
+  {
+    "id": 673,
+    "en": "#20#$001Right, let's go find dad.",
+    "tr": "#20#$001Tamamdır, hadi gidip babamı bulalım."
+  },
+  {
+    "id": 674,
+    "en": "$001The Burrow",
+    "tr": "$001Kovuk"
+  },
+  {
+    "id": 675,
+    "en": "#23#$001Right, George!  Let's run in before mum sees us!",
+    "tr": "#23#$001Tamam George! Annem bizi görmeden içeri koşalım!"
+  },
+  {
+    "id": 676,
+    "en": "$001Push towards crate to $Climb",
+    "tr": "$001$Tırmanmak için sandığa doğru ilerle"
+  },
+  {
+    "id": 677,
+    "en": "$002Push forward over gap to $Jump",
+    "tr": "$002$Atlamak için boşluğa doğru ilerle"
+  },
+  {
+    "id": 678,
+    "en": "#27#$002To cast a $fully-charged $Knockback $Jinx, keep the  > button pressed down.",
+    "tr": "#27#$002$Tam $güçlü bir $Geri $Tepme $Büyüsü yapmak için > düğmesini basılı tut."
+  },
+  {
+    "id": 679,
+    "en": "#2A#$002Dad leaves his junk everywhere.  It drives mum mad.  Try smashing these barrels with a $fully-charged $Knockback $Jinx so we can get through the gate.",
+    "tr": "#2A#$002Babam ıvır zıvırlarını her yere bırakır. Annemi deli ediyor. Kapıdan geçebilmemiz için $tam $güçlü bir $Geri $Tepme $Büyüsü ile bu fıçıları parçalamayı dene."
+  },
+  {
+    "id": 680,
+    "en": "#2D#$004Nice casting, Harry! C'mon let's go and find dad.",
+    "tr": "#2D#$004Güzel büyüydü, Harry! Hadi gidip babamı bulalım."
+  },
+  {
+    "id": 681,
+    "en": "#31#$002I think it's brilliant!",
+    "tr": "#31#$002Bence harika!"
+  },
+  {
+    "id": 682,
+    "en": "#34#$001That's it Harry, now the other one.",
+    "tr": "#34#$001İşte böyle Harry, şimdi diğerini."
+  },
+  {
+    "id": 683,
+    "en": "#0#$006Jocunda Sykes",
+    "tr": "#0#$006Jocunda Sykes"
+  },
+  {
+    "id": 684,
+    "en": "#1#$001Right - we need to calm down the ghoul.  He's banging and dropping pipes and it's driving mum mad!",
+    "tr": "#1#$001Tamam, hortlağı sakinleştirmemiz gerek. Boruları çarpıp düşürüyor ve bu annemi deli ediyor!"
+  },
+  {
+    "id": 685,
+    "en": "#4#$002Use your directional buttons to move the chest. Try and catch 60 pipes before they land on the floor and make a terrible racket!",
+    "tr": "#4#$002Sandığı hareket ettirmek için yön düğmelerini kullan. Borular yere düşüp korkunç bir gürültü çıkarmadan önce 60 tanesini yakalamaya çalış!"
+  },
+  {
+    "id": 686,
+    "en": "#7#$003Right, Harry, let's get to it!",
+    "tr": "#7#$003Tamam Harry, hadi işe koyulalım!"
+  },
+  {
+    "id": 687,
+    "en": "#A#$004Nice work, Harry, that'll shut him up for a while. Thanks for helping with the ghoul!",
+    "tr": "#A#$004İyi iş çıkardın Harry, bu onu bir süre susturur. Hortlak için yardımına teşekkürler!"
+  },
+  {
+    "id": 688,
+    "en": "#D#$006Arrrggghh! Can you stop all that noise, boys! Keep trying!",
+    "tr": "#D#$006Aaaarrrghh! Şu gürültüyü kesebilir misiniz çocuklar! Denemeye devam edin!"
+  },
+  {
+    "id": 689,
+    "en": "#10#$005Ah, that's much quieter! Now, I need you boys to de-gnome the garden for me. Go find Mr. Weasley. He's by the shed messing about with non-magical junk!",
+    "tr": "#10#$005Ah, ortalık çok daha sessizleşti! Şimdi çocuklar, benim için bahçeyi cücelerden arındırmanızı istiyorum. Gidip Bay Weasley'yi bulun. Kulübenin yanında büyü dışı ıvır zıvırlarla uğraşıyor!"
+  },
+  {
+    "id": 690,
+    "en": "#13#$007Boys, will you stop that awful racket up there!",
+    "tr": "#13#$007Çocuklar, yukarıdaki o korkunç patırtıyı kesecek misiniz artık!"
+  },
+  {
+    "id": 691,
+    "en": "#0#$021Famous Witches and Wizards card awarded!",
+    "tr": "#0#$021Ünlü Cadı ve Büyücü kartı kazanıldı!"
+  },
+  {
+    "id": 692,
+    "en": "#3#$013Press [ button to throw!",
+    "tr": "#3#$013Fırlatmak için [ düğmesine bas!"
+  },
+  {
+    "id": 693,
+    "en": "#6#$038Tap < button to spin",
+    "tr": "#6#$038Dönmek için < düğmesine art arda bas"
+  },
+  {
+    "id": 694,
+    "en": "$087Bonus",
+    "tr": "$087Bonus"
+  },
+  {
+    "id": 695,
+    "en": "$090Hi Score",
+    "tr": "$090En Yüksek Puan"
+  },
+  {
+    "id": 696,
+    "en": "$088Total",
+    "tr": "$088Toplam"
+  },
+  {
+    "id": 697,
+    "en": "#9#$009Yardley Platt",
+    "tr": "#9#$009Yardley Platt"
+  },
+  {
+    "id": 698,
+    "en": "#D#$025Time to put these de-gnoming gloves to good use!",
+    "tr": "#D#$025Bu cücelerden arındırma eldivenlerini iyi bir amaç için kullanma zamanı!"
+  },
+  {
+    "id": 699,
+    "en": "#10#$001Mum wants us to throw these gnomes over this fence and into that field of dad's non-magical junk.",
+    "tr": "#10#$001Annem bu cüceleri çitin üzerinden, babamın büyü dışı ıvır zıvırlarının olduğu tarlaya fırlatmamızı istiyor."
+  },
+  {
+    "id": 700,
+    "en": "#13#$002To fling a gnome, you're going to need a good run-up!  Hit the < button as quickly as you can to build up speed.",
+    "tr": "#13#$002Bir cüceyi fırlatmak için iyi bir hız alma koşusuna ihtiyacın olacak! Hız kazanmak için < düğmesine elinden geldiğince hızlı bas."
+  },
+  {
+    "id": 701,
+    "en": "#16#$003Once you reach the fence, you'll begin spinning on the spot.  Press [ button when you're ready to throw the gnome! You get points for distance and for hitting the targets!",
+    "tr": "#16#$003Çite ulaştığında olduğun yerde dönmeye başlayacaksın. Cüceyi fırlatmaya hazır olduğunda [ düğmesine bas! Mesafe ve hedefleri vurma karşılığında puan kazanırsın!"
+  },
+  {
+    "id": 702,
+    "en": "#19#$005Excellent, Harry! That's your all-time highest score!",
+    "tr": "#19#$005Harika Harry! Bu senin tüm zamanlardaki en yüksek puanın!"
+  },
+  {
+    "id": 703,
+    "en": "#1C#$004Don't worry; I'll get that one, Harry!",
+    "tr": "#1C#$004Endişelenme, onu ben yakalarım Harry!"
+  },
+  {
+    "id": 704,
+    "en": "#1F#$010That was really good fun! Do you want to play again?",
+    "tr": "#1F#$010Gerçekten çok eğlenceliydi! Tekrar oynamak ister misin?"
+  },
+  {
+    "id": 705,
+    "en": "#22#$009Try again, Harry!",
+    "tr": "#22#$009Tekrar dene Harry!"
+  },
+  {
+    "id": 706,
+    "en": "#25#$018Excellent, Harry! That's your all-time highest score!",
+    "tr": "#25#$018Harika Harry! Bu senin tüm zamanlardaki en yüksek puanın!"
+  },
+  {
+    "id": 707,
+    "en": "#29#$012Oh, that wasn't too good, Harry. Never mind, I'll get rid of that one.",
+    "tr": "#29#$012Ah, bu pek iyi olmadı Harry. Boş ver, ben hallederim onu."
+  },
+  {
+    "id": 708,
+    "en": "#2C#$001Great throw, that's as far as anyone can throw them.",
+    "tr": "#2C#$001Müthiş fırlattın, herhangi biri ancak bu kadar uzağa atabilirdi."
+  },
+  {
+    "id": 709,
+    "en": "#2F#$026Great shot! You hit the car!",
+    "tr": "#2F#$026Harika atış! Arabayı vurdun!"
+  },
+  {
+    "id": 710,
+    "en": "#30#$027Nice one, you hit the wasp hive!",
+    "tr": "#30#$027Güzel vuruş, yaban arısı kovanını vurdun!"
+  },
+  {
+    "id": 711,
+    "en": "#31#$028You hit the phone box!",
+    "tr": "#31#$028Telefon kulübesini vurdun!"
+  },
+  {
+    "id": 712,
+    "en": "#32#$029Good shot you hit the pond!",
+    "tr": "#32#$029İyi atış, göleti vurdun!"
+  },
+  {
+    "id": 713,
+    "en": "#33#$006Yeah! Excellent!",
+    "tr": "#33#$006Evet! Harika!"
+  },
+  {
+    "id": 714,
+    "en": "#36#$007Brilliant!",
+    "tr": "#36#$007Mükemmel!"
+  },
+  {
+    "id": 715,
+    "en": "#39#$014You are a gnome-throwing marvel!",
+    "tr": "#39#$014Cüce fırlatmada harikalar yaratıyorsun!"
+  },
+  {
+    "id": 716,
+    "en": "#3C#$017Wow! Great score!",
+    "tr": "#3C#$017Vay canına! Harika puan!"
+  },
+  {
+    "id": 717,
+    "en": "#3F#$016Good score Harry! But it's not the best.",
+    "tr": "#3F#$016İyi puan Harry! Ama en iyisi değil."
+  },
+  {
+    "id": 718,
+    "en": "#42#$012Not bad, Harry.",
+    "tr": "#42#$012Fena değil, Harry."
+  },
+  {
+    "id": 719,
+    "en": "#45#$010My mum can throw better than that!",
+    "tr": "#45#$010Annem bile bundan daha uzağa fırlatır!"
+  }
+]

@@ -1,0 +1,681 @@
+[
+  {
+    "id": 0,
+    "en": "$001Go to Diagon Alley",
+    "fr": "$001Aller au Chemin de Traverse",
+    "de": "$001Gehe zur Winkelgasse",
+    "tr": "$001Diagon Yolu'na git"
+  },
+  {
+    "id": 1,
+    "en": "$002Get to Hogwarts on time",
+    "fr": "$002Arriver à Poudlard à l'heure",
+    "de": "$002Erreiche Hogwarts rechtzeitig",
+    "tr": "$002Hogwarts'a vaktinde ulaş"
+  },
+  {
+    "id": 2,
+    "en": "$003Get to Fat lady",
+    "fr": "$003Aller dans la salle commune",
+    "de": "$003Geh zum Gemeinschaftsraum",
+    "tr": "$003Şişman Hanım'a git"
+  },
+  {
+    "id": 3,
+    "en": "$004Learn password to enter Common Room",
+    "fr": "$004Apprendre le mot de passe pour entrer dans la salle commune",
+    "de": "$004Lerne das Passwort für den Gemeinschaftsraum",
+    "tr": "$004Ortak Oda'ya girmek için parolayı öğren"
+  },
+  {
+    "id": 4,
+    "en": "$005Get to Greenhouse three to learn Herbology",
+    "fr": "$005Aller à la serre numéro trois pour apprendre la botanique",
+    "de": "$005Gehe zu Gewächshaus Drei für den Kräuterkunde-Unterricht.",
+    "tr": "$005Bitkibilim dersi için Üç Numaralı Sera'ya git"
+  },
+  {
+    "id": 5,
+    "en": "$006Meet Oliver Wood for Quidditch Training",
+    "fr": "$006Voir Olivier Dubois pour l'entra\\u00a8nement de Quidditch",
+    "de": "$006Treffe dich mit Oliver Wood zum Quidditch-Training.",
+    "tr": "$006Quidditch Antrenmanı için Oliver Wood ile buluş"
+  },
+  {
+    "id": 6,
+    "en": "$007Duel Ron",
+    "fr": "$007Faire un duel contre Ron",
+    "de": "$007Duell mit Ron",
+    "tr": "$007Ron ile düello yap"
+  },
+  {
+    "id": 7,
+    "en": "$008Don't lose Ron!",
+    "fr": "$008Ne pas perdre Ron !",
+    "de": "$008Bleib an Ron dran!",
+    "tr": "$008Ron'u gözden kaybetme!"
+  },
+  {
+    "id": 8,
+    "en": "$009Catch slugs in the bowl and empty them in the barrel",
+    "fr": "$009Mettre les limaces dans l'écuelle et les vider dans le tonneau",
+    "de": "$009Sammle Schnecken in dem Napf und leere sie in das Fass. ",
+    "tr": "$009Sümüklüböcekleri kasede yakala ve fıçıya boşalt"
+  },
+  {
+    "id": 9,
+    "en": "$010Get to the Defence Against the Dark Arts class room in the Upper Castle",
+    "fr": "$010Aller au cours de défense contre les Forces du Mal à l'Etage interdit",
+    "de": "$010Gehe zum Klassenzimmer für Verteidigung gegen die dunklen Künste im Oberschloss.",
+    "tr": "$010Yukarı Şato'daki Karanlık Sanatlara Karşı Savunma sınıfına git"
+  },
+  {
+    "id": 10,
+    "en": "$011Catch all the Pixies",
+    "fr": "$011Attraper tous les lutins",
+    "de": "$011Fang alle Wichtel.",
+    "tr": "$011Bütün cin perilerini yakala"
+  },
+  {
+    "id": 11,
+    "en": "$012Get to Nearly Headless Nick's Deathday Party in the Dungeons",
+    "fr": "$012Aller à l'anniversaire de mort de Nick Quasi-Sans-T\\u00a4te dans les cachots",
+    "de": "$012Gehe zur Todestagsfeier des Fast Kopflosen Nick in den Kerkern.",
+    "tr": "$012Zindanlar'daki Neredeyse Kafasız Nick'in Ölüm Günü Partisi'ne git"
+  },
+  {
+    "id": 12,
+    "en": "$013Collect lacewing flies, boomslang skin and leeches for Polyjuice Potion",
+    "fr": "$013Récupérer des chrysopes, de la peau de serpent d'arbre et des sangsues pour le Polynectar",
+    "de": "$013Sammle Florfliegen, Baumschlangenhaut und Blutegel für den Vielsaft-Trank.",
+    "tr": "$013Çoközlü İksir için dantelkanat sinekleri, ağaçyılanı derisi ve sülük topla"
+  },
+  {
+    "id": 13,
+    "en": "$014Take ingredients to Hermione in the  Upper Castle Girls' Bathroom.",
+    "fr": "$014Apporter les ingrédients à Hermione dans les toilettes des filles à l'Etage interdit.",
+    "de": "$014Bringe Hermine die Zutaten ins Mädchenklo im Oberschloss.",
+    "tr": "$014Malzemeleri Yukarı Şato Kızlar Tuvaleti'ndeki Hermione'ye götür."
+  },
+  {
+    "id": 14,
+    "en": "$015Find entrance to Slytherin Common room",
+    "fr": "$015Trouver l'entrée de la salle commune de Serpentard",
+    "de": "$015Suche den Eingang zum Gemeinschaftsraum der Slytherins.",
+    "tr": "$015Slytherin Ortak Odası'nın girişini bul"
+  },
+  {
+    "id": 15,
+    "en": "$016Get to Gilderoy Lockharts' Office in the Lower Castle",
+    "fr": "$016Aller dans le bureau de Gilderoy Lockhart au rez-de-chaussée",
+    "de": "$016Gehe zum Büro von Gilderoy Lockhart im Unterschloss.",
+    "tr": "$016Aşağı Şato'daki Gilderoy Lockhart'ın Odası'na git"
+  },
+  {
+    "id": 16,
+    "en": "$001Paracelsus",
+    "fr": "$001Paracelse",
+    "de": "$001Paracelsus",
+    "tr": "$001Paracelsus"
+  },
+  {
+    "id": 17,
+    "en": "$002Gaspard Shingleton",
+    "fr": "$002Gaspard Shingleton",
+    "de": "$002Gaspard Shingleton",
+    "tr": "$002Gaspard Shingleton"
+  },
+  {
+    "id": 18,
+    "en": "$003Ignatia Wildsmith",
+    "fr": "$003Ignatia Wildsmith",
+    "de": "$003Ignatia Wildsmith",
+    "tr": "$003Ignatia Wildsmith"
+  },
+  {
+    "id": 19,
+    "en": "$004Felix Summerbee",
+    "fr": "$004Félix Labeille",
+    "de": "$004Felix Summerbee",
+    "tr": "$004Felix Summerbee"
+  },
+  {
+    "id": 20,
+    "en": "$005Greta Catchlove",
+    "fr": "$005Greta Grandamour",
+    "de": "$005Greta Catchlove",
+    "tr": "$005Greta Catchlove"
+  },
+  {
+    "id": 21,
+    "en": "$006Jocunda Sykes",
+    "fr": "$006Jocunda Sykes",
+    "de": "$006Jocunda Sykes",
+    "tr": "$006Jocunda Sykes"
+  },
+  {
+    "id": 22,
+    "en": "$007Dorcas Wellbeloved",
+    "fr": "$007Dorcas Bienaimée",
+    "de": "$007Dorcas Wellbeloved",
+    "tr": "$007Dorcas Wellbeloved"
+  },
+  {
+    "id": 23,
+    "en": "$008Crispin Cronk",
+    "fr": "$008Crispin Cronk",
+    "de": "$008Crispin Cronk",
+    "tr": "$008Crispin Cronk"
+  },
+  {
+    "id": 24,
+    "en": "$009Yardley Platt",
+    "fr": "$009Yardley Platt",
+    "de": "$009Yardley Platt",
+    "tr": "$009Yardley Platt"
+  },
+  {
+    "id": 25,
+    "en": "$010Edgar Stroulger",
+    "fr": "$010Edgar Stroulger",
+    "de": "$010Edgar Stroulger",
+    "tr": "$010Edgar Stroulger"
+  },
+  {
+    "id": 26,
+    "en": "$011Adalbert Waffling",
+    "fr": "$011Adalbert Lasornette",
+    "de": "$011Adalbert Schwahfel",
+    "tr": "$011Adalbert Waffling"
+  },
+  {
+    "id": 27,
+    "en": "$012Cassandra Vablatsky",
+    "fr": "$012Cassandra Vablatsky",
+    "de": "$012Cassandra Wablatschky",
+    "tr": "$012Cassandra Vablatsky"
+  },
+  {
+    "id": 28,
+    "en": "$013Montague Knightley",
+    "fr": "$013Montague Knightley",
+    "de": "$013Montague Knightley",
+    "tr": "$013Montague Knightley"
+  },
+  {
+    "id": 29,
+    "en": "$014Chauncey Oldridge",
+    "fr": "$014Chauncey Oldridge",
+    "de": "$014Chauncey Oldridge",
+    "tr": "$014Chauncey Oldridge"
+  },
+  {
+    "id": 30,
+    "en": "$015Godric Gryffindor",
+    "fr": "$015Godric Gryffondor",
+    "de": "$015Godric Gryffindor",
+    "tr": "$015Godric Gryffindor"
+  },
+  {
+    "id": 31,
+    "en": "$016Salazar Slytherin",
+    "fr": "$016Salazar Serpentard",
+    "de": "$016Salazar Slytherin",
+    "tr": "$016Salazar Slytherin"
+  },
+  {
+    "id": 32,
+    "en": "$017Rowena Ravenclaw",
+    "fr": "$017Rowena Serdaigle",
+    "de": "$017Rowena Ravenclaw",
+    "tr": "$017Rowena Ravenclaw"
+  },
+  {
+    "id": 33,
+    "en": "$018Helga Hufflepuff",
+    "fr": "$018Helga Poufsouffle",
+    "de": "$018Helga Hufflepuff",
+    "tr": "$018Helga Hufflepuff"
+  },
+  {
+    "id": 34,
+    "en": "$019Hengist of Woodcroft",
+    "fr": "$019Hengist de Woodcroft",
+    "de": "$019Hengis von Woodcroft",
+    "tr": "$019Woodcroft'lu Hengist"
+  },
+  {
+    "id": 35,
+    "en": "$020Daisy Dodderidge",
+    "fr": "$020Marguerite Dodderidge",
+    "de": "$020Daisy Dodderidge",
+    "tr": "$020Daisy Dodderidge"
+  },
+  {
+    "id": 36,
+    "en": "$021Celestina Warbeck",
+    "fr": "$021Célestina Moldubec",
+    "de": "$021Celestina Warbeck",
+    "tr": "$021Celestina Warbeck"
+  },
+  {
+    "id": 37,
+    "en": "$022Cyprian Youdle",
+    "fr": "$022Cyprien Youdle",
+    "de": "$022Cyprian Youdle",
+    "tr": "$022Cyprian Youdle"
+  },
+  {
+    "id": 38,
+    "en": "$023Herpo the Foul",
+    "fr": "$023Herpo le Fou",
+    "de": "$023Herpo der \\u0098ble",
+    "tr": "$023Hain Herpo"
+  },
+  {
+    "id": 39,
+    "en": "$024Bertie Bott",
+    "fr": "$024Bertie Crochue",
+    "de": "$024Bertie Bott",
+    "tr": "$024Bertie Bott"
+  },
+  {
+    "id": 40,
+    "en": "$001Greatest of all medieval alchemists.",
+    "fr": "$001Le plus grand des alchimistes du Moyen Age.",
+    "de": "$001Grö\\u0099ter aller Alchimisten des Mittelalters",
+    "tr": "$001Ortaçağ simyacılarının en büyüğü."
+  },
+  {
+    "id": 41,
+    "en": "$002Celebrated inventor of the Self-Stirring Cauldron.",
+    "fr": "$002Célèbre inventeur du chaudron à touillage automatique.",
+    "de": "$002Gefeierter Erfinder des selbst umrührenden Kessels.",
+    "tr": "$002Kendi Kendini Karıştıran Kazan'ın ünlü mucidi."
+  },
+  {
+    "id": 42,
+    "en": "$003The witch who invented Floo Powder.",
+    "fr": "$003La sorcière qui inventa la poudre de cheminette.",
+    "de": "$003Die Hexe, die das Flohpulver erfand.",
+    "tr": "$003Uçuş Tozu'nu icat eden cadı."
+  },
+  {
+    "id": 43,
+    "en": "$004Inventor of Cheering Charms.",
+    "fr": "$004Inventeur de sortilèges d'Allégresse.",
+    "de": "$004Erfinder des Aufmunterungszaubers.",
+    "tr": "$004Neşelendirme Büyüleri'nin mucidi."
+  },
+  {
+    "id": 44,
+    "en": "$005Author of 'Charm Your Own Cheese'.",
+    "fr": "$005Auteur de \"Comment ensorceler son fromage\".",
+    "de": "$005Autorin von 'Zaubern Sie Ihren eigenen Käse'.",
+    "tr": "$005'Kendi Peynirini Kendin Büyüle' kitabının yazarı."
+  },
+  {
+    "id": 45,
+    "en": "$006First person to fly across the Atlantic on a broomstick.",
+    "fr": "$006Première personne à avoir traversé l'Atlantique sur un balai.",
+    "de": "$006\\u0098berquerte als Erster den Atlantik auf dem Besen.",
+    "tr": "$006Süpürgeyle Atlas Okyanusu'nu geçen ilk kişi."
+  },
+  {
+    "id": 46,
+    "en": "$007Founder of the Society for Distressed Witches.",
+    "fr": "$007A fondé l'Association des Sorcières en Détresse.",
+    "de": "$007Gründerin der Gesellschaft für verzweifelte Hexen.",
+    "tr": "$007Muhtaç Cadılar Derneği'nin kurucusu."
+  },
+  {
+    "id": 47,
+    "en": "$008Sent to Azkaban for keeping Sphinxes in his back garden.",
+    "fr": "$008A été envoyé à Azkaban pour avoir caché des sphinx dans son jardin.",
+    "de": "$008Wurde nach Askaban geschickt, weil er Sphingen im Garten hielt.",
+    "tr": "$008Arka bahçesinde Sfenks beslediği için Azkaban'a gönderildi."
+  },
+  {
+    "id": 48,
+    "en": "$009Serial goblin-killer.",
+    "fr": "$009Tueur en série de gobelins.",
+    "de": "$009Goblin-Serienmörder",
+    "tr": "$009Seri goblin katili."
+  },
+  {
+    "id": 49,
+    "en": "$010Inventor of the Sneakoscope.",
+    "fr": "$010Inventeur du scrutoscope.",
+    "de": "$010Erfinder des Spickoskops.",
+    "tr": "$010Sinsiölçer'in mucidi."
+  },
+  {
+    "id": 50,
+    "en": "$011Famous magical theoretician.",
+    "fr": "$011Célèbre théoricien de la magie.",
+    "de": "$011Berühmter magischer Theoretiker.",
+    "tr": "$011Ünlü büyü teorisyeni."
+  },
+  {
+    "id": 51,
+    "en": "$012Celebrated Seer and author of 'Unfogging the Future'.",
+    "fr": "$012Voyante célèbre et auteur de \"Lever le voile du futur\".",
+    "de": "$012Gefeierte Seherin und Autorin von 'Entnebelung der Zukunft'.",
+    "tr": "$012Ünlü Kâhin ve 'Geleceğin Sis Perdesini Aralamak' kitabının yazarı."
+  },
+  {
+    "id": 52,
+    "en": "$013Wizard Chess Champion 1506 - 1588.",
+    "fr": "$013Champion d'échecs de sorciers 1506 - 1588.",
+    "de": "$013Zaubererschach-Meister 1506 - 1588.",
+    "tr": "$013Büyücü Satrancı Şampiyonu 1506 - 1588."
+  },
+  {
+    "id": 53,
+    "en": "$014First known victim of Dragon Pox.",
+    "fr": "$014Première victime de la varicelle du dragon.",
+    "de": "$014Erstes bekanntes Opfer der Drachenpocken.",
+    "tr": "$014Ejderha Çiçeği'nin bilinen ilk kurbanı."
+  },
+  {
+    "id": 54,
+    "en": "$015Hogwarts co-founder. Gave his name to a Hogwarts House.",
+    "fr": "$015Co-fondateur de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$015Mitbegründer von Hogwarts. Nach ihm wurde eines der vier Häuser benannt.",
+    "tr": "$015Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 55,
+    "en": "$016Hogwarts co-founder. Gave his name to a Hogwarts House.",
+    "fr": "$016Co-fondateur de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$016Mitbegründer von Hogwarts. Nach ihm wurde eines der vier Häuser benannt.",
+    "tr": "$016Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 56,
+    "en": "$017Hogwarts co-founder. Gave her name to a Hogwarts House.",
+    "fr": "$017Co-fondatrice de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$017Mitbegründerin von Hogwarts. Nach ihr wurde eines der vier Häuser benannt.",
+    "tr": "$017Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 57,
+    "en": "$018Hogwarts co-founder. Gave her name to a Hogwarts House.",
+    "fr": "$018Co-fondatrice de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$018Mitbegründerin von Hogwarts. Nach ihr wurde eines der vier Häuser benannt.",
+    "tr": "$018Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 58,
+    "en": "$019Founded the village of Hogsmeade.",
+    "fr": "$019A fondé le village de Pré-au-Lard.",
+    "de": "$019Gründete das Dorf Hogsmeade.",
+    "tr": "$019Hogsmeade köyünü kurdu."
+  },
+  {
+    "id": 59,
+    "en": "$020First landlady of the Leaky Cauldron.",
+    "fr": "$020Première propriétaire du Chaudron Baveur.",
+    "de": "$020Erste Wirtin des Tropfenden Kessels.",
+    "tr": "$020Çatlak Kazan'ın ilk kadın işletmecisi."
+  },
+  {
+    "id": 60,
+    "en": "$021Popular singing sorceress.",
+    "fr": "$021Chanteuse super-star.",
+    "de": "$021Berühmte Sängerin-Hexe.",
+    "tr": "$021Popüler şarkıcı büyücü kadın."
+  },
+  {
+    "id": 61,
+    "en": "$022Only Quidditch referee ever to die during a match.",
+    "fr": "$022Seul arbitre de quidditch à avoir trouvé la mort pendant un match.",
+    "de": "$022Einziger Quidditch-Schiedsrichter, der während eines Spiels starb.",
+    "tr": "$022Bir maç sırasında ölen tek Quidditch hakemi."
+  },
+  {
+    "id": 62,
+    "en": "$023First known creator of the basilisk.",
+    "fr": "$023Premier créateur connu du Basilic.",
+    "de": "$023Ur-Erfinder des Basilisken.",
+    "tr": "$023Basiliskin bilinen ilk yaratıcısı."
+  },
+  {
+    "id": 63,
+    "en": "$024Inventor of Bertie Bott's Every Flavour Beans.",
+    "fr": "$024Inventa les célèbres dragées surprises de Bertie Crochue.",
+    "de": "$024Erfinder der Bertie Botts Bohnen in allen Geschmacksrichtungen.",
+    "tr": "$024Bertie Bott'un Binbir Çeşit Fasulyeleri'nin mucidi."
+  },
+  {
+    "id": 64,
+    "en": "$005< Talk To",
+    "fr": "$005< Parler",
+    "de": "$005< Ansprechen",
+    "tr": "$005< Konuş"
+  },
+  {
+    "id": 65,
+    "en": "$001Learn $Charms",
+    "fr": "$001Apprendre les $sorts",
+    "de": "$001Lerne $Zauberkunst",
+    "tr": "$001Tılsım $Öğren"
+  },
+  {
+    "id": 66,
+    "en": "$002Learn $Herbology",
+    "fr": "$002Apprendre la $botanique",
+    "de": "$002Lerne $Kräuterkunde",
+    "tr": "$002Bitkibilim $Öğren"
+  },
+  {
+    "id": 67,
+    "en": "$003Learn $Defence $Against $the $Dark $Arts",
+    "fr": "$003Apprendre la $DCFM",
+    "de": "$003Lerne $V.g.d.d.K.",
+    "tr": "$003Karanlık $Sanatlara $Karşı $Savunma $Öğren"
+  },
+  {
+    "id": 68,
+    "en": "$007Learn $Defence $Against $the $Dark $Arts $Lumos",
+    "fr": "$007Apprendre $DCFM $Lumos",
+    "de": "$007Lerne $V.g.d.d.K. $Lumos",
+    "tr": "$007Karanlık $Sanatlara $Karşı $Savunma $Lumos $Öğren"
+  },
+  {
+    "id": 69,
+    "en": "$001< Use Door",
+    "fr": "$001< Ouvrir la porte",
+    "de": "$001< Tür öffnen",
+    "tr": "$001< Kapıyı Kullan"
+  },
+  {
+    "id": 70,
+    "en": "$002Locked",
+    "fr": "$002Fermé",
+    "de": "$002Verschlossen",
+    "tr": "$002Kilitli"
+  },
+  {
+    "id": 71,
+    "en": "$017Rear Hall",
+    "fr": "$017Salle du fond",
+    "de": "$017Hintere Halle",
+    "tr": "$017Arka Hol"
+  },
+  {
+    "id": 72,
+    "en": "#2#$001Harry, I can't believe that you and Ron are so irresponsible! You could have been killed, or worse - expelled!",
+    "fr": "#3#$001Je n'arrive pas à croire que toi et Ron vous \\u00a4tes si irresponsables. Vous auriez pu vous faire tuer, ou pire encore, \\u00a4tre renvoyés !",
+    "de": "#4#$001Harry, ich kann mir nicht vorstellen, dass ihr - du und Ron - so verantwortungslos seid! Ihr hättet sterben können - oder noch schlimmer - von der Schule verwiesen werden!",
+    "tr": "#2#$001Harry, Ron ile senin bu kadar sorumsuz olduğunuza inanamıyorum! Ölebilirdiniz, ya da daha kötüsü - okuldan atılabilirdiniz!"
+  },
+  {
+    "id": 73,
+    "en": "#5#$002The password for the Fat Lady is 'Wattlebird'. Of course you would have known this if you\\u00b8d managed to get to school on time!",
+    "fr": "#6#$002Le mot de passe pour la Grosse Dame c'est \"Anthochère\". Si vous étiez arrivés à temps, vous le sauriez !",
+    "de": "#7#$002Das Passwort für die fette Dame ist 'Bartvogel'. Das hättet ihr natürlich gewusst, wenn ihr pünktlich zur Schule gekommen wärt. ",
+    "tr": "#5#$002Şişman Hanım'ın parolası 'Hotozlu kuş'. Tabii okula vaktinde gelmeyi başarabilseydiniz bunu bilirdiniz!"
+  },
+  {
+    "id": 74,
+    "en": "#8#$001Harry, don't forget to keep checking your report card.",
+    "fr": "#9#$001Harry, n'oublie pas de consulter ton bulletin.",
+    "de": "#A#$001Harry, denk dran, immer mal wieder dein Zeugnis anzuschaun.",
+    "tr": "#8#$001Harry, karneni kontrol etmeyi sakın unutma."
+  },
+  {
+    "id": 75,
+    "en": "#B#$003If I were you, I'd go to the Common Room before Snape sees you.",
+    "fr": "#C#$003A votre place, j'irais dans la salle commune avant que Rogue ne vous attrape.",
+    "de": "#D#$003Wenn ich du wäre, würde ich im Gemeinschaftsraum verschwinden, bevor Snape dich entdeckt.",
+    "tr": "#B#$003Sizin yerinizde olsam Snape sizi görmeden Ortak Oda'ya giderdim."
+  },
+  {
+    "id": 76,
+    "en": "#E#$001Hello there young Harry Potter! What a fine day!",
+    "fr": "#F#$001Bonjour, bonjour, Harry ! Quelle belle journée !",
+    "de": "#10#$001Der junge Harry Potter! Was für ein schöner Tag!",
+    "tr": "#E#$001Merhaba genç Harry Potter! Ne güzel bir gün!"
+  },
+  {
+    "id": 77,
+    "en": "#11#$002You look happy, Nick.",
+    "fr": "#12#$002Vous avez l'air content, Nick !",
+    "de": "#13#$002Sie sehen glücklich aus, Nick.",
+    "tr": "#11#$002Mutlu görünüyorsun, Nick."
+  },
+  {
+    "id": 78,
+    "en": "#14#$003That I am, Harry! I sent a letter today to Sir Patrick Delaney-Podmore. It's my application to join the Headless Hunt.",
+    "fr": "#15#$003Très content, Harry ! J'ai envoyé une lettre à Sir Patrick Delaney-Podmore. Ma candidature au Club des chasseurs sans t\\u00a4te.",
+    "de": "#16#$003Das bin ich, Harry! Ich habe heute einen Brief an Sir Patrick Delaney-Podmore geschickt. Meine Bewerbung zur Teilnahme an der Jagd der Kopflosen.",
+    "tr": "#14#$003Öyleyim Harry! Bugün Sir Patrick Delaney-Podmore'a bir mektup gönderdim. Kafasızlar Avı'na katılmak için yaptığım başvuru."
+  },
+  {
+    "id": 79,
+    "en": "#17#$004In fact, as I was telling your friend Hermione Granger, joining the Headless Hunt has been a dream of mine for some time.",
+    "fr": "#18#$004Comme je l'ai déjà dit à votre amie Hermione Granger, c'est un r\\u00a4ve que je caresse depuis longtemps.",
+    "de": "#19#$004Ich habe gerade Ihrer Freundin Hermine erzählt, dass die Teilnahme an der Jagd der Kopflosen mein grö\\u0099ter Traum ist.",
+    "tr": "#17#$004Aslına bakarsan arkadaşın Hermione Granger'a da anlatıyordum, Kafasızlar Avı'na katılmak bir süredir benim hayalimdi."
+  },
+  {
+    "id": 80,
+    "en": "#1A#$005Is Hermione here?",
+    "fr": "#1B#$005Hermione est ici ?",
+    "de": "#1C#$005Ist Hermine hier?",
+    "tr": "#1A#$005Hermione burada mı?"
+  },
+  {
+    "id": 81,
+    "en": "#1D#$006Of course! Be careful though, there are some rather mischievous books around. Use your Knockback Jinx to put them in their place!",
+    "fr": "#1E#$006Bien s\\u00b3r ! Mais faites attention, il y a des livres plut\\u00adt méchants par ici. Utilisez votre sortilège Repoustout pour les remettre en place !",
+    "de": "#1F#$006Natürlich! Aber Vorsicht - hier liegen einige bösartige Bücher herum. Mit einem Weiche-Zurück-Fluch kannst du sie an ihren Platz zurück befördern!",
+    "tr": "#1D#$006Elbette! Ama dikkatli ol, etrafta oldukça yaramaz kitaplar var. Haddini bildirmek için Flipendo büyünü kullan!"
+  },
+  {
+    "id": 82,
+    "en": "$006Been to Common Room",
+    "fr": "$006De retour de la salle commune",
+    "de": "$006War im Gemeinschaftsraum",
+    "tr": "$006Ortak Odaya Gidildi"
+  },
+  {
+    "id": 83,
+    "en": "$005Complete Parseltongue1",
+    "fr": "$005Terminer Fourchelang1",
+    "de": "$005Beende Parsel1",
+    "tr": "$005Çataldil 1'i Tamamla"
+  },
+  {
+    "id": 84,
+    "en": "#20#$006I think you might be right \\u00b5 and if he is, I know a way we can prove it \\u00b5 Polyjuice Potion.",
+    "fr": "#21#$006Je crois que tu as raison, et je connais un moyen de le prouver : le Polynectar.",
+    "de": "#22#$006Du könntest Recht haben - und ich wei\\u0099, wie wir das beweisen können - mit dem Vielsaft-Trank.",
+    "tr": "#20#$006Sanırım haklı olabilirsin - ve eğer öyleyse, bunu kanıtlayabileceğimiz bir yol biliyorum: Çoközlü İksir."
+  },
+  {
+    "id": 85,
+    "en": "#23#$010Polyjuice Potion can transform a person into someone else \\u00b5 even a Slytherin. We could trick Malfoy into admitting he\\u00b8s the heir.",
+    "fr": "#24#$010Le Polynectar permet de prendre l'apparence de quelqu'un d'autre. On pourrait se transformer en trois élèves de Serpentard et aller dans leur salle commune. Malefoy nous dirait s\\u00b3rement que c'est lui l'héritier.",
+    "de": "#25#$010Der Vielsaft-Trank verwandelt eine Person in eine andere. Wir drei könnten uns in Slytherins verwandeln und Malfoy austricksen, so dass er von selbst zugibt, dass er der Erbe ist. ",
+    "tr": "#23#$010Çoközlü İksir bir insanı bir başkasına dönüştürebilir - bir Slytherin'liye bile. Malfoy'u kandırıp varis olduğunu itiraf ettirebiliriz."
+  },
+  {
+    "id": 86,
+    "en": "#26#$010To make the $Polyjuice $Potion we\\u00b8ll need several ingredients - $lacewing flies, $leeches, $fluxweed, $knotgrass, $horn $of $bicorn and $shredded $boomslang.",
+    "fr": "#27#$010Pour fabriquer le $Polynectar, on aura besoin de plusieurs ingrédients : $chrysopes, $sangsues, $sysimbre, $polygonum, $corne $de $bicorne et $peau $de $serpent $d'arbre ! ",
+    "de": "#28#$010Um den Vielsaft-Trank herzustellen brauchen wir folgende Zutaten - $Florfliegen, $Blutegel, $Flussgras, $ Knöterich, $Horn $eines $Zweihorns und $klein $geschnittene $Baumschlangenhaut.",
+    "tr": "#26#$010$Çoközlü $İksir yapmak için birkaç malzemeye ihtiyacımız olacak: $zarkanatlı sinekler, $sülükler, $karasu $otu, $düğümotu, $çiftboynuz $boynuzu ve $kıyılmış $ağaç $yılanı $derisi."
+  },
+  {
+    "id": 87,
+    "en": "#29#$014And I'll get the $horn $of $bicorn. You two had better get to Potions class. When I've found a place to prepare the Polyjuice Potion, I'll send $Hedwig.",
+    "fr": "#2A#$014Je m'occupe de la $corne $de $bicorne. Hé ! Vous avez vu l'heure ? Vous feriez mieux d'aller au cours de potions. Je vais chercher un chaudron et dès que j'aurai trouvé un endroit o\\u00b1 préparer le Polynectar je vous enverrai $Hedwige.",
+    "de": "#2B#$014Ich werde das $Horn $eines $Zweihorns besorgen. Schaut mal auf die Uhr - lauft besser schnell zum Zaubertrank-Unterricht. Ich suche nach einem Kessel. Wenn ich einen Ort finde, an dem wir den Vielsaft-Trank herstellen können, schicke ich $Hedwig zu euch.",
+    "tr": "#29#$014Ben de $çiftboynuz $boynuzunu alırım. Siz ikiniz İksir dersine gitseniz iyi olur. Çoközlü İksir'i hazırlayacak bir yer bulduğumda $Hedwig'i göndereceğim."
+  },
+  {
+    "id": 88,
+    "en": "#2C#$011Just look at the time! You two had better get to Potions class. I'm going to find a cauldron. Meet me back here after the lesson.",
+    "fr": "#2D#$011Vous avez vu l'heure ? Vous feriez mieux d'aller au cours de potions. Je vais chercher un chaudron et on se retrouve ici après le cours.",
+    "de": "#2E#$011Schon so spät! Geht besser schnell zum Zaubertrank-Unterricht. Ich suche einen Kessel, und wir treffen uns hier nach dem Unterricht wieder.",
+    "tr": "#2C#$011Saate baksanıza! Siz ikiniz İksir dersine gitseniz iyi olur. Ben bir kazan bulmaya gidiyorum. Dersten sonra yine burada buluşalım."
+  },
+  {
+    "id": 89,
+    "en": "#2F#$001I\\u00b8m sure that Draco Malfoy\\u00b8s the Heir of Slytherin.",
+    "fr": "#30#$001Je suis s\\u00b3r que c'est Drago Malefoy l'héritier de Serpentard.",
+    "de": "#31#$001Ich bin überzeugt, dass Draco Malfoy der Erbe Slytherins ist.",
+    "tr": "#2F#$001Draco Malfoy'un Slytherin'in Varisi olduğuna adım gibi eminim."
+  },
+  {
+    "id": 90,
+    "en": "#32#$007Poly-what?",
+    "fr": "#33#$007Le Poly quoi ?",
+    "de": "#34#$007Viel-was?",
+    "tr": "#32#$007Çok-ne?"
+  },
+  {
+    "id": 91,
+    "en": "#35#$012Okay, I'll get the $knotgrass and $fluxweed. Harry, you can get the $leeches, $lacewing $flies and $shredded $boomslang.",
+    "fr": "#36#$012Bon, je m'occupe du $sysimbre et du $polygonum. Toi Harry, tu pourrais te procurer les $chrysopes, les $sangsues et la $peau $de $serpent $d'arbre.",
+    "de": "#37#$012Okay, ich besorge $Knöterich und $Flussgras. Harry, du kümmerst dich um die $Blutegel, $Florfliegen und die $klein $geschnittene $Baumschlangenhaut.",
+    "tr": "#35#$012Tamam, ben $düğümotu ve $karasu $otunu alırım. Harry, sen de $sülükleri, $zarkanatlı $sinekleri ve $kıyılmış $ağaç $yılanı $derisini alabilirsin."
+  },
+  {
+    "id": 92,
+    "en": "$001Not Used",
+    "fr": "$001Not Used",
+    "de": "$001Not Used",
+    "tr": "$001Kullanılmıyor"
+  },
+  {
+    "id": 93,
+    "en": "$002Not Used",
+    "fr": "$002Not Used",
+    "de": "$002Not Used",
+    "tr": "$002Kullanılmıyor"
+  },
+  {
+    "id": 94,
+    "en": "$003Not Used",
+    "fr": "$003Not Used",
+    "de": "$003Not Used",
+    "tr": "$003Kullanılmıyor"
+  },
+  {
+    "id": 95,
+    "en": "#38#$002Let me see If I can open it for you, Hermione.",
+    "fr": "#39#$002Attends, je vais voir si je peux l'ouvrir.",
+    "de": "#3A#$002Mal sehen, ob ich es für dich öffnen kann, Hermine.",
+    "tr": "#38#$002Bırak senin için açabilecek miyim bir bakayım, Hermione."
+  },
+  {
+    "id": 96,
+    "en": "#3B#$003Open!",
+    "fr": "#3C#$003Ouvre-toi !",
+    "de": "#3D#$003Üffnen!",
+    "tr": "#3B#$003Açıl!"
+  }
+]

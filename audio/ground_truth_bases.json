@@ -1,0 +1,703 @@
+{
+  "T1I0M004": {
+    "wad": "T1I0M004.WAD",
+    "base_offset": 140,
+    "base_offset_hex": "0x8c",
+    "cues_count": 50,
+    "test_cue": 102,
+    "target": "When Harry duelled Draco Malfoy at the W",
+    "transcription": "When Harry dueled Draco Malfoy at the Wi",
+    "score": 0.79
+  },
+  "T1L1M001": {
+    "wad": "T1L1M001.WAD",
+    "base_offset": 1252,
+    "base_offset_hex": "0x4e4",
+    "cues_count": 6,
+    "test_cue": 15,
+    "target": "Cassandra Vablatsky",
+    "transcription": "And we're going to get a baby.",
+    "score": 0.16,
+    "verified": true
+  },
+  "T1L1M002": {
+    "wad": "T1L1M002.WAD",
+    "base_offset": 1148,
+    "base_offset_hex": "0x47c",
+    "cues_count": 42,
+    "test_cue": 68,
+    "target": "I'm going to go to the library and see i",
+    "transcription": "See if I can find information on Tom Rid",
+    "score": 0.67
+  },
+  "T1L1M003": {
+    "wad": "T1L1M003.WAD",
+    "base_offset": 360,
+    "base_offset_hex": "0x168",
+    "cues_count": 7,
+    "test_cue": 9,
+    "target": "Pick up the $Speed $Boosts to stay ahead",
+    "transcription": "Pick up the speed boost to stay ahead of",
+    "score": 1.0
+  },
+  "T1L1M004": {
+    "wad": "T1L1M004.WAD",
+    "base_offset": 400,
+    "base_offset_hex": "0x190",
+    "cues_count": 5,
+    "test_cue": 13,
+    "target": "We're almost there, Harry. Collect the $",
+    "transcription": "We're almost there, Harry. Collect the p",
+    "score": 0.99
+  },
+  "T1L1M005": {
+    "wad": "T1L1M005.WAD",
+    "base_offset": 816,
+    "base_offset_hex": "0x330",
+    "cues_count": 10,
+    "test_cue": 26,
+    "target": "Harry, you need to get close to the tree",
+    "transcription": "Harry, but you need to get close to the ",
+    "score": 0.91
+  },
+  "T1L1M006": {
+    "wad": "T1L1M006.WAD",
+    "base_offset": 660,
+    "base_offset_hex": "0x294",
+    "cues_count": 28,
+    "test_cue": 48,
+    "target": "I also have some rather bad news for you",
+    "transcription": "I also have some rather bad news for you",
+    "score": 1.05
+  },
+  "T1L1M008": {
+    "wad": "T1L1M008.WAD",
+    "base_offset": 716,
+    "base_offset_hex": "0x2cc",
+    "cues_count": 16,
+    "test_cue": 4,
+    "target": "Well, well well. A Gryffindor student wa",
+    "transcription": "Well, well, well, a Riffindor student wa",
+    "score": 0.99
+  },
+  "T1L2M001": {
+    "wad": "T1L2M001.WAD",
+    "base_offset": 1016,
+    "base_offset_hex": "0x3f8",
+    "cues_count": 17,
+    "test_cue": 14,
+    "target": "Seeing you've been stuck at the Dursleys",
+    "transcription": "Remember, you need to press the X button",
+    "score": 0.37,
+    "verified": true
+  },
+  "T1L2M002": {
+    "wad": "T1L2M002.WAD",
+    "base_offset": 1024,
+    "base_offset_hex": "0x400",
+    "cues_count": 1,
+    "test_cue": 0,
+    "target": "Jocunda Sykes",
+    "transcription": "I'll go on that side.",
+    "score": 0.16,
+    "verified": true
+  },
+  "T1L2M003": {
+    "wad": "T1L2M003.WAD",
+    "base_offset": 720,
+    "base_offset_hex": "0x2d0",
+    "cues_count": 7,
+    "test_cue": 16,
+    "target": "Ah, that's much quieter! Now, I need you",
+    "transcription": "Ah, that's much quieter. Now I need you ",
+    "score": 1.02
+  },
+  "T1L2M004": {
+    "wad": "T1L2M004.WAD",
+    "base_offset": 736,
+    "base_offset_hex": "0x2e0",
+    "cues_count": 27,
+    "test_cue": 22,
+    "target": "Once you reach the fence, you'll begin s",
+    "transcription": "Once you reach the fence, you begin spin",
+    "score": 0.97
+  },
+  "T1L2M006": {
+    "wad": "T1L2M006.WAD",
+    "base_offset": 480,
+    "base_offset_hex": "0x1e0",
+    "cues_count": 7,
+    "test_cue": 15,
+    "target": "As you\\u00b8ve never travelled by $Floo ",
+    "transcription": "As you've never travelled by flu part of",
+    "score": 0.88
+  },
+  "T1L2M007": {
+    "wad": "T1L2M007.WAD",
+    "base_offset": 1380,
+    "base_offset_hex": "0x564",
+    "cues_count": 29,
+    "test_cue": 12,
+    "target": "Use your Wingardium Leviosa spell to cha",
+    "transcription": "HOLD IN THE EXBUTTON LEVITATE'S EACH PIE",
+    "score": 0.75
+  },
+  "T1L2M008": {
+    "wad": "T1L2M008.WAD",
+    "base_offset": 1236,
+    "base_offset_hex": "0x4d4",
+    "cues_count": 5,
+    "test_cue": 13,
+    "target": "If you find you are getting a little low",
+    "transcription": "And if you find you're getting a little ",
+    "score": 0.87
+  },
+  "T1L2M009": {
+    "wad": "T1L2M009.WAD",
+    "base_offset": 1996,
+    "base_offset_hex": "0x7cc",
+    "cues_count": 5,
+    "test_cue": 11,
+    "target": "Oh hi, Harry! Thank goodness you came. M",
+    "transcription": "My past games swallowed Meryl remember a",
+    "score": 0.63
+  },
+  "T1L3M000": {
+    "wad": "T1L3M000.WAD",
+    "base_offset": 556,
+    "base_offset_hex": "0x22c",
+    "cues_count": 73,
+    "test_cue": 219,
+    "target": "Watch out for the Bludgers. These are ch",
+    "transcription": "Watch out for the bludges. These are cha",
+    "score": 0.9
+  },
+  "T1L3M001": {
+    "wad": "T1L3M001.WAD",
+    "base_offset": 1096,
+    "base_offset_hex": "0x448",
+    "cues_count": 18,
+    "test_cue": 51,
+    "target": "Harry, I've  found the perfect place to ",
+    "transcription": "I found a perfect place to make the Poly",
+    "score": 0.55
+  },
+  "T1L3M002": {
+    "wad": "T1L3M002.WAD",
+    "base_offset": 1352,
+    "base_offset_hex": "0x548",
+    "cues_count": 12,
+    "test_cue": 10,
+    "target": "They\\u00b8re hiding in one of these boxe",
+    "transcription": "How can I help you? Good at it. Lee can'",
+    "score": 0.22,
+    "verified": true
+  },
+  "T1L3M003": {
+    "wad": "T1L3M003.WAD",
+    "base_offset": 960,
+    "base_offset_hex": "0x3c0",
+    "cues_count": 6,
+    "test_cue": 3,
+    "target": "Please help me! Somebody\\u00b8s released",
+    "transcription": "Please help me. Somebody's released a ga",
+    "score": 0.86
+  },
+  "T1L3M004": {
+    "wad": "T1L3M004.WAD",
+    "base_offset": 1188,
+    "base_offset_hex": "0x4a4",
+    "cues_count": 6,
+    "test_cue": 12,
+    "target": "If you want to get to the floor above, c",
+    "transcription": "Oh, but it's not that bad. If you want t",
+    "score": 0.66
+  },
+  "T1L3M005": {
+    "wad": "T1L3M005.WAD",
+    "base_offset": 556,
+    "base_offset_hex": "0x22c",
+    "cues_count": 73,
+    "test_cue": 219,
+    "target": "Watch out for the Bludgers. These are ch",
+    "transcription": "Watch out for the bludges. These are cha",
+    "score": 0.9
+  },
+  "T1L3M006": {
+    "wad": "T1L3M006.WAD",
+    "base_offset": 556,
+    "base_offset_hex": "0x22c",
+    "cues_count": 73,
+    "test_cue": 219,
+    "target": "Watch out for the Bludgers. These are ch",
+    "transcription": "Watch out for the bludges. These are cha",
+    "score": 0.9
+  },
+  "T1L3M007": {
+    "wad": "T1L3M007.WAD",
+    "base_offset": 556,
+    "base_offset_hex": "0x22c",
+    "cues_count": 73,
+    "test_cue": 219,
+    "target": "Watch out for the Bludgers. These are ch",
+    "transcription": "Watch out for the bludges. These are cha",
+    "score": 0.9
+  },
+  "T1L3M008": {
+    "wad": "T1L3M008.WAD",
+    "base_offset": 556,
+    "base_offset_hex": "0x22c",
+    "cues_count": 73,
+    "test_cue": 219,
+    "target": "Watch out for the Bludgers. These are ch",
+    "transcription": "Watch out for the bludges. These are cha",
+    "score": 0.9
+  },
+  "T1L3M009": {
+    "wad": "T1L3M009.WAD",
+    "base_offset": 596,
+    "base_offset_hex": "0x254",
+    "cues_count": 73,
+    "test_cue": 219,
+    "target": "Watch out for the Bludgers. These are ch",
+    "transcription": "Watch out for the bludges. These are cha",
+    "score": 0.9
+  },
+  "T1L4M001": {
+    "wad": "T1L4M001.WAD",
+    "base_offset": 840,
+    "base_offset_hex": "0x348",
+    "cues_count": 33,
+    "test_cue": 58,
+    "target": "Can you believe our luck? Fred and Georg",
+    "transcription": "Can he believe I luck? Fred and George m",
+    "score": 0.91
+  },
+  "T1L4M002": {
+    "wad": "T1L4M002.WAD",
+    "base_offset": 660,
+    "base_offset_hex": "0x294",
+    "cues_count": 26,
+    "test_cue": 21,
+    "target": "Looks like this year they\\u00b8re awardi",
+    "transcription": "Looks like this year they're warning hou",
+    "score": 0.83
+  },
+  "T1L4M003": {
+    "wad": "T1L4M003.WAD",
+    "base_offset": 640,
+    "base_offset_hex": "0x280",
+    "cues_count": 10,
+    "test_cue": 8,
+    "target": "Meanwhile, the house point hourglasses a",
+    "transcription": "Meanwhile, the house point our glasses a",
+    "score": 0.97
+  },
+  "T1L4M004": {
+    "wad": "T1L4M004.WAD",
+    "base_offset": 600,
+    "base_offset_hex": "0x258",
+    "cues_count": 7,
+    "test_cue": 0,
+    "target": "His eyes are as green as a fresh pickled",
+    "transcription": "He's a racer, a queen, has a fresh big o",
+    "score": 0.86
+  },
+  "T1L4M005": {
+    "wad": "T1L4M005.WAD",
+    "base_offset": 900,
+    "base_offset_hex": "0x384",
+    "cues_count": 37,
+    "test_cue": 46,
+    "target": "Yeah, but that word\\u00b8s the most insu",
+    "transcription": "Yeah, but that was the most insulting th",
+    "score": 0.91
+  },
+  "T1L4M007": {
+    "wad": "T1L4M007.WAD",
+    "base_offset": 1896,
+    "base_offset_hex": "0x768",
+    "cues_count": 34,
+    "test_cue": 98,
+    "target": "Professor, I have some information for y",
+    "transcription": "the girl who was killed by the monster 5",
+    "score": 0.68
+  },
+  "T1L4M008": {
+    "wad": "T1L4M008.WAD",
+    "base_offset": 908,
+    "base_offset_hex": "0x38c",
+    "cues_count": 20,
+    "test_cue": 38,
+    "target": "To make the $Polyjuice $Potion we\\u00b8l",
+    "transcription": "to make the polligues potion will need s",
+    "score": 0.61
+  },
+  "T1L5M001": {
+    "wad": "T1L5M001.WAD",
+    "base_offset": 960,
+    "base_offset_hex": "0x3c0",
+    "cues_count": 33,
+    "test_cue": 70,
+    "target": "Harry, I'm very displeased that you miss",
+    "transcription": "I'm very displeased that you missed my n",
+    "score": 0.92
+  },
+  "T1L5M002": {
+    "wad": "T1L5M002.WAD",
+    "base_offset": 616,
+    "base_offset_hex": "0x268",
+    "cues_count": 32,
+    "test_cue": 92,
+    "target": "Arthur Weasley's Automatic Washing Machi",
+    "transcription": "Arthur Weasley's Automatic Washing Machi",
+    "score": 1.05
+  },
+  "T1L5M004": {
+    "wad": "T1L5M004.WAD",
+    "base_offset": 960,
+    "base_offset_hex": "0x3c0",
+    "cues_count": 11,
+    "test_cue": 15,
+    "target": "Ginny's been writing in the diary for mo",
+    "transcription": "Ginny's been writing in the diary for mo",
+    "score": 1.05
+  },
+  "T1L5M005": {
+    "wad": "T1L5M005.WAD",
+    "base_offset": 740,
+    "base_offset_hex": "0x2e4",
+    "cues_count": 3,
+    "test_cue": 5,
+    "target": "Oh, it's you, playing a trick on me... A",
+    "transcription": "Oh, it's you playing a trick on me. Almo",
+    "score": 1.02
+  },
+  "T1L5M006": {
+    "wad": "T1L5M006.WAD",
+    "base_offset": 800,
+    "base_offset_hex": "0x320",
+    "cues_count": 57,
+    "test_cue": 7,
+    "target": "I'd hidden in here because Olive Hornby ",
+    "transcription": "I didn't hear because all it prawn me wa",
+    "score": 0.82
+  },
+  "T1L5M008": {
+    "wad": "T1L5M008.WAD",
+    "base_offset": 856,
+    "base_offset_hex": "0x358",
+    "cues_count": 17,
+    "test_cue": 27,
+    "target": "I shall go back to the school, tell them",
+    "transcription": "I shall go back to the school, tell them",
+    "score": 1.05
+  },
+  "T1L5M009": {
+    "wad": "T1L5M009.WAD",
+    "base_offset": 2928,
+    "base_offset_hex": "0xb70",
+    "cues_count": 25,
+    "test_cue": 9,
+    "target": "drops of Flobberworm mucous.",
+    "transcription": "you",
+    "score": 0.09,
+    "verified": true
+  },
+  "T1L6M002": {
+    "wad": "T1L6M002.WAD",
+    "base_offset": 908,
+    "base_offset_hex": "0x38c",
+    "cues_count": 9,
+    "test_cue": 4,
+    "target": "Dear me, Harry! I would have thought tha",
+    "transcription": "Tim, me, Harry! I'd have thought that yo",
+    "score": 0.73
+  },
+  "T1L6M003": {
+    "wad": "T1L6M003.WAD",
+    "base_offset": 1552,
+    "base_offset_hex": "0x610",
+    "cues_count": 53,
+    "test_cue": 161,
+    "target": "Well done! You have now won all the Hous",
+    "transcription": "Well, John, you have now won all the hou",
+    "score": 0.61
+  },
+  "T1L6M004": {
+    "wad": "T1L6M004.WAD",
+    "base_offset": 816,
+    "base_offset_hex": "0x330",
+    "cues_count": 3,
+    "test_cue": 4,
+    "target": "Hi Harry, welcome to my football challen",
+    "transcription": "Hi Harry, welcome to my football challen",
+    "score": 1.01
+  },
+  "T1L6M005": {
+    "wad": "T1L6M005.WAD",
+    "base_offset": 1016,
+    "base_offset_hex": "0x3f8",
+    "cues_count": 24,
+    "test_cue": 61,
+    "target": "I suggest that Potter, Weasley and Longb",
+    "transcription": "from Salvatrankin, I followed that conce",
+    "score": 0.16,
+    "verified": true
+  },
+  "T1L6M006": {
+    "wad": "T1L6M006.WAD",
+    "base_offset": 2200,
+    "base_offset_hex": "0x898",
+    "cues_count": 8,
+    "test_cue": 10,
+    "target": "It gets pretty cold in these dungeons wh",
+    "transcription": "Pretty cold in these dungeons when he's ",
+    "score": 0.87
+  },
+  "T1L6M007": {
+    "wad": "T1L6M007.WAD",
+    "base_offset": 904,
+    "base_offset_hex": "0x388",
+    "cues_count": 7,
+    "test_cue": 16,
+    "target": "Happy Deathday, Nick! I think Ron has a ",
+    "transcription": "Happy Death Day Nick! I think Ron has a ",
+    "score": 0.88
+  },
+  "T1L6M008": {
+    "wad": "T1L6M008.WAD",
+    "base_offset": 676,
+    "base_offset_hex": "0x2a4",
+    "cues_count": 14,
+    "test_cue": 37,
+    "target": "But I know one thing: last time the Cham",
+    "transcription": "But I know one thing. Last time the Cham",
+    "score": 1.02
+  },
+  "T1L6M009": {
+    "wad": "T1L6M009.WAD",
+    "base_offset": 1132,
+    "base_offset_hex": "0x46c",
+    "cues_count": 1,
+    "test_cue": 0,
+    "target": "Gaspard Shingleton",
+    "transcription": "Guess where single-tone Casper Chinoten.",
+    "score": 0.19,
+    "verified": true
+  },
+  "T1L7M001": {
+    "wad": "T1L7M001.WAD",
+    "base_offset": 944,
+    "base_offset_hex": "0x3b0",
+    "cues_count": 9,
+    "test_cue": 15,
+    "target": "Hello again, Potter!  I'm still trying t",
+    "transcription": "I'm still trying to get into the Quiddit",
+    "score": 0.75
+  },
+  "T1L7M002": {
+    "wad": "T1L7M002.WAD",
+    "base_offset": 676,
+    "base_offset_hex": "0x2a4",
+    "cues_count": 11,
+    "test_cue": 23,
+    "target": "Well done! You have now won all the Hous",
+    "transcription": "Well done! You will have now won all the",
+    "score": 0.98
+  },
+  "T1L7M003": {
+    "wad": "T1L7M003.WAD",
+    "base_offset": 696,
+    "base_offset_hex": "0x2b8",
+    "cues_count": 25,
+    "test_cue": 77,
+    "target": "Well done! You have now won all the Hous",
+    "transcription": "Well done! You will have now won all the",
+    "score": 0.98
+  },
+  "T1L7M004": {
+    "wad": "T1L7M004.WAD",
+    "base_offset": 880,
+    "base_offset_hex": "0x370",
+    "cues_count": 3,
+    "test_cue": 3,
+    "target": "Harry Potter",
+    "transcription": "Thank you.",
+    "score": 0.16,
+    "verified": true
+  },
+  "T1L7M005": {
+    "wad": "T1L7M005.WAD",
+    "base_offset": 620,
+    "base_offset_hex": "0x26c",
+    "cues_count": 64,
+    "test_cue": 189,
+    "target": "You\\u00b8ve completed basic Quidditch tr",
+    "transcription": "You've completed basic Quidditch Trainin",
+    "score": 0.9
+  },
+  "T1L7M006": {
+    "wad": "T1L7M006.WAD",
+    "base_offset": 836,
+    "base_offset_hex": "0x344",
+    "cues_count": 14,
+    "test_cue": 25,
+    "target": "Very latest model. Only came out last mo",
+    "transcription": "very latest model. Only came out last mo",
+    "score": 0.95
+  },
+  "T1L7M007": {
+    "wad": "T1L7M007.WAD",
+    "base_offset": 1376,
+    "base_offset_hex": "0x560",
+    "cues_count": 21,
+    "test_cue": 11,
+    "target": "This is a mandrake. Its cry is very dang",
+    "transcription": "This is a man-dreek. It's cry is very da",
+    "score": 0.87
+  },
+  "T1L8M001": {
+    "wad": "T1L8M001.WAD",
+    "base_offset": 1160,
+    "base_offset_hex": "0x488",
+    "cues_count": 9,
+    "test_cue": 19,
+    "target": "Harry, it's time to practice your Seeker",
+    "transcription": "Harry, it's time to practice your secret",
+    "score": 0.9
+  },
+  "T1L8M002": {
+    "wad": "T1L8M002.WAD",
+    "base_offset": 860,
+    "base_offset_hex": "0x35c",
+    "cues_count": 5,
+    "test_cue": 4,
+    "target": "Move the bowl under Ron ter catch 'em. T",
+    "transcription": "Move the bowl under round to catch them.",
+    "score": 0.85
+  },
+  "T1L8M003": {
+    "wad": "T1L8M003.WAD",
+    "base_offset": 760,
+    "base_offset_hex": "0x2f8",
+    "cues_count": 24,
+    "test_cue": 22,
+    "target": "Try an' throw the gnomes as far as yeh c",
+    "transcription": "Try and throw the names as far as you ca",
+    "score": 0.88
+  },
+  "T1L8M005": {
+    "wad": "T1L8M005.WAD",
+    "base_offset": 3104,
+    "base_offset_hex": "0xc20",
+    "cues_count": 23,
+    "test_cue": 66,
+    "target": "Stand where I point, look upon the water",
+    "transcription": "Faye de Brillo \u00e9cras\u00e9. Gehakt\u00e9 allihot\u00ed ",
+    "score": 0.17,
+    "verified": true
+  },
+  "T1L8M006": {
+    "wad": "T1L8M006.WAD",
+    "base_offset": 1384,
+    "base_offset_hex": "0x568",
+    "cues_count": 14,
+    "test_cue": 24,
+    "target": "I come from a distant land. A traveller ",
+    "transcription": "a trouble I gave me to Hagrid when I was",
+    "score": 0.75
+  },
+  "T1L8M007": {
+    "wad": "T1L8M007.WAD",
+    "base_offset": 1000,
+    "base_offset_hex": "0x3e8",
+    "cues_count": 10,
+    "test_cue": 23,
+    "target": "Thanks for saving me pumpkins, Harry! I ",
+    "transcription": "Thanks for saving my pumpkin's Harry. I ",
+    "score": 0.75
+  },
+  "T1L8M008": {
+    "wad": "T1L8M008.WAD",
+    "base_offset": 1568,
+    "base_offset_hex": "0x620",
+    "cues_count": 2,
+    "test_cue": 3,
+    "target": "Daisy Dodderidge",
+    "transcription": "Felix, some are B Felix, some are B Dais",
+    "score": 0.51,
+    "verified": true
+  },
+  "T1L9M001": {
+    "wad": "T1L9M001.WAD",
+    "base_offset": 760,
+    "base_offset_hex": "0x2f8",
+    "cues_count": 24,
+    "test_cue": 19,
+    "target": "It's down to you, Harry!  Catching the S",
+    "transcription": "It's down to you, Harry. Catching the sn",
+    "score": 0.96
+  },
+  "T1L9M003": {
+    "wad": "T1L9M003.WAD",
+    "base_offset": 596,
+    "base_offset_hex": "0x254",
+    "cues_count": 27,
+    "test_cue": 80,
+    "target": "I suppose I'd better give you a Famous W",
+    "transcription": "I suppose I'd better give your famous wi",
+    "score": 0.88
+  },
+  "T1L9M004": {
+    "wad": "T1L9M004.WAD",
+    "base_offset": 1176,
+    "base_offset_hex": "0x498",
+    "cues_count": 15,
+    "test_cue": 37,
+    "target": "Better watch out for the candles, Potter",
+    "transcription": "Trust me, you're going to need all the h",
+    "score": 0.53,
+    "verified": true
+  },
+  "T1L9M005": {
+    "wad": "T1L9M005.WAD",
+    "base_offset": 1000,
+    "base_offset_hex": "0x3e8",
+    "cues_count": 25,
+    "test_cue": 68,
+    "target": "I hear you are a tough competitor, but l",
+    "transcription": "I hear you a tough competitor, but let m",
+    "score": 0.89
+  },
+  "T1L9M006": {
+    "wad": "T1L9M006.WAD",
+    "base_offset": 540,
+    "base_offset_hex": "0x21c",
+    "cues_count": 20,
+    "test_cue": 46,
+    "target": "Remember Harry, you cast Knockback Jinxe",
+    "transcription": "Remember Harry, you class not backchinks",
+    "score": 0.81
+  },
+  "T1L9M007": {
+    "wad": "T1L9M007.WAD",
+    "base_offset": 640,
+    "base_offset_hex": "0x280",
+    "cues_count": 27,
+    "test_cue": 78,
+    "target": "Blimey Harry you won, and look what you'",
+    "transcription": "BLYME, Harry, you won! And look what you",
+    "score": 1.01
+  },
+  "T1L9M008": {
+    "wad": "T1L9M008.WAD",
+    "base_offset": 600,
+    "base_offset_hex": "0x258",
+    "cues_count": 33,
+    "test_cue": 84,
+    "target": "And don't forget, fully-charged Knockbac",
+    "transcription": "And don't forget, fully charged knockbac",
+    "score": 0.96
+  }
+}

@@ -1,0 +1,1677 @@
+[
+  {
+    "id": 0,
+    "original_length": 18,
+    "text": "Advanced"
+  },
+  {
+    "id": 1,
+    "original_length": 36,
+    "text": "Data Will Be Lost"
+  },
+  {
+    "id": 2,
+    "original_length": 26,
+    "text": "Area cleared"
+  },
+  {
+    "id": 3,
+    "original_length": 28,
+    "text": "Areas Cleared"
+  },
+  {
+    "id": 4,
+    "original_length": 26,
+    "text": "Are you sure"
+  },
+  {
+    "id": 5,
+    "original_length": 28,
+    "text": "Are You Sure?"
+  },
+  {
+    "id": 6,
+    "original_length": 34,
+    "text": "Autosave / Load?"
+  },
+  {
+    "id": 7,
+    "original_length": 18,
+    "text": "Autosave"
+  },
+  {
+    "id": 8,
+    "original_length": 128,
+    "text": "This will save your progress throughout the game automatically."
+  },
+  {
+    "id": 9,
+    "original_length": 120,
+    "text": "Warning: Your game settings and progress will not be saved."
+  },
+  {
+    "id": 10,
+    "original_length": 18,
+    "text": "Proceed?"
+  },
+  {
+    "id": 11,
+    "original_length": 14,
+    "text": "[ Back"
+  },
+  {
+    "id": 12,
+    "original_length": 18,
+    "text": "Beginner"
+  },
+  {
+    "id": 13,
+    "original_length": 64,
+    "text": "< Begin new game without saving"
+  },
+  {
+    "id": 14,
+    "original_length": 40,
+    "text": "School Record Time:"
+  },
+  {
+    "id": 15,
+    "original_length": 42,
+    "text": "Calibrate Controller"
+  },
+  {
+    "id": 16,
+    "original_length": 20,
+    "text": "Look Mode"
+  },
+  {
+    "id": 17,
+    "original_length": 28,
+    "text": "Centre Screen"
+  },
+  {
+    "id": 18,
+    "original_length": 32,
+    "text": "@ Center Screen"
+  },
+  {
+    "id": 19,
+    "original_length": 48,
+    "text": "{ } Select       [ Back"
+  },
+  {
+    "id": 20,
+    "original_length": 52,
+    "text": "{ } Select       [ Cancel"
+  },
+  {
+    "id": 21,
+    "original_length": 16,
+    "text": "Chapter"
+  },
+  {
+    "id": 22,
+    "original_length": 24,
+    "text": "CHECKPOINT!"
+  },
+  {
+    "id": 23,
+    "original_length": 32,
+    "text": "Choose Language"
+  },
+  {
+    "id": 24,
+    "original_length": 28,
+    "text": "Choose a game"
+  },
+  {
+    "id": 25,
+    "original_length": 14,
+    "text": "Coins:"
+  },
+  {
+    "id": 26,
+    "original_length": 32,
+    "text": "Coins collected"
+  },
+  {
+    "id": 27,
+    "original_length": 40,
+    "text": "> Continue   [ Back"
+  },
+  {
+    "id": 28,
+    "original_length": 32,
+    "text": "Press > to save"
+  },
+  {
+    "id": 29,
+    "original_length": 46,
+    "text": "or press ] to continue"
+  },
+  {
+    "id": 30,
+    "original_length": 40,
+    "text": "Press > to continue"
+  },
+  {
+    "id": 31,
+    "original_length": 52,
+    "text": "[ Continue without saving"
+  },
+  {
+    "id": 32,
+    "original_length": 38,
+    "text": "Controller Options"
+  },
+  {
+    "id": 33,
+    "original_length": 16,
+    "text": "Credits"
+  },
+  {
+    "id": 34,
+    "original_length": 28,
+    "text": "Current Time:"
+  },
+  {
+    "id": 35,
+    "original_length": 60,
+    "text": "Defence Against the Dark Arts"
+  },
+  {
+    "id": 36,
+    "original_length": 16,
+    "text": "Default"
+  },
+  {
+    "id": 37,
+    "original_length": 10,
+    "text": "Demo"
+  },
+  {
+    "id": 38,
+    "original_length": 20,
+    "text": "Demo Mode"
+  },
+  {
+    "id": 39,
+    "original_length": 34,
+    "text": "Press Any Button"
+  },
+  {
+    "id": 40,
+    "original_length": 32,
+    "text": "Dialogue Volume"
+  },
+  {
+    "id": 41,
+    "original_length": 18,
+    "text": "Surround"
+  },
+  {
+    "id": 42,
+    "original_length": 10,
+    "text": "Done"
+  },
+  {
+    "id": 43,
+    "original_length": 18,
+    "text": "Complete"
+  },
+  {
+    "id": 44,
+    "original_length": 12,
+    "text": "EMPTY"
+  },
+  {
+    "id": 45,
+    "original_length": 26,
+    "text": "End Sequence"
+  },
+  {
+    "id": 46,
+    "original_length": 10,
+    "text": "Exit"
+  },
+  {
+    "id": 47,
+    "original_length": 42,
+    "text": "Founder Wizard Duels"
+  },
+  {
+    "id": 48,
+    "original_length": 24,
+    "text": "Game Save 1"
+  },
+  {
+    "id": 49,
+    "original_length": 24,
+    "text": "Game Save 2"
+  },
+  {
+    "id": 50,
+    "original_length": 24,
+    "text": "Game Save 3"
+  },
+  {
+    "id": 51,
+    "original_length": 24,
+    "text": "Your Grade:"
+  },
+  {
+    "id": 52,
+    "original_length": 28,
+    "text": "Grade Needed:"
+  },
+  {
+    "id": 53,
+    "original_length": 22,
+    "text": "Gryffindor"
+  },
+  {
+    "id": 54,
+    "original_length": 50,
+    "text": "Harry Potter Report Card"
+  },
+  {
+    "id": 55,
+    "original_length": 20,
+    "text": "Herbology"
+  },
+  {
+    "id": 56,
+    "original_length": 26,
+    "text": "House Points"
+  },
+  {
+    "id": 57,
+    "original_length": 22,
+    "text": "Hufflepuff"
+  },
+  {
+    "id": 58,
+    "original_length": 20,
+    "text": "Inventory"
+  },
+  {
+    "id": 59,
+    "original_length": 24,
+    "text": "Nimbus 2001"
+  },
+  {
+    "id": 60,
+    "original_length": 30,
+    "text": "(inventory 02)"
+  },
+  {
+    "id": 61,
+    "original_length": 30,
+    "text": "(inventory 03)"
+  },
+  {
+    "id": 62,
+    "original_length": 30,
+    "text": "(inventory 04)"
+  },
+  {
+    "id": 63,
+    "original_length": 30,
+    "text": "(inventory 05)"
+  },
+  {
+    "id": 64,
+    "original_length": 30,
+    "text": "(inventory 06)"
+  },
+  {
+    "id": 65,
+    "original_length": 30,
+    "text": "(inventory 07)"
+  },
+  {
+    "id": 66,
+    "original_length": 30,
+    "text": "(inventory 08)"
+  },
+  {
+    "id": 67,
+    "original_length": 30,
+    "text": "(inventory 09)"
+  },
+  {
+    "id": 68,
+    "original_length": 30,
+    "text": "(inventory 10)"
+  },
+  {
+    "id": 69,
+    "original_length": 30,
+    "text": "(inventory 11)"
+  },
+  {
+    "id": 70,
+    "original_length": 30,
+    "text": "(inventory 12)"
+  },
+  {
+    "id": 71,
+    "original_length": 30,
+    "text": "(inventory 13)"
+  },
+  {
+    "id": 72,
+    "original_length": 30,
+    "text": "(inventory 14)"
+  },
+  {
+    "id": 73,
+    "original_length": 30,
+    "text": "(inventory 15)"
+  },
+  {
+    "id": 74,
+    "original_length": 30,
+    "text": "(inventory 16)"
+  },
+  {
+    "id": 75,
+    "original_length": 18,
+    "text": "Inverted"
+  },
+  {
+    "id": 76,
+    "original_length": 32,
+    "text": "Select Language"
+  },
+  {
+    "id": 77,
+    "original_length": 98,
+    "text": "| 2002 Electronic Arts Inc. All rights reserved."
+  },
+  {
+    "id": 78,
+    "original_length": 138,
+    "text": "Certain Technology | 2002 Argonaut Software Ltd. All rights reserved"
+  },
+  {
+    "id": 79,
+    "original_length": 14,
+    "text": "Castle"
+  },
+  {
+    "id": 80,
+    "original_length": 26,
+    "text": "Upper Castle"
+  },
+  {
+    "id": 81,
+    "original_length": 26,
+    "text": "Diagon Alley"
+  },
+  {
+    "id": 82,
+    "original_length": 20,
+    "text": "Gringotts"
+  },
+  {
+    "id": 83,
+    "original_length": 16,
+    "text": "Grounds"
+  },
+  {
+    "id": 84,
+    "original_length": 16,
+    "text": "Secret!"
+  },
+  {
+    "id": 85,
+    "original_length": 34,
+    "text": "Forbidden Forest"
+  },
+  {
+    "id": 86,
+    "original_length": 16,
+    "text": "Dungeon"
+  },
+  {
+    "id": 87,
+    "original_length": 20,
+    "text": "TestLevel"
+  },
+  {
+    "id": 88,
+    "original_length": 20,
+    "text": "Load Done"
+  },
+  {
+    "id": 89,
+    "original_length": 70,
+    "text": "> Load and continue game    [ Back"
+  },
+  {
+    "id": 90,
+    "original_length": 62,
+    "text": "] Overwrite and start new game"
+  },
+  {
+    "id": 91,
+    "original_length": 22,
+    "text": "LOADING..."
+  },
+  {
+    "id": 92,
+    "original_length": 34,
+    "text": "Loading data...."
+  },
+  {
+    "id": 93,
+    "original_length": 68,
+    "text": "If you replay this level you will"
+  },
+  {
+    "id": 94,
+    "original_length": 50,
+    "text": "lose all your continues."
+  },
+  {
+    "id": 95,
+    "original_length": 42,
+    "text": "Checking MEMORY CARD"
+  },
+  {
+    "id": 96,
+    "original_length": 36,
+    "text": "Continue anyway ?"
+  },
+  {
+    "id": 97,
+    "original_length": 62,
+    "text": "Would you like to create one ?"
+  },
+  {
+    "id": 98,
+    "original_length": 120,
+    "text": "Creating Harry Potter and the Chamber of Secrets save block"
+  },
+  {
+    "id": 99,
+    "original_length": 42,
+    "text": "There is a different"
+  },
+  {
+    "id": 100,
+    "original_length": 110,
+    "text": "There is a different MEMORY CARD in MEMORY CARD SLOT 1"
+  },
+  {
+    "id": 101,
+    "original_length": 44,
+    "text": "Do you wish to format"
+  },
+  {
+    "id": 102,
+    "original_length": 36,
+    "text": "the MEMORY CARD ?"
+  },
+  {
+    "id": 103,
+    "original_length": 44,
+    "text": "Do you want to save ?"
+  },
+  {
+    "id": 104,
+    "original_length": 68,
+    "text": "MEMORY CARD Appears to be damaged"
+  },
+  {
+    "id": 105,
+    "original_length": 14,
+    "text": "FAILED"
+  },
+  {
+    "id": 106,
+    "original_length": 22,
+    "text": "Formatting"
+  },
+  {
+    "id": 107,
+    "original_length": 68,
+    "text": "MEMORY CARD in MEMORY CARD slot 1"
+  },
+  {
+    "id": 108,
+    "original_length": 82,
+    "text": "is full. Harry Potter and the Chamber of"
+  },
+  {
+    "id": 109,
+    "original_length": 82,
+    "text": "Secrets requires one free block to save."
+  },
+  {
+    "id": 110,
+    "original_length": 66,
+    "text": "Please insert a MEMORY CARD with"
+  },
+  {
+    "id": 111,
+    "original_length": 68,
+    "text": "at least 1 free block into MEMORY"
+  },
+  {
+    "id": 112,
+    "original_length": 26,
+    "text": "CARD slot 1."
+  },
+  {
+    "id": 113,
+    "original_length": 52,
+    "text": "When you see this picture"
+  },
+  {
+    "id": 114,
+    "original_length": 86,
+    "text": "your game is Autosaving. When this appears"
+  },
+  {
+    "id": 115,
+    "original_length": 74,
+    "text": "please do not remove the MEMORY CARD"
+  },
+  {
+    "id": 116,
+    "original_length": 76,
+    "text": "from MEMORY CARD slot 1. Do not reset"
+  },
+  {
+    "id": 117,
+    "original_length": 72,
+    "text": "and do not turn off the main power."
+  },
+  {
+    "id": 118,
+    "original_length": 36,
+    "text": "Create a new save"
+  },
+  {
+    "id": 119,
+    "original_length": 128,
+    "text": "No Harry Potter and the Chamber of Secrets saves on MEMORY CARD"
+  },
+  {
+    "id": 120,
+    "original_length": 50,
+    "text": "No MEMORY CARD inserted."
+  },
+  {
+    "id": 121,
+    "original_length": 56,
+    "text": "Please insert a MEMORY CARD"
+  },
+  {
+    "id": 122,
+    "original_length": 70,
+    "text": "containing at least one free block"
+  },
+  {
+    "id": 123,
+    "original_length": 50,
+    "text": "into MEMORY CARD slot 1."
+  },
+  {
+    "id": 124,
+    "original_length": 64,
+    "text": "Do you want to overwrite game ?"
+  },
+  {
+    "id": 125,
+    "original_length": 16,
+    "text": "Retry ?"
+  },
+  {
+    "id": 126,
+    "original_length": 42,
+    "text": "You will not be able"
+  },
+  {
+    "id": 127,
+    "original_length": 44,
+    "text": "to save game progress"
+  },
+  {
+    "id": 128,
+    "original_length": 32,
+    "text": "Saving data...."
+  },
+  {
+    "id": 129,
+    "original_length": 44,
+    "text": "In MEMORY CARD slot 1"
+  },
+  {
+    "id": 130,
+    "original_length": 30,
+    "text": "MEMORY CARD in"
+  },
+  {
+    "id": 131,
+    "original_length": 38,
+    "text": "MEMORY CARD slot 1"
+  },
+  {
+    "id": 132,
+    "original_length": 36,
+    "text": "is not formatted."
+  },
+  {
+    "id": 133,
+    "original_length": 52,
+    "text": "Do Not Remove MEMORY CARD"
+  },
+  {
+    "id": 134,
+    "original_length": 48,
+    "text": "from MEMORY CARD slot 1"
+  },
+  {
+    "id": 135,
+    "original_length": 50,
+    "text": "Continue without saving?"
+  },
+  {
+    "id": 136,
+    "original_length": 10,
+    "text": "Mono"
+  },
+  {
+    "id": 137,
+    "original_length": 28,
+    "text": "Music Options"
+  },
+  {
+    "id": 138,
+    "original_length": 26,
+    "text": "Music Volume"
+  },
+  {
+    "id": 139,
+    "original_length": 54,
+    "text": "> Start new game    [ Back"
+  },
+  {
+    "id": 140,
+    "original_length": 6,
+    "text": "No"
+  },
+  {
+    "id": 141,
+    "original_length": 70,
+    "text": "Controller not found in Controller"
+  },
+  {
+    "id": 142,
+    "original_length": 74,
+    "text": "port 1.  Please reinsert Controller."
+  },
+  {
+    "id": 143,
+    "original_length": 14,
+    "text": "Normal"
+  },
+  {
+    "id": 144,
+    "original_length": 74,
+    "text": "\\u00b9\\u00ba\\u00cb\\u00cc\\u00c3\\u00cd\\u00c9\\u00bf\\u00c0\\u00c5\\u00c6\\u00c1\\u00c2\\u00bb\\u00c4\\u00ca\\u00ce\\u00cf\\u00bc\\u00bd!),.:;?]}\\u00d0\\u00d1\\u00d2\\u00d3\\u00d4\\u00d5\\u00d6"
+  },
+  {
+    "id": 145,
+    "original_length": 14,
+    "text": "] Undo"
+  },
+  {
+    "id": 146,
+    "original_length": 8,
+    "text": "Off"
+  },
+  {
+    "id": 147,
+    "original_length": 6,
+    "text": "Ok"
+  },
+  {
+    "id": 148,
+    "original_length": 6,
+    "text": "On"
+  },
+  {
+    "id": 149,
+    "original_length": 16,
+    "text": "Options"
+  },
+  {
+    "id": 150,
+    "original_length": 28,
+    "text": "Panel Display"
+  },
+  {
+    "id": 151,
+    "original_length": 30,
+    "text": "Return To Game"
+  },
+  {
+    "id": 152,
+    "original_length": 18,
+    "text": "{ Select"
+  },
+  {
+    "id": 153,
+    "original_length": 26,
+    "text": "Game Options"
+  },
+  {
+    "id": 154,
+    "original_length": 14,
+    "text": "Paused"
+  },
+  {
+    "id": 155,
+    "original_length": 20,
+    "text": "Play Game"
+  },
+  {
+    "id": 156,
+    "original_length": 28,
+    "text": "Continue Game"
+  },
+  {
+    "id": 157,
+    "original_length": 46,
+    "text": "Gryffindor Common Room"
+  },
+  {
+    "id": 158,
+    "original_length": 28,
+    "text": "Play Duelling"
+  },
+  {
+    "id": 159,
+    "original_length": 34,
+    "text": "Quidditch League"
+  },
+  {
+    "id": 160,
+    "original_length": 44,
+    "text": "> Play Match   [ Back"
+  },
+  {
+    "id": 161,
+    "original_length": 16,
+    "text": "Potions"
+  },
+  {
+    "id": 162,
+    "original_length": 22,
+    "text": "Start Game"
+  },
+  {
+    "id": 163,
+    "original_length": 20,
+    "text": "Quidditch"
+  },
+  {
+    "id": 164,
+    "original_length": 38,
+    "text": "Quidditch Training"
+  },
+  {
+    "id": 165,
+    "original_length": 54,
+    "text": "Quidditch is not available"
+  },
+  {
+    "id": 166,
+    "original_length": 20,
+    "text": "Quit Game"
+  },
+  {
+    "id": 167,
+    "original_length": 20,
+    "text": "Ravenclaw"
+  },
+  {
+    "id": 168,
+    "original_length": 24,
+    "text": "Remembralls"
+  },
+  {
+    "id": 169,
+    "original_length": 28,
+    "text": "< Report Card"
+  },
+  {
+    "id": 170,
+    "original_length": 32,
+    "text": "Restart Section"
+  },
+  {
+    "id": 171,
+    "original_length": 50,
+    "text": "Restore Default Settings"
+  },
+  {
+    "id": 172,
+    "original_length": 18,
+    "text": "Continue"
+  },
+  {
+    "id": 173,
+    "original_length": 40,
+    "text": "Return to Main Menu"
+  },
+  {
+    "id": 174,
+    "original_length": 46,
+    "text": "Return To Options Menu"
+  },
+  {
+    "id": 175,
+    "original_length": 16,
+    "text": "Reverse"
+  },
+  {
+    "id": 176,
+    "original_length": 38,
+    "text": "Broomstick Control"
+  },
+  {
+    "id": 177,
+    "original_length": 30,
+    "text": "Flying Control"
+  },
+  {
+    "id": 178,
+    "original_length": 20,
+    "text": "Look Mode"
+  },
+  {
+    "id": 179,
+    "original_length": 20,
+    "text": "Vibration"
+  },
+  {
+    "id": 180,
+    "original_length": 24,
+    "text": "> Save Game"
+  },
+  {
+    "id": 181,
+    "original_length": 52,
+    "text": "] Overwrite and save game"
+  },
+  {
+    "id": 182,
+    "original_length": 16,
+    "text": "SECRET!"
+  },
+  {
+    "id": 183,
+    "original_length": 28,
+    "text": "Secrets found"
+  },
+  {
+    "id": 184,
+    "original_length": 18,
+    "text": "> Select"
+  },
+  {
+    "id": 185,
+    "original_length": 18,
+    "text": "> Select"
+  },
+  {
+    "id": 186,
+    "original_length": 24,
+    "text": "> Confirmer"
+  },
+  {
+    "id": 187,
+    "original_length": 18,
+    "text": "> Wählen"
+  },
+  {
+    "id": 188,
+    "original_length": 28,
+    "text": "> Seleccionar"
+  },
+  {
+    "id": 189,
+    "original_length": 28,
+    "text": "> Seleccionar"
+  },
+  {
+    "id": 190,
+    "original_length": 24,
+    "text": "> Seleziona"
+  },
+  {
+    "id": 191,
+    "original_length": 14,
+    "text": "> Välj"
+  },
+  {
+    "id": 192,
+    "original_length": 14,
+    "text": "> Velg"
+  },
+  {
+    "id": 193,
+    "original_length": 20,
+    "text": "> Valitse"
+  },
+  {
+    "id": 194,
+    "original_length": 14,
+    "text": "> Vçlg"
+  },
+  {
+    "id": 195,
+    "original_length": 26,
+    "text": "> selecteren"
+  },
+  {
+    "id": 196,
+    "original_length": 10,
+    "text": "> \\u00c7\\u00be"
+  },
+  {
+    "id": 197,
+    "original_length": 42,
+    "text": "> Select      [ Back"
+  },
+  {
+    "id": 198,
+    "original_length": 46,
+    "text": "> Select      [ Cancel"
+  },
+  {
+    "id": 199,
+    "original_length": 14,
+    "text": "> Exit"
+  },
+  {
+    "id": 200,
+    "original_length": 30,
+    "text": "] View gallery"
+  },
+  {
+    "id": 201,
+    "original_length": 46,
+    "text": "> Select Game   [ Back"
+  },
+  {
+    "id": 202,
+    "original_length": 28,
+    "text": "> Select Game"
+  },
+  {
+    "id": 203,
+    "original_length": 58,
+    "text": "Use { and } to choose a game"
+  },
+  {
+    "id": 204,
+    "original_length": 48,
+    "text": "> to select game [ back"
+  },
+  {
+    "id": 205,
+    "original_length": 62,
+    "text": "{ } Select Inventory    [ Back"
+  },
+  {
+    "id": 206,
+    "original_length": 42,
+    "text": "{ } change level/map"
+  },
+  {
+    "id": 207,
+    "original_length": 60,
+    "text": "> select level/map     [ quit"
+  },
+  {
+    "id": 208,
+    "original_length": 48,
+    "text": "> Select Match   [ Back"
+  },
+  {
+    "id": 209,
+    "original_length": 44,
+    "text": "> Select      [ Reset"
+  },
+  {
+    "id": 210,
+    "original_length": 32,
+    "text": "{ } Select Card"
+  },
+  {
+    "id": 211,
+    "original_length": 22,
+    "text": "Slide Show"
+  },
+  {
+    "id": 212,
+    "original_length": 20,
+    "text": "Slytherin"
+  },
+  {
+    "id": 213,
+    "original_length": 26,
+    "text": "Sound Volume"
+  },
+  {
+    "id": 214,
+    "original_length": 22,
+    "text": "Sound Mode"
+  },
+  {
+    "id": 215,
+    "original_length": 28,
+    "text": "Sound Options"
+  },
+  {
+    "id": 216,
+    "original_length": 16,
+    "text": "Spells:"
+  },
+  {
+    "id": 217,
+    "original_length": 22,
+    "text": "Statistics"
+  },
+  {
+    "id": 218,
+    "original_length": 14,
+    "text": "Stereo"
+  },
+  {
+    "id": 219,
+    "original_length": 38,
+    "text": "Go to Diagon Alley"
+  },
+  {
+    "id": 220,
+    "original_length": 48,
+    "text": "Get to Hogwarts on time"
+  },
+  {
+    "id": 221,
+    "original_length": 38,
+    "text": "Get to Common Room"
+  },
+  {
+    "id": 222,
+    "original_length": 72,
+    "text": "Learn password to enter Common Room"
+  },
+  {
+    "id": 223,
+    "original_length": 86,
+    "text": "Get to Greenhouse three to learn Herbology"
+  },
+  {
+    "id": 224,
+    "original_length": 80,
+    "text": "Meet Oliver Wood for Quidditch Training"
+  },
+  {
+    "id": 225,
+    "original_length": 18,
+    "text": "Duel Ron"
+  },
+  {
+    "id": 226,
+    "original_length": 32,
+    "text": "Don't lose Ron!"
+  },
+  {
+    "id": 227,
+    "original_length": 106,
+    "text": "Catch slugs in the bowl and empty them in the barrel"
+  },
+  {
+    "id": 228,
+    "original_length": 146,
+    "text": "Get to the  Defence Against the Dark Arts class room in the Upper Castle"
+  },
+  {
+    "id": 229,
+    "original_length": 42,
+    "text": "Catch all the Pixies"
+  },
+  {
+    "id": 230,
+    "original_length": 122,
+    "text": "Get to Nearly Headless Nick's Deathday Party in the Dungeons"
+  },
+  {
+    "id": 231,
+    "original_length": 144,
+    "text": "Collect lacewing flies, boomslang skin and leeches for Polyjuice Potion"
+  },
+  {
+    "id": 232,
+    "original_length": 134,
+    "text": "Take ingredients to Hermione in the  Upper Castle Girls' Bathroom."
+  },
+  {
+    "id": 233,
+    "original_length": 78,
+    "text": "Find entrance to Slytherin Common room"
+  },
+  {
+    "id": 234,
+    "original_length": 108,
+    "text": "Get to Gilderoy Lockharts' Office in the Lower Castle"
+  },
+  {
+    "id": 235,
+    "original_length": 80,
+    "text": "Escape Lockharts' card-carrying cupids!"
+  },
+  {
+    "id": 236,
+    "original_length": 42,
+    "text": "Sneak to Hagrids Hut"
+  },
+  {
+    "id": 237,
+    "original_length": 38,
+    "text": "Follow the spiders"
+  },
+  {
+    "id": 238,
+    "original_length": 58,
+    "text": "Protect yourself from Aragog"
+  },
+  {
+    "id": 239,
+    "original_length": 92,
+    "text": "Find Professor Lockhart and ask for his help."
+  },
+  {
+    "id": 240,
+    "original_length": 48,
+    "text": "Confront Moaning Myrtle"
+  },
+  {
+    "id": 241,
+    "original_length": 84,
+    "text": "Rescue Ginny from the Chamber of Secrets."
+  },
+  {
+    "id": 242,
+    "original_length": 40,
+    "text": "If You Continue All"
+  },
+  {
+    "id": 243,
+    "original_length": 52,
+    "text": "to the Map Select Screen?"
+  },
+  {
+    "id": 244,
+    "original_length": 22,
+    "text": "Gold Coins"
+  },
+  {
+    "id": 245,
+    "original_length": 88,
+    "text": "Unsupported controller in controller port 1"
+  },
+  {
+    "id": 246,
+    "original_length": 14,
+    "text": "Volume"
+  },
+  {
+    "id": 247,
+    "original_length": 16,
+    "text": "Warning"
+  },
+  {
+    "id": 248,
+    "original_length": 48,
+    "text": "A new Quidditch Record!"
+  },
+  {
+    "id": 249,
+    "original_length": 32,
+    "text": "(Folio Magi 01)"
+  },
+  {
+    "id": 250,
+    "original_length": 32,
+    "text": "(Folio Magi 02)"
+  },
+  {
+    "id": 251,
+    "original_length": 32,
+    "text": "(Folio Magi 03)"
+  },
+  {
+    "id": 252,
+    "original_length": 32,
+    "text": "(Folio Magi 04)"
+  },
+  {
+    "id": 253,
+    "original_length": 32,
+    "text": "(Folio Magi 05)"
+  },
+  {
+    "id": 254,
+    "original_length": 32,
+    "text": "(Folio Magi 06)"
+  },
+  {
+    "id": 255,
+    "original_length": 32,
+    "text": "(Folio Magi 07)"
+  },
+  {
+    "id": 256,
+    "original_length": 32,
+    "text": "(Folio Magi 08)"
+  },
+  {
+    "id": 257,
+    "original_length": 32,
+    "text": "(Folio Magi 09)"
+  },
+  {
+    "id": 258,
+    "original_length": 32,
+    "text": "(Folio Magi 10)"
+  },
+  {
+    "id": 259,
+    "original_length": 32,
+    "text": "(Folio Magi 11)"
+  },
+  {
+    "id": 260,
+    "original_length": 32,
+    "text": "(Folio Magi 12)"
+  },
+  {
+    "id": 261,
+    "original_length": 32,
+    "text": "(Folio Magi 13)"
+  },
+  {
+    "id": 262,
+    "original_length": 32,
+    "text": "(Folio Magi 14)"
+  },
+  {
+    "id": 263,
+    "original_length": 32,
+    "text": "(Folio Magi 15)"
+  },
+  {
+    "id": 264,
+    "original_length": 32,
+    "text": "(Folio Magi 16)"
+  },
+  {
+    "id": 265,
+    "original_length": 32,
+    "text": "(Folio Magi 17)"
+  },
+  {
+    "id": 266,
+    "original_length": 32,
+    "text": "(Folio Magi 18)"
+  },
+  {
+    "id": 267,
+    "original_length": 32,
+    "text": "(Folio Magi 19)"
+  },
+  {
+    "id": 268,
+    "original_length": 32,
+    "text": "(Folio Magi 20)"
+  },
+  {
+    "id": 269,
+    "original_length": 32,
+    "text": "(Folio Magi 21)"
+  },
+  {
+    "id": 270,
+    "original_length": 32,
+    "text": "(Folio Magi 22)"
+  },
+  {
+    "id": 271,
+    "original_length": 32,
+    "text": "(Folio Magi 23)"
+  },
+  {
+    "id": 272,
+    "original_length": 32,
+    "text": "(Folio Magi 24)"
+  },
+  {
+    "id": 273,
+    "original_length": 32,
+    "text": "(Folio Magi 25)"
+  },
+  {
+    "id": 274,
+    "original_length": 26,
+    "text": "< Folio Magi"
+  },
+  {
+    "id": 275,
+    "original_length": 74,
+    "text": "Greatest of all medieval alchemists."
+  },
+  {
+    "id": 276,
+    "original_length": 102,
+    "text": "Celebrated inventor of the Self-Stirring Cauldron."
+  },
+  {
+    "id": 277,
+    "original_length": 72,
+    "text": "The witch who invented Floo Powder."
+  },
+  {
+    "id": 278,
+    "original_length": 58,
+    "text": "Inventor of Cheering Charms."
+  },
+  {
+    "id": 279,
+    "original_length": 70,
+    "text": "Author of 'Charm Your Own Cheese'."
+  },
+  {
+    "id": 280,
+    "original_length": 114,
+    "text": "First person to fly across the Atlantic on a broomstick."
+  },
+  {
+    "id": 281,
+    "original_length": 94,
+    "text": "Founder of the Society for Distressed Witches."
+  },
+  {
+    "id": 282,
+    "original_length": 114,
+    "text": "Sent to Azkaban for keeping Sphinxes in his back garden."
+  },
+  {
+    "id": 283,
+    "original_length": 44,
+    "text": "Serial goblin-killer."
+  },
+  {
+    "id": 284,
+    "original_length": 58,
+    "text": "Inventor of the Sneakoscope."
+  },
+  {
+    "id": 285,
+    "original_length": 58,
+    "text": "Famous magical theoretician."
+  },
+  {
+    "id": 286,
+    "original_length": 108,
+    "text": "Celebrated Seer and author of 'Unfogging the Future'."
+  },
+  {
+    "id": 287,
+    "original_length": 70,
+    "text": "Wizard Chess Champion 1506 - 1588."
+  },
+  {
+    "id": 288,
+    "original_length": 68,
+    "text": "First known victim of Dragon Pox."
+  },
+  {
+    "id": 289,
+    "original_length": 112,
+    "text": "Hogwarts co-founder. Gave his name to a Hogwarts House."
+  },
+  {
+    "id": 290,
+    "original_length": 112,
+    "text": "Hogwarts co-founder. Gave his name to a Hogwarts House."
+  },
+  {
+    "id": 291,
+    "original_length": 112,
+    "text": "Hogwarts co-founder. Gave her name to a Hogwarts House."
+  },
+  {
+    "id": 292,
+    "original_length": 112,
+    "text": "Hogwarts co-founder. Gave her name to a Hogwarts House."
+  },
+  {
+    "id": 293,
+    "original_length": 68,
+    "text": "Founded the village of Hogsmeade."
+  },
+  {
+    "id": 294,
+    "original_length": 76,
+    "text": "First landlady of the Leaky Cauldron."
+  },
+  {
+    "id": 295,
+    "original_length": 54,
+    "text": "Popular singing sorceress."
+  },
+  {
+    "id": 296,
+    "original_length": 102,
+    "text": "Only Quidditch referee ever to die during a match."
+  },
+  {
+    "id": 297,
+    "original_length": 74,
+    "text": "First known creator of the basilisk."
+  },
+  {
+    "id": 298,
+    "original_length": 94,
+    "text": "Inventor of Bertie Bott's Every Flavour Beans."
+  },
+  {
+    "id": 299,
+    "original_length": 38,
+    "text": "The boy who lived."
+  },
+  {
+    "id": 300,
+    "original_length": 48,
+    "text": "Headmaster of Hogwarts."
+  },
+  {
+    "id": 301,
+    "original_length": 84,
+    "text": "First witch to become Minister for Magic."
+  },
+  {
+    "id": 302,
+    "original_length": 22,
+    "text": "Paracelsus"
+  },
+  {
+    "id": 303,
+    "original_length": 38,
+    "text": "Gaspard Shingleton"
+  },
+  {
+    "id": 304,
+    "original_length": 36,
+    "text": "Ignatia Wildsmith"
+  },
+  {
+    "id": 305,
+    "original_length": 32,
+    "text": "Felix Summerbee"
+  },
+  {
+    "id": 306,
+    "original_length": 32,
+    "text": "Greta Catchlove"
+  },
+  {
+    "id": 307,
+    "original_length": 28,
+    "text": "Jocunda Sykes"
+  },
+  {
+    "id": 308,
+    "original_length": 38,
+    "text": "Dorcas Wellbeloved"
+  },
+  {
+    "id": 309,
+    "original_length": 28,
+    "text": "Crispin Cronk"
+  },
+  {
+    "id": 310,
+    "original_length": 28,
+    "text": "Yardley Platt"
+  },
+  {
+    "id": 311,
+    "original_length": 32,
+    "text": "Edgar Stroulger"
+  },
+  {
+    "id": 312,
+    "original_length": 36,
+    "text": "Adalbert Waffling"
+  },
+  {
+    "id": 313,
+    "original_length": 40,
+    "text": "Cassandra Vablatsky"
+  },
+  {
+    "id": 314,
+    "original_length": 38,
+    "text": "Montague Knightley"
+  },
+  {
+    "id": 315,
+    "original_length": 36,
+    "text": "Chauncey Oldridge"
+  },
+  {
+    "id": 316,
+    "original_length": 36,
+    "text": "Godric Gryffindor"
+  },
+  {
+    "id": 317,
+    "original_length": 36,
+    "text": "Salazar Slytherin"
+  },
+  {
+    "id": 318,
+    "original_length": 34,
+    "text": "Rowena Ravenclaw"
+  },
+  {
+    "id": 319,
+    "original_length": 34,
+    "text": "Helga Hufflepuff"
+  },
+  {
+    "id": 320,
+    "original_length": 42,
+    "text": "Hengist of Woodcroft"
+  },
+  {
+    "id": 321,
+    "original_length": 34,
+    "text": "Daisy Dodderidge"
+  },
+  {
+    "id": 322,
+    "original_length": 36,
+    "text": "Celestina Warbeck"
+  },
+  {
+    "id": 323,
+    "original_length": 30,
+    "text": "Cyprian Youdle"
+  },
+  {
+    "id": 324,
+    "original_length": 30,
+    "text": "Herpo the Foul"
+  },
+  {
+    "id": 325,
+    "original_length": 24,
+    "text": "Bertie Bott"
+  },
+  {
+    "id": 326,
+    "original_length": 26,
+    "text": "Harry Potter"
+  },
+  {
+    "id": 327,
+    "original_length": 34,
+    "text": "Albus Dumbledore"
+  },
+  {
+    "id": 328,
+    "original_length": 34,
+    "text": "Artemisia Lufkin"
+  },
+  {
+    "id": 329,
+    "original_length": 22,
+    "text": "> Continue"
+  },
+  {
+    "id": 330,
+    "original_length": 16,
+    "text": "> Start"
+  },
+  {
+    "id": 331,
+    "original_length": 22,
+    "text": "> [ Return"
+  },
+  {
+    "id": 332,
+    "original_length": 8,
+    "text": "Yes"
+  },
+  {
+    "id": 333,
+    "original_length": 36,
+    "text": "you want to Quit?"
+  },
+  {
+    "id": 334,
+    "original_length": 34,
+    "text": "you want to quit"
+  }
+]

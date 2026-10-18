@@ -1,0 +1,982 @@
+[
+  {
+    "id": 0,
+    "en": "$001Go to Diagon Alley",
+    "fr": "$001Aller au Chemin de Traverse",
+    "de": "$001Gehe zur Winkelgasse",
+    "tr": "$001Diagon Yolu'na git"
+  },
+  {
+    "id": 1,
+    "en": "$002Get to Hogwarts on time",
+    "fr": "$002Arriver à Poudlard à l'heure",
+    "de": "$002Erreiche Hogwarts rechtzeitig",
+    "tr": "$002Hogwarts'a vaktinde ulaş"
+  },
+  {
+    "id": 2,
+    "en": "$003Get to Fat lady",
+    "fr": "$003Aller dans la salle commune",
+    "de": "$003Geh zum Gemeinschaftsraum",
+    "tr": "$003Şişman Hanım'a git"
+  },
+  {
+    "id": 3,
+    "en": "$004Learn password to enter Common Room",
+    "fr": "$004Apprendre le mot de passe pour entrer dans la salle commune",
+    "de": "$004Lerne das Passwort für den Gemeinschaftsraum",
+    "tr": "$004Ortak Oda'ya girmek için parolayı öğren"
+  },
+  {
+    "id": 4,
+    "en": "$005Get to Greenhouse three to learn Herbology",
+    "fr": "$005Aller à la serre numéro trois pour apprendre la botanique",
+    "de": "$005Gehe zu Gewächshaus Drei für den Kräuterkunde-Unterricht.",
+    "tr": "$005Bitkibilim dersi için Üç Numaralı Sera'ya git"
+  },
+  {
+    "id": 5,
+    "en": "$006Meet Oliver Wood for Quidditch Training",
+    "fr": "$006Voir Olivier Dubois pour l'entra\\u00a8nement de Quidditch",
+    "de": "$006Treffe dich mit Oliver Wood zum Quidditch-Training.",
+    "tr": "$006Quidditch Antrenmanı için Oliver Wood ile buluş"
+  },
+  {
+    "id": 6,
+    "en": "$007Duel Ron",
+    "fr": "$007Faire un duel contre Ron",
+    "de": "$007Duell mit Ron",
+    "tr": "$007Ron ile düello yap"
+  },
+  {
+    "id": 7,
+    "en": "$008Don't lose Ron!",
+    "fr": "$008Ne pas perdre Ron !",
+    "de": "$008Bleib an Ron dran!",
+    "tr": "$008Ron'u gözden kaybetme!"
+  },
+  {
+    "id": 8,
+    "en": "$009Catch slugs in the bowl and empty them in the barrel",
+    "fr": "$009Mettre les limaces dans l'écuelle et les vider dans le tonneau",
+    "de": "$009Sammle Schnecken in dem Napf und leere sie in das Fass. ",
+    "tr": "$009Sümüklüböcekleri kasede yakala ve fıçıya boşalt"
+  },
+  {
+    "id": 9,
+    "en": "$010Get to the Defence Against the Dark Arts class room in the Upper Castle",
+    "fr": "$010Aller au cours de défense contre les Forces du Mal à l'Etage interdit",
+    "de": "$010Gehe zum Klassenzimmer für Verteidigung gegen die dunklen Künste im Oberschloss.",
+    "tr": "$010Yukarı Şato'daki Karanlık Sanatlara Karşı Savunma sınıfına git"
+  },
+  {
+    "id": 10,
+    "en": "$011Catch all the Pixies",
+    "fr": "$011Attraper tous les lutins",
+    "de": "$011Fang alle Wichtel.",
+    "tr": "$011Bütün cin perilerini yakala"
+  },
+  {
+    "id": 11,
+    "en": "$012Get to Nearly Headless Nick's Deathday Party in the Dungeons",
+    "fr": "$012Aller à l'anniversaire de mort de Nick Quasi-Sans-T\\u00a4te dans les cachots",
+    "de": "$012Gehe zur Todestagsfeier des Fast Kopflosen Nick in den Kerkern.",
+    "tr": "$012Zindanlar'daki Neredeyse Kafasız Nick'in Ölüm Günü Partisi'ne git"
+  },
+  {
+    "id": 12,
+    "en": "$013Collect lacewing flies, boomslang skin and leeches for Polyjuice Potion",
+    "fr": "$013Récupérer des chrysopes, de la peau de serpent d'arbre et des sangsues pour le Polynectar",
+    "de": "$013Sammle Florfliegen, Baumschlangenhaut und Blutegel für den Vielsaft-Trank.",
+    "tr": "$013Çoközlü İksir için dantelkanat sinekleri, ağaçyılanı derisi ve sülük topla"
+  },
+  {
+    "id": 13,
+    "en": "$014Take ingredients to Hermione in the  Upper Castle Girls' Bathroom.",
+    "fr": "$014Apporter les ingrédients à Hermione dans les toilettes des filles à l'Etage interdit.",
+    "de": "$014Bringe Hermine die Zutaten ins Mädchenklo im Oberschloss.",
+    "tr": "$014Malzemeleri Yukarı Şato Kızlar Tuvaleti'ndeki Hermione'ye götür."
+  },
+  {
+    "id": 14,
+    "en": "$015Find entrance to Slytherin Common room",
+    "fr": "$015Trouver l'entrée de la salle commune de Serpentard",
+    "de": "$015Suche den Eingang zum Gemeinschaftsraum der Slytherins.",
+    "tr": "$015Slytherin Ortak Odası'nın girişini bul"
+  },
+  {
+    "id": 15,
+    "en": "$016Get to Gilderoy Lockharts' Office in the Lower Castle",
+    "fr": "$016Aller dans le bureau de Gilderoy Lockhart au rez-de-chaussée",
+    "de": "$016Gehe zum Büro von Gilderoy Lockhart im Unterschloss.",
+    "tr": "$016Aşağı Şato'daki Gilderoy Lockhart'ın Odası'na git"
+  },
+  {
+    "id": 16,
+    "en": "$001Paracelsus",
+    "fr": "$001Paracelse",
+    "de": "$001Paracelsus",
+    "tr": "$001Paracelsus"
+  },
+  {
+    "id": 17,
+    "en": "$002Gaspard Shingleton",
+    "fr": "$002Gaspard Shingleton",
+    "de": "$002Gaspard Shingleton",
+    "tr": "$002Gaspard Shingleton"
+  },
+  {
+    "id": 18,
+    "en": "$003Ignatia Wildsmith",
+    "fr": "$003Ignatia Wildsmith",
+    "de": "$003Ignatia Wildsmith",
+    "tr": "$003Ignatia Wildsmith"
+  },
+  {
+    "id": 19,
+    "en": "$004Felix Summerbee",
+    "fr": "$004Félix Labeille",
+    "de": "$004Felix Summerbee",
+    "tr": "$004Felix Summerbee"
+  },
+  {
+    "id": 20,
+    "en": "$005Greta Catchlove",
+    "fr": "$005Greta Grandamour",
+    "de": "$005Greta Catchlove",
+    "tr": "$005Greta Catchlove"
+  },
+  {
+    "id": 21,
+    "en": "$006Jocunda Sykes",
+    "fr": "$006Jocunda Sykes",
+    "de": "$006Jocunda Sykes",
+    "tr": "$006Jocunda Sykes"
+  },
+  {
+    "id": 22,
+    "en": "$007Dorcas Wellbeloved",
+    "fr": "$007Dorcas Bienaimée",
+    "de": "$007Dorcas Wellbeloved",
+    "tr": "$007Dorcas Wellbeloved"
+  },
+  {
+    "id": 23,
+    "en": "$008Crispin Cronk",
+    "fr": "$008Crispin Cronk",
+    "de": "$008Crispin Cronk",
+    "tr": "$008Crispin Cronk"
+  },
+  {
+    "id": 24,
+    "en": "$009Yardley Platt",
+    "fr": "$009Yardley Platt",
+    "de": "$009Yardley Platt",
+    "tr": "$009Yardley Platt"
+  },
+  {
+    "id": 25,
+    "en": "$010Edgar Stroulger",
+    "fr": "$010Edgar Stroulger",
+    "de": "$010Edgar Stroulger",
+    "tr": "$010Edgar Stroulger"
+  },
+  {
+    "id": 26,
+    "en": "$011Adalbert Waffling",
+    "fr": "$011Adalbert Lasornette",
+    "de": "$011Adalbert Schwahfel",
+    "tr": "$011Adalbert Waffling"
+  },
+  {
+    "id": 27,
+    "en": "$012Cassandra Vablatsky",
+    "fr": "$012Cassandra Vablatsky",
+    "de": "$012Cassandra Wablatschky",
+    "tr": "$012Cassandra Vablatsky"
+  },
+  {
+    "id": 28,
+    "en": "$013Montague Knightley",
+    "fr": "$013Montague Knightley",
+    "de": "$013Montague Knightley",
+    "tr": "$013Montague Knightley"
+  },
+  {
+    "id": 29,
+    "en": "$014Chauncey Oldridge",
+    "fr": "$014Chauncey Oldridge",
+    "de": "$014Chauncey Oldridge",
+    "tr": "$014Chauncey Oldridge"
+  },
+  {
+    "id": 30,
+    "en": "$015Godric Gryffindor",
+    "fr": "$015Godric Gryffondor",
+    "de": "$015Godric Gryffindor",
+    "tr": "$015Godric Gryffindor"
+  },
+  {
+    "id": 31,
+    "en": "$016Salazar Slytherin",
+    "fr": "$016Salazar Serpentard",
+    "de": "$016Salazar Slytherin",
+    "tr": "$016Salazar Slytherin"
+  },
+  {
+    "id": 32,
+    "en": "$017Rowena Ravenclaw",
+    "fr": "$017Rowena Serdaigle",
+    "de": "$017Rowena Ravenclaw",
+    "tr": "$017Rowena Ravenclaw"
+  },
+  {
+    "id": 33,
+    "en": "$018Helga Hufflepuff",
+    "fr": "$018Helga Poufsouffle",
+    "de": "$018Helga Hufflepuff",
+    "tr": "$018Helga Hufflepuff"
+  },
+  {
+    "id": 34,
+    "en": "$019Hengist of Woodcroft",
+    "fr": "$019Hengist de Woodcroft",
+    "de": "$019Hengis von Woodcroft",
+    "tr": "$019Woodcroft'lu Hengist"
+  },
+  {
+    "id": 35,
+    "en": "$020Daisy Dodderidge",
+    "fr": "$020Marguerite Dodderidge",
+    "de": "$020Daisy Dodderidge",
+    "tr": "$020Daisy Dodderidge"
+  },
+  {
+    "id": 36,
+    "en": "$021Celestina Warbeck",
+    "fr": "$021Célestina Moldubec",
+    "de": "$021Celestina Warbeck",
+    "tr": "$021Celestina Warbeck"
+  },
+  {
+    "id": 37,
+    "en": "$022Cyprian Youdle",
+    "fr": "$022Cyprien Youdle",
+    "de": "$022Cyprian Youdle",
+    "tr": "$022Cyprian Youdle"
+  },
+  {
+    "id": 38,
+    "en": "$023Herpo the Foul",
+    "fr": "$023Herpo le Fou",
+    "de": "$023Herpo der \\u0098ble",
+    "tr": "$023Hain Herpo"
+  },
+  {
+    "id": 39,
+    "en": "$024Bertie Bott",
+    "fr": "$024Bertie Crochue",
+    "de": "$024Bertie Bott",
+    "tr": "$024Bertie Bott"
+  },
+  {
+    "id": 40,
+    "en": "$001Greatest of all medieval alchemists.",
+    "fr": "$001Le plus grand des alchimistes du Moyen Age.",
+    "de": "$001Grö\\u0099ter aller Alchimisten des Mittelalters",
+    "tr": "$001Ortaçağ simyacılarının en büyüğü."
+  },
+  {
+    "id": 41,
+    "en": "$002Celebrated inventor of the Self-Stirring Cauldron.",
+    "fr": "$002Célèbre inventeur du chaudron à touillage automatique.",
+    "de": "$002Gefeierter Erfinder des selbst umrührenden Kessels.",
+    "tr": "$002Kendi Kendini Karıştıran Kazan'ın ünlü mucidi."
+  },
+  {
+    "id": 42,
+    "en": "$003The witch who invented Floo Powder.",
+    "fr": "$003La sorcière qui inventa la poudre de cheminette.",
+    "de": "$003Die Hexe, die das Flohpulver erfand.",
+    "tr": "$003Uçuş Tozu'nu icat eden cadı."
+  },
+  {
+    "id": 43,
+    "en": "$004Inventor of Cheering Charms.",
+    "fr": "$004Inventeur de sortilèges d'Allégresse.",
+    "de": "$004Erfinder des Aufmunterungszaubers.",
+    "tr": "$004Neşelendirme Büyüleri'nin mucidi."
+  },
+  {
+    "id": 44,
+    "en": "$005Author of 'Charm Your Own Cheese'.",
+    "fr": "$005Auteur de \"Comment ensorceler son fromage\".",
+    "de": "$005Autorin von 'Zaubern Sie Ihren eigenen Käse'.",
+    "tr": "$005'Kendi Peynirini Kendin Büyüle' kitabının yazarı."
+  },
+  {
+    "id": 45,
+    "en": "$006First person to fly across the Atlantic on a broomstick.",
+    "fr": "$006Première personne à avoir traversé l'Atlantique sur un balai.",
+    "de": "$006\\u0098berquerte als Erster den Atlantik auf dem Besen.",
+    "tr": "$006Süpürgeyle Atlas Okyanusu'nu geçen ilk kişi."
+  },
+  {
+    "id": 46,
+    "en": "$007Founder of the Society for Distressed Witches.",
+    "fr": "$007A fondé l'Association des Sorcières en Détresse.",
+    "de": "$007Gründerin der Gesellschaft für verzweifelte Hexen.",
+    "tr": "$007Muhtaç Cadılar Derneği'nin kurucusu."
+  },
+  {
+    "id": 47,
+    "en": "$008Sent to Azkaban for keeping Sphinxes in his back garden.",
+    "fr": "$008A été envoyé à Azkaban pour avoir caché des sphinx dans son jardin.",
+    "de": "$008Wurde nach Askaban geschickt, weil er Sphingen im Garten hielt.",
+    "tr": "$008Arka bahçesinde Sfenks beslediği için Azkaban'a gönderildi."
+  },
+  {
+    "id": 48,
+    "en": "$009Serial goblin-killer.",
+    "fr": "$009Tueur en série de gobelins.",
+    "de": "$009Goblin-Serienmörder",
+    "tr": "$009Seri goblin katili."
+  },
+  {
+    "id": 49,
+    "en": "$010Inventor of the Sneakoscope.",
+    "fr": "$010Inventeur du scrutoscope.",
+    "de": "$010Erfinder des Spickoskops.",
+    "tr": "$010Sinsiölçer'in mucidi."
+  },
+  {
+    "id": 50,
+    "en": "$011Famous magical theoretician.",
+    "fr": "$011Célèbre théoricien de la magie.",
+    "de": "$011Berühmter magischer Theoretiker.",
+    "tr": "$011Ünlü büyü teorisyeni."
+  },
+  {
+    "id": 51,
+    "en": "$012Celebrated Seer and author of 'Unfogging the Future'.",
+    "fr": "$012Voyante célèbre et auteur de \"Lever le voile du futur\".",
+    "de": "$012Gefeierte Seherin und Autorin von 'Entnebelung der Zukunft'.",
+    "tr": "$012Ünlü Kâhin ve 'Geleceğin Sis Perdesini Aralamak' kitabının yazarı."
+  },
+  {
+    "id": 52,
+    "en": "$013Wizard Chess Champion 1506 - 1588.",
+    "fr": "$013Champion d'échecs de sorciers 1506 - 1588.",
+    "de": "$013Zaubererschach-Meister 1506 - 1588.",
+    "tr": "$013Büyücü Satrancı Şampiyonu 1506 - 1588."
+  },
+  {
+    "id": 53,
+    "en": "$014First known victim of Dragon Pox.",
+    "fr": "$014Première victime de la varicelle du dragon.",
+    "de": "$014Erstes bekanntes Opfer der Drachenpocken.",
+    "tr": "$014Ejderha Çiçeği'nin bilinen ilk kurbanı."
+  },
+  {
+    "id": 54,
+    "en": "$015Hogwarts co-founder. Gave his name to a Hogwarts House.",
+    "fr": "$015Co-fondateur de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$015Mitbegründer von Hogwarts. Nach ihm wurde eines der vier Häuser benannt.",
+    "tr": "$015Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 55,
+    "en": "$016Hogwarts co-founder. Gave his name to a Hogwarts House.",
+    "fr": "$016Co-fondateur de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$016Mitbegründer von Hogwarts. Nach ihm wurde eines der vier Häuser benannt.",
+    "tr": "$016Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 56,
+    "en": "$017Hogwarts co-founder. Gave her name to a Hogwarts House.",
+    "fr": "$017Co-fondatrice de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$017Mitbegründerin von Hogwarts. Nach ihr wurde eines der vier Häuser benannt.",
+    "tr": "$017Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 57,
+    "en": "$018Hogwarts co-founder. Gave her name to a Hogwarts House.",
+    "fr": "$018Co-fondatrice de Poudlard. A donné son nom à l'une des maisons.",
+    "de": "$018Mitbegründerin von Hogwarts. Nach ihr wurde eines der vier Häuser benannt.",
+    "tr": "$018Hogwarts'ın kurucu ortaklarından. Bir Hogwarts Binasına adını verdi."
+  },
+  {
+    "id": 58,
+    "en": "$019Founded the village of Hogsmeade.",
+    "fr": "$019A fondé le village de Pré-au-Lard.",
+    "de": "$019Gründete das Dorf Hogsmeade.",
+    "tr": "$019Hogsmeade köyünü kurdu."
+  },
+  {
+    "id": 59,
+    "en": "$020First landlady of the Leaky Cauldron.",
+    "fr": "$020Première propriétaire du Chaudron Baveur.",
+    "de": "$020Erste Wirtin des Tropfenden Kessels.",
+    "tr": "$020Çatlak Kazan'ın ilk kadın işletmecisi."
+  },
+  {
+    "id": 60,
+    "en": "$021Popular singing sorceress.",
+    "fr": "$021Chanteuse super-star.",
+    "de": "$021Berühmte Sängerin-Hexe.",
+    "tr": "$021Popüler şarkıcı büyücü kadın."
+  },
+  {
+    "id": 61,
+    "en": "$022Only Quidditch referee ever to die during a match.",
+    "fr": "$022Seul arbitre de quidditch à avoir trouvé la mort pendant un match.",
+    "de": "$022Einziger Quidditch-Schiedsrichter, der während eines Spiels starb.",
+    "tr": "$022Bir maç sırasında ölen tek Quidditch hakemi."
+  },
+  {
+    "id": 62,
+    "en": "$023First known creator of the basilisk.",
+    "fr": "$023Premier créateur connu du Basilic.",
+    "de": "$023Ur-Erfinder des Basilisken.",
+    "tr": "$023Basiliskin bilinen ilk yaratıcısı."
+  },
+  {
+    "id": 63,
+    "en": "$024Inventor of Bertie Bott's Every Flavour Beans.",
+    "fr": "$024Inventa les célèbres dragées surprises de Bertie Crochue.",
+    "de": "$024Erfinder der Bertie Botts Bohnen in allen Geschmacksrichtungen.",
+    "tr": "$024Bertie Bott'un Binbir Çeşit Fasulyeleri'nin mucidi."
+  },
+  {
+    "id": 64,
+    "en": "#F#$026Here comes Potter!",
+    "fr": "#10#$026Voici Potter !",
+    "de": "#11#$026Hier kommt Potter!",
+    "tr": "#F#$026İşte Potter geliyor!"
+  },
+  {
+    "id": 65,
+    "en": "#12#$022Was that the Snitch?",
+    "fr": "#13#$022C'était le Vif d'or ?",
+    "de": "#14#$022War das der Schnatz?",
+    "tr": "#12#$022O Snitch miydi?"
+  },
+  {
+    "id": 66,
+    "en": "#15#$023A glint of gold... is that the Snitch?",
+    "fr": "#16#$023Une lueur dorée... C'est le Vif ?",
+    "de": "#17#$023Ein goldenes Flimmern ... ist das der Schnatz?",
+    "tr": "#15#$023Altın bir parıltı... Snitch mi o?"
+  },
+  {
+    "id": 67,
+    "en": "#18#$024THERE'S THE SNITCH!",
+    "fr": "#19#$024LE VOIL\\u0088, LE VIF !",
+    "de": "#1A#$024DA IST DER SCHNATZ!",
+    "tr": "#18#$024İŞTE SNITCH ORADA!"
+  },
+  {
+    "id": 68,
+    "en": "#1B#$025Potter's seen the Snitch!",
+    "fr": "#1C#$025Potter a vu le Vif !",
+    "de": "#1D#$025Potter hat den Schnatz entdeckt!",
+    "tr": "#1B#$025Potter Snitch'i gördü!"
+  },
+  {
+    "id": 69,
+    "en": "#1E#$027Look at Potter go... he's after the Snitch!",
+    "fr": "#1F#$027Regardez, Potter pourchasse le Vif !",
+    "de": "#20#$027Schaut euch Potter an .. Er jagt den Schnatz!",
+    "tr": "#1E#$027Potter'a bakın hele... Snitch'in peşinde!"
+  },
+  {
+    "id": 70,
+    "en": "#21#$028The crowd is on its feet! Come on, Harry Potter!",
+    "fr": "#22#$028La foule trépigne ! Vas-y Harry !",
+    "de": "#23#$028Die Zuschauer sind aufgesprungen! Potter vor!",
+    "tr": "#21#$028Seyirciler ayakta! Haydi Harry Potter!"
+  },
+  {
+    "id": 71,
+    "en": "#24#$029Potter's moving in for the kill...",
+    "fr": "#25#$029Potter y va pour le coup...",
+    "de": "#26#$029Potter holt zum Schlag aus ...",
+    "tr": "#24#$029Potter bitirici hamle için yaklaşıyor..."
+  },
+  {
+    "id": 72,
+    "en": "#27#$030Oooh, he's lost it!",
+    "fr": "#28#$030Oooooh, il l'a perdu !",
+    "de": "#29#$030Oooh, er greift daneben!",
+    "tr": "#27#$030Ooooh, kaybetti!"
+  },
+  {
+    "id": 73,
+    "en": "#2A#$031Aaah, he's lost the Snitch!",
+    "fr": "#2B#$031Aaaah, il a perdu le Vif !",
+    "de": "#2C#$031Da hat er den Schnatz verloren!",
+    "tr": "#2A#$031Aaah, Snitch'i kaybetti!"
+  },
+  {
+    "id": 74,
+    "en": "#2D#$032Unsuccessful!",
+    "fr": "#2E#$032Pas de chance !",
+    "de": "#2F#$032Nicht von Erfolg gekrönt!",
+    "tr": "#2D#$032Başarısız!"
+  },
+  {
+    "id": 75,
+    "en": "#30#$033He turns, he misses!",
+    "fr": "#31#$033Il vire et il le rate !",
+    "de": "#32#$033Er dreht sich und greift daneben!",
+    "tr": "#30#$033Dönüyor ve kaçırıyor!"
+  },
+  {
+    "id": 76,
+    "en": "#33#$034No, the Snitch got away!",
+    "fr": "#34#$034Le Vif est parti !",
+    "de": "#35#$034Mist, der Schnatz ist weg!",
+    "tr": "#33#$034Hayır, Snitch kaçtı!"
+  },
+  {
+    "id": 77,
+    "en": "#36#$035Potter swipes!",
+    "fr": "#37#$035Potter a raté son coup !",
+    "de": "#38#$035Potter versagt!",
+    "tr": "#36#$035Potter hamle yapıyor!"
+  },
+  {
+    "id": 78,
+    "en": "#39#$036Potter's going for it!",
+    "fr": "#3A#$036Potter fonce !",
+    "de": "#3B#$036Potter jagt ihm nach!",
+    "tr": "#39#$036Potter doğrudan üzerine gidiyor!"
+  },
+  {
+    "id": 79,
+    "en": "#3C#$037He caught the Snitch!",
+    "fr": "#3D#$037Il a attrapé le Vif !",
+    "de": "#3E#$037Er fängt den Schnatz!",
+    "tr": "#3C#$037Snitch'i yakaladı!"
+  },
+  {
+    "id": 80,
+    "en": "#3F#$038Potter has the Snitch!",
+    "fr": "#40#$038Potter a le Vif !",
+    "de": "#41#$038Potter hat den Schnatz!",
+    "tr": "#3F#$038Snitch Potter'da!"
+  },
+  {
+    "id": 81,
+    "en": "#42#$039Good catch! Potter has the Snitch!",
+    "fr": "#43#$039Bonne prise ! Potter a le Vif !",
+    "de": "#44#$039Guter Fang - Potter hat den Schnatz!",
+    "tr": "#42#$039Güzel yakalayış! Snitch Potter'da!"
+  },
+  {
+    "id": 82,
+    "en": "#45#$040A perfect catch! Potter brings it home for Gryffindor!",
+    "fr": "#46#$040Une prise magnifique ! Potter tient la victoire pour Gryffondor !",
+    "de": "#47#$040Guter Fang! Potter holt den Sieg für Gryffindor!",
+    "tr": "#45#$040Kusursuz bir yakalayış! Potter zaferi Gryffindor'a getiriyor!"
+  },
+  {
+    "id": 83,
+    "en": "#48#$041He caught it! Maximum points for Gryffindor!",
+    "fr": "#49#$041Il l'a attrapé ! Le maximum de points pour Gryffondor !",
+    "de": "#4A#$041Er hat ihn gefangen! Die Höchstpunktzahl für Gryffindor!",
+    "tr": "#48#$041Yakaladı! Gryffindor'a tam puan!"
+  },
+  {
+    "id": 84,
+    "en": "#4B#$042Dodges a speeding Bludger!",
+    "fr": "#4C#$042Il frappe un Cognard !",
+    "de": "#4D#$042Weicht einem rasanten Klatscher aus!",
+    "tr": "#4B#$042Hızla gelen Bludger'dan sıyrılıyor!"
+  },
+  {
+    "id": 85,
+    "en": "#4E#$043Here comes a Bludger!",
+    "fr": "#4F#$043Voilà un Cognard !",
+    "de": "#50#$043Da kommt ein Klatscher!",
+    "tr": "#4E#$043Bir Bludger geliyor!"
+  },
+  {
+    "id": 86,
+    "en": "#51#$044Oooh, that was close!",
+    "fr": "#52#$044Oh, de justesse !",
+    "de": "#53#$044Oh, das war knapp!",
+    "tr": "#51#$044Ooooh, çok yakındı!"
+  },
+  {
+    "id": 87,
+    "en": "#54#$045A near miss for Potter!",
+    "fr": "#55#$045Là c'est tout juste !",
+    "de": "#56#$045Knapp vorbei für Potter!",
+    "tr": "#54#$045Potter kıl payı kurtuldu!"
+  },
+  {
+    "id": 88,
+    "en": "#57#$046Oooh, that's gotta hurt!",
+    "fr": "#58#$046Ouuuh, \\u00a1a a d\\u00b3 faire mal !",
+    "de": "#59#$046Auuu, das hat weh getan!",
+    "tr": "#57#$046Ooooh, bu fena acıtmış olmalı!"
+  },
+  {
+    "id": 89,
+    "en": "#5A#$047Bludger!",
+    "fr": "#5B#$047Cognard !",
+    "de": "#5C#$047Klatscher!",
+    "tr": "#5A#$047Bludger!"
+  },
+  {
+    "id": 90,
+    "en": "#5D#$048Oh, he'll feel that tomorrow!",
+    "fr": "#5E#$048Demain, il le sentira !",
+    "de": "#5F#$048Uh, das wird er morgen spüren!",
+    "tr": "#5D#$048Ah, bunun acısını yarın hisseder!"
+  },
+  {
+    "id": 91,
+    "en": "#60#$049Potter's under fire from the Bludgers...",
+    "fr": "#61#$049Potter est attaqué par les Cognards...",
+    "de": "#62#$049Potter im Kreuzfeuer der Klatscher!",
+    "tr": "#60#$049Potter Bludger'ların ateşi altında..."
+  },
+  {
+    "id": 92,
+    "en": "#63#$052He can't take much more of that!",
+    "fr": "#64#$052Il ne résistera pas longtemps !",
+    "de": "#65#$052Er kann einfach nicht mehr.",
+    "tr": "#63#$052Buna daha fazla dayanamaz!"
+  },
+  {
+    "id": 93,
+    "en": "#66#$050He's hit! He's going down!",
+    "fr": "#67#$050Il est touché ! Il tombe !",
+    "de": "#68#$050Er wurde getroffen - und stürzt ab!",
+    "tr": "#66#$050Vuruldu! Düşüyor!"
+  },
+  {
+    "id": 94,
+    "en": "#69#$051Potter's out of control, he's hurt!",
+    "fr": "#6A#$051Potter a perdu le contr\\u00adle, il est blessé !",
+    "de": "#6B#$051Potter verliert die Kontrolle, er wurde verletzt!",
+    "tr": "#69#$051Potter kontrolü kaybetti, yaralandı!"
+  },
+  {
+    "id": 95,
+    "en": "#6C#$053Potter's going to crash!",
+    "fr": "#6D#$053Potter va se fracasser !",
+    "de": "#6E#$053Potter stürzt ab!",
+    "tr": "#6C#$053Potter çakılacak!"
+  },
+  {
+    "id": 96,
+    "en": "#6F#$054He's had it! He's going in!",
+    "fr": "#70#$054Il va \\u00a4tre touché !",
+    "de": "#71#$054Das war's! Er gibt auf!",
+    "tr": "#6F#$054İşi bitti! Çakılıyor!"
+  },
+  {
+    "id": 97,
+    "en": "#72#$055Potter's out of the game!",
+    "fr": "#73#$055Potter est hors jeu !",
+    "de": "#74#$055Potter ist raus aus dem Spiel!",
+    "tr": "#72#$055Potter oyun dışı kaldı!"
+  },
+  {
+    "id": 98,
+    "en": "#75#$056It's all over for Harry Potter!",
+    "fr": "#76#$056C'est fini pour Harry !",
+    "de": "#77#$056Das war's für Potter - aus und vorbei!",
+    "tr": "#75#$056Harry Potter için her şey bitti!"
+  },
+  {
+    "id": 99,
+    "en": "#78#$057Hard luck, Potter -- those Bludgers were just too much!",
+    "fr": "#79#$057Pas de bol, Potter, ces Cognards, c'était trop.",
+    "de": "#7A#$057Pech, Potter - diese Klatscher sind einfach zu hart.",
+    "tr": "#78#$057Şanssızlık Potter -- o Bludger'lar fazlasıyla ağırdı!"
+  },
+  {
+    "id": 100,
+    "en": "#7B#$058He's endured about as much as he can!",
+    "fr": "#7C#$058Il a résisté tant qu'il a pu !",
+    "de": "#7D#$058Er hat ausgehalten, was auszuhalten war.",
+    "tr": "#7B#$058Dayanabileceği kadar dayandı!"
+  },
+  {
+    "id": 101,
+    "en": "#7E#$059Potter's going back up for another look.",
+    "fr": "#7F#$059Potter retourne vérifier.",
+    "de": "#80#$059Potter fliegt zurück und schaut noch einmal nach.",
+    "tr": "#7E#$059Potter tekrar bakmak için yukarı çıkıyor."
+  },
+  {
+    "id": 102,
+    "en": "#81#$060Potter climbs again!",
+    "fr": "#82#$060Potter remonte !",
+    "de": "#83#$060Potter steigt wieder hoch!",
+    "tr": "#81#$060Potter yeniden yükseliyor!"
+  },
+  {
+    "id": 103,
+    "en": "#84#$061Potter flies back up to search again.",
+    "fr": "#85#$061Potter cherche toujours.",
+    "de": "#86#$061Potter kehrt zurück.",
+    "tr": "#84#$061Potter tekrar aramak için yukarı uçuyor."
+  },
+  {
+    "id": 104,
+    "en": "#87#$077Ooooh!",
+    "fr": "#88#$077Oooh !",
+    "de": "#89#$077Oooohh!",
+    "tr": "#87#$077Ooooh!"
+  },
+  {
+    "id": 105,
+    "en": "#8A#$078Ahhh!",
+    "fr": "#8B#$078Ahhh !",
+    "de": "#8C#$078Ahhh!",
+    "tr": "#8A#$078Ahhh!"
+  },
+  {
+    "id": 106,
+    "en": "#8D#$079Potters gaining!",
+    "fr": "#8E#$079Potter gagne !",
+    "de": "#8F#$079Potter gewinnt!",
+    "tr": "#8D#$079Potter arayı kapatıyor!"
+  },
+  {
+    "id": 107,
+    "en": "#90#$080Look at Potter go!",
+    "fr": "#91#$080Regardez Potter !",
+    "de": "#92#$080Schaut euch Potter an ...",
+    "tr": "#90#$080Potter'a bakın hele!"
+  },
+  {
+    "id": 108,
+    "en": "#93#$081He's getting closer",
+    "fr": "#94#$081Il s'approche !",
+    "de": "#95#$081Er kommt näher",
+    "tr": "#93#$081Gittikçe yaklaşıyor"
+  },
+  {
+    "id": 109,
+    "en": "#96#$095Harry Potter closes in on the Snitch...",
+    "fr": "#97#$095Harry Potter s'approche du Vif...",
+    "de": "#98#$095Harry Potter nähert sich dem Schnatz ...",
+    "tr": "#96#$095Harry Potter Snitch'e yaklaşıyor..."
+  },
+  {
+    "id": 110,
+    "en": "#99#$096Potter is so close!!",
+    "fr": "#9A#$096Il est tout près !!!",
+    "de": "#9B#$096Potter ist so nah dran!!",
+    "tr": "#99#$096Potter çok yaklaştı!!"
+  },
+  {
+    "id": 111,
+    "en": "#9C#$104Wonderful!",
+    "fr": "#9D#$104Super !",
+    "de": "#9E#$104Toll!",
+    "tr": "#9C#$104Harika!"
+  },
+  {
+    "id": 112,
+    "en": "#9F#$105Excellent!!",
+    "fr": "#A0#$105Génial !",
+    "de": "#A1#$105Gro\\u0099artig!",
+    "tr": "#9F#$105Mükemmel!!"
+  },
+  {
+    "id": 113,
+    "en": "#A2#$106Amazing skill!!",
+    "fr": "#A3#$106C'est incroyable !",
+    "de": "#A4#$106Wahnsinnsleistung!!!",
+    "tr": "#A2#$106İnanılmaz bir ustalık!!"
+  },
+  {
+    "id": 114,
+    "en": "#A5#$107I've not seen such flying!",
+    "fr": "#A6#$107Je n'ai jamais vu voler comme \\u00a1a !",
+    "de": "#A7#$107Solche Flugkünste hab ich noch nie gesehn!",
+    "tr": "#A5#$107Böyle uçuş görmedim!"
+  },
+  {
+    "id": 115,
+    "en": "#A8#$113This is amazing!!!",
+    "fr": "#A9#$113C'est stupéfixant !",
+    "de": "#AA#$113Das ist Wahnsinn!!!",
+    "tr": "#A8#$113Bu inanılmaz!!!"
+  },
+  {
+    "id": 116,
+    "en": "#AB#$097Come on Potter, don't give up now!",
+    "fr": "#AC#$097Vas-y Potter, ne renonce pas !",
+    "de": "#AD#$097Los Potter, blo\\u0099 nicht aufgeben!",
+    "tr": "#AB#$097Haydi Potter, şimdi pes etme sakın!"
+  },
+  {
+    "id": 117,
+    "en": "#AE#$102The seekers battle it out...",
+    "fr": "#AF#$102Les attrapeurs se donnent du mal...",
+    "de": "#B0#$102Die Sucher kämpfen ...",
+    "tr": "#AE#$102Arayıcılar kıyasıya mücadele ediyor..."
+  },
+  {
+    "id": 118,
+    "en": "#B1#$103Who will catch the Snitch?",
+    "fr": "#B2#$103Qui va s'emparer du Vif ?",
+    "de": "#B3#$103Wer fängt den Schnatz?",
+    "tr": "#B1#$103Snitch'i kim yakalayacak?"
+  },
+  {
+    "id": 119,
+    "en": "#B4#$110The seekers are battling for the Snitch",
+    "fr": "#B5#$110Les attrapeurs se bagarrent pour le Vif.",
+    "de": "#B6#$110Die Sucher kämpfen um den Schnatz!",
+    "tr": "#B4#$110Arayıcılar Snitch için savaşıyor"
+  },
+  {
+    "id": 120,
+    "en": "#B7#$111Look at the seekers go!",
+    "fr": "#B8#$111Regardez les attrapeurs !",
+    "de": "#B9#$111Schaut euch diese Sucher an!",
+    "tr": "#B7#$111Arayıcılara bakın hele!"
+  },
+  {
+    "id": 121,
+    "en": "#BA#$109Noooooo!!!!",
+    "fr": "#BB#$109Noooon !",
+    "de": "#BC#$109Neeeinnnn!",
+    "tr": "#BA#$109Hayııııır!!!!"
+  },
+  {
+    "id": 122,
+    "en": "#BD#$112Potter is losing control...",
+    "fr": "#BE#$112Potter perd le contr\\u00adle...",
+    "de": "#BF#$112Potter verliert die Kontrolle ...",
+    "tr": "#BD#$112Potter kontrolü kaybediyor..."
+  },
+  {
+    "id": 123,
+    "en": "#C0#$115Potter falls behind...",
+    "fr": "#C1#$115Potter est derrière...",
+    "de": "#C2#$115Potter fällt zurück ...",
+    "tr": "#C0#$115Potter geride kalıyor..."
+  },
+  {
+    "id": 124,
+    "en": "#C3#$098Here comes the Gryffindor Seeker!",
+    "fr": "#C4#$098Et voici l'attrapeur de Gryffondor !",
+    "de": "#C5#$098Da kommt der Sucher der Gryffindors!",
+    "tr": "#C3#$098İşte Gryffindor Arayıcısı geliyor!"
+  },
+  {
+    "id": 125,
+    "en": "#C6#$099Here comes the Hufflepuff Seeker!",
+    "fr": "#C7#$099Et voici l'attrapeur de Poufsouffle !",
+    "de": "#C8#$099Der Sucher der Hufflepuffs kommt näher!",
+    "tr": "#C6#$099İşte Hufflepuff Arayıcısı geliyor!"
+  },
+  {
+    "id": 126,
+    "en": "#C9#$100Here comes the Ravenclaw Seeker!",
+    "fr": "#CA#$100Et voici l'attrapeur de Serdaigle !",
+    "de": "#CB#$100Da ist der Sucher des Ravenclaw-Teams!",
+    "tr": "#C9#$100İşte Ravenclaw Arayıcısı geliyor!"
+  },
+  {
+    "id": 127,
+    "en": "#CC#$101Here comes the Slytherin Seeker!",
+    "fr": "#CD#$101Et voici l'attrapeur de Serpentard !",
+    "de": "#CE#$101Da ist der Sucher der Slytherins!",
+    "tr": "#CC#$101İşte Slytherin Arayıcısı geliyor!"
+  },
+  {
+    "id": 128,
+    "en": "#CF#$114Potter takes the lead...",
+    "fr": "#D0#$114Potter prend la t\\u00a4te...",
+    "de": "#D1#$114Potter übernimmt die Führung ...",
+    "tr": "#CF#$114Potter öne geçiyor..."
+  },
+  {
+    "id": 129,
+    "en": "#D2#$108Yeahhh!!!",
+    "fr": "#D3#$108Ouiiiiii !",
+    "de": "#D4#$108Jaaaaaa!",
+    "tr": "#D2#$108Yaaaşasın!!!"
+  },
+  {
+    "id": 130,
+    "en": "$031> Grab Snitch",
+    "fr": "$031> Attraper le Vif d'or",
+    "de": "$031> Schnapp den Schnatz",
+    "tr": "$031> Snitch'i Yakala"
+  },
+  {
+    "id": 131,
+    "en": "#D5#$001Welcome to Quidditch. I'm your commentator, Lee Jordan!",
+    "fr": "#D6#$001Bienvenue au Quidditch. Je suis Lee Jordan et je vais commenter le match pour vous !",
+    "de": "#D7#$001Willkommen zum Quidditch-Spiel. Ich bin euer Kommentator, Lee Jordan!",
+    "tr": "#D5#$001Quidditch'e hoş geldiniz. Ben yorumcunuz Lee Jordan!"
+  },
+  {
+    "id": 132,
+    "en": "#D8#$002The Quidditch Pitch has three goals at each end. The Chasers throw the Quaffle and try to put it through the hoops to score.",
+    "fr": "#D9#$002Le terrain de Quidditch comporte trois buts à l'extrémité. Les poursuiveurs essaient de lancer le Souafle à travers les cercles pour marquer.",
+    "de": "#DA#$002Auf dem Quidditch-Feld gibt es an jedem Ende drei Tore. Die Jäger werfen den Quaffel und versuchen, ihn durch die Ringe zu werfen, um zu punkten.",
+    "tr": "#D8#$002Quidditch sahasının her iki ucunda üçer kale çemberi bulunur. Kovalayıcılar sayı yapmak için Quaffle'ı fırlatıp çemberlerden geçirmeye çalışırlar."
+  },
+  {
+    "id": 133,
+    "en": "#DB#$003Watch out for the Bludgers. These are charmed balls that can knock you off your broomstick! Two Beaters on each team try to keep them away.",
+    "fr": "#DC#$003Fais attention aux Cognards. Ils sont ensorcelés et peuvent te faire tomber du balai ! Dans chaque équipe, deux batteurs ont pour t\\u009cche de les éloigner.",
+    "de": "#DD#$003Achte auf die Klatscher. Verzauberte Bälle, die dich problemlos von deinem Besen holen können. Zwei Treiber in jedem Team versuchen, dies zu verhindern.",
+    "tr": "#DB#$003Bludger'lara dikkat edin. Seni süpürgenden düşürebilecek büyülü toplardır bunlar! Her takımdaki iki Vurucu onları uzak tutmaya çalışır."
+  },
+  {
+    "id": 134,
+    "en": "#DE#$006For this match against Slytherin, Gryffindor once again relies on our excellent Seeker, Harry Potter!",
+    "fr": "#DF#$006Pour cette rencontre avec Serpentard, Gryffondor compte une fois de plus sur notre excellent attrapeur, Harry Potter !",
+    "de": "#E0#$006In diesem Spiel gegen Slytherin kann sich das Gryffindor-Team wieder einmal auf den hervorragenden Sucher - Harry Potter - verlassen!",
+    "tr": "#DE#$006Slytherin'e karşı oynanacak bu maçta Gryffindor, bir kez daha mükemmel Arayıcımız Harry Potter'a güveniyor!"
+  },
+  {
+    "id": 135,
+    "en": "#E1#$004Gryffindor's team Seeker is Harry Potter. It's his job to find and catch the Golden Snitch.",
+    "fr": "#E2#$004Harry Potter est l'attrapeur de Gryffondor. Il doit repérer et attraper le Vif d'or.",
+    "de": "#E3#$004Der Sucher für das Gryffindor-Team ist Harry Potter. Seine Aufgabe ist es, den Schnatz zu finden und natürlich zu fangen.",
+    "tr": "#E1#$004Gryffindor takımının Arayıcısı Harry Potter'dır. Görevi Altın Snitch'i bulup yakalamaktır."
+  },
+  {
+    "id": 136,
+    "en": "#E4#$005Harry Potter is once again Gryffindor's team Seeker. In the last match he caught the Snitch to win the game.",
+    "fr": "#E5#$005Une fois de plus, Harry est l'attrapeur de l'équipe de Gryffondor. Au cours du dernier match, il a réussi à attraper le Vif et l'équipe a remporté la victoire.",
+    "de": "#E6#$005Harry Potter wieder im Einsatz als Sucher für Gryffindor. Im letzten Spiel konnte er den Schnatz fangen und das Spiel entscheiden.",
+    "tr": "#E4#$005Harry Potter bir kez daha Gryffindor takımının Arayıcısı. Son maçta Snitch'i yakalayarak maçı kazandırmıştı."
+  },
+  {
+    "id": 137,
+    "en": "#E7#$007Remember, when the Snitch appears, it releases Speed Rings that will help the Seeker fly faster.",
+    "fr": "#E8#$007Quand le Vif appara\\u00a8t, il l\\u009cche des anneaux de vitesse permettant à l'attrapeur de voler plus vite.",
+    "de": "#E9#$007Also noch mal, wenn der Schnatz auftaucht, hinterlässt er Geschwindigkeitsringe, durch die der Sucher schneller wird.",
+    "tr": "#E7#$007Unutmayın, Snitch ortaya çıktığında, Arayıcının daha hızlı uçmasına yardımcı olan Hız Halkaları bırakır."
+  },
+  {
+    "id": 138,
+    "en": "$001TRY AGAIN, HARRY!",
+    "fr": "$001ESSAIE ENCORE, HARRY !!!",
+    "de": "$001NEUER VERSUCH, HARRY!",
+    "tr": "$001TEKRAR DENE, HARRY!"
+  },
+  {
+    "id": 139,
+    "en": "$001WELL DONE, HARRY!!",
+    "fr": "$001BIEN JOUE, HARRY !!!",
+    "de": "$001GUT GEMACHT, HARRY!!",
+    "tr": "$001AFERİN, HARRY!!"
+  }
+]

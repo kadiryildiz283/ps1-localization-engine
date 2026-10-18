@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 'Dokümantasyon'
+    url: 'https://github.com/kadiryildiz283/ps1-localization-engine/blob/main/README.md'
+    about: 'Önce README ve AGENTS.md dosyasına bakın; mimari ve komutlar orada.'
+  - name: 'Argonaut ses mimarisi'
+    url: 'https://github.com/kadiryildiz283/ps1-localization-engine/blob/main/docs/ARGONAUT_STREAM_SPLIT_ARCHITECTURE.md'
+    about: 'Multi-cue, 0xA800 split-stream ve SPU hesapları için başvuru belgesi.'
