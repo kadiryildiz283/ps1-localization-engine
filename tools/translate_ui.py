@@ -1,6 +1,4 @@
-# -*- coding: utf-8 -*-
 import json
-import os
 
 UI_TRANSLATIONS = {
     0: 'İleri Düzey',
@@ -342,7 +340,7 @@ UI_TRANSLATIONS = {
 
 def apply_translations():
     path = 'translations/ui_english.json'
-    with open(path, 'r', encoding='utf-8') as f:
+    with open(path, encoding='utf-8') as f:
         data = json.load(f)
 
     for item in data:

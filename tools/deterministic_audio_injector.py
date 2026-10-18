@@ -8,18 +8,14 @@ Key Invariants:
 """
 
 import argparse
-import glob
-import hashlib
 import json
 import os
-import re
 import struct
 import subprocess
 import sys
 import time
 import wave
 from collections import defaultdict
-from typing import Dict, List, Optional
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -38,7 +34,7 @@ def print_status():
         print("Run tools/build_deterministic_manifest.py first.")
         return
 
-    with open(UNIQUE_LINES_PATH, "r", encoding="utf-8") as f:
+    with open(UNIQUE_LINES_PATH, encoding="utf-8") as f:
         unique_lines = json.load(f)
 
     os.makedirs(INGAME_DUB_DIR, exist_ok=True)
@@ -75,14 +71,14 @@ def print_status():
     print("=" * 70)
 
 
-def synthesize_missing_lines(characters: Optional[List[str]] = None,
+def synthesize_missing_lines(characters: list[str] | None = None,
                              worker_id: int = 0,
                              num_workers: int = 1,
-                             limit: Optional[int] = None):
+                             limit: int | None = None):
     """Synthesize missing lines using XTTS-v2 with character conditioning latents."""
     os.makedirs(INGAME_DUB_DIR, exist_ok=True)
 
-    with open(UNIQUE_LINES_PATH, "r", encoding="utf-8") as f:
+    with open(UNIQUE_LINES_PATH, encoding="utf-8") as f:
         unique_lines = json.load(f)
 
     # Filter by character
@@ -147,9 +143,9 @@ def conform_and_inject_wads(dry_run: bool = False):
     if not os.path.exists(EXCLUSION_MAP_PATH):
         raise FileNotFoundError(f"Exclusion map not found: {EXCLUSION_MAP_PATH}")
 
-    with open(MANIFEST_PATH, "r", encoding="utf-8") as f:
+    with open(MANIFEST_PATH, encoding="utf-8") as f:
         manifest = json.load(f)
-    with open(EXCLUSION_MAP_PATH, "r", encoding="utf-8") as f:
+    with open(EXCLUSION_MAP_PATH, encoding="utf-8") as f:
         exclusion_map = json.load(f)
 
     # Group manifest entries by WAD
@@ -218,7 +214,7 @@ def conform_and_inject_wads(dry_run: bool = False):
                 in_sr = wf.getframerate()
                 in_ch = wf.getnchannels()
                 raw_bytes = wf.readframes(wf.getnframes())
-            
+
             raw_pcm = np.frombuffer(raw_bytes, dtype=np.int16)
             if in_ch > 1:
                 raw_pcm = raw_pcm[::in_ch]  # mono extract

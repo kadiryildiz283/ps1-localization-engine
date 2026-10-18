@@ -7,14 +7,14 @@ with 2048-byte sector alignment and updated pointer table.
 
 import os
 import struct
-from typing import Dict, List, Optional, Tuple
-from tools.iso_fs import Ps1IsoReader, USER_DATA_SIZE
+
+from tools.iso_fs import USER_DATA_SIZE, Ps1IsoReader
 
 DIR_ENTRY_SIZE = 20
 
 
 class DatEntry:
-    def __init__(self, name: str, size: int, offset: int, data: Optional[bytes] = None):
+    def __init__(self, name: str, size: int, offset: int, data: bytes | None = None):
         self.name = name
         self.size = size
         self.offset = offset
@@ -26,8 +26,8 @@ class DatEntry:
 
 class DirDatArchive:
     def __init__(self):
-        self.entries: List[DatEntry] = []
-        self.entry_map: Dict[str, DatEntry] = {}
+        self.entries: list[DatEntry] = []
+        self.entry_map: dict[str, DatEntry] = {}
 
     @classmethod
     def from_iso(cls, iso_reader: Ps1IsoReader) -> "DirDatArchive":
@@ -89,7 +89,7 @@ class DirDatArchive:
         print("All files extracted successfully.")
 
     @staticmethod
-    def repack_from_directory(input_dir: str, output_dir_file: str, output_dat_file: str, file_order: Optional[List[str]] = None):
+    def repack_from_directory(input_dir: str, output_dir_file: str, output_dat_file: str, file_order: list[str] | None = None):
         """Repack a directory of files into new POTTER.DIR and POTTER.DAT files.
         
         Ensures 2048-byte sector padding between each file and builds the updated index table.

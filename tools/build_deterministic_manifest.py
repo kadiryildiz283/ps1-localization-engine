@@ -15,13 +15,12 @@ import re
 import struct
 import sys
 from collections import defaultdict
-from typing import Dict, List, Optional, Set, Tuple
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from tools.iso_fs import Ps1IsoReader
-from tools.dirdat import DirDatArchive
 from tools.classify_dialogues_exact import classify_record
+from tools.dirdat import DirDatArchive
+from tools.iso_fs import Ps1IsoReader
 
 ORIGINAL_BIN = "Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De).bin"
 TRANSLATIONS_DIR = "translations"
@@ -67,10 +66,10 @@ def build_deterministic_manifest():
     print(f"Loaded {len(dialogue_files)} dialogue translation files.")
 
     # 1. Map all English dialogue items strictly by #hex# tags
-    dialogue_by_stem_cue: Dict[str, Dict[int, dict]] = defaultdict(dict)
+    dialogue_by_stem_cue: dict[str, dict[int, dict]] = defaultdict(dict)
     for df in dialogue_files:
         stem = os.path.basename(df).replace("dialogue_", "").replace(".json", "")
-        with open(df, "r", encoding="utf-8") as f:
+        with open(df, encoding="utf-8") as f:
             items = json.load(f)
         for it in items:
             en = it.get("en", "")
@@ -124,7 +123,7 @@ def build_deterministic_manifest():
             if stem == "T1L1M007":
                 cutscene_manifest_path = "audio/dubbing_manifest.json"
                 if os.path.exists(cutscene_manifest_path):
-                    with open(cutscene_manifest_path, "r", encoding="utf-8") as f:
+                    with open(cutscene_manifest_path, encoding="utf-8") as f:
                         cutscene_items = json.load(f)
                     for i, item in enumerate(cutscene_items):
                         cid = item["cue"]
@@ -133,7 +132,7 @@ def build_deterministic_manifest():
                         c_tr = sanitize_text_for_tts(item["tr"])
                         c_en = sanitize_text_for_tts(item["en"])
                         char_name = "narrator"
-                        line_h = hashlib.md5(f"{char_name}:{c_tr}".encode("utf-8")).hexdigest()[:12]
+                        line_h = hashlib.md5(f"{char_name}:{c_tr}".encode()).hexdigest()[:12]
                         max_samples = (sz // 16) * 28
                         all_manifest.append({
                             "wad": wad_name,
@@ -162,7 +161,7 @@ def build_deterministic_manifest():
             base_off = 0
             if os.path.exists(trans_file):
                 try:
-                    with open(trans_file, "r", encoding="utf-8") as tf:
+                    with open(trans_file, encoding="utf-8") as tf:
                         t_cues = json.load(tf)
                         if t_cues:
                             base_off = t_cues[0]["table_entry_offset"]
@@ -209,7 +208,7 @@ def build_deterministic_manifest():
                 clean_tr = diag_match["clean_tr"]
                 clean_en = diag_match["clean_en"]
                 char_profile = classify_record(stem, diag_match["id"] or 0, clean_en)
-                line_h = hashlib.md5(f"{char_profile}:{clean_tr}".encode("utf-8")).hexdigest()[:12]
+                line_h = hashlib.md5(f"{char_profile}:{clean_tr}".encode()).hexdigest()[:12]
                 max_samples = (a_sz // 16) * 28
 
                 entry_meta = {

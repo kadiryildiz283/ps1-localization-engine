@@ -6,7 +6,6 @@ and extracting files or streaming data.
 
 import os
 import struct
-from typing import Dict, List, Optional, Tuple
 
 SECTOR_SIZE = 2352
 USER_DATA_OFFSET = 24
@@ -28,7 +27,7 @@ class Ps1IsoReader:
     def __init__(self, bin_path: str):
         self.bin_path = bin_path
         self._file = open(bin_path, "rb")
-        self.files: Dict[str, IsoFileEntry] = {}
+        self.files: dict[str, IsoFileEntry] = {}
         self._parse_iso()
 
     def close(self):
@@ -106,7 +105,7 @@ class Ps1IsoReader:
                 out_f.write(chunk[:to_write])
                 bytes_left -= to_write
 
-    def read_file_bytes(self, file_name: str, start_offset: int = 0, length: Optional[int] = None) -> bytes:
+    def read_file_bytes(self, file_name: str, start_offset: int = 0, length: int | None = None) -> bytes:
         """Stream a byte range from a file on the ISO without extracting the whole file."""
         if file_name not in self.files:
             raise KeyError(f"File '{file_name}' not found in ISO")

@@ -8,18 +8,14 @@ Features:
 """
 
 import argparse
-import glob
-import hashlib
 import json
 import os
-import re
 import struct
 import subprocess
 import sys
 import time
 import wave
 from collections import defaultdict
-from typing import Dict, List, Optional
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -32,14 +28,14 @@ INGAME_DUB_DIR = "audio/ingame_dub"
 EXTRACTED_DIR = "extracted"
 
 
-def synthesize_lines(characters: Optional[List[str]] = None,
+def synthesize_lines(characters: list[str] | None = None,
                      worker_id: int = 0,
                      num_workers: int = 1,
-                     limit: Optional[int] = None):
+                     limit: int | None = None):
     """Synthesize unique in-game lines using XTTS-v2 neural engine."""
     os.makedirs(INGAME_DUB_DIR, exist_ok=True)
 
-    with open(UNIQUE_LINES_PATH, "r", encoding="utf-8") as f:
+    with open(UNIQUE_LINES_PATH, encoding="utf-8") as f:
         unique_lines = json.load(f)
 
     # Filter by character if specified
@@ -56,7 +52,7 @@ def synthesize_lines(characters: Optional[List[str]] = None,
     total = len(unique_lines)
     print(f"[Worker {worker_id}/{num_workers}] Starting synthesis for {total} lines...")
 
-    from tools.voice_cloner import clean_text_for_tts, resample_audio, NeuralVoiceEngine
+    from tools.voice_cloner import NeuralVoiceEngine
     engine = NeuralVoiceEngine()
     completed = 0
     skipped = 0
@@ -97,7 +93,7 @@ def print_status():
         print("Run tools/build_ingame_manifest.py first.")
         return
 
-    with open(UNIQUE_LINES_PATH, "r", encoding="utf-8") as f:
+    with open(UNIQUE_LINES_PATH, encoding="utf-8") as f:
         unique_lines = json.load(f)
 
     os.makedirs(INGAME_DUB_DIR, exist_ok=True)
@@ -138,7 +134,7 @@ def inject_into_wads():
     if not os.path.exists(MANIFEST_PATH):
         raise FileNotFoundError(f"Manifest not found: {MANIFEST_PATH}")
 
-    with open(MANIFEST_PATH, "r", encoding="utf-8") as f:
+    with open(MANIFEST_PATH, encoding="utf-8") as f:
         manifest = json.load(f)
 
     by_wad = defaultdict(list)

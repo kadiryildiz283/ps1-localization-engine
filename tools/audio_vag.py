@@ -4,16 +4,14 @@ Enables extracting voice lines to standard 16-bit 22050Hz/11025Hz WAV files
 and encoding custom Turkish voice recordings back into Sony PS1 ADPCM blocks.
 """
 
-import math
 import os
 import struct
 import wave
-from typing import List, Tuple
 
 IK0 = [0.0, 0.9375, 1.796875, 1.53125, 1.90625]
 IK1 = [0.0, 0.0, -0.8125, -0.859375, -0.9375]
 
-def decode_vag_block(block: bytes, hist1: float, hist2: float) -> Tuple[List[int], float, float]:
+def decode_vag_block(block: bytes, hist1: float, hist2: float) -> tuple[list[int], float, float]:
     shift = block[0] & 0x0F
     filter_idx = (block[0] >> 4) & 0x07
     f0 = IK0[filter_idx] if filter_idx < len(IK0) else 0.0

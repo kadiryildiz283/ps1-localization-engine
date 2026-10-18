@@ -3,7 +3,8 @@
 Assigns 100% of spoken dialogue lines across all 70 level WADs to their authentic characters:
   - harry: Harry Potter (Kadir)
   - ron: Ron Weasley (Batuhan), Fred, George, Oliver Wood, Neville, Colin Creevey
-  - hermione: Hermione Granger, Ginny Weasley, Moaning Myrtle
+  - hermione: Hermione Granger, Moaning Myrtle
+  - ginny: Ginny Weasley (voice profile currently shares hermione — see tools/speaker_map.py)
   - narrator: Storybook recap, Famous Witches & Wizards cards, Quidditch & Duelling commentary (Melike)
   - dumbledore: Albus Dumbledore, Arthur Weasley, Gilderoy Lockhart, Professor Flitwick, Cornelius Fudge, Nearly Headless Nick
   - snape: Severus Snape, Lucius Malfoy, Argus Filch
@@ -15,11 +16,9 @@ Assigns 100% of spoken dialogue lines across all 70 level WADs to their authenti
   - sorting_hat: Sorting Hat
 """
 
-import glob
 import json
-import os
 import re
-from collections import Counter, defaultdict
+from collections import Counter
 
 # Line index to character mapping for storybook cutscenes (T1L1M007.WAD)
 LINE_CHARACTER_MAP = {
@@ -32,7 +31,7 @@ LINE_CHARACTER_MAP = {
     30: "ron",           # Batuhan
     31: "harry",         # Kadir
     38: "draco",         # Draco
-    39: "hermione",      # Cansel (Ginny)
+    39: "ginny",         # Ginny Weasley (voice_profile=hermione)
     40: "draco",         # Draco
     45: "snape",         # Snape
     47: "snape",         # Snape
@@ -59,7 +58,7 @@ LINE_CHARACTER_MAP = {
     117: "harry",        # Kadir ("O ölen kız...")
     118: "ron",          # Batuhan ("Ron nefesini tuttu.")
     119: "ron",          # Batuhan ("Yoksa... Mızmız Myrtle olmasın?")
-    122: "hermione",     # Cansel (Ginny: "Bendimm, Harry...")
+    122: "ginny",        # Ginny ("Bendimm, Harry...") (voice_profile=hermione)
     124: "harry",        # Kadir ("Hadi Ginny, gidelim buradan.")
     130: "ron",          # Batuhan ("Hadi Harry, gidelim.")
     133: "hagrid",       # Hagrid ("Ben gidip Çatlak Kazan'da...")
@@ -230,7 +229,7 @@ def classify_record(stem: str, rec_id: int, en: str) -> str:
         if rec_id in [81, 82, 83, 84, 85, 86, 87, 88, 92]:
             return "ron"  # Ron & Fred/George
         if rec_id in [93, 94, 95, 96, 97, 98, 99, 100, 101]:
-            return "hermione"  # Ginny Weasley
+            return "ginny"  # Ginny Weasley
         return "ron"
 
     if stem == "T1L2M008": # Finding Ginny
@@ -238,7 +237,7 @@ def classify_record(stem: str, rec_id: int, en: str) -> str:
 
     if stem == "T1L2M009": # Ginny Remembrall
         if rec_id == 76:
-            return "hermione"  # Ginny
+            return "ginny"  # Ginny
         return "ron"
 
     # ----------------------------------------------------
@@ -506,7 +505,7 @@ def run_classification():
     print("RUNNING 100% ACCURATE MASTER CHARACTER CLASSIFICATION")
     print("=" * 70)
 
-    with open("scratch/all_unique_dialogues.json", "r", encoding="utf-8") as f:
+    with open("scratch/all_unique_dialogues.json", encoding="utf-8") as f:
         unique_dialogues = json.load(f)
 
     classified_counts = Counter()

@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """Batch 2 Translation (IDs 720 - 1079) for Harry Potter and the Chamber of Secrets (PS1).
 
 Conforms to Sevin Okyay and Kutlukhan Kutlu translations and preserves all tags,
@@ -7,7 +6,6 @@ controller glyphs, Latin spells, and canon lore.
 """
 
 import json
-import os
 import re
 
 BATCH_2_TRANSLATIONS = {
@@ -399,7 +397,7 @@ def validate_and_build():
     batch_file = "/home/kadir/PS1-Localization-Engine/translations/batches/batch_2.json"
     output_file = "/home/kadir/PS1-Localization-Engine/translations/batches/batch_2_tr.json"
 
-    with open(batch_file, "r", encoding="utf-8") as f:
+    with open(batch_file, encoding="utf-8") as f:
         items = json.load(f)
 
     assert len(items) == 360, f"Expected 360 items, got {len(items)}"

@@ -8,7 +8,6 @@ preventing game crashes and buffer overflows.
 import json
 import os
 import struct
-from typing import Dict, List, Optional, Tuple
 
 from tools.text_bin import decode_bin_string, encode_bin_string
 
@@ -24,7 +23,7 @@ class LpsxRecord:
         self.de = de
         self.extra = extra
 
-    def to_dict(self) -> Dict:
+    def to_dict(self) -> dict:
         return {
             "id": self.record_id,
             "en": self.en,
@@ -37,11 +36,11 @@ class LpsxRecord:
 class WadLpsxHandler:
     def __init__(self, wad_bytes: bytes):
         self.raw_wad = bytearray(wad_bytes)
-        self.lpsx_offset: Optional[int] = None
-        self.lpsx_size: Optional[int] = None
+        self.lpsx_offset: int | None = None
+        self.lpsx_size: int | None = None
         self.n_langs = 0
         self.n_records = 0
-        self.records: List[LpsxRecord] = []
+        self.records: list[LpsxRecord] = []
         self._find_and_parse_lpsx()
 
     def _find_and_parse_lpsx(self):
@@ -107,7 +106,7 @@ class WadLpsxHandler:
             json.dump(data, f, ensure_ascii=False, indent=2)
         print(f"Exported {len(data)} dialogue/objective records to {json_path}")
 
-    def rebuild_lpsx(self, translated_records: List[Dict], target_lang: str = "en", use_turkish_fallback: bool = True) -> bytes:
+    def rebuild_lpsx(self, translated_records: list[dict], target_lang: str = "en", use_turkish_fallback: bool = True) -> bytes:
         """Rebuild LPSX with dynamic repointing for all 4 slots per record."""
         new_ptrs = []
         new_pool = bytearray()
@@ -154,7 +153,7 @@ class WadLpsxHandler:
 
         return header + ptrs_bytes + bytes(new_pool)
 
-    def compile_wad_with_translations(self, translated_records: List[Dict], output_wad_path: str, target_lang: str = "en") -> bytes:
+    def compile_wad_with_translations(self, translated_records: list[dict], output_wad_path: str, target_lang: str = "en") -> bytes:
         """Replace LPSX in WAD, repoint pointers, and update all section sizes."""
         new_lpsx_payload = bytearray(self.rebuild_lpsx(translated_records, target_lang=target_lang))
 

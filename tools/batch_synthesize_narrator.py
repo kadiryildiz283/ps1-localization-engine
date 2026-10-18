@@ -7,7 +7,6 @@ and final CD-ROM XA ISO rebuilding.
 
 import os
 import subprocess
-import sys
 import time
 
 PYTHON_BIN = ".venv-clone/bin/python"

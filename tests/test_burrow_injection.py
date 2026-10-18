@@ -2,15 +2,18 @@ import os
 import unittest
 import wave
 
+import pytest
 from tools.dirdat import DirDatArchive
 from tools.iso_fs import Ps1IsoReader
+
+pytestmark = pytest.mark.requires_assets
 
 
 class TestBurrowDubbing(unittest.TestCase):
     def setUp(self):
         self.wad_path = "extracted/T1L2M001.WAD"
         self.iso_path = "Harry Potter and the Chamber of Secrets (Turkish).bin"
-        
+
     def test_all_17_clean_audio_files_exist_and_conforming(self):
         expected_files = [
             ("audio/burrow_clean/cue_02_ron.wav", 4.063),
@@ -44,12 +47,12 @@ class TestBurrowDubbing(unittest.TestCase):
         self.assertTrue(os.path.exists(self.wad_path))
         with open(self.wad_path, "rb") as f:
             wad = f.read()
-            
+
         self.assertEqual(len(wad), 8491008)
         dne_pos = wad.find(b" DNE")
         self.assertNotEqual(dne_pos, -1)
         audio_base = (dne_pos + 2047) // 2048 * 2048
-        
+
         # Check all 17 primary cues have audio and 0x01 terminal flag
         primary_cues = [
             (2,  0x04F000, 51200),
@@ -97,13 +100,13 @@ class TestBurrowDubbing(unittest.TestCase):
         self.assertTrue(os.path.exists(self.iso_path))
         with open(self.wad_path, "rb") as f:
             local_wad = f.read()
-            
+
         with Ps1IsoReader(self.iso_path) as iso:
             archive = DirDatArchive.from_iso(iso)
             self.assertIn("T1L2M001.WAD", archive.entry_map)
             entry = archive.entry_map["T1L2M001.WAD"]
             iso_wad = iso.read_file_bytes("POTTER.DAT", entry.offset, entry.size)
-            
+
         self.assertEqual(len(local_wad), len(iso_wad))
         self.assertEqual(local_wad, iso_wad)
 

@@ -10,11 +10,8 @@ import hashlib
 import json
 import os
 import re
-import struct
 import sys
-from collections import defaultdict
 from difflib import SequenceMatcher
-from typing import Dict, List, Optional, Tuple
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -70,13 +67,13 @@ def normalize_for_match(text: str) -> str:
 from tools.classify_dialogues_exact import classify_record
 
 
-def attribute_speaker(en_text: str, stem: str, cue: int, diag_id: Optional[int] = None) -> str:
+def attribute_speaker(en_text: str, stem: str, cue: int, diag_id: int | None = None) -> str:
     """Attribute character with 100% precision based on scene context and dialogue record ID."""
     return classify_record(stem, diag_id or 0, en_text)
 
 
 
-def split_sentences(text: str) -> List[str]:
+def split_sentences(text: str) -> list[str]:
     """Split text cleanly into sentences."""
     parts = re.split(r"(?<=[.!?])\s+", text.strip())
     return [p.strip() for p in parts if p.strip()]
@@ -87,10 +84,10 @@ def build_manifest():
     print("BUILDING TRUE IN-GAME MANIFEST FROM 100% WHISPER GROUND TRUTH")
     print("=" * 70)
 
-    from tools.iso_fs import Ps1IsoReader
     from tools.dirdat import DirDatArchive
+    from tools.iso_fs import Ps1IsoReader
 
-    with open(BASES_PATH, "r", encoding="utf-8") as f:
+    with open(BASES_PATH, encoding="utf-8") as f:
         bases = json.load(f)
 
     transcription_files = sorted(glob.glob(os.path.join(TRANSCRIPTIONS_DIR, "*.json")))
@@ -117,13 +114,13 @@ def build_manifest():
                 continue
             audio_base = (dne_pos + 2047) // 2048 * 2048
 
-            with open(tf, "r", encoding="utf-8") as f:
+            with open(tf, encoding="utf-8") as f:
                 cues = json.load(f)
 
             diag_path = os.path.join(TRANSLATIONS_DIR, f"dialogue_{stem}.json")
             dialogue_items = []
             if os.path.exists(diag_path):
-                with open(diag_path, "r", encoding="utf-8") as df:
+                with open(diag_path, encoding="utf-8") as df:
                     raw_items = json.load(df)
                 for item in raw_items:
                     raw_en = item.get("en", "")
@@ -228,7 +225,7 @@ def build_manifest():
                     cue_tr = d["tr"]
                     cue_en = d["en"]
                     char_profile = attribute_speaker(cue_en, stem, c["cue"], d["id"])
-                    line_hash = hashlib.md5(f"{char_profile}:{cue_tr}".encode("utf-8")).hexdigest()[:12]
+                    line_hash = hashlib.md5(f"{char_profile}:{cue_tr}".encode()).hexdigest()[:12]
                     all_manifest.append({
                         "wad": wad_name,
                         "stem": stem,
@@ -273,7 +270,7 @@ def build_manifest():
                         part_tr = tr_parts[idx] if idx < len(tr_parts) else d["tr"]
                         part_en = en_parts[idx] if idx < len(en_parts) else d["en"]
                         char_profile = attribute_speaker(d["en"], stem, c["cue"], d["id"])
-                        line_hash = hashlib.md5(f"{char_profile}:{part_tr}".encode("utf-8")).hexdigest()[:12]
+                        line_hash = hashlib.md5(f"{char_profile}:{part_tr}".encode()).hexdigest()[:12]
                         all_manifest.append({
                             "wad": wad_name,
                             "stem": stem,
@@ -313,7 +310,7 @@ def build_manifest():
                 unique_lines[lh]["min_budget_bytes"] = e["size_bytes"]
                 unique_lines[lh]["min_duration"] = e["max_duration"]
 
-    print(f"\n[SUMMARY]")
+    print("\n[SUMMARY]")
     print(f"  -> Total English dialogue cues mapped: {cues_matched}")
     print(f"  -> Total unique lines to voice: {len(unique_lines)}")
     print(f"  -> Foreign cues safely preserved: {skipped_foreign}")

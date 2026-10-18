@@ -9,11 +9,11 @@ import json
 import os
 import subprocess
 import wave
-from pathlib import Path
 
 # PyTorch 2.6+ defaults weights_only=True which breaks legacy TTS checkpoints.
 # Monkey patch torch.load to default weights_only=False for trusted local models.
 import torch
+
 _orig_torch_load = torch.load
 def _patched_torch_load(*args, **kwargs):
     kwargs["weights_only"] = False
@@ -22,7 +22,9 @@ torch.load = _patched_torch_load
 
 # Patch torchaudio to use soundfile instead of torchcodec (avoiding CUDA dependencies on CPU)
 import soundfile as sf
-import torchaudio
+import torchaudio  # noqa: E402  — must run after soundfile patch
+
+
 def _patched_audio_load(filepath, *args, **kwargs):
     data, sr = sf.read(filepath)
     t = torch.from_numpy(data).float()
@@ -69,7 +71,7 @@ LINE_CHARACTER_MAP = {
     30: "ron",           # Batuhan
     31: "harry",         # Kadir
     38: "draco",         # Draco
-    39: "hermione",      # Cansel (Ginny)
+    39: "ginny",         # Ginny Weasley (voice_profile=hermione)
     40: "draco",         # Draco
     45: "snape",         # Snape
     47: "snape",         # Snape
@@ -96,7 +98,7 @@ LINE_CHARACTER_MAP = {
     117: "harry",        # Kadir ("O ölen kız...")
     118: "ron",          # Batuhan ("Ron nefesini tuttu.")
     119: "ron",          # Batuhan ("Yoksa... Mızmız Myrtle olmasın?")
-    122: "hermione",     # Cansel (Ginny: "Bendimm, Harry...")
+    122: "ginny",        # Ginny ("Bendimm, Harry...")
     124: "harry",        # Kadir ("Hadi Ginny, gidelim buradan.")
     130: "ron",          # Batuhan ("Hadi Harry, gidelim.")
     133: "hagrid",       # Hagrid ("Ben gidip Çatlak Kazan'da...")
@@ -121,7 +123,7 @@ def clean_text_for_tts(text: str) -> str:
 def resample_audio(input_wav: str, output_wav: str, target_rate: int = 22050, max_duration: float = None):
     """Resample to 22050Hz Mono 16-bit PCM with PS1 SPU Broadcast Pre-Emphasis and tempo-adjust if needed."""
     os.makedirs(os.path.dirname(os.path.abspath(output_wav)), exist_ok=True)
-    
+
     # Check input duration
     with wave.open(input_wav, "rb") as wf:
         orig_dur = wf.getnframes() / wf.getframerate()
@@ -137,7 +139,7 @@ def resample_audio(input_wav: str, output_wav: str, target_rate: int = 22050, ma
         "alimiter=limit=-1dB",
         "aformat=sample_fmts=s16:sample_rates=22050:channel_layouts=mono"
     ]
-    
+
     if max_duration is not None and orig_dur > max_duration:
         speed_ratio = orig_dur / max_duration
         print(f"Applying tempo adjustment: {speed_ratio:.2f}x (orig={orig_dur:.2f}s, target_max={max_duration:.2f}s)")
@@ -171,17 +173,28 @@ class NeuralVoiceEngine:
         print("XTTS-v2 Neural Engine loaded successfully!")
 
     def get_latents(self, character: str):
-        if character in self.latents_cache:
-            return self.latents_cache[character]
+        # speaker_id (e.g. "ginny") may share a voice profile (e.g. "hermione")
+        # until a dedicated recording exists. Resolve via speaker_map so the
+        # identity and the timbre stay decoupled.
+        try:
+            from tools.speaker_map import resolve_speaker
 
-        cache_pt = f"audio/profiles/{character}_latents.pt"
+            voice = resolve_speaker(speaker_id=character).voice_profile
+        except Exception:
+            voice = character
+
+        cache_key = voice
+        if cache_key in self.latents_cache:
+            return self.latents_cache[cache_key]
+
+        cache_pt = f"audio/profiles/{voice}_latents.pt"
         if os.path.exists(cache_pt):
             lat = torch.load(cache_pt)
-            self.latents_cache[character] = lat
+            self.latents_cache[cache_key] = lat
             return lat
 
-        speaker_wav = CHARACTER_PROFILES.get(character, CHARACTER_PROFILES["narrator"])
-        print(f"Computing golden conditioning latents for '{character}' from {speaker_wav}...")
+        speaker_wav = CHARACTER_PROFILES.get(voice, CHARACTER_PROFILES["narrator"])
+        print(f"Computing golden conditioning latents for '{voice}' from {speaker_wav}...")
         gpt_lat, spk_emb = self.model.get_conditioning_latents(
             audio_path=speaker_wav,
             max_ref_length=30,
@@ -191,7 +204,7 @@ class NeuralVoiceEngine:
         )
         lat = (gpt_lat, spk_emb)
         torch.save(lat, cache_pt)
-        self.latents_cache[character] = lat
+        self.latents_cache[cache_key] = lat
         return lat
 
     def synthesize_line(self, text_tr: str, character: str, output_wav: str, max_duration: float = None):
@@ -237,7 +250,7 @@ def main():
     parser.add_argument("--all", action="store_true", help="Generate all lines in manifest")
     args = parser.parse_args()
 
-    with open("audio/dubbing_manifest.json", "r", encoding="utf-8") as f:
+    with open("audio/dubbing_manifest.json", encoding="utf-8") as f:
         manifest = json.load(f)
 
     engine = NeuralVoiceEngine()
@@ -319,7 +332,7 @@ def main():
             actor_id = item["actor_id"]
             out_wav = os.path.join(out_dir, f"line_{actor_id:03d}.wav")
             out_wav_idx = os.path.join(out_dir, f"line_{idx:03d}.wav")
-            
+
             # Check if already synthesized
             if os.path.exists(out_wav) and os.path.getsize(out_wav) > 1000:
                 print(f"[{idx+1}/{len(manifest)}] Line {idx} (actor {actor_id:3d}) -> Already exists, skipping.")

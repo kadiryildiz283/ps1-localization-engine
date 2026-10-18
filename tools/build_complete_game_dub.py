@@ -23,9 +23,7 @@ Engine Features:
 
 import argparse
 import glob
-import hashlib
 import json
-import multiprocessing
 import os
 import shutil
 import struct
@@ -34,15 +32,15 @@ import sys
 import time
 import wave
 from collections import defaultdict
-from typing import Dict, List, Optional, Tuple
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from tools.audio_vag import encode_pcm_to_vag
-from tools.cd_patcher import encode_mode2_form1_sector
-from tools.iso_fs import Ps1IsoReader, SECTOR_SIZE, USER_DATA_SIZE, USER_DATA_OFFSET
-from tools.dirdat import DirDatArchive, DIR_ENTRY_SIZE
-from tools.voice_cloner import NeuralVoiceEngine, clean_text_for_tts, resample_audio, LINE_CHARACTER_MAP
+from tools.voice_cloner import (
+    LINE_CHARACTER_MAP,
+    NeuralVoiceEngine,
+    clean_text_for_tts,
+)
 
 ORIGINAL_BIN = "Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De).bin"
 TARGET_BIN = "Harry Potter and the Chamber of Secrets (Turkish).bin"
@@ -74,7 +72,7 @@ def seed_burrow_verified_lines():
     if not os.path.exists(INGAME_MANIFEST) or not os.path.exists(BURROW_CLEAN_DIR):
         return 0
 
-    with open(INGAME_MANIFEST, "r", encoding="utf-8") as f:
+    with open(INGAME_MANIFEST, encoding="utf-8") as f:
         dm = json.load(f)
 
     burrow_wads = {"T1L2M001.WAD", "T1L2M003.WAD", "T1L2M004.WAD", "T1L2M006.WAD"}
@@ -107,13 +105,13 @@ def seed_burrow_verified_lines():
     return seeded
 
 
-def collect_all_synthesis_tasks() -> List[dict]:
+def collect_all_synthesis_tasks() -> list[dict]:
     """Collect all synthesis tasks across Cutscenes and In-Game levels."""
     tasks = []
 
     # 1. Cutscenes (T1L1M007.WAD) - 145 lines
     if os.path.exists(CUTSCENE_MANIFEST):
-        with open(CUTSCENE_MANIFEST, "r", encoding="utf-8") as f:
+        with open(CUTSCENE_MANIFEST, encoding="utf-8") as f:
             cutscenes = json.load(f)
         for i, item in enumerate(cutscenes):
             char = LINE_CHARACTER_MAP.get(i, "narrator")
@@ -129,7 +127,7 @@ def collect_all_synthesis_tasks() -> List[dict]:
 
     # 2. In-Game Unique Lines - 1,103 lines
     if os.path.exists(INGAME_UNIQUE_LINES):
-        with open(INGAME_UNIQUE_LINES, "r", encoding="utf-8") as f:
+        with open(INGAME_UNIQUE_LINES, encoding="utf-8") as f:
             in_game = json.load(f)
         for item in in_game:
             h = item["line_hash"]
@@ -176,11 +174,11 @@ def print_overall_status():
     print("=" * 75)
 
 
-def run_worker_synthesis(worker_id: int, num_workers: int, tasks_subset: List[dict]):
+def run_worker_synthesis(worker_id: int, num_workers: int, tasks_subset: list[dict]):
     """Execute synthesis for a specific worker shard."""
     os.environ["TORCH_NUM_THREADS"] = "3"
-    import soundfile as sf
     import numpy as np
+    import soundfile as sf
 
     total = len(tasks_subset)
     print(f"[Worker {worker_id}/{num_workers}] Starting batch of {total} lines...")
@@ -331,7 +329,7 @@ def inject_cutscenes():
         wad = bytearray(f.read())
 
     AUDIO_SECTOR_BASE = 362496
-    with open(CUTSCENE_MANIFEST, "r", encoding="utf-8") as f:
+    with open(CUTSCENE_MANIFEST, encoding="utf-8") as f:
         manifest = json.load(f)
 
     injected = 0
@@ -383,9 +381,9 @@ def inject_ingame_wads():
     print("INJECTING TURKISH SPU ADPCM AUDIO INTO 67 LEVEL WADS")
     print("=" * 75)
 
-    with open(INGAME_MANIFEST, "r", encoding="utf-8") as f:
+    with open(INGAME_MANIFEST, encoding="utf-8") as f:
         manifest = json.load(f)
-    with open(EXCLUSION_MAP_PATH, "r", encoding="utf-8") as f:
+    with open(EXCLUSION_MAP_PATH, encoding="utf-8") as f:
         exclusion_map = json.load(f)
 
     by_wad = defaultdict(list)
@@ -527,7 +525,7 @@ def inject_ingame_wads():
                 f.write(wad_data)
             wads_updated += 1
 
-    print(f"\n[OK] Level WAD Injection Completed:")
+    print("\n[OK] Level WAD Injection Completed:")
     print(f"     -> Updated WADs:        {wads_updated}")
     print(f"     -> Dialogue Cues Injected: {total_injected}")
     print(f"     -> Missing Dialogue Cues:  {total_missing}")
@@ -565,7 +563,7 @@ def main():
     args = parser.parse_args()
 
     if args.run_shard:
-        with open(args.run_shard, "r", encoding="utf-8") as f:
+        with open(args.run_shard, encoding="utf-8") as f:
             tasks_subset = json.load(f)
         run_worker_synthesis(args.worker_id, args.workers, tasks_subset)
         return

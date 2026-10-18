@@ -106,25 +106,25 @@ def main():
     print("=" * 70)
     print("TARGETED BIT-EXACT INJECTOR FOR THE BURROW GARDEN (T1L2M001.WAD)")
     print("=" * 70)
-    
+
     if not os.path.exists(SRC_WAD):
         raise FileNotFoundError(f"Clean base WAD not found: {SRC_WAD}")
-        
+
     print(f"\nStep 1: Cloning clean base {SRC_WAD} -> {DST_WAD}...")
     shutil.copy2(SRC_WAD, DST_WAD)
-    
+
     with open(DST_WAD, "rb") as f:
         wad_data = bytearray(f.read())
-        
+
     dne_pos = wad_data.find(b" DNE")
     audio_base = (dne_pos + 2047) // 2048 * 2048
-    
+
     spsx_pos = wad_data.find(b"XSPS")
     spsx_base = spsx_pos + 8
-    
+
     print(f"  audio_base: 0x{audio_base:X} ({audio_base})")
     print(f"  spsx_base:  0x{spsx_base:X} ({spsx_base})")
-    
+
     # Step 2: Inject the 6 primary full Turkish dialogues
     print("\nStep 2: Encoding and Injecting 6 Primary Turkish Dialogues:")
     for item in PRIMARY_INJECTIONS:
@@ -134,45 +134,45 @@ def main():
         sz = item["sz"]
         a_off = item["a_off"]
         e_off = item["e_off"]
-        
+
         with wave.open(wav_p, "rb") as wf:
             frames = wf.readframes(wf.getnframes())
             pcm = np.frombuffer(frames, dtype=np.int16)
             sr = wf.getframerate()
-            
+
         assert sr == 22050, f"Cue {c} sample rate is not 22050: {sr}"
-        
+
         max_samples = (sz // 16) * 28
         if len(pcm) > max_samples:
             pcm = pcm[:max_samples]
-            
+
         vag_data = encode_pcm_to_vag(pcm, loop=True)
-        
+
         # Pad with silence and terminate with 0x01 block
         pad_bytes = sz - len(vag_data)
         num_pad_blocks = pad_bytes // 16
         silence_mid = b"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
         silence_end = b"\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-        
+
         if num_pad_blocks > 0:
             vag_data = vag_data + (silence_mid * (num_pad_blocks - 1)) + silence_end
         else:
             vag_data = bytearray(vag_data[:sz])
             vag_data[-15] = 0x01
             vag_data = bytes(vag_data)
-            
+
         assert len(vag_data) == sz, f"Cue {c} size mismatch: {len(vag_data)} != {sz}"
-        
+
         abs_audio = audio_base + a_off
         wad_data[abs_audio : abs_audio + sz] = vag_data
-        
+
         # Set p2 register: hw=2, pitch=0x0800 (22,050 Hz)
         p2 = (2 << 16) | 0x0800
         abs_table = spsx_base + e_off
         wad_data[abs_table + 4 : abs_table + 8] = struct.pack("<I", p2)
-        
+
         print(f"  [Cue {c:02d}] Injected {sz:6d}B at 0x{abs_audio:X} | SPU Reg p2=0x{p2:08X} (22,050 Hz) | {char.upper()}")
-        
+
     # Step 3: Safely silence unused French/German slots
     print("\nStep 3: Muting 12 Unused Foreign Language Slots (Zero Foreign Audio Leakage):")
     for item in FOREIGN_SLOTS_TO_MUTE:
@@ -180,21 +180,21 @@ def main():
         sz = item["sz"]
         a_off = item["a_off"]
         e_off = item["e_off"]
-        
+
         mute_buf = make_silence_buffer(sz)
         abs_audio = audio_base + a_off
         wad_data[abs_audio : abs_audio + sz] = mute_buf
-        
+
         # Keep channel 2 flag but muted
         p2 = (2 << 16) | 0x05CE
         abs_table = spsx_base + e_off
         wad_data[abs_table + 4 : abs_table + 8] = struct.pack("<I", p2)
         print(f"  [Cue {c:02d}] Muted {sz:6d}B at 0x{abs_audio:X} (French/German slot safely silenced)")
-        
+
     # Write updated WAD
     with open(DST_WAD, "wb") as f:
         f.write(wad_data)
-        
+
     print(f"\nSuccessfully wrote {len(wad_data)} bytes to {DST_WAD}!")
 
 if __name__ == "__main__":

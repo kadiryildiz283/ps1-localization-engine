@@ -10,12 +10,11 @@ import os
 import struct
 import sys
 import time
-from typing import Dict, List, Optional
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from tools.iso_fs import Ps1IsoReader
-from tools.dirdat import DirDatArchive
 from tools.audio_vag import decode_adpcm_to_wav
+from tools.dirdat import DirDatArchive
+from tools.iso_fs import Ps1IsoReader
 
 ORIGINAL_BIN = "Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De).bin"
 BASES_PATH = "audio/ground_truth_bases.json"
@@ -30,7 +29,7 @@ def transcribe_wad_worker(args):
     cached_entries = {}
     if os.path.exists(cache_file):
         try:
-            with open(cache_file, "r", encoding="utf-8") as f:
+            with open(cache_file, encoding="utf-8") as f:
                 c_list = json.load(f)
                 cached_entries = {c["cue"]: c for c in c_list}
         except Exception:
@@ -132,7 +131,7 @@ def main():
     os.makedirs(CACHE_DIR, exist_ok=True)
     os.makedirs("scratch/tmp_wavs", exist_ok=True)
 
-    with open(BASES_PATH, "r", encoding="utf-8") as f:
+    with open(BASES_PATH, encoding="utf-8") as f:
         bases = json.load(f)
 
     # Skip cutscene WAD (T1L1M007 is already 100% completed)

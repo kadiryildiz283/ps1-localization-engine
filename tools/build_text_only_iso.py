@@ -16,9 +16,9 @@ import sys
 import time
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from tools.iso_fs import Ps1IsoReader, SECTOR_SIZE, USER_DATA_OFFSET, USER_DATA_SIZE
 from tools.cd_patcher import encode_mode2_form1_sector
-from tools.dirdat import DirDatArchive, DIR_ENTRY_SIZE
+from tools.dirdat import DIR_ENTRY_SIZE, DirDatArchive
+from tools.iso_fs import SECTOR_SIZE, USER_DATA_SIZE, Ps1IsoReader
 from tools.wad_lpsx import WadLpsxHandler
 
 ORIGINAL_BIN = "Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De).bin"
@@ -88,7 +88,7 @@ def prepare_text_only_wads():
             if not handler.records:
                 continue
 
-            with open(fpath, "r", encoding="utf-8") as f:
+            with open(fpath, encoding="utf-8") as f:
                 records = json.load(f)
 
             out_wad_path = os.path.join(EXTRACTED_DIR, wad_name)
@@ -196,7 +196,7 @@ def verify_iso():
 
         archive = DirDatArchive.from_iso(iso)
         assert len(archive.entries) == 357, f"Expected 357 entries, got {len(archive.entries)}"
-        print(f"  [+] POTTER.DIR validated: 357 entries present.")
+        print("  [+] POTTER.DIR validated: 357 entries present.")
 
         # Verify Main Menu (T1I0M000.WAD) Turkish font injection
         menu_entry = archive.entry_map["T1I0M000.WAD"]

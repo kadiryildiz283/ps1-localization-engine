@@ -10,7 +10,6 @@ import os
 import re
 import struct
 import sys
-from typing import Dict, List
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from tools.audio_vag import decode_adpcm_to_wav
@@ -33,7 +32,7 @@ def extract_all_reference_lines():
     spsx_size = int.from_bytes(wad[spsx_pos+4:spsx_pos+8], 'little')
     spsx_data = wad[spsx_pos+8 : spsx_pos+8+spsx_size]
 
-    dialogues = json.load(open('translations/dialogue_T1L1M007.json', 'r', encoding='utf-8'))
+    dialogues = json.load(open('translations/dialogue_T1L1M007.json', encoding='utf-8'))
 
     manifest = []
     extracted = 0
@@ -69,7 +68,7 @@ def extract_all_reference_lines():
             'id': r['id'],
             'actor_id': actor_idx,
             'actor_hex': f'#{actor_hex}#',
-            'cue': f'',
+            'cue': '',
             'spsx_offset': off,
             'size_bytes': sz,
             'duration_seconds': round(duration, 2),

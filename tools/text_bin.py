@@ -8,7 +8,6 @@ and repointing.
 import json
 import os
 import struct
-from typing import Dict, List, Optional, Tuple
 
 # Custom glyph mappings for accented characters discovered in European release
 ACCENT_TO_CODE = {
@@ -102,7 +101,7 @@ def encode_bin_string(text: str, use_turkish_fallback: bool = True) -> bytes:
     return struct.pack(f"<{len(u16_words)}H", *u16_words)
 
 
-def dump_bin_file(bin_data: bytes) -> List[Dict]:
+def dump_bin_file(bin_data: bytes) -> list[dict]:
     """Parse a .BIN language file into a structured list of string entries."""
     total_len = struct.unpack("<I", bin_data[:4])[0]
     pos = 4
@@ -129,7 +128,7 @@ def dump_bin_file(bin_data: bytes) -> List[Dict]:
     return entries
 
 
-def compile_bin_file(entries: List[Dict], use_turkish_fallback: bool = True) -> bytes:
+def compile_bin_file(entries: list[dict], use_turkish_fallback: bool = True) -> bytes:
     """Compile structured string entries back into a binary .BIN language file.
     
     Dynamically recalculates all chunk lengths and total file length, allowing arbitrary
@@ -157,7 +156,7 @@ def export_bin_to_json(bin_path: str, json_path: str):
 
 
 def import_json_to_bin(json_path: str, bin_output_path: str, use_turkish_fallback: bool = True):
-    with open(json_path, "r", encoding="utf-8") as f:
+    with open(json_path, encoding="utf-8") as f:
         entries = json.load(f)
     bin_data = compile_bin_file(entries, use_turkish_fallback=use_turkish_fallback)
     os.makedirs(os.path.dirname(os.path.abspath(bin_output_path)), exist_ok=True)

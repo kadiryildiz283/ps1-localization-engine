@@ -7,14 +7,13 @@ computes multi-conditioning latents in Coqui XTTS-v2, and verifies with test spe
 
 import os
 import sys
+
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-import wave
-import numpy as np
-import soundfile as sf
 import librosa
 import noisereduce as nr
+import numpy as np
+import soundfile as sf
 import torch
-
 from tools.voice_cloner import NeuralVoiceEngine
 from transformers import pipeline
 
@@ -70,17 +69,17 @@ def clean_and_restore_audio(raw_path: str, target_sr: int = 24000) -> np.ndarray
     """Load raw audio, apply high-pass filter, gentle noise reduction, and normalize."""
     from scipy.signal import butter, sosfilt
     y, sr = librosa.load(raw_path, sr=target_sr, mono=True)
-    
+
     # 1. 2nd-order Butterworth Highpass @ 70 Hz (preserves full chest warmth, removes rumble)
     sos = butter(2, 70.0, btype="highpass", fs=sr, output="sos")
     y_hp = sosfilt(sos, y)
-    
+
     # 2. Spectral noise reduction (gentle stationary profile, 60% reduction to preserve air)
     frame_len = int(0.5 * sr)
     rms = [np.mean(y_hp[i:i+frame_len]**2) for i in range(0, len(y_hp)-frame_len, frame_len//2)]
     min_idx = np.argmin(rms) * (frame_len//2)
     noise_clip = y_hp[min_idx : min_idx + frame_len]
-    
+
     y_clean = nr.reduce_noise(
         y=y_hp,
         sr=sr,
@@ -88,12 +87,12 @@ def clean_and_restore_audio(raw_path: str, target_sr: int = 24000) -> np.ndarray
         prop_decrease=0.60,
         stationary=True
     )
-    
+
     # 3. Peak normalize to 0.92
     max_val = np.max(np.abs(y_clean))
     if max_val > 0:
         y_clean = y_clean / max_val * 0.92
-        
+
     return y_clean, sr
 
 def main():
@@ -101,25 +100,25 @@ def main():
     print("ENHANCED MULTI-REFERENCE VOICE PROFILE & LATENT GENERATOR")
     print("Target Speakers: Melike (Narrator), Kadir (Harry), Batuhan (Ron)")
     print("=" * 80)
-    
+
     os.makedirs(OUT_DIR, exist_ok=True)
     os.makedirs(REFS_DIR, exist_ok=True)
     os.makedirs("audio/profiles", exist_ok=True)
-    
+
     tts = NeuralVoiceEngine()
     pipe = pipeline("automatic-speech-recognition", model="openai/whisper-base", device="cpu")
-    
+
     results = {}
-    
+
     for char_id, info in PROFILES.items():
         speaker = info["speaker"]
         raw_path = info["raw_file"]
         test_line = info["test_line"]
         slices = info["slices"]
-        
+
         print(f"\n[1/3] Processing {speaker} ({info['role']}) from {raw_path}...")
         y_clean, sr = clean_and_restore_audio(raw_path, target_sr=24000)
-        
+
         # Save sliced multi-sample references
         ref_paths = []
         for i, (st, en) in enumerate(slices):
@@ -127,9 +126,9 @@ def main():
             ref_p = os.path.join(REFS_DIR, f"{char_id}_slice_{i}.wav")
             sf.write(ref_p, chunk, sr)
             ref_paths.append(ref_p)
-            
+
         print(f"  Generated {len(ref_paths)} multi-sample reference slices.")
-        
+
         # Compute multi-conditioning latents
         print(f"  Computing golden multi-conditioning latents for {speaker}...")
         gpt_lat, spk_emb = tts.model.get_conditioning_latents(
@@ -139,12 +138,12 @@ def main():
             gpt_cond_chunk_len=6,
             sound_norm_refs=True
         )
-        
+
         # Cache to audio/profiles/{char_id}_latents.pt
         cache_pt = f"audio/profiles/{char_id}_latents.pt"
         torch.save((gpt_lat, spk_emb), cache_pt)
         print(f"  Saved golden latents -> {cache_pt}")
-        
+
         # Synthesize test line with optimal parameters (temperature=0.42)
         print(f"  Synthesizing test line: \"{test_line}\"")
         out = tts.model.inference(
@@ -157,21 +156,21 @@ def main():
             top_p=0.85,
             speed=1.0
         )
-        
+
         test_wav = os.path.join(OUT_DIR, f"{char_id}_{speaker.lower()}_test.wav")
         test_mp3 = os.path.join(OUT_DIR, f"{char_id}_{speaker.lower()}_test.mp3")
         sf.write(test_wav, out["wav"], 24000)
-        
+
         # Convert to mp3 preview using ffmpeg
         os.system(f"ffmpeg -y -i '{test_wav}' -codec:a libmp3lame -qscale:a 2 '{test_mp3}' >/dev/null 2>&1")
-        
+
         # Verify with Whisper
         whisper_res = pipe(test_wav, generate_kwargs={"language": "tr"})["text"].strip()
         dur = len(out["wav"]) / 24000
-        
+
         print(f"  ✓ Saved test preview: {test_wav} ({dur:.2f}s)")
         print(f"  ✓ Whisper Transcription: \"{whisper_res}\"")
-        
+
         results[char_id] = {
             "speaker": speaker,
             "role": info["role"],
@@ -180,7 +179,7 @@ def main():
             "duration": dur,
             "whisper": whisper_res
         }
-        
+
     print("\n" + "=" * 80)
     print("VERIFICATION SUMMARY")
     print("=" * 80)

@@ -13,19 +13,18 @@ and patches sectors directly into the target PS1 BIN disc image.
 
 import os
 import sys
+
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-import json
 import shutil
 import struct
-import time
 import wave
-import numpy as np
 
-from tools.voice_cloner import NeuralVoiceEngine, clean_text_for_tts, resample_audio
+import numpy as np
 from tools.audio_vag import encode_pcm_to_vag
 from tools.cd_patcher import encode_mode2_form1_sector
-from tools.iso_fs import USER_DATA_SIZE, SECTOR_SIZE
+from tools.iso_fs import SECTOR_SIZE, USER_DATA_SIZE
+from tools.voice_cloner import NeuralVoiceEngine
 from transformers import pipeline
 
 TARGET_BIN = "Harry Potter and the Chamber of Secrets (Turkish).bin"
@@ -45,24 +44,24 @@ def encode_audio_file(wav_path: str, max_size_bytes: int) -> bytes:
         frames = wf.readframes(wf.getnframes())
         pcm = np.frombuffer(frames, dtype=np.int16)
         sr = wf.getframerate()
-        
+
     assert sr == 22050, f"{wav_path} sample rate is not 22050: {sr}"
     max_samples = (max_size_bytes // 16) * 28
     if len(pcm) > max_samples:
         pcm = pcm[:max_samples]
-        
+
     vag = encode_pcm_to_vag(pcm, loop=False)
     pad = max_size_bytes - len(vag)
     assert pad >= 0, f"Encoded VAG exceeds max size: {len(vag)} > {max_size_bytes}"
     num_pad_blocks = pad // 16
-    
+
     if num_pad_blocks > 0:
         vag = vag + (SILENCE_MID * (num_pad_blocks - 1)) + SILENCE_END
     else:
         vag = bytearray(vag[:max_size_bytes])
         vag[-15] = 0x01
         vag = bytes(vag)
-        
+
     assert len(vag) == max_size_bytes
     return vag
 
@@ -159,67 +158,67 @@ def main():
     print("=" * 80)
     print("MASTER AUTOMATED TURKISH DUBBING & DISC PATCHER FOR BURROW SUITE")
     print("=" * 80)
-    
+
     tts = NeuralVoiceEngine()
     pipe = pipeline("automatic-speech-recognition", model="openai/whisper-base", device="cpu")
-    
+
     audio_dir = "audio/burrow_clean"
     os.makedirs(audio_dir, exist_ok=True)
     os.makedirs("extracted", exist_ok=True)
-    
+
     total_lines = sum(len(lvl["dialogues"]) for lvl in BURROW_LEVELS)
     print(f"\n[+] Total dialogue lines to synthesize and inject across 3 levels: {total_lines}")
-    
+
     for lvl in BURROW_LEVELS:
         wad_name = lvl["wad"]
         stem = lvl["stem"]
-        print(f"\n" + "=" * 60)
+        print("\n" + "=" * 60)
         print(f"LEVEL: {lvl['name']} ({wad_name}) | Start LBA: {lvl['start_lba']}")
         print("=" * 60)
-        
+
         src_wad = f"extracted_text_only/{wad_name}"
         dst_wad = f"extracted/{wad_name}"
         shutil.copy2(src_wad, dst_wad)
-        
+
         with open(dst_wad, "rb") as f:
             wad_data = bytearray(f.read())
-            
+
         dne_pos = wad_data.find(b" DNE")
         audio_base = (dne_pos + 2047) // 2048 * 2048
         spsx_pos = wad_data.find(b"XSPS")
         spsx_base = spsx_pos + 8
         base_off = lvl["base_offset"]
-        
+
         print(f"  audio_base: 0x{audio_base:X}, spsx_base: 0x{spsx_base:X}, base_offset: {base_off}")
-        
+
         # 1. Synthesize and inject each dialogue line
         for item in lvl["dialogues"]:
             cue = item["cue"]
             char = item["char"]
             tr_text = item["tr"]
-            
+
             e_off = base_off + cue * 16
             a_off, p2, p3, a_sz = struct.unpack("<IIII", wad_data[spsx_base + e_off : spsx_base + e_off + 16])
             max_dur = (a_sz // 16 * 28) / 22050.0
-            
+
             wav_name = f"{stem}_cue{cue:02d}_{char}.wav"
             wav_path = os.path.join(audio_dir, wav_name)
-            
+
             print(f"\n  [Cue {cue:02d}] {char.upper()}: \"{tr_text}\" (budget={a_sz}B, max_dur={max_dur:.2f}s)")
             tts.synthesize_line(tr_text, char, wav_path, max_duration=max_dur)
-            
+
             # Whisper check
             whisper_txt = pipe(wav_path, generate_kwargs={"language": "tr"})["text"].strip()
             print(f"    ✓ Whisper check: \"{whisper_txt}\"")
-            
+
             # Encode VAG and inject
             vag_bytes = encode_audio_file(wav_path, a_sz)
             wad_data[audio_base + a_off : audio_base + a_off + a_sz] = vag_bytes
-            
+
             # Configure SPSX entry to channel 2 (playback)
             struct.pack_into("<I", wad_data, spsx_base + e_off + 4, 0x00020800)
             print(f"    ✓ Injected {len(vag_bytes)} bytes at 0x{a_off:06X}")
-            
+
             # Mute French and German sub-slots (cue+1 and cue+2) if applicable
             for sub_c in [cue + 1, cue + 2]:
                 sub_e_off = base_off + sub_c * 16
@@ -229,21 +228,21 @@ def main():
                         mute_bytes = make_silence(sub_sz)
                         wad_data[audio_base + sub_a_off : audio_base + sub_a_off + sub_sz] = mute_bytes
                         struct.pack_into("<I", wad_data, spsx_base + sub_e_off + 4, 0x00020800)
-                        
+
         # 2. Write modified WAD
         with open(dst_wad, "wb") as f:
             f.write(wad_data)
         print(f"\n  ✓ Successfully wrote {len(wad_data)} bytes to {dst_wad}")
-        
+
         # 3. Patch WAD to ISO
         patch_wad_to_iso(TARGET_BIN, dst_wad, lvl["start_lba"])
-        
+
     # Remove DuckStation savestate so clean sectors are loaded
     resume_sav = os.path.expanduser("~/.local/share/duckstation/savestates/SLES-03972_resume.sav")
     if os.path.exists(resume_sav):
         os.remove(resume_sav)
         print("\n[+] Removed DuckStation resume savestate.")
-        
+
     print("\n" + "=" * 80)
     print("ALL BURROW SUITE LEVELS SUCCESSFULLY DUBBED AND PATCHED TO DISC!")
     print("=" * 80)

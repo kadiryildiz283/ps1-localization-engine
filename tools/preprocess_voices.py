@@ -6,10 +6,10 @@ reference profiles and caches conditioning latents for XTTS-v2 neural voice clon
 
 import os
 import subprocess
-import wave
+
+import librosa
 import numpy as np
 import soundfile as sf
-import librosa
 
 PROFILES_DIR = "audio/profiles"
 RAW_DIR = "audio/profiles_raw"

@@ -10,12 +10,14 @@ import os
 import subprocess
 import sys
 import wave
+
 import soundfile as sf
-import torch
 from transformers import pipeline
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from tools.voice_cloner import NeuralVoiceEngine, clean_text_for_tts
+
+
 def resample_exact(input_wav: str, output_wav: str, target_rate: int, max_duration: float = None):
     with wave.open(input_wav, 'rb') as wf:
         orig_dur = wf.getnframes() / wf.getframerate()
@@ -134,13 +136,13 @@ def synthesize_cue(engine: NeuralVoiceEngine, cue_info: dict, out_dir: str):
     text_tr = cue_info["tr"]
     sr = cue_info["sr"]
     max_dur = cue_info["max_dur"]
-    
+
     out_wav = os.path.join(out_dir, f"cue_{cue_num:02d}_{char}.wav")
     temp_raw = out_wav + ".raw.wav"
-    
+
     cleaned = clean_text_for_tts(text_tr)
     gpt_lat, spk_emb = engine.get_latents(char)
-    
+
     print(f"\n[Synthesizing Cue {cue_num:02d} ({char.upper()})] -> \"{cleaned}\"")
     out = engine.model.inference(
         text=cleaned,
@@ -153,24 +155,24 @@ def synthesize_cue(engine: NeuralVoiceEngine, cue_info: dict, out_dir: str):
         enable_text_splitting=False
     )
     sf.write(temp_raw, out["wav"], 24000)
-    
+
     # Custom resample to target sample rate & max budget
     resample_exact(temp_raw, out_wav, target_rate=sr, max_duration=max_dur)
     if os.path.exists(temp_raw):
         os.remove(temp_raw)
-        
+
     return out_wav
 
 def main():
     out_dir = "scratch/burrow_exact"
     os.makedirs(out_dir, exist_ok=True)
-    
+
     print("=" * 70)
     print("BURROW GARDEN (T1L2M001) HIGH-PRECISION DUBBING PIPELINE")
     print("=" * 70)
-    
+
     engine = NeuralVoiceEngine()
-    
+
     generated_files = {}
     for cue_info in BURROW_CUES:
         c = cue_info["cue"]
@@ -180,9 +182,9 @@ def main():
     print("\n" + "=" * 70)
     print("AUTOMATED PHONETIC ONSET & DURATION VERIFICATION (WHISPER)")
     print("=" * 70)
-    
+
     pipe = pipeline("automatic-speech-recognition", model="openai/whisper-base", device="cpu", generate_kwargs={"language": "tr", "task": "transcribe"})
-    
+
     results = []
     all_passed = True
     for cue_info in BURROW_CUES:
@@ -190,25 +192,25 @@ def main():
         wav_p = generated_files[c]
         expected_first = cue_info["expected_first_word"].lower()
         max_dur = cue_info["max_dur"]
-        
+
         with wave.open(wav_p, "rb") as wf:
             frames = wf.getnframes()
             rate = wf.getframerate()
             actual_dur = frames / rate
-            
+
         trans = pipe(wav_p)["text"].strip().lower()
         import string
         clean_trans = trans.translate(str.maketrans("", "", string.punctuation))
         words = clean_trans.split()
         first_word = words[0] if words else ""
-        
+
         onset_pass = (first_word == expected_first) or (expected_first in first_word)
         dur_pass = actual_dur <= max_dur + 0.05
-        
+
         status = "PASS" if (onset_pass and dur_pass) else "FAIL"
         if status == "FAIL":
             all_passed = False
-            
+
         res_entry = {
             "cue": c,
             "char": cue_info["char"],
@@ -223,13 +225,13 @@ def main():
             "status": status
         }
         results.append(res_entry)
-        
+
         print(f"Cue {c:02d} [{cue_info['char']:11s}]: Status={status} | Dur={actual_dur:.2f}s/{max_dur:.2f}s | 1stWord='{first_word}' (Exp: '{expected_first}') | Trans: \"{trans}\"")
 
     summary_file = os.path.join(out_dir, "verification_summary.json")
     with open(summary_file, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
-        
+
     print("\nSummary saved to:", summary_file)
     if all_passed:
         print("\n>>> ALL 11 CUES PASSED ONSET AND DURATION GATES! Ready for ADPCM injection.")

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Master Dialogue Compiler & Integrator for Harry Potter PS1 Turkish Localization.
 
 Applies literary Turkish translations from the 5 validated batches to all 74 level
@@ -13,6 +12,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from tools.wad_lpsx import WadLpsxHandler
 
+
 def main():
     print("=" * 60)
     print("HARRY POTTER PS1 - TURKISH LOCALIZATION INJECTION PIPELINE")
@@ -25,7 +25,7 @@ def main():
         if not os.path.exists(b):
             print(f"Error: Missing batch file {b}")
             sys.exit(1)
-        data = json.load(open(b, "r", encoding="utf-8"))
+        data = json.load(open(b, encoding="utf-8"))
         for item in data:
             master_dict[item["en"]] = item["tr"]
             # Also store stripped version
@@ -42,7 +42,7 @@ def main():
     missing_records = 0
 
     for fpath in dialogue_files:
-        data = json.load(open(fpath, "r", encoding="utf-8"))
+        data = json.load(open(fpath, encoding="utf-8"))
         changed = False
         for r in data:
             total_records += 1
@@ -67,14 +67,14 @@ def main():
     print(f"[OK] Updated all dialogue JSONs: {translated_records}/{total_records} records translated (missing: {missing_records}).")
 
     # 3. Recompile all 74 WAD files from pristine original ISO with dynamic repointing & sector preservation
-    print(f"\nRecompiling all 74 WAD files with dynamic pointer repointing and sector preservation...")
+    print("\nRecompiling all 74 WAD files with dynamic pointer repointing and sector preservation...")
     wad_count = 0
     extracted_dir = "extracted"
     os.makedirs(extracted_dir, exist_ok=True)
     orig_iso_path = "Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De).bin"
 
-    from tools.iso_fs import Ps1IsoReader
     from tools.dirdat import DirDatArchive
+    from tools.iso_fs import Ps1IsoReader
 
     with Ps1IsoReader(orig_iso_path) as iso:
         archive = DirDatArchive.from_iso(iso)
@@ -96,7 +96,7 @@ def main():
             if not handler.records:
                 continue
 
-            records = json.load(open(fpath, "r", encoding="utf-8"))
+            records = json.load(open(fpath, encoding="utf-8"))
             out_wad_path = os.path.join(extracted_dir, wad_name)
             handler.compile_wad_with_translations(records, out_wad_path, target_lang="tr")
             new_len = os.path.getsize(out_wad_path)

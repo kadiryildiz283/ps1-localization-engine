@@ -50,6 +50,9 @@ ve kendi süre bütçesinde alır. Bkz. `docs/ARGONAUT_STREAM_SPLIT_ARCHITECTURE
 ```
 engine.py                  # CLI: dump-ui / dump-dialogue / build-ui / build-iso ...
 tools/
+  argonaut_xsp.py          # XSPS/SPU saf matematik + stream sınıflandırma (assetsiz)
+  inject_dialogue.py       # Merkezî multi-cue / 0xA800 split-stream enjektör
+  speaker_map.py           # speaker_id ↔ voice_profile (Ginny kimlik ayrımı)
   iso_fs.py                # PS1 ISO9660 / Mode2 Form1 okuyucu
   dirdat.py                # POTTER.DAT arşiv formatı
   text_bin.py              # ENGLISH.BIN UI metin bloğu
@@ -61,7 +64,7 @@ tools/
   voice_cloner.py          # XTTS-v2 sinir ağı ses motoru
   ingame_dubber.py         # Toplu sentez + SPU enjeksiyon
   deterministic_audio_injector.py
-  inject_burrow_*.py       # Kovuk Bahçesi hedefli enjektörler
+  inject_burrow_*.py       # Kovuk Bahçesi hedefli enjektörler (referans/fixtures)
 docs/
   ARGONAUT_STREAM_SPLIT_ARCHITECTURE.md
 tests/
@@ -85,6 +88,9 @@ pytest tests/ -m "not slow and not requires_assets"
 
 # Disk imajı gerektiren doğrulama testleri (yerel)
 pytest tests/ -m requires_assets
+
+# Multi-cue / split-stream plan (assetsiz sınıf + fixture)
+python tools/inject_dialogue.py --plan --wad extracted/T1L2M001.WAD --regression-burrow
 
 # CLI
 python engine.py --help

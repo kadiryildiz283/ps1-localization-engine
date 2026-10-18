@@ -4,11 +4,10 @@ Recalculates sync, BCD headers, subheaders, and standard CD-ROM XA EDC (CRC-32)
 to write valid 2352-byte sectors into PS1 .bin images.
 """
 
-import os
 import shutil
 import struct
-from typing import Optional
-from tools.iso_fs import SECTOR_SIZE, USER_DATA_OFFSET, USER_DATA_SIZE, Ps1IsoReader
+
+from tools.iso_fs import SECTOR_SIZE, USER_DATA_SIZE, Ps1IsoReader
 
 SYNC_PATTERN = b"\x00\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\x00"
 
@@ -93,7 +92,7 @@ def encode_mode2_form1_sector(lba: int, user_payload: bytes, file_channel: int =
     return sync + header + sub + user_payload + edc + ecc
 
 
-def patch_file_in_bin(bin_path: str, file_name: str, new_file_content: bytes, output_bin_path: Optional[str] = None):
+def patch_file_in_bin(bin_path: str, file_name: str, new_file_content: bytes, output_bin_path: str | None = None):
     """Replace an existing file on the PS1 .bin image with new content.
     
     Recalculates all sector headers, subheaders, and EDC checksums.

@@ -18,6 +18,7 @@ import shutil
 import struct
 import sys
 import wave
+
 import numpy as np
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -106,24 +107,24 @@ def encode_audio_file(wav_path: str, max_size_bytes: int) -> bytes:
         frames = wf.readframes(wf.getnframes())
         pcm = np.frombuffer(frames, dtype=np.int16)
         sr = wf.getframerate()
-        
+
     assert sr == 22050, f"{wav_path} sample rate is not 22050: {sr}"
     max_samples = (max_size_bytes // 16) * 28
     if len(pcm) > max_samples:
         pcm = pcm[:max_samples]
-        
+
     vag = encode_pcm_to_vag(pcm, loop=False)
     pad = max_size_bytes - len(vag)
     assert pad >= 0, f"Encoded VAG exceeds max size: {len(vag)} > {max_size_bytes}"
     num_pad_blocks = pad // 16
-    
+
     if num_pad_blocks > 0:
         vag = vag + (SILENCE_MID * (num_pad_blocks - 1)) + SILENCE_END
     else:
         vag = bytearray(vag[:max_size_bytes])
         vag[-15] = 0x01
         vag = bytes(vag)
-        
+
     assert len(vag) == max_size_bytes
     return vag
 
@@ -131,24 +132,24 @@ def main():
     print("=" * 80)
     print("MASTER EXACT SPLIT-ENGINE TURKISH INJECTOR FOR THE BURROW (T1L2M001.WAD)")
     print("=" * 80)
-    
+
     if not os.path.exists(SRC_WAD):
         raise FileNotFoundError(f"Source WAD not found: {SRC_WAD}")
-        
+
     print(f"Step 1: Cloning clean base {SRC_WAD} -> {DST_WAD}...")
     shutil.copy2(SRC_WAD, DST_WAD)
-    
+
     with open(DST_WAD, "rb") as f:
         wad_data = bytearray(f.read())
-        
+
     dne_pos = wad_data.find(b" DNE")
     audio_base = (dne_pos + 2047) // 2048 * 2048
     spsx_pos = wad_data.find(b"XSPS")
     spsx_base = spsx_pos + 8
-    
+
     print(f"  audio_base: 0x{audio_base:X} ({audio_base})")
     print(f"  spsx_base:  0x{spsx_base:X} ({spsx_base})")
-    
+
     # Store Category A reference chunks
     base_e_off = 1016
     cat_a_refs = {}
@@ -156,7 +157,7 @@ def main():
         e_off = base_e_off + c * 16
         a_off, _p2, _p3, a_sz = struct.unpack("<IIII", wad_data[spsx_base + e_off : spsx_base + e_off + 16])
         cat_a_refs[c] = bytes(wad_data[audio_base + a_off : audio_base + a_off + a_sz])
-        
+
     # Step 2: Inject all 11 Split Cues (Turkish line starting at a_off + 0xA800)
     print("\nStep 2: Injecting 11 Split Cues (0xA800 architecture):")
     for item in SPLIT_CUES:
@@ -167,33 +168,33 @@ def main():
         a_off = item["a_off"]
         e_off = item["e_off"]
         max_span = item["max_span"]
-        
+
         # 1. First 0xA800 bytes: silence ending with terminal block at block 2687 (0xA7F0)
         prefix_silence = make_silence(0xA800, end_with_flag1=True)
         assert len(prefix_silence) == 0xA800
         assert prefix_silence[0xA7F1] == 0x01, f"Cue {c} prefix mute flag missing!"
-        
+
         # 2. Turkish dialogue audio starting at 0xA800, exactly sz bytes
         turkish_vag = encode_audio_file(wav_p, sz)
         assert turkish_vag[-15] == 0x01, f"Cue {c} turkish audio terminal flag missing!"
-        
+
         # 3. Write prefix silence and Turkish dialogue
         abs_start = audio_base + a_off
         wad_data[abs_start : abs_start + 0xA800] = prefix_silence
         wad_data[abs_start + 0xA800 : abs_start + 0xA800 + sz] = turkish_vag
-        
+
         # 4. Fill any remaining space up to max_span with silence
         remain_start = abs_start + 0xA800 + sz
         span_end = abs_start + max_span
         if span_end > remain_start:
             wad_data[remain_start : span_end] = make_silence(span_end - remain_start, end_with_flag1=False)
-            
+
         # 5. Set SPSX descriptor
         p2 = (2 << 16) | 0x0800  # voice channel 2, 22,050 Hz
         abs_table = spsx_base + e_off
         wad_data[abs_table + 4 : abs_table + 8] = struct.pack("<I", p2)
         wad_data[abs_table + 12 : abs_table + 16] = struct.pack("<I", sz)
-        
+
         print(f"  [Cue {c:02d}] SPLIT: Prefix silence (0x0000..0xA800) | TR Audio at 0x{a_off+0xA800:06X} ({sz:6d}B) | SPU p2=0x{p2:08X} | {char.upper()}")
 
     # Step 3: Inject all 6 Unsplit Cues (Turkish line starting at a_off + 0x0000)
@@ -206,25 +207,25 @@ def main():
         a_off = item["a_off"]
         e_off = item["e_off"]
         max_span = item["max_span"]
-        
+
         turkish_vag = encode_audio_file(wav_p, sz)
         assert turkish_vag[-15] == 0x01, f"Cue {c} turkish audio terminal flag missing!"
-        
+
         abs_start = audio_base + a_off
         wad_data[abs_start : abs_start + sz] = turkish_vag
-        
+
         # Fill remainder of slot up to max_span with silence
         remain_start = abs_start + sz
         span_end = abs_start + max_span
         if span_end > remain_start:
             wad_data[remain_start : span_end] = make_silence(span_end - remain_start, end_with_flag1=False)
-            
+
         # Set SPSX descriptor
         p2 = (2 << 16) | 0x0800  # voice channel 2, 22,050 Hz
         abs_table = spsx_base + e_off
         wad_data[abs_table + 4 : abs_table + 8] = struct.pack("<I", p2)
         wad_data[abs_table + 12 : abs_table + 16] = struct.pack("<I", sz)
-        
+
         print(f"  [Cue {c:02d}] UNSPLIT: TR Audio at 0x{a_off:06X} ({sz:6d}B) | SPU p2=0x{p2:08X} | {char.upper()}")
 
     # Step 4: Configure all 34 foreign language slots
@@ -236,7 +237,7 @@ def main():
         abs_table = spsx_base + e_off
         wad_data[abs_table + 4 : abs_table + 8] = struct.pack("<I", p2)
     print("  Configured all 34 foreign cue descriptors to channel 2 / muted.")
-    
+
     # Step 5: Verify Category A preservation 100% bit-exact
     print("\nStep 5: Verifying Category A Sound Effects & BGM Preservation:")
     for c in CATEGORY_A_PRESERVATION_CUES:
@@ -245,7 +246,7 @@ def main():
         current_data = bytes(wad_data[audio_base + a_off : audio_base + a_off + a_sz])
         assert current_data == cat_a_refs[c], f"Category A corruption detected in Cue {c}!"
         print(f"  [Cue {c:02d}] Preserved 100% bit-exact ({a_sz} bytes)")
-        
+
     # Step 6: Write output WAD
     with open(DST_WAD, "wb") as f:
         f.write(wad_data)

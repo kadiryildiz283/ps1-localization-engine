@@ -2,7 +2,7 @@
 
 import os
 import wave
-import struct
+
 
 def concatenate_wavs(input_paths, output_path, pause_ms=300):
     os.makedirs(os.path.dirname(os.path.abspath(output_path)), exist_ok=True)
@@ -38,7 +38,7 @@ def concatenate_wavs(input_paths, output_path, pause_ms=300):
 
 def main():
     base = "audio/reference_en"
-    
+
     # Non-custom character profiles extracted from pristine 2002 PS1 English voice audio
 
     # 1. Severus Snape / Lucius Malfoy

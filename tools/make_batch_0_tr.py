@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Generate batch_0_tr.json conforming to Sevin Okyay and Kutlukhan Kutlu translations."""
 
 import json
@@ -188,7 +187,7 @@ CUSTOM_TR = {
 }
 
 def main():
-    with open(BATCH_0_PATH, "r", encoding="utf-8") as f:
+    with open(BATCH_0_PATH, encoding="utf-8") as f:
         data = json.load(f)
 
     tag_regex = re.compile(r"^((?:#[0-9A-Fa-f]+#)?(?:\$[0-9]{3}))")

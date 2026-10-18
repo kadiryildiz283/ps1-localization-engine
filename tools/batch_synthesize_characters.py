@@ -9,7 +9,6 @@ Launches 4 parallel workers targeting specific character rosters:
 
 import os
 import subprocess
-import sys
 import time
 
 PYTHON_BIN = ".venv-clone/bin/python"

@@ -12,7 +12,6 @@ import os
 import re
 import struct
 import sys
-from typing import Dict, List, Optional, Tuple
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -108,12 +107,12 @@ def build_manifest():
     dialogue_files = sorted(glob.glob(os.path.join(TRANSLATIONS_DIR, "dialogue_*.json")))
     all_cues = []
     unique_lines = {}
-    gt = json.load(open(BASES_PATH, "r", encoding="utf-8")) if os.path.exists(BASES_PATH) else {}
+    gt = json.load(open(BASES_PATH, encoding="utf-8")) if os.path.exists(BASES_PATH) else {}
 
     master_map = {}
     master_path = "audio/complete_classified_manifest.json"
     if os.path.exists(master_path):
-        with open(master_path, "r", encoding="utf-8") as mf:
+        with open(master_path, encoding="utf-8") as mf:
             m_list = json.load(mf)
             for m in m_list:
                 clean_key = m["en"].strip().replace("`", "'").replace("·", "'").replace("µ", "...").replace("¸", "'")
@@ -131,7 +130,7 @@ def build_manifest():
         if not os.path.exists(wad_path):
             continue
 
-        data = json.load(open(fpath, "r", encoding="utf-8"))
+        data = json.load(open(fpath, encoding="utf-8"))
         cues = []
         for r in data:
             en = r.get("en", "")
@@ -177,7 +176,7 @@ def build_manifest():
             c8_char = "dumbledore"
             c8_tr = "Merhaba Harry! Ben Arthur Weasley."
             c8_en = "Hello Harry, I'm Arthur Weasley."
-            c8_hash = hashlib.md5(f"{c8_char}:{c8_tr}".encode("utf-8")).hexdigest()[:12]
+            c8_hash = hashlib.md5(f"{c8_char}:{c8_tr}".encode()).hexdigest()[:12]
             c8_entry = {
                 "wad": wad_name,
                 "stem": stem,
@@ -218,7 +217,7 @@ def build_manifest():
 
             clean_lookup = clean_en.replace("`", "'").replace("·", "'").replace("µ", "...").replace("¸", "'")
             char_profile = master_map.get(clean_lookup) or attribute_speaker(clean_en, stem, c)
-            line_hash = hashlib.md5(f"{char_profile}:{clean_tr}".encode("utf-8")).hexdigest()[:12]
+            line_hash = hashlib.md5(f"{char_profile}:{clean_tr}".encode()).hexdigest()[:12]
 
             cue_entry = {
                 "wad": wad_name,
@@ -265,7 +264,7 @@ def build_manifest():
 
     print(f"\n[OK] Parsed {len(all_cues)} in-game dialogue cues across 70 level WADs.")
     print(f"[OK] Identified {len(unique_list)} unique spoken lines requiring voice synthesis.")
-    print(f"[OK] Master manifests saved to:")
+    print("[OK] Master manifests saved to:")
     print(f"     -> {MANIFEST_PATH} ({len(all_cues)} entries)")
     print(f"     -> {UNIQUE_LINES_PATH} ({len(unique_list)} entries)")
 

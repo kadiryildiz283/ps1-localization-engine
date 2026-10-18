@@ -7,7 +7,6 @@ and strict conformance to PS1 SPU sector budgets.
 import os
 import sys
 import wave
-import numpy as np
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from tools.voice_cloner import NeuralVoiceEngine
@@ -41,25 +40,25 @@ LINES_TO_SYNTHESIZE = [
 
 def main():
     engine = NeuralVoiceEngine()
-    
+
     for item in LINES_TO_SYNTHESIZE:
         c = item["cue"]
         ch = item["char"]
         txt = item["text"]
         max_d = item["max_dur"]
         target_sr = item["sr"]
-        
+
         out_wav = os.path.join(OUTPUT_DIR, f"cue_{c:02d}_{ch}.wav")
         print(f"\nSynthesizing Cue {c} ({ch}) [Budget: {max_d}s]: '{txt}'...")
-        
+
         raw_path = engine.synthesize_speech(txt, ch, out_wav)
-        
+
         # Check audio
         with wave.open(out_wav, "rb") as wf:
             n = wf.getnframes()
             sr = wf.getframerate()
             dur = n / float(sr)
-            
+
         print(f"  Generated: {dur:.2f}s (Budget: {max_d}s)")
 
 if __name__ == "__main__":

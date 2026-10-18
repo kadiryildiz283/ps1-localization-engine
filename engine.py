@@ -11,11 +11,10 @@ import os
 import struct
 import sys
 
-from tools.iso_fs import Ps1IsoReader
 from tools.dirdat import DirDatArchive
+from tools.iso_fs import Ps1IsoReader
 from tools.text_bin import export_bin_to_json, import_json_to_bin
 from tools.wad_lpsx import WadLpsxHandler
-from tools.cd_patcher import patch_file_in_bin
 
 DEFAULT_BIN = "Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De).bin"
 EXTRACTED_DIR = "extracted"
@@ -104,7 +103,7 @@ def cmd_build_ui(args):
     import shutil
     for lang in ["FRENCH.BIN", "GERMAN.BIN"]:
         shutil.copy2(out_bin, os.path.join(EXTRACTED_DIR, lang))
-    print(f"[OK] Rebuilt UI language files (ENGLISH.BIN, FRENCH.BIN, GERMAN.BIN)")
+    print("[OK] Rebuilt UI language files (ENGLISH.BIN, FRENCH.BIN, GERMAN.BIN)")
 
 
 def cmd_build_dialogue(args):
@@ -125,7 +124,7 @@ def cmd_build_dialogue(args):
     with open(raw_wad_path, "rb") as f:
         handler = WadLpsxHandler(f.read())
 
-    with open(json_path, "r", encoding="utf-8") as f:
+    with open(json_path, encoding="utf-8") as f:
         records = json.load(f)
 
     out_wad = os.path.join(EXTRACTED_DIR, wad_name)
@@ -143,8 +142,8 @@ def cmd_patch_disc(args):
     shutil.copy2(source_bin, output_bin)
 
     print(f"Patching modified files into {output_bin}...")
-    from tools.cd_patcher import encode_mode2_form1_sector, compute_edc
-    from tools.iso_fs import USER_DATA_SIZE, SECTOR_SIZE
+    from tools.cd_patcher import encode_mode2_form1_sector
+    from tools.iso_fs import SECTOR_SIZE, USER_DATA_SIZE
 
     with Ps1IsoReader(source_bin) as iso:
         potter_dat_entry = iso.files.get("POTTER.DAT")
@@ -226,7 +225,7 @@ def cmd_patch_disc(args):
         cue_f.write("  TRACK 01 MODE2/2352\n")
         cue_f.write("    INDEX 01 00:00:00\n")
 
-    print(f"\n[SUCCESS] Disc patched successfully!")
+    print("\n[SUCCESS] Disc patched successfully!")
     print(f"  BIN: {output_bin}")
     print(f"  CUE: {output_cue}")
     print("Ready to play in DuckStation, PCSX-Redux, or burn to CD!")
@@ -236,7 +235,7 @@ def cmd_status(args):
     print("=== Harry Potter PS1 Turkish Localization Status ===")
     ui_json = os.path.join(TRANSLATIONS_DIR, "ui_english.json")
     if os.path.exists(ui_json):
-        with open(ui_json, "r", encoding="utf-8") as f:
+        with open(ui_json, encoding="utf-8") as f:
             ui_data = json.load(f)
         ui_tr = sum(1 for e in ui_data if e.get("translation") or e.get("tr"))
         print(f"UI / Menus: {ui_tr} / {len(ui_data)} translated ({ui_tr / len(ui_data) * 100:.1f}%)")
@@ -248,7 +247,7 @@ def cmd_status(args):
         total_d = 0
         total_tr = 0
         for df in dialogue_files:
-            with open(df, "r", encoding="utf-8") as f:
+            with open(df, encoding="utf-8") as f:
                 d_data = json.load(f)
             total_d += len(d_data)
             total_tr += sum(1 for e in d_data if e.get("tr"))

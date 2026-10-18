@@ -9,7 +9,6 @@
 
 import asyncio
 import json
-import math
 import os
 import struct
 import subprocess
@@ -153,7 +152,7 @@ def process_audio_and_inject(manifest):
 
 
 def main():
-    manifest = json.load(open(MANIFEST_PATH, 'r', encoding='utf-8'))
+    manifest = json.load(open(MANIFEST_PATH, encoding='utf-8'))
     print(f'Injecting {len(manifest)} verified Turkish voice lines into {WAD_PATH}...')
     process_audio_and_inject(manifest)
 

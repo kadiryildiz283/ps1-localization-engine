@@ -11,6 +11,7 @@ Injects custom 1bpp monochrome bitmaps for Turkish characters:
 
 import struct
 
+
 def generate_turkish_finu(orig_finu_bytes: bytes) -> bytes:
     finu = bytearray(orig_finu_bytes)
     assert len(finu) == 10240, f'Expected 10240 bytes, got {len(finu)}'
@@ -29,7 +30,7 @@ def generate_turkish_finu(orig_finu_bytes: bytes) -> bytes:
         old_w, old_u, off = struct.unpack('<HHI', finu[entry_pos:entry_pos+8])
         stride = (width + 7) // 8
         struct.pack_into('<HHI', finu, entry_pos, width, unicode_code, off)
-        
+
         base = 1736 + off
         for r in range(16):
             row_bytes = bytes(rows[r])

@@ -9,7 +9,6 @@ Runs 4 parallel neural voice synthesis workers across CPU threads:
 
 import os
 import subprocess
-import sys
 import time
 
 PYTHON_BIN = '.venv-clone/bin/python'
