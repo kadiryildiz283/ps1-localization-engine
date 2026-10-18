@@ -12,6 +12,7 @@ from tools.argonaut_xsp import (
     duration_budget,
     find_audio_base,
     find_xsps,
+    find_xsps_table_base,
     make_silence,
     max_samples_for_size,
     pack_p2,
@@ -103,18 +104,40 @@ def _make_entry(a_off, p2, p3, a_sz):
 
 def test_parse_xsps_table_basic():
     payload = _make_entry(0x1000, pack_p2(), 0, 51200) + _make_entry(0x2000, pack_p2(), 0, 32768)
-    entries = parse_xsps_table(payload)
+    entries = parse_xsps_table(payload, table_base=0)
     assert len(entries) == 2
     assert entries[0].audio_offset == 0x1000
     assert entries[0].size_bytes == 51200
     assert entries[0].sample_rate == 22050
     assert entries[0].hw == 2
+    assert entries[0].table_entry_offset == 0
+    assert entries[1].table_entry_offset == 16
 
 
 def test_parse_xsps_stops_at_sentinel():
     payload = _make_entry(0x1000, pack_p2(), 0, 64) + _make_entry(0xFFFFFFFF, 0, 0, 0)
-    entries = parse_xsps_table(payload)
+    entries = parse_xsps_table(payload, table_base=0)
     assert len(entries) == 1
+
+
+def test_find_table_base_burrow_header_layout():
+    header = bytearray(0x3F8)
+    struct.pack_into("<I", header, 0x3F0, 2)
+    struct.pack_into("<I", header, 0x3F4, SPLIT_OFFSET)
+    payload = (
+        bytes(header)
+        + _make_entry(0x1000, pack_p2(), 0, 64)
+        + _make_entry(0x2000, pack_p2(), 0, 64)
+    )
+    assert find_xsps_table_base(payload) == 0x3F8
+    entries = parse_xsps_table(payload)
+    assert len(entries) == 2
+    assert entries[0].table_entry_offset == 0x3F8
+
+
+def test_find_table_base_scan_without_header():
+    payload = b"".join(_make_entry(0x1000 * (i + 1), pack_p2(), 0, 64) for i in range(8))
+    assert find_xsps_table_base(payload) == 0
 
 
 def test_find_audio_base_rounds_to_sector():
@@ -145,14 +168,16 @@ def _entry(cue, size, sr_raw=0x0800, hw=2):
     )
 
 
-def test_classify_split_when_slot_holds_prefix_plus_payload():
-    e = _entry(2, 51200)  # > 0xA800 + 16
-    assert classify_stream(e, is_category_a=False) is StreamKind.SPLIT
+def test_classify_requires_evidence_for_split():
+    e = _entry(2, 51200)
+    # Without explicit/energy evidence the conservative default is UNSPLIT.
+    assert classify_stream(e, is_category_a=False) is StreamKind.UNSPLIT
+    assert classify_stream(e, is_category_a=False, looks_split=True) is StreamKind.SPLIT
+    assert classify_stream(e, is_category_a=False, explicit=StreamKind.SPLIT) is StreamKind.SPLIT
 
 
 def test_classify_unsplit_when_too_small_for_prefix():
-    e = _entry(5, 32768)  # < 0xA800 + 16? 32768 < 43024 yes
-    # Wait: 32768 < SPLIT_OFFSET(43008)+16, so UNSPLIT — but Burrow cue 5 is UNSPLIT.
+    e = _entry(5, 32768)
     assert classify_stream(e, is_category_a=False) is StreamKind.UNSPLIT
 
 
@@ -177,9 +202,10 @@ def test_write_point_offsets():
 
 def test_build_split_payload_layout():
     vag = b"\x00\x00" + b"\x00" * 14  # one block
-    size = SPLIT_OFFSET + 32
-    payload = build_slot_payload(vag, size, StreamKind.SPLIT)
-    assert len(payload) == size
+    tr_budget = 32  # a_sz is the Turkish budget
+    payload = build_slot_payload(vag, tr_budget, StreamKind.SPLIT)
+    # prefix silence + Turkish budget
+    assert len(payload) == SPLIT_OFFSET + tr_budget
     # German-region silence ends with 0x01 at block 2687
     assert payload[SPLIT_OFFSET - 15] == 0x01
     # Turkish starts at split point
@@ -199,9 +225,9 @@ def test_build_foreign_payload_is_silence():
     assert payload[-15] == 0x01
 
 
-def test_build_split_rejects_small_slot():
+def test_build_split_rejects_empty_budget():
     with pytest.raises(ValueError):
-        build_slot_payload(b"\x00" * 16, SPLIT_OFFSET, StreamKind.SPLIT)
+        build_slot_payload(b"\x00" * 16, 0, StreamKind.SPLIT)
 
 
 def test_build_category_a_rejected():

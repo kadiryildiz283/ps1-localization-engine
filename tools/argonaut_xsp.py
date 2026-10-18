@@ -124,18 +124,95 @@ def pad_vag_to_size(vag: bytes, size_bytes: int) -> bytes:
     return vag
 
 
-def parse_xsps_table(spsx_payload: bytes, *, max_cues: int = 2000) -> list[XspsEntry]:
+def find_xsps_table_base(spsx_payload: bytes) -> int:
+    """Locate the start of the (a_off, p2, p3, a_sz) descriptor array.
+
+    The descriptor array is NOT at offset 0. Argonaut places a variable
+    header before it. For T1L2M001 the table starts at 0x3F8 and the two
+    u32s immediately before it are (cue_count, split_offset=0xA800);
+    other WADs have different header sizes (see audio/ground_truth_bases.json).
+
+    Heuristic: pick the earliest 8-aligned offset where a run of at least
+    4 descriptors looks plausible (audio offset/size in range, known
+    sample-rate registers).
+    """
+    # Prefer documented header pattern when present: [count][0xA800] then table.
+    if len(spsx_payload) > 0x3F8:
+        count = struct.unpack_from("<I", spsx_payload, 0x3F0)[0]
+        split = struct.unpack_from("<I", spsx_payload, 0x3F4)[0]
+        if split == SPLIT_OFFSET and 1 <= count <= 2000:
+            if _plausible_run(spsx_payload, 0x3F8, min(count, 8)):
+                return 0x3F8
+
+    known_sr = {0x0800, 0x05CE, 0x1000, 0x0400, 0x0B00, 0x0200, 0x0000}
+    limit = min(len(spsx_payload) - 64, 8192)
+    best = -1
+    for base in range(0, limit, 8):
+        if _plausible_run(spsx_payload, base, 6, known_sr=known_sr):
+            return base
+    raise ValueError("XSPS descriptor table base not found")
+
+
+def _plausible_run(
+    payload: bytes,
+    base: int,
+    needed: int,
+    *,
+    known_sr: set | None = None,
+) -> bool:
+    if known_sr is None:
+        known_sr = {0x0800, 0x05CE, 0x1000, 0x0400, 0x0B00, 0x0200, 0x0000}
+    good = 0
+    for i in range(needed):
+        e = base + i * 16
+        if e + 16 > len(payload):
+            return False
+        a_off, p2, _p3, a_sz = struct.unpack_from("<IIII", payload, e)
+        if a_off == 0xFFFFFFFF or a_sz < 32 or a_sz > 4_000_000:
+            return False
+        if a_off > 0x00F0_0000:
+            return False
+        hw = (p2 >> 16) & 0xFFFF
+        sr = p2 & 0xFFFF
+        if hw > 3:
+            return False
+        if sr not in known_sr:
+            return False
+        good += 1
+    return good == needed
+
+
+def parse_xsps_table(
+    spsx_payload: bytes,
+    *,
+    table_base: int | None = None,
+    max_cues: int = 2000,
+) -> list[XspsEntry]:
     """Parse XSPS payload (after 8-byte header) into descriptors.
 
+    `table_base` is the byte offset of the first descriptor inside the
+    payload. When omitted it is auto-detected (see find_xsps_table_base).
     Stops at sentinel 0xFFFFFFFF audio offsets or undersized slots.
     """
+    if table_base is None:
+        table_base = find_xsps_table_base(spsx_payload)
+
+    # Header count when the classic layout is present: [count][split] at 0x3F0.
+    header_count = None
+    if table_base == 0x3F8 and len(spsx_payload) >= 0x3F8:
+        maybe = struct.unpack_from("<I", spsx_payload, 0x3F0)[0]
+        if 1 <= maybe <= 2000:
+            header_count = maybe
+
     entries: list[XspsEntry] = []
     for cue in range(max_cues):
-        e_off = cue * 16
+        if header_count is not None and cue >= header_count:
+            break
+        e_off = table_base + cue * 16
         if e_off + 16 > len(spsx_payload):
             break
         a_off, p2, p3, a_sz = struct.unpack_from("<IIII", spsx_payload, e_off)
-        if a_off == 0xFFFFFFFF or a_sz < 32:
+        if a_off == 0xFFFFFFFF or a_sz < 32 or a_sz > 4_000_000:
             break
         entries.append(
             XspsEntry(
@@ -187,9 +264,10 @@ def classify_stream(
       3. Foreign language leftovers — mute
       4. Size heuristic fallback (SPLIT only if slot holds 0xA800 + one block)
 
-    The size heuristic alone is NOT sufficient: Burrow cue 39 is 57344 B
-    (would fit a split prefix) but is an UNSPLIT short line. Real detection
-    must look at original ADPCM energy around the 0xA800 boundary.
+    Size alone cannot decide: Burrow cue 39 (57344 B) is UNSPLIT while cue 45
+    (45056 B) is SPLIT. Callers must pass `explicit` or `looks_split` from
+    energy detection / a verified fixture. Without evidence this falls back
+    to UNSPLIT (writes at +0x0000).
     """
     if is_category_a:
         return StreamKind.CATEGORY_A
@@ -201,8 +279,7 @@ def classify_stream(
         return StreamKind.UNSPLIT
     if is_foreign:
         return StreamKind.FOREIGN
-    if entry.size_bytes >= SPLIT_OFFSET + ADPCM_BLOCK_BYTES:
-        return StreamKind.SPLIT
+    # No evidence → UNSPLIT is the conservative write point.
     return StreamKind.UNSPLIT
 
 
@@ -216,7 +293,14 @@ def build_slot_payload(
     size_bytes: int,
     kind: StreamKind,
 ) -> bytes:
-    """Build the exact bytes to place at audio_base + a_off for this slot."""
+    """Build the exact bytes to place at audio_base + a_off for this slot.
+
+    For SPLIT streams `size_bytes` is the **Turkish payload budget** (the
+    XSPS a_sz). The German prefix (0xA800 silence ending in 0x01) is written
+    *before* it, so the returned buffer is `0xA800 + size_bytes` long and the
+    caller must allow that span to extend into neighbouring foreign slots
+    (mute those first — see inject_wad ordering).
+    """
     if size_bytes % ADPCM_BLOCK_BYTES != 0:
         raise ValueError(f"size_bytes must be 16-aligned, got {size_bytes}")
 
@@ -227,14 +311,13 @@ def build_slot_payload(
         raise ValueError("Category A slots must not be rebuilt; preserve original bytes")
 
     if kind is StreamKind.SPLIT:
-        if size_bytes < SPLIT_OFFSET + ADPCM_BLOCK_BYTES:
-            raise ValueError(f"split slot too small: {size_bytes}")
-        tr_region = size_bytes - SPLIT_OFFSET
-        tr = pad_vag_to_size(vag_audio, tr_region)
+        if size_bytes < ADPCM_BLOCK_BYTES:
+            raise ValueError(f"split turkish budget too small: {size_bytes}")
+        tr = pad_vag_to_size(vag_audio, size_bytes)
         prefix = make_silence(SPLIT_OFFSET, end_with_flag1=True)
         assert prefix[SPLIT_OFFSET - 15] == 0x01  # block 2687 flag
         payload = prefix + tr
-        assert len(payload) == size_bytes
+        assert len(payload) == SPLIT_OFFSET + size_bytes
         return payload
 
     # UNSPLIT

@@ -95,8 +95,8 @@ LINE_SPEAKER_OVERRIDES: dict[tuple, str] = {
 
 # Stem-level dialogue-id overrides (in-game WADs).
 DIALOGUE_SPEAKER_OVERRIDES: dict[tuple, str] = {
-    # T1L2M007 garden de-gnoming & Ginny — dialogue talking TO Ginny stays,
-    # Ginny's own lines become ginny (see classify_dialogues_exact stem rules).
+    # T1L2M001 Kovuk Bahçesi — Molly'nin Howler tiradı
+    ("T1L2M001", 77): "mrs_weasley",
 }
 
 

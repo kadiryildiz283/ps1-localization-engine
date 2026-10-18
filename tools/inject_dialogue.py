@@ -61,7 +61,9 @@ class CuePlan:
 
     @property
     def tr_budget_bytes(self) -> int:
-        return self.entry.size_bytes - self.write_offset
+        # SPLIT: a_sz is the Turkish budget at +0xA800 (German prefix is extra).
+        # UNSPLIT: a_sz is the whole slot at +0x0000.
+        return self.entry.size_bytes
 
     @property
     def tr_budget_sec(self) -> float:
@@ -211,12 +213,13 @@ def inject_wad(
     *,
     dry_run: bool = False,
     cat_a_cues: Sequence[int] = (),
+    table_base: int | None = None,
 ) -> tuple[bytes, dict]:
     """Apply plan to a WAD image. Returns (new_wad, report)."""
     wad = bytearray(wad_bytes)
     audio_base = find_audio_base(wad)
     spsx_off, spsx_payload = find_xsps(wad)
-    entries = parse_xsps_table(spsx_payload)
+    entries = parse_xsps_table(spsx_payload, table_base=table_base)
     by_cue = {e.cue: e for e in entries}
 
     baseline = snapshot_category_a(wad, audio_base, entries, cat_a_cues)
@@ -231,33 +234,43 @@ def inject_wad(
         "foreign_count": 0,
     }
 
+    # Pass 1: mute foreign language leftovers FIRST. SPLIT Turkish payloads
+    # are written at a_off+0xA800 and may extend into neighbouring foreign
+    # slots; those regions must already be silence-owned by us.
+    for item in plan:
+        if item.kind is not StreamKind.FOREIGN:
+            continue
+        e = by_cue.get(item.entry.cue, item.entry)
+        payload = make_silence(e.size_bytes, end_with_flag1=True)
+        wad[audio_base + e.audio_offset : audio_base + e.audio_offset + e.size_bytes] = payload
+        wad[spsx_off + e.table_entry_offset + 4 : spsx_off + e.table_entry_offset + 8] = (
+            table_entry_bytes(e, hw=VOICE_HW, sr_raw=0x05CE)[4:8]
+        )
+        report["muted"].append(e.cue)
+        report["foreign_count"] += 1
+
+    # Pass 2: inject split / unsplit dialogue
     for item in plan:
         e = by_cue.get(item.entry.cue, item.entry)
 
-        if item.kind is StreamKind.CATEGORY_A:
+        if item.kind is StreamKind.CATEGORY_A or item.kind is StreamKind.FOREIGN:
             continue
 
-        if item.kind is StreamKind.FOREIGN:
-            payload = make_silence(e.size_bytes, end_with_flag1=True)
-            wad[audio_base + e.audio_offset : audio_base + e.audio_offset + e.size_bytes] = payload
-            # Mute descriptor: voice channel, 16 kHz register (unused in TU)
-            wad[spsx_off + e.table_entry_offset + 4 : spsx_off + e.table_entry_offset + 8] = (
-                table_entry_bytes(e, hw=VOICE_HW, sr_raw=0x05CE)[4:8]
-            )
-            report["muted"].append(e.cue)
-            report["foreign_count"] += 1
-            continue
-
-        # SPLIT / UNSPLIT dialogue
         if not item.wav_path or not os.path.exists(item.wav_path):
             report["skipped_missing_wav"].append(e.cue)
             continue
 
-        tr_bytes = e.size_bytes - write_point_offset(item.kind)
-        max_samples = (tr_bytes // 16) * 28
+        # a_sz is the Turkish budget (SPLIT writes it at +0xA800 with prefix).
+        max_samples = (e.size_bytes // 16) * 28
         vag = encode_wav_to_vag_bytes(item.wav_path, max_samples, e.sample_rate)
         payload = build_slot_payload(vag, e.size_bytes, item.kind)
-        wad[audio_base + e.audio_offset : audio_base + e.audio_offset + e.size_bytes] = payload
+        start = audio_base + e.audio_offset
+        wad[start : start + len(payload)] = payload
+
+        # Descriptor: force voice channel + correct SR, keep size
+        wad[spsx_off + e.table_entry_offset : spsx_off + e.table_entry_offset + 16] = (
+            table_entry_bytes(e, hw=VOICE_HW, sr_raw=0x0800 if e.sample_rate >= 22050 else 0x05CE)
+        )
 
         # Descriptor: force voice channel + correct SR, keep size
         wad[spsx_off + e.table_entry_offset : spsx_off + e.table_entry_offset + 16] = (
@@ -360,6 +373,17 @@ def plan_matches_burrow(plan: Sequence[CuePlan]) -> list[str]:
     return problems
 
 
+def load_table_base(stem: str, bases_path: str = "audio/ground_truth_bases.json") -> int | None:
+    """Return documented XSPS table base for a stem, if known."""
+    if not os.path.exists(bases_path):
+        return None
+    with open(bases_path, encoding="utf-8") as f:
+        gt = json.load(f)
+    row = gt.get(stem) or {}
+    base = row.get("base_offset")
+    return int(base) if base is not None else None
+
+
 def load_dialogue_map(manifest_path: str, stem: str) -> dict[int, dict]:
     with open(manifest_path, encoding="utf-8") as f:
         rows = json.load(f)
@@ -424,6 +448,10 @@ def main(argv: Sequence[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Centralized Argonaut dialogue injector")
     parser.add_argument("--wad", required=True, help="Path to level .WAD")
     parser.add_argument("--manifest", default="audio/deterministic_manifest.json")
+    parser.add_argument(
+        "--wav-dir",
+        help="Override wav_path with <wav-dir>/cue_XX_<char>.wav (verified clean set)",
+    )
     parser.add_argument("--plan", action="store_true", help="Print classification plan only")
     parser.add_argument("--inject", action="store_true", help="Write Turkish dialogue into WAD")
     parser.add_argument("--dry-run", action="store_true", help="Do not write file")
@@ -438,12 +466,26 @@ def main(argv: Sequence[str] | None = None) -> int:
 
     audio_base = find_audio_base(wad_bytes)
     _, spsx_payload = find_xsps(wad_bytes)
-    entries = parse_xsps_table(spsx_payload)
     stem = os.path.basename(args.wad).replace(".WAD", "")
+    table_base = load_table_base(stem)
+    entries = parse_xsps_table(spsx_payload, table_base=table_base)
 
     dialogue = {}
     if os.path.exists(args.manifest):
         dialogue = load_dialogue_map(args.manifest, stem)
+
+    if args.wav_dir:
+        for cue, meta in dialogue.items():
+            cand = os.path.join(args.wav_dir, f"cue_{cue:02d}_{meta.get('character', 'ron')}.wav")
+            if not os.path.exists(cand):
+                # try generic char-agnostic name
+                alt = [
+                    os.path.join(args.wav_dir, f)
+                    for f in os.listdir(args.wav_dir)
+                    if f.startswith(f"cue_{cue:02d}_") and f.endswith(".wav")
+                ]
+                cand = alt[0] if alt else cand
+            meta["wav_path"] = cand
 
     # Build cue sets from dialogue vs not (plus known Burrow fixture).
     if stem == "T1L2M001":
@@ -488,7 +530,13 @@ def main(argv: Sequence[str] | None = None) -> int:
         return 0
 
     if args.inject:
-        new_wad, report = inject_wad(wad_bytes, plan, dry_run=args.dry_run, cat_a_cues=cat_a)
+        new_wad, report = inject_wad(
+            wad_bytes,
+            plan,
+            dry_run=args.dry_run,
+            cat_a_cues=cat_a,
+            table_base=table_base,
+        )
         print(
             json.dumps({k: v for k, v in report.items() if k != "category_a_violations"}, indent=2)
         )

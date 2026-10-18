@@ -200,6 +200,8 @@ def classify_record(stem: str, rec_id: int, en: str) -> str:
     if stem == "T1L2M001": # Garden & Attic climb
         if rec_id == 89:
             return "harry"  # "I think it's brilliant!"
+        if rec_id == 77:
+            return "mrs_weasley"  # Howler: "Ronald Weasley! ..." (Cue 20)
         return "ron"
 
     if stem == "T1L2M003": # Attic Ghoul

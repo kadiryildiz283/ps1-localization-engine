@@ -79,7 +79,8 @@ def test_foreign_gets_write_offset_zero_but_is_muted():
     assert plan[0].write_offset == 0
 
 
-def test_split_budget_subtracts_prefix():
+def test_split_budget_is_full_asz():
+    # a_sz is the Turkish budget at +0xA800; German prefix is extra.
     plan = build_plan(
         [_e(2, 51200)],
         cat_a_cues=[],
@@ -89,9 +90,8 @@ def test_split_budget_subtracts_prefix():
     )
     p = plan[0]
     assert p.kind is StreamKind.SPLIT
-    assert p.tr_budget_bytes == 51200 - 0xA800
-    # 51200-43008 = 8192 bytes → 14336 samples @22050 → 0.65s
-    assert p.tr_budget_sec == 8192 / 16 * 28 / 22050
+    assert p.tr_budget_bytes == 51200
+    assert p.tr_budget_sec == 51200 / 16 * 28 / 22050
 
 
 def test_burrow_expected_kind_helpers():
