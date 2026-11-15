@@ -149,9 +149,9 @@ def classify_record(stem: str, rec_id: int, en: str) -> str:
         if rec_id in [77, 92, 94, 111, 112]:
             return "harry"
         if rec_id in [80, 81, 82, 83, 84, 85, 86, 87, 88, 90, 91, 100, 101]:
-            return "snape"  # Filch & Snape
+            return "filch"  # Filch & Snape
         if rec_id in [97, 98, 99]:
-            return "mrs_weasley"  # McGonagall
+            return "mcgonagall"  # McGonagall
         if rec_id == 95:
             return "hermione"  # Hermione ("I'm going to go to the library...")
         if rec_id in [105, 106, 108, 110]:
@@ -225,7 +225,7 @@ def classify_record(stem: str, rec_id: int, en: str) -> str:
 
     if stem == "T1L2M007": # Garden de-gnoming & Ginny
         if rec_id in [75, 76, 77, 78, 79, 91]:
-            return "dumbledore"  # Arthur Weasley
+            return "arthur_weasley"  # Arthur Weasley
         if rec_id in [80, 89, 90]:
             return "harry"  # Harry
         if rec_id in [81, 82, 83, 84, 85, 86, 87, 88, 92]:
@@ -266,11 +266,11 @@ def classify_record(stem: str, rec_id: int, en: str) -> str:
 
     if stem == "T1L4M005": # Common room, Mudblood aftermath, Hagrid gnomes
         if rec_id in [73, 77]: # Fat Lady
-            return "mrs_weasley"
+            return "fat_lady"
         if rec_id in [74, 76, 78, 88, 90, 94, 103, 105, 106]: # Harry
             return "harry"
         if rec_id in [79, 80, 81, 82]: # Nick
-            return "dumbledore"
+            return "nearly_headless_nick"
         if rec_id in [84, 89, 91, 92, 93, 107, 109, 110, 111, 113, 114]: # Ron
             return "ron"
         if rec_id in [95, 96, 97, 98, 104, 108]: # Hermione
@@ -282,13 +282,13 @@ def classify_record(stem: str, rec_id: int, en: str) -> str:
     if stem == "T1L4M007": # Lockhart Verdimillious Duo
         if rec_id in [100, 107, 108, 109]:
             return "harry"
-        return "dumbledore"  # Lockhart
+        return "lockhart"  # Lockhart
 
     if stem == "T1L4M008": # Library / Polyjuice planning / Nick
         if rec_id in [72, 73, 74, 75, 84, 85, 86, 87, 88]: # Hermione
             return "hermione"
         if rec_id in [76, 78, 79, 81]: # Nick
-            return "dumbledore"
+            return "nearly_headless_nick"
         if rec_id in [77, 80, 95, 96]: # Harry
             return "harry"
         if rec_id in [89, 90, 91]: # Ron
@@ -301,13 +301,13 @@ def classify_record(stem: str, rec_id: int, en: str) -> str:
         if rec_id in [69, 70, 71, 72, 73]: # Basilisk
             return "riddle"
         if rec_id in [88, 89, 90, 91, 92, 93]: # Nick
-            return "dumbledore"
+            return "nearly_headless_nick"
         if rec_id in [96, 97, 98]: # Hermione
             return "hermione"
         if rec_id in [100, 104, 108, 112, 113]: # Harry
             return "harry"
         if rec_id in [87, 106]: # Lockhart
-            return "dumbledore"
+            return "lockhart"
         return "ron"
 
     if stem == "T1L5M004": # Chamber of Secrets climax (Tom Riddle & Ginny)
@@ -319,7 +319,7 @@ def classify_record(stem: str, rec_id: int, en: str) -> str:
 
     if stem == "T1L5M006": # Girls' Bathroom (Moaning Myrtle, Polyjuice with Hermione)
         if rec_id in [71, 72, 73, 74, 75, 76, 120, 121, 122, 123]: # Moaning Myrtle
-            return "hermione"
+            return "moaning_myrtle"
         if rec_id in [77, 78, 79, 81, 83, 85, 91, 92, 94, 95, 104, 105, 107, 108, 111, 113, 116, 118]: # Harry
             return "harry"
         if rec_id in [80, 93, 96, 97, 102, 103, 106, 110, 114, 115, 124, 125, 127]: # Ron
@@ -329,14 +329,14 @@ def classify_record(stem: str, rec_id: int, en: str) -> str:
         if rec_id == 82: # Basilisk ("Come, come to me")
             return "riddle"
         if rec_id == 126: # Lockhart
-            return "dumbledore"
+            return "lockhart"
         return "ron"
 
     if stem == "T1L5M008": # Lockhart cave-in before Chamber
         if rec_id in [74, 76, 82, 84, 86]:
             return "ron"
         if rec_id in [77, 78, 79, 80]:
-            return "dumbledore"  # Lockhart
+            return "lockhart"  # Lockhart
         if rec_id in [81, 83, 85, 87]:
             return "harry"
         return "ron"
@@ -356,26 +356,24 @@ def classify_record(stem: str, rec_id: int, en: str) -> str:
         if rec_id in [87, 119, 127]:
             return "ron"
         if rec_id in [80, 81, 82, 83, 84, 85, 86, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 122, 123, 128, 129]:
-            return "dumbledore"  # Lockhart
-        return "dumbledore"
+            return "lockhart"  # Lockhart
+        return "lockhart"
 
     if stem == "T1L6M005": # Snape Potions lesson (Wiggenweld)
         return "snape"
 
     if stem == "T1L6M006": # Peeves in dungeons
         if rec_id in [84, 87, 88, 89]:
-            return "dobby"  # Peeves (squeaky annoying voice)
+            return "peeves"  # Peeves
         return "ron"
 
     if stem == "T1L6M007": # Deathday Party
         if rec_id == 65:
             return "riddle"  # Basilisk whisper
-        if rec_id in [69, 70, 71]:
-            return "dumbledore"  # Nick
+        if rec_id in [69, 70, 71, 73]:
+            return "nearly_headless_nick"  # Nick
         if rec_id == 72:
             return "harry"
-        if rec_id == 73:
-            return "hermione"
         return "ron"
 
     if stem == "T1L6M008": # Slytherin Common Room / Crabbe & Goyle
@@ -391,19 +389,19 @@ def classify_record(stem: str, rec_id: int, en: str) -> str:
         if rec_id == 83:
             return "harry"
         if rec_id in [81, 82]:
-            return "ron"  # Neville
+            return "neville"  # Neville
         if rec_id in [79, 84]:
-            return "ron"  # Oliver Wood
+            return "oliver_wood"  # Oliver Wood
         return "ron"
 
     if stem == "T1L7M002": # Herbology Race Cup / Sprout
-        return "mrs_weasley"  # Professor Sprout
+        return "sprout"  # Professor Sprout
 
     if stem == "T1L7M003": # Herbology Incendio Duo Lesson
-        return "mrs_weasley"  # Professor Sprout
+        return "sprout"  # Professor Sprout
 
     if stem == "T1L7M005": # Oliver Wood Quidditch Training
-        return "ron"  # Oliver Wood
+        return "oliver_wood"  # Oliver Wood
 
     if stem == "T1L7M006": # Quidditch confrontation with Malfoy
         if rec_id in [71, 72, 73]:
@@ -421,13 +419,13 @@ def classify_record(stem: str, rec_id: int, en: str) -> str:
             return "hermione"
         if rec_id == 99:
             return "harry"
-        return "mrs_weasley"  # Professor Sprout
+        return "sprout"  # Professor Sprout
 
     # ----------------------------------------------------
     # T1L8: Grounds, Hagrid's Hut, Potions & Aragog
     if stem == "T1L8M001": # Grounds / Wood
         if rec_id in [79, 81, 82]:
-            return "ron"  # Oliver Wood
+            return "oliver_wood"  # Oliver Wood
         return "ron"
 
     if stem == "T1L8M002": # Hagrid slug bucket
@@ -450,7 +448,7 @@ def classify_record(stem: str, rec_id: int, en: str) -> str:
 
     if stem == "T1L8M007": # Grounds / Hagrid / Quidditch
         if rec_id in [77, 80]:
-            return "ron"  # Wood
+            return "oliver_wood"  # Wood
         if rec_id == 79:
             return "hagrid"
         if rec_id == 81:
@@ -467,7 +465,7 @@ def classify_record(stem: str, rec_id: int, en: str) -> str:
         if rec_id in [72, 73]:
             return "narrator"
         if rec_id == 74:
-            return "ron"  # Wood
+            return "oliver_wood"  # Wood
         if rec_id == 75:
             return "harry"
         return "narrator"
@@ -476,11 +474,11 @@ def classify_record(stem: str, rec_id: int, en: str) -> str:
         if rec_id in [77, 78, 80, 82, 83, 84]:
             return "draco"
         if rec_id in [75, 76, 79]:
-            return "dumbledore"  # Lockhart referee
+            return "lockhart"  # Lockhart referee
         if rec_id in [71, 73, 81]:
             return "ron"
         if rec_id == 72:
-            return "dumbledore"  # Lockhart/Snape
+            return "lockhart"  # Lockhart/Snape
         return "draco"
 
     if stem == "T1L9M006": # Duelling practice with Ron

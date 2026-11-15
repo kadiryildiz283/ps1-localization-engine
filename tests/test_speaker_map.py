@@ -4,6 +4,7 @@ from tools.speaker_map import (
     DEFAULT_VOICE_PROFILES,
     LINE_SPEAKER_OVERRIDES,
     looks_like_ginny_line,
+    resolve_profile_name,
     resolve_speaker,
 )
 
@@ -11,7 +12,7 @@ from tools.speaker_map import (
 def test_ginny_diorama_line_39_override():
     r = resolve_speaker(stem="T1L1M007", line_index=39, speaker_id="hermione")
     assert r.speaker_id == "ginny"
-    assert r.voice_profile == "hermione"  # shared timbre until dedicated profile
+    assert r.voice_profile == "ginny"
     assert r.source == "override"
 
 
@@ -84,9 +85,30 @@ def test_voice_profile_swap_for_dedicated_ginny():
 
 
 def test_legacy_pool_mapping():
-    r = resolve_speaker(speaker_id="moaning_myrtle")
+    r = resolve_speaker(speaker_id="myrtle")
     assert r.speaker_id == "hermione"
     assert r.source == "legacy-pool"
+
+
+def test_arthur_weasley_decoupled_from_dumbledore():
+    r = resolve_speaker(stem="T1L2M007", dialogue_id=75, speaker_id="dumbledore")
+    assert r.speaker_id == "arthur_weasley"
+    assert r.voice_profile == "arthur_weasley"
+    assert r.source == "override"
+
+
+def test_moaning_myrtle_decoupled_from_hermione():
+    r = resolve_speaker(speaker_id="moaning_myrtle")
+    assert r.speaker_id == "moaning_myrtle"
+    assert r.voice_profile == "moaning_myrtle"
+    assert r.source == "explicit"
+
+
+def test_resolve_profile_name_fallback_when_missing(tmp_path):
+    assert resolve_profile_name("ginny", str(tmp_path)) == "hermione"
+    assert resolve_profile_name("arthur_weasley", str(tmp_path)) == "dumbledore"
+    (tmp_path / "ginny.wav").write_bytes(b"RIFF")
+    assert resolve_profile_name("ginny", str(tmp_path)) == "ginny"
 
 
 def test_unknown_defaults_to_narrator():
