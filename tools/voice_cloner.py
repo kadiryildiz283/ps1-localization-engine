@@ -177,9 +177,9 @@ class NeuralVoiceEngine:
         # until a dedicated recording exists. Resolve via speaker_map so the
         # identity and the timbre stay decoupled.
         try:
-            from tools.speaker_map import resolve_speaker
+            from tools.speaker_map import resolve_profile_name, resolve_speaker
 
-            voice = resolve_speaker(speaker_id=character).voice_profile
+            voice = resolve_profile_name(resolve_speaker(speaker_id=character).voice_profile)
         except Exception:
             voice = character
 
@@ -193,7 +193,12 @@ class NeuralVoiceEngine:
             self.latents_cache[cache_key] = lat
             return lat
 
-        speaker_wav = CHARACTER_PROFILES.get(voice, CHARACTER_PROFILES["narrator"])
+        dynamic_wav = f"audio/profiles/{voice}.wav"
+        speaker_wav = (
+            dynamic_wav
+            if os.path.exists(dynamic_wav)
+            else CHARACTER_PROFILES.get(voice, CHARACTER_PROFILES["narrator"])
+        )
         print(f"Computing golden conditioning latents for '{voice}' from {speaker_wav}...")
         gpt_lat, spk_emb = self.model.get_conditioning_latents(
             audio_path=speaker_wav,

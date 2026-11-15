@@ -18,9 +18,16 @@ from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from tools.argonaut_xsp import (
+    StreamKind,
+    XspsEntry,
+    classify_stream,
+    find_xsps_table_base,
+)
 from tools.classify_dialogues_exact import classify_record
 from tools.dirdat import DirDatArchive
 from tools.iso_fs import Ps1IsoReader
+from tools.speaker_map import resolve_speaker
 
 ORIGINAL_BIN = "Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De).bin"
 TRANSLATIONS_DIR = "translations"
@@ -157,16 +164,30 @@ def build_deterministic_manifest():
                 continue
 
             # In-game level WAD: parse all audio cue entries
-            trans_file = f"scratch/transcriptions/{stem}.json"
             base_off = 0
-            if os.path.exists(trans_file):
+            if os.path.exists("audio/ground_truth_bases.json"):
                 try:
-                    with open(trans_file, encoding="utf-8") as tf:
-                        t_cues = json.load(tf)
-                        if t_cues:
-                            base_off = t_cues[0]["table_entry_offset"]
+                    with open("audio/ground_truth_bases.json", encoding="utf-8") as bf:
+                        bases_map = json.load(bf)
+                        if stem in bases_map:
+                            base_off = int(bases_map[stem]["base_offset"])
                 except Exception:
                     pass
+            if base_off == 0:
+                trans_file = f"scratch/transcriptions/{stem}.json"
+                if os.path.exists(trans_file):
+                    try:
+                        with open(trans_file, encoding="utf-8") as tf:
+                            t_cues = json.load(tf)
+                            if t_cues:
+                                base_off = t_cues[0]["table_entry_offset"]
+                    except Exception:
+                        pass
+            if base_off == 0:
+                try:
+                    base_off = find_xsps_table_base(spsx_data)
+                except ValueError:
+                    base_off = 0
 
             for c in range(2000):
                 e_off = base_off + c * 16
@@ -207,8 +228,28 @@ def build_deterministic_manifest():
                 cat_b_count += 1
                 clean_tr = diag_match["clean_tr"]
                 clean_en = diag_match["clean_en"]
-                char_profile = classify_record(stem, diag_match["id"] or 0, clean_en)
-                line_h = hashlib.md5(f"{char_profile}:{clean_tr}".encode()).hexdigest()[:12]
+                raw_char = classify_record(stem, diag_match["id"] or 0, clean_en)
+                resolved = resolve_speaker(
+                    speaker_id=raw_char,
+                    stem=stem,
+                    dialogue_id=diag_match["id"],
+                    en_text=clean_en,
+                )
+                char_profile = resolved.speaker_id
+                voice_profile = resolved.voice_profile
+                xsps_entry = XspsEntry(
+                    cue=c,
+                    table_entry_offset=e_off,
+                    audio_offset=a_off,
+                    p2=p2,
+                    p3=p3,
+                    size_bytes=a_sz,
+                )
+                stream_kind = classify_stream(
+                    xsps_entry,
+                    is_category_a=False,
+                )
+                line_h = hashlib.md5(f"{voice_profile}:{clean_tr}".encode()).hexdigest()[:12]
                 max_samples = (a_sz // 16) * 28
 
                 entry_meta = {
@@ -216,6 +257,8 @@ def build_deterministic_manifest():
                     "stem": stem,
                     "cue": c,
                     "category": "CATEGORY_B_PURE_DIALOGUE",
+                    "stream_kind": stream_kind.value,
+                    "is_split_stream": stream_kind is StreamKind.SPLIT,
                     "is_cutscene": False,
                     "table_entry_offset": e_off,
                     "audio_base": audio_base,
@@ -225,6 +268,7 @@ def build_deterministic_manifest():
                     "max_allowed_samples": max_samples,
                     "max_duration": round(max_samples / float(target_sr), 2),
                     "character": char_profile,
+                    "voice_profile": voice_profile,
                     "line_hash": line_h,
                     "dialogue_id": diag_match["id"],
                     "en": clean_en,
@@ -238,6 +282,7 @@ def build_deterministic_manifest():
                     unique_lines[line_h] = {
                         "line_hash": line_h,
                         "character": char_profile,
+                        "voice_profile": voice_profile,
                         "en": clean_en,
                         "tr": clean_tr,
                         "min_duration": entry_meta["max_duration"],

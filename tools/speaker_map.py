@@ -11,64 +11,68 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass
 
-# Logical speakers (in-game identity).
+# Logical speakers (in-game identity). Every distinct character keeps its
+# own speaker_id rather than being swallowed into a coarse pool.
 SPEAKER_IDS = {
     "harry",
     "ron",
     "hermione",
     "ginny",
+    "moaning_myrtle",
     "narrator",
     "dumbledore",
+    "arthur_weasley",
+    "lockhart",
+    "nearly_headless_nick",
+    "flitwick",
+    "fudge",
     "snape",
+    "lucius",
+    "filch",
     "draco",
     "hagrid",
     "riddle",
     "mrs_weasley",
+    "mcgonagall",
+    "sprout",
+    "fat_lady",
+    "oliver_wood",
+    "neville",
+    "fred_george",
     "dobby",
+    "peeves",
     "sorting_hat",
 }
 
 # Voice profile actually loaded by XTTS (file stem under audio/profiles/).
-# Profiles can be shared; identities must not be.
-DEFAULT_VOICE_PROFILES: dict[str, str] = {
-    "harry": "harry",
-    "ron": "ron",
-    "hermione": "hermione",
-    # Ginny has no dedicated recording yet — shares Cansel's timbre but
-    # is tracked as her own speaker so we can swap the profile later
-    # without reclassifying every line.
+# Every distinct character defaults to its own dedicated profile.
+DEFAULT_VOICE_PROFILES: dict[str, str] = {sid: sid for sid in SPEAKER_IDS}
+
+# Fallback timbre if a dedicated profile WAV has not been extracted yet.
+LEGACY_FALLBACK_PROFILES: dict[str, str] = {
     "ginny": "hermione",
-    "narrator": "narrator",
-    "dumbledore": "dumbledore",
-    "snape": "snape",
-    "draco": "draco",
-    "hagrid": "hagrid",
-    "riddle": "riddle",
-    "mrs_weasley": "mrs_weasley",
-    "dobby": "dobby",
-    "sorting_hat": "sorting_hat",
+    "moaning_myrtle": "hermione",
+    "arthur_weasley": "dumbledore",
+    "lockhart": "dumbledore",
+    "nearly_headless_nick": "dumbledore",
+    "flitwick": "dumbledore",
+    "fudge": "dumbledore",
+    "lucius": "snape",
+    "filch": "snape",
+    "mcgonagall": "mrs_weasley",
+    "sprout": "mrs_weasley",
+    "fat_lady": "mrs_weasley",
+    "oliver_wood": "ron",
+    "neville": "ron",
+    "fred_george": "ron",
+    "peeves": "dobby",
 }
 
-# Historical coarse pools. Kept only as fallback when no explicit
-# speaker_id is present. Never use these for Ginny.
-_LEGACY_POOLS = {
-    "hermione": {"hermione", "moaning_myrtle", "myrtle"},
-    "ron": {"ron", "fred", "george", "oliver_wood", "neville", "colin"},
-    "dumbledore": {
-        "dumbledore",
-        "arthur_weasley",
-        "lockhart",
-        "flitwick",
-        "fudge",
-        "nearly_headless_nick",
-    },
-    "mrs_weasley": {
-        "mrs_weasley",
-        "mcgonagall",
-        "sprout",
-        "madam_hooch",
-        "fat_lady",
-    },
+# Historical coarse pools (for unknown/legacy aliases only).
+_LEGACY_POOLS: dict[str, set[str]] = {
+    "hermione": {"myrtle"},
+    "ron": {"colin"},
+    "mrs_weasley": {"madam_hooch"},
 }
 
 
@@ -97,7 +101,25 @@ LINE_SPEAKER_OVERRIDES: dict[tuple, str] = {
 DIALOGUE_SPEAKER_OVERRIDES: dict[tuple, str] = {
     # T1L2M001 Kovuk Bahçesi — Molly'nin Howler tiradı
     ("T1L2M001", 77): "mrs_weasley",
+    # T1L2M007 Kovuk Bahçesi — Arthur Weasley (önceki dumbledore havuzundan ayrıldı)
+    ("T1L2M007", 75): "arthur_weasley",
+    ("T1L2M007", 76): "arthur_weasley",
+    ("T1L2M007", 77): "arthur_weasley",
+    ("T1L2M007", 78): "arthur_weasley",
+    ("T1L2M007", 79): "arthur_weasley",
+    ("T1L2M007", 91): "arthur_weasley",
 }
+
+
+def resolve_profile_name(voice_profile: str, profiles_dir: str = "audio/profiles") -> str:
+    """Return `voice_profile` if its WAV/latent exists, else fall back safely."""
+    import os
+
+    wav_path = os.path.join(profiles_dir, f"{voice_profile}.wav")
+    lat_path = os.path.join(profiles_dir, f"{voice_profile}_latents.pt")
+    if os.path.exists(wav_path) or os.path.exists(lat_path):
+        return voice_profile
+    return LEGACY_FALLBACK_PROFILES.get(voice_profile, voice_profile)
 
 
 _GINNY_RE = re.compile(
