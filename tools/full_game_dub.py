@@ -157,6 +157,18 @@ def inject_all_wads(
         rows = json.load(f)
     stems = sorted({r["stem"] for r in rows if r.get("stem") and r["stem"] != "T1L1M007"})
 
+    excl_by_wad: dict[str, set[int]] = {}
+    excl_path = "audio/category_a_exclusion_map.json"
+    if os.path.exists(excl_path):
+        with open(excl_path, encoding="utf-8") as ef:
+            excl_data = json.load(ef)
+        for wname, items in excl_data.items():
+            excl_by_wad[wname] = {
+                it["cue"]
+                for it in items
+                if it.get("hw") != VOICE_HW or it.get("reason") == "spell_chant"
+            }
+
     summary = {
         "wads_processed": 0,
         "wads_skipped_missing": 0,
@@ -188,8 +200,15 @@ def inject_all_wads(
             foreign = BURROW_FOREIGN_CUES
             forced = burrow_forced_kinds()
         else:
-            cat_a = [e.cue for e in entries if e.hw != VOICE_HW]
-            foreign = [e.cue for e in entries if e.hw == VOICE_HW and e.cue not in dialogue_map]
+            cat_a_set = {e.cue for e in entries if e.hw != VOICE_HW} | excl_by_wad.get(
+                f"{stem}.WAD", set()
+            )
+            cat_a = sorted(cat_a_set)
+            foreign = [
+                e.cue
+                for e in entries
+                if e.hw == VOICE_HW and e.cue not in dialogue_map and e.cue not in cat_a_set
+            ]
             forced = detect_split_kinds_from_energy(raw, entries, list(dialogue_map.keys()))
         plan = build_plan(
             entries,
