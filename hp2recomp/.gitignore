@@ -4,9 +4,12 @@
 psxrecomp
 disc/
 generated/
+generated_euro1/
+aot_static/
 build/
 build-*/
 saves/
+debug/
 *.log
 *.err
 *.png

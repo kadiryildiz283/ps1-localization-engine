@@ -44,6 +44,28 @@ Ninja çift-yol çakışması düzeltmesi).
 - `seeds/ghidra_funcs.txt`: 224 JAL seed (probe).
 - Generate: OpenBIOS `emitted=651 instructions=17526`;
   SLES_039.72 → **332 fonksiyon, 204.107 satır C, 6 shard + dispatch**.
+- **EURO1.GAM → statik C (2026-11-15):** `psxrecomp-game EURO1.GAM --strict`
+  → **2228 fonksiyon, 1.386.775 satır C, 39 shard, 2217 dispatch**, tamamı
+  KUSEG (`func_00010000`... §5.3 link-segment native). Çıktı:
+  `hp2recomp/generated_euro1/` (yerel, telifli türev — gitignore).
+  NOT: bu tam C referans/arşivdir; runtime'a linkli değil (main-exe formatı).
+- **Statik native overlay LİNKLENDİ ve doğrulandı (2026-11-16):**
+  Runtime capture'ları (`build/overlay_captures.json`, KUSEG schema v3)
+  `compile_overlays.py --static` ile `aot_static/overlays_static.c` + 16 shard
+  TU'ya derlendi (14 shard OK, 12991 identity). `GAME_OVERLAY_STATIC_C` ile
+  linklendi. Ölçüm (`overlay_loader_status`, frame 13986):
+  `static_hits=11.046.716`, `static_address_misses=2.570.740`,
+  `static_crc_misses=3`, `variant_misses=3`. Kabaca overlay dispatch'lerin
+  ~%80'i native; kalanı interpreter fallback (kapsanmamış adresler).
+  **%100 native DEĞİL** — kapsama = capture edilen boot/menu kodu; oynanışla
+  birikir. Ekran doğrulandı: memory card seçim ekranına ilerledi (OCR).
+  - **CMake dersi:** `GAME_OVERLAY_STATIC_C` wrapper'da parse edilmez;
+    `GEN_FULL_GLOB` (çok-değerli) sonrasına yazılırsa onun değeri olarak
+    yutulur. `GEN_*` argümanlarından ÖNCE yazılmalı.
+  - AOT static pipeline KSEG0-only (`RAM_WINDOW`); KUSEG shard'lar
+    `compile_overlays.py --static` + runtime capture ile üretilir.
+  - `PSX_NATIVE_CPU_SPANS` açık bırakıldı (dispatcher doğru yoldan gelince
+    span kontrolü sadece SLES C'sine bakar, geçiyor).
 - Build: `cmake -S hp2recomp -B hp2recomp/build -G Ninja
   -DCMAKE_BUILD_TYPE=Release -DPSX_REWIND=OFF` → 292 adım, temiz.
   Binary: `build/Harry_Potter_and_the_Chamber_of_Secrets_Recompiled`.

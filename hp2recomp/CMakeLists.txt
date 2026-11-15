@@ -30,15 +30,17 @@ endif()
 
 psxrecomp_add_game_runtime(psx-runtime
     PRELOADED_MODS_DIR "${PSX_PRELOADED_MODS}"
+    # GAME_OVERLAY_STATIC_C, GEN_FULL_GLOB (çok-değerli) ÖNCE gelmeli:
+    # wrapper bu anahtarı parse etmez, sonra gelirse GEN_FULL_GLOB yutar.
+    # EURO1.GAM + diğer overlay'lerin statik native shard'ları (KUSEG dahil).
+    GAME_OVERLAY_STATIC_C "${CMAKE_CURRENT_SOURCE_DIR}/aot_static/overlays_static.c"
     # ENABLE_NETPLAY_IF_PRESENT
-    # NETPLAY_LOBBY_URL "ws://netplay.retcomm.net:8765"
     # ENABLE_SETUP_WIZARD
     WINDOW_TITLE "Harry Potter and the Chamber of Secrets Recompiled"
     DEFAULT_GAME_CONFIG_PATH "game.toml"
     MAX_PLAYERS 1
     GEN_MARKER "generated/SLES_039.72_dispatch.c"
     GEN_FULL_GLOB "generated/SLES_039.72_full_*.c"
-    # CODEGEN_SETUP_SOURCES — recomp-ui / wizard eklenirse açılır
 )
 
 foreach(_PSX_RUNTIME_CONFIG game.toml game_options.toml)
