@@ -226,8 +226,8 @@ def patch_disc_wads(
         raise FileNotFoundError(f"Target disc image not found: {output_bin}")
 
     with Ps1IsoReader(output_bin) as iso:
-        potter_entry = iso.find_file("POTTER.DAT")
-        dir_entry = iso.find_file("POTTER.DIR")
+        potter_entry = iso.files.get("POTTER.DAT")
+        dir_entry = iso.files.get("POTTER.DIR")
         if potter_entry is None or dir_entry is None:
             raise RuntimeError("POTTER.DAT or POTTER.DIR not found in ISO")
         archive = DirDatArchive.from_iso(iso)
