@@ -1,0 +1,16 @@
+# Telifli disk verisi ve türetilmiş oyun kodu repoya girmez (AGENTS.md kuralı).
+# generated/ = orijinal MIPS'ten çevrilmiş C; dağıtım stratejisi kararına dek yerel.
+# psxrecomp = repo kökündeki checkout'a yerel symlink (framework submodule değil).
+psxrecomp
+disc/
+generated/
+build/
+build-*/
+saves/
+*.log
+*.err
+*.png
+*.jsonl
+overlay_captures.json
+psx_last_run_report.json
+cache/

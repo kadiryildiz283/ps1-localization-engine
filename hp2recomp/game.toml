@@ -1,0 +1,54 @@
+# Autofilled by tools/new_project_layout/probe_disc.py from your legal dump.
+# Review before shipping. Runtime quirks / overlay seeds still need hand work.
+
+[game]
+name = "Harry Potter and the Chamber of Secrets"
+id = "SLES-03972"
+players = 1
+exe = "disc/SLES_039.72"
+disc = "disc/Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De).cue"
+load_address = "0x00100000"
+entry_pc = "0x00105130"
+text_size = "0x00011800"
+stack_base = "0x801FFFF0"
+
+# Digests are for data Track 01 (first BINARY FILE / TRACK 01).
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De).bin"
+cue_name = "Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De).cue"
+boot_exe = "SLES_039.72"
+known_sizes = [715207920]
+known_md5 = [
+  "f573f8b4d5fe381c09ad99da8617c038",
+]
+known_sha1 = [
+  "79c3d76389f2728c237a5169e0c054f4ac929e17",
+]
+known_crc32 = [
+  "beb5a1b9",
+]
+
+[recompiler]
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "Harry Potter and the Chamber of Secrets Recompiled"
+memcard_dir = "saves"
+overlay_cache = true
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+
+# Online mount gate: digests + track count + optional TOC fingerprint
+# (see docs/NETPLAY.md).
+[netplay]
+require_cue = true
+required_tracks = 1
+required_disc_fp = "c6967053fddd37b9fb0bb9d14b119753ef076ac003a3092e5fd8b4441ccd8cb2"

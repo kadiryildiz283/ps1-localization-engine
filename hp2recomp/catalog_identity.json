@@ -1,0 +1,48 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "Harry Potter and the Chamber of Secrets",
+    "id": "SLES-03972",
+    "boot_exe": "SLES_039.72"
+  },
+  "marketing": {
+    "description": "",
+    "publisher": "",
+    "year": "",
+    "region": "",
+    "players": 1
+  },
+  "rom_identity": {
+    "cue_name": "Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De).cue",
+    "bin_name": "Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De).bin",
+    "track_counts": [
+      1
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 715207920,
+      "md5": "f573f8b4d5fe381c09ad99da8617c038",
+      "sha1": "79c3d76389f2728c237a5169e0c054f4ac929e17",
+      "crc32": "beb5a1b9"
+    },
+    "disc_fp": "c6967053fddd37b9fb0bb9d14b119753ef076ac003a3092e5fd8b4441ccd8cb2"
+  },
+  "exe": {
+    "load_address": "0x00100000",
+    "entry_pc": "0x00105130",
+    "text_size": "0x00011800",
+    "stack_base": "0x801FFFF0"
+  },
+  "seeds": {
+    "count": 224,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [
+    "cue has only 1 TRACK \u2014 Track-01-only dumps fail multi-track netplay/catalog gates; prefer a full Redump cue."
+  ],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
