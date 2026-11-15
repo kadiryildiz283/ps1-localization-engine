@@ -555,7 +555,7 @@
     "voice_profile": "narrator",
     "en": "Adalbert Waffling",
     "tr": "Adalbert Waffling",
-    "min_duration": 2.11,
+    "min_duration": 1.3,
     "wads": [
       "T1L1M001.WAD"
     ]
@@ -566,7 +566,19 @@
     "voice_profile": "narrator",
     "en": "Daisy Dodderidge",
     "tr": "Daisy Dodderidge",
-    "min_duration": 1.63,
+    "min_duration": 1.3,
+    "wads": [
+      "T1L1M001.WAD",
+      "T1L8M008.WAD"
+    ]
+  },
+  {
+    "line_hash": "11bb9954f245",
+    "character": "narrator",
+    "voice_profile": "narrator",
+    "en": "Cassandra Vablatsky",
+    "tr": "Cassandra Vablatsky",
+    "min_duration": 1.46,
     "wads": [
       "T1L1M001.WAD"
     ]
@@ -577,7 +589,7 @@
     "voice_profile": "ron",
     "en": "Let\\u00b8s split up to avoid getting caught. At least you can use your invisibility cloak to avoid being seen.",
     "tr": "Yakalanmamak için ayrılalım. En azından sen görünmezlik pelerinini kullanarak görünmekten kurtulabilirsin.",
-    "min_duration": 6.05,
+    "min_duration": 5.53,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -588,7 +600,7 @@
     "voice_profile": "ron",
     "en": "Remember that you need to collect these to power up your cloak. They only last a short amount of time, so make sure you\\u00b8re out of sight when they run out.",
     "tr": "Pelerininin gücünü artırmak için bunları toplaman gerektiğini unutma. Yalnızca kısa bir süre etkili olurlar, bu yüzden süreleri bittiğinde ortalıkta görünmediğinden emin ol.",
-    "min_duration": 8.06,
+    "min_duration": 7.15,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -599,7 +611,7 @@
     "voice_profile": "harry",
     "en": "We\\u00b8d better be careful, Ron, we're not meant to be out in the grounds after dark.",
     "tr": "Dikkatli olsak iyi olur Ron, hava karardıktan sonra bahçede olmamamız gerekiyor.",
-    "min_duration": 4.7,
+    "min_duration": 3.74,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -610,7 +622,7 @@
     "voice_profile": "ron",
     "en": "You can unlock the doors by using these pressure pads. You just need to charm a nearby object on to them.",
     "tr": "Bu baskı plakalarını kullanarak kapıların kilidini açabilirsin. Tek yapman gereken yakındaki bir nesneyi büyüleyip üzerlerine koymak.",
-    "min_duration": 4.93,
+    "min_duration": 5.53,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -621,7 +633,7 @@
     "voice_profile": "ron",
     "en": "Charm that object on to the pressure pad to unlock the door.",
     "tr": "Kapının kilidini açmak için o nesneyi büyüleyip baskı plakasının üzerine koy.",
-    "min_duration": 3.36,
+    "min_duration": 3.09,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -632,7 +644,7 @@
     "voice_profile": "filch",
     "en": "Well now, what do we have here?",
     "tr": "Bak sen, burada kimler varmış?",
-    "min_duration": 2.46,
+    "min_duration": 3.09,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -643,7 +655,7 @@
     "voice_profile": "filch",
     "en": "No students are allowed in the grounds after dark.",
     "tr": "Hava karardıktan sonra hiçbir öğrencinin bahçede dolaşmasına izin verilmez.",
-    "min_duration": 3.81,
+    "min_duration": 2.93,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -654,7 +666,7 @@
     "voice_profile": "filch",
     "en": "Well, well, well, we are in trouble now, aren\\u00b8t we?",
     "tr": "Bak sen şu işe, başımız fena dertte, değil mi?",
-    "min_duration": 4.93,
+    "min_duration": 3.58,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -665,7 +677,7 @@
     "voice_profile": "filch",
     "en": "What's that?",
     "tr": "O da ne?",
-    "min_duration": 0.67,
+    "min_duration": 0.49,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -676,7 +688,7 @@
     "voice_profile": "filch",
     "en": "Who's there?",
     "tr": "Kim var orada?",
-    "min_duration": 0.67,
+    "min_duration": 0.49,
     "wads": [
       "T1L1M002.WAD",
       "T1L1M002.WAD",
@@ -689,7 +701,7 @@
     "voice_profile": "filch",
     "en": "Mr. Potter, breaking the school rules again I see.",
     "tr": "Bay Potter, bakıyorum da okul kurallarını yine çiğniyorsunuz.",
-    "min_duration": 5.38,
+    "min_duration": 4.06,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -700,7 +712,7 @@
     "voice_profile": "filch",
     "en": "Even you aren't important enough to be outside after dark.",
     "tr": "Siz bile hava karardıktan sonra dışarıda dolaşabilecek kadar önemli değilsiniz.",
-    "min_duration": 4.7,
+    "min_duration": 4.39,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -711,7 +723,7 @@
     "voice_profile": "filch",
     "en": "Dear, dear, Mr. Potter.",
     "tr": "Vah vah, Bay Potter.",
-    "min_duration": 2.24,
+    "min_duration": 2.44,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -722,7 +734,7 @@
     "voice_profile": "ron",
     "en": "Nice one, Harry... I'll meet you at Hagrid's - good luck!!",
     "tr": "Harika, Harry... Seninle Hagrid'in kulübesinde buluşuruz, bol şans!!",
-    "min_duration": 2.91,
+    "min_duration": 3.41,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -733,7 +745,7 @@
     "voice_profile": "filch",
     "en": "See anyone, Mr. Filch?",
     "tr": "Birini gördünüz mü, Bay Filch?",
-    "min_duration": 1.79,
+    "min_duration": 2.44,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -744,7 +756,7 @@
     "voice_profile": "filch",
     "en": "I know you're there...",
     "tr": "Orada olduğunuzu biliyorum...",
-    "min_duration": 2.24,
+    "min_duration": 1.14,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -755,7 +767,7 @@
     "voice_profile": "harry",
     "en": "This pressure pad has a different image on it... and there are no objects to charm.",
     "tr": "Bu baskı plakasının üzerinde farklı bir resim var... ve büyüleyecek hiçbir nesne yok.",
-    "min_duration": 4.03,
+    "min_duration": 4.71,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -766,7 +778,7 @@
     "voice_profile": "ron",
     "en": "We\\u00b8ve always known that Hagrid was expelled. The attacks must've stopped after he was kicked out.",
     "tr": "Hagrid'in okuldan atıldığını her zaman biliyorduk. Saldırılar o kovulduktan sonra durmuş olmalı.",
-    "min_duration": 6.72,
+    "min_duration": 5.2,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -777,7 +789,7 @@
     "voice_profile": "harry",
     "en": "Riddle might have got the wrong person. Maybe it was some other monster that was attacking people.",
     "tr": "Riddle yanlış kişinin peşine düşmüş olabilir. Belki de insanlara saldıran başka bir canavardı.",
-    "min_duration": 6.05,
+    "min_duration": 4.39,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -788,7 +800,7 @@
     "voice_profile": "hermione",
     "en": "I'm going to go to the library and see if I can find information on Tom Riddle. And while I'm there why don\\u00b8t both of you go and see Hagrid and ask him what happened?",
     "tr": "Ben kütüphaneye gidip Tom Riddle hakkında bilgi bulabilecek miyim bakacağım. Ben oradayken siz ikiniz neden gidip Hagrid'e ne olduğunu sormuyorsunuz?",
-    "min_duration": 7.17,
+    "min_duration": 7.96,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -799,7 +811,7 @@
     "voice_profile": "ron",
     "en": "Hagrid would never have meant to kill anybody.",
     "tr": "Hagrid asla birini öldürmek istemezdi.",
-    "min_duration": 2.46,
+    "min_duration": 2.44,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -810,7 +822,7 @@
     "voice_profile": "narrator",
     "en": "Harry Potter, the grounds are off limits after dark...",
     "tr": "Harry Potter, hava karardıktan sonra bahçeye çıkmak yasaktır...",
-    "min_duration": 4.26,
+    "min_duration": 3.25,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -821,7 +833,7 @@
     "voice_profile": "mcgonagall",
     "en": "You disappoint me, Harry, you know the rules.",
     "tr": "Beni hayal kırıklığına uğratıyorsun Harry, kuralları biliyorsun.",
-    "min_duration": 3.36,
+    "min_duration": 2.93,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -832,7 +844,7 @@
     "voice_profile": "mcgonagall",
     "en": "Go back to your Common Room before I start deducting house points.",
     "tr": "Bina puanlarını kırmaya başlamadan önce Ortak Odanıza dönün.",
-    "min_duration": 4.7,
+    "min_duration": 3.25,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -843,7 +855,7 @@
     "voice_profile": "filch",
     "en": "Reveal yourself!",
     "tr": "Çık ortaya!",
-    "min_duration": 0.9,
+    "min_duration": 1.46,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -854,7 +866,7 @@
     "voice_profile": "ron",
     "en": "You made it then, Harry. Shh \\u00b5 someone\\u00b8s talking to Hagrid...",
     "tr": "Gelebildin demek Harry. Şşşt... biri Hagrid'le konuşuyor...",
-    "min_duration": 3.36,
+    "min_duration": 3.74,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -865,7 +877,7 @@
     "voice_profile": "ron",
     "en": "That must be Cornelius Fudge. He\\u00b8s the Minister of Magic, my dad's boss!",
     "tr": "Bu Cornelius Fudge olmalı. Sihir Bakanı, babamın patronu!",
-    "min_duration": 4.7,
+    "min_duration": 5.2,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -876,7 +888,7 @@
     "voice_profile": "ron",
     "en": "All right, be careful Harry, I'll go and tell Hermione what we've heard...",
     "tr": "Pekala, dikkatli ol Harry, ben gidip duyduklarımızı Hermione'ye anlatayım...",
-    "min_duration": 4.7,
+    "min_duration": 3.9,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -887,7 +899,7 @@
     "voice_profile": "dumbledore",
     "en": "Yet again, Cornelius, I tell you that taking Hagrid away will not help in the slightest.",
     "tr": "Sana bir kez daha söylüyorum Cornelius, Hagrid'i götürmenin zerre kadar faydası olmaz.",
-    "min_duration": 6.5,
+    "min_duration": 6.66,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -898,7 +910,7 @@
     "voice_profile": "dumbledore",
     "en": "Look at it from my point of view Albus, I'm under a lot of pressure. Got to be seen to be doing something. If it turns out it wasn't Hagrid, he'll be back and no more said.",
     "tr": "Bir de benim açımdan bak Albus, büyük baskı altındayım. Bir şeyler yapıyor görünmem gerek. Eğer Hagrid olmadığı ortaya çıkarsa, geri döner ve konu kapanır.",
-    "min_duration": 12.32,
+    "min_duration": 14.3,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -909,7 +921,7 @@
     "voice_profile": "hagrid",
     "en": "So, where am I going?",
     "tr": "Şey, nereye gidiyorum ben?",
-    "min_duration": 1.79,
+    "min_duration": 2.11,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -920,7 +932,7 @@
     "voice_profile": "dumbledore",
     "en": "You\\u00b8ll only be going for a short stretch, Hagrid. It\\u00b8s not a punishment, more a precaution. If someone else is caught, you'll be let out with a full apology...",
     "tr": "Sadece kısa bir süreliğine gideceksin Hagrid. Bu bir ceza değil, daha çok bir önlem. Başka biri yakalanırsa, hemen salıverilirsin, hem de özür dilenerek...",
-    "min_duration": 11.87,
+    "min_duration": 12.52,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -931,7 +943,7 @@
     "voice_profile": "hagrid",
     "en": "Not - Azkaban?",
     "tr": "Yoksa... Azkaban mı?",
-    "min_duration": 2.02,
+    "min_duration": 1.79,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -942,7 +954,7 @@
     "voice_profile": "dumbledore",
     "en": "Come along now, Hagrid...",
     "tr": "Gidelim artık Hagrid...",
-    "min_duration": 1.57,
+    "min_duration": 1.46,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -953,7 +965,7 @@
     "voice_profile": "harry",
     "en": "Quiet, Ron...",
     "tr": "Sessiz ol, Ron...",
-    "min_duration": 0.67,
+    "min_duration": 1.14,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -964,7 +976,7 @@
     "voice_profile": "harry",
     "en": "Ron look at all the spiders, I'm going to follow them.",
     "tr": "Ron şu örümceklere bak, onları takip edeceğim.",
-    "min_duration": 3.58,
+    "min_duration": 3.74,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -975,7 +987,7 @@
     "voice_profile": "ron",
     "en": "No.",
     "tr": "Hayır.",
-    "min_duration": 0.45,
+    "min_duration": 0.33,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -986,7 +998,7 @@
     "voice_profile": "hagrid",
     "en": "If anyone wanted ter find out some stuff, all they'd have ter do would be ter follow the spiders. That'd lead 'em right! That's all I'm saying.",
     "tr": "Biri bi şeyler öğrenmek isteseydi, tek yapması gereken örümcekleri takip etmek olurdu. Onlar doğru yola götürürdü! Hepsi bu kadar.",
-    "min_duration": 8.96,
+    "min_duration": 8.94,
     "wads": [
       "T1L1M002.WAD"
     ]
@@ -2238,9 +2250,10 @@
     "voice_profile": "narrator",
     "en": "Felix Summerbee",
     "tr": "Felix Summerbee",
-    "min_duration": 1.34,
+    "min_duration": 1.3,
     "wads": [
-      "T1L2M007.WAD"
+      "T1L2M007.WAD",
+      "T1L8M008.WAD"
     ]
   },
   {
@@ -2249,7 +2262,7 @@
     "voice_profile": "arthur_weasley",
     "en": "Hello, Harry! I'm Arthur Weasley. I was wondering if you'd help me de-gnome the garden. It's just through the gate but you'll need de-gnoming gloves to grab the gnomes. Unfortunately, I seem to have lost them under all this junk.",
     "tr": "Merhaba Harry! Ben Arthur Weasley. Bahçedeki cüceleri temizlememe yardım eder misin acaba? Kapının hemen ardında ama cüceleri yakalamak için cüce ayıklama eldivenlerine ihtiyacın olacak. Ne yazık ki bütün bu ıvır zıvırın arasında onları kaybettim galiba.",
-    "min_duration": 12.54,
+    "min_duration": 13.98,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2260,7 +2273,7 @@
     "voice_profile": "arthur_weasley",
     "en": "Use your Wingardium Leviosa spell to charm and move the junk. Holding button levitates each piece of junk. Use your directional buttons to move the junk about and press button to drop it on to the rocks and break the junk up.",
     "tr": "Ivır zıvırı büyüleyip hareket ettirmek için Wingardium Leviosa büyünü kullan. butonunu basılı tutmak her bir ıvır zıvır parçasını havaya kaldırır. Yön butonlarını kullanarak ıvır zıvırı hareket ettir ve kayaların üzerine bırakıp parçalamak için butonuna bas.",
-    "min_duration": 15.9,
+    "min_duration": 16.09,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2271,7 +2284,7 @@
     "voice_profile": "arthur_weasley",
     "en": "Could you charm them and drop them on to the rocks please? Maybe we can find those gloves... I know I left them 'round here somewhere...",
     "tr": "Onları büyüleyip kayaların üzerine bırakabilir misin lütfen? Belki şu eldivenleri buluruz... Buralarda bir yere bıraktığıma eminim...",
-    "min_duration": 6.94,
+    "min_duration": 8.13,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2293,7 +2306,7 @@
     "voice_profile": "arthur_weasley",
     "en": "Well done, Harry! Nice work. You've found the de-gnoming gloves. Here they are!",
     "tr": "Aferin Harry! Güzel iş. Cüce ayıklama eldivenlerini buldun. İşte buradalar!",
-    "min_duration": 3.36,
+    "min_duration": 6.01,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2304,7 +2317,7 @@
     "voice_profile": "harry",
     "en": "I think I need to drop the junk higher than that if I want to break it",
     "tr": "Parçalamak istiyorsam ıvır zıvırı bundan daha yüksekten bırakmam gerek sanırım.",
-    "min_duration": 3.36,
+    "min_duration": 3.25,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2315,7 +2328,7 @@
     "voice_profile": "ron",
     "en": "Hey look! Ginny's over by the Puffskein patch. Why don't you go and chat to her? She's been a bit shy lately - I wonder why? I'm off to see what dad\\u00b8s up to.",
     "tr": "Hey baksana! Ginny Pofuduk Puf'ların orada. Neden gidip onunla sohbet etmiyorsun? Son zamanlarda biraz utangaç davranıyor - neden acaba? Ben babamın ne yaptığına bakmaya gidiyorum.",
-    "min_duration": 11.42,
+    "min_duration": 10.89,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2326,7 +2339,7 @@
     "voice_profile": "ron",
     "en": "Remember, Harry, it's just like Charms class last year. Better find the de-gnoming gloves. We can't de-gnome without them!",
     "tr": "Unutma Harry, tıpkı geçen yılki Tılsım dersi gibi. Cüce ayıklama eldivenlerini bulsak iyi olur. Onlar olmadan cüce ayıklayamayız!",
-    "min_duration": 6.27,
+    "min_duration": 6.5,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2337,7 +2350,7 @@
     "voice_profile": "ron",
     "en": "Lift up the crates and then drop them on the rocks below!",
     "tr": "Sandıkları yukarı kaldır ve aşağıdaki kayaların üzerine bırak!",
-    "min_duration": 2.69,
+    "min_duration": 2.76,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2348,7 +2361,7 @@
     "voice_profile": "ron",
     "en": "Thanks for helping dad out, Harry! You've also learnt how to charm objects and I\\u00b8m sure that will come in very handy!",
     "tr": "Babama yardım ettiğin için teşekkürler Harry! Nesneleri nasıl büyüleyeceğini de öğrendin ve eminim bu çok işine yarayacak!",
-    "min_duration": 6.27,
+    "min_duration": 6.18,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2359,7 +2372,7 @@
     "voice_profile": "ron",
     "en": "The sooner we de-gnome the garden, the sooner we can get some sleep. I'm exhausted!",
     "tr": "Bahçedeki cüceleri ne kadar çabuk temizlersek o kadar çabuk uyuyabiliriz. Pestilim çıktı!",
-    "min_duration": 4.93,
+    "min_duration": 4.55,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2370,7 +2383,7 @@
     "voice_profile": "ron",
     "en": "Hello there, fancy a wizard duel?",
     "tr": "Merhaba, bir büyücü düellosuna ne dersin?",
-    "min_duration": 2.24,
+    "min_duration": 2.28,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2381,7 +2394,7 @@
     "voice_profile": "ron",
     "en": "Don't tell me you've never taken part in a wizard duel! You\\u00b8ve got a lot to learn, Harry.",
     "tr": "Daha önce hiç büyücü düellosuna katılmadım deme sakın! Öğreneceğin çok şey var Harry.",
-    "min_duration": 3.14,
+    "min_duration": 4.39,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2392,7 +2405,7 @@
     "voice_profile": "ron",
     "en": "Of course it's safe...well, mostly...",
     "tr": "Elbette güvenli... yani, çoğunlukla...",
-    "min_duration": 2.24,
+    "min_duration": 3.9,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2403,7 +2416,7 @@
     "voice_profile": "harry",
     "en": "A wizard duel?",
     "tr": "Büyücü düellosu mu?",
-    "min_duration": 1.34,
+    "min_duration": 1.14,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2414,7 +2427,7 @@
     "voice_profile": "harry",
     "en": "Is this safe?",
     "tr": "Bu güvenli mi?",
-    "min_duration": 1.57,
+    "min_duration": 1.46,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2425,7 +2438,7 @@
     "voice_profile": "arthur_weasley",
     "en": "Thanks for all your help, Harry. I think Ron's run off ahead through the gate to do some de-gnoming.",
     "tr": "Tüm yardımın için teşekkürler Harry. Sanırım Ron cüce ayıklamak için kapıdan önden koşup gitti.",
-    "min_duration": 4.7,
+    "min_duration": 5.69,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2436,7 +2449,7 @@
     "voice_profile": "ron",
     "en": "See you later, Harry!",
     "tr": "Sonra görüşürüz Harry!",
-    "min_duration": 1.34,
+    "min_duration": 1.14,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2447,7 +2460,7 @@
     "voice_profile": "ginny",
     "en": "Hello, Harry! Pleased to meet you. I'm Ginny. I'm just looking after our Puffskein, making sure that Fred and George don\\u00b8t use it as a Bludger when they play Quidditch.",
     "tr": "M-merhaba Harry! Tanıştığıma memnun oldum. Ben Ginny. Pofuduk Puf'umuza göz kulak oluyorum, Fred ve George Quidditch oynarken onu Bludger olarak kullanmasın diye.",
-    "min_duration": 8.74,
+    "min_duration": 9.1,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2458,7 +2471,7 @@
     "voice_profile": "ginny",
     "en": "Guide the Puffskein over to the bushes and it\\u00b8ll eat them, revealing Every Flavour Beans that you can collect. Beans can be used to buy Famous Witches and Wizards cards from Fred and George at Hogwarts.",
     "tr": "Pofuduk Puf'u çalılara doğru yönlendir, onları yiyecek ve toplayabileceğin Binbir Çeşit Fasulye ortaya çıkacaktır. Fasulyeler Hogwarts'ta Fred ve George'dan Ünlü Cadı ve Büyücü kartları satın almak için kullanılabilir.",
-    "min_duration": 12.77,
+    "min_duration": 10.73,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2469,7 +2482,7 @@
     "voice_profile": "ginny",
     "en": "If you guide the Puffskein over to the bushes it\\u00b8ll eat them and you may be able to find a Famous Witches and Wizards card!",
     "tr": "Pofuduk Puf'u çalılara doğru yönlendirirsen onları yer ve bir Ünlü Cadı ve Büyücü kartı bulabilirsin!",
-    "min_duration": 6.5,
+    "min_duration": 6.34,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2480,7 +2493,7 @@
     "voice_profile": "ginny",
     "en": "Whenever you get a Wizard card, it is put into your Folio Magi. Press the SELECT button. This will show you the Folio Magi and the Wizard cards you have collected at that point.",
     "tr": "Ne zaman bir Büyücü kartı alsan Folio Magi albümüne konur. SELECT butonuna bas. Bu sana Folio Magi'yi ve o ana kadar topladığın Büyücü kartlarını gösterir.",
-    "min_duration": 9.86,
+    "min_duration": 11.38,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2491,7 +2504,7 @@
     "voice_profile": "ginny",
     "en": "There are two types of Famous Witches and Wizards cards, the silver cards and the four special gold founder cards!",
     "tr": "İki tür Ünlü Cadı ve Büyücü kartı vardır: Gümüş kartlar ve dört özel altın kurucu kartı!",
-    "min_duration": 6.94,
+    "min_duration": 7.48,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2502,7 +2515,7 @@
     "voice_profile": "ginny",
     "en": "Erm... enjoy the Burrow, Harry.",
     "tr": "Şey... Kovuk'un tadını çıkar Harry.",
-    "min_duration": 2.69,
+    "min_duration": 1.95,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2513,7 +2526,7 @@
     "voice_profile": "ginny",
     "en": "Well done, Harry! Here's a Famous Witches and Wizards card!",
     "tr": "Aferin Harry! İşte bir Ünlü Cadı ve Büyücü kartı!",
-    "min_duration": 4.48,
+    "min_duration": 3.58,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2524,7 +2537,7 @@
     "voice_profile": "ginny",
     "en": "Best find Ron, Harry. He's gone off to see dad I think. It's this way",
     "tr": "Ron'u bulsan iyi olur Harry. Sanırım babamın yanına gitti. Bu taraftan.",
-    "min_duration": 3.58,
+    "min_duration": 5.04,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2535,7 +2548,7 @@
     "voice_profile": "ginny",
     "en": "It's just through here, Harry. See you later!",
     "tr": "Hemen şuradan Harry. Sonra görüşürüz!",
-    "min_duration": 2.02,
+    "min_duration": 2.93,
     "wads": [
       "T1L2M007.WAD"
     ]
@@ -2579,7 +2592,7 @@
     "voice_profile": "narrator",
     "en": "Hengist of Woodcroft",
     "tr": "Hengist of Woodcroft",
-    "min_duration": 1.57,
+    "min_duration": 1.63,
     "wads": [
       "T1L2M009.WAD"
     ]
@@ -2590,7 +2603,7 @@
     "voice_profile": "ginny",
     "en": "Oh hi, Harry! Thank goodness you came. My puffskein swallowed my Remembrall and I got lost trying to find him! A Remembrall tells you if there's something you've forgotten to do. You can have it, Harry. I don\\u00b8t have my wand on me now, so use your Knockback Jinx on the puffskein, and he'll spit it out.",
     "tr": "Oh selam Harry! Çok şükür geldin. Pofuduk Puf'um Hatırlatıcı'mı yuttu, ben de onu ararken kayboldum! Bir Hatırlatıcı sana yapmayı unuttuğun bir şey olup olmadığını söyler. Sende kalabilir Harry. Şu an yanımda asam yok, o yüzden Pofuduk Puf'a Flipendo büyünü yaparsan onu tükürecektir.",
-    "min_duration": 17.25,
+    "min_duration": 19.02,
     "wads": [
       "T1L2M009.WAD"
     ]
@@ -2601,7 +2614,7 @@
     "voice_profile": "ron",
     "en": "Ah, Ginny. There you are! Nice work, Harry! Hope dad's junk wasn't too much of a problem for you. Right we better get back to the house. Mum and dad are waiting to take us to Diagon Alley!",
     "tr": "Ah Ginny, işte buradasın! Güzel iş Harry! Umarım babamın ıvır zıvırları senin için pek sorun olmamıştır. Pekâlâ, eve dönsek iyi olur. Annemle babam bizi Diagon Yolu'na götürmek için bekliyor!",
-    "min_duration": 10.75,
+    "min_duration": 11.87,
     "wads": [
       "T1L2M009.WAD"
     ]
@@ -3973,6 +3986,138 @@
     ]
   },
   {
+    "line_hash": "9d617101f2e4",
+    "character": "hagrid",
+    "voice_profile": "hagrid",
+    "en": "How can I help you?",
+    "tr": "Nasıl yardımcı olabilirim?",
+    "min_duration": 1.3,
+    "wads": [
+      "T1L3M002.WAD"
+    ]
+  },
+  {
+    "line_hash": "c0e3e4a517f8",
+    "character": "hagrid",
+    "voice_profile": "hagrid",
+    "en": "Can I have some lacewing flies, please?",
+    "tr": "Biraz zarkanatlı sinek alabilir miyim lütfen?",
+    "min_duration": 1.95,
+    "wads": [
+      "T1L3M002.WAD"
+    ]
+  },
+  {
+    "line_hash": "649060b5bc50",
+    "character": "hagrid",
+    "voice_profile": "hagrid",
+    "en": "I do, indeed, have some lacewing flies in stock, but they move too quickly for me to catch.",
+    "tr": "Elimde gerçekten de biraz zarkanatlı sinek var ama yakalayamayacağım kadar hızlı hareket ediyorlar.",
+    "min_duration": 5.69,
+    "wads": [
+      "T1L3M002.WAD"
+    ]
+  },
+  {
+    "line_hash": "80666c7a4ba7",
+    "character": "hagrid",
+    "voice_profile": "hagrid",
+    "en": "They\\u00b8re hiding in one of these boxes. If you can catch five for me, I\\u00b8ll let you keep them.",
+    "tr": "Şu kutulardan birinde saklanıyorlar. Benim için beş tane yakalayabilirsen sende kalmalarına izin veririm.",
+    "min_duration": 4.71,
+    "wads": [
+      "T1L3M002.WAD"
+    ]
+  },
+  {
+    "line_hash": "aabea5b086be",
+    "character": "hagrid",
+    "voice_profile": "hagrid",
+    "en": "You need to collect all the flies within the time limit.",
+    "tr": "Süre dolmadan bütün sinekleri toplaman gerek.",
+    "min_duration": 3.09,
+    "wads": [
+      "T1L3M002.WAD"
+    ]
+  },
+  {
+    "line_hash": "3981338437d3",
+    "character": "hagrid",
+    "voice_profile": "hagrid",
+    "en": "Be more careful, you\\u00b8re breaking all my merchandise. You must start again now.",
+    "tr": "Daha dikkatli ol, bütün mallarımı kırıyorsun. Şimdi yeniden başlamalısın.",
+    "min_duration": 3.74,
+    "wads": [
+      "T1L3M002.WAD"
+    ]
+  },
+  {
+    "line_hash": "888cabbc42a8",
+    "character": "hagrid",
+    "voice_profile": "hagrid",
+    "en": "You've run out of time.",
+    "tr": "Süren bitti.",
+    "min_duration": 1.46,
+    "wads": [
+      "T1L3M002.WAD"
+    ]
+  },
+  {
+    "line_hash": "2571cc564f96",
+    "character": "hagrid",
+    "voice_profile": "hagrid",
+    "en": "Try and be quicker.",
+    "tr": "Tekrar dene ve daha hızlı ol.",
+    "min_duration": 1.46,
+    "wads": [
+      "T1L3M002.WAD"
+    ]
+  },
+  {
+    "line_hash": "2af16b66e8ab",
+    "character": "hagrid",
+    "voice_profile": "hagrid",
+    "en": "Well done, you've collected all the flies. I certainly won't be missing them. Now, buzz off...",
+    "tr": "Aferin, bütün sinekleri topladın. Eksikliklerini hiç hissetmeyeceğim doğrusu. Şimdi vızıldayıp git başımdan...",
+    "min_duration": 6.34,
+    "wads": [
+      "T1L3M002.WAD"
+    ]
+  },
+  {
+    "line_hash": "9da2b4910585",
+    "character": "hagrid",
+    "voice_profile": "hagrid",
+    "en": "Welcome to the Magical Menagerie.",
+    "tr": "Sihirli Menajeri'ye hoş geldiniz.",
+    "min_duration": 2.76,
+    "wads": [
+      "T1L3M002.WAD"
+    ]
+  },
+  {
+    "line_hash": "9cd224ecf0d8",
+    "character": "hagrid",
+    "voice_profile": "hagrid",
+    "en": "Is this better?",
+    "tr": "Böyle daha iyi mi?",
+    "min_duration": 1.14,
+    "wads": [
+      "T1L3M002.WAD"
+    ]
+  },
+  {
+    "line_hash": "1e69e7cc6431",
+    "character": "hagrid",
+    "voice_profile": "hagrid",
+    "en": "It doesn't look very Christmassy in here, does it?",
+    "tr": "Burası pek Noel havasında görünmüyor, değil mi?",
+    "min_duration": 2.44,
+    "wads": [
+      "T1L3M002.WAD"
+    ]
+  },
+  {
     "line_hash": "43f6046c9a70",
     "character": "ron",
     "voice_profile": "ron",
@@ -5254,7 +5399,7 @@
     "voice_profile": "narrator",
     "en": "Crispin Cronk",
     "tr": "Crispin Cronk",
-    "min_duration": 1.34,
+    "min_duration": 0.98,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5277,7 +5422,7 @@
     "voice_profile": "lockhart",
     "en": "Splendid!",
     "tr": "Harika!",
-    "min_duration": 1.34,
+    "min_duration": 1.46,
     "wads": [
       "T1L4M007.WAD",
       "T1L6M003.WAD"
@@ -5289,7 +5434,7 @@
     "voice_profile": "lockhart",
     "en": "Perfection!",
     "tr": "Kusursuz!",
-    "min_duration": 1.34,
+    "min_duration": 1.79,
     "wads": [
       "T1L4M007.WAD",
       "T1L6M003.WAD"
@@ -5301,7 +5446,7 @@
     "voice_profile": "lockhart",
     "en": "Very stylish - just like me!",
     "tr": "Çok havalı - tıpkı benim gibi!",
-    "min_duration": 2.46,
+    "min_duration": 3.09,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5312,7 +5457,7 @@
     "voice_profile": "lockhart",
     "en": "Dear, dear...",
     "tr": "Vah vah...",
-    "min_duration": 2.02,
+    "min_duration": 0.81,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5323,7 +5468,7 @@
     "voice_profile": "lockhart",
     "en": "Oh, dear...",
     "tr": "Tüh vah...",
-    "min_duration": 1.57,
+    "min_duration": 1.14,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5334,7 +5479,7 @@
     "voice_profile": "lockhart",
     "en": "Oh, no...",
     "tr": "Olamaz...",
-    "min_duration": 1.34,
+    "min_duration": 1.63,
     "wads": [
       "T1L4M007.WAD",
       "T1L6M003.WAD"
@@ -5346,7 +5491,7 @@
     "voice_profile": "lockhart",
     "en": "Ah, Harry, you finally made it. Terrible news about young Mr. Creevey being petrified, not to mention poor Mrs. Norris.",
     "tr": "Ah Harry, sonunda gelebildin. Zavallı Mrs Norris bir yana, genç Bay Creevey'nin taşlaşması korkunç bir haber.",
-    "min_duration": 6.94,
+    "min_duration": 7.96,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5357,7 +5502,7 @@
     "voice_profile": "lockhart",
     "en": "No need to worry, though - as your Defence Against the Dark Arts teacher, I'll save the day!",
     "tr": "Yine de endişelenmeye gerek yok - Karanlık Sanatlara Karşı Savunma öğretmeniniz olarak günü ben kurtaracağım!",
-    "min_duration": 5.38,
+    "min_duration": 4.39,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5368,7 +5513,7 @@
     "voice_profile": "lockhart",
     "en": "Watch my expensive wand as it moves and press the symbols it points to!",
     "tr": "Pahalı asam hareket ederken onu izle ve işaret ettiği sembollere bas!",
-    "min_duration": 6.05,
+    "min_duration": 3.9,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5379,7 +5524,7 @@
     "voice_profile": "lockhart",
     "en": "Do this three times and you will learn Verdimillious Duo!",
     "tr": "Bunu üç kez yaparsan Verdimillious Duo büyüsünü öğreneceksin!",
-    "min_duration": 4.26,
+    "min_duration": 4.39,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5390,7 +5535,7 @@
     "voice_profile": "lockhart",
     "en": "That's the easy one. Ready now?",
     "tr": "Bu kolay olanıydı. Hazır mısın?",
-    "min_duration": 1.79,
+    "min_duration": 2.11,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5401,7 +5546,7 @@
     "voice_profile": "lockhart",
     "en": "One more to go, get ready.",
     "tr": "Bir tane kaldı, hazırlan.",
-    "min_duration": 1.79,
+    "min_duration": 1.95,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5412,7 +5557,7 @@
     "voice_profile": "lockhart",
     "en": "That's the last repetition.",
     "tr": "Bu son tekrar.",
-    "min_duration": 1.57,
+    "min_duration": 1.79,
     "wads": [
       "T1L4M007.WAD",
       "T1L6M003.WAD"
@@ -5424,7 +5569,7 @@
     "voice_profile": "lockhart",
     "en": "You\\u00b8ve earned a passable grade. Well done.",
     "tr": "Geçer not aldın. Aferin.",
-    "min_duration": 2.02,
+    "min_duration": 2.28,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5435,7 +5580,7 @@
     "voice_profile": "lockhart",
     "en": "If you come back later you can try for a better grade and earn a special prize!",
     "tr": "Daha sonra tekrar gelirsen daha iyi bir not almaya çalışabilir ve özel bir ödül kazanabilirsin!",
-    "min_duration": 5.38,
+    "min_duration": 4.55,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5458,7 +5603,7 @@
     "voice_profile": "lockhart",
     "en": "Excellent \\u00b5 quite excellent!. And so, to business...",
     "tr": "Mükemmel - gerçekten mükemmel! Şimdi işe koyulalım...",
-    "min_duration": 4.7,
+    "min_duration": 4.55,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5469,7 +5614,7 @@
     "voice_profile": "lockhart",
     "en": "Come to try the Petrificus Totalus! spell again? You should do better this time.",
     "tr": "Petrificus Totalus büyüsünü tekrar denemeye mi geldin? Bu sefer daha iyisini yapmalısın.",
-    "min_duration": 4.7,
+    "min_duration": 4.55,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5480,7 +5625,7 @@
     "voice_profile": "lockhart",
     "en": "Would you like to make improvements to your current grade, Harry?",
     "tr": "Şimdiki notunu yükseltmek ister misin Harry?",
-    "min_duration": 3.14,
+    "min_duration": 2.93,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5503,7 +5648,7 @@
     "voice_profile": "lockhart",
     "en": "That\\u00b8s all there is to it, Potter! Well done!",
     "tr": "İşte hepsi bu kadar, Potter! Aferin!",
-    "min_duration": 2.46,
+    "min_duration": 2.93,
     "wads": [
       "T1L4M007.WAD",
       "T1L6M003.WAD"
@@ -5515,7 +5660,7 @@
     "voice_profile": "narrator",
     "en": "Nearly Headless Nick! Oh no!",
     "tr": "Neredeyse Kafasız Nick! Olamaz!",
-    "min_duration": 3.14,
+    "min_duration": 3.09,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5526,7 +5671,7 @@
     "voice_profile": "lockhart",
     "en": "Time to put the spell you've learned to practical use...",
     "tr": "Öğrendiğin büyüyü uygulamaya koyma vakti...",
-    "min_duration": 3.58,
+    "min_duration": 2.93,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5537,7 +5682,7 @@
     "voice_profile": "lockhart",
     "en": "Now, Harry, hold down the button to cast a fully-charged Verdimillious Duo spell.",
     "tr": "Şimdi Harry, tam dolu bir Verdimillious Duo büyüsü yapmak için butonunu basılı tut.",
-    "min_duration": 6.72,
+    "min_duration": 6.18,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5548,7 +5693,7 @@
     "voice_profile": "lockhart",
     "en": "Once cast, the spell will show you objects hidden by dark magic. Use what you find to leave the room!",
     "tr": "Büyü yapıldığında sana karanlık büyüyle gizlenmiş nesneleri gösterecektir. Odadan çıkmak için bulduklarını kullan!",
-    "min_duration": 7.17,
+    "min_duration": 6.34,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5559,7 +5704,7 @@
     "voice_profile": "lockhart",
     "en": "Excellent, Harry! I knew you would do it! I'll have to watch myself in a few years time, or you\\u00b8ll be stealing my job!",
     "tr": "Mükemmel Harry! Başaracağını biliyordum! Birkaç yıl sonra ayağımı denk almam gerekecek, yoksa işimi elimden alacaksın!",
-    "min_duration": 7.84,
+    "min_duration": 11.22,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5570,7 +5715,7 @@
     "voice_profile": "lockhart",
     "en": "Now, run along; tomorrow is Valentine\\u00b8s Day and I have something very special planned.",
     "tr": "Şimdi koş bakalım; yarın Sevgililer Günü ve çok özel bir şey planladım.",
-    "min_duration": 4.48,
+    "min_duration": 5.2,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5581,7 +5726,7 @@
     "voice_profile": "lockhart",
     "en": "Oh...Mr. Potter... I'm rather busy at the moment.",
     "tr": "Şey... Bay Potter... Şu anda biraz meşgulüm.",
-    "min_duration": 4.26,
+    "min_duration": 3.41,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5592,7 +5737,7 @@
     "voice_profile": "harry",
     "en": "Ah...well...O.K...If you're sure?",
     "tr": "Ah... şey... pekâlâ... Madem eminsin?",
-    "min_duration": 4.03,
+    "min_duration": 3.74,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5603,7 +5748,7 @@
     "voice_profile": "harry",
     "en": "Professor, I have some information for you, I think Moaning Myrtle was the girl who was killed by the monster fifty years ago, she may know where the entrance to the Chamber of Secrets is!",
     "tr": "Profesör, size vermem gereken bir bilgi var: Bence elli yıl önce canavarın öldürdüğü kız Mızmız Myrtle'dı, Sırlar Odası'nın girişinin nerede olduğunu o biliyor olabilir!",
-    "min_duration": 9.41,
+    "min_duration": 10.73,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -5614,7 +5759,7 @@
     "voice_profile": "harry",
     "en": "Strange, why is the door locked? I'd better find another way around.",
     "tr": "Tuhaf, kapı neden kilitli? Başka bir yol bulsam iyi olur.",
-    "min_duration": 6.05,
+    "min_duration": 5.69,
     "wads": [
       "T1L4M007.WAD"
     ]
@@ -6258,7 +6403,8 @@
     "tr": "Albus Dumbledore",
     "min_duration": 1.63,
     "wads": [
-      "T1L5M002.WAD"
+      "T1L5M002.WAD",
+      "T1L8M005.WAD"
     ]
   },
   {
@@ -7538,7 +7684,7 @@
     "voice_profile": "snape",
     "en": "GET READY TO MIX!",
     "tr": "KARIŞTIRMAYA HAZIR OL!",
-    "min_duration": 1.34,
+    "min_duration": 2.11,
     "wads": [
       "T1L5M009.WAD",
       "T1L6M005.WAD"
@@ -7550,7 +7696,7 @@
     "voice_profile": "snape",
     "en": "MIX!",
     "tr": "KARIŞTIR!",
-    "min_duration": 0.9,
+    "min_duration": 0.98,
     "wads": [
       "T1L5M009.WAD",
       "T1L6M005.WAD",
@@ -7587,7 +7733,7 @@
     "voice_profile": "snape",
     "en": "7 Chizpurfle fangs.",
     "tr": "7 Chizpurfle dişi.",
-    "min_duration": 1.79,
+    "min_duration": 2.6,
     "wads": [
       "T1L5M009.WAD",
       "T1L6M005.WAD",
@@ -7600,7 +7746,7 @@
     "voice_profile": "snape",
     "en": "Billywig sting slime.",
     "tr": "Billywig iğnesi salgısı.",
-    "min_duration": 1.63,
+    "min_duration": 1.79,
     "wads": [
       "T1L5M009.WAD",
       "T1L6M005.WAD",
@@ -7698,7 +7844,7 @@
     "voice_profile": "snape",
     "en": "Stir Clockwise.",
     "tr": "Saat Yönünde Karıştır.",
-    "min_duration": 2.11,
+    "min_duration": 2.28,
     "wads": [
       "T1L5M009.WAD",
       "T1L6M005.WAD",
@@ -7711,7 +7857,7 @@
     "voice_profile": "snape",
     "en": "Shredded Alihotsy leaves.",
     "tr": "Kıyılmış Alihotsy yaprakları.",
-    "min_duration": 1.46,
+    "min_duration": 2.11,
     "wads": [
       "T1L5M009.WAD",
       "T1L6M005.WAD",
@@ -8375,7 +8521,7 @@
     "voice_profile": "snape",
     "en": "Silence! Mixing potions is a very precise science.",
     "tr": "Sessizlik! İksir hazırlamak son derece hassas bir bilimdir.",
-    "min_duration": 5.82,
+    "min_duration": 5.53,
     "wads": [
       "T1L6M005.WAD"
     ]
@@ -8386,7 +8532,7 @@
     "voice_profile": "snape",
     "en": "I suggest that Potter, Weasley and Longbottom listen carefully to my every word. This year, like last year, I won't allow any disobedience...",
     "tr": "Potter, Weasley ve Longbottom'ın ağzımdan çıkan her kelimeyi cankulağıyla dinlemesini tavsiye ederim. Geçen yıl olduğu gibi bu yıl da hiçbir itaatsizliğe göz yummayacağım...",
-    "min_duration": 10.75,
+    "min_duration": 9.1,
     "wads": [
       "T1L6M005.WAD"
     ]
@@ -8397,7 +8543,7 @@
     "voice_profile": "snape",
     "en": "Pay attention, Potter. You are going to remind us how to mix a Wiggenweld Potion. If you remember, you must first activate the cauldron.",
     "tr": "Dikkatini ver, Potter. Bize Wiggenweld İksiri'nin nasıl karıştırılacağını hatırlatacaksın. Hatırlarsan, önce kazanı etkinleştirmelisin.",
-    "min_duration": 8.74,
+    "min_duration": 10.24,
     "wads": [
       "T1L6M005.WAD"
     ]
@@ -8408,7 +8554,7 @@
     "voice_profile": "snape",
     "en": "With this done, you must then press the three symbols indicated, until the cauldron fills.",
     "tr": "Bunu yaptıktan sonra, kazan dolana kadar gösterilen üç sembole basmalısın.",
-    "min_duration": 5.15,
+    "min_duration": 5.2,
     "wads": [
       "T1L6M005.WAD"
     ]
@@ -8419,7 +8565,7 @@
     "voice_profile": "snape",
     "en": "Good enough. Only a fool would expect better of you.",
     "tr": "Yeterince iyi. Senden daha fazlasını ancak bir ahmak beklerdi.",
-    "min_duration": 4.93,
+    "min_duration": 3.58,
     "wads": [
       "T1L6M005.WAD"
     ]
@@ -8430,7 +8576,7 @@
     "voice_profile": "snape",
     "en": "Now remember, when the cauldron is full, you can activate it to gain the Wiggenweld Potion.",
     "tr": "Şimdi unutma, kazan dolduğunda Wiggenweld İksiri'ni elde etmek için onu etkinleştirebilirsin.",
-    "min_duration": 6.72,
+    "min_duration": 4.88,
     "wads": [
       "T1L6M005.WAD"
     ]
@@ -8441,7 +8587,7 @@
     "voice_profile": "snape",
     "en": "Class dismissed!",
     "tr": "Ders bitmiştir!",
-    "min_duration": 1.79,
+    "min_duration": 1.14,
     "wads": [
       "T1L6M005.WAD"
     ]
@@ -8452,7 +8598,7 @@
     "voice_profile": "ron",
     "en": "Let's go, Harry!",
     "tr": "Hadi gidelim Harry!",
-    "min_duration": 6.83,
+    "min_duration": 1.3,
     "wads": [
       "T1L6M006.WAD"
     ]
@@ -8463,7 +8609,7 @@
     "voice_profile": "ron",
     "en": "Blimey, Harry! Where have you been? We\\u00b8ve been waiting ages for you.",
     "tr": "Vay canına Harry! Neredeydin? Asırlardır seni bekliyoruz.",
-    "min_duration": 6.05,
+    "min_duration": 4.39,
     "wads": [
       "T1L6M006.WAD"
     ]
@@ -8474,7 +8620,7 @@
     "voice_profile": "ron",
     "en": "It gets pretty cold in these dungeons when you've been standing about waiting. Let's get to the party, Harry. It's just through the door behind me.",
     "tr": "Öylece dikilip beklerken bu zindanlar epey soğuk oluyor. Hadi partiye gidelim Harry. Hemen arkamdaki kapıdan giriliyor.",
-    "min_duration": 9.18,
+    "min_duration": 6.83,
     "wads": [
       "T1L6M006.WAD"
     ]
@@ -8485,7 +8631,7 @@
     "voice_profile": "peeves",
     "en": "It's Potty Wee Potter - he can't get across! Oh what a baby - he's all at a loss!",
     "tr": "İşte Çatlak Ufaklık Potter, karşıya geçemez asla! Ah ne bebek ama, eli ayağı dolandı korkuyla!",
-    "min_duration": 5.15,
+    "min_duration": 6.18,
     "wads": [
       "T1L6M006.WAD"
     ]
@@ -8496,7 +8642,7 @@
     "voice_profile": "peeves",
     "en": "Can't find your pals, Potty! Don't cry!",
     "tr": "Arkadaşlarını bulamadın mı Çatlak Potter! Ağlama sakın!",
-    "min_duration": 4.93,
+    "min_duration": 3.09,
     "wads": [
       "T1L6M006.WAD"
     ]
@@ -8507,7 +8653,18 @@
     "voice_profile": "peeves",
     "en": "Poor old Potty! Can't find his way to the party!",
     "tr": "Zavallı koca Çatlak! Partinin yolunu bulamadı şapşal!",
-    "min_duration": 5.38,
+    "min_duration": 2.6,
+    "wads": [
+      "T1L6M006.WAD"
+    ]
+  },
+  {
+    "line_hash": "43e0f9447000",
+    "character": "peeves",
+    "voice_profile": "peeves",
+    "en": "The dungeon is a nasty place, but you'll fit in with that ugly face!",
+    "tr": "Zindan pis bir yerdir ama o çirkin suratınla tam buraya göresin!",
+    "min_duration": 4.39,
     "wads": [
       "T1L6M006.WAD"
     ]
@@ -8733,12 +8890,23 @@
     ]
   },
   {
+    "line_hash": "e243705854b2",
+    "character": "narrator",
+    "voice_profile": "narrator",
+    "en": "Gaspard Shingleton",
+    "tr": "Gaspard Shingleton",
+    "min_duration": 1.46,
+    "wads": [
+      "T1L6M009.WAD"
+    ]
+  },
+  {
     "line_hash": "5f8c7b889f4e",
     "character": "ron",
     "voice_profile": "ron",
     "en": "Herbology\\u00b8s this way...",
     "tr": "Bitkibilim bu tarafta...",
-    "min_duration": 1.57,
+    "min_duration": 1.63,
     "wads": [
       "T1L7M001.WAD"
     ]
@@ -8749,7 +8917,7 @@
     "voice_profile": "ron",
     "en": "I Heard about the Flying Car... Classic! Professor Sprout has put me here to tell all students where Greenhouse Three is! It's through here!",
     "tr": "Uçan Araba'yı duydum... Tam bir klasik! Profesör Sprout bütün öğrencilere Sera Üç'ün yerini söyleyeyim diye beni buraya dikti! Buradan gidiliyor!",
-    "min_duration": 8.51,
+    "min_duration": 8.13,
     "wads": [
       "T1L7M001.WAD"
     ]
@@ -8760,7 +8928,7 @@
     "voice_profile": "ron",
     "en": "It's Herbology next - come on!",
     "tr": "Sırada Bitkibilim var; hadi!",
-    "min_duration": 1.34,
+    "min_duration": 2.28,
     "wads": [
       "T1L7M001.WAD"
     ]
@@ -8771,7 +8939,7 @@
     "voice_profile": "ron",
     "en": "Entrance to Hogwarts School of Witchcraft and Wizardry and Quidditch Training",
     "tr": "Hogwarts Cadılık ve Büyücülük Okulu ve Quidditch Antrenmanı Girişi",
-    "min_duration": 3.81,
+    "min_duration": 5.04,
     "wads": [
       "T1L7M001.WAD"
     ]
@@ -8782,7 +8950,7 @@
     "voice_profile": "oliver_wood",
     "en": "Hello again, Potter! I'm still trying to get onto the Quidditch team. Maybe this year I'll have some luck. Could you mention me to Oliver Wood? You are the Gryffindor Seeker after all.",
     "tr": "Yeniden merhaba Potter! Hâlâ Quidditch takımına girmeye çalışıyorum. Belki bu yıl şansım yaver gider. Oliver Wood'a benden bahsedebilir misin? Ne de olsa Gryffindor Arayıcısısın.",
-    "min_duration": 8.96,
+    "min_duration": 7.8,
     "wads": [
       "T1L7M001.WAD"
     ]
@@ -8793,7 +8961,7 @@
     "voice_profile": "neville",
     "en": "Harry, I've missed Herbology and Professor Sprout's going to be really angry.",
     "tr": "Harry, Bitkibilim dersini kaçırdım ve Profesör Sprout çok kızacak.",
-    "min_duration": 4.26,
+    "min_duration": 4.71,
     "wads": [
       "T1L7M001.WAD"
     ]
@@ -8804,7 +8972,7 @@
     "voice_profile": "neville",
     "en": "I got lost and ended up coming out of this wall behind me. It must be a secret passage!",
     "tr": "Kayboldum ve sonunda arkamdaki bu duvardan dışarı çıktım. Gizli bir geçit olmalı!",
-    "min_duration": 4.7,
+    "min_duration": 5.04,
     "wads": [
       "T1L7M001.WAD"
     ]
@@ -8815,7 +8983,7 @@
     "voice_profile": "harry",
     "en": "Hello Neville, what happened?",
     "tr": "Merhaba Neville, ne oldu?",
-    "min_duration": 2.02,
+    "min_duration": 1.79,
     "wads": [
       "T1L7M001.WAD"
     ]
@@ -8826,7 +8994,7 @@
     "voice_profile": "oliver_wood",
     "en": "Harry, I'm still waiting for you to attend Quidditch Training! Meet me at the Quidditch Training Pitch, across the bridge from Hogwarts main entrance, Oliver Wood.",
     "tr": "Harry, Quidditch Antrenmanı'na gelmeni bekliyorum hâlâ! Hogwarts ana girişinin karşısındaki köprüden geçip Quidditch Antrenman Sahası'nda benimle buluş. Oliver Wood.",
-    "min_duration": 8.74,
+    "min_duration": 7.48,
     "wads": [
       "T1L7M001.WAD"
     ]
@@ -10715,7 +10883,7 @@
     "voice_profile": "snape",
     "en": "GET READY TO MIX!",
     "tr": "KARIŞTIRMAYA HAZIRLAN!",
-    "min_duration": 0.98,
+    "min_duration": 2.11,
     "wads": [
       "T1L8M005.WAD"
     ]
@@ -10737,7 +10905,7 @@
     "voice_profile": "snape",
     "en": "2 drops of Flobberworm mucous.",
     "tr": "2 damla Flobberworm mukusu.",
-    "min_duration": 2.6,
+    "min_duration": 2.28,
     "wads": [
       "T1L8M005.WAD"
     ]
@@ -10748,7 +10916,7 @@
     "voice_profile": "snape",
     "en": "Sprig of mint.",
     "tr": "Bir dal nane.",
-    "min_duration": 1.46,
+    "min_duration": 1.63,
     "wads": [
       "T1L8M005.WAD"
     ]
@@ -10770,7 +10938,7 @@
     "voice_profile": "snape",
     "en": "Drops of Honeywater.",
     "tr": "Birkaç damla Ballısu.",
-    "min_duration": 2.28,
+    "min_duration": 1.79,
     "wads": [
       "T1L8M005.WAD"
     ]
@@ -10781,7 +10949,7 @@
     "voice_profile": "snape",
     "en": "Sloth brain mucous.",
     "tr": "Tembelhayvan beyni mukusu.",
-    "min_duration": 1.46,
+    "min_duration": 2.28,
     "wads": [
       "T1L8M005.WAD"
     ]
@@ -10792,7 +10960,7 @@
     "voice_profile": "snape",
     "en": "Moondew drops.",
     "tr": "Aycığı damlaları.",
-    "min_duration": 2.11,
+    "min_duration": 1.46,
     "wads": [
       "T1L8M005.WAD"
     ]
@@ -10803,7 +10971,7 @@
     "voice_profile": "snape",
     "en": "Sliced Puffapods.",
     "tr": "Dilimlenmiş Pofurpodlar.",
-    "min_duration": 2.28,
+    "min_duration": 2.11,
     "wads": [
       "T1L8M005.WAD"
     ]
@@ -10814,7 +10982,7 @@
     "voice_profile": "snape",
     "en": "Spine of Lion Fish.",
     "tr": "Aslanbalığı Dikeni.",
-    "min_duration": 1.63,
+    "min_duration": 1.46,
     "wads": [
       "T1L8M005.WAD"
     ]
@@ -10836,7 +11004,29 @@
     "voice_profile": "harry",
     "en": "Hagrid said to follow the spiders.",
     "tr": "Hagrid örümcekleri takip etmemizi söyledi.",
+    "min_duration": 2.28,
+    "wads": [
+      "T1L8M005.WAD"
+    ]
+  },
+  {
+    "line_hash": "75861f7c78fe",
+    "character": "snape",
+    "voice_profile": "snape",
+    "en": "Stand where I point, look upon the waterfall and you shall see the light.",
+    "tr": "İşaret ettiğim yerde dur, şelaleye bak, o zaman ışığı göreceksin.",
     "min_duration": 5.69,
+    "wads": [
+      "T1L8M005.WAD"
+    ]
+  },
+  {
+    "line_hash": "b7407d4fd6e9",
+    "character": "snape",
+    "voice_profile": "snape",
+    "en": "Grrreedoure!!",
+    "tr": "Grrreedoure!!",
+    "min_duration": 3.58,
     "wads": [
       "T1L8M005.WAD"
     ]
@@ -10847,7 +11037,7 @@
     "voice_profile": "riddle",
     "en": "...Who is it?",
     "tr": "...Kim o?",
-    "min_duration": 2.02,
+    "min_duration": 2.44,
     "wads": [
       "T1L8M006.WAD"
     ]
@@ -10858,7 +11048,7 @@
     "voice_profile": "harry",
     "en": "I'm a friend of Hagrid's!",
     "tr": "Ben Hagrid'in bir arkadaşıyım!",
-    "min_duration": 2.02,
+    "min_duration": 2.44,
     "wads": [
       "T1L8M006.WAD"
     ]
@@ -10869,7 +11059,7 @@
     "voice_profile": "riddle",
     "en": "\\u000a",
     "tr": "",
-    "min_duration": 3.74,
+    "min_duration": 0.98,
     "wads": [
       "T1L8M006.WAD",
       "T1L8M006.WAD"
@@ -10881,7 +11071,7 @@
     "voice_profile": "harry",
     "en": "Hagrid's in trouble, that's why I came",
     "tr": "Hagrid'in başı dertte, bu yüzden geldim.",
-    "min_duration": 2.69,
+    "min_duration": 3.74,
     "wads": [
       "T1L8M006.WAD"
     ]
@@ -10892,7 +11082,7 @@
     "voice_profile": "riddle",
     "en": "In trouble? But why has he sent you?",
     "tr": "Başı dertte mi? Peki seni niye gönderdi?",
-    "min_duration": 4.93,
+    "min_duration": 4.23,
     "wads": [
       "T1L8M006.WAD"
     ]
@@ -10903,7 +11093,7 @@
     "voice_profile": "harry",
     "en": "They've taken him to Azkaban. They think he's set a monster on students!",
     "tr": "Onu Azkaban'a götürdüler. Öğrencilerin üzerine bir canavar saldığını düşünüyorlar!",
-    "min_duration": 4.48,
+    "min_duration": 4.88,
     "wads": [
       "T1L8M006.WAD"
     ]
@@ -10914,7 +11104,7 @@
     "voice_profile": "riddle",
     "en": "But that was years ago. They thought I was the monster that killed a girl.",
     "tr": "Ama bu yıllar önceydi. Bir kızı öldüren canavarın ben olduğumu sandılar.",
-    "min_duration": 7.39,
+    "min_duration": 8.94,
     "wads": [
       "T1L8M006.WAD"
     ]
@@ -10925,7 +11115,7 @@
     "voice_profile": "riddle",
     "en": "I come from a distant land. A traveller gave me to Hagrid when I was an egg. He cared for me, kept me in a cupboard and fed me.",
     "tr": "Uzak bir diyardan geldim. Bir gezgin henüz yumurtayken beni Hagrid'e verdi. Bana baktı, bir dolapta sakladı ve besledi.",
-    "min_duration": 13.66,
+    "min_duration": 13.82,
     "wads": [
       "T1L8M006.WAD"
     ]
@@ -10936,7 +11126,7 @@
     "voice_profile": "riddle",
     "en": "When I was blamed for the death of the girl, Hagrid protected me. Now I live in the forest.",
     "tr": "Kızın ölümünden sorumlu tutulduğumda Hagrid beni korudu. Şimdi ormanda yaşıyorum.",
-    "min_duration": 8.74,
+    "min_duration": 10.73,
     "wads": [
       "T1L8M006.WAD"
     ]
@@ -10947,7 +11137,7 @@
     "voice_profile": "harry",
     "en": "So do you know what did kill her?",
     "tr": "Peki onu neyin öldürdüğünü biliyor musun?",
-    "min_duration": 2.69,
+    "min_duration": 2.28,
     "wads": [
       "T1L8M006.WAD"
     ]
@@ -10958,7 +11148,7 @@
     "voice_profile": "riddle",
     "en": "The thing that lives in the castle is an ancient creature we spiders fear above all others. We don't speak its name!",
     "tr": "Şatoda yaşayan şey, biz örümceklerin her şeyden çok korktuğu kadim bir yaratık. Adını ağzımıza almayız!",
-    "min_duration": 10.98,
+    "min_duration": 14.47,
     "wads": [
       "T1L8M006.WAD"
     ]
@@ -10969,7 +11159,7 @@
     "voice_profile": "harry",
     "en": "Ok - I'll just go then.",
     "tr": "Pekala - o halde ben artık gideyim.",
-    "min_duration": 1.79,
+    "min_duration": 2.76,
     "wads": [
       "T1L8M006.WAD"
     ]
@@ -10980,7 +11170,7 @@
     "voice_profile": "riddle",
     "en": "Go? I think not...",
     "tr": "Gitmek mi? Hiç sanmıyorum...",
-    "min_duration": 3.58,
+    "min_duration": 3.9,
     "wads": [
       "T1L8M006.WAD"
     ]
@@ -11623,7 +11813,7 @@
     "voice_profile": "draco",
     "en": "Expelliramus!",
     "tr": "Expelliarmus!",
-    "min_duration": 1.34,
+    "min_duration": 1.63,
     "wads": [
       "T1L9M004.WAD"
     ]
@@ -11634,7 +11824,7 @@
     "voice_profile": "ron",
     "en": "That's a bit harsh!",
     "tr": "Bu biraz ağır oldu!",
-    "min_duration": 2.46,
+    "min_duration": 1.63,
     "wads": [
       "T1L9M004.WAD"
     ]
@@ -11645,7 +11835,7 @@
     "voice_profile": "lockhart",
     "en": "Remember what I taught you, Harry.",
     "tr": "Sana öğrettiklerimi hatırla Harry.",
-    "min_duration": 1.12,
+    "min_duration": 2.28,
     "wads": [
       "T1L9M004.WAD"
     ]
@@ -11656,7 +11846,7 @@
     "voice_profile": "ron",
     "en": "Come on Harry!",
     "tr": "Haydi Harry!",
-    "min_duration": 1.34,
+    "min_duration": 1.63,
     "wads": [
       "T1L9M004.WAD"
     ]
@@ -11667,7 +11857,7 @@
     "voice_profile": "draco",
     "en": "Blimey!",
     "tr": "Vay canına!",
-    "min_duration": 0.9,
+    "min_duration": 0.81,
     "wads": [
       "T1L9M004.WAD"
     ]
@@ -11678,7 +11868,7 @@
     "voice_profile": "lockhart",
     "en": "Get ready...",
     "tr": "Hazır olun...",
-    "min_duration": 0.45,
+    "min_duration": 1.46,
     "wads": [
       "T1L9M004.WAD"
     ]
@@ -11689,7 +11879,7 @@
     "voice_profile": "lockhart",
     "en": "Duel!",
     "tr": "Düello!",
-    "min_duration": 2.46,
+    "min_duration": 0.81,
     "wads": [
       "T1L9M004.WAD"
     ]
@@ -11700,7 +11890,7 @@
     "voice_profile": "draco",
     "en": "Draco wins this round.",
     "tr": "Bu raundu Draco kazanıyor.",
-    "min_duration": 2.91,
+    "min_duration": 2.28,
     "wads": [
       "T1L9M004.WAD"
     ]
@@ -11711,7 +11901,7 @@
     "voice_profile": "draco",
     "en": "And the round goes to Draco Malfoy",
     "tr": "Ve bu raunt Draco Malfoy'un oluyor.",
-    "min_duration": 3.36,
+    "min_duration": 3.9,
     "wads": [
       "T1L9M004.WAD"
     ]
@@ -11722,7 +11912,7 @@
     "voice_profile": "lockhart",
     "en": "And the round goes to Harry Potter!",
     "tr": "Ve bu raunt Harry Potter'ın oluyor!",
-    "min_duration": 6.99,
+    "min_duration": 4.06,
     "wads": [
       "T1L9M004.WAD"
     ]
@@ -11733,7 +11923,7 @@
     "voice_profile": "draco",
     "en": "If it isn't the great Harry Potter! Fancy a duel? I\\u00b8m something of an expert.",
     "tr": "Bak sen, şu bizim ulu Harry Potter değil mi bu! Bir düelloya ne dersin? Bu konuda uzman sayılırım.",
-    "min_duration": 2.02,
+    "min_duration": 6.99,
     "wads": [
       "T1L9M004.WAD"
     ]
@@ -11744,7 +11934,7 @@
     "voice_profile": "ron",
     "en": "Go on Harry, you can do it.",
     "tr": "Haydi Harry, yapabilirsin.",
-    "min_duration": 6.5,
+    "min_duration": 1.63,
     "wads": [
       "T1L9M004.WAD"
     ]
@@ -11755,7 +11945,7 @@
     "voice_profile": "draco",
     "en": "Better watch out for the candles, Potter, they've got Special Jinxes in them. Trust me, you're going to need all the help you can get!",
     "tr": "Mumlara dikkat etsen iyi edersin Potter, içlerinde Özel Uğursuzluk Büyüleri var. Güven bana, alabileceğin tüm yardıma ihtiyacın olacak!",
-    "min_duration": 2.24,
+    "min_duration": 7.96,
     "wads": [
       "T1L9M004.WAD"
     ]
@@ -11766,7 +11956,18 @@
     "voice_profile": "draco",
     "en": "If you think that makes you the winner you've got another thing coming!",
     "tr": "Bunun seni kazanan yaptığını sanıyorsan çok yanılıyorsun!",
-    "min_duration": 4.03,
+    "min_duration": 4.39,
+    "wads": [
+      "T1L9M004.WAD"
+    ]
+  },
+  {
+    "line_hash": "541012e93910",
+    "character": "draco",
+    "voice_profile": "draco",
+    "en": "Try this, Potter \\u00b5 SERPENSORTIA!",
+    "tr": "Bunu dene bakalım Potter — SERPENSORTIA!",
+    "min_duration": 3.41,
     "wads": [
       "T1L9M004.WAD"
     ]

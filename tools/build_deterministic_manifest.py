@@ -22,7 +22,7 @@ from tools.argonaut_xsp import (
     StreamKind,
     XspsEntry,
     classify_stream,
-    find_xsps_table_base,
+    parse_xsps_header,
 )
 from tools.classify_dialogues_exact import classify_record
 from tools.dirdat import DirDatArchive
@@ -38,8 +38,16 @@ DUBBING_DIR = "audio/ingame_dub"
 CUTSCENE_DIR = "audio/turkish_dub"
 
 SPELL_NAMES = {
-    "wingardium leviosa", "flipendo", "alohomora", "lumos", "incendio",
-    "diffindo", "skurge", "avifors", "verdimillious", "repaire"
+    "wingardium leviosa",
+    "flipendo",
+    "alohomora",
+    "lumos",
+    "incendio",
+    "diffindo",
+    "skurge",
+    "avifors",
+    "verdimillious",
+    "repaire",
 }
 
 
@@ -95,7 +103,7 @@ def build_deterministic_manifest():
                 "raw_tr": tr,
                 "clean_en": clean_en,
                 "clean_tr": clean_tr,
-                "is_spell": is_spell
+                "is_spell": is_spell,
             }
 
     all_manifest = []
@@ -123,8 +131,8 @@ def build_deterministic_manifest():
             spsx_pos = wad_bytes.find(b"XSPS")
             if spsx_pos == -1:
                 continue
-            spsx_sz = struct.unpack("<I", wad_bytes[spsx_pos+4 : spsx_pos+8])[0]
-            spsx_data = wad_bytes[spsx_pos+8 : spsx_pos+8+spsx_sz]
+            spsx_sz = struct.unpack("<I", wad_bytes[spsx_pos + 4 : spsx_pos + 8])[0]
+            spsx_data = wad_bytes[spsx_pos + 8 : spsx_pos + 8 + spsx_sz]
 
             # Special case for storybook diorama cutscene WAD T1L1M007
             if stem == "T1L1M007":
@@ -141,69 +149,55 @@ def build_deterministic_manifest():
                         char_name = "narrator"
                         line_h = hashlib.md5(f"{char_name}:{c_tr}".encode()).hexdigest()[:12]
                         max_samples = (sz // 16) * 28
-                        all_manifest.append({
-                            "wad": wad_name,
-                            "stem": stem,
-                            "cue": cid,
-                            "category": "CATEGORY_B_PURE_DIALOGUE",
-                            "is_cutscene": True,
-                            "table_entry_offset": -1,
-                            "audio_base": audio_base,
-                            "audio_offset": spsx_off,
-                            "size_bytes": sz,
-                            "target_sample_rate": 22050,
-                            "max_allowed_samples": max_samples,
-                            "max_duration": round(max_samples / 22050.0, 2),
-                            "character": char_name,
-                            "line_hash": line_h,
-                            "en": c_en,
-                            "tr": c_tr,
-                            "wav_path": f"audio/turkish_dub/line_{i:03d}.wav"
-                        })
+                        all_manifest.append(
+                            {
+                                "wad": wad_name,
+                                "stem": stem,
+                                "cue": cid,
+                                "category": "CATEGORY_B_PURE_DIALOGUE",
+                                "is_cutscene": True,
+                                "table_entry_offset": -1,
+                                "audio_base": audio_base,
+                                "audio_offset": spsx_off,
+                                "size_bytes": sz,
+                                "target_sample_rate": 22050,
+                                "max_allowed_samples": max_samples,
+                                "max_duration": round(max_samples / 22050.0, 2),
+                                "character": char_name,
+                                "line_hash": line_h,
+                                "en": c_en,
+                                "tr": c_tr,
+                                "wav_path": f"audio/turkish_dub/line_{i:03d}.wav",
+                            }
+                        )
                         cat_b_count += 1
                 continue
 
-            # In-game level WAD: parse all audio cue entries
-            base_off = 0
-            if os.path.exists("audio/ground_truth_bases.json"):
-                try:
-                    with open("audio/ground_truth_bases.json", encoding="utf-8") as bf:
-                        bases_map = json.load(bf)
-                        if stem in bases_map:
-                            base_off = int(bases_map[stem]["base_offset"])
-                except Exception:
-                    pass
-            if base_off == 0:
-                trans_file = f"scratch/transcriptions/{stem}.json"
-                if os.path.exists(trans_file):
-                    try:
-                        with open(trans_file, encoding="utf-8") as tf:
-                            t_cues = json.load(tf)
-                            if t_cues:
-                                base_off = t_cues[0]["table_entry_offset"]
-                    except Exception:
-                        pass
-            if base_off == 0:
-                try:
-                    base_off = find_xsps_table_base(spsx_data)
-                except ValueError:
-                    base_off = 0
+            # In-game level WAD: parse all audio cue entries via exact XSPS header
+            try:
+                base_off, cue_count, sboff = parse_xsps_header(spsx_data)
+            except ValueError:
+                base_off, cue_count, sboff = 0, None, 0
+            stream_base = audio_base + sboff
 
-            for c in range(2000):
+            max_c = cue_count if cue_count is not None else 2000
+            for c in range(max_c):
                 e_off = base_off + c * 16
                 if e_off + 16 > len(spsx_data):
                     break
                 a_off, p2, p3, a_sz = struct.unpack("<IIII", spsx_data[e_off : e_off + 16])
-                if a_off == 0xFFFFFFFF or a_sz < 32 or audio_base + a_off + a_sz > len(wad_bytes):
+                if a_off == 0xFFFFFFFF or a_sz < 32 or stream_base + a_off + a_sz > len(wad_bytes):
                     break
 
                 total_cues_processed += 1
                 hw = (p2 >> 16) & 0xFFFF
                 sr_raw = p2 & 0xFFFF
                 calc_sr = round(44100 * sr_raw / 4096) if sr_raw > 0 else 22050
-                target_sr = 16000 if sr_raw == 1486 else (calc_sr if 8000 <= calc_sr <= 48000 else 22050)
+                target_sr = (
+                    16000 if sr_raw == 1486 else (calc_sr if 8000 <= calc_sr <= 48000 else 22050)
+                )
 
-                orig_chunk = wad_bytes[audio_base + a_off : audio_base + a_off + a_sz]
+                orig_chunk = wad_bytes[stream_base + a_off : stream_base + a_off + a_sz]
                 chunk_md5 = hashlib.md5(orig_chunk).hexdigest()
 
                 diag_match = dialogue_by_stem_cue.get(stem, {}).get(c)
@@ -212,16 +206,24 @@ def build_deterministic_manifest():
                 if hw != 2 or diag_match is None or diag_match["is_spell"]:
                     # CATEGORY_A: SFX, BGM loop, spell shout, or non-English audio
                     cat_a_count += 1
-                    exclusion_map[wad_name].append({
-                        "cue": c,
-                        "category": "CATEGORY_A_SFX_BGM",
-                        "hw": hw,
-                        "audio_offset": a_off,
-                        "size_bytes": a_sz,
-                        "table_entry_offset": e_off,
-                        "md5": chunk_md5,
-                        "reason": "ambient_loop" if hw != 2 else ("spell_chant" if (diag_match and diag_match["is_spell"]) else "pure_sfx")
-                    })
+                    exclusion_map[wad_name].append(
+                        {
+                            "cue": c,
+                            "category": "CATEGORY_A_SFX_BGM",
+                            "hw": hw,
+                            "audio_offset": a_off,
+                            "size_bytes": a_sz,
+                            "table_entry_offset": e_off,
+                            "md5": chunk_md5,
+                            "reason": "ambient_loop"
+                            if hw != 2
+                            else (
+                                "spell_chant"
+                                if (diag_match and diag_match["is_spell"])
+                                else "pure_sfx"
+                            ),
+                        }
+                    )
                     continue
 
                 # CATEGORY_B: Spoken English dialogue
@@ -261,7 +263,7 @@ def build_deterministic_manifest():
                     "is_split_stream": stream_kind is StreamKind.SPLIT,
                     "is_cutscene": False,
                     "table_entry_offset": e_off,
-                    "audio_base": audio_base,
+                    "audio_base": stream_base,
                     "audio_offset": a_off,
                     "size_bytes": a_sz,
                     "target_sample_rate": target_sr,
@@ -274,7 +276,7 @@ def build_deterministic_manifest():
                     "en": clean_en,
                     "tr": clean_tr,
                     "orig_md5": chunk_md5,
-                    "wav_path": f"{DUBBING_DIR}/{line_h}.wav"
+                    "wav_path": f"{DUBBING_DIR}/{line_h}.wav",
                 }
                 all_manifest.append(entry_meta)
 
@@ -286,7 +288,7 @@ def build_deterministic_manifest():
                         "en": clean_en,
                         "tr": clean_tr,
                         "min_duration": entry_meta["max_duration"],
-                        "wads": [wad_name]
+                        "wads": [wad_name],
                     }
                 else:
                     unique_lines[line_h]["wads"].append(wad_name)
@@ -308,7 +310,9 @@ def build_deterministic_manifest():
 
     print("\n[OK] Deterministic Manifest Generation Complete!")
     print(f"     -> Category A (Protected SFX/BGM/Spells): {cat_a_count} cues")
-    print(f"     -> Category B (Spoken Dialogue Lines):   {cat_b_count} cues ({len(all_manifest)} entries)")
+    print(
+        f"     -> Category B (Spoken Dialogue Lines):   {cat_b_count} cues ({len(all_manifest)} entries)"
+    )
     print(f"     -> Unique Dialogue Lines for TTS:        {len(unique_list)}")
     print(f"     -> Saved Manifest:       {MANIFEST_OUTPUT}")
     print(f"     -> Saved Unique Lines:   {UNIQUE_LINES_OUTPUT}")

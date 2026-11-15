@@ -18,14 +18,14 @@ import wave
 
 import pytest
 from tools.argonaut_xsp import (
-    SPLIT_OFFSET,
     find_audio_base,
     find_xsps,
+    parse_xsps_header,
     parse_xsps_table,
 )
 from tools.audio_vag import decode_vag_block
 from tools.dirdat import DirDatArchive
-from tools.inject_dialogue import BURROW_CATEGORY_A, VOICE_HW, load_table_base
+from tools.inject_dialogue import BURROW_CATEGORY_A, VOICE_HW
 from tools.iso_fs import Ps1IsoReader
 
 ORIG_BIN = "Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De).bin"
@@ -105,7 +105,9 @@ class TestFullGameDubbingAudit:
                 orig_wad = orig_iso.read_file_bytes("POTTER.DAT", oe.offset, oe.size)
                 turk_wad = turk_iso.read_file_bytes("POTTER.DAT", te.offset, te.size)
 
-                audio_base = find_audio_base(orig_wad)
+                _, spsx = find_xsps(orig_wad)
+                _, _, sboff = parse_xsps_header(spsx)
+                audio_base = find_audio_base(orig_wad) + sboff
                 for item in cues:
                     # hw == 2 without English match are foreign FR/DE slots
                     # intentionally muted by inject_dialogue.py.
@@ -153,57 +155,27 @@ class TestFullGameDubbingAudit:
                 stem = wad_name.replace(".WAD", "")
                 entry = arch.entry_map[wad_name]
                 wad = turk_iso.read_file_bytes("POTTER.DAT", entry.offset, entry.size)
-                audio_base = find_audio_base(wad)
                 _, spsx = find_xsps(wad)
-                entries = parse_xsps_table(spsx, table_base=load_table_base(stem) or 0)
+                table_base, _, sboff = parse_xsps_header(spsx)
+                audio_base = find_audio_base(wad) + sboff
+                entries = parse_xsps_table(spsx, table_base=table_base)
                 cat_a = (
                     set(BURROW_CATEGORY_A)
                     if stem == "T1L2M001"
                     else excl_by_wad.get(wad_name, set())
                 )
-                # Track byte ranges intentionally owned by SPLIT Turkish payloads
-                # (which start at a_off + 0xA800 and may extend into neighbouring foreign slots).
-                from tools.inject_dialogue import detect_split_kinds_from_energy
-
-                energy_splits = detect_split_kinds_from_energy(wad, entries, list(cue_map.keys()))
-                split_ranges: list[tuple[int, int]] = []
-                for e in entries:
-                    if e.cue in cue_map:
-                        row = cue_map[e.cue]
-                        is_split = (
-                            row.get("is_split_stream")
-                            or (
-                                stem == "T1L2M001"
-                                and e.cue in {2, 8, 11, 14, 17, 20, 23, 26, 29, 42, 45}
-                            )
-                            or (
-                                energy_splits.get(e.cue) is not None
-                                and energy_splits[e.cue].value == "split"
-                            )
-                        )
-                        if is_split:
-                            s0 = audio_base + e.audio_offset + SPLIT_OFFSET
-                            split_ranges.append((s0, s0 + e.size_bytes))
 
                 for e in entries:
                     if e.cue in cat_a:
                         continue
                     if e.cue in cue_map:
-                        row = cue_map[e.cue]
                         start = audio_base + e.audio_offset
-                        if row.get("is_split_stream") or (
-                            stem == "T1L2M001"
-                            and e.cue in {2, 8, 11, 14, 17, 20, 23, 26, 29, 42, 45}
-                        ):
-                            start += SPLIT_OFFSET
                         chunk = wad[start : start + e.size_bytes]
                         if _adpcm_rms(chunk) < 10.0:
-                            silent_tr.append((wad_name, e.cue, row["character"]))
+                            silent_tr.append((wad_name, e.cue, cue_map[e.cue]["character"]))
                     elif e.hw == VOICE_HW:
                         f0 = audio_base + e.audio_offset
                         f1 = f0 + e.size_bytes
-                        if any(f0 < sr1 and f1 > sr0 for sr0, sr1 in split_ranges):
-                            continue
                         chunk = wad[f0:f1]
                         if _adpcm_rms(chunk) > 20.0:
                             leaked_foreign.append((wad_name, e.cue))

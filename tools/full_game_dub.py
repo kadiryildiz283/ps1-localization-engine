@@ -27,7 +27,13 @@ from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from tools.argonaut_xsp import SPLIT_OFFSET, find_xsps, parse_xsps_table
+from tools.argonaut_xsp import (
+    SPLIT_OFFSET,
+    StreamKind,
+    find_xsps,
+    parse_xsps_header,
+    parse_xsps_table,
+)
 from tools.audio_vag import decode_adpcm_to_wav
 from tools.cd_patcher import USER_DATA_SIZE, encode_mode2_form1_sector
 from tools.dirdat import DirDatArchive
@@ -36,11 +42,8 @@ from tools.inject_dialogue import (
     BURROW_FOREIGN_CUES,
     VOICE_HW,
     build_plan,
-    burrow_forced_kinds,
-    detect_split_kinds_from_energy,
     inject_wad,
     load_dialogue_map,
-    load_table_base,
 )
 from tools.iso_fs import Ps1IsoReader
 
@@ -191,14 +194,13 @@ def inject_all_wads(
         with open(in_wad, "rb") as f:
             raw = f.read()
 
-        table_base = load_table_base(stem) or 0
         dialogue_map = load_dialogue_map(manifest_path, stem)
         _, spsx_data = find_xsps(raw)
+        table_base, _, sboff = parse_xsps_header(spsx_data)
         entries = parse_xsps_table(spsx_data, table_base=table_base)
         if stem == "T1L2M001":
             cat_a = BURROW_CATEGORY_A
             foreign = BURROW_FOREIGN_CUES
-            forced = burrow_forced_kinds()
         else:
             cat_a_set = {e.cue for e in entries if e.hw != VOICE_HW} | excl_by_wad.get(
                 f"{stem}.WAD", set()
@@ -209,7 +211,7 @@ def inject_all_wads(
                 for e in entries
                 if e.hw == VOICE_HW and e.cue not in dialogue_map and e.cue not in cat_a_set
             ]
-            forced = detect_split_kinds_from_energy(raw, entries, list(dialogue_map.keys()))
+        forced = {c: StreamKind.UNSPLIT for c in dialogue_map}
         plan = build_plan(
             entries,
             cat_a_cues=cat_a,
@@ -218,7 +220,12 @@ def inject_all_wads(
             forced_kinds=forced,
         )
         patched, report = inject_wad(
-            raw, plan, cat_a_cues=cat_a, table_base=table_base, dry_run=dry_run
+            raw,
+            plan,
+            cat_a_cues=cat_a,
+            table_base=table_base,
+            stream_offset=sboff,
+            dry_run=dry_run,
         )
         if not dry_run:
             with open(dst_wad, "wb") as f:

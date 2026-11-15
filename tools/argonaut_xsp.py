@@ -124,16 +124,46 @@ def pad_vag_to_size(vag: bytes, size_bytes: int) -> bytes:
     return vag
 
 
+def parse_xsps_header(spsx_payload: bytes) -> tuple[int, int | None, int]:
+    """Return ``(table_base, cue_count, stream_bank_offset)`` for an XSPS payload.
+
+    Argonaut places a 4-byte-aligned ``[cue_count][stream_bank_offset]`` header
+    immediately before the descriptor array where ``entry[0].audio_offset == 0``.
+    ``stream_bank_offset`` is the size of the resident SPU bank at the start of
+    the audio region; streamed XSPS offsets are relative to
+    ``find_audio_base(wad) + stream_bank_offset``.
+    """
+    known_sr = {0x0800, 0x05CE, 0x1000, 0x0400, 0x0B00, 0x0200, 0x0000}
+    limit = min(len(spsx_payload) - 24, 8192)
+    for off in range(0, limit, 4):
+        cnt, sboff, a0, p2, p3, sz0 = struct.unpack_from("<IIIIII", spsx_payload, off)
+        if not (1 <= cnt <= 2000 and sboff <= 0x200000 and sboff % 0x800 == 0):
+            continue
+        if a0 != 0 or not (32 <= sz0 <= 4_000_000) or p3 != 0:
+            continue
+        hw = (p2 >> 16) & 0xFFFF
+        sr = p2 & 0xFFFF
+        if hw > 6 or sr not in known_sr:
+            continue
+        if cnt == 1:
+            return off + 8, cnt, sboff
+        if off + 40 <= len(spsx_payload):
+            a1, p2_1, _, _ = struct.unpack_from("<IIII", spsx_payload, off + 24)
+            if a1 == sz0 and ((p2_1 >> 16) & 0xFFFF) <= 6 and (p2_1 & 0xFFFF) in known_sr:
+                return off + 8, cnt, sboff
+    return find_xsps_table_base(spsx_payload), None, 0
+
+
 def find_xsps_table_base(spsx_payload: bytes) -> int:
     """Locate the start of the (a_off, p2, p3, a_sz) descriptor array.
 
     The descriptor array is NOT at offset 0. Argonaut places a variable
     header before it. For T1L2M001 the table starts at 0x3F8 and the two
-    u32s immediately before it are (cue_count, split_offset=0xA800);
-    other WADs have different header sizes (see audio/ground_truth_bases.json).
+    u32s immediately before it are (cue_count, stream_bank_offset=0xA800);
+    other WADs have different header sizes.
 
-    Heuristic: pick the earliest 8-aligned offset where a run of at least
-    4 descriptors looks plausible (audio offset/size in range, known
+    Heuristic: pick the earliest 4-aligned offset where a run of at least
+    6 descriptors looks plausible (audio offset/size in range, known
     sample-rate registers).
     """
     # Prefer documented header pattern when present: [count][0xA800] then table.
@@ -146,8 +176,7 @@ def find_xsps_table_base(spsx_payload: bytes) -> int:
 
     known_sr = {0x0800, 0x05CE, 0x1000, 0x0400, 0x0B00, 0x0200, 0x0000}
     limit = min(len(spsx_payload) - 64, 8192)
-    best = -1
-    for base in range(0, limit, 8):
+    for base in range(0, limit, 4):
         if _plausible_run(spsx_payload, base, 6, known_sr=known_sr):
             return base
     raise ValueError("XSPS descriptor table base not found")
@@ -195,14 +224,13 @@ def parse_xsps_table(
     Stops at sentinel 0xFFFFFFFF audio offsets or undersized slots.
     """
     if table_base is None:
-        table_base = find_xsps_table_base(spsx_payload)
-
-    # Header count when the classic layout is present: [count][split] at 0x3F0.
-    header_count = None
-    if table_base == 0x3F8 and len(spsx_payload) >= 0x3F8:
-        maybe = struct.unpack_from("<I", spsx_payload, 0x3F0)[0]
-        if 1 <= maybe <= 2000:
-            header_count = maybe
+        table_base, header_count, _ = parse_xsps_header(spsx_payload)
+    else:
+        header_count = None
+        if table_base >= 8 and len(spsx_payload) >= table_base:
+            maybe, sboff = struct.unpack_from("<II", spsx_payload, table_base - 8)
+            if 1 <= maybe <= 2000 and sboff <= 0x200000 and sboff % 0x800 == 0:
+                header_count = maybe
 
     entries: list[XspsEntry] = []
     for cue in range(max_cues):

@@ -214,10 +214,11 @@ def inject_wad(
     dry_run: bool = False,
     cat_a_cues: Sequence[int] = (),
     table_base: int | None = None,
+    stream_offset: int = 0,
 ) -> tuple[bytes, dict]:
     """Apply plan to a WAD image. Returns (new_wad, report)."""
     wad = bytearray(wad_bytes)
-    audio_base = find_audio_base(wad)
+    audio_base = find_audio_base(wad) + stream_offset
     spsx_off, spsx_payload = find_xsps(wad)
     entries = parse_xsps_table(spsx_payload, table_base=table_base)
     by_cue = {e.cue: e for e in entries}
