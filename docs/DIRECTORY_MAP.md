@@ -10,7 +10,6 @@ oyun C'si) repoya girmez; yerel kalır (`.gitignore`).
 |-------|-----|-----|
 | `hp2recomp/` | **Native port** (PSXRecomp ile MIPS→C). Asıl port projesi. | aşağıda detay |
 | `psxrecomp/` | PSXRecomp framework checkout'ı ( PolyForm NC, ayrı git). | MIT ağacına gömülmez |
-| `linux_port/` | Asset-tabanlı C motoru (SDL2+OpenGL) + format RE araçları. | dump/ burada |
 | `ps1towasm/` | Tarayıcı emülasyon paketleyicisi (pcsx_rearmed WASM, issue #5). | ayrı deliverable |
 | `tools/` | **Dublaj/lokalizasyon hattı** Python araçları (44 script). | inject, build, synthesize |
 | `translations/` | EN→TR diyalog JSON'ları (78 bölüm) + UI metinleri. | dublaj metni |

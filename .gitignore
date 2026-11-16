@@ -82,9 +82,3 @@ build/
 dist/
 *.log
 tmp/
-
-# --- linux_port: telifli döküm ve türetilmiş varlıklar ---
-linux_port/dump/
-linux_port/build_assets/
-linux_port/hp2_linux
-linux_port/analysis/euro1_strings.txt

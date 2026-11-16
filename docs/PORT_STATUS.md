@@ -2,19 +2,13 @@
 
 Son güncelleme: 2026-11-15. Karar ve kanıt issue'su: **#6**
 (feat(port): PSXRecomp tabanlı native Linux portu). Strateji kullanıcı
-onaylı: PSXRecomp omurga, `linux_port/` asset/referans hattı olarak korunur.
+onaylı: PSXRecomp omurga (`hp2recomp/`) asıl port hattıdır.
 
 ## 1. Doğrulanmış baseline (2026-11-15)
 
-- `linux_port/` (C11+SDL2+OpenGL asset motoru): yeniden derlendi,
-  `./hp2_linux --test-all` → `WAD test: ok=78 fail=0 total_tris=604426
-  total_dialogues=7239`. Bu motor orijinal MIPS mantığını ÇALIŞTIRMAZ;
-  oyun mantığı elle yeniden inşa edilmiştir. Tam oynanabilirlik kapısı
-  için recompilation hattı gereklidir.
 - `ps1towasm/`: tarayıcı emülasyon paketleyicisi (issue #5), ayrı deliverable.
 - Disk: orijinal Avrupa `.bin/.cue` repo kökünde (715.207.920 bayt,
-  MD5 `f573f8b4d5fe381c09ad99da8617c038`). `linux_port/dump/` 1,2 GB
-  çıkarılmış varlık (POTTER.DIR/DAT, 81 WAD, EA.STR, 40MEG.RAW).
+  MD5 `f573f8b4d5fe381c09ad99da8617c038`).
 
 ## 2. PSXRecomp uyumluluk kanıtı
 
@@ -30,8 +24,8 @@ onaylı: PSXRecomp omurga, `linux_port/` asset/referans hattı olarak korunur.
   load `0x00100000`, entry `0x00105130`, size `0x11800`.
 - Çıktılar: `analysis/functions/{EURO1,SLES_039}/` (yerel; telifli
   türev disassembly — commit EDİLMEZ).
-- REA notu: REA MCP PS-X EXE açmıyor (linux_port/docs/CONTEXT.md kaydı);
-  fonksiyon haritasını psxrecomp-analyze sağlıyor.
+- REA notu: REA MCP PS-X EXE açmıyor; fonksiyon haritasını
+  psxrecomp-analyze sağlıyor.
 
 ## 3. hp2recomp oyun projesi (kuruldu, derlendi, boot etti)
 
@@ -183,4 +177,4 @@ python3 psxrecomp/tools/debug_client.py --port 4731 cdrom_command_history count=
 3. Overlay native derleme hattı (TCC toolchain stage veya gcc dev path)
    — interpreter doğru ama oyun içi performans için gerekli.
 4. `docs/GAMEPLAY_COVERAGE.md` bölüm bazlı kayıt.
-5. Türkçe dublaj entegrasyonu (psxmod / disc-overlay; linux_port hattı).
+5. Türkçe dublaj entegrasyonu (psxmod / disc-overlay).
