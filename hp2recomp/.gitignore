@@ -8,6 +8,7 @@ generated_euro1/
 aot_static/
 build/
 build-*/
+build_web/
 saves/
 debug/
 *.log

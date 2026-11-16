@@ -25,6 +25,12 @@ set(PSX_RECOMP_UI OFF CACHE BOOL
 # cycles; native-cpu-spans under-charges loads and triggers VSync timeout/Port 1 starvation.
 set(PSX_NATIVE_CPU_SPANS OFF CACHE BOOL
     "HP2 PAL VSync(0) requires faithful load-wait cycles" FORCE)
+if(EMSCRIPTEN)
+    # Web hedefi SDL2 kullanır: Emscripten'in --use-port=sdl2 port'u + web
+    # runtime katmanının (psxrecomp e5f43bbb) ses köprüsü SDL2 kuyruk API'sine
+    # bağlanır. Issue #7.
+    set(PSX_SDL_BACKEND "SDL2" CACHE STRING "SDL backend (SDL3 or SDL2)" FORCE)
+endif()
 include("${PSXRECOMP_ROOT}/runtime/runtime.cmake")
 
 set(PSX_PRELOADED_MODS "${CMAKE_CURRENT_SOURCE_DIR}/mods/preloaded")
@@ -49,6 +55,31 @@ psxrecomp_add_game_runtime(psx-runtime
 
 # Türkçe bayrak menüsü güvenilir plugin'i (mod system, runtime-only).
 target_sources(psx-runtime PRIVATE src/tr_flag_menu.c)
+
+if(EMSCRIPTEN)
+    # Çıktı: tarayıcı kabuğu + js/wasm/data (hp2_web.html). Issue #7.
+    set_target_properties(psx-runtime PROPERTIES
+        OUTPUT_NAME "hp2_web"
+        SUFFIX ".html")
+    # Küçük runtime dosyaları MEMFS'e gömülür (kök /): oyun yolları
+    # game.toml'daki göreli adlarla birebir örtüşür. 715 MB disk .bin'i
+    # GÖMÜLMEZ — web/range_disc.js HTTP Range ile talep üzerine okur.
+    target_link_options(psx-runtime PRIVATE
+        "--shell-file=${CMAKE_CURRENT_SOURCE_DIR}/web/shell.html"
+        "--preload-file=${CMAKE_CURRENT_SOURCE_DIR}/game.toml@/game.toml"
+        "--preload-file=${CMAKE_CURRENT_SOURCE_DIR}/mods/preloaded/packages@/mods/bundled"
+        "--preload-file=${PSXRECOMP_ROOT}/bios/openbios.bin@/bios/openbios.bin"
+        "--preload-file=${CMAKE_CURRENT_SOURCE_DIR}/disc/SLES_039.72@/disc/SLES_039.72"
+        "--preload-file=${CMAKE_CURRENT_SOURCE_DIR}/disc/Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De).cue@/disc/Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De).cue"
+        "-sEXPORTED_RUNTIME_METHODS=FS")
+    # range_disc.js kabukla aynı dizinde servis edilir.
+    add_custom_command(TARGET psx-runtime POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+            "${CMAKE_CURRENT_SOURCE_DIR}/web/range_disc.js"
+            "$<TARGET_FILE_DIR:psx-runtime>/range_disc.js"
+        COMMENT "Staging range_disc.js"
+        VERBATIM)
+endif()
 
 foreach(_PSX_RUNTIME_CONFIG game.toml game_options.toml)
     if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/${_PSX_RUNTIME_CONFIG}")

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Harry Potter II — Web (hp2recomp)</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #0a0e14; overflow: hidden; }
+  #canvas { width: 100vw; height: 100vh; display: block; background: #000; }
+  #status {
+    position: fixed; left: 10px; bottom: 10px; color: #8ab4d8;
+    font: 13px/1.4 system-ui, sans-serif; z-index: 5; pointer-events: none;
+    text-shadow: 0 1px 2px #000;
+  }
+</style>
+</head>
+<body>
+<canvas id="canvas" oncontextmenu="event.preventDefault()" tabindex="-1"></canvas>
+<div id="status">yükleniyor…</div>
+<script>
+  var Module = {
+    canvas: document.getElementById('canvas'),
+    print: function (t) { console.log(t); },
+    printErr: function (t) { console.error(t); },
+    preRun: [function () {
+      // 715 MB disk imajı gömülmez: HTTP Range ile talep üzerine okunur.
+      // Sunucu kökü hp2recomp/ (sayfa /build_web/hp2_web.html).
+      try {
+        Module.FS.mkdirTree('/saves');
+        ps1MountRangeFile(
+          encodeURI('../disc/Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De).bin'),
+          '/disc/Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De).bin',
+          715207920);
+        Module.print('disk: HTTP Range mount hazır');
+      } catch (e) {
+        Module.printErr('disk mount hatası: ' + e);
+      }
+    }],
+    onRuntimeInitialized: function () {
+      document.getElementById('status').textContent = '';
+      Module.canvas.focus();
+    }
+  };
+</script>
+<script src="range_disc.js"></script>
+{{{ SCRIPT }}}
+</body>
+</html>
