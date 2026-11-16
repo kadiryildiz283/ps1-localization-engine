@@ -178,3 +178,38 @@ python3 psxrecomp/tools/debug_client.py --port 4731 cdrom_command_history count=
    — interpreter doğru ama oyun içi performans için gerekli.
 4. `docs/GAMEPLAY_COVERAGE.md` bölüm bazlı kayıt.
 5. Türkçe dublaj entegrasyonu (psxmod / disc-overlay).
+
+## 8. Web portu — WebAssembly / tarayıcı (issue #7, 2026-11-16)
+
+Durum: **tarayıcıda boot → dil-seçim → title → 3B oynanış doğrulandı.**
+
+- **Mimari:** PR #14 (mstan/psxrecomp, kem0x) web katmanı kasım tabanına
+  **elde yeniden kuruldu** (cherry-pick 4 aylık drift nedeniyle uygulanmadı);
+  `Co-authored-by: Kareem Olim`, commit'ler: psxrecomp `e5f43bbb` (web
+  runtime: WebAudio köprüsü, pause/keybind hook'ları, GL/fiber/crash
+  stub'ları, PSX_WEB ring küçültmeleri), `97c58dc0` (build/link
+  düzeltmeleri), `cdea0339` (modal-dialog web fix'i). Pepsiman'a özel
+  kordlar bilinçli olarak dışarıda (ecosystem-watch kuralı).
+- **Renderer:** WebGL2 çevirisi YOK — PS1 rasterizer'ı zaten software;
+  çıkış `SDL_RENDERER_SOFTWARE` canvas blit (PR #14 kararı). GL yolu web'de
+  `gpu_gl_renderer_unavailable.c` stub'u (151+ fonksiyon) ile devre dışı.
+- **Ana döngü:** `-pthread -sPROXY_TO_PTHREAD=1` — emülasyon worker'da,
+  tarayıcı ana iş parçacığı (event loop + WebAudio) serbest. ASYNCIFY yok.
+- **Disc streaming:** 715 MB `.bin` GÖMÜLMEZ; `hp2recomp/web/range_disc.js`
+  MEMFS'e tembel dosya kurar, okumalar HTTP Range + 512 KiB LRU blok
+  önbelleği ile (`ps1towasm` mountRangeDiscFile kalıbı). Sunucu:
+  `python3 -m ps1towasm serve hp2recomp` (COOP/COEP + Range + wasm MIME).
+- **Derleme:** `emcmake cmake -S hp2recomp -B hp2recomp/build_web &&
+  cmake --build hp2recomp/build_web` → `hp2_web.html/.js/.wasm/.data`
+  (wasm ~20 MB). Küçük dosyalar (`game.toml`, `bios/openbios.bin`,
+  `disc/*.cue`, `disc/SLES_039.72`, ~586 KB `.data`) MEMFS'e gömülü.
+- **Kanıt (hp2recomp/web_evidence/):** `1_language_select.png` (native
+  boot_01.png ile aynı ekran), `2_title_menu.png` (Start Game/Options),
+  `3_gameplay_forbidden_forest.png` + `4_gameplay_alive.png` (3B oynanış,
+  animasyonlu). Konsol: `disc region PAL (serial SLES-03972)` → disk
+  Range'den okundu; `bios_backend=LLE ... image=OPENBIOS`; `executing from
+  PC=0xBFC00000`; software renderer fallback loglandı.
+- **Bilinen boşluklar:** ses çıkışı kulakla doğrulanmadı (WebAudio köprüsü
+  aktif, jest ile resume; headless'te doğrulanamaz). Demo/ileri menü
+  zinciri elle keşfedilecek (Start Game → oynanışa geçiş gözlemlendi).
+  Memcard persistence (IDBFS) ve sayfa-kapanış flush Faz 4'te.
