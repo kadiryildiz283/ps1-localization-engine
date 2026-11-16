@@ -1,14 +1,17 @@
 # PS1 Localization Engine
 
-**Harry Potter and the Chamber of Secrets (PlayStation 1, Argonaut Games, 2002) için Türkçe yerelleştirme motoru.**
+**Harry Potter and the Chamber of Secrets (PlayStation 1, Argonaut Games, 2002) için Türkçe yerelleştirme motoru, native port ve web paketleme araç seti.**
 
-Bu depo; PS1 disk imajından metin çıkarma, çeviri yönetimi, sinir ağı tabanlı dublaj
-sentezi, Sony ADPCM (VAG) enjeksiyonu ve CD-ROM XA (Mode 2 Form 1) sektör yeniden
-inşasını uçtan uca gerçekleştiren araçları içerir.
+Bu depo dört ana iş kolunu bir arada barındırır:
+
+1. **Dublaj ve Yerelleştirme Hattı (`tools/`, `engine.py`):** PS1 disk imajından metin çıkarma, çeviri yönetimi, sinir ağı tabanlı dublaj sentezi, Sony ADPCM (VAG) enjeksiyonu ve CD-ROM XA (Mode 2 Form 1) sektör yeniden inşası.
+2. **PSXRecomp Native Port (`hp2recomp/`):** `SLES_039.72` + `EURO1.GAM` statik/dinamik MIPS→C derlemesi, runtime ve dil seçim ekranı için Türkçe bayrak menüsü modu (`hp2.tr-flag-menu`).
+3. **Native Linux C Motoru (`linux_port/`):** Emülatör olmadan çıkarılmış varlıklar üzerinde çalışan C11 + SDL2 + OpenGL seviye/diyalog/ses motoru ve format RE araçları.
+4. **Tarayıcı WASM Paketleyicisi (`ps1towasm/`):** Final `.bin`/`.cue` imajlarını `HTTP 206 Range` veya `chunked` akış modlarıyla tarayıcıda (`pcsx_rearmed` WASM) çalıştırılabilir statik web paketine dönüştüren araç zinciri.
 
 > **Önemli:** Bu depo yalnızca **araç kodu, dokümantasyon, çeviriler ve metadata**
-> içerir. Oyunun disk imajları, WAD dosyaları, ham sesleri ve çalıştırılabilirleri
-> telifli varlıklardır ve asla commit edilmez.
+> içerir. Oyunun disk imajları, WAD dosyaları, ham sesleri, üretilmiş oyun C'si ve
+> çalıştırılabilirleri telifli varlıklardır ve asla commit edilmez.
 
 ---
 
@@ -22,11 +25,16 @@ inşasını uçtan uca gerçekleştiren araçları içerir.
 | XTTS-v2 karakter ses profilleri (11 karakter) | ✅ |
 | Sony ADPCM kodlayıcı (Python + C) | ✅ |
 | CD-ROM XA sektör yamalayıcı (EDC/ECC) | ✅ |
+| `ps1towasm` tarayıcı WASM paketleyici (`range` / `chunked`) | ✅ |
+| `linux_port` asset-tabanlı C11 + SDL2 + OpenGL motoru | ✅ 78 WAD / 7.239 diyalog doğrulandı |
+| `hp2recomp` PSXRecomp native port + TR bayrak menüsü modu | 🚧 Boot / menü / demo doğrulandı ([PORT_STATUS](docs/PORT_STATUS.md)) |
 | Multi-cue / 0xA800 split-stream enjeksiyonu | ⚠️ Yalnızca T1L2M001 doğrulandı |
 | Karakter eşleştirme (speaker-id) | ⚠️ Havuz tabanlı, kritik repliklerde hatalı |
 | Tam oyun dublajı | 🚧 Devam ediyor |
 
-Ayrıntılı kök neden analizi için: [BURROW_GARDEN_REMEDIATION.md](BURROW_GARDEN_REMEDIATION.md)
+Detaylı dizin haritası ve iş kolları için: [docs/DIRECTORY_MAP.md](docs/DIRECTORY_MAP.md),
+[docs/PORT_STATUS.md](docs/PORT_STATUS.md), [docs/GAMEPLAY_COVERAGE.md](docs/GAMEPLAY_COVERAGE.md).
+Ses enjeksiyonu kök neden analizi için: [BURROW_GARDEN_REMEDIATION.md](BURROW_GARDEN_REMEDIATION.md)
 ve [docs/ARGONAUT_STREAM_SPLIT_ARCHITECTURE.md](docs/ARGONAUT_STREAM_SPLIT_ARCHITECTURE.md).
 
 ---
@@ -101,6 +109,16 @@ python engine.py build-iso                   # Disk imajını yeniden inşa et
 ```
 
 Tüm komutlar için: `python engine.py --help`
+
+---
+
+## Diğer İş Kolları
+
+| İş Kolu | Açıklama | Doküman |
+|---|---|---|
+| `hp2recomp/` | PSXRecomp MIPS→C native port (`psxrecomp/` ayrı checkout gerektirir) + `hp2.tr-flag-menu` modu | [docs/PORT_STATUS.md](docs/PORT_STATUS.md), [docs/DIRECTORY_MAP.md](docs/DIRECTORY_MAP.md) |
+| `linux_port/` | Asset-tabanlı C11 + SDL2 + OpenGL native Linux motoru ve RE araçları | [linux_port/README.md](linux_port/README.md) |
+| `ps1towasm/` | `.bin`/`.cue` imajlarını `pcsx_rearmed` WASM + HTTP Range web paketine dönüştürür | [ps1towasm/README.md](ps1towasm/README.md) |
 
 ---
 
