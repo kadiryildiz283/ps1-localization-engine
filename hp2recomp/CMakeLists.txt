@@ -67,6 +67,7 @@ if(EMSCRIPTEN)
     target_link_options(psx-runtime PRIVATE
         "--shell-file=${CMAKE_CURRENT_SOURCE_DIR}/web/shell.html"
         "--preload-file=${CMAKE_CURRENT_SOURCE_DIR}/game.toml@/game.toml"
+        "--preload-file=${CMAKE_CURRENT_SOURCE_DIR}/mods/preloaded/packages@/mods/bundled"
         "--preload-file=${PSXRECOMP_ROOT}/bios/openbios.bin@/bios/openbios.bin"
         "--preload-file=${CMAKE_CURRENT_SOURCE_DIR}/disc/SLES_039.72@/disc/SLES_039.72"
         "--preload-file=${CMAKE_CURRENT_SOURCE_DIR}/disc/Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De).cue@/disc/Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De).cue"
