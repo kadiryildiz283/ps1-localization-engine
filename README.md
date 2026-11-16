@@ -2,12 +2,11 @@
 
 **Harry Potter and the Chamber of Secrets (PlayStation 1, Argonaut Games, 2002) için Türkçe yerelleştirme motoru, native port ve web paketleme araç seti.**
 
-Bu depo dört ana iş kolunu bir arada barındırır:
+Bu depo üç ana iş kolunu bir arada barındırır:
 
 1. **Dublaj ve Yerelleştirme Hattı (`tools/`, `engine.py`):** PS1 disk imajından metin çıkarma, çeviri yönetimi, sinir ağı tabanlı dublaj sentezi, Sony ADPCM (VAG) enjeksiyonu ve CD-ROM XA (Mode 2 Form 1) sektör yeniden inşası.
-2. **PSXRecomp Native Port (`hp2recomp/`):** `SLES_039.72` + `EURO1.GAM` statik/dinamik MIPS→C derlemesi, runtime ve dil seçim ekranı için Türkçe bayrak menüsü modu (`hp2.tr-flag-menu`).
-3. **Native Linux C Motoru (`linux_port/`):** Emülatör olmadan çıkarılmış varlıklar üzerinde çalışan C11 + SDL2 + OpenGL seviye/diyalog/ses motoru ve format RE araçları.
-4. **Tarayıcı WASM Paketleyicisi (`ps1towasm/`):** Final `.bin`/`.cue` imajlarını `HTTP 206 Range` veya `chunked` akış modlarıyla tarayıcıda (`pcsx_rearmed` WASM) çalıştırılabilir statik web paketine dönüştüren araç zinciri.
+2. **PSXRecomp Native Port (`hp2recomp/`):** `SLES_039.72` + `EURO1.GAM` statik/dinamik MIPS→C derlemesi, runtime ve dil seçim ekranı için Türkçe bayrak menüsü modu (`hp2.tr-flag-menu`). Asıl port hattı budur.
+3. **Tarayıcı WASM Paketleyicisi (`ps1towasm/`):** Final `.bin`/`.cue` imajlarını `HTTP 206 Range` veya `chunked` akış modlarıyla tarayıcıda (`pcsx_rearmed` WASM) çalıştırılabilir statik web paketine dönüştüren araç zinciri.
 
 > **Önemli:** Bu depo yalnızca **araç kodu, dokümantasyon, çeviriler ve metadata**
 > içerir. Oyunun disk imajları, WAD dosyaları, ham sesleri, üretilmiş oyun C'si ve
@@ -26,7 +25,6 @@ Bu depo dört ana iş kolunu bir arada barındırır:
 | Sony ADPCM kodlayıcı (Python + C) | ✅ |
 | CD-ROM XA sektör yamalayıcı (EDC/ECC) | ✅ |
 | `ps1towasm` tarayıcı WASM paketleyici (`range` / `chunked`) | ✅ |
-| `linux_port` asset-tabanlı C11 + SDL2 + OpenGL motoru | ✅ 78 WAD / 7.239 diyalog doğrulandı |
 | `hp2recomp` PSXRecomp native port + TR bayrak menüsü modu | 🚧 Boot / menü / demo doğrulandı ([PORT_STATUS](docs/PORT_STATUS.md)) |
 | Multi-cue / 0xA800 split-stream enjeksiyonu | ⚠️ Yalnızca T1L2M001 doğrulandı |
 | Karakter eşleştirme (speaker-id) | ⚠️ Havuz tabanlı, kritik repliklerde hatalı |
@@ -116,8 +114,7 @@ Tüm komutlar için: `python engine.py --help`
 
 | İş Kolu | Açıklama | Doküman |
 |---|---|---|
-| `hp2recomp/` | PSXRecomp MIPS→C native port (`psxrecomp/` ayrı checkout gerektirir) + `hp2.tr-flag-menu` modu | [docs/PORT_STATUS.md](docs/PORT_STATUS.md), [docs/DIRECTORY_MAP.md](docs/DIRECTORY_MAP.md) |
-| `linux_port/` | Asset-tabanlı C11 + SDL2 + OpenGL native Linux motoru ve RE araçları | [linux_port/README.md](linux_port/README.md) |
+| `hp2recomp/` | PSXRecomp MIPS→C native port (`psxrecomp/` ayrı checkout gerektirir) + `hp2.tr-flag-menu` modu — asıl port hattı | [docs/PORT_STATUS.md](docs/PORT_STATUS.md), [docs/DIRECTORY_MAP.md](docs/DIRECTORY_MAP.md) |
 | `ps1towasm/` | `.bin`/`.cue` imajlarını `pcsx_rearmed` WASM + HTTP Range web paketine dönüştürür | [ps1towasm/README.md](ps1towasm/README.md) |
 
 ---
