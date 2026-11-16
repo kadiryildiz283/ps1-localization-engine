@@ -209,7 +209,17 @@ Durum: **tarayıcıda boot → dil-seçim → title → 3B oynanış doğruland�
   animasyonlu). Konsol: `disc region PAL (serial SLES-03972)` → disk
   Range'den okundu; `bios_backend=LLE ... image=OPENBIOS`; `executing from
   PC=0xBFC00000`; software renderer fallback loglandı.
-- **Bilinen boşluklar:** ses çıkışı kulakla doğrulanmadı (WebAudio köprüsü
-  aktif, jest ile resume; headless'te doğrulanamaz). Demo/ileri menü
-  zinciri elle keşfedilecek (Start Game → oynanışa geçiş gözlemlendi).
-  Memcard persistence (IDBFS) ve sayfa-kapanış flush Faz 4'te.
+- **Giderilen iki web regresyonu (2026-11-16, tarayıcı testiyle):**
+  (1) TR bayrak modu yüklenmiyordu — mod kataloğu MEMFS'e gömülü değildi
+  (`mods/preloaded/packages` → `/mods/bundled` preload) + mod texture
+  bank'leri software rasterizer'da desteklenmiyordu (psxrecomp `50c2664a`:
+  `sw_select_texture_bank` + `texel_fetch` banka dalı). (2) Hızlı tuş
+  basışları kaçıyordu — vblank örneklemesi 20 ms'de bir okuduğu için
+  kısa basışlar görünmezdi (psxrecomp `c258f192`: keydown latch).
+  Kanıt: `web_evidence/5_tr_flags_mod.png` (TR ALTYAZI + TR DUBLAJ+ALTYAZI),
+  `6_input_selection_moved.png` (tek ok basışıyla seçim).
+- **Kalan boşluklar:** ses çıkışı kulakla doğrulanmadı (WebAudio köprüsü
+  aktif, jest ile resume; headless'te doğrulanamaz). Memcard persistence
+  (IDBFS) ve sayfa-kapanış flush sonraki adım. Varsayılan tuş haritası:
+  oklar=d-pad, X/S/Z/A=Cross/Circle/Square/Triangle (WASD değil) —
+  `keybinds.ini` düzenlenebilir.
