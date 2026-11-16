@@ -21,6 +21,10 @@ set(PSX_RECOMP_UI OFF CACHE BOOL
 #     set(PSX_NETPLAY ON CACHE BOOL "Link recomp-net delay-sync" FORCE)
 # endif()
 # set(PSX_SETUP_WIZARD ON CACHE BOOL "First-run setup wizard" FORCE)
+# HP2 PAL VSync(0) spins 1<<15 iterations and relies on Beetle R3000A load-wait
+# cycles; native-cpu-spans under-charges loads and triggers VSync timeout/Port 1 starvation.
+set(PSX_NATIVE_CPU_SPANS OFF CACHE BOOL
+    "HP2 PAL VSync(0) requires faithful load-wait cycles" FORCE)
 include("${PSXRECOMP_ROOT}/runtime/runtime.cmake")
 
 set(PSX_PRELOADED_MODS "${CMAKE_CURRENT_SOURCE_DIR}/mods/preloaded")
@@ -42,6 +46,9 @@ psxrecomp_add_game_runtime(psx-runtime
     GEN_MARKER "generated/SLES_039.72_dispatch.c"
     GEN_FULL_GLOB "generated/SLES_039.72_full_*.c"
 )
+
+# Türkçe bayrak menüsü güvenilir plugin'i (mod system, runtime-only).
+target_sources(psx-runtime PRIVATE src/tr_flag_menu.c)
 
 foreach(_PSX_RUNTIME_CONFIG game.toml game_options.toml)
     if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/${_PSX_RUNTIME_CONFIG}")

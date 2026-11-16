@@ -38,6 +38,7 @@ strict = true
 window_title = "Harry Potter and the Chamber of Secrets Recompiled"
 memcard_dir = "saves"
 overlay_cache = true
+cd_expose_pending_fifo = true
 
 [video]
 renderer = "opengl"
@@ -45,6 +46,9 @@ aspect_ratio = "4:3"
 
 [controller]
 default_mode = "digital"
+# Dev build'de P1 varsayılanı "auto" (fiziksel gamepad); gamepad yoksa klavye
+# çalışmaz. Kalıcı olarak klavyeye sabitle (oklar=d-pad, X=cross).
+p1_device = "keyboard"
 
 # Online mount gate: digests + track count + optional TOC fingerprint
 # (see docs/NETPLAY.md).

@@ -1,0 +1,23 @@
+format_version = 10
+id = "hp2.tr-flag-menu"
+version = "1.0.0"
+name = "Turkish Flag Menu"
+author = "PS1-Localization-Engine"
+description = "Adds two Turkish options (TR subtitles / TR dubbing+subtitles) to the boot language-flag screen. Original EN/FR/DE flags unchanged. Runtime-only; no disc patch."
+license = "MIT"
+resolver = "declarative"
+save_compatibility = "shared"
+
+[[target]]
+game_id = "SLES-03972"
+
+[[feature]]
+id = "tr-flag-menu"
+name = "Turkish Flag Menu"
+description = "Show TR ALTYAZI and TR DUBLAJ+ALTYAZI flags on the language screen."
+group = "Localization"
+default_enabled = true
+
+[[plugin]]
+feature = "tr-flag-menu"
+id = "hp2.tr-flag-menu"
